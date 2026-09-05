@@ -1,12 +1,13 @@
 // components/ui/FourWayVerdictSummary.tsx
-// AGENTS.md INV-2: 판정은 4분이며, "판정 불가"를 뭉뚱그리지 않는다.
-// 공개 집계 문장은 네 값을 모두 낸다: 개방 N · 차단 N · 파일 없음 N · 판정 불가 N
+// AGENTS.md INV-2: 판정은 5분이며, "판정 불가"를 뭉뚱그리지 않는다.
+// 공개 집계 문장은 다섯 값을 모두 낸다: 개방 N · 전체 차단 N · 선별 차단 N · 파일 없음 N · 판정 불가 N
 
 import React from 'react';
 
 interface FourWayVerdictSummaryProps {
   open: number;
-  blocked: number; // blocked_all + blocked_selective
+  blockedAll: number;
+  blockedSelective: number;
   noFile: number;
   undetermined: number;
   total?: number;
@@ -15,7 +16,8 @@ interface FourWayVerdictSummaryProps {
 
 export const FourWayVerdictSummary: React.FC<FourWayVerdictSummaryProps> = ({
   open,
-  blocked,
+  blockedAll,
+  blockedSelective,
   noFile,
   undetermined,
   total,
@@ -32,7 +34,7 @@ export const FourWayVerdictSummary: React.FC<FourWayVerdictSummaryProps> = ({
         )}
       </div>
 
-      {/* 불변식 준수 필수 문구: 개방 N · 차단 N · 파일 없음 N · 판정 불가 N */}
+      {/* 불변식 준수 필수 문구: 개방 N · 전체 차단 N · 선별 차단 N · 파일 없음 N · 판정 불가 N */}
       <div className="text-base font-medium text-gray-800 flex flex-wrap items-center gap-1.5 sm:gap-2">
         <span className="inline-flex items-center gap-1 text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md text-sm">
           <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
@@ -40,8 +42,13 @@ export const FourWayVerdictSummary: React.FC<FourWayVerdictSummaryProps> = ({
         </span>
         <span className="text-gray-400">·</span>
         <span className="inline-flex items-center gap-1 text-rose-700 bg-rose-50 px-2 py-0.5 rounded-md text-sm">
-          <span className="w-2 h-2 rounded-full bg-rose-500"></span>
-          차단 <strong className="font-bold">{blocked}</strong>
+          <span className="w-2 h-2 rounded-full bg-rose-600"></span>
+          전체 차단 <strong className="font-bold">{blockedAll}</strong>
+        </span>
+        <span className="text-gray-400">·</span>
+        <span className="inline-flex items-center gap-1 text-orange-700 bg-orange-50 px-2 py-0.5 rounded-md text-sm">
+          <span className="w-2 h-2 rounded-full bg-orange-500"></span>
+          선별 차단 <strong className="font-bold">{blockedSelective}</strong>
         </span>
         <span className="text-gray-400">·</span>
         <span className="inline-flex items-center gap-1 text-slate-700 bg-slate-100 px-2 py-0.5 rounded-md text-sm">
@@ -64,9 +71,14 @@ export const FourWayVerdictSummary: React.FC<FourWayVerdictSummaryProps> = ({
             title={`개방: ${open}`}
           />
           <div
-            style={{ width: `${(blocked / total) * 100}%` }}
-            className="bg-rose-500 h-full transition-all"
-            title={`차단: ${blocked}`}
+            style={{ width: `${(blockedAll / total) * 100}%` }}
+            className="bg-rose-600 h-full transition-all"
+            title={`전체 차단: ${blockedAll}`}
+          />
+          <div
+            style={{ width: `${(blockedSelective / total) * 100}%` }}
+            className="bg-orange-500 h-full transition-all"
+            title={`선별 차단: ${blockedSelective}`}
           />
           <div
             style={{ width: `${(noFile / total) * 100}%` }}

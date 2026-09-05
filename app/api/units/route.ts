@@ -2,16 +2,30 @@
 // SDD API 라우트: 단위 목록 조회 (INV-1 모집단 필터, INV-3 정렬 허용 목록)
 import { NextRequest, NextResponse } from 'next/server';
 import { getUnitsByPopulation } from '@/lib/db/units';
-import { validateSortField } from '@/lib/validators/sort-allowlist';
+import { parseSort } from '@/lib/validators/sort-allowlist';
 import { Population } from '@/lib/types/layers';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
-  const popParam = searchParams.get('population') as Population;
-  const population: Population = popParam === 'special_zone' ? 'special_zone' : 'local_gov';
+  const popParam = searchParams.get('population');
+  
+  if (!popParam) {
+    return NextResponse.json({ error: 'population 파라미터는 필수입니다.' }, { status: 400 });
+  }
+  if (popParam !== 'local_gov' && popParam !== 'special_zone') {
+    return NextResponse.json({ error: '유효하지 않은 population 값입니다.' }, { status: 400 });
+  }
 
+  const population = popParam as Population;
+
+  const orderParam = searchParams.get('order');
   const sortParam = searchParams.get('sort');
-  const sortField = validateSortField(sortParam); // INV-3 강제
+  let sortField;
+  try {
+    sortField = parseSort(orderParam || sortParam);
+  } catch (err: any) {
+    return NextResponse.json({ error: err.message }, { status: 400 });
+  }
 
   const units = await getUnitsByPopulation(population);
 

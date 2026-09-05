@@ -18,6 +18,8 @@ const submissionSchema = z.object({
   namedPartial: z.number().int().min(0),
   namedInaccurate: z.number().int().min(0),
   namedAbsent: z.number().int().min(0),
+  unnamedAppearances: z.number().int().min(0).optional(),
+  unnamedSlots: z.number().int().min(0).optional(),
   freeformQuestion: z.string().optional(),
   note: z.string().optional(),
 });
@@ -85,6 +87,8 @@ export async function POST(req: NextRequest) {
           named_partial: data.namedPartial,
           named_inaccurate: data.namedInaccurate,
           named_absent: data.namedAbsent,
+          unnamed_appearances: data.unnamedAppearances ?? null,
+          unnamed_slots: data.unnamedSlots ?? null,
           submitter_type: data.submitterType,
           anonymous: data.anonymous,
           submitter_email: data.submitterEmail || null,
@@ -93,10 +97,14 @@ export async function POST(req: NextRequest) {
         })
         .select()
         .single();
+        
+      if (obsError) {
+        throw new Error(obsError.message);
+      }
 
-      if (!obsError && obsData && data.freeformQuestion) {
+      if (obsData && data.freeformQuestion) {
         // 2. 자유 질문 등록 (questions 테이블, pii_checked = false)
-        await supabase.from('questions').insert({
+        const { error: qError } = await supabase.from('questions').insert({
           unit_id: data.unitId,
           observation_id: obsData.id,
           body: data.freeformQuestion,
@@ -104,9 +112,33 @@ export async function POST(req: NextRequest) {
           pii_checked: false, // 관리자 검수 큐에서 검토
           approved: false,
         });
+        
+        if (qError) {
+          throw new Error(qError.message);
+        }
       }
-    } catch {
-      // Supabase 테이블 미배포 상태인 경우에도 프론트엔드 응답 정상 처리
+    } catch (dbError) {
+      return NextResponse.json(
+        { error: '데이터 저장 중 오류가 발생했습니다.' },
+        { status: 500 }
+      );
+    }
+    
+    let floorRisk = 'low';
+    const confabulationKeywords = ['환각', '할루시네이션', '지어낸', '없는', '거짓', 'confabulation'];
+    const suggestsConfabulation = confabulationKeywords.some(kw => 
+      (data.note && data.note.includes(kw)) || 
+      (data.freeformQuestion && data.freeformQuestion.includes(kw))
+    );
+
+    if (data.namedAbsent > 0 && suggestsConfabulation) {
+      floorRisk = 'critical';
+    } else if (data.namedInaccurate > 0) {
+      floorRisk = 'high';
+    } else if (data.namedAbsent > 0) {
+      floorRisk = 'moderate';
+    } else if (data.namedPartial > 0) {
+      floorRisk = 'low';
     }
 
     return NextResponse.json({
@@ -118,6 +150,7 @@ export async function POST(req: NextRequest) {
         webSearch: data.webSearch,
         totalNamed,
         accurateRate: Math.round((data.namedAccurate / totalNamed) * 100),
+        floorRisk,
       },
     });
   } catch {

@@ -1,5 +1,5 @@
 // lib/db/units.ts
-import { createAdminClient } from '@/lib/supabase/server';
+import { createClient } from '@/lib/supabase/server';
 import { UnitWithVerdict, Population, RobotsVerdict } from '@/lib/types/layers';
 
 // Fallback 목 데이터 (초기 DB 세팅 전 또는 오프라인 환경 대응)
@@ -242,7 +242,7 @@ export async function getUnitsByPopulation(
   population: Population
 ): Promise<UnitWithVerdict[]> {
   try {
-    const supabase = createAdminClient();
+    const supabase = createClient();
     const { data, error } = await supabase
       .from('v_unit_latest_verdict')
       .select('*')
@@ -261,7 +261,7 @@ export async function getUnitsByPopulation(
 
 export async function getUnitById(id: string): Promise<UnitWithVerdict | null> {
   try {
-    const supabase = createAdminClient();
+    const supabase = createClient();
     const { data, error } = await supabase
       .from('v_unit_latest_verdict')
       .select('*')
@@ -281,7 +281,7 @@ export async function getUnitById(id: string): Promise<UnitWithVerdict | null> {
 export async function getUnitBySlug(slug: string): Promise<UnitWithVerdict | null> {
   const decoded = decodeURIComponent(slug).trim();
   try {
-    const supabase = createAdminClient();
+    const supabase = createClient();
     const { data, error } = await supabase
       .from('v_unit_latest_verdict')
       .select('*')

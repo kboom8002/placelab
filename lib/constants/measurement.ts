@@ -19,6 +19,9 @@ export const FORBIDDEN_WORDS = [
   '국내 유일',
   '독보적',
   '특허받은 방법론',
+  '전국 평균',
+  '차단당했다',
+  '전국 249곳',
 ] as const;
 
 export const B_FORM_DISCLAIMER =
@@ -26,3 +29,23 @@ export const B_FORM_DISCLAIMER =
 
 export const MEASUREMENT_LIMITATION_NOTE =
   '무엇이 막고 있는지는 이 측정으로 알 수 없습니다.' as const;
+
+// K03 M-2 측정 상수 (source: docs/knowledge/K03-measurement-spec.md)
+export const NAMED_QUESTION_COUNT = 12;
+export const UNNAMED_QUESTION_COUNT = 8;
+export const UNNAMED_SLOTS_PER_QUESTION = 5;
+export const TOTAL_UNNAMED_SLOTS = 40;
+export const MIN_REPEATS_LAYER2_UNNAMED = 3;
+export const MIN_REPEATS_LAYER3 = 5;
+
+// K03 M-1.4 JSON-LD 권장 타입
+export const JSONLD_RECOMMENDED_TYPES = [
+  'GovernmentOrganization',
+  'GovernmentService',
+  'Place',
+  'Event',
+  'FAQPage',
+  'NewsArticle',
+  'OpeningHoursSpecification',
+  'ContactPoint',
+] as const;

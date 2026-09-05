@@ -21,6 +21,10 @@ export default function SubmitPage() {
   const [inaccurate, setInaccurate] = useState(2);
   const [absent, setAbsent] = useState(1);
 
+  // 무지명 8문항 결과
+  const [unnamedAppearances, setUnnamedAppearances] = useState(0);
+  const [unnamedSlots, setUnnamedSlots] = useState(40);
+
   // 자유 질문
   const [freeformQuestion, setFreeformQuestion] = useState('');
   const [note, setNote] = useState('');
@@ -60,6 +64,8 @@ export default function SubmitPage() {
           namedPartial: partial,
           namedInaccurate: inaccurate,
           namedAbsent: absent,
+          unnamedAppearances,
+          unnamedSlots,
           freeformQuestion,
           note,
         }),
@@ -272,6 +278,47 @@ export default function SubmitPage() {
                 value={absent}
                 onChange={(e) => setAbsent(Number(e.target.value))}
                 className="w-full text-center font-bold text-lg text-slate-900 bg-white border border-slate-300 rounded-lg py-1"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* 무지명 문항 결과 */}
+        <div className="pt-4 border-t border-gray-100 space-y-4">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-bold text-gray-700 uppercase tracking-wider">
+              무지명 8문항 결과
+            </span>
+          </div>
+          <p className="text-xs text-gray-600">
+            무지명 8문항에서 AI가 추천한 5개 지역 중 해당 지자체가 등장한 횟수를 입력하세요.
+          </p>
+
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <label className="block text-xs font-medium text-gray-700 mb-1">
+                등장 횟수 (unnamed_appearances)
+              </label>
+              <input
+                type="number"
+                min="0"
+                max={unnamedSlots}
+                value={unnamedAppearances}
+                onChange={(e) => setUnnamedAppearances(Number(e.target.value))}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
+              />
+            </div>
+            <div>
+              <label className="block text-xs font-medium text-gray-700 mb-1">
+                총 추천 슬롯 수 (unnamed_slots)
+              </label>
+              <input
+                type="number"
+                min="0"
+                max="40"
+                value={unnamedSlots}
+                onChange={(e) => setUnnamedSlots(Number(e.target.value))}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm"
               />
             </div>
           </div>

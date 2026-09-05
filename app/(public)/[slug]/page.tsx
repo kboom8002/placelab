@@ -5,6 +5,8 @@ import { notFound } from 'next/navigation';
 import { getUnitBySlug } from '@/lib/db/units';
 import UnitDetailPage from '../units/[unitId]/page';
 
+export const revalidate = 3600;
+
 interface SlugPageProps {
   params: {
     slug: string;

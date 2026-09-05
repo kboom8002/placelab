@@ -1,9 +1,11 @@
 // supabase/functions/verdict-promote/index.ts
 // SDD 4, AGENTS.md INV-8: 판정 승격 (최근 2주 연속 동일 확인 시 승격)
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2.49.1';
+import { requireAuth } from '../_shared/auth.ts';
 
-Deno.serve(async () => {
+Deno.serve(async (req) => {
   try {
+    requireAuth(req);
     const supabaseUrl = Deno.env.get('SUPABASE_URL')!;
     const supabaseKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
     const supabase = createClient(supabaseUrl, supabaseKey);
@@ -51,13 +53,19 @@ Deno.serve(async () => {
           .single();
 
         let consecutiveWeeks = 2;
-        let hasChanged = false;
+        let published = false;
+        let changePending = false;
+        let noticeUntil: string | null = null;
+        const now = new Date();
+        const noticeDate = new Date(now.setDate(now.getDate() + 14)).toISOString();
 
         if (existingVerdict) {
           if (existingVerdict.robots_verdict === latest.robots_verdict) {
             consecutiveWeeks = existingVerdict.consecutive_weeks + 1;
+            published = existingVerdict.published;
+            noticeUntil = existingVerdict.notice_until || null; // Preserve existing
+            changePending = false;
           } else {
-            hasChanged = true;
             // 판정 변경 이력 기록
             await supabase.from('verdict_changelog').insert({
               domain_id: domain.id,
@@ -67,7 +75,15 @@ Deno.serve(async () => {
               to_reason: latest.undetermined_reason,
               method_version: latest.method_version,
             });
+            published = false;
+            changePending = true;
+            noticeUntil = noticeDate; // FR-24 14-day notice period
           }
+        } else {
+          // New verdict
+          published = false;
+          changePending = false;
+          noticeUntil = noticeDate; // FR-24 14-day notice period
         }
 
         // verdicts UPSERT
@@ -79,8 +95,9 @@ Deno.serve(async () => {
           confirmed_from: prev.scanned_at,
           confirmed_at: latest.scanned_at,
           consecutive_weeks: consecutiveWeeks,
-          change_pending: false,
-          published: true, // 사전 통지 완료 후 공개
+          change_pending: changePending,
+          published: published,
+          notice_until: noticeUntil, // 사전 통지
         });
 
         promotedCount++;
@@ -104,6 +121,7 @@ Deno.serve(async () => {
       { headers: { 'Content-Type': 'application/json' } }
     );
   } catch (err: any) {
+    if (err instanceof Response) return err;
     return new Response(JSON.stringify({ error: err.message }), {
       headers: { 'Content-Type': 'application/json' },
       status: 500,

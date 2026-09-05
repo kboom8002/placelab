@@ -17,7 +17,7 @@ export async function testInv1TwoPopulations() {
     throw new Error('local_gov 집계에 special_zone 데이터가 오염되었습니다');
   }
 
-  if (specialZoneStats.total !== 1 || specialZoneStats.blocked !== 1) {
+  if (specialZoneStats.total !== 1 || specialZoneStats.blockedAll !== 1) {
     throw new Error('special_zone 집계에 local_gov 데이터가 오염되었습니다');
   }
 

@@ -1,21 +1,24 @@
 // tests/invariants/inv-3-no-ranking.test.ts
 import fs from 'fs';
 import path from 'path';
-import { validateSortField, UNIT_SORT_ALLOWLIST } from '../../lib/validators/sort-allowlist';
+import { parseSort, UNIT_SORT_ALLOWLIST } from '../../lib/validators/sort-allowlist';
 import { FORBIDDEN_WORDS } from '../../lib/constants/measurement';
 
 export async function testInv3NoRanking() {
-  // 1. 점수/측정값 계열 정렬 요청 시 허용 목록에 의해 거부되어 기본값(sgg_code)으로 반환되는지
+  // 1. 점수/측정값 계열 정렬 요청 시 에러를 던지는지 (SDD §9.1: 400 반환)
   const forbiddenAttempts = ['score', 'accuracy', 'rank', 'floor_risk', 'best', 'worst'];
   for (const field of forbiddenAttempts) {
-    const result = validateSortField(field);
-    if (result !== 'sgg_code') {
+    try {
+      parseSort(field);
       throw new Error(`허용되지 않은 정렬 파라미터 '${field}'가 통과되었습니다 (INV-3 위반)`);
+    } catch (e: any) {
+      if (e.message.includes('통과되었습니다')) throw e;
+      // Expected: parseSort should throw on invalid fields
     }
   }
 
   // 2. 허용 필드는 정상 승인되는지
-  if (validateSortField('name') !== 'name') {
+  if (parseSort('name') !== 'name') {
     throw new Error('허용 필드 name이 거부되었습니다');
   }
 

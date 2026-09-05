@@ -2,10 +2,13 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { getUnitById } from '@/lib/db/units';
+import { createClient } from '@/lib/supabase/server';
 import { VerdictBadge } from '@/components/ui/VerdictBadge';
 import { B_FORM_DISCLAIMER, MEASUREMENT_LIMITATION_NOTE, CURRENT_METHOD_VERSION } from '@/lib/constants/measurement';
 import Link from 'next/link';
 import { ArrowLeft, ExternalLink, AlertTriangle, ShieldCheck, Share2, HelpCircle } from 'lucide-react';
+
+export const revalidate = 3600;
 
 interface UnitDetailPageProps {
   params: {
@@ -18,6 +21,32 @@ export default async function UnitDetailPage({ params }: UnitDetailPageProps) {
 
   if (!unit) {
     notFound();
+  }
+
+  const supabase = createClient();
+
+  let scans: any[] = [];
+  if (unit.domain_id) {
+    const { data: scansData } = await supabase
+      .from('tech_scans')
+      .select('scanned_at, robots_verdict, undetermined_reason, is_latest')
+      .eq('domain_id', unit.domain_id)
+      .order('scanned_at', { ascending: false })
+      .limit(12);
+    if (scansData) {
+      scans = scansData;
+    }
+  }
+
+  let statements: any[] = [];
+  const { data: statementsData } = await supabase
+    .from('statements')
+    .select('content, published_at')
+    .eq('unit_id', unit.unit_id)
+    .eq('published', true)
+    .order('published_at', { ascending: false });
+  if (statementsData) {
+    statements = statementsData;
   }
 
   return (
@@ -122,14 +151,64 @@ export default async function UnitDetailPage({ params }: UnitDetailPageProps) {
         </div>
       </div>
 
-      {/* 기관 설명 게재 및 정정 요청 섹션 (FR-22, FR-23) */}
+      {/* 주간 스캔 이력 (FR-3) */}
+      <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 shadow-sm space-y-4">
+        <h2 className="text-lg font-bold text-gray-900">최근 스캔 이력 (12주)</h2>
+        <div className="overflow-x-auto">
+          <table className="w-full text-left text-sm text-gray-600">
+            <thead className="text-xs text-gray-700 bg-gray-50 border-b">
+              <tr>
+                <th className="px-4 py-3">주차 (스캔일)</th>
+                <th className="px-4 py-3">판정</th>
+                <th className="px-4 py-3">사유</th>
+              </tr>
+            </thead>
+            <tbody>
+              {scans.length > 0 ? (
+                scans.map((scan, i) => (
+                  <tr key={i} className="border-b last:border-b-0 hover:bg-gray-50">
+                    <td className="px-4 py-3">{new Date(scan.scanned_at).toLocaleDateString()}</td>
+                    <td className="px-4 py-3">
+                      <VerdictBadge verdict={scan.robots_verdict} size="sm" />
+                    </td>
+                    <td className="px-4 py-3 text-xs">{scan.undetermined_reason || '-'}</td>
+                  </tr>
+                ))
+              ) : (
+                <tr>
+                  <td colSpan={3} className="px-4 py-8 text-center text-gray-500">
+                    스캔 이력이 없습니다.
+                  </td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      {/* 기관 설명 게재 (FR-22) */}
+      {statements.length > 0 && (
+        <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 shadow-sm space-y-4">
+          <h2 className="text-lg font-bold text-gray-900">기관 설명 / 소명 (FR-22)</h2>
+          <div className="space-y-4">
+            {statements.map((stmt, i) => (
+              <blockquote key={i} className="border-l-4 border-blue-500 pl-4 py-3 bg-blue-50/50 text-sm text-gray-800 whitespace-pre-wrap rounded-r-lg">
+                <div className="text-xs text-gray-500 mb-2">{new Date(stmt.published_at).toLocaleDateString()}</div>
+                {stmt.content}
+              </blockquote>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 정정 요청 섹션 (FR-23) */}
       <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 shadow-sm space-y-4">
         <h2 className="text-lg font-bold text-gray-900 flex items-center gap-2">
           <ShieldCheck className="w-5 h-5 text-blue-600" />
-          설명 게재권 및 정정 신청 (Trust Mechanism)
+          정정 신청 (Trust Mechanism)
         </h2>
         <p className="text-sm text-gray-600 leading-relaxed">
-          kplacelab은 실명 공공기관을 대상으로 측정 결과를 공표하므로, 해당 단위의 <strong>설명 게재권(FR-22)</strong>과 <strong>정정 요청권(FR-23)</strong>을 법적·절차적으로 보장합니다.
+          kplacelab은 실명 공공기관을 대상으로 측정 결과를 공표하므로, 해당 단위의 <strong>정정 요청권(FR-23)</strong>을 법적·절차적으로 보장합니다.
           기재된 도메인 오설정이나 일시적 서버 오류에 대해 언제든 정정을 신청하실 수 있습니다.
         </p>
 
@@ -140,12 +219,12 @@ export default async function UnitDetailPage({ params }: UnitDetailPageProps) {
           >
             이 지자체 셀프체크 결과 제출하기
           </Link>
-          <a
-            href="mailto:contact@kplacelab.kr?subject=정정요청 및 소명"
+          <Link
+            href={`/corrections?unit=${unit.unit_id}`}
             className="inline-flex items-center gap-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-xs font-semibold rounded-lg transition-colors"
           >
-            정정 요청 / 소명 게재 접수
-          </a>
+            이 판정에 이의가 있으시면 정정을 요청할 수 있습니다.
+          </Link>
         </div>
       </div>
     </div>

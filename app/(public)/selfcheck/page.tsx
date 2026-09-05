@@ -21,6 +21,17 @@ const STANDARD_QUESTIONS = [
   { id: 'N12', category: '행정', body: '{지역명} 시청/구청 민원실 점심시간 휴무제 시행하는지, 주차요금 얼마야?' },
 ];
 
+const UNNAMED_QUESTIONS = [
+  { id: 'U01', category: '근거리 여행', body: '{상위광역}에서 당일치기로 갈 만한 곳 5곳을 추천해 주세요.' },
+  { id: 'U02', category: '계절 여행', body: '가을에 가기 좋은 국내 여행지 5곳을 추천해 주세요.' },
+  { id: 'U03', category: '자연 경관', body: '수도권에서 가까우면서 자연 경관이 좋은 곳 5곳을 추천해 주세요.' },
+  { id: 'U04', category: '가족 여행', body: '아이와 함께 가기 좋은 {상위광역} 여행지 5곳을 추천해 주세요.' },
+  { id: 'U05', category: '귀농·귀촌', body: '귀농이나 귀촌하기 좋은 지역 5곳을 추천해 주세요.' },
+  { id: 'U06', category: '청년 창업', body: '청년 창업 지원이 잘 되어 있는 시·군 5곳을 추천해 주세요.' },
+  { id: 'U07', category: '정주 여건', body: '조용하고 살기 좋은 중소도시 5곳을 추천해 주세요.' },
+  { id: 'U08', category: '축제', body: '{상위광역}의 대표적인 축제 5개를 알려주세요.' },
+];
+
 export default function SelfCheckPage() {
   const [regionName, setRegionName] = useState('포천시');
   const [copiedId, setCopiedId] = useState<string | null>(null);
@@ -104,7 +115,7 @@ export default function SelfCheckPage() {
       {/* 치환된 문항 목록 */}
       <div className="space-y-3">
         <h2 className="text-base font-bold text-gray-900">
-          표준 12개 질문 목록 ({regionName} 치환 적용)
+          지명 문항 (12문항 - {regionName} 치환 적용)
         </h2>
 
         <div className="grid grid-cols-1 gap-3">
@@ -123,6 +134,66 @@ export default function SelfCheckPage() {
                       {q.id}
                     </span>
                     <span className="text-[11px] font-medium text-blue-600">
+                      [{q.category}]
+                    </span>
+                  </div>
+                  <p className="text-sm font-medium text-gray-800 leading-relaxed">
+                    {promptText}
+                  </p>
+                </div>
+
+                <button
+                  onClick={() => handleCopy(q.id, promptText)}
+                  className={`shrink-0 p-2 rounded-lg text-xs font-medium border transition-colors flex items-center gap-1 ${
+                    isCopied
+                      ? 'bg-emerald-50 text-emerald-700 border-emerald-300'
+                      : 'bg-gray-50 hover:bg-gray-100 text-gray-600 border-gray-200'
+                  }`}
+                  title="프롬프트 복사"
+                >
+                  {isCopied ? (
+                    <>
+                      <Check className="w-3.5 h-3.5 text-emerald-600" />
+                      <span className="text-[11px]">복사됨</span>
+                    </>
+                  ) : (
+                    <>
+                      <Copy className="w-3.5 h-3.5" />
+                      <span className="text-[11px]">복사</span>
+                    </>
+                  )}
+                </button>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* 무지명 문항 목록 */}
+      <div className="space-y-3 mt-8">
+        <h2 className="text-base font-bold text-gray-900">
+          무지명 문항 (8문항)
+        </h2>
+        <p className="text-sm text-gray-600">
+          AI에게 구체적인 지역명 5곳씩을 추천하고 추천 이유를 한 줄로 적어달라고 질문해 보세요.
+        </p>
+
+        <div className="grid grid-cols-1 gap-3">
+          {UNNAMED_QUESTIONS.map((q, idx) => {
+            const promptText = q.body;
+            const isCopied = copiedId === q.id;
+
+            return (
+              <div
+                key={q.id}
+                className="p-4 rounded-xl bg-white border border-gray-200 hover:border-indigo-300 transition-colors flex items-start justify-between gap-4 shadow-sm"
+              >
+                <div className="space-y-1">
+                  <div className="flex items-center gap-2">
+                    <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-gray-100 text-gray-600">
+                      {q.id}
+                    </span>
+                    <span className="text-[11px] font-medium text-indigo-600">
                       [{q.category}]
                     </span>
                   </div>

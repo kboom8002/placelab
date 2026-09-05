@@ -34,10 +34,11 @@ export const DashboardClient: React.FC<DashboardClientProps> = ({
         specialZoneCount={6}
       />
 
-      {/* 4분 판정 집계 요약 (INV-2 강제) */}
+      {/* 5분 판정 집계 요약 (INV-2 강제) */}
       <FourWayVerdictSummary
         open={stats.open}
-        blocked={stats.blocked}
+        blockedAll={stats.blockedAll}
+        blockedSelective={stats.blockedSelective}
         noFile={stats.noFile}
         undetermined={stats.undetermined}
         total={stats.total}

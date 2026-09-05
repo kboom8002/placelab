@@ -5,13 +5,15 @@ import { UnitWithVerdict, Population } from '@/lib/types/layers';
 export function calculateCoverage(units: UnitWithVerdict[], population: Population) {
   const filtered = units.filter((u) => u.population === population);
   let open = 0;
-  let blocked = 0;
+  let blockedAll = 0;
+  let blockedSelective = 0;
   let noFile = 0;
   let undetermined = 0;
 
   for (const u of filtered) {
     if (u.robots_verdict === 'open') open++;
-    else if (u.robots_verdict === 'blocked_all' || u.robots_verdict === 'blocked_selective') blocked++;
+    else if (u.robots_verdict === 'blocked_all') blockedAll++;
+    else if (u.robots_verdict === 'blocked_selective') blockedSelective++;
     else if (u.robots_verdict === 'no_file') noFile++;
     else if (u.robots_verdict === 'undetermined') undetermined++;
   }
@@ -20,7 +22,8 @@ export function calculateCoverage(units: UnitWithVerdict[], population: Populati
     population,
     total: filtered.length,
     open,
-    blocked,
+    blockedAll,
+    blockedSelective,
     noFile,
     undetermined,
   };
