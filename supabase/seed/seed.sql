@@ -187,6 +187,21 @@ insert into question_bank (
  '각각 구체적인 지역명 5곳씩을 추천하고, 각 지역마다 추천 이유를 한 줄로 적어 주세요.', '[번호] 답변', 'ko', '마지막에 8개 질문에서 언급한 지역명을 전부 모아 등장 횟수가 많은 순서대로 표로 정리해 주세요.')
 on conflict (id) do nothing;
 
+-- K16: 대상군 태깅 (v1.0 문항)
+update question_bank set audience = '{youth}' where id = 'N04' and method_version = 'v1.0';
+update question_bank set audience = '{child_care}' where id = 'N05' and method_version = 'v1.0';
+update question_bank set audience = '{child_care}' where id = 'N09' and method_version = 'v1.0';
+update question_bank set audience = '{older}' where id = 'N10' and method_version = 'v1.0';
+update question_bank set audience = '{small_business}' where id = 'N11' and method_version = 'v1.0';
+
+-- K16: 태깅 기준 이력
+insert into audience_taggings (method_version, question_id, audience, rationale) values
+  ('v1.0', 'N04', '{youth}', '청년 지원 사업을 묻는 문항으로 청년 대상군에 해당'),
+  ('v1.0', 'N05', '{child_care}', '출산 지원금을 묻는 문항으로 양육 대상군에 해당'),
+  ('v1.0', 'N09', '{child_care}', '어린이집 입소 대기를 묻는 문항으로 양육 대상군에 해당'),
+  ('v1.0', 'N10', '{older}', '노인 일자리 사업을 묻는 문항으로 고령 대상군에 해당'),
+  ('v1.0', 'N11', '{small_business}', '소상공인 지원을 묻는 문항으로 소상공인 대상군에 해당');
+
 -- 8. 예비 실측 기반 판정 초기 승격 데이터 (K09 기반 실측값 시드)
 insert into verdicts (domain_id, robots_verdict, undetermined_reason, method_version, confirmed_from, confirmed_at, consecutive_weeks, published)
 select d.id, 'open', null, 'v1.0', now() - interval '14 days', now(), 2, true

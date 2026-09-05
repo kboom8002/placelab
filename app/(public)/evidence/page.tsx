@@ -91,6 +91,22 @@ const claims: Claim[] = [
     falsification: '두 집단 사이에 차이가 확인되지 않거나 반대 방향',
     nextStep: 'T0 전수 스캔 후',
   },
+  {
+    id: 'C-10',
+    title: '취약계층 관련 행정정보의 AI 응답 정확도가 다른 분야보다 낮다',
+    status: '미검증',
+    evidence: '없음',
+    falsification: '두 집단 사이에 차이가 확인되지 않거나 반대 방향',
+    nextStep: 'K16 태깅 완료 후 사전 등록',
+  },
+  {
+    id: 'C-11',
+    title: '또래 지원이 취약계층의 AI 정보 검증 행동을 늘린다',
+    status: '미검증',
+    evidence: '없음',
+    falsification: '도움받은 집단과 대조군 사이에 차이가 확인되지 않음',
+    nextStep: '효과 주장 전 측정 설계 검토 필수',
+  },
 ];
 
 export default function EvidencePage() {

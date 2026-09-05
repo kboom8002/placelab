@@ -49,3 +49,11 @@ export const JSONLD_RECOMMENDED_TYPES = [
   'OpeningHoursSpecification',
   'ContactPoint',
 ] as const;
+
+// K16 §3.3 보고 규칙 (source: docs/knowledge/K16-audience-equity.md)
+export const AUDIENCE_COMPARISON_RULES = {
+  NO_RANKING: true,
+  NO_UNIT_NAMING: true,
+  FLOOR_RISK_REQUIRED: true,
+  PREREG_REQUIRED: true,
+} as const;

@@ -61,3 +61,35 @@ export type UnitWithVerdict = {
   consecutive_weeks: number | null;
   published: boolean | null;
 };
+
+// K16 대상군 태그 (source: docs/knowledge/K16-audience-equity.md)
+export type AudienceTag =
+  | 'general' | 'older' | 'disability' | 'child_care'
+  | 'low_income' | 'migrant' | 'youth' | 'small_business';
+
+export const AUDIENCE_TAG_LABELS: Record<AudienceTag, string> = {
+  general: '일반',
+  older: '고령',
+  disability: '장애',
+  child_care: '양육',
+  low_income: '저소득',
+  migrant: '이주민',
+  youth: '청년',
+  small_business: '소상공인',
+};
+
+// K16 비교 결과 타입 (INV-9: floor_risk 필수)
+export interface AudienceComparison {
+  tagA: AudienceTag;
+  tagB: AudienceTag;
+  nA: number;
+  nB: number;
+  metric: string;
+  valueA: number;
+  valueB: number;
+  floorRiskA: FloorRisk;
+  floorRiskB: FloorRisk;
+  intervalLow: number | null;
+  intervalHigh: number | null;
+  preregId: string;
+}
