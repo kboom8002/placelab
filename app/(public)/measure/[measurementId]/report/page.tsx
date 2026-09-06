@@ -28,7 +28,7 @@ const REPORT_DATA = {
   measured_on: '2026-09-06',
   mode: 'quick',
   method_version: 'v2.0',
-  ai_service: 'ChatGPT (gpt-4o)',
+  ai_service: 'ChatGPT (gpt-5luna)',
   web_search: 'on',
   total_questions: 12,
   results: [
