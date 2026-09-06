@@ -60,7 +60,7 @@ export const AUDIENCE_COMPARISON_RULES = {
 
 // v2.0 측정 상수 (source: ADR-0011, K04 v2.0)
 export const V2_METHOD_VERSION = 'v2.0';
-export const V2_DEFAULT_MODEL = 'gpt-5luna';
+export const V2_DEFAULT_MODEL = 'gpt-5.6-luna';
 export const V2_QUESTION_COUNT = 35;
 export const V2_QUICK_REPS = 1;
 export const V2_FULL_REPS = 5;
