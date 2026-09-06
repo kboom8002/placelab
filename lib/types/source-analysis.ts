@@ -344,4 +344,14 @@ export interface AEODiagnosisReport {
     rationale: string;
     source_question_id: string;
   }[];
+
+  // 월별 변화 추적
+  monthly_tracking?: {
+    tier1_accuracy_change: number;
+    tier2_relevance_change: number;
+    tier3_sov_change: number;
+    improved_questions: string[];
+    regressed_questions: string[];
+  };
 }
+

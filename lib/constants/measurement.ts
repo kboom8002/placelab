@@ -66,3 +66,17 @@ export const V2_QUICK_REPS = 1;
 export const V2_FULL_REPS = 5;
 export const V2_SERVICES = ['chatgpt', 'gemini', 'perplexity'] as const;
 
+export { SCANNER_UA, SCAN_MIN_INTERVAL_MS } from './scanner';
+
+// ─── v2.1 3-Tier AEO (출처: K04 v2.1) ───
+export const V21_METHOD_VERSION = 'v2.1';
+export const V21_QUICK_REPS = 3;
+export const V21_FULL_REPS = 5;
+export const V21_TIER1_COUNT = 15;
+export const V21_TIER2_COUNT = 20;
+export const V21_TIER3_COUNT = 15;
+export const V21_TOTAL_QUESTIONS = 50;
+export const V21_QUICK_TOTAL_CALLS = V21_TOTAL_QUESTIONS * V21_QUICK_REPS; // 150
+export const V21_FULL_TOTAL_CALLS = V21_TOTAL_QUESTIONS * V21_FULL_REPS;   // 250
+
+
