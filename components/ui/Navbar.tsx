@@ -30,6 +30,7 @@ export const Navbar: React.FC = () => {
     { href: '/', label: '전국 현황', icon: Activity },
     { href: '/units', label: '단위 목록' },
     { href: '/selfcheck', label: '셀프체크' },
+    { href: '/measure', label: 'AI 측정' },
     { href: '/equity', label: '형평성 측정', icon: Scale },
   ];
 
