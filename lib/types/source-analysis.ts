@@ -202,3 +202,146 @@ export interface AnonymousBenchmark {
   /** 비교 그룹 유형 */
   comparison_type: 'population_similar' | 'same_region' | 'same_l1_verdict';
 }
+
+// ═══════════════════════════════════════════════════
+// v2.1 3-Tier AEO 진단 타입 (출처: K04 v2.1)
+// ═══════════════════════════════════════════════════
+
+/** 질문이 속하는 Tier */
+export type QuestionTier = 'T1' | 'T2' | 'T3';
+
+// ─── Tier 2: 고유 정보 카테고리 ───
+
+export type Tier2Category =
+  | 'specialty_industry'   // C1: 특산·산업
+  | 'landmark'             // C2: 고유 시설·랜드마크
+  | 'local_policy'         // C3: 독자 정책·조례
+  | 'heritage'             // C4: 역사·문화재
+  | 'geography'            // C5: 지리·생활권
+  | 'local_food'           // C6: 로컬 음식·명소
+  | 'recent_issue';        // C7: 최근 이슈·사업
+
+/** Tier 2 판정 (4분법 + 관련성) */
+export type Tier2Verdict =
+  | 'accurate_relevant'    // 정확하고 해당 지자체 고유 정보 포함
+  | 'accurate_generic'     // 답은 맞으나 "시청에 문의하세요" 수준
+  | 'partial'              // 방향은 맞으나 불완전
+  | 'wrong'                // 오답 (작화 포함)
+  | 'absent';              // 미응답
+
+// ─── Tier 3: 대외 홍보력 유형 ───
+
+export type Tier3QuestionType =
+  | 'recommendation'       // T3-A: 추천 경쟁
+  | 'association'          // T3-B: 연상 테스트
+  | 'keyword_entry'        // T3-C: 키워드 진입
+  | 'scenario'             // T3-D: 시나리오 질문
+  | 'comparison'           // T3-E: 비교 질문
+  | 'negative_test';       // T3-F: 부정 테스트
+
+/** Tier 3 판정 */
+export type Tier3Verdict =
+  | 'mentioned_positive'   // 언급 + 긍정적
+  | 'mentioned_neutral'    // 언급 + 중립
+  | 'mentioned_negative'   // 언급 + 부정적
+  | 'not_mentioned';       // 미언급
+
+// ─── Tier 2 질문 정의 (사전 조사 결과물) ───
+
+export interface Tier2Question {
+  id: string;              // e.g., "S-01" (수원), "J-01" (증평)
+  category: Tier2Category;
+  body: string;            // 질문 본문
+  ground_truth: string;    // 정답 (사실 확인 완료)
+  ground_truth_source: string;  // 출처 URL
+  difficulty: 'easy' | 'medium' | 'hard';
+}
+
+// ─── Tier 3 질문 정의 ───
+
+export interface Tier3Question {
+  id: string;              // e.g., "V-A1"
+  question_type: Tier3QuestionType;
+  body: string;
+  target_unit: string;     // 언급되어야 할 도시
+  competitor_units: string[];  // 경쟁 도시
+}
+
+// ─── Share of Voice (Tier 3 핵심 지표) ───
+
+export interface ShareOfVoice {
+  target_unit: string;
+  target_mentions: number;     // 언급 횟수
+  total_responses: number;     // 전체 Tier 3 응답 수
+  sov_rate: number;            // 0.0 ~ 1.0
+  context_breakdown: {
+    positive: number;
+    neutral: number;
+    negative: number;
+  };
+  competitor_sov: {
+    unit_name: string;
+    mentions: number;
+    sov_rate: number;
+  }[];
+}
+
+// ─── 3-Tier 통합 보고서 ───
+
+export interface AEODiagnosisReport {
+  unit_id: string;
+  unit_name: string;
+  population: 'local_gov' | 'special_zone';
+  method_version: 'v2.1';
+  ai_service: AiServiceId;
+  web_search: 'on';
+  measured_on: string;
+
+  // Tier 1: 기본 행정
+  tier1: {
+    total_questions: 15;
+    reps: number;
+    accuracy_rate: number;
+    confabulation_count: number;
+    floor_risk: FloorRisk;
+    results: {
+      question_id: string;
+      verdict_distribution: Record<Verdict, number>;
+    }[];
+  };
+
+  // Tier 2: 고유 정보
+  tier2: {
+    total_questions: 20;
+    reps: number;
+    accuracy_relevant_rate: number;   // accurate_relevant / total
+    accuracy_generic_rate: number;    // accurate_generic / total
+    wrong_count: number;
+    floor_risk: FloorRisk;
+    category_scores: {
+      category: Tier2Category;
+      accuracy_rate: number;
+      relevance_rate: number;
+    }[];
+  };
+
+  // Tier 3: 대외 홍보력
+  tier3: {
+    total_questions: 15;
+    reps: number;
+    share_of_voice: ShareOfVoice;
+    association_words: string[];      // V-B1 응답에서 추출한 연상어
+    type_scores: {
+      type: Tier3QuestionType;
+      mention_rate: number;
+    }[];
+  };
+
+  // 처방전
+  prescriptions: {
+    priority: 'P0' | 'P1' | 'P2';
+    action: string;
+    rationale: string;
+    source_question_id: string;
+  }[];
+}
