@@ -4,7 +4,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Copy, Check, Sparkles, Send, HelpCircle, ShieldAlert } from 'lucide-react';
+import { Copy, Check, Sparkles, Send, HelpCircle, ArrowRight } from 'lucide-react';
 
 const STANDARD_QUESTIONS = [
   { id: 'N01', category: '폐기물', body: '{지역명} 대형폐기물 스티커 가격과 온라인 배출 신청 방법 알려줘' },
@@ -22,15 +22,17 @@ const STANDARD_QUESTIONS = [
 ];
 
 const UNNAMED_QUESTIONS = [
-  { id: 'U01', category: '근거리 여행', body: '{상위광역}에서 당일치기로 갈 만한 곳 5곳을 추천해 주세요.' },
-  { id: 'U02', category: '계절 여행', body: '가을에 가기 좋은 국내 여행지 5곳을 추천해 주세요.' },
-  { id: 'U03', category: '자연 경관', body: '수도권에서 가까우면서 자연 경관이 좋은 곳 5곳을 추천해 주세요.' },
-  { id: 'U04', category: '가족 여행', body: '아이와 함께 가기 좋은 {상위광역} 여행지 5곳을 추천해 주세요.' },
-  { id: 'U05', category: '귀농·귀촌', body: '귀농이나 귀촌하기 좋은 지역 5곳을 추천해 주세요.' },
-  { id: 'U06', category: '청년 창업', body: '청년 창업 지원이 잘 되어 있는 시·군 5곳을 추천해 주세요.' },
-  { id: 'U07', category: '정주 여건', body: '조용하고 살기 좋은 중소도시 5곳을 추천해 주세요.' },
-  { id: 'U08', category: '축제', body: '{상위광역}의 대표적인 축제 5개를 알려주세요.' },
+  { id: 'U01', category: '근거리 여행', body: '수도권에서 당일치기로 힐링 여행 갈 만한 곳 5곳을 추천해 주세요.' },
+  { id: 'U02', category: '계절 여행', body: '가을 단풍이나 축제로 가기 좋은 국내 여행지 5곳을 추천해 주세요.' },
+  { id: 'U03', category: '자연 경관', body: '도심에서 멀지 않으면서 자연 경관이 수려한 소도시 5곳을 추천해 주세요.' },
+  { id: 'U04', category: '가족 여행', body: '미취학 아동과 함께 가족 나들이 가기 좋은 여행지 5곳을 추천해 주세요.' },
+  { id: 'U05', category: '귀농·귀촌', body: '지자체 지원 프로그램이 잘 갖추어진 귀농·귀촌 추천 지역 5곳을 알려주세요.' },
+  { id: 'U06', category: '청년 창업', body: '청년 창업 및 거주 지원 조례가 잘 정비된 시·군 5곳을 추천해 주세요.' },
+  { id: 'U07', category: '정주 여건', body: '조용하고 정주 여건이 우수한 강소 중소도시 5곳을 추천해 주세요.' },
+  { id: 'U08', category: '지역 축제', body: '가족 단위 방문객 만족도가 높은 전국 대표 지자체 축제 5개를 알려주세요.' },
 ];
+
+const QUICK_EXAMPLES = ['포천시', '강남구', '순천시', '증평군', '강릉시', '해남군'];
 
 export default function SelfCheckPage() {
   const [regionName, setRegionName] = useState('포천시');
@@ -52,114 +54,142 @@ export default function SelfCheckPage() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-8">
-      <div>
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold">
-          <Sparkles className="w-3.5 h-3.5" />
-          Layer 2 · 자발적 셀프체크
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 space-y-10">
+      {/* 헤더 */}
+      <div className="space-y-3">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-navy-900 text-gold-400 text-xs font-semibold">
+          <Sparkles className="w-3.5 h-3.5 text-gold-400" />
+          Layer 2 · 자발적 관측 프로토콜
         </div>
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mt-2">
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-navy-950 tracking-tight">
           우리 동네 AI 셀프체크 프롬프트 생성기
         </h1>
-        <p className="text-sm text-gray-600 mt-1">
-          지자체명을 입력하면 표준 12개 지명 질문이 자동으로 치환됩니다. 복사하여 ChatGPT, Claude 등에 질문해 보세요.
+        <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
+          지자체명을 입력하면 표준 12개 질문이 자동으로 치환됩니다. 프롬프트를 복사하여 ChatGPT, Claude 등 생성형 AI에 묻고 답변의 정확성을 직접 확인해 보세요.
         </p>
       </div>
 
-      {/* 지자체명 입력 컨트롤 */}
-      <div className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="w-full sm:w-auto flex-1">
-          <label className="block text-xs font-semibold text-gray-700 mb-1">
-            테스트할 지자체명 (시·군·구)
-          </label>
-          <input
-            type="text"
-            value={regionName}
-            onChange={(e) => setRegionName(e.target.value)}
-            placeholder="예: 포천시, 강남구, 순천시"
-            className="w-full px-4 py-2 border border-gray-300 rounded-lg text-base font-medium focus:ring-2 focus:ring-blue-500 focus:outline-none"
-          />
+      {/* 지자체명 입력 컨트롤 카드 */}
+      <div className="bg-white p-6 rounded-2xl border border-slate-200/90 shadow-editorial space-y-4">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-end justify-between gap-4">
+          <div className="flex-1 space-y-1.5">
+            <label className="block text-xs font-bold text-navy-950 uppercase tracking-wider">
+              테스트할 지자체명 (시·군·구)
+            </label>
+            <input
+              type="text"
+              value={regionName}
+              onChange={(e) => setRegionName(e.target.value)}
+              placeholder="예: 포천시, 강남구, 순천시"
+              className="w-full px-4 py-3 border border-slate-200 rounded-xl text-base font-semibold text-navy-950 focus:ring-2 focus:ring-navy-900/20 focus:border-navy-900 focus:outline-none transition-all"
+            />
+          </div>
+
+          <button
+            onClick={handleCopyAll}
+            className="px-6 py-3 bg-navy-950 hover:bg-navy-900 text-white rounded-xl text-xs font-bold flex items-center justify-center gap-2 shadow-sm transition-all hover:shadow-md shrink-0"
+          >
+            {copiedId === 'ALL' ? (
+              <>
+                <Check className="w-4 h-4 text-gold-400" />
+                <span>12문항 전체 복사 완료!</span>
+              </>
+            ) : (
+              <>
+                <Copy className="w-4 h-4 text-gold-400" />
+                <span>12문항 전체 복사</span>
+              </>
+            )}
+          </button>
         </div>
 
-        <button
-          onClick={handleCopyAll}
-          className="w-full sm:w-auto px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-lg text-xs font-semibold flex items-center justify-center gap-2 shadow-sm transition-colors mt-auto"
-        >
-          {copiedId === 'ALL' ? (
-            <>
-              <Check className="w-4 h-4 text-white" />
-              전체 12문항 복사 완료!
-            </>
-          ) : (
-            <>
-              <Copy className="w-4 h-4" />
-              전체 문항 한 번에 복사
-            </>
-          )}
-        </button>
-      </div>
-
-      {/* 테스트 가이드 */}
-      <div className="p-4 rounded-xl bg-blue-50/70 border border-blue-200 text-blue-900 text-xs space-y-1">
-        <div className="font-bold flex items-center gap-1.5">
-          <HelpCircle className="w-4 h-4 text-blue-600" />
-          공정한 측정을 위한 필수 조건 안내 (K03 명세)
+        {/* 빠른 선택 칩 */}
+        <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-100 text-xs text-slate-500">
+          <span className="font-medium text-slate-400">빠른 예시:</span>
+          {QUICK_EXAMPLES.map((ex) => (
+            <button
+              key={ex}
+              type="button"
+              onClick={() => setRegionName(ex)}
+              className={`px-2.5 py-1 rounded-lg border transition-all ${
+                regionName === ex
+                  ? 'bg-navy-900 text-white border-navy-900 font-semibold'
+                  : 'bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100'
+              }`}
+            >
+              {ex}
+            </button>
+          ))}
         </div>
-        <p className="text-blue-800 leading-relaxed">
-          1. AI 서비스(ChatGPT 등)에서 <strong>웹 검색(Web Search) 옵션을 끄고(OFF)</strong> 테스트해 주세요.
-          <br />
-          2. 존재하지 않는 제도나 금액을 지어내는 현상(<strong>작화/할루시네이션</strong>)이 발생하는지 유의해서 관찰해 주세요.
-        </p>
       </div>
 
-      {/* 치환된 문항 목록 */}
-      <div className="space-y-3">
-        <h2 className="text-base font-bold text-gray-900">
-          지명 문항 (12문항 - {regionName} 치환 적용)
-        </h2>
+      {/* 가이드 배너 */}
+      <div className="p-4 rounded-xl bg-navy-900 text-slate-200 text-xs leading-relaxed space-y-2 border border-white/10 shadow-sm">
+        <div className="font-bold text-gold-400 flex items-center gap-1.5">
+          <HelpCircle className="w-4 h-4" />
+          공정한 관측을 위한 필수 준수 원칙 (K03 측정 규약)
+        </div>
+        <div className="grid sm:grid-cols-2 gap-2 text-slate-300">
+          <div>
+            1. AI 서비스에서 <strong>웹 검색(Web Search)을 끄고</strong> 진행해야 모델 고유 지식(Layer 2)을 측정할 수 있습니다.
+          </div>
+          <div>
+            2. 없는 제도를 진짜처럼 꾸며내는 <strong>작화(Floor Risk = critical)</strong>가 있는지 각별히 확인하세요.
+          </div>
+        </div>
+      </div>
+
+      {/* 치환된 지명 문항 12종 */}
+      <div className="space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-xl font-bold text-navy-950">
+            지명 문항 (12개 문항 · {regionName} 치환 적용)
+          </h2>
+          <span className="text-xs text-slate-400 font-mono">P01~P12</span>
+        </div>
 
         <div className="grid grid-cols-1 gap-3">
-          {STANDARD_QUESTIONS.map((q, idx) => {
+          {STANDARD_QUESTIONS.map((q) => {
             const promptText = q.body.replace(/\{지역명\}/g, regionName);
             const isCopied = copiedId === q.id;
 
             return (
               <div
                 key={q.id}
-                className="p-4 rounded-xl bg-white border border-gray-200 hover:border-blue-300 transition-colors flex items-start justify-between gap-4 shadow-sm"
+                className="p-4 sm:p-5 rounded-xl bg-white border border-slate-200/80 hover:border-gold-400/80 transition-all flex items-start justify-between gap-4 shadow-sm hover:shadow-card-hover group"
               >
-                <div className="space-y-1">
+                <div className="space-y-1.5 flex-1">
                   <div className="flex items-center gap-2">
-                    <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-gray-100 text-gray-600">
+                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700">
                       {q.id}
                     </span>
-                    <span className="text-[11px] font-medium text-blue-600">
+                    <span className="text-xs font-semibold text-gold-600">
                       [{q.category}]
                     </span>
                   </div>
-                  <p className="text-sm font-medium text-gray-800 leading-relaxed">
+                  <p className="text-sm sm:text-base font-semibold text-navy-950 leading-relaxed">
                     {promptText}
                   </p>
                 </div>
 
                 <button
                   onClick={() => handleCopy(q.id, promptText)}
-                  className={`shrink-0 p-2 rounded-lg text-xs font-medium border transition-colors flex items-center gap-1 ${
+                  className={`shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all flex items-center gap-1.5 ${
                     isCopied
                       ? 'bg-emerald-50 text-emerald-700 border-emerald-300'
-                      : 'bg-gray-50 hover:bg-gray-100 text-gray-600 border-gray-200'
+                      : 'bg-slate-50 hover:bg-navy-950 hover:text-white text-slate-700 border-slate-200'
                   }`}
                   title="프롬프트 복사"
                 >
                   {isCopied ? (
                     <>
                       <Check className="w-3.5 h-3.5 text-emerald-600" />
-                      <span className="text-[11px]">복사됨</span>
+                      <span>복사됨</span>
                     </>
                   ) : (
                     <>
                       <Copy className="w-3.5 h-3.5" />
-                      <span className="text-[11px]">복사</span>
+                      <span>복사</span>
                     </>
                   )}
                 </button>
@@ -169,57 +199,60 @@ export default function SelfCheckPage() {
         </div>
       </div>
 
-      {/* 무지명 문항 목록 */}
-      <div className="space-y-3 mt-8">
-        <h2 className="text-base font-bold text-gray-900">
-          무지명 문항 (8문항)
-        </h2>
-        <p className="text-sm text-gray-600">
-          AI에게 구체적인 지역명 5곳씩을 추천하고 추천 이유를 한 줄로 적어달라고 질문해 보세요.
-        </p>
+      {/* 무지명 문항 8종 */}
+      <div className="space-y-4 pt-6">
+        <div className="flex items-center justify-between">
+          <div>
+            <h2 className="text-xl font-bold text-navy-950">무지명 문항 (8개 문항)</h2>
+            <p className="text-xs text-slate-500 mt-0.5">
+              지자체명을 명시하지 않고 질문했을 때 우리 지역이 추천 목록(5개 슬롯)에 포함되는지 관측합니다.
+            </p>
+          </div>
+          <span className="text-xs text-slate-400 font-mono">U01~U08</span>
+        </div>
 
         <div className="grid grid-cols-1 gap-3">
-          {UNNAMED_QUESTIONS.map((q, idx) => {
+          {UNNAMED_QUESTIONS.map((q) => {
             const promptText = q.body;
             const isCopied = copiedId === q.id;
 
             return (
               <div
                 key={q.id}
-                className="p-4 rounded-xl bg-white border border-gray-200 hover:border-indigo-300 transition-colors flex items-start justify-between gap-4 shadow-sm"
+                className="p-4 sm:p-5 rounded-xl bg-white border border-slate-200/80 hover:border-slate-300 transition-all flex items-start justify-between gap-4 shadow-sm group"
               >
-                <div className="space-y-1">
+                <div className="space-y-1.5 flex-1">
                   <div className="flex items-center gap-2">
-                    <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-gray-100 text-gray-600">
+                    <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700">
                       {q.id}
                     </span>
-                    <span className="text-[11px] font-medium text-indigo-600">
+                    <span className="text-xs font-semibold text-slate-500">
                       [{q.category}]
                     </span>
                   </div>
-                  <p className="text-sm font-medium text-gray-800 leading-relaxed">
+                  <p className="text-sm sm:text-base font-semibold text-slate-800 leading-relaxed">
                     {promptText}
                   </p>
                 </div>
 
                 <button
                   onClick={() => handleCopy(q.id, promptText)}
-                  className={`shrink-0 p-2 rounded-lg text-xs font-medium border transition-colors flex items-center gap-1 ${
+                  className={`shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all flex items-center gap-1.5 ${
                     isCopied
                       ? 'bg-emerald-50 text-emerald-700 border-emerald-300'
-                      : 'bg-gray-50 hover:bg-gray-100 text-gray-600 border-gray-200'
+                      : 'bg-slate-50 hover:bg-navy-950 hover:text-white text-slate-700 border-slate-200'
                   }`}
                   title="프롬프트 복사"
                 >
                   {isCopied ? (
                     <>
                       <Check className="w-3.5 h-3.5 text-emerald-600" />
-                      <span className="text-[11px]">복사됨</span>
+                      <span>복사됨</span>
                     </>
                   ) : (
                     <>
                       <Copy className="w-3.5 h-3.5" />
-                      <span className="text-[11px]">복사</span>
+                      <span>복사</span>
                     </>
                   )}
                 </button>
@@ -229,19 +262,23 @@ export default function SelfCheckPage() {
         </div>
       </div>
 
-      {/* 결과 제출 링크 유도 */}
-      <div className="p-6 rounded-2xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div>
-          <h3 className="text-base font-bold">테스트 결과를 제출하고 싶으신가요?</h3>
-          <p className="text-xs text-blue-100 mt-1">
-            정확도와 오류 유형을 제출해 주시면 데이터베이스에 안전하게 집계됩니다 (익명 가능).
+      {/* 결과 제출 유도 카드 */}
+      <div className="p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800 text-white flex flex-col sm:flex-row items-center justify-between gap-6 border border-white/10 shadow-xl">
+        <div className="space-y-1.5">
+          <h3 className="text-lg font-bold text-white flex items-center gap-2">
+            <span>관측 결과를 연구 데이터베이스에 기여하세요</span>
+          </h3>
+          <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
+            AI 답변의 정확 여부와 작화 발생 여부를 제출하시면 전국 지자체 AI 접근성 연구 지표로 안전하게 집계됩니다.
           </p>
         </div>
         <Link
           href="/submit"
-          className="px-4 py-2 bg-white text-blue-600 font-bold text-xs rounded-lg shadow-sm hover:bg-blue-50 transition-colors shrink-0"
+          className="inline-flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-gold-400 to-gold-500 hover:from-gold-300 hover:to-gold-400 text-navy-950 font-bold text-xs rounded-xl shadow-md transition-all shrink-0 hover:scale-105"
         >
-          채점 결과 제출하기 →
+          <Send className="w-4 h-4" />
+          관측 결과 제출하기
+          <ArrowRight className="w-3.5 h-3.5" />
         </Link>
       </div>
     </div>

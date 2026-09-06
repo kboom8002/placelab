@@ -1,10 +1,13 @@
+// app/(public)/evidence/page.tsx
+// FR-43: 증거 대장 (INV-12)
 import React from 'react';
-import { Metadata } from 'next';
-import { AlertCircle } from 'lucide-react';
+import type { Metadata } from 'next';
+import { SourceNote } from '@/components/ui/SourceNote';
+import { FileCheck2, AlertCircle, ShieldAlert, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: '증거 대장 | K-PlaceLab',
-  description: 'K-PlaceLab이 주장하는 사실과 증명 상태를 공개합니다. (INV-12)',
+  title: '증거 대장 (Claims Registry) — kplacelab',
+  description: 'kplacelab이 주장하는 모든 사실적 명제, 현재 근거, 반증 조건(Falsification) 등록부 (INV-12)',
 };
 
 type Status = '미검증' | '파일럿' | '검증됨';
@@ -110,65 +113,123 @@ const claims: Claim[] = [
 ];
 
 export default function EvidencePage() {
-  const getBadgeColor = (status: Status) => {
+  const unverifiedCount = claims.filter((c) => c.status === '미검증').length;
+  const pilotCount = claims.filter((c) => c.status === '파일럿').length;
+  const verifiedCount = claims.filter((c) => c.status === '검증됨').length;
+
+  const getBadgeStyle = (status: Status) => {
     switch (status) {
       case '미검증':
-        return 'bg-amber-100 text-amber-800 border-amber-200';
+        return 'bg-amber-50 text-amber-800 border-amber-200/80';
       case '파일럿':
-        return 'bg-blue-100 text-blue-800 border-blue-200';
+        return 'bg-blue-50 text-blue-700 border-blue-200/80';
       case '검증됨':
-        return 'bg-green-100 text-green-800 border-green-200';
-      default:
-        return 'bg-gray-100 text-gray-800 border-gray-200';
+        return 'bg-emerald-50 text-emerald-700 border-emerald-200/80';
     }
   };
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
-      <div className="space-y-4">
-        <h1 className="text-3xl font-extrabold tracking-tight">증거 대장 (Claims Registry)</h1>
-        
-        <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 text-sm flex items-start gap-3">
-          <AlertCircle className="w-5 h-5 text-slate-500 shrink-0 mt-0.5" />
-          <div className="space-y-1">
-            <div className="font-semibold">투명성 원칙 (INV-12)</div>
-            <p className="leading-relaxed">
-              공개 문서, 영업 자료, 발표에 쓰이는 모든 사실적 주장은 이 대장에 등록되어야 합니다. 
-              우리는 아직 증명하지 못한 것의 목록을 공개하며, 이를 투명하게 추적합니다.
-            </p>
-          </div>
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-14 space-y-12">
+      {/* 상단 헤더 */}
+      <div className="space-y-4 border-b border-slate-200/80 pb-8">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-navy-900 text-gold-400 text-xs font-semibold">
+          <FileCheck2 className="w-3.5 h-3.5 text-gold-400" />
+          FALSIFIABLE CLAIMS REGISTRY · INV-12
+        </div>
+        <h1 className="text-3xl sm:text-5xl font-black text-navy-950 tracking-tight leading-tight">
+          증거 대장 (Claims Registry)
+        </h1>
+        <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-3xl">
+          kplacelab의 모든 대외 주장, 연구 가설, 사업 제안의 사실 명제는 이 대장에 사전 등록되어 있어야 합니다.
+          우리는 아직 증명되지 않은 것을 확정처럼 말하지 않으며, 반증 조건(Falsification)을 먼저 공개합니다.
+        </p>
+
+        {/* 상태 요약 칩 */}
+        <div className="flex flex-wrap items-center gap-2.5 pt-2">
+          <span className="text-xs font-semibold px-3 py-1 rounded-lg bg-slate-100 text-slate-700">
+            총 주장: <strong className="text-navy-950">{claims.length}</strong>건
+          </span>
+          <span className="text-xs font-semibold px-3 py-1 rounded-lg bg-amber-50 text-amber-800 border border-amber-200/60">
+            미검증: <strong>{unverifiedCount}</strong>건
+          </span>
+          <span className="text-xs font-semibold px-3 py-1 rounded-lg bg-blue-50 text-blue-700 border border-blue-200/60">
+            파일럿: <strong>{pilotCount}</strong>건
+          </span>
+          <span className="text-xs font-semibold px-3 py-1 rounded-lg bg-emerald-50 text-emerald-700 border border-emerald-200/60">
+            검증됨: <strong>{verifiedCount}</strong>건
+          </span>
         </div>
       </div>
 
-      <div className="space-y-6">
+      {/* 불변식 안내 박스 */}
+      <div className="p-5 rounded-2xl bg-slate-100/80 border border-slate-200 text-slate-800 text-xs sm:text-sm flex items-start gap-3.5 shadow-sm">
+        <AlertCircle className="w-5 h-5 text-slate-500 shrink-0 mt-0.5" />
+        <div className="space-y-1">
+          <div className="font-bold text-navy-950">INV-12: 대장에 없는 주장을 쓰지 않는다</div>
+          <p className="text-slate-600 leading-relaxed text-xs">
+            대장에 등록되지 않은 주장을 UI 문구, 보고서 템플릿, 언론 보도에 인용하는 것은 코드 리뷰 단계에서 반려됩니다.
+            결과를 본 뒤 반증 조건을 수정하지 않으며, 수정 시에는 새로운 사전 등록 번호로 이력을 분리합니다.
+          </p>
+        </div>
+      </div>
+
+      {/* 11개 주장 카드 목록 */}
+      <div className="space-y-5">
         {claims.map((claim) => (
-          <div key={claim.id} className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
-            <div className="p-5 border-b border-slate-100 bg-slate-50 flex items-center justify-between gap-4">
-              <h2 className="text-lg font-bold text-slate-900">
-                <span className="text-slate-400 mr-2">{claim.id}</span>
-                {claim.title}
-              </h2>
-              <span className={`px-3 py-1 rounded-full text-xs font-semibold border ${getBadgeColor(claim.status)}`}>
+          <div
+            key={claim.id}
+            className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-editorial hover:shadow-editorial-hover transition-all"
+          >
+            {/* 카드 헤더 */}
+            <div className="p-5 border-b border-slate-100 bg-slate-50/50 flex flex-wrap items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <span className="text-xs font-mono font-black px-2.5 py-1 rounded-lg bg-navy-950 text-white shadow-sm">
+                  {claim.id}
+                </span>
+                <h2 className="text-base sm:text-lg font-bold text-navy-950">{claim.title}</h2>
+              </div>
+              <span
+                className={`px-3 py-1 rounded-full text-xs font-bold border ${getBadgeStyle(
+                  claim.status
+                )}`}
+              >
                 {claim.status}
               </span>
             </div>
-            <div className="p-5 space-y-4 text-sm">
-              <div>
-                <div className="font-semibold text-slate-900 mb-1">현재 근거</div>
-                <div className="text-slate-700">{claim.evidence}</div>
+
+            {/* 카드 바디 */}
+            <div className="p-5 sm:p-6 space-y-4 text-xs sm:text-sm">
+              <div className="space-y-1">
+                <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
+                  현재 근거 (Evidence)
+                </span>
+                <p className="text-slate-700 leading-relaxed">{claim.evidence}</p>
               </div>
-              <div className="bg-rose-50 rounded-lg p-3 border border-rose-100">
-                <div className="font-semibold text-rose-900 mb-1">반증 조건 (Falsification)</div>
-                <div className="text-rose-800">{claim.falsification}</div>
+
+              {/* 반증 조건 박스 */}
+              <div className="p-4 rounded-xl bg-rose-50/70 border border-rose-200/70 space-y-1">
+                <span className="text-[11px] font-bold text-rose-800 uppercase tracking-wider block">
+                  반증 조건 (Falsification Criteria)
+                </span>
+                <p className="text-rose-950 font-medium leading-relaxed">{claim.falsification}</p>
               </div>
-              <div>
-                <div className="font-semibold text-slate-900 mb-1">다음 단계</div>
-                <div className="text-slate-700">{claim.nextStep}</div>
+
+              <div className="space-y-1 pt-1 border-t border-slate-100">
+                <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
+                  다음 단계 (Next Step)
+                </span>
+                <p className="text-navy-900 font-semibold">{claim.nextStep}</p>
               </div>
             </div>
           </div>
         ))}
       </div>
+
+      {/* 하단 출처 표기 */}
+      <SourceNote
+        date="2026-09-05"
+        sourceText="kplacelab EVIDENCE.md 원본 대장 및 ADR-0009 사전 등록 의사결정"
+      />
     </div>
   );
 }

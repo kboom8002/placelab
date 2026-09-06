@@ -85,50 +85,51 @@ export default function SubmitPage() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto px-4 sm:px-6 py-10 space-y-8">
-      <div>
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold">
-          <Send className="w-3.5 h-3.5" />
-          Layer 2 셀프체크 결과 등록
+    <div className="max-w-2xl mx-auto px-4 sm:px-6 py-12 space-y-8 animate-fade-in-up">
+      <div className="space-y-2">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-navy-900 text-gold-400 text-xs font-semibold">
+          <Send className="w-3.5 h-3.5 text-gold-400" />
+          Layer 2 · 관측 데이터 제출 프로토콜
         </div>
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mt-2">
-          셀프체크 측정 결과 제출
+        <h1 className="text-3xl font-extrabold text-navy-950 tracking-tight">
+          셀프체크 관측 결과 제출
         </h1>
-        <p className="text-sm text-gray-600 mt-1">
-          실제 AI 서비스에 12개 표준 질문을 던져보고 얻으신 결과를 정직하게 기록해 주세요.
+        <p className="text-sm text-slate-600 leading-relaxed">
+          AI 서비스에 12개 표준 질문을 직접 테스트하고 확인하신 결과를 정직하게 기록해 주세요.
+          연구 데이터베이스에 안전하게 집계되며, 익명 제출을 보장합니다.
         </p>
       </div>
 
       {resultMessage && (
-        <div className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-900 text-sm flex items-start gap-3">
+        <div className="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-900 text-sm flex items-start gap-3 shadow-sm">
           <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
           <div>
-            <div className="font-bold">제출 완료</div>
+            <div className="font-bold text-emerald-950">제출이 성공적으로 완료되었습니다</div>
             <p className="text-xs text-emerald-800 mt-0.5">{resultMessage}</p>
           </div>
         </div>
       )}
 
       {errorMessage && (
-        <div className="p-4 rounded-xl bg-rose-50 border border-rose-200 text-rose-900 text-sm flex items-start gap-3">
+        <div className="p-4 rounded-2xl bg-rose-50 border border-rose-200 text-rose-900 text-sm flex items-start gap-3 shadow-sm">
           <AlertCircle className="w-5 h-5 text-rose-600 shrink-0 mt-0.5" />
           <div>
-            <div className="font-bold">입력 오류</div>
+            <div className="font-bold text-rose-950">입력 정보를 확인해 주세요</div>
             <p className="text-xs text-rose-800 mt-0.5">{errorMessage}</p>
           </div>
         </div>
       )}
 
-      <form onSubmit={handleSubmit} className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 shadow-sm space-y-6">
+      <form onSubmit={handleSubmit} className="bg-white rounded-2xl border border-slate-200/90 p-6 sm:p-8 shadow-editorial space-y-6">
         {/* 대상 단위 선택 */}
         <div>
-          <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">
+          <label className="block text-xs font-bold text-navy-950 uppercase tracking-wider mb-2">
             테스트한 대상 지자체
           </label>
           <select
             value={unitId}
             onChange={(e) => setUnitId(e.target.value)}
-            className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm bg-white focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            className="w-full px-4 py-2.5 border border-slate-200 rounded-xl text-sm font-medium bg-white text-navy-950 focus:ring-2 focus:ring-navy-900/20 focus:border-navy-900 focus:outline-none transition-all"
           >
             <option value="lg-41650">포천시 (경기도)</option>
             <option value="lg-11000">서울특별시</option>
@@ -368,7 +369,7 @@ export default function SubmitPage() {
           </div>
 
           <div>
-            <label className="block text-xs font-medium text-gray-600 mb-1">
+            <label className="block text-xs font-semibold text-slate-700 mb-1">
               이메일 (알림 희망 시에만 입력 · 소속 증명으로 쓰이지 않음)
             </label>
             <input
@@ -376,7 +377,7 @@ export default function SubmitPage() {
               value={submitterEmail}
               onChange={(e) => setSubmitterEmail(e.target.value)}
               placeholder="name@domain.com"
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg text-xs"
+              className="w-full px-3.5 py-2.5 border border-slate-200 rounded-xl text-xs focus:ring-2 focus:ring-navy-900/20 focus:border-navy-900 focus:outline-none transition-all"
             />
           </div>
         </div>
@@ -384,10 +385,10 @@ export default function SubmitPage() {
         <button
           type="submit"
           disabled={submitting || total !== 12}
-          className={`w-full py-3 rounded-xl font-bold text-sm text-white shadow-sm transition-all flex items-center justify-center gap-2 ${
+          className={`w-full py-3.5 rounded-xl font-bold text-sm shadow-md transition-all flex items-center justify-center gap-2 ${
             total === 12 && !submitting
-              ? 'bg-blue-600 hover:bg-blue-700 cursor-pointer'
-              : 'bg-gray-300 cursor-not-allowed'
+              ? 'bg-navy-950 hover:bg-navy-900 text-gold-300 hover:text-gold-200 cursor-pointer hover:shadow-xl hover:scale-[1.01]'
+              : 'bg-slate-200 text-slate-400 cursor-not-allowed shadow-none'
           }`}
         >
           {submitting ? '제출 처리 중...' : '측정 결과 제출하기'}

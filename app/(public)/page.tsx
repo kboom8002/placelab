@@ -4,8 +4,9 @@ import React from 'react';
 import { getUnitsByPopulation } from '@/lib/db/units';
 import { CURRENT_METHOD_VERSION } from '@/lib/constants/measurement';
 import { DashboardClient } from '@/components/dashboard/DashboardClient';
+import { SourceNote } from '@/components/ui/SourceNote';
 import Link from 'next/link';
-import { BookOpen, Send, Sparkles, AlertCircle } from 'lucide-react';
+import { BookOpen, Send, Sparkles, AlertCircle, ArrowRight, ShieldCheck } from 'lucide-react';
 
 export const revalidate = 3600; // SDD 6.1 ISR: 1시간 주기 갱신
 
@@ -16,60 +17,101 @@ export default async function HomePage() {
   ]);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
-      {/* 히어로 섹션 */}
-      <section className="bg-gradient-to-br from-blue-900 via-indigo-900 to-slate-900 text-white rounded-2xl p-6 sm:p-10 shadow-lg relative overflow-hidden">
-        <div className="relative z-10 max-w-3xl space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-200 text-xs font-medium">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>2026-09-05 기준 · 방법론 {CURRENT_METHOD_VERSION} 적용</span>
+    <div className="space-y-12 pb-16">
+      {/* 1. 글로벌 SOTA 에디토리얼 히어로 섹션 */}
+      <section className="relative bg-navy-950 text-white overflow-hidden border-b border-white/10 pt-16 pb-20 sm:pt-20 sm:pb-24">
+        {/* 은은한 배경 광원 효과 */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[400px] bg-gradient-to-b from-navy-800/40 via-gold-500/5 to-transparent blur-3xl pointer-events-none" />
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+          {/* 상단 태그 */}
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-gold-300 text-xs font-semibold backdrop-blur-md">
+            <Sparkles className="w-3.5 h-3.5 text-gold-400" />
+            <span>2026-09-05 기준 · 방법론 {CURRENT_METHOD_VERSION} 적용 · 주간 전수 관측</span>
           </div>
 
-          <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight leading-tight">
-            지자체 AI 기술 접근성 실태
-          </h1>
+          {/* 메인 타이틀 */}
+          <div className="max-w-3xl space-y-4">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.15] text-white">
+              지자체 AI 기술 접근성
+              <span className="block mt-1 text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-400 to-amber-200">
+                주간 독립 측정 현황
+              </span>
+            </h1>
 
-          <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-            전국 243개 지방자치단체와 특별구역 누리집이 생성형 AI 검색 로봇(KPlaceLabBot, GPTBot 등)에게
-            열려 있는지 매주 전수 측정합니다. 본 플랫폼은 순위나 등급을 매기지 않으며, 두 모집단을 임의 합산하지 않습니다.
-          </p>
+            <p className="text-base sm:text-lg text-slate-300 leading-relaxed max-w-2xl font-normal">
+              전국 243개 지방자치단체와 특별구역 누리집이 생성형 AI 검색 로봇에게 열려 있는지 매주 독립 측정합니다.
+              본 플랫폼은 순위나 등급을 매기지 않으며, 법률 근거가 다른 두 모집단을 임의 합산하지 않습니다.
+            </p>
+          </div>
 
-          <div className="pt-2 flex flex-wrap gap-3">
+          {/* 액션 버튼 */}
+          <div className="pt-2 flex flex-wrap items-center gap-4">
             <Link
               href="/selfcheck"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold rounded-lg shadow-sm transition-colors"
+              className="inline-flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-gold-400 to-gold-500 hover:from-gold-300 hover:to-gold-400 text-navy-950 text-sm font-bold rounded-xl shadow-lg hover:shadow-gold-500/20 transition-all hover:scale-[1.02]"
             >
               <Send className="w-4 h-4" />
-              직접 우리 동네 테스트하기
+              우리 동네 AI 답변 셀프체크
+              <ArrowRight className="w-3.5 h-3.5" />
             </Link>
             <Link
               href="/method"
-              className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 text-white text-sm font-semibold rounded-lg backdrop-blur-sm transition-colors"
+              className="inline-flex items-center gap-2 px-5 py-3 bg-white/5 hover:bg-white/10 text-white text-sm font-semibold rounded-xl border border-white/10 backdrop-blur-sm transition-all"
             >
-              <BookOpen className="w-4 h-4" />
+              <BookOpen className="w-4 h-4 text-slate-400" />
               측정 방법론 전문 보기
             </Link>
+          </div>
+
+          {/* 3대 핵심 신뢰 지표 요약 */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 border-t border-white/10 max-w-3xl">
+            <div className="flex items-center gap-2.5 text-xs text-slate-300">
+              <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
+              <span><strong>전수 조사</strong> · 243개 지자체 전수</span>
+            </div>
+            <div className="flex items-center gap-2.5 text-xs text-slate-300">
+              <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
+              <span><strong>INV-3 준수</strong> · 순위·등급 일체 배제</span>
+            </div>
+            <div className="flex items-center gap-2.5 text-xs text-slate-300">
+              <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
+              <span><strong>INV-11 준수</strong> · 사전 등록 연구 공표</span>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* 핵심 가설 및 신뢰 원칙 공지 */}
-      <div className="p-4 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs sm:text-sm flex items-start gap-3">
-        <AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
-        <div className="space-y-1">
-          <div className="font-semibold">측정의 한계와 투명성 안내</div>
-          <p className="text-amber-800 leading-relaxed">
-            무엇이 막고 있는지는 이 측정으로 알 수 없습니다. 서버 보안장비(WAF), 웹서버 설정, CMS 등의 상세 원인은 기관 심층 진단을 통해서만 파악됩니다.
-            또한, 지자체 전수(243곳)와 특별구역(A형 6곳)은 근거 법률과 성격이 달라 절대 합산하지 않고 분리하여 제공합니다.
-          </p>
+      {/* 2. 대시보드 본문 컨테이너 */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+        {/* 투명성 및 한계 안내 배너 */}
+        <div className="p-4 sm:p-5 rounded-2xl bg-amber-50/80 border border-amber-200/80 text-amber-950 text-xs sm:text-sm flex items-start gap-3.5 shadow-sm">
+          <AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+          <div className="space-y-1.5">
+            <div className="font-bold text-amber-900 flex items-center gap-2">
+              <span>측정의 한계와 투명성 원칙</span>
+              <span className="text-[11px] font-normal text-amber-700 font-mono">AGENTS.md INV-1 & INV-2</span>
+            </div>
+            <p className="text-amber-800 leading-relaxed text-xs sm:text-sm">
+              무엇이 막고 있는지는 이 1차 측정으로 알 수 없습니다. 보안장비(WAF), 웹서버 설정, CMS 등 상세 원인은 기관 심층 진단(Layer 4)의 영역입니다.
+              또한 지방자치단체 전수(243곳)와 특별구역(독립 도메인 A형 6곳)은 근거 법률과 조직 성격이 달라 절대 합산하지 않고 독립하여 제공합니다.
+            </p>
+          </div>
         </div>
-      </div>
 
-      {/* 클라이언트 인터랙티브 대시보드 */}
-      <DashboardClient
-        initialLocalGovUnits={localGovUnits}
-        initialSpecialZoneUnits={specialZoneUnits}
-      />
+        {/* 클라이언트 인터랙티브 대시보드 */}
+        <DashboardClient
+          initialLocalGovUnits={localGovUnits}
+          initialSpecialZoneUnits={specialZoneUnits}
+        />
+
+        {/* 하단 학술 출처 표기 */}
+        <SourceNote
+          date="2026-09-05"
+          version={CURRENT_METHOD_VERSION}
+          sourceText="KPlaceLabBot 전국 누리집 주간 전수 스캔 및 행정안전부 주민등록 인구통계"
+        />
+      </div>
     </div>
   );
 }
