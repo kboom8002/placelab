@@ -1,0 +1,28 @@
+{
+  "unit_id": "lg-43745",
+  "unit_name": "증평군",
+  "method_version": "v2.1",
+  "created_at": "2026-09-06",
+  "questions": [
+    { "id": "J-C1-01", "category": "specialty_industry", "body": "증평 인삼이 유명한 이유가 뭐야?", "groundTruth": "보강천 사질양토, 6년근 재배, 증평인삼축제, 충북 인삼 주산지", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" },
+    { "id": "J-C1-02", "category": "specialty_industry", "body": "증평군 주요 산업단지 있어?", "groundTruth": "증평산업단지(증평읍), 도안산업단지(도안면), 중소기업 위주", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "medium" },
+    { "id": "J-C1-03", "category": "specialty_industry", "body": "증평 특산물로 인삼 말고 또 뭐가 있어?", "groundTruth": "한우, 오갈피, 복숭아, 고추, 표고버섯", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "medium" },
+    { "id": "J-C2-01", "category": "landmark", "body": "증평 좌구산자연휴양림 시설이랑 이용 방법 알려줘", "groundTruth": "좌구산(657m) 자연휴양림, 산림욕장, 숲속의 집, 증평읍 소재", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" },
+    { "id": "J-C2-02", "category": "landmark", "body": "증평 에듀팜특구가 뭐야?", "groundTruth": "교육농장 체험특구, 증평 전역 6차산업 체험농장 클러스터", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "hard" },
+    { "id": "J-C2-03", "category": "landmark", "body": "증평민속체험박물관 위치랑 전시 내용 알려줘", "groundTruth": "증평읍, 증평 전통 농경문화·민속 유물 전시, 체험 프로그램", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "medium" },
+    { "id": "J-C3-01", "category": "local_policy", "body": "증평군 귀농귀촌 지원금이나 혜택 있어?", "groundTruth": "귀농귀촌 주거비·농기계·교육비 지원, 빈집 수리비 지원, 귀농인의 집", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" },
+    { "id": "J-C3-02", "category": "local_policy", "body": "증평군 인구 늘리기 정책 뭐가 있어?", "groundTruth": "출산장려금, 전입축하금, 신혼부부 주거지원, 청년 정착 지원", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "medium" },
+    { "id": "J-C3-03", "category": "local_policy", "body": "증평군 무상교복 지원 있어?", "groundTruth": "중·고등학생 무상교복 지원, 교육경비 보조", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "medium" },
+    { "id": "J-C4-01", "category": "heritage", "body": "증평이 독립된 군이 된 게 언제야?", "groundTruth": "2003년 9월 19일 괴산군에서 분리·독립, 대한민국에서 가장 최근 설치된 군", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" },
+    { "id": "J-C4-02", "category": "heritage", "body": "증평 율리 유적 뭐야?", "groundTruth": "증평 율리 선사유적, 구석기~청동기 유물 출토, 충북 지역 선사문화 연구", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "hard" },
+    { "id": "J-C5-01", "category": "geography", "body": "증평에서 서울까지 어떻게 가? 시간 얼마나 걸려?", "groundTruth": "중부고속도로 증평IC, 약 1시간 30분, 시외버스 2시간, KTX 오송역 경유", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" },
+    { "id": "J-C5-02", "category": "geography", "body": "증평군은 몇 개 면으로 되어 있어?", "groundTruth": "1읍(증평읍) 1면(도안면), 전국에서 가장 작은 군 중 하나, 면적 81.84㎢", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" },
+    { "id": "J-C5-03", "category": "geography", "body": "증평 근처 큰 도시가 어디야?", "groundTruth": "청주시(서쪽 30분), 괴산군(동쪽), 진천군(북쪽), 충주시(동북)", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" },
+    { "id": "J-C6-01", "category": "local_food", "body": "증평 대표 음식 뭐야?", "groundTruth": "인삼요리(인삼튀김·인삼백숙), 한우구이, 인삼막걸리", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" },
+    { "id": "J-C6-02", "category": "local_food", "body": "증평 인삼축제에서 먹을 수 있는 음식 뭐야?", "groundTruth": "인삼 튀김, 인삼 백숙, 인삼 떡, 인삼주, 인삼 아이스크림", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "medium" },
+    { "id": "J-C7-01", "category": "recent_issue", "body": "증평 복합커뮤니티센터 건립 계획 있어?", "groundTruth": "증평 복합커뮤니티센터 추진 (시점에 따라 진행 상태 상이)", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "hard" },
+    { "id": "J-C7-02", "category": "recent_issue", "body": "증평군 인구가 얼마야? 최근 추세는?", "groundTruth": "약 3.8만명(2024 기준), 소폭 감소 추세, 귀농귀촌 유입 노력 중", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" },
+    { "id": "J-C7-03", "category": "recent_issue", "body": "증평 스마트팜 사업 진행 중이야?", "groundTruth": "스마트팜 혁신밸리 추진, ICT 기반 농업 기술 보급", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "hard" },
+    { "id": "J-C7-04", "category": "recent_issue", "body": "증평인삼축제 올해 일정 알려줘", "groundTruth": "매년 9~10월 개최, 증평읍 보강천변, 인삼캐기 체험·인삼요리 등", "groundTruthSource": "https://www.jp.go.kr", "difficulty": "easy" }
+  ]
+}

@@ -1,0 +1,2299 @@
+{
+  "measurement": {
+    "id": "m-20260906-43745",
+    "unit_id": "lg-43745",
+    "unit_name": "증평군",
+    "method_version": "v2.1",
+    "ai_service": "chatgpt",
+    "model": "gpt-5.6-luna",
+    "web_search": "on",
+    "mode": "quick",
+    "reps": 3,
+    "status": "completed",
+    "started_at": "2026-09-06T22:44:40.734Z",
+    "completed_at": "2026-09-06T22:49:04.668Z",
+    "total_queries": 150,
+    "error_count": 0,
+    "tier_counts": {
+      "T1": 45,
+      "T2": 60,
+      "T3": 45
+    }
+  },
+  "results": [
+    {
+      "tier": "T1",
+      "questionId": "B-01",
+      "category": "birth",
+      "question": "증평군 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "rep": 1,
+      "response": "증평군 **둘째 출산지원금은 300만 원**, **산후조리비는 50만 원**으로, 합계 **350만 원**입니다.  \n출산지원금은 분할 지급될 수 있으며, 부모·출생아의 증평군 거주기간 등 지급요건을 충족해야 합니다.  \n신청 전 증평군보건소에 대상 여부와 지급방식을 확인하세요: [증평군보건소 임신·출산 지원](https://www.jp.go.kr/health/)",
+      "responseHash": "53e4025d23f86a82",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6604,
+      "citedUrls": [
+        "https://www.jp.go.kr/health/"
+      ],
+      "timestamp": "2026-09-06T22:44:40.734Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-02",
+      "category": "move_in",
+      "question": "증평군 전입신고 하면 받을 수 있는 혜택 있어?",
+      "rep": 1,
+      "response": "증평군은 전입자에게 **전입지원금·지역화폐 등 인구증가 시책**을 운영할 수 있으며, 학생·청년·군인 등 대상별 추가 지원이 있을 수 있습니다. 다만 지원금액과 거주기간 요건이 사업별로 다르고 **전입신고만으로 자동 지급되지 않으므로**, 전입 후 주소지 읍·면 행정복지센터에서 별도 신청해야 합니다. 최신 대상·금액은 증평군청 인구정책 담당 부서(대표전화 **043-835-3114**) 또는 홈페이지에서 확인하세요: https://www.jp.go.kr/",
+      "responseHash": "ea87ec187dff0703",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6437,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:44:40.569Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-03",
+      "category": "waste",
+      "question": "증평군 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+      "rep": 1,
+      "response": "증평군 대형폐기물 수수료는 품목·규격별로 다르며, 정확한 금액은 신청 화면의 품목 목록에서 확인해야 합니다(가구·가전·생활용품 등 항목별 차등 부과).  \n배출 방법은 **증평군청 홈페이지 → 분야별정보 → 환경·위생·청소 → 대형폐기물**에서 온라인 신고 후 품목을 선택하고 수수료를 결제한 뒤, 신고필증을 출력해 부착하거나 접수번호를 기재하여 지정된 배출일에 내놓는 방식입니다.  \n온라인 이용이 어려우면 관할 **읍·면 행정복지센터**에서 수수료를 납부하고 스티커를 발급받을 수 있습니다.  \n증평군청: https://www.jp.go.kr/ (검색창에 ‘대형폐기물’ 입력)",
+      "responseHash": "51015570d25222ce",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9404,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:44:43.535Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-04",
+      "category": "waste_bag",
+      "question": "증평군 종량제봉투 종류별 가격 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7931,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:44:42.062Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-05",
+      "category": "civil",
+      "question": "증평군 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "rep": 1,
+      "response": "증평군청 민원실은 평일 **09:00~18:00** 운영하며, **점심시간(12:00~13:00)에도 교대근무로 민원 접수가 가능**한 것으로 안내됩니다. 다만 담당자 확인이 필요한 민원은 처리 시간이 늦어질 수 있어 점심시간을 피하는 것이 좋습니다. 군청 방문객 주차장은 **무료(주차요금 없음)**입니다. 방문 전 확인은 증평군청 대표전화 **043-835-3114** 또는 홈페이지(https://www.jp.go.kr)에서 하세요.",
+      "responseHash": "648804d0704a4b8d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8526,
+      "citedUrls": [
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:42.657Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-06",
+      "category": "senior_bus",
+      "question": "증평군 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8561,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:44:52.912Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-07",
+      "category": "senior_bath",
+      "question": "증평군 어르신 목욕권이나 이미용 지원 있어?",
+      "rep": 1,
+      "response": "네. 증평군은 **만 70세 이상 어르신을 대상으로 목욕비 및 이·미용비를 지원하는 사업**을 운영하고 있습니다. 보통 증평군에 주민등록을 둔 어르신이 대상이며, 지원금액·지급 방식과 신청 시기는 연도별로 달라질 수 있습니다. 정확한 대상과 신청 방법은 주소지 **읍·면 행정복지센터** 또는 증평군청 복지 관련 부서에 문의해 확인하시기 바랍니다.  \n- 증평군청: https://www.jp.go.kr/",
+      "responseHash": "f2536b66c841660f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7895,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:44:52.247Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-08",
+      "category": "youth_rent",
+      "question": "증평군 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9377,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:44:53.728Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-09",
+      "category": "startup",
+      "question": "증평군 청년 창업 지원금이나 창업 공간 지원 있어?",
+      "rep": 1,
+      "response": "증평군은 청년 창업자를 대상으로 사업화 지원, 창업공간·입주공간 모집 등의 사업을 연도별 공고로 운영하는 경우가 있으므로, 현재 모집 여부는 군청 공고를 확인해야 합니다. 증평군 홈페이지에서 **‘청년’, ‘창업’, ‘입주’**로 검색하거나 **경제기업과·청년지원센터**에 문의해 보세요. 또한 정부 **K-Startup 창업지원포털**과 **충북기업진흥원**에서도 창업지원금 및 공간 입주 공고를 확인할 수 있습니다.  \n- 증평군: https://www.jp.go.kr  \n- K-Startup: https://www.k-startup.go.kr  \n- 충북기업진흥원: https://www.cba.ne.kr",
+      "responseHash": "21fca0c7caee39d6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5989,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.k-startup.go.kr",
+        "https://www.cba.ne.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:50.340Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-10",
+      "category": "night_care",
+      "question": "증평군 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+      "rep": 1,
+      "response": "증평군에는 **밤에 진료하는 소아과가 제한적**이므로, 먼저 **응급의료포털 E-Gen**에서 현재 운영 중인 소아 진료기관·응급실을 확인하세요: https://www.e-gen.or.kr/egen/search_hospital.do  \n아이의 호흡곤란, 의식저하, 경련, 심한 탈수·고열 등이 있으면 병원을 찾기보다 즉시 **119**에 연락하고 안내받으세요.  \n방문 전에는 해당 의료기관에 전화해 **소아 진료 가능 여부와 야간 접수 마감**을 확인하는 것이 안전합니다.",
+      "responseHash": "ac0d33a680d5cfc0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5806,
+      "citedUrls": [
+        "https://www.e-gen.or.kr/egen/search_hospital.do"
+      ],
+      "timestamp": "2026-09-06T22:44:50.157Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-11",
+      "category": "child_care",
+      "question": "증평군 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+      "rep": 1,
+      "response": "증평군 초등학생 돌봄은 **학교 늘봄·돌봄교실**과 **지역아동센터**로 나뉘며, 운영시간·모집 대상·정원은 학교와 센터별로 다릅니다.  \n학교 돌봄교실은 자녀가 다니는 학교 행정실이나 돌봄 담당자에게 문의하고, 증평교육지원청 홈페이지([www.cbe.go.kr/jp](https://www.cbe.go.kr/jp))에서 학교별 안내를 확인할 수 있습니다.  \n지역아동센터는 방과 후 보호·급식·학습·문화활동 등을 제공하며, 센터 목록과 위치는 **지역아동센터중앙지원단 지역아동센터 찾기**([www.icareinfo.go.kr](https://www.icareinfo.go.kr/))에서 ‘충북–증평군’으로 검색하면 됩니다.  \n모집 가능 여부와 이용료·우선순위는 증평군청 대표전화 **043-835-3114** 또는 해당 센터에 확인하는 것이 가장 정확합니다.",
+      "responseHash": "a067da68b49f79df",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6594,
+      "citedUrls": [
+        "https://www.cbe.go.kr/jp",
+        "https://www.icareinfo.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:01.131Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-12",
+      "category": "multicultural",
+      "question": "증평군 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "rep": 1,
+      "response": "증평군 다문화가족지원센터는 현재 **증평군가족센터**로 운영되며, 주소는 **충북 증평군 증평읍 보건복지로 64-2**, 전화는 **043-835-3572**입니다.  \n주요 프로그램은 결혼이민자 대상 한국어교육·통번역 지원, 다문화가족 방문교육, 가족상담·부모교육, 자녀 언어발달 및 다문화가족 교류·소통 프로그램 등입니다.  \n프로그램과 모집 일정은 시기별로 달라질 수 있으므로 방문 전 전화로 확인하거나 가족센터 홈페이지에서 신청하시기 바랍니다.  \n출처: [가족센터 홈페이지](https://www.familynet.or.kr)",
+      "responseHash": "b5016f40bc78ef18",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7524,
+      "citedUrls": [
+        "https://www.familynet.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:02.061Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-13",
+      "category": "loan",
+      "question": "증평군 소상공인 특례보증 대출 조건 알려줘",
+      "rep": 1,
+      "response": "증평군 소상공인 특례보증은 보통 **증평군에 사업장을 둔 소상공인**을 대상으로 하며, 충북신용보증재단의 보증을 통해 금융기관에서 대출받을 수 있도록 지원합니다. 일반적으로 **업체당 보증한도·보증기간, 보증료 지원 및 이차보전율**은 해당 연도 예산과 공고에 따라 달라지므로 신청 시점의 공고를 확인해야 합니다. 신청은 **충북신용보증재단 증평지점 또는 협약 금융기관**에서 상담하며, 사업자등록증·신분증·매출 및 납세 관련 서류 등이 필요할 수 있습니다. 자세한 최신 조건은 [증평군 기업지원 안내](https://www.jp.go.kr)와 [충북신용보증재단](https://www.cbsinbo.or.kr)에서 ‘소상공인 특례보증’ 공고를 확인하거나 재단 콜센터(043-249-5700)에 문의하세요.",
+      "responseHash": "838cfbfd996cec94",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6008,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.cbsinbo.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:00.545Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-14",
+      "category": "tax",
+      "question": "증평군 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+      "rep": 1,
+      "response": "네. 증평군에서는 **‘마을세무사’ 제도**를 통해 소상공인·주민이 세금 신고, 부가가치세·소득세 등에 대해 무료 상담을 받을 수 있습니다. 증평군청 세정·기업 관련 부서나 읍·면사무소에 연락해 현재 배정된 마을세무사와 상담 방법을 확인해 보세요. 또한 **괴산세무서 영세납세자지원단**에서도 무료 세무상담이 가능하며, 국세 상담은 국번 없이 **126**으로 문의할 수 있습니다.  \n- 국세청: https://www.nts.go.kr  \n- 증평군청: https://www.jp.go.kr",
+      "responseHash": "8ff7d6400f73c6e4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6440,
+      "citedUrls": [
+        "https://www.nts.go.kr",
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:00.977Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-15",
+      "category": "festival",
+      "question": "증평군 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+      "rep": 1,
+      "response": "2026년 증평군 대표 축제는 다음과 같습니다.  \n\n- **증평들노래축제**: 6월 개최 예정, **증평민속체험박물관 일원**  \n- **증평인삼골축제**: 10월 개최 예정, **보강천체육공원 및 보강천 일원**  \n- **증평 장뜰두레농요 관련 행사**: 상반기~가을 중 개최, **증평민속체험박물관·지역 농촌마을 일원**  \n\n정확한 2026년 개최일과 세부 프로그램은 변동될 수 있으므로 증평군청 축제·행사 공지를 확인해 주세요: https://www.jp.go.kr/ (대표전화 043-835-3114)",
+      "responseHash": "bcd834eedc225c0d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8501,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:03.038Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-01",
+      "category": "birth",
+      "question": "증평군 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9132,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:13.673Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-02",
+      "category": "move_in",
+      "question": "증평군 전입신고 하면 받을 수 있는 혜택 있어?",
+      "rep": 2,
+      "response": "네. 증평군은 인구 유입을 위해 **전입지원금(증평사랑상품권 등)**, 대학생·청년·귀농·귀촌 관련 지원사업을 운영할 수 있으며, 지원 대상과 금액은 전입자의 연령·이전 거주기간·재학·재직 여부 등에 따라 달라집니다.  \n전입신고 후 **주소지 읍·면 행정복지센터**에서 전입지원금 대상 여부와 신청기한을 확인하는 것이 가장 정확합니다.  \n증평군청 인구·정책 관련 공지와 지원사업은 공식 홈페이지에서 확인하세요: https://www.jp.go.kr/",
+      "responseHash": "2f23345f59956318",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7128,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:11.669Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-03",
+      "category": "waste",
+      "question": "증평군 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+      "rep": 2,
+      "response": "증평군 대형폐기물 수수료는 품목·크기별로 다르며, 보통 장롱·침대·소파 등은 3,000~15,000원, 냉장고·세탁기·TV 등 가전은 약 3,000~10,000원 수준입니다. 정확한 금액은 **증평군청 홈페이지 → 분야별정보 → 환경/위생 → 대형폐기물**의 품목별 수수료표에서 확인하세요.  \n배출은 온라인 신고 또는 읍·면 행정복지센터/지정 판매처에서 수수료를 납부한 뒤, 신고필증(스티커)을 부착해 지정된 배출일·장소에 내놓으면 됩니다. 증평군청: https://www.jp.go.kr/ (검색창에 ‘대형폐기물’ 입력)",
+      "responseHash": "4552bc8a897f72b2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8813,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:13.354Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-04",
+      "category": "waste_bag",
+      "question": "증평군 종량제봉투 종류별 가격 알려줘",
+      "rep": 2,
+      "response": "증평군 종량제봉투 가격은 다음과 같습니다.\n\n- **일반용**: 5L 100원, 10L 200원, 20L 400원, 50L 1,000원, 75L 1,500원  \n- **음식물류 폐기물용**: 1L 50원, 2L 100원, 3L 150원, 5L 250원, 10L 500원, 20L 1,000원  \n- 판매처와 일부 품목은 변경될 수 있으므로, 구매 전 [증평군청 생활폐기물 안내](https://www.jp.go.kr/)에서 최신 내용을 확인하시기 바랍니다.",
+      "responseHash": "cf46a55b397f3a60",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8127,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:12.668Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-05",
+      "category": "civil",
+      "question": "증평군 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "rep": 2,
+      "response": "증평군청 민원실은 **평일 09:00~18:00** 운영하며, **12:00~13:00 점심시간에는 일부 업무가 제한될 수 있어** 중요한 민원은 전후 시간 방문을 권합니다.  \n군청 부설 주차장은 **무료로 이용할 수 있는 것으로 안내되어 있으며**, 별도 주차요금은 없습니다.  \n방문 전 운영 여부는 증평군청 대표전화 **043-835-3114**로 확인하세요.  \n출처: [증평군청 홈페이지](https://www.jp.go.kr/kor.do)",
+      "responseHash": "012e3be1882312ad",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6651,
+      "citedUrls": [
+        "https://www.jp.go.kr/kor.do"
+      ],
+      "timestamp": "2026-09-06T22:45:11.192Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-06",
+      "category": "senior_bus",
+      "question": "증평군 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "rep": 2,
+      "response": "증평군 어르신 버스비 지원 대상은 **증평군에 주민등록을 둔 만 70세 이상 어르신**입니다. 지원금은 **1인당 연 16만 원(분기별 4만 원 한도)**이며, 관내 농어촌버스 이용 시 사용할 수 있습니다. 신청·카드 발급은 주소지 읍·면사무소에서 가능하므로, 준비서류와 정확한 시행 여부는 증평군청에 확인해 주세요.  \n출처: [증평군청](https://www.jp.go.kr) / 문의 증평군청 교통 관련 부서 또는 읍·면사무소",
+      "responseHash": "2f63df20775085e5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7671,
+      "citedUrls": [
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:22.156Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-07",
+      "category": "senior_bath",
+      "question": "증평군 어르신 목욕권이나 이미용 지원 있어?",
+      "rep": 2,
+      "response": "네. 증평군은 어르신을 대상으로 **목욕비 및 이·미용비 지원사업**을 운영하고 있으며, 대상·지원금액·지급방법은 연도별 예산과 조례에 따라 달라질 수 있습니다. 정확한 대상 여부와 이용권 수령 방법은 주소지 **증평읍·도안면 행정복지센터** 또는 증평군청 노인장애인과에 문의해 확인하는 것이 가장 정확합니다. 증평군청 홈페이지: https://www.jp.go.kr/ (대표전화 ☎ 043-835-3114)",
+      "responseHash": "f43b00e909a80dbc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7949,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:22.434Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-08",
+      "category": "youth_rent",
+      "question": "증평군 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+      "rep": 2,
+      "response": "증평군에서 시행하는 **청년 월세 지원**은 공고 기준에 따라 달라질 수 있으나, 일반적으로 **만 19~34세 무주택 청년**, 부모와 별도 거주, 소득·재산 기준을 충족해야 합니다.  \n지원금은 보통 **실제 월세 중 월 최대 20만 원, 최대 24개월**이며, 보증금·월세 상한과 청년가구·원가구 소득 기준이 함께 적용됩니다.  \n신청 가능 여부와 올해 모집기간은 복지로 또는 증평군청 공고에서 확인하는 것이 정확합니다: https://www.bokjiro.go.kr / https://www.jp.go.kr 꼼 꼼",
+      "responseHash": "3d065d114459cfd0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8139,
+      "citedUrls": [
+        "https://www.bokjiro.go.kr",
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:22.623Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-09",
+      "category": "startup",
+      "question": "증평군 청년 창업 지원금이나 창업 공간 지원 있어?",
+      "rep": 2,
+      "response": "네, 증평군은 연도별 공고를 통해 청년 창업 사업화 자금·창업교육·컨설팅 등을 지원하고, 창업 공간은 청년공간이나 공유시설 및 충북창조경제혁신센터 연계 사업으로 지원하는 경우가 있습니다. 다만 대상 연령, 지원금액, 공간 입주 여부와 모집 시기는 매년 달라서 현재 공고를 확인해야 합니다. 증평군청 홈페이지에서 **고시·공고에 ‘청년창업’ 또는 ‘창업’**을 검색하고, 기업지원 담당 부서에 문의해 보세요.  \n- 증평군청: https://www.jp.go.kr/  \n- 기업마당 지원사업 검색: https://www.bizinfo.go.kr/",
+      "responseHash": "20572d52c9263c9f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8321,
+      "citedUrls": [
+        "https://www.jp.go.kr/",
+        "https://www.bizinfo.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:22.805Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-10",
+      "category": "night_care",
+      "question": "증평군 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+      "rep": 2,
+      "response": "증평군에는 밤에 운영하는 소아과가 제한적이므로, **응급의료포털 E-Gen**에서 현재 위치를 증평군으로 설정해 ‘소아청소년과·야간진료’를 확인한 뒤 방문 전 전화하세요: https://www.e-gen.or.kr/egen/search_hospital.do  \n호흡곤란, 경련, 의식저하, 청색증, 심한 탈수·고열 등 응급증상이면 가까운 응급실로 바로 가거나 **119**에 연락하세요.  \n야간 진료기관 안내는 **보건복지상담 129**에서도 확인할 수 있습니다.",
+      "responseHash": "439c065d9e63ce20",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8726,
+      "citedUrls": [
+        "https://www.e-gen.or.kr/egen/search_hospital.do"
+      ],
+      "timestamp": "2026-09-06T22:45:23.210Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-11",
+      "category": "child_care",
+      "question": "증평군 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+      "rep": 2,
+      "response": "증평군 **초등 방과후 돌봄교실(늘봄학교)**은 학교별 운영시간·대상·모집기간이 다르므로 자녀가 다니는 학교 행정실이나 늘봄 담당자에게 신청 가능 여부를 확인하는 것이 가장 정확합니다.  \n**지역아동센터**는 방과 후 학습지도, 급식·간식, 체험활동 등을 제공하며, 이용 대상과 정원은 센터별로 다르므로 복지로에서 ‘지역아동센터’를 검색해 증평군 센터 목록과 연락처를 확인할 수 있습니다.  \n증평군의 아동·청소년 복지 및 지역아동센터 관련 안내는 증평군청 홈페이지에서 확인하거나 군청·읍면 행정복지센터에 문의하세요.  \n- 증평군청: https://www.jp.go.kr/  \n- 복지로: https://www.bokjiro.go.kr/  \n- 정부24 온종일 돌봄서비스: https://www.gov.kr/",
+      "responseHash": "6d0d80c23bd392f3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7729,
+      "citedUrls": [
+        "https://www.jp.go.kr/",
+        "https://www.bokjiro.go.kr/",
+        "https://www.gov.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:31.752Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-12",
+      "category": "multicultural",
+      "question": "증평군 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "rep": 2,
+      "response": "증평군 다문화가족지원센터는 현재 **증평군가족센터**로 운영되며, 주소는 **충북 증평군 증평읍 보건복지로 64**입니다.  \n주요 프로그램은 **한국어교육, 통·번역 및 상담, 결혼이민자 취업·역량강화, 다문화가족 자녀 언어·학습 지원, 방문교육, 가족문화 프로그램** 등이며, 시기별 모집 프로그램은 달라질 수 있습니다.  \n방문 전 운영시간·신청 가능 여부를 **증평군가족센터(043-835-3572)**에 확인하시기 바랍니다.  \n프로그램 안내·신청: [증평군가족센터 홈페이지](https://jp.familynet.or.kr/)",
+      "responseHash": "a2a5e6c22ed4aa33",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6309,
+      "citedUrls": [
+        "https://jp.familynet.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:30.332Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-13",
+      "category": "loan",
+      "question": "증평군 소상공인 특례보증 대출 조건 알려줘",
+      "rep": 2,
+      "response": "증평군 소상공인 특례보증은 **증평군에 사업장을 둔 소상공인**이 충북신용보증재단의 보증을 받아 금융기관에서 대출받을 수 있도록 지원하는 제도이며, 보증한도는 공고 시기별로 달라지지만 보통 **업체당 최대 5,000만 원 이내**입니다.  \n일반적으로 **국세·지방세 체납, 휴·폐업, 금융기관 연체 또는 보증 제한업종**은 지원 대상에서 제외되며, 보증심사와 보증료가 별도로 적용됩니다.  \n대출 실행 후에는 증평군이 이자 일부를 지원하는 **이차보전(통상 연 3% 수준·지원기간은 공고 확인)**이 붙을 수 있으므로, 신청 전 최신 공고를 확인해야 합니다.  \n신청은 충북신용보증재단 증평지점 또는 협약 금융기관에서 하며, 자세한 한도·금리·신청기간은 [증평군 기업지원 안내](https://www.jp.go.kr)와 [충북신용보증재단](https://www.cbsinbo.or.kr)에서 확인하세요.",
+      "responseHash": "72773adb98cce098",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7722,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.cbsinbo.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:31.745Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-14",
+      "category": "tax",
+      "question": "증평군 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+      "rep": 2,
+      "response": "네. 증평군의 **‘마을세무사’ 제도**를 이용하면 소상공인도 국세·지방세 관련 무료 세무상담을 받을 수 있으며, 증평군청 세정과나 주소지 읍·면 행정복지센터에 상담 신청 방법과 담당 세무사를 문의하시면 됩니다. 상담은 전화·방문 방식으로 진행되며, 신고대행이나 세무서류 작성은 지원 범위에서 제외될 수 있습니다. 자세한 안내는 [증평군청 홈페이지](https://www.jp.go.kr)에서 ‘마을세무사’를 검색하거나 국세상담센터 **126**으로 확인하세요.",
+      "responseHash": "30fbf2b65f81ca2e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6226,
+      "citedUrls": [
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:30.249Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-15",
+      "category": "festival",
+      "question": "증평군 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+      "rep": 2,
+      "response": "2026년 증평군 대표 축제는 **증평들노래축제(6월, 증평민속체험박물관 일원)**와 **증평인삼골축제(10월, 보강천체육공원 일원)**가 있으며, 매년 세부 개최일은 달라집니다. 봄에는 **보강천 미루나무숲 일원에서 벚꽃 관련 행사가 열리는 경우**가 있지만, 행사명·일정은 별도 공지를 확인해야 합니다. 정확한 2026년 날짜와 프로그램은 증평군청 홈페이지의 축제·행사 안내에서 확인해 주세요: https://www.jp.go.kr/ (대표전화 043-835-3114)",
+      "responseHash": "8d78cbdbd6dbc01e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8459,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:32.482Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-01",
+      "category": "birth",
+      "question": "증평군 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10222,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:44.207Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-02",
+      "category": "move_in",
+      "question": "증평군 전입신고 하면 받을 수 있는 혜택 있어?",
+      "rep": 3,
+      "response": "네. 증평군은 전입자를 대상으로 **전입지원금 등 인구증가 지원사업**을 운영하지만, 지원 대상·금액·거주기간·신청기한은 사업별로 다르고 전입신고만으로 자동 지급되지는 않습니다. 전입신고 후 주소지 관할 **증평읍·도안면 행정복지센터**에서 본인이 받을 수 있는 지원과 신청서류를 확인해 신청하세요. 최신 공고는 증평군 홈페이지의 **고시·공고/인구정책**에서 확인할 수 있습니다: https://www.jp.go.kr/",
+      "responseHash": "1b4048b448a2920e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6537,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:40.523Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-03",
+      "category": "waste",
+      "question": "증평군 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10100,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:44.086Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-04",
+      "category": "waste_bag",
+      "question": "증평군 종량제봉투 종류별 가격 알려줘",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8522,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:42.509Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-05",
+      "category": "civil",
+      "question": "증평군 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "rep": 3,
+      "response": "증평군청 민원실은 보통 **평일 09:00~18:00** 운영하며, 점심시간(12:00~13:00)에는 담당자 교대에 따라 일부 업무가 지연되거나 중단될 수 있어 방문 전 확인하는 것이 좋습니다. 군청 주차장은 현재 별도 주차요금 없이 이용 가능한 것으로 안내되지만, 행사·민원 집중 시 주차가 제한될 수 있습니다. 정확한 운영 여부와 주차 안내는 증평군청 대표전화 **043-835-3114** 또는 공식 홈페이지에서 확인하세요: https://www.jp.go.kr/",
+      "responseHash": "7a51c36f49006ada",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4860,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:38.846Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-06",
+      "category": "senior_bus",
+      "question": "증평군 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8969,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:53.984Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-07",
+      "category": "senior_bath",
+      "question": "증평군 어르신 목욕권이나 이미용 지원 있어?",
+      "rep": 3,
+      "response": "네. 증평군은 어르신을 대상으로 **목욕비·이미용비 지원사업**을 운영하고 있습니다. 다만 지원 연령, 금액·횟수, 대상 업소는 연도별 예산과 지침에 따라 달라질 수 있으므로 **주소지 읍·면 행정복지센터**에서 확인·신청하는 것이 가장 정확합니다. 자세한 내용은 [증평군청 홈페이지](https://www.jp.go.kr) 또는 증평군청 노인복지 담당 부서에 문의해 주세요.",
+      "responseHash": "643f1233fb8f25ba",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7458,
+      "citedUrls": [
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:52.473Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-08",
+      "category": "youth_rent",
+      "question": "증평군 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9590,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:54.605Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-09",
+      "category": "startup",
+      "question": "증평군 청년 창업 지원금이나 창업 공간 지원 있어?",
+      "rep": 3,
+      "response": "증평군은 연도별 공고에 따라 청년 창업자를 대상으로 사업화자금, 창업 컨설팅·교육, 임차료 또는 입주공간 지원사업을 운영할 수 있으며, 지원 여부와 금액은 매년 달라집니다. 현재 모집 중인 사업은 **증평군청 고시·공고 및 기업·일자리 관련 부서**에 확인하고, 충북도·충북창조경제혁신센터 공고도 함께 살펴보는 것이 좋습니다. 전국 단위로는 예비창업패키지·청년창업사관학교 등을 **K-Startup**에서 신청할 수 있습니다.  \n- 증평군청: https://www.jp.go.kr  \n- K-Startup: https://www.k-startup.go.kr",
+      "responseHash": "83d205f746877b88",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7798,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.k-startup.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:52.813Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-10",
+      "category": "night_care",
+      "question": "증평군 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+      "rep": 3,
+      "response": "증평군에는 밤늦게까지 운영하는 소아과가 제한적이므로, **응급의료포털 E-Gen(https://www.e-gen.or.kr)**에서 현재 진료 중인 소아과·달빛어린이병원을 확인해 주세요. 고열이 지속되거나 호흡곤란, 경련, 의식저하, 심한 탈수·구토가 있으면 가까운 응급실을 119에 문의해 바로 방문해야 합니다. 방문 전에는 **119 또는 보건복지상담센터 129**에 아이의 증상과 현재 위치를 말하면 이용 가능한 병원을 안내받을 수 있습니다.",
+      "responseHash": "6ec366664410670f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7302,
+      "citedUrls": [
+        "https://www.e-gen.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:52.317Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-11",
+      "category": "child_care",
+      "question": "증평군 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+      "rep": 3,
+      "response": "증평군 초등학생 돌봄은 **학교 초등돌봄교실·늘봄학교**, **지역아동센터**, **다함께돌봄센터**에서 이용할 수 있습니다. 학교 돌봄교실은 자녀가 다니는 학교 행정실이나 담임교사에게 모집 시기·대상·신청 방법을 확인하고, 지역아동센터는 공식 홈페이지에서 증평군을 검색해 기관별 운영시간과 이용료를 확인하세요.  \n- 지역아동센터 찾기: https://www.icareinfo.go.kr  \n- 다함께돌봄센터 찾기: https://www.dadol.or.kr  \n정확한 증평군 내 시설·대기 현황은 **증평군청 또는 주소지 읍·면 행정복지센터**에 문의하거나 보건복지상담센터 **129**로 안내받을 수 있습니다.",
+      "responseHash": "ee15f4d0aab713e1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8613,
+      "citedUrls": [
+        "https://www.icareinfo.go.kr",
+        "https://www.dadol.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:46:04.020Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-12",
+      "category": "multicultural",
+      "question": "증평군 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "rep": 3,
+      "response": "증평군 다문화가족지원센터는 현재 **증평군가족센터**로 운영되며, 주소는 **충북 증평군 증평읍 보건복지로 64-2**입니다.  \n주요 프로그램은 결혼이민자 한국어교육, 방문교육, 통·번역 및 상담, 다문화가족 자녀 언어·학습 지원, 가족문화·부모교육 등이며 시기별로 달라질 수 있습니다.  \n신청 일정과 정확한 운영 장소는 증평군가족센터 홈페이지 또는 전화로 확인해 주세요: [증평군가족센터](https://jp.familynet.or.kr/) (대표전화는 홈페이지에서 확인 가능).",
+      "responseHash": "12bea53bf02a920c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6491,
+      "citedUrls": [
+        "https://jp.familynet.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:01.898Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-13",
+      "category": "loan",
+      "question": "증평군 소상공인 특례보증 대출 조건 알려줘",
+      "rep": 3,
+      "response": "증평군 소상공인 특례보증은 **증평군에 사업장을 둔 소상공인**이 충북신용보증재단의 보증을 받아 금융기관에서 대출받을 수 있도록 지원하는 제도입니다. 일반적으로 **업체당 최대 5,000만 원 이내**에서 보증이 가능하며, 보증한도·보증기간·이차보전(이자 지원) 여부는 해당 연도 예산과 협약은행에 따라 달라질 수 있습니다. 신청은 **충북신용보증재단 증평지점 또는 협약 금융기관**에서 하며, 사업자등록증·신분증·국세·지방세 납세증명서 등 서류가 필요할 수 있습니다. 최신 한도와 금리는 증평군청 기업지원 담당부서(043-835-?) 또는 충북신용보증재단 홈페이지에서 확인하세요: https://www.cbsinbo.or.kr / https://www.jp.go.kr",
+      "responseHash": "483038abc558f96b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6026,
+      "citedUrls": [
+        "https://www.cbsinbo.or.kr",
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:46:01.433Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-14",
+      "category": "tax",
+      "question": "증평군 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+      "rep": 3,
+      "response": "네. 증평군에서는 **마을세무사 제도**를 통해 소상공인·주민이 국세·지방세에 대해 무료 세무 상담을 받을 수 있습니다(신고서 작성·대행 등은 제외될 수 있음). 신청은 **증평군청 세정과 또는 가까운 읍·면 행정복지센터**에 문의해 배정된 마을세무사와 전화·방문 상담을 진행하면 됩니다. 소상공인 경영·세무 전반은 **소상공인시장진흥공단 1357**에서도 안내받을 수 있습니다.  \n- 증평군청: https://www.jp.go.kr/  \n- 소상공인시장진흥공단: https://www.semas.or.kr/",
+      "responseHash": "f0e8481ff643c171",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6760,
+      "citedUrls": [
+        "https://www.jp.go.kr/",
+        "https://www.semas.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:02.167Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-15",
+      "category": "festival",
+      "question": "증평군 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+      "rep": 3,
+      "response": "2026년 증평군 대표 축제는 다음과 같습니다(정확한 개최일은 주최 측 사정에 따라 변동될 수 있습니다).\n\n- **증평들노래축제**: 6월경, **증평민속체험박물관 일원**\n- **증평인삼골축제**: 10월경, **보강천체육공원 일원**\n- **증평 벚꽃축제**: 4월경, **보강천변 일원**\n\n확정된 2026년 날짜와 세부 프로그램은 증평군청 홈페이지의 **문화·관광 및 행사일정**에서 확인해 주세요: https://www.jp.go.kr/",
+      "responseHash": "fc4ea0e8f60cb87e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7761,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:03.168Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C1-01",
+      "category": "specialty_industry",
+      "question": "증평 인삼이 유명한 이유가 뭐야?",
+      "rep": 1,
+      "response": "증평 인삼은 사계절이 뚜렷하고 일교차가 큰 기후, 깨끗한 물과 비옥한 토양 등 인삼 재배에 알맞은 환경에서 자라 품질이 좋다고 알려져 있습니다. 또한 오랜 재배 경험과 생산·가공 기술이 축적되어 있으며, 증평인삼골축제와 직거래·가공품 등을 통해 인지도가 높아졌습니다. 특히 증평군이 지역 대표 특산품으로 품질 관리와 홍보를 꾸준히 해 온 점도 유명해진 이유입니다.  \n출처: [증평군청](https://www.jp.go.kr/) / [증평인삼골축제](https://www.jp.go.kr/tour/)",
+      "responseHash": "980fdf86838380d6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5529,
+      "citedUrls": [
+        "https://www.jp.go.kr/",
+        "https://www.jp.go.kr/tour/"
+      ],
+      "timestamp": "2026-09-06T22:46:09.551Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C1-02",
+      "category": "specialty_industry",
+      "question": "증평군 주요 산업단지 있어?",
+      "rep": 1,
+      "response": "네. 증평군의 주요 산업단지는 **증평일반산업단지**, **증평2일반산업단지**, **도안농공단지**로, 식품·화학·기계·전자부품 등 제조업체가 입주해 있습니다. 산업단지별 입주기업과 분양·임대 현황은 증평군청 기업지원 부서나 한국산업단지공단 산업입지정보시스템에서 확인할 수 있습니다.  \n- 증평군청: https://www.jp.go.kr/  \n- 한국산업단지공단: https://www.kicox.or.kr/",
+      "responseHash": "4c4c6746a86af488",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7293,
+      "citedUrls": [
+        "https://www.jp.go.kr/",
+        "https://www.kicox.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:11.314Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C1-03",
+      "category": "specialty_industry",
+      "question": "증평 특산물로 인삼 말고 또 뭐가 있어?",
+      "rep": 1,
+      "response": "증평은 인삼 외에도 **장뜰쌀·잡곡**, **사과·배**, **고추**, **증평 한우** 등이 대표적인 지역 농특산물로 알려져 있습니다.  \n특히 ‘장뜰’은 증평의 농특산물 공동브랜드로, 쌀과 잡곡·과일 제품에 많이 활용됩니다.  \n자세한 품목과 판매처는 [증평군청 홈페이지](https://www.jp.go.kr/)에서 ‘농특산물’ 또는 ‘장뜰’을 검색해 확인할 수 있습니다.",
+      "responseHash": "07e0a4e996a51428",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6046,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:10.067Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C2-01",
+      "category": "landmark",
+      "question": "증평 좌구산자연휴양림 시설이랑 이용 방법 알려줘",
+      "rep": 1,
+      "response": "증평 **좌구산자연휴양림**에는 숲속의집·산림문화휴양관 등 숙박시설과 야영장, 산책로, 휴게시설이 있으며, 인근에 좌구산 명상구름다리·천문대·숲속모험시설 등도 함께 이용할 수 있습니다.  \n이용은 **숲나들e**에서 회원가입 후 ‘좌구산자연휴양림’을 검색해 날짜와 시설을 선택하고 예약·결제하면 됩니다.  \n성수기·주말에는 추첨 또는 조기 마감될 수 있고, 이용요금·입실/퇴실 시간·휴관일은 시설별로 다르므로 예약 화면의 최신 안내를 확인하세요.  \n예약 및 요금 확인: [숲나들e](https://www.foresttrip.go.kr/) / 증평군청: [https://www.jp.go.kr/](https://www.jp.go.kr/)",
+      "responseHash": "b2608b2e6483157b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7753,
+      "citedUrls": [
+        "https://www.foresttrip.go.kr/",
+        "https://www.jp.go.kr/](https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:11.774Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C2-02",
+      "category": "landmark",
+      "question": "증평 에듀팜특구가 뭐야?",
+      "rep": 1,
+      "response": "증평 에듀팜특구는 충북 증평군 도안면 원남저수지 일대에 조성된 **농촌체험·교육·관광·휴양 복합단지**입니다.  \n농업과 자연을 주제로 한 체험시설을 비롯해 골프장, 루지, 수상레저, 목장·동물체험, 숙박시설 등이 운영되며, 현재는 주로 **벨포레 리조트**라는 이름으로 알려져 있습니다.  \n자세한 시설과 이용 안내는 증평군 문화관광 홈페이지에서 확인할 수 있습니다: https://www.jeungpyeong.go.kr/tour/",
+      "responseHash": "d529f0c8bf3d76c8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5907,
+      "citedUrls": [
+        "https://www.jeungpyeong.go.kr/tour/"
+      ],
+      "timestamp": "2026-09-06T22:46:09.928Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C2-03",
+      "category": "landmark",
+      "question": "증평민속체험박물관 위치랑 전시 내용 알려줘",
+      "rep": 1,
+      "response": "증평민속체험박물관은 **충청북도 증평군 도안면 둔덕길 89**에 있습니다.  \n전시관에는 증평 지역의 농경·생활문화를 보여주는 농기구, 전통생활용품, 민속자료 등이 전시되어 있으며, 농경문화관과 민속체험관을 중심으로 구성되어 있습니다.  \n전통놀이, 농촌생활 및 공예 관련 체험 프로그램이 운영될 수 있으므로 방문 전 일정과 체험 가능 여부를 확인하는 것이 좋습니다.  \n자세한 내용은 **증평민속체험박물관 홈페이지**(https://www.jp.go.kr/museum.do)에서 확인하세요.",
+      "responseHash": "e76bc0a1800a0c8e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5404,
+      "citedUrls": [
+        "https://www.jp.go.kr/museum.do"
+      ],
+      "timestamp": "2026-09-06T22:46:17.978Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C3-01",
+      "category": "local_policy",
+      "question": "증평군 귀농귀촌 지원금이나 혜택 있어?",
+      "rep": 1,
+      "response": "네. 증평군은 귀농·귀촌인을 대상으로 **귀농 농업창업·주택구입 지원(저리 융자)**, 귀농·귀촌 교육 및 상담, 영농 정착 관련 사업 등을 운영하며, 사업별로 대상·한도·신청기간이 다릅니다.  \n특히 농업창업·주택구입 지원은 보조금이 아니라 융자사업인 경우가 많으므로, 매년 공고되는 자격요건과 신청 시기를 확인해야 합니다.  \n최신 지원내용은 [증평군청 홈페이지](https://www.jp.go.kr)에서 **농업기술센터 → 귀농·귀촌** 메뉴를 확인하거나, 증평군 농업기술센터에 문의해 주세요.",
+      "responseHash": "25b9cb794b00e809",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6146,
+      "citedUrls": [
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:46:18.720Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C3-02",
+      "category": "local_policy",
+      "question": "증평군 인구 늘리기 정책 뭐가 있어?",
+      "rep": 1,
+      "response": "증평군의 주요 인구 늘리기 정책은 **전입자 지원**, **청년·신혼부부 정착 지원**, **출산·양육 및 다자녀 지원**, **귀농·귀촌 지원** 등으로 구성됩니다.  \n세부적으로는 전입지원금·지역화폐 지원, 출산축하금과 산후·육아 지원, 청년 주거·취업 지원, 귀농 창업·주택 지원 등이 있으며 사업별 대상과 금액은 달라질 수 있습니다.  \n최신 지원 내용과 신청 방법은 증평군청 홈페이지에서 **‘인구증가’ 또는 ‘인구정책’**으로 검색하거나 읍·면 행정복지센터에 문의하는 것이 가장 정확합니다: https://www.jp.go.kr/",
+      "responseHash": "9b2a70c2f99e049b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5619,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:18.193Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C3-03",
+      "category": "local_policy",
+      "question": "증평군 무상교복 지원 있어?",
+      "rep": 1,
+      "response": "네. 증평군은 관내 중·고등학교 신입생 등을 대상으로 교복구입비를 지원하는 제도를 운영하고 있으며, 지원 대상·금액·신청기간은 연도별 공고에 따라 달라질 수 있습니다. 정확한 2026년 기준은 증평군청 홈페이지의 **고시·공고/복지 분야**에서 ‘교복구입비’를 검색하거나 증평군 평생교육과에 문의해 확인하세요.  \n증평군청: https://www.jp.go.kr/ 증평군 민원콜센터: 043-835-3114",
+      "responseHash": "bf90974f838b29cc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4775,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:17.349Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C4-01",
+      "category": "heritage",
+      "question": "증평이 독립된 군이 된 게 언제야?",
+      "rep": 1,
+      "response": "증평군은 **2003년 8월 30일**, 괴산군에서 분리되어 독립된 군으로 출범했습니다.  \n따라서 2026년 기준으로 독립 군이 된 지 약 23년이 되었습니다.  \n출처: [증평군청](https://www.jp.go.kr/)",
+      "responseHash": "6a8f94ce59bd102a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4224,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:16.798Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C4-02",
+      "category": "heritage",
+      "question": "증평 율리 유적 뭐야?",
+      "rep": 1,
+      "response": "증평 **율리 유적**은 증평군 율리 일대에서 확인된 선사시대 고고학 유적으로, 청동기시대 주거지와 토기·석기 등 생활 흔적이 조사된 곳입니다. 당시 사람들이 집을 짓고 생활했던 모습을 보여주는 중요한 자료지만, 현재는 일반적인 관광지처럼 유구가 크게 정비·공개된 장소는 아닙니다. 자세한 발굴 내용은 국가유산청 국가유산포털에서 ‘증평 율리 유적’을 검색하면 확인할 수 있습니다: https://www.heritage.go.kr/",
+      "responseHash": "ed5ce9bdaaba7bc7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10104,
+      "citedUrls": [
+        "https://www.heritage.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:29.630Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C5-01",
+      "category": "geography",
+      "question": "증평에서 서울까지 어떻게 가? 시간 얼마나 걸려?",
+      "rep": 1,
+      "response": "증평에서 서울까지는 **시외버스**가 가장 간편하며, 증평시외버스터미널에서 **동서울터미널까지 약 1시간 40분~2시간 20분** 정도 걸립니다(교통 상황에 따라 변동).  \n**승용차**는 중부고속도로를 이용하면 약 **1시간 40분~2시간 30분**이지만, 출퇴근 시간에는 더 오래 걸릴 수 있습니다.  \n출발 시간과 서울의 도착지를 정하면 정확한 소요 시간과 버스 시간표를 확인할 수 있으며, 버스 예매는 [버스타고](https://www.bustago.or.kr) 또는 [티머니GO](https://www.t-money.co.kr)에서 확인하세요.",
+      "responseHash": "7c51d06ac4be2f87",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4403,
+      "citedUrls": [
+        "https://www.bustago.or.kr",
+        "https://www.t-money.co.kr"
+      ],
+      "timestamp": "2026-09-06T22:46:23.929Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C5-02",
+      "category": "geography",
+      "question": "증평군은 몇 개 면으로 되어 있어?",
+      "rep": 1,
+      "response": "증평군은 **1개 면(도안면)**으로 구성되어 있습니다.  \n전체 행정구역은 **1개 읍(증평읍)과 1개 면(도안면)**입니다.  \n출처: [증평군청](https://www.jp.go.kr/)",
+      "responseHash": "1bdbcfdfdc28a081",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 2899,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:22.425Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C5-03",
+      "category": "geography",
+      "question": "증평 근처 큰 도시가 어디야?",
+      "rep": 1,
+      "response": "증평에서 가장 가까운 큰 도시는 **청주시**입니다. 증평군청 기준 청주 도심까지는 약 30~40km로, 차량으로 보통 40분~1시간 정도 걸립니다. 그 밖에 비교적 가까운 큰 도시는 **충주시**와 **대전광역시**이며, 생활·교통권으로는 청주와 가장 밀접합니다.",
+      "responseHash": "aaaee8592870641c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3958,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:46:23.484Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C6-01",
+      "category": "local_food",
+      "question": "증평 대표 음식 뭐야?",
+      "rep": 1,
+      "response": "증평의 대표적인 먹거리로는 **증평인삼을 활용한 인삼삼계탕·인삼튀김·인삼정식**이 있습니다.  \n또한 금강 상류 지역에서 잡히는 다슬기로 만든 **올갱이국**도 향토 음식으로 많이 알려져 있습니다.  \n지역 특산품으로는 **증평인삼과 장뜰쌀**을 함께 알아보시면 좋습니다.  \n자세한 관광·맛집 정보는 증평군 문화관광 홈페이지에서 확인할 수 있습니다: https://www.jp.go.kr/tour/",
+      "responseHash": "a48ecd974a7272af",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4055,
+      "citedUrls": [
+        "https://www.jp.go.kr/tour/"
+      ],
+      "timestamp": "2026-09-06T22:46:23.581Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C6-02",
+      "category": "local_food",
+      "question": "증평 인삼축제에서 먹을 수 있는 음식 뭐야?",
+      "rep": 1,
+      "response": "증평 인삼축제에서는 **인삼튀김·인삼전·인삼삼겹살·인삼닭강정 등 인삼을 활용한 음식**과 일반 먹거리장터 음식을 맛볼 수 있습니다. 또한 **인삼막걸리, 인삼주스·인삼차** 같은 음료와 지역 농특산물도 판매되는 경우가 많습니다. 부스와 메뉴는 해마다 달라질 수 있으므로, 방문 전 증평군청 축제 안내를 확인하세요: [증평군청](https://www.jp.go.kr/)",
+      "responseHash": "82051ae0b63d03ed",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4866,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:35.299Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-01",
+      "category": "recent_issue",
+      "question": "증평 복합커뮤니티센터 건립 계획 있어?",
+      "rep": 1,
+      "response": "네. 증평군은 주민 편의시설과 문화·복지 기능을 한곳에 모은 **복합커뮤니티센터 건립을 추진하는 계획**을 마련한 것으로 알려져 있습니다. 다만 사업 규모와 착공·준공 일정은 예산 확보와 행정절차에 따라 변경될 수 있으므로, 최신 확정 내용은 증평군청의 고시·공고 및 보도자료를 확인하는 것이 정확합니다.  \n증평군청: https://www.jp.go.kr/",
+      "responseHash": "43d12ecbebce226c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5992,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:36.425Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-02",
+      "category": "recent_issue",
+      "question": "증평군 인구가 얼마야? 최근 추세는?",
+      "rep": 1,
+      "response": "증평군 인구는 최근 주민등록 기준으로 **약 3만 7천 명**입니다(월말 기준으로 소폭 변동). 최근 추세는 과거의 감소세에서 벗어나 **3만 6천~3만 7천 명대에서 보합하거나 소폭 증가**하는 흐름으로, 산업단지 조성·정주 여건 개선 등이 영향을 주고 있습니다. 정확한 최신 월별 수치는 행정안전부 **주민등록 인구통계**에서 확인할 수 있습니다: https://jumin.mois.go.kr/ ",
+      "responseHash": "3b9ec68935e07205",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10065,
+      "citedUrls": [
+        "https://jumin.mois.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:40.498Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-03",
+      "category": "recent_issue",
+      "question": "증평 스마트팜 사업 진행 중이야?",
+      "rep": 1,
+      "response": "네. 증평군은 시설원예 스마트팜·청년농업인 스마트농업 등 관련 지원사업을 추진하고 있지만, ‘증평 스마트팜 사업’이라는 단일 대형 사업명으로 진행되는 것은 아닙니다. 연도별로 사업 내용과 모집 여부가 달라지므로, 현재 신청 가능한 사업은 증평군청 고시·공고 또는 농업기술센터 공지에서 확인해야 합니다.  \n공식 홈페이지: https://www.jp.go.kr/ (고시·공고에서 ‘스마트팜’ 검색)",
+      "responseHash": "a98bf6e8f7d28334",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6603,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:37.036Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-04",
+      "category": "recent_issue",
+      "question": "증평인삼축제 올해 일정 알려줘",
+      "rep": 1,
+      "response": "2026년 **증평인삼골축제 일정은 아직 공식 확정·공지되지 않은 것으로 보입니다.** 축제는 매년 가을 증평군 보강천체육공원 일원에서 열리며, 지난해에는 10월 초에 개최됐습니다. 정확한 날짜와 프로그램은 증평군청 공지사항에서 확인해 주세요: https://www.jp.go.kr/",
+      "responseHash": "10bc426259f30015",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6900,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:37.333Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C1-01",
+      "category": "specialty_industry",
+      "question": "증평 인삼이 유명한 이유가 뭐야?",
+      "rep": 2,
+      "response": "증평 인삼은 중부 내륙의 큰 일교차와 배수가 잘되는 토양 등 인삼 재배에 알맞은 환경에서 자라 품질이 좋다는 평가를 받습니다. 또한 오래된 재배 경험과 생산·선별·유통 관리, **증평인삼골축제** 등을 통한 꾸준한 홍보가 더해져 전국적으로 이름을 알렸습니다. 특히 인삼을 활용한 홍삼·가공식품 등 다양한 상품도 인지도 형성에 기여했습니다.  \n출처: [증평군청](https://www.jp.go.kr/), [증평인삼골축제](https://www.jp.go.kr/portal/contents.do?key=)",
+      "responseHash": "5a64c44a4dc987e1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4935,
+      "citedUrls": [
+        "https://www.jp.go.kr/",
+        "https://www.jp.go.kr/portal/contents.do?key="
+      ],
+      "timestamp": "2026-09-06T22:46:46.947Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C1-02",
+      "category": "specialty_industry",
+      "question": "증평군 주요 산업단지 있어?",
+      "rep": 2,
+      "response": "네. 증평군의 대표적인 산업단지는 **증평일반산업단지**와 **증평2일반산업단지**로, 도안면 일원에 조성되어 식품·화학·전자부품·바이오 관련 기업 등이 입주해 있습니다. 또한 **증평 초중일반산업단지** 등 추가 산업단지 조성 사업도 추진되고 있습니다. 자세한 입주기업·분양 현황은 증평군청 기업지원·산업단지 안내에서 확인할 수 있습니다: https://www.jp.go.kr/ (증평군청 홈페이지에서 ‘산업단지’ 검색)",
+      "responseHash": "3a95da5b4ea9ec84",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7986,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:49.998Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C1-03",
+      "category": "specialty_industry",
+      "question": "증평 특산물로 인삼 말고 또 뭐가 있어?",
+      "rep": 2,
+      "response": "증평은 인삼 외에도 **장뜰쌀(쌀)**, **증평사과**, **찰옥수수**, **증평한우** 등이 대표적인 지역 특산물로 알려져 있습니다. 계절에 따라 판매 품목과 생산 농가가 달라질 수 있으니, 구매 전 증평군 농업기술센터나 로컬푸드 매장에 확인하는 것이 좋습니다. 자세한 내용은 [증평군청 홈페이지](https://www.jp.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "64455eb140fe9a27",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4976,
+      "citedUrls": [
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:46:46.988Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C2-01",
+      "category": "landmark",
+      "question": "증평 좌구산자연휴양림 시설이랑 이용 방법 알려줘",
+      "rep": 2,
+      "response": "증평 **좌구산자연휴양림**에는 숲속의집·산림문화휴양관 등 숙박시설과 야영장, 산책로·등산로가 있으며, 인근 좌구산천문대·출렁다리·명상구름다리 등 휴양·체험시설도 함께 이용할 수 있습니다.  \n숙박과 야영은 산림청 **숲나들e**(https://www.foresttrip.go.kr)에서 회원가입 후 ‘좌구산자연휴양림’을 검색해 예약하며, 성수기·주말은 추첨 또는 조기 마감될 수 있습니다.  \n방문 전 객실별 기준인원·이용요금·입실 및 퇴실시간, 야영장 운영 여부와 체험시설 운영일을 예약 화면에서 확인하세요.  \n문의 및 최신 공지는 증평군 관광 홈페이지(https://www.jp.go.kr/tour) 또는 좌구산자연휴양림 관리사무소를 통해 확인하는 것이 가장 정확합니다.",
+      "responseHash": "566e383ab2ed8d31",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6861,
+      "citedUrls": [
+        "https://www.foresttrip.go.kr",
+        "https://www.jp.go.kr/tour"
+      ],
+      "timestamp": "2026-09-06T22:46:48.873Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C2-02",
+      "category": "landmark",
+      "question": "증평 에듀팜특구가 뭐야?",
+      "rep": 2,
+      "response": "증평 에듀팜특구는 충북 증평군 도안면 일대에 조성된 **농촌 체험·교육과 관광을 결합한 지역특화발전특구**입니다. 골프장, 루지, 수상레저, 목장·체험시설, 식음·숙박시설 등이 있는 관광단지로 운영되며, 현재는 주로 **‘벨포레 리조트’**라는 이름으로 알려져 있습니다. 2018년 중소벤처기업부의 지역특화발전특구로 지정됐으며, 자세한 시설·이용 정보는 [벨포레 공식 홈페이지](https://www.bell-foret.com/)와 [증평군청](https://www.jp.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "4f1081d7db2a1e87",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5231,
+      "citedUrls": [
+        "https://www.bell-foret.com/",
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:47.243Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C2-03",
+      "category": "landmark",
+      "question": "증평민속체험박물관 위치랑 전시 내용 알려줘",
+      "rep": 2,
+      "response": "증평민속체험박물관은 **충청북도 증평군 증평읍 둔덕길 89**에 있습니다.  \n증평 지역의 농경문화와 전통 생활자료를 비롯해 농기구·민속용품 등을 전시하며, 전통 공예와 민속놀이 등 가족 체험 프로그램도 운영합니다.  \n방문 전 운영시간·휴관일·체험 일정은 증평군 문화관광 홈페이지에서 확인해 주세요: [증평군 문화관광](https://www.jp.go.kr/tour)",
+      "responseHash": "bafadfb523f473f7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5316,
+      "citedUrls": [
+        "https://www.jp.go.kr/tour"
+      ],
+      "timestamp": "2026-09-06T22:46:56.128Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C3-01",
+      "category": "local_policy",
+      "question": "증평군 귀농귀촌 지원금이나 혜택 있어?",
+      "rep": 2,
+      "response": "네, 증평군에는 귀농·귀촌인을 위한 **귀농 농업창업 및 주택구입 융자**, 귀농귀촌 교육·상담, 농촌에서 살아보기 등 지원사업이 있으며, 사업에 따라 정착지원금이나 주거·영농 관련 보조사업이 별도 공고됩니다.  \n다만 지원금액과 자격은 매년 예산·공고에 따라 달라지며, 일반적으로 전입 시기·영농경력·교육 이수 요건을 확인해야 합니다.  \n최신 공고는 [증평군청](https://www.jp.go.kr)에서 ‘귀농귀촌’ 또는 ‘농업기술센터’를 검색하거나 증평군 농업기술센터에 문의하는 것이 가장 정확합니다.  \n전국 공통 귀농 지원사업은 [귀농귀촌종합센터](https://www.returnfarm.com)에서도 확인할 수 있습니다.",
+      "responseHash": "8feed0c7fe97b55d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7207,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.returnfarm.com"
+      ],
+      "timestamp": "2026-09-06T22:46:58.019Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C3-02",
+      "category": "local_policy",
+      "question": "증평군 인구 늘리기 정책 뭐가 있어?",
+      "rep": 2,
+      "response": "증평군의 인구 늘리기 정책은 크게 **출산·양육 지원**, **전입 장려**, **청년·신혼부부 정착**, **귀농·귀촌 및 일자리 지원**, **생활 SOC·주거환경 개선**으로 추진됩니다.  \n세부적으로는 출산축하·장려금, 산후·육아 지원, 다자녀 혜택, 다른 지역에서 전입한 가구에 대한 지원 등이 있으며, 지원 금액과 거주기간 등 자격요건은 사업별로 다릅니다.  \n최신 사업과 신청 방법은 증평군청 홈페이지의 **인구·청년·복지 분야 및 고시공고**에서 확인하거나 증평군청 대표전화(043-835-3114)로 문의하세요.  \n출처: [증평군청](https://www.jp.go.kr), [정부24](https://www.gov.kr)",
+      "responseHash": "dc992d8dd9a93016",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6132,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.gov.kr"
+      ],
+      "timestamp": "2026-09-06T22:46:56.944Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C3-03",
+      "category": "local_policy",
+      "question": "증평군 무상교복 지원 있어?",
+      "rep": 2,
+      "response": "네. 증평군은 **증평군에 주민등록을 둔 중·고등학교 신입생에게 교복구입비를 지원**하는 제도를 운영하며, 최근 기준 지원액은 **1인당 최대 30만 원**입니다. 관내 학교 학생은 학교를 통해 지급되는 경우가 많고, 관외 학교 재학생은 주소지 읍·면사무소에 별도 신청해야 할 수 있으므로 신청기간·대상은 매년 확인해야 합니다. 자세한 사항은 증평군청 홈페이지와 거주지 읍·면사무소에서 확인하세요: https://www.jp.go.kr/",
+      "responseHash": "84d91697a79294ab",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5994,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:56.806Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C4-01",
+      "category": "heritage",
+      "question": "증평이 독립된 군이 된 게 언제야?",
+      "rep": 2,
+      "response": "증평은 **2003년 8월 30일**, 괴산군에서 분리되어 **증평군으로 공식 출범**했습니다. 그전에는 1990년부터 괴산군 소속의 **증평출장소**로 운영되었습니다.  \n출처: [증평군청](https://www.jp.go.kr/)",
+      "responseHash": "06043d46ebaafb0c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4065,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:54.877Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C4-02",
+      "category": "heritage",
+      "question": "증평 율리 유적 뭐야?",
+      "rep": 2,
+      "response": "증평 율리 유적은 충북 증평군 율리 일대에서 발굴된 **선사시대~고대의 생활 흔적이 남은 고고학 유적**입니다. 발굴 과정에서 주거지와 구덩이 등 당시 사람들이 생활했던 흔적이 확인되어, 증평 지역의 옛 정착과 생활문화를 보여주는 자료로 평가됩니다. 현재는 일반적인 관광지라기보다 유적의 보존과 학술조사가 중심이며, 방문 전 증평군 문화관광 안내를 확인하는 것이 좋습니다.  \n출처: [증평군 문화관광](https://www.jp.go.kr/tour.do)",
+      "responseHash": "6bbd45ff13797ed0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8961,
+      "citedUrls": [
+        "https://www.jp.go.kr/tour.do"
+      ],
+      "timestamp": "2026-09-06T22:47:07.793Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C5-01",
+      "category": "geography",
+      "question": "증평에서 서울까지 어떻게 가? 시간 얼마나 걸려?",
+      "rep": 2,
+      "response": "증평에서 서울까지는 **시외버스가 가장 간편**하며, 증평시외버스터미널에서 서울 남부터미널행을 이용하면 보통 **약 1시간 40분~2시간 10분** 걸립니다(교통 상황에 따라 변동).  \n승용차는 중부고속도로 등을 이용해 **약 1시간 50분~2시간 30분** 정도이며, 출퇴근 시간에는 더 늘어날 수 있습니다.  \nKTX를 이용하려면 오송역까지 이동한 뒤 서울역행 KTX로 환승해야 하며, 대기시간을 포함해 보통 **약 1시간 40분~2시간 20분**입니다.  \n버스 시간표는 [티머니 시외버스](https://txbus.t-money.com/), 열차는 [코레일](https://www.letskorail.com/)에서 확인하세요.",
+      "responseHash": "4808b64f9a278442",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5856,
+      "citedUrls": [
+        "https://txbus.t-money.com/",
+        "https://www.letskorail.com/"
+      ],
+      "timestamp": "2026-09-06T22:47:04.689Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C5-02",
+      "category": "geography",
+      "question": "증평군은 몇 개 면으로 되어 있어?",
+      "rep": 2,
+      "response": "증평군은 **1개 면**으로 구성되어 있습니다.  \n해당 면은 **도안면**이며, 이외에 **증평읍**이 있습니다.  \n출처: [증평군청](https://www.jp.go.kr/)",
+      "responseHash": "2ca3e7360cf17257",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3698,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:02.530Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C5-03",
+      "category": "geography",
+      "question": "증평 근처 큰 도시가 어디야?",
+      "rep": 2,
+      "response": "증평에서 가장 가까운 큰 도시는 **청주시**입니다. 증평읍에서 청주 도심까지는 약 30~35km로, 자동차로 보통 40~50분 정도 걸립니다. 그 밖에 비교적 가까운 큰 도시는 충주·세종·대전 등이 있습니다.",
+      "responseHash": "3c1b1b81f3e6e4f3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4928,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:47:03.760Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C6-01",
+      "category": "local_food",
+      "question": "증평 대표 음식 뭐야?",
+      "rep": 2,
+      "response": "증평의 대표 먹거리는 **증평 인삼**을 활용한 인삼요리와 **올갱이국(다슬기국)**입니다. 지역 식당에서는 인삼삼계탕·인삼튀김·인삼정식, 올갱이국 등을 맛볼 수 있고, 증평 한우도 함께 알려져 있습니다. 자세한 맛집과 먹거리는 증평군 문화관광 홈페이지에서 확인하세요: https://www.jp.go.kr/tour/",
+      "responseHash": "b0ad74e8090803d2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4438,
+      "citedUrls": [
+        "https://www.jp.go.kr/tour/"
+      ],
+      "timestamp": "2026-09-06T22:47:03.270Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C6-02",
+      "category": "local_food",
+      "question": "증평 인삼축제에서 먹을 수 있는 음식 뭐야?",
+      "rep": 2,
+      "response": "증평 인삼축제에서는 보통 **인삼튀김, 인삼전, 인삼닭강정·인삼요리** 같은 인삼 먹거리와 **삼겹살·국밥·전·분식** 등 먹거리장터 메뉴를 즐길 수 있습니다. 축제장에서는 **인삼막걸리, 홍삼음료·인삼차** 같은 음료와 지역 농특산물도 판매되는 경우가 많습니다. 다만 연도별 참여업체와 메뉴가 달라질 수 있으니, 방문 전 증평군 공식 홈페이지의 축제 안내를 확인하세요: https://www.jp.go.kr/",
+      "responseHash": "6d266a2bb5f69042",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4811,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:13.408Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-01",
+      "category": "recent_issue",
+      "question": "증평 복합커뮤니티센터 건립 계획 있어?",
+      "rep": 2,
+      "response": "현재 공개된 증평군 자료 기준으로는 **‘증평 복합커뮤니티센터’라는 명칭의 확정된 단일 건립사업과 구체적인 착공·준공 일정은 확인되지 않습니다.** 다만 증평군은 생활SOC 확충과 읍·면 단위 복합문화·복지시설 건립사업을 지속적으로 추진하고 있어, 유사 사업이 다른 명칭으로 진행 중일 수 있습니다. 정확한 최신 계획은 증평군청 홈페이지의 고시·공고 및 보도자료에서 확인하거나, 증평군청 관련 부서에 문의하는 것이 가장 정확합니다.  \n출처: 증평군청 https://www.jp.go.kr/",
+      "responseHash": "65d9e458dbc25ec1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7948,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:16.545Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-02",
+      "category": "recent_issue",
+      "question": "증평군 인구가 얼마야? 최근 추세는?",
+      "rep": 2,
+      "response": "증평군 주민등록 인구는 **최근 기준 약 3만 8천 명**입니다. 최근 몇 년간 **3만 7천~3만 8천 명대에서 소폭 증가하거나 보합세**를 보이며, 큰 폭의 감소세는 아닙니다. 정확한 월별 수치는 전입·전출 등에 따라 달라지므로 행정안전부 **주민등록 인구통계**에서 확인할 수 있습니다: https://jumin.mois.go.kr/",
+      "responseHash": "3ba358a168254b07",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5938,
+      "citedUrls": [
+        "https://jumin.mois.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:14.535Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-03",
+      "category": "recent_issue",
+      "question": "증평 스마트팜 사업 진행 중이야?",
+      "rep": 2,
+      "response": "증평군은 스마트팜 관련 **스마트농업 교육·시설 지원 및 청년농 육성 사업을 추진해 왔지만**, ‘증평 스마트팜 사업’이라는 단일 사업의 현재 진행 여부는 사업명에 따라 달라집니다. 정확한 현황과 모집·공사 일정은 [증평군청 고시·공고](https://www.jp.go.kr) 또는 증평군농업기술센터에 확인하는 것이 가장 정확합니다. 사업명이나 대상 지역을 알려주시면 해당 사업의 진행 단계까지 구체적으로 확인해 드리겠습니다.",
+      "responseHash": "6f03e8eb8bf3983e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6129,
+      "citedUrls": [
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:14.726Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-04",
+      "category": "recent_issue",
+      "question": "증평인삼축제 올해 일정 알려줘",
+      "rep": 2,
+      "response": "2026년 증평인삼골축제의 정확한 일정은 현재 증평군 공식 발표를 확인해야 합니다. 증평군 문화관광 홈페이지의 **축제·행사 공지**에서 최신 일정을 확인해 주세요: https://www.jp.go.kr/tour.do  \n참고로 2025년 축제는 **10월 16~19일, 보강천체육공원 일원**에서 개최됐습니다.",
+      "responseHash": "ab5427f0425a5558",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7409,
+      "citedUrls": [
+        "https://www.jp.go.kr/tour.do"
+      ],
+      "timestamp": "2026-09-06T22:47:16.007Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C1-01",
+      "category": "specialty_industry",
+      "question": "증평 인삼이 유명한 이유가 뭐야?",
+      "rep": 3,
+      "response": "증평은 큰 일교차와 배수가 좋은 토양, 깨끗한 물 등 인삼 재배에 적합한 자연환경을 갖춰 품질 좋은 인삼이 생산되는 지역으로 알려져 있습니다. 또한 오래된 재배 경험과 재배·가공 기술이 축적되어 홍삼·인삼 제품으로도 다양하게 유통됩니다. 매년 열리는 증평인삼골축제와 지역 브랜드 홍보도 인지도를 높이는 데 기여했습니다. 자세한 내용은 [증평군청](https://www.jp.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "91653a283f71b6ea",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4722,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:22.781Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C1-02",
+      "category": "specialty_industry",
+      "question": "증평군 주요 산업단지 있어?",
+      "rep": 3,
+      "response": "네. 증평군의 주요 산업단지로는 **증평일반산업단지**, **증평2일반산업단지**, **증평농공단지**, **도안농공단지** 등이 있습니다.  \n이들 단지에는 식품·화학·금속·기계·전기전자 등 제조업체가 입주해 있으며, 증평군 산업·기업지원의 중심 역할을 하고 있습니다.  \n입주기업과 분양·가동 현황은 **증평군청 기업지원과** 또는 [산업입지정보시스템](https://www.industryland.or.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "eec162cf2d2ec87f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6457,
+      "citedUrls": [
+        "https://www.industryland.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:24.516Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C1-03",
+      "category": "specialty_industry",
+      "question": "증평 특산물로 인삼 말고 또 뭐가 있어?",
+      "rep": 3,
+      "response": "증평은 인삼 외에도 **장뜰쌀(증평 쌀), 사과, 복숭아, 배, 대추** 등이 지역 농특산물로 알려져 있습니다. 계절에 따라 생산량과 판매처가 달라지므로, 구입 전 증평군 농업기술센터나 지역 로컬푸드 매장에 문의하면 좋습니다. 자세한 정보는 증평군청 누리집에서 확인할 수 있습니다: https://www.jp.go.kr/",
+      "responseHash": "75c0bb533398e9c8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4879,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:22.938Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C2-01",
+      "category": "landmark",
+      "question": "증평 좌구산자연휴양림 시설이랑 이용 방법 알려줘",
+      "rep": 3,
+      "response": "증평 **좌구산자연휴양림**에는 숲속의 집·산림문화휴양관 등 숙박시설, 야영장, 산책로·등산로와 산림휴양 공간이 있으며, 인근 좌구산천문대·명상구름다리 등도 함께 이용할 수 있습니다.  \n숙박·야영은 **숲나들e**에서 회원가입 후 ‘충북–증평–좌구산자연휴양림’을 검색해 날짜와 시설을 선택하고 예약·결제하면 되며, 성수기·주말은 추첨 또는 조기 마감될 수 있습니다.  \n방문 전 운영일, 이용요금, 입실시간, 주차 및 일부 체험시설의 별도 예약 여부를 확인하시고, 당일 방문 시설은 현장 이용이 제한될 수 있으니 사전 확인이 필요합니다.  \n예약 및 자세한 안내: [숲나들e](https://www.foresttrip.go.kr), 증평군청 [https://www.jp.go.kr](https://www.jp.go.kr) (좌구산휴양랜드 문의: 043-835-4551)",
+      "responseHash": "76930353825fc8ce",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7045,
+      "citedUrls": [
+        "https://www.foresttrip.go.kr",
+        "https://www.jp.go.kr](https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:25.104Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C2-02",
+      "category": "landmark",
+      "question": "증평 에듀팜특구가 뭐야?",
+      "rep": 3,
+      "response": "증평 에듀팜특구는 충북 증평군 도안면 일대에 조성된 **농촌 체험·관광 복합단지**로, 농업과 교육·휴양·레저를 결합한 지역특화발전특구입니다.  \n현재는 **벨포레(BELLE FORET)**라는 이름으로 알려져 있으며, 루지·골프장·워터파크·목장·식물원·숙박시설 등 가족 단위 관광시설을 운영합니다.  \n증평군이 지역경제 활성화와 체류형 관광 확대를 위해 추진한 사업이며, 시설별 운영일·요금은 방문 전 공식 홈페이지에서 확인하는 것이 좋습니다.  \n출처: [벨포레 공식 홈페이지](https://www.belleforet.co.kr/), [증평군청](https://www.jp.go.kr/)",
+      "responseHash": "d8e18dee2c4e24ce",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6738,
+      "citedUrls": [
+        "https://www.belleforet.co.kr/",
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:24.798Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C2-03",
+      "category": "landmark",
+      "question": "증평민속체험박물관 위치랑 전시 내용 알려줘",
+      "rep": 3,
+      "response": "증평민속체험박물관은 **충북 증평군 증평읍 둔덕길 89**에 위치해 있습니다.  \n증평 지역의 전통 농경문화와 생활상을 보여주는 민속자료, 농기구·생활용품 등을 전시하며, 전통문화와 관련된 체험 프로그램 및 야외 공간도 운영합니다.  \n방문 전 운영시간·휴관일과 체험 가능 여부는 증평군 문화관광 홈페이지에서 확인해 주세요: https://www.jp.go.kr/tour.do",
+      "responseHash": "e43a093a6982c7a4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5599,
+      "citedUrls": [
+        "https://www.jp.go.kr/tour.do"
+      ],
+      "timestamp": "2026-09-06T22:47:31.509Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C3-01",
+      "category": "local_policy",
+      "question": "증평군 귀농귀촌 지원금이나 혜택 있어?",
+      "rep": 3,
+      "response": "네, 증평군은 귀농·귀촌인을 대상으로 **귀농 농업창업·주택구입 융자**, 영농정착 교육·상담, 농업기술 교육 및 각종 농업인 지원사업을 운영합니다. 다만 ‘지원금’은 사업별로 대상·거주기간·연령·농업경영 여부가 다르고, 농업창업·주택구입 자금은 보조금이 아닌 저금리 융자인 경우가 많습니다. 매년 공고와 예산에 따라 달라지므로 증평군청 홈페이지에서 **귀농귀촌·농업기술센터 사업 공고**를 확인하거나 증평군 농업기술센터에 문의하는 것이 정확합니다.  \n- 증평군청: https://www.jp.go.kr  \n- 귀농귀촌종합센터: https://www.returnfarm.com",
+      "responseHash": "88d6c249cb9c5c0d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6236,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.returnfarm.com"
+      ],
+      "timestamp": "2026-09-06T22:47:32.146Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C3-02",
+      "category": "local_policy",
+      "question": "증평군 인구 늘리기 정책 뭐가 있어?",
+      "rep": 3,
+      "response": "증평군은 인구 유입과 정착을 위해 **전입세대 지원**, **출산·양육 지원(출산축하금·아동수당 등)**, **청년·신혼부부 주거 및 결혼 지원**, **귀농·귀촌 정착 지원**, **일자리·산업단지 연계 정책** 등을 운영하고 있습니다.  \n지원 대상과 금액은 전입 기간, 자녀 수, 소득·거주 요건에 따라 달라질 수 있으므로 신청 전 확인이 필요합니다.  \n세부 사업과 신청 방법은 [증평군청 홈페이지](https://www.jp.go.kr/)에서 ‘인구증가’, ‘출산지원’, ‘청년’, ‘귀농귀촌’을 검색하거나 증평군청 관련 부서에 문의하세요.",
+      "responseHash": "3aa48be3324c2eb1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8652,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:34.563Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C3-03",
+      "category": "local_policy",
+      "question": "증평군 무상교복 지원 있어?",
+      "rep": 3,
+      "response": "네. 증평군 학생은 **충청북도교육청의 무상교복 지원** 대상에 해당하며, 보통 중·고등학교 신입생에게 학교를 통해 교복을 현물 또는 구입비 방식으로 지원합니다. 지원 금액·대상·신청 방법은 연도와 학교별로 달라질 수 있으므로 입학 예정 학교 행정실에 확인하는 것이 가장 정확합니다. 자세한 사항은 [충청북도교육청](https://www.cbe.go.kr) 또는 [증평군청](https://www.jp.go.kr)에서 확인하세요.",
+      "responseHash": "1eac9782d760a0ef",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5330,
+      "citedUrls": [
+        "https://www.cbe.go.kr",
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:31.240Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C4-01",
+      "category": "heritage",
+      "question": "증평이 독립된 군이 된 게 언제야?",
+      "rep": 3,
+      "response": "증평군은 **2003년 8월 30일**, 괴산군에서 분리되어 독립된 군으로 출범했습니다.  \n이에 따라 증평읍과 도안면을 관할하는 **증평군청**이 신설되었습니다.  \n출처: 증평군청 홈페이지 https://www.jp.go.kr/",
+      "responseHash": "f9869c0c686f71c2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3784,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:29.694Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C4-02",
+      "category": "heritage",
+      "question": "증평 율리 유적 뭐야?",
+      "rep": 3,
+      "response": "증평 **율리 유적**은 증평군 율리 일대에서 확인된 **선사시대 고고 유적**으로, 청동기시대 주거지와 구덩이 등 당시 사람들이 생활한 흔적이 발굴된 곳입니다. 현재는 성곽이나 건물이 남아 있는 관광지라기보다, 발굴조사를 통해 증평 지역의 선사 생활상을 보여주는 학술 유적에 가깝습니다. 자세한 발굴 내용은 국가유산 지식이음에서 ‘증평 율리 유적’을 검색해 확인할 수 있습니다: https://portal.nrich.go.kr/ ",
+      "responseHash": "ff0b4da7670d8905",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7083,
+      "citedUrls": [
+        "https://portal.nrich.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:42.446Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C5-01",
+      "category": "geography",
+      "question": "증평에서 서울까지 어떻게 가? 시간 얼마나 걸려?",
+      "rep": 3,
+      "response": "증평시외버스터미널에서 **동서울종합터미널행 시외버스**를 이용하면 약 **1시간 40분~2시간 10분** 정도 걸립니다(교통 상황과 정차에 따라 변동).  \n승용차는 중부고속도로 등을 이용해 서울까지 보통 **1시간 40분~2시간 30분** 정도 소요됩니다.  \n출발 시간과 잔여 좌석은 **버스타고(https://www.bustago.or.kr)** 또는 **시외버스 통합예매시스템(https://txbus.t-money.co.kr)**에서 ‘증평→동서울’로 확인하세요.",
+      "responseHash": "ee611b684d63b12a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5231,
+      "citedUrls": [
+        "https://www.bustago.or.kr",
+        "https://txbus.t-money.co.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:40.594Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C5-02",
+      "category": "geography",
+      "question": "증평군은 몇 개 면으로 되어 있어?",
+      "rep": 3,
+      "response": "증평군은 **1개 면**으로 이루어져 있습니다.  \n행정구역은 **증평읍 1개와 도안면 1개**입니다.  \n출처: [증평군청](https://www.jp.go.kr/)",
+      "responseHash": "9799fcb459494ba0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3169,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:38.532Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C5-03",
+      "category": "geography",
+      "question": "증평 근처 큰 도시가 어디야?",
+      "rep": 3,
+      "response": "증평에서 가장 가까운 큰 도시는 **청주시**입니다. 증평읍 기준으로 청주 도심까지 차량으로 약 **30~40분** 정도 걸립니다. 그 밖에 비교적 가까운 대도시는 **충주시(약 40~50분)**와 **대전광역시(약 1시간~1시간 20분)**입니다.",
+      "responseHash": "028a7b5680aa1fd5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3530,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:47:38.893Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C6-01",
+      "category": "local_food",
+      "question": "증평 대표 음식 뭐야?",
+      "rep": 3,
+      "response": "증평의 대표 먹거리는 **증평 인삼을 활용한 인삼요리**로, 인삼삼겹살·인삼튀김 등이 유명합니다. 지역 향토음식으로는 **올갱이국과 민물매운탕**도 많이 알려져 있습니다. 자세한 맛집과 음식 정보는 증평군 문화관광 홈페이지에서 확인할 수 있습니다: https://www.jp.go.kr/tour/",
+      "responseHash": "facff09e45c16b5d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4844,
+      "citedUrls": [
+        "https://www.jp.go.kr/tour/"
+      ],
+      "timestamp": "2026-09-06T22:47:40.207Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C6-02",
+      "category": "local_food",
+      "question": "증평 인삼축제에서 먹을 수 있는 음식 뭐야?",
+      "rep": 3,
+      "response": "증평 인삼축제에서는 보통 **인삼튀김, 인삼삼겹살·인삼전골, 인삼을 넣은 닭요리와 삼계탕, 인삼막걸리·인삼차** 등을 맛볼 수 있습니다. 또한 인삼 관련 먹거리 장터에서 **인삼빵·인삼떡·인삼청** 같은 가공식품과 지역 농특산물도 판매되는 경우가 많습니다. 다만 판매 메뉴와 운영 부스는 연도별로 달라질 수 있으니 방문 전 증평군 공식 축제 안내를 확인하세요: https://www.jp.go.kr/ (증평군청)",
+      "responseHash": "e1ee991f6a89c4d8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5358,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:48.615Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-01",
+      "category": "recent_issue",
+      "question": "증평 복합커뮤니티센터 건립 계획 있어?",
+      "rep": 3,
+      "response": "네. 증평군은 주민 편의·문화·복지 기능을 한곳에 모은 **복합커뮤니티센터 건립을 추진할 계획**이 있는 것으로 알려져 있습니다. 다만 위치·사업 규모·착공 및 준공 시기는 예산과 행정절차에 따라 변경될 수 있으므로, 최신 확정 내용은 증평군청 고시·공고와 보도자료를 확인하는 것이 정확합니다.  \n- 증평군청: https://www.jp.go.kr  \n- 문의: 증평군청 대표전화 **043-835-3114**",
+      "responseHash": "e9c9d978ae1b3db6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8709,
+      "citedUrls": [
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:51.966Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-02",
+      "category": "recent_issue",
+      "question": "증평군 인구가 얼마야? 최근 추세는?",
+      "rep": 3,
+      "response": "증평군 인구는 최근 기준 **약 3만 7천 명**으로, 충북의 군 단위 지역 중 비교적 규모가 큰 편입니다. 최근 몇 년간은 **3만 7천 명 안팎에서 소폭 증감하는 보합세**이며, 큰 폭의 감소보다는 정체에 가까운 흐름입니다. 정확한 최신 월말 인구는 행정안전부 주민등록 인구통계에서 ‘충청북도→증평군’을 선택하면 확인할 수 있습니다.  \n출처: 행정안전부 주민등록 인구통계 https://jumin.mois.go.kr/",
+      "responseHash": "c6c9eebc27b94f3e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9386,
+      "citedUrls": [
+        "https://jumin.mois.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:52.644Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-03",
+      "category": "recent_issue",
+      "question": "증평 스마트팜 사업 진행 중이야?",
+      "rep": 3,
+      "response": "네. 증평군은 청년농업인 지원, 시설원예 ICT·스마트팜 보급, 스마트팜 교육·실증 등 관련 사업을 계속 추진하고 있습니다. 다만 사업별로 모집·착공·운영 일정이 다르므로, 정확한 진행 상황은 증평군청 고시·공고와 농업기술센터 공지를 확인해야 합니다. 사업명이나 대상 지역을 알려주시면 해당 사업의 현재 단계와 신청 가능 여부를 더 구체적으로 확인해드릴게요.  \n- 증평군청: https://www.jp.go.kr/",
+      "responseHash": "5b75ff9534783a08",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7052,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:50.309Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "J-C7-04",
+      "category": "recent_issue",
+      "question": "증평인삼축제 올해 일정 알려줘",
+      "rep": 3,
+      "response": "2026년 **증평인삼골축제는 10월 8일(목)부터 11일(일)까지** 증평 보강천체육공원 일원에서 개최될 예정입니다. 다만 공연·체험 프로그램과 세부 일정은 변동될 수 있으니, 방문 전 증평군 공식 홈페이지에서 최종 공지를 확인해 주세요.  \n- 증평군 공식 홈페이지: https://www.jp.go.kr/",
+      "responseHash": "381fee717ff28e3d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8475,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:51.732Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A1",
+      "category": "recommendation",
+      "question": "충북에서 살기 좋은 곳 3곳 추천해줘",
+      "rep": 1,
+      "response": "충북에서 살기 좋은 곳으로는 다음 3곳을 추천합니다.\n\n1. **청주시**: 충북의 중심 도시로 일자리·병원·교육·쇼핑 등 생활 인프라가 가장 편리합니다.  \n2. **충주시**: 주거비 부담이 비교적 낮고 충주호·탄금대 등 자연환경이 좋으며, 중부내륙권 교통도 편리합니다.  \n3. **제천시**: 조용한 생활과 산·호수 중심의 쾌적한 환경을 선호하는 분에게 적합하지만, 겨울철 추위는 고려해야 합니다.  \n\n참고: [청주시청](https://www.cheongju.go.kr), [충주시청](https://www.chungju.go.kr), [제천시청](https://www.jecheon.go.kr)",
+      "responseHash": "d9399c61b347f6bf",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5362,
+      "citedUrls": [
+        "https://www.cheongju.go.kr",
+        "https://www.chungju.go.kr",
+        "https://www.jecheon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:58.007Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A2",
+      "category": "recommendation",
+      "question": "충북에서 귀농귀촌하기 좋은 곳 어디야?",
+      "rep": 1,
+      "response": "충북에서는 **괴산·보은**이 농촌 정착과 귀농 교육·지원사업이 비교적 활발하고, **옥천·영동**은 대전·청주 등 도시 접근성과 과수·원예 농업 여건이 좋은 편입니다. **단양**은 귀촌·관광·소규모 창업을 함께 고려할 때, **충주·제천**은 생활편의시설과 일자리까지 중시할 때 적합합니다. 다만 지원금·주택·농지 조건은 매년 달라지므로, 희망 작목과 예산을 정한 뒤 해당 시·군 귀농귀촌지원센터의 교육·빈집·농지 정보를 확인하는 것이 좋습니다. 공식 정보는 [귀농귀촌종합센터](https://www.returnfarm.com)에서 지역별 지원사업을 검색하고, 관심 지역의 시·군청 홈페이지에서 올해 공고를 확인하세요.",
+      "responseHash": "dd302ea804c92c78",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5564,
+      "citedUrls": [
+        "https://www.returnfarm.com"
+      ],
+      "timestamp": "2026-09-06T22:47:58.209Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A3",
+      "category": "recommendation",
+      "question": "한국에서 인삼 산지로 유명한 곳 어디야?",
+      "rep": 1,
+      "response": "한국의 대표적인 인삼 산지는 **충남 금산**, **경북 영주·풍기**, **전북 진안**, **강원 홍천**, **충북 괴산**입니다.  \n특히 **금산**은 국내 최대 규모의 인삼 유통지로 유명하며, **풍기인삼**과 **진안홍삼**도 대표적인 지역 특산품입니다.  \n지역별 축제와 특산품 정보는 대한민국 구석구석에서 확인할 수 있습니다: https://korean.visitkorea.or.kr/",
+      "responseHash": "dbd193818c700ffd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 2705,
+      "citedUrls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:55.350Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B1",
+      "category": "association",
+      "question": "증평 하면 뭐가 떠올라? 세 가지 말해줘",
+      "rep": 1,
+      "response": "증평 하면 보통 다음 세 가지가 떠올라요.\n\n1. **좌구산휴양랜드** – 자연 속에서 산책·휴양을 즐길 수 있는 곳  \n2. **증평민속체험박물관** – 지역 전통문화와 민속을 체험할 수 있는 공간  \n3. **인삼과 홍삼** – 증평의 대표적인 특산물 이미지",
+      "responseHash": "43c6b8b625fa40bd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 2070,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:47:54.714Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B2",
+      "category": "association",
+      "question": "증평군의 별명이나 슬로건이 뭐야?",
+      "rep": 1,
+      "response": "증평군을 대표하는 표현으로는 **“작지만 강한 증평”**이 많이 쓰입니다.  \n민선 지방정부의 군정 구호는 시기별로 달라질 수 있으므로, 공식 최신 문구는 증평군청 홈페이지에서 확인하는 것이 정확합니다.  \n출처: [증평군청](https://www.jp.go.kr/)",
+      "responseHash": "613de26bd1869cd7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7514,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:00.158Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C1",
+      "category": "keyword_entry",
+      "question": "한국에서 인삼 유명한 곳 어디야?",
+      "rep": 1,
+      "response": "한국에서 인삼으로 가장 유명한 곳은 **충남 금산**으로, 전국 최대 규모의 인삼 유통시장과 금산인삼축제가 열립니다.  \n그 밖에 **경북 영주 풍기**, **전북 진안**, **인천 강화**도 대표적인 인삼 산지입니다.  \n지역별로 맛과 재배 방식에 차이가 있으니, 구매할 때는 원산지와 수삼·홍삼 여부를 확인하세요.  \n참고: [금산군청](https://www.geumsan.go.kr), [영주시청](https://www.yeongju.go.kr)",
+      "responseHash": "ad571654f6342f5f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3917,
+      "citedUrls": [
+        "https://www.geumsan.go.kr",
+        "https://www.yeongju.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:04.886Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C2",
+      "category": "keyword_entry",
+      "question": "한국에서 에듀팜이나 교육농장 특구가 있는 곳 어디야?",
+      "rep": 1,
+      "response": "현재 공식적인 **에듀팜 특구**는 충북 **증평군 도안면의 ‘증평 에듀팜특구’**가 대표적입니다.  \n반면 **‘교육농장 특구’라는 별도 법정 특구는 없으며**, 농촌진흥청이 품질인증한 농촌교육농장이 전국 각 시·군에 운영되고 있습니다.  \n지역별 교육농장은 농촌진흥청 **농사로(www.nongsaro.go.kr)**에서 ‘농촌교육농장’을 검색하거나, 증평 에듀팜특구 정보는 **증평군(www.jp.go.kr)**에서 확인할 수 있습니다.",
+      "responseHash": "14e8dc466445bfce",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7831,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:48:08.800Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C3",
+      "category": "keyword_entry",
+      "question": "충북에서 자연휴양림 좋은 곳 어디야?",
+      "rep": 1,
+      "response": "충북에서 추천할 만한 자연휴양림은 다음과 같습니다.\n\n- **청주 옥화자연휴양림**: 계곡과 숲길이 잘 조성되어 가족 단위 여행에 좋습니다.  \n- **충주 계명산자연휴양림**: 충주호 전망과 산책로가 매력적이며 접근성이 편리합니다.  \n- **단양 소선암자연휴양림**: 소선암 계곡과 단양 관광지를 함께 즐기기 좋습니다.  \n- **괴산 조령산자연휴양림**: 울창한 숲과 조령산 트레킹을 선호하는 분께 추천합니다.  \n\n숙박·야영장 예약 가능 여부와 휴무일은 공식 예약 사이트 **숲나들e**에서 확인하세요: https://www.foresttrip.go.kr/",
+      "responseHash": "ea0d720232ac1b70",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5049,
+      "citedUrls": [
+        "https://www.foresttrip.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:06.018Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D1",
+      "category": "scenario",
+      "question": "서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘",
+      "rep": 1,
+      "response": "서울에서 **승용차 기준 1시간 30분 안팎**으로 접근 가능한 귀촌 후보지는 다음과 같습니다(교통량에 따라 달라집니다).\n\n- **양평군**: 서울 접근성이 좋고 산·강 환경과 귀촌 지원사업이 비교적 다양합니다.  \n- **가평군**: 자연환경과 관광·체험농업에 강점이 있으나, 읍·면별 생활편의시설 격차를 확인해야 합니다.  \n- **파주시 북부권(문산·적성·파평 등)**: 서울·수도권 접근성과 농촌 주거지를 함께 고려하기 좋습니다.  \n- **춘천시·홍천군 일부 지역**: 전원생활과 농업을 병행하기 좋지만, 서울 출퇴근은 실제 거주지에 따라 1시간 30분을 넘을 수 있습니다.  \n\n최종 결정 전에는 **대중교통·병원·학교·상하수도·인터넷·농지 규제와 귀농귀촌 지원금**을 현장 확인하고, 농림축산식품부 귀농귀촌종합센터(https://www.returnfarm.com/)에서 지역별 지원사업을 비교해 보세요.",
+      "responseHash": "4534c7308470f8bd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7654,
+      "citedUrls": [
+        "https://www.returnfarm.com/"
+      ],
+      "timestamp": "2026-09-06T22:48:08.623Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D2",
+      "category": "scenario",
+      "question": "은퇴 후 충북에서 조용히 살 곳 어디야?",
+      "rep": 1,
+      "response": "은퇴 후 조용한 생활을 원하면 **괴산·보은·옥천의 읍면 지역**이 전원생활에 적합하고, 자연경관과 생활편의를 함께 원하면 **제천 외곽이나 단양**을 추천합니다.  \n의료기관·장보기·대중교통 접근성까지 고려하면 완전한 산골보다 **제천시 봉양읍, 충주시 외곽, 옥천읍 주변**처럼 읍내에서 10~20분 거리인 곳이 안전합니다.  \n겨울 추위, 경사도, 병원까지 이동시간, 상하수도·인터넷 설치 여부를 확인한 뒤 **한 달 살기나 귀촌 체험**으로 먼저 시험해보는 것이 좋습니다.  \n지역별 귀농·귀촌 지원은 귀농귀촌종합센터(https://www.returnfarm.com), 충북도청은 https://www.chungbuk.go.kr 에서 확인할 수 있습니다.",
+      "responseHash": "aa79c003b113e532",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4939,
+      "citedUrls": [
+        "https://www.returnfarm.com",
+        "https://www.chungbuk.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:05.909Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D3",
+      "category": "scenario",
+      "question": "50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘",
+      "rep": 1,
+      "response": "50대 부부가 텃밭을 가꾸며 살기에는 **충남 공주·서천, 전북 남원·김제, 경북 상주·영주, 전남 순천 외곽**을 추천합니다.  \n- **공주**: 대전 접근성이 좋고 농촌 주거지와 전원주택지가 다양합니다.  \n- **남원·상주**: 토지가 비교적 저렴하고 일교차가 있어 다양한 밭작물 재배에 적합합니다.  \n- **순천 외곽·서천**: 기후가 온화하고 생활·의료·문화시설 이용이 편리한 편입니다.  \n귀농·귀촌 전에는 농지 취득 가능 여부, 상하수도·난방, 병원 거리, 대중교통과 함께 각 지자체의 귀농귀촌 지원을 확인하세요(귀농귀촌종합센터: https://www 귀농귀촌종합센터.com).",
+      "responseHash": "c7f4b15a655b5613",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4678,
+      "citedUrls": [
+        "https://www"
+      ],
+      "timestamp": "2026-09-06T22:48:14.285Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E1",
+      "category": "comparison",
+      "question": "증평이랑 괴산 중 귀농하기 좋은 곳은?",
+      "rep": 1,
+      "response": "**생활 편의·도시 접근성**을 중시하면 청주와 가깝고 규모가 compact한 **증평**이 유리하고, **넓은 농지·전원생활·농업 중심 정착**을 원하면 **괴산**이 더 적합합니다.  \n증평은 병원·마트·교육시설 이용이 비교적 편리한 반면 농지와 귀촌형 주거 선택지가 제한될 수 있고, 괴산은 농촌 환경과 품목 선택 폭이 넓지만 읍·면별 생활권과 교통 여건 차이를 확인해야 합니다.  \n초보 귀농이라면 임대농지, 선도농가 교육, 빈집·주택 지원을 실제 거주 희망 마을 단위로 비교해 보고, **차량 없이 생활하려면 증평**, 농업 규모를 키울 계획이면 **괴산**을 우선 추천합니다.  \n자세한 지원사업은 [증평군 귀농귀촌](https://www.jp.go.kr)과 [괴산군 귀농귀촌](https://www.goesan.go.kr), 국가 지원은 [귀농귀촌종합센터](https://www.returnfarm.com)에서 확인하세요.",
+      "responseHash": "a7df3b39cbe5e0c8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5298,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.goesan.go.kr",
+        "https://www.returnfarm.com"
+      ],
+      "timestamp": "2026-09-06T22:48:14.905Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E2",
+      "category": "comparison",
+      "question": "증평과 진천의 차이점이 뭐야?",
+      "rep": 1,
+      "response": "증평과 진천은 모두 충청북도에 있는 군이지만, **증평군은 2003년 괴산군에서 분리된 비교적 작은 지역**이고, **진천군은 오랜 행정 역사를 가진 더 넓고 인구가 많은 지역**입니다.  \n증평은 청주와 가까워 주거·생활권 연계가 강하고, 좌구산·증평민속체험박물관 등 관광·휴양지가 특징입니다.  \n진천은 충북혁신도시와 산업단지, 농공단지가 발달해 제조업·기업도시 성격이 강하며, 농다리와 초평호 등이 대표 명소입니다.  \n자세한 현황은 [증평군청](https://www.jp.go.kr)과 [진천군청](https://www.jincheon.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "f753a8e9a7e2d9c1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5383,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.jincheon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:14.991Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F1",
+      "category": "negative_test",
+      "question": "증평군의 단점이나 주의할 점 알려줘",
+      "rep": 1,
+      "response": "증평군은 규모가 작은 군 지역이라 대형 종합병원, 전문 의료서비스, 대규모 쇼핑·문화시설 선택지가 청주 등 인근 도시보다 제한적일 수 있습니다. 읍내 외 지역은 버스 배차와 노선이 적어 자가용 의존도가 높고, 청주·오창 등으로 출퇴근하거나 통학할 경우 이동시간과 교통비를 고려해야 합니다. 일자리도 제조·농업·공공·복지 분야 등에 상대적으로 집중되어 직종 선택 폭이 좁을 수 있으며, 고령화와 인구 규모에 따른 생활서비스 차이도 확인할 필요가 있습니다. 이사나 거주를 검토한다면 증평군 생활정보와 KOSIS의 인구·교통·의료 통계를 함께 확인해 보세요: [증평군청](https://www.jp.go.kr/), [KOSIS 국가통계포털](https://kosis.kr/).",
+      "responseHash": "34f783254d47d40f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5957,
+      "citedUrls": [
+        "https://www.jp.go.kr/",
+        "https://kosis.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:15.564Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F2",
+      "category": "negative_test",
+      "question": "증평에서 살면 불편한 점이 뭐야?",
+      "rep": 1,
+      "response": "증평은 생활비와 주거비가 비교적 부담이 적은 편이지만, 청주·대전 같은 대도시에 비해 대형병원, 대형마트, 문화·여가시설 선택지가 적다는 점이 불편할 수 있습니다.  \n읍내를 벗어난 지역은 버스 운행 간격과 노선이 제한적이어서 자가용 의존도가 높고, 청주·오송 등으로 출퇴근하면 교통시간과 비용이 늘어날 수 있습니다.  \n일자리도 제조·공공·농업 등 일부 분야에 집중돼 직종 선택 폭이 좁게 느껴질 수 있으므로, 이주 전 직장 위치와 병원·학교·대중교통 접근성을 확인하는 것이 좋습니다.  \n참고: [증평군청](https://www.jp.go.kr), [KOSIS 국가통계포털](https://kosis.kr)",
+      "responseHash": "fd5cfa8e2b9ca2c5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5926,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://kosis.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:15.533Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A1",
+      "category": "recommendation",
+      "question": "충북에서 살기 좋은 곳 3곳 추천해줘",
+      "rep": 2,
+      "response": "충북에서 살기 좋은 곳으로는 다음 3곳을 추천합니다.\n\n1. **청주시**: 일자리·교육·의료·문화시설이 가장 다양하고, 교통과 생활 편의성이 좋습니다.  \n2. **충주시**: 청주보다 주거비 부담이 비교적 낮고, 중소도시 생활과 자연환경을 함께 누리기 좋습니다.  \n3. **제천시**: 월세·주거비가 비교적 저렴하며, 의림지·청풍호 등 자연환경과 여유로운 생활을 선호하는 분에게 적합합니다.  \n\n자세한 정주 여건은 각 지자체 홈페이지에서 확인할 수 있습니다: [청주시](https://www.cheongju.go.kr), [충주시](https://www.chungju.go.kr), [제천시](https://www.jecheon.go.kr)",
+      "responseHash": "62cbd0c312f63a8a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3603,
+      "citedUrls": [
+        "https://www.cheongju.go.kr",
+        "https://www.chungju.go.kr",
+        "https://www.jecheon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:20.673Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A2",
+      "category": "recommendation",
+      "question": "충북에서 귀농귀촌하기 좋은 곳 어디야?",
+      "rep": 2,
+      "response": "충북에서는 **괴산·보은**이 농촌 정착과 귀농 교육·공동체 활동을 중시하는 분에게, **옥천·영동**이 대전 등 도시 접근성과 과수·농업을 함께 고려하는 분에게 적합합니다.  \n**단양**은 자연환경과 체류형 귀촌에 강점이 있고, **진천·음성·청주 인근**은 일자리·생활편의시설을 유지하면서 농촌생활을 병행하기 좋습니다.  \n다만 지원금·임대농지·빈집 여부는 읍면과 시군별로 달라서, 희망 지역에서 1~2개월 살아보기와 농지·주거·소득 계획 확인을 먼저 권합니다.  \n자세한 정책과 상담은 **충북 귀농귀촌 지원센터**(https://www.chungbuk.go.kr/returnfarm) 및 **귀농귀촌종합센터**(https://www.returnfarm.com)에서 확인하세요.",
+      "responseHash": "3a9f6e9bdd774b91",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5116,
+      "citedUrls": [
+        "https://www.chungbuk.go.kr/returnfarm",
+        "https://www.returnfarm.com"
+      ],
+      "timestamp": "2026-09-06T22:48:22.186Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A3",
+      "category": "recommendation",
+      "question": "한국에서 인삼 산지로 유명한 곳 어디야?",
+      "rep": 2,
+      "response": "한국의 대표적인 인삼 산지는 **충남 금산**, **경북 영주·풍기**, **전북 진안**, **충북 음성**입니다.  \n특히 **금산 인삼**은 국내 최대 규모의 인삼 유통지로 유명하며, 매년 금산인삼축제가 열립니다.  \n**풍기인삼**은 경북 영주시 풍기읍을 중심으로 생산되며, **진안·음성 인삼**도 품질과 생산량으로 잘 알려져 있습니다.",
+      "responseHash": "08c6d375b6ba587a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 2367,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:48:19.437Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B1",
+      "category": "association",
+      "question": "증평 하면 뭐가 떠올라? 세 가지 말해줘",
+      "rep": 2,
+      "response": "증평 하면 보통 다음 세 가지가 떠올라요.\n\n1. **좌구산 휴양랜드** – 숲과 자연을 즐길 수 있는 대표 관광지  \n2. **증평 인삼** – 건강식품으로 유명한 지역 특산물  \n3. **보강천 미루나무숲** – 산책과 휴식을 즐기기 좋은 명소",
+      "responseHash": "40001bf89a416d0d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1933,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:48:19.003Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B2",
+      "category": "association",
+      "question": "증평군의 별명이나 슬로건이 뭐야?",
+      "rep": 2,
+      "response": "증평군의 대표적인 공식 슬로건은 **“군민중심 새로운 미래 증평”**입니다.  \n증평을 소개할 때는 규모는 작지만 성장 가능성과 경쟁력이 있다는 의미로 **“작지만 강한 도시”**라는 표현도 자주 사용됩니다.  \n자세한 군정 슬로건과 군정방침은 증평군청 홈페이지에서 확인할 수 있습니다: [증평군청](https://www.jp.go.kr/)",
+      "responseHash": "eef05bbf32fc0d27",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5777,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:22.848Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C1",
+      "category": "keyword_entry",
+      "question": "한국에서 인삼 유명한 곳 어디야?",
+      "rep": 2,
+      "response": "한국에서 인삼으로 가장 유명한 곳은 **충남 금산**으로, 전국 최대 규모의 인삼 유통시장과 금산인삼축제가 열립니다.  \n그 밖에 **경북 영주·풍기**, **강원 홍천**, **전북 진안**, **인천 강화**도 인삼 산지로 잘 알려져 있습니다.  \n특히 풍기인삼은 조선시대부터 유명하며, 금산에서는 인삼시장과 인삼 관련 체험을 함께 즐길 수 있습니다.  \n출처: 금산군 문화관광 홈페이지 https://www.geumsan.go.kr/tour/",
+      "responseHash": "3e4051ed5296610c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3416,
+      "citedUrls": [
+        "https://www.geumsan.go.kr/tour/"
+      ],
+      "timestamp": "2026-09-06T22:48:27.071Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C2",
+      "category": "keyword_entry",
+      "question": "한국에서 에듀팜이나 교육농장 특구가 있는 곳 어디야?",
+      "rep": 2,
+      "response": "한국에서 공식 명칭으로 널리 알려진 **에듀팜 특구는 충북 증평군의 ‘증평 에듀팜 특구’**입니다.  \n증평군 도안면 일대에 조성되어 농촌체험·교육·관광을 결합한 시설과 프로그램을 운영합니다.  \n다만 **‘교육농장’은 특정 지역의 특구라기보다 농촌진흥청이 지정·육성하는 농촌체험 교육 프로그램**으로, 전국 여러 시·군에서 운영됩니다.  \n관련 정보는 [증평군 홈페이지](https://www.jp.go.kr)와 [농촌진흥청 농촌교육농장 안내](https://www.rda.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "4384b55ad81f803b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8780,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.rda.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:32.435Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C3",
+      "category": "keyword_entry",
+      "question": "충북에서 자연휴양림 좋은 곳 어디야?",
+      "rep": 2,
+      "response": "충북에서는 **속리산 말티재 자연휴양림(보은)**이 숲길과 속리산 관광을 함께 즐기기 좋고, **민주지산 자연휴양림(영동)**은 깊은 산림과 계곡 풍경이 매력적입니다.  \n아이와 함께라면 시설과 산책로가 비교적 편한 **좌구산 자연휴양림(증평)**, 제천 여행과 연계하려면 **박달재·금수산 자연휴양림**을 추천합니다.  \n숙박 가능 여부와 객실 예약은 공식 예약 사이트 **숲나들e**에서 확인하세요: https://www.foresttrip.go.kr/",
+      "responseHash": "668cf5ef61334732",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6522,
+      "citedUrls": [
+        "https://www.foresttrip.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:30.177Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D1",
+      "category": "scenario",
+      "question": "서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘",
+      "rep": 2,
+      "response": "서울 도심 기준 자차 약 1시간 30분 안팎으로는 **경기 양평·가평·여주·이천**, **인천 강화군**, **강원 홍천 서부권**을 우선 검토해볼 만합니다.  \n양평·가평은 자연환경과 서울 접근성이 좋고, 여주·이천은 평지·농업 기반과 생활편의시설이 비교적 균형적이며, 강화는 섬 지역 특유의 농촌생활과 바다 환경이 장점입니다.  \n다만 출퇴근 시간과 주말 정체에 따라 2시간 이상 걸릴 수 있으므로, 후보 마을의 **대중교통·병원·학교·상하수도·인터넷·빈집 상태**를 직접 확인하는 것이 좋습니다.  \n귀농·귀촌 지원사업과 지역별 정착 정보는 [귀농귀촌종합센터](https://www 귀농귀촌종합센터.com)와 각 시·군청 홈페이지에서 확인하세요.",
+      "responseHash": "6c0771a34fa73408",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6155,
+      "citedUrls": [
+        "https://www"
+      ],
+      "timestamp": "2026-09-06T22:48:29.811Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D2",
+      "category": "scenario",
+      "question": "은퇴 후 충북에서 조용히 살 곳 어디야?",
+      "rep": 2,
+      "response": "은퇴 후 조용한 생활을 원하시면 **괴산·보은·옥천**이 전원생활과 낮은 주거 밀도 측면에서 적합하고, 병원·마트 등 생활 편의까지 고려하면 **제천 외곽이나 충주 외곽**이 균형이 좋습니다.  \n산과 계곡을 좋아하면 **단양·제천**, 대전 접근성과 비교적 온화한 생활환경을 원하면 **옥천·영동**을 살펴보세요.  \n다만 읍·면 지역은 대중교통과 의료시설이 제한될 수 있으니, 계약 전 해당 마을에서 1~2주 살아보고 **응급실까지의 거리·난방비·도로 제설·상하수도**를 확인하는 것이 좋습니다.  \n지역 정보는 충청북도청(https://www.chungbuk.go.kr), 귀농귀촌종합센터(https://www 귀농귀촌.com)가 참고됩니다.",
+      "responseHash": "1909cb57d5a1230f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5078,
+      "citedUrls": [
+        "https://www.chungbuk.go.kr",
+        "https://www"
+      ],
+      "timestamp": "2026-09-06T22:48:28.734Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D3",
+      "category": "scenario",
+      "question": "50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘",
+      "rep": 2,
+      "response": "50대 부부가 텃밭을 가꾸며 살기에는 **충남 홍성·예산, 전북 남원, 경북 영주, 전남 순천 외곽**을 추천합니다.  \n- **홍성·예산**: 귀농·귀촌 기반과 농산물 직거래가 좋고, 대전·천안 접근성이 비교적 편리합니다.  \n- **남원**: 땅값과 주거비 부담이 상대적으로 낮고 사계절 농사가 가능하며, **영주**는 조용한 생활과 사과·채소 재배에 적합합니다.  \n- **순천 외곽**: 기후가 온화하고 병원·문화시설 이용이 편리하지만, 토지 가격은 다른 지역보다 높을 수 있습니다.  \n실제 이주 전에는 병원까지의 거리, 겨울 난방비, 상하수도·인터넷, 농지 용도지역과 농막 설치 가능 여부를 확인하고, 귀농귀촌종합센터의 지역별 지원사업도 비교해 보세요: https://www.returnfarm.com/",
+      "responseHash": "04f465a583764dde",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6376,
+      "citedUrls": [
+        "https://www.returnfarm.com/"
+      ],
+      "timestamp": "2026-09-06T22:48:39.622Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E1",
+      "category": "comparison",
+      "question": "증평이랑 괴산 중 귀농하기 좋은 곳은?",
+      "rep": 2,
+      "response": "귀농 초보자라면 **교통·생활편의와 판로 접근성이 좋은 증평**, 넓은 농지와 전원생활·농촌 정착을 중시한다면 **괴산**이 더 적합합니다. 증평은 청주·충주와 가깝고 생활권이 компакт한 반면, 괴산은 농촌 지역과 산림·자연환경이 넓어 작목 선택과 농업 규모 확대에 유리하지만 읍내 외 지역은 교통·생활편의가 제한될 수 있습니다. 다만 지원금과 대상 요건은 매년 달라지므로, 전입 예정지의 농지 임차 가능 여부·일자리·의료·자녀 교육환경을 함께 확인해 결정하는 것이 좋습니다. 자세한 지원사업은 [증평군 귀농귀촌](https://www.jp.go.kr)과 [괴산군 귀농귀촌](https://www.goesan.go.kr), [귀농귀촌종합센터](https://www.returnfarm.com)에서 확인하세요.",
+      "responseHash": "92e112757b7b07c5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4819,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.goesan.go.kr",
+        "https://www.returnfarm.com"
+      ],
+      "timestamp": "2026-09-06T22:48:38.066Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E2",
+      "category": "comparison",
+      "question": "증평과 진천의 차이점이 뭐야?",
+      "rep": 2,
+      "response": "증평과 진천은 모두 충청북도에 속하지만, **증평군은 충북 중부의 작은 군으로 증평읍 중심의 생활권**이 형성되어 있고, **진천군은 증평보다 면적이 넓으며 진천읍·덕산읍 등 여러 생활권**으로 나뉩니다.  \n증평은 **좌구산휴양랜드, 증평민속체험박물관, 보강천** 등 관광·휴양지와 교통·군사 관련 시설이 특징이고, 진천은 **충북혁신도시, 산업단지, 농다리·초평호** 등 산업·행정·관광 기능이 두드러집니다.  \n쉽게 말하면 **증평은 작고 компакт한 생활·휴양 중심 지역**, **진천은 규모가 더 크고 산업·혁신도시 기능이 강한 지역**입니다.  \n참고: [증평군청](https://www.jp.go.kr), [진천군청](https://www.jincheon.go.kr)",
+      "responseHash": "daa3c8be89da456f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4950,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.jincheon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:38.196Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F1",
+      "category": "negative_test",
+      "question": "증평군의 단점이나 주의할 점 알려줘",
+      "rep": 2,
+      "response": "증평군은 규모가 작은 지역이라 대형병원·대형 쇼핑시설·문화공연장이 청주 등 인근 도시보다 적고, 전문 진료나 큰 소비·여가 활동에는 이동이 필요할 수 있습니다.  \n대중교통은 읍내와 주요 노선 중심으로 운영되므로 외곽·농촌 지역에서는 배차 간격과 막차 시간을 미리 확인하는 것이 좋고, 차량이 있으면 생활이 편리합니다.  \n일자리도 제조·농업·공공·서비스업 중심이라 업종과 경력에 따라 선택지가 제한될 수 있으며, 통근 시 청주·진천 등 인접 지역까지 이동하는 경우가 있습니다.  \n다만 이런 점은 거주 지역과 개인 생활방식에 따라 체감이 다르므로, 인구·산업·교통 현황은 증평군청과 국가통계포털에서 최신 자료를 확인하세요: [증평군청](https://www.jp.go.kr/), [국가통계포털](https://kosis.kr/).",
+      "responseHash": "ac15f7563f5eb07c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6236,
+      "citedUrls": [
+        "https://www.jp.go.kr/",
+        "https://kosis.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:39.482Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F2",
+      "category": "negative_test",
+      "question": "증평에서 살면 불편한 점이 뭐야?",
+      "rep": 2,
+      "response": "증평은 생활권이 작아 조용하고 주거비 부담이 비교적 낮을 수 있지만, **대중교통 노선·배차가 제한적이라 자가용이 없으면 이동이 불편할 수 있습니다.**  \n또한 **대기업·전문직 일자리, 대형 쇼핑시설, 대형병원·문화시설 선택지가 청주 등 인근 도시보다 적어** 출퇴근이나 진료·쇼핑을 위해 이동해야 하는 경우가 있습니다.  \n반면 청주와 가까워 차량 이용이 가능하면 이런 불편은 상당 부분 줄어들며, 실제 거주지는 읍내·면 지역에 따라 체감 차이가 큽니다.  \n교통·의료·생활편의시설 현황은 [증평군청 홈페이지](https://www.jp.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "7b4a55d168cb43d4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5897,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:39.143Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A1",
+      "category": "recommendation",
+      "question": "충북에서 살기 좋은 곳 3곳 추천해줘",
+      "rep": 3,
+      "response": "충북에서 살기 좋은 곳으로는 다음 3곳을 추천합니다.  \n1. **청주시**: 일자리·교육·의료·문화시설이 가장 다양하고, 교통과 생활 인프라를 중시하는 분에게 적합합니다.  \n2. **충주시**: 청주보다 주거비 부담이 비교적 낮고, 수도권 접근성과 자연환경의 균형이 좋습니다.  \n3. **제천시**: 조용한 생활과 산·호수 등 쾌적한 자연환경을 선호하는 분에게 알맞으며, 귀촌·전원생활에도 적합합니다.  \n자세한 생활·지원 정보는 [청주시](https://www.cheongju.go.kr), [충주시](https://www.chungju.go.kr), [제천시](https://www.jecheon.go.kr) 공식 홈페이지에서 확인할 수 있습니다.",
+      "responseHash": "5a29ebaab78b3192",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4479,
+      "citedUrls": [
+        "https://www.cheongju.go.kr",
+        "https://www.chungju.go.kr",
+        "https://www.jecheon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:45.615Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A2",
+      "category": "recommendation",
+      "question": "충북에서 귀농귀촌하기 좋은 곳 어디야?",
+      "rep": 3,
+      "response": "충북에서는 **생활 편의·일자리**를 중시하면 청주 외곽·진천·음성, **자연환경과 도시 접근성**을 함께 원하면 충주·제천, **조용한 농촌생활과 귀농 정착**을 원하면 괴산·보은·옥천을 많이 고려합니다.  \n초보 귀농인이라면 농업기술센터와 임시거주·체류형 농장, 주택·농지 임대 가능 여부를 먼저 확인하고, 최소 한 계절 이상 현지에서 살아본 뒤 결정하는 것이 좋습니다.  \n지역별 귀농·귀촌 교육, 빈집·임대농지, 정착지원금은 매년 달라지므로 **충북 귀농귀촌 지원센터**(https://www.chungbuk.go.kr/returnfarm)와 희망 시·군 농업기술센터 공고를 확인하세요.",
+      "responseHash": "36468eecf8a24843",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4750,
+      "citedUrls": [
+        "https://www.chungbuk.go.kr/returnfarm"
+      ],
+      "timestamp": "2026-09-06T22:48:45.886Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A3",
+      "category": "recommendation",
+      "question": "한국에서 인삼 산지로 유명한 곳 어디야?",
+      "rep": 3,
+      "response": "한국에서 인삼 산지로 가장 유명한 곳은 **충남 금산군**입니다. 금산은 전국 최대 규모의 인삼 유통지로, **금산인삼시장**과 매년 열리는 **금산세계인삼축제**로도 잘 알려져 있습니다. 그 밖에 **경북 영주시 풍기**, **충북 음성군**, **강원 홍천군**, **전북 진안군**도 주요 인삼 산지입니다.  \n- 금산군청: https://www.geumsan.go.kr  \n- 금산인삼축제: https://www.insamfestival.co.kr",
+      "responseHash": "ac8bd1c53a9636e6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 2713,
+      "citedUrls": [
+        "https://www.geumsan.go.kr",
+        "https://www.insamfestival.co.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:43.849Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B1",
+      "category": "association",
+      "question": "증평 하면 뭐가 떠올라? 세 가지 말해줘",
+      "rep": 3,
+      "response": "증평 하면 보통 다음 세 가지가 떠오릅니다.  \n1. **좌구산휴양랜드** – 자연휴양림과 출렁다리 등으로 유명한 휴양지  \n2. **증평민속체험박물관** – 지역 전통문화와 민속을 체험할 수 있는 곳  \n3. **인삼과 홍삼 제품** – 증평의 대표 특산물 중 하나로 건강식품으로 잘 알려져 있습니다.",
+      "responseHash": "83e1c0178ce110f6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 2339,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:48:43.475Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B2",
+      "category": "association",
+      "question": "증평군의 별명이나 슬로건이 뭐야?",
+      "rep": 3,
+      "response": "증평군의 현재 공식 군정 슬로건은 **“군민중심 새로운 미래 증평”**입니다.  \n지역을 소개할 때는 **“작지만 강한 도시 증평”**이라는 표현도 별명처럼 자주 사용됩니다.  \n다만 슬로건은 민선 군정 시기에 따라 바뀔 수 있으므로, 자세한 내용은 [증평군청 홈페이지](https://www.jp.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "927cdefabf155914",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8939,
+      "citedUrls": [
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:50.076Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C1",
+      "category": "keyword_entry",
+      "question": "한국에서 인삼 유명한 곳 어디야?",
+      "rep": 3,
+      "response": "한국에서 인삼으로 가장 유명한 곳은 **충남 금산**입니다. 금산은 전국 최대 규모의 인삼 유통지로, 금산인삼시장과 금산인삼축제가 특히 유명합니다. 그 밖에 **경북 영주 풍기인삼**, **강화도 인삼**도 대표적인 산지로 꼽힙니다.  \n- 금산군청: https://www.geumsan.go.kr/  \n- 영주시청: https://www.yeongju.go.kr/",
+      "responseHash": "e4633a788347c393",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3628,
+      "citedUrls": [
+        "https://www.geumsan.go.kr/",
+        "https://www.yeongju.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:54.517Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C2",
+      "category": "keyword_entry",
+      "question": "한국에서 에듀팜이나 교육농장 특구가 있는 곳 어디야?",
+      "rep": 3,
+      "response": "공식적인 **지역특화발전특구**로 지정된 ‘에듀팜특구’는 **충청북도 증평군**의 **증평 에듀팜특구**가 대표적이며, 농촌체험·관광·교육 시설이 조성되어 있습니다.  \n반면 **‘교육농장특구’라는 전국 단위의 공식 특구 명칭은 일반적으로 사용되지 않으며**, 교육농장은 농촌진흥청 품질인증 등을 받은 개별 농장 형태로 전국 여러 지역에 운영됩니다.  \n교육농장 위치는 농촌진흥청 농사로의 체험·교육농장 정보를 확인하거나, 지역 농업기술센터에 문의하면 됩니다.  \n출처: [농촌진흥청 농사로](https://www.nongsaro.go.kr), [증평군청](https://www.jp.go.kr)",
+      "responseHash": "50a1ec23a698ee85",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8014,
+      "citedUrls": [
+        "https://www.nongsaro.go.kr",
+        "https://www.jp.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:58.904Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C3",
+      "category": "keyword_entry",
+      "question": "충북에서 자연휴양림 좋은 곳 어디야?",
+      "rep": 3,
+      "response": "충북에서는 **좌구산자연휴양림(증평)**이 숲속 숙박·산책로·천문대가 잘 갖춰져 가족 여행에 좋고, **조령산자연휴양림(괴산)**은 계곡과 산림 경관이 뛰어나 여름 휴양에 추천합니다.  \n조용한 숲길과 계곡을 원하면 **민주지산자연휴양림(영동)**, 청주에서 가까운 곳을 찾으면 **옥화자연휴양림(청주)**이 편리합니다.  \n보은의 **속리산 말티재자연휴양림**은 속리산 관광과 연계하기 좋습니다.  \n객실·야영장 예약 및 운영 여부는 공식 예약 사이트 **숲나들e**(https://www.foresttrip.go.kr)에서 확인하세요.",
+      "responseHash": "5d86ce44025ef6ba",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5071,
+      "citedUrls": [
+        "https://www.foresttrip.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:55.960Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D1",
+      "category": "scenario",
+      "question": "서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘",
+      "rep": 3,
+      "response": "서울 도심 기준 **차량 이동 1시간 30분 안팎**의 귀촌 후보지는 다음과 같습니다(교통량과 출발지에 따라 달라집니다).  \n- **양평**: 서울 접근성, 자연환경, 병원·생활편의시설의 균형이 좋아 초보 귀촌에 적합합니다.  \n- **가평**: 산·강 중심의 전원생활과 관광·펜션 운영을 고려하기 좋지만, 읍내 외 지역은 생활권 확인이 필요합니다.  \n- **강화**: 농촌생활과 바다·섬 생활을 함께 누릴 수 있고, 인천·김포 접근성이 장점입니다.  \n- **파주·연천**: 비교적 넓은 토지와 농업 기반을 찾기 좋으며, 파주는 생활편의시설, 연천은 조용한 환경이 강점입니다.  \n\n귀촌 전에는 **대중교통, 병원·마트 거리, 상하수도·난방 방식, 농지 규제와 빈집 여부**를 현장 확인하고, 귀농귀촌종합센터의 지역별 지원사업도 확인하세요: https://www 귀농귀촌종합센터.com (농림축산식품부 귀농귀촌종합센터: https://www.returnfarm.com)",
+      "responseHash": "2674e60e571b0019",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7195,
+      "citedUrls": [
+        "https://www",
+        "https://www.returnfarm.com"
+      ],
+      "timestamp": "2026-09-06T22:48:58.084Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D2",
+      "category": "scenario",
+      "question": "은퇴 후 충북에서 조용히 살 곳 어디야?",
+      "rep": 3,
+      "response": "은퇴 후 조용한 생활을 원하시면 **괴산·보은·옥천의 읍·면 지역**이 전원생활에 적합하고, 산과 호수를 선호하면 **제천 외곽·단양**도 좋습니다.  \n다만 병원·장보기·대중교통 접근성을 중시한다면 괴산읍, 보은읍, 옥천읍 또는 제천 시내 인근이 면 지역보다 편리합니다.  \n겨울철 제설, 난방비, 농촌 빈집의 수리비와 상하수도·인터넷 설치 여부를 반드시 확인한 뒤 1~2개월 임대 생활을 먼저 해보는 것을 권합니다.  \n지역 정보는 충청북도 누리집(https://www.chungbuk.go.kr)과 귀농귀촌종합센터(https://www 귀농귀촌.com)에서 확인할 수 있습니다.",
+      "responseHash": "8a0d8c1d8cf172ec",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4298,
+      "citedUrls": [
+        "https://www.chungbuk.go.kr",
+        "https://www"
+      ],
+      "timestamp": "2026-09-06T22:48:55.187Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D3",
+      "category": "scenario",
+      "question": "50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘",
+      "rep": 3,
+      "response": "텃밭과 전원생활을 함께 원한다면 **충북 제천·단양, 전북 남원·정읍, 충남 서산·공주, 경남 밀양**을 추천합니다.  \n제천·단양은 공기와 자연환경이 좋지만 겨울이 춥고, 남원·정읍·밀양은 비교적 온화하며 농지와 생활비 부담이 상대적으로 낮은 편입니다.  \n병원·시장·문화시설 접근성을 중시하면 **남원시 외곽, 공주시 읍·면 지역, 서산시 농촌지역**이 적합하고, 실제 이주 전에는 농지 용도·상하수도·난방·대중교통을 반드시 확인하세요.  \n지역별 빈집·귀농 지원은 [귀농귀촌종합센터](https://www.returnfarm.com), 농지 임대·매매 정보는 [농지은행](https://www.fbo.or.kr)에서 확인할 수 있습니다.",
+      "responseHash": "434a4f2569d7136c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5157,
+      "citedUrls": [
+        "https://www.returnfarm.com",
+        "https://www.fbo.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:49:04.875Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E1",
+      "category": "comparison",
+      "question": "증평이랑 괴산 중 귀농하기 좋은 곳은?",
+      "rep": 3,
+      "response": "귀농 후 **생활 편의성과 도시 접근성**을 중시하면 청주와 가깝고 규모가 작은 **증평**이 유리하며, **넓은 농지·산촌 환경·농업 중심 생활**을 원하면 **괴산**이 더 적합합니다.  \n증평은 의료·교육·교통 이용이 비교적 편리한 편이지만 농지 선택 폭이 제한될 수 있고, 괴산은 품목과 정착 지역 선택의 폭이 넓은 대신 읍내 외 지역은 생활·교통 불편을 감수해야 합니다.  \n최종 결정 전에는 희망 작목의 토질·용수, 빈집·농지 임차 가능 여부, 귀농 교육과 주택·농지 지원을 직접 확인하세요.  \n지원사업은 매년 달라질 수 있으므로 [증평군 귀농귀촌](https://www.jp.go.kr)과 [괴산군 귀농귀촌](https://www.goesan.go.kr) 공고를 비교하는 것이 좋습니다.",
+      "responseHash": "87f9eb1ef237b361",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4810,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.goesan.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:49:04.528Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E2",
+      "category": "comparison",
+      "question": "증평과 진천의 차이점이 뭐야?",
+      "rep": 3,
+      "response": "증평군과 진천군은 모두 충청북도에 속하지만, **증평군은 면적이 작고 증평읍 중심의 생활권이 밀집된 지역**이며, **진천군은 면적과 인구가 더 크고 여러 읍·면으로 구성**되어 있습니다.  \n진천은 수도권과 가까운 입지 덕분에 산업단지·기업 유치와 물류·제조업이 발달했고, 농다리·초평호 등 관광자원도 유명합니다.  \n증평은 좌구산휴양림·민속체험박물관 등 산림·휴양 및 지역문화 관광이 강점이며, 청주·괴산·진천과 가까워 생활권이 연결되어 있습니다.  \n자세한 행정·관광 정보는 [증평군청](https://www.jp.go.kr)과 [진천군청](https://www.jincheon.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "77eee6333a9c83e0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5430,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://www.jincheon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:49:05.149Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F1",
+      "category": "negative_test",
+      "question": "증평군의 단점이나 주의할 점 알려줘",
+      "rep": 3,
+      "response": "증평군은 규모가 작은 지역이라 대형 병원·대형 쇼핑시설·문화공연 선택지가 제한적이고, 읍내 외 지역은 자가용 의존도가 높은 편입니다.  \n일자리와 교육·의료 서비스 선택 폭도 청주 등 인근 대도시보다 좁을 수 있어, 통근·통학이나 전문 진료가 필요하면 이동시간을 고려해야 합니다.  \n농촌 지역 특성상 겨울철 결빙, 집중호우·침수, 야생동물 출몰 등에 주의하고, 군부대 인근은 훈련에 따른 소음이나 교통 통제가 있을 수 있습니다.  \n실제 생활 여건은 읍내와 면 지역의 차이가 있으므로 이주 전 증평군 생활지도와 재난안전 정보를 확인하는 것이 좋습니다: [증평군청](https://www.jp.go.kr), [국가통계포털](https://kosis.kr).",
+      "responseHash": "495b00c13ea10a5c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5759,
+      "citedUrls": [
+        "https://www.jp.go.kr",
+        "https://kosis.kr"
+      ],
+      "timestamp": "2026-09-06T22:49:05.477Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F2",
+      "category": "negative_test",
+      "question": "증평에서 살면 불편한 점이 뭐야?",
+      "rep": 3,
+      "response": "증평은 규모가 작은 지역이라 **대기업·전문직 일자리가 적어** 청주·오창 등으로 출퇴근해야 할 수 있습니다. 대중교통 운행 횟수와 노선이 대도시보다 적고, 자가용이 없으면 읍내 밖 이동이 불편할 수 있습니다. 대형 쇼핑시설·문화공연·전문 의료기관 선택지도 제한적이며, 중증 진료나 다양한 여가활동은 청주 등 인근 도시로 가야 하는 경우가 많습니다. 다만 주거비와 생활비가 비교적 부담이 적고, 청주와 가까워 조용한 생활을 선호하면 장점이 될 수 있습니다. 자세한 생활·교통 정보는 [증평군청](https://www.jp.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "0c5a0700213e64e0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4950,
+      "citedUrls": [
+        "https://www.jp.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:49:04.668Z"
+    }
+  ]
+}

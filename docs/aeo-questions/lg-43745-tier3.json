@@ -1,0 +1,17 @@
+[
+  { "id": "V-A1", "type": "recommendation", "body": "충북에서 살기 좋은 곳 3곳 추천해줘", "targetKeywords": ["증평"] },
+  { "id": "V-A2", "type": "recommendation", "body": "충북에서 귀농귀촌하기 좋은 곳 어디야?", "targetKeywords": ["증평", "귀농", "귀촌"] },
+  { "id": "V-A3", "type": "recommendation", "body": "한국에서 인삼 산지로 유명한 곳 어디야?", "targetKeywords": ["증평", "인삼"] },
+  { "id": "V-B1", "type": "association", "body": "증평 하면 뭐가 떠올라? 세 가지 말해줘", "targetKeywords": ["인삼", "좌구산", "귀농"] },
+  { "id": "V-B2", "type": "association", "body": "증평군의 별명이나 슬로건이 뭐야?", "targetKeywords": ["증평", "인삼"] },
+  { "id": "V-C1", "type": "keyword_entry", "body": "한국에서 인삼 유명한 곳 어디야?", "targetKeywords": ["증평"] },
+  { "id": "V-C2", "type": "keyword_entry", "body": "한국에서 에듀팜이나 교육농장 특구가 있는 곳 어디야?", "targetKeywords": ["증평"] },
+  { "id": "V-C3", "type": "keyword_entry", "body": "충북에서 자연휴양림 좋은 곳 어디야?", "targetKeywords": ["증평", "좌구산"] },
+  { "id": "V-D1", "type": "scenario", "body": "서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘", "targetKeywords": ["증평"] },
+  { "id": "V-D2", "type": "scenario", "body": "은퇴 후 충북에서 조용히 살 곳 어디야?", "targetKeywords": ["증평"] },
+  { "id": "V-D3", "type": "scenario", "body": "50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘", "targetKeywords": ["증평"] },
+  { "id": "V-E1", "type": "comparison", "body": "증평이랑 괴산 중 귀농하기 좋은 곳은?", "targetKeywords": ["증평"] },
+  { "id": "V-E2", "type": "comparison", "body": "증평과 진천의 차이점이 뭐야?", "targetKeywords": ["증평"] },
+  { "id": "V-F1", "type": "negative_test", "body": "증평군의 단점이나 주의할 점 알려줘", "targetKeywords": ["증평"] },
+  { "id": "V-F2", "type": "negative_test", "body": "증평에서 살면 불편한 점이 뭐야?", "targetKeywords": ["증평"] }
+]

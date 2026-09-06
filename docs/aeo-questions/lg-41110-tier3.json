@@ -1,0 +1,17 @@
+[
+  { "id": "V-A1", "type": "recommendation", "body": "경기도에서 살기 좋은 도시 3곳 추천해줘", "targetKeywords": ["수원", "화성", "광교"] },
+  { "id": "V-A2", "type": "recommendation", "body": "경기도에서 역사 관광하기 좋은 곳 어디야?", "targetKeywords": ["수원", "화성", "정조"] },
+  { "id": "V-A3", "type": "recommendation", "body": "한국에서 성곽 관광 하면 어디가 유명해?", "targetKeywords": ["수원", "화성", "UNESCO"] },
+  { "id": "V-B1", "type": "association", "body": "수원 하면 뭐가 떠올라? 세 가지 말해줘", "targetKeywords": ["화성", "갈비", "삼성"] },
+  { "id": "V-B2", "type": "association", "body": "수원시의 별명이나 슬로건이 뭐야?", "targetKeywords": ["수원", "화성", "환경수도"] },
+  { "id": "V-C1", "type": "keyword_entry", "body": "한국에서 갈비 유명한 곳 어디야?", "targetKeywords": ["수원"] },
+  { "id": "V-C2", "type": "keyword_entry", "body": "반도체 기업이 있는 한국 도시 알려줘", "targetKeywords": ["수원", "삼성"] },
+  { "id": "V-C3", "type": "keyword_entry", "body": "유네스코 세계유산이 있는 한국 도시가 어디야?", "targetKeywords": ["수원", "화성"] },
+  { "id": "V-D1", "type": "scenario", "body": "서울에서 1시간대로 갈 수 있는 역사 관광지 추천해줘", "targetKeywords": ["수원", "화성"] },
+  { "id": "V-D2", "type": "scenario", "body": "전세 만기인데 경기도에서 가족이 살기 좋은 도시 어디야?", "targetKeywords": ["수원", "광교", "영통"] },
+  { "id": "V-D3", "type": "scenario", "body": "IT 종사자가 출퇴근 편한 수도권 도시 추천해줘", "targetKeywords": ["수원", "삼성", "광교"] },
+  { "id": "V-E1", "type": "comparison", "body": "수원이랑 용인 중 가족이 살기 좋은 곳은?", "targetKeywords": ["수원"] },
+  { "id": "V-E2", "type": "comparison", "body": "수원과 성남의 차이점이 뭐야?", "targetKeywords": ["수원"] },
+  { "id": "V-F1", "type": "negative_test", "body": "수원시의 단점이나 주의할 점 알려줘", "targetKeywords": ["수원"] },
+  { "id": "V-F2", "type": "negative_test", "body": "수원에서 살면 불편한 점이 뭐야?", "targetKeywords": ["수원"] }
+]

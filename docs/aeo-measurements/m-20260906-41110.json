@@ -1,0 +1,2317 @@
+{
+  "measurement": {
+    "id": "m-20260906-41110",
+    "unit_id": "lg-41110",
+    "unit_name": "수원시",
+    "method_version": "v2.1",
+    "ai_service": "chatgpt",
+    "model": "gpt-5.6-luna",
+    "web_search": "on",
+    "mode": "quick",
+    "reps": 3,
+    "status": "completed",
+    "started_at": "2026-09-06T22:44:32.424Z",
+    "completed_at": "2026-09-06T22:48:59.459Z",
+    "total_queries": 150,
+    "error_count": 0,
+    "tier_counts": {
+      "T1": 45,
+      "T2": 60,
+      "T3": 45
+    }
+  },
+  "results": [
+    {
+      "tier": "T1",
+      "questionId": "B-01",
+      "category": "birth",
+      "question": "수원시 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "rep": 1,
+      "response": "현재 기준으로 **수원시 둘째아 출산지원금은 50만 원**, **경기도 산후조리비는 50만 원**이므로 합계 **100만 원**입니다.  \n산후조리비는 출생일 기준 부모 중 한 명이 경기도에 일정 기간 거주하고, 출생신고 및 신청기한 등 요건을 충족해야 하며 지역화폐로 지급됩니다.  \n신청 전 수원시 출산지원금은 **주소지 동 행정복지센터**, 산후조리비는 **경기민원24**에서 최신 자격을 확인하세요: https://www.gg.go.kr 민원/복지 항목.",
+      "responseHash": "773e2be2e33ea98a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6768,
+      "citedUrls": [
+        "https://www.gg.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:32.424Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-02",
+      "category": "move_in",
+      "question": "수원시 전입신고 하면 받을 수 있는 혜택 있어?",
+      "rep": 1,
+      "response": "수원시는 **전입신고만으로 일괄 지급되는 현금·이사축하금은 별도로 운영하지 않는 것으로 안내**하고 있습니다. 다만 주민등록이 수원시로 되어 있으면 수원시민 대상 **시민안전보험·자전거보험 등**의 가입 대상이 될 수 있고, 시립 체육시설·도서관 등 일부 서비스 이용 자격도 생깁니다(사업별 조건·기간 확인 필요). 출산·아동·청년·저소득층 지원은 전입신고와 별도로 소득·연령 등 요건을 충족해 신청해야 하므로 **정부24 보조금24**에서 맞춤 혜택을 조회해 보세요.  \n- 수원시: https://www.suwon.go.kr  \n- 보조금24: https://www.gov.kr/portal/rcvfvrSvc/main",
+      "responseHash": "0a2be4e1e30c0983",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9427,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.gov.kr/portal/rcvfvrSvc/main"
+      ],
+      "timestamp": "2026-09-06T22:44:35.083Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-03",
+      "category": "waste",
+      "question": "수원시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+      "rep": 1,
+      "response": "수원시 대형폐기물 수수료는 품목·규격별로 다르며, 정확한 금액은 **수원시 대형폐기물 배출신고 사이트**에서 품목을 선택해 확인할 수 있습니다: [https://waste.suwon.go.kr](https://waste.suwon.go.kr)  \n사이트에서 주소와 배출일, 품목·수량을 입력하고 수수료를 결제한 뒤 **신고필증을 출력해 부착**하거나 접수번호를 폐기물에 기재해 지정 장소에 배출하면 됩니다.  \n인터넷 이용이 어려우면 거주지 **동 행정복지센터 또는 지정 판매처**에서 신고필증을 구매할 수 있으며, 배출 전 관할 구청 안내를 확인하세요.  \n신고한 배출일과 장소를 지키고, 무단 배출 시 과태료가 부과될 수 있습니다.",
+      "responseHash": "e92158fcd089ad4a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5963,
+      "citedUrls": [
+        "https://waste.suwon.go.kr](https://waste.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:31.619Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-04",
+      "category": "waste_bag",
+      "question": "수원시 종량제봉투 종류별 가격 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8674,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:44:34.330Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-05",
+      "category": "civil",
+      "question": "수원시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "rep": 1,
+      "response": "수원시청 민원실은 평일 09:00~18:00 운영하며, 점심시간(12:00~13:00)에도 일부 민원은 가능하지만 담당자 부재로 처리가 제한될 수 있습니다. 수원시 4개 구청(장안·권선·팔달·영통) 민원실은 보통 12:00~13:00 점심시간 휴무로 운영되지 않으므로 방문 전 확인하는 것이 좋습니다. 수원시청 주차장은 **최초 1시간 무료, 이후 10분당 300원**이며 1일 요금은 주차장 운영기준에 따라 달라질 수 있습니다. 정확한 당일 운영 여부는 수원시 휴먼콜센터 **1899-3300** 또는 수원시 홈페이지(https://www.suwon.go.kr)에서 확인하세요.",
+      "responseHash": "7a0feae5e76c507f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8725,
+      "citedUrls": [
+        "https://www.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:34.381Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-06",
+      "category": "senior_bus",
+      "question": "수원시 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9387,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:44:45.278Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-07",
+      "category": "senior_bath",
+      "question": "수원시 어르신 목욕권이나 이미용 지원 있어?",
+      "rep": 1,
+      "response": "현재 수원시는 **모든 어르신에게 정기적으로 지급하는 목욕권·이미용비 지원 제도는 운영하지 않는 것으로 확인됩니다.** 다만 동별 복지사업, 경로당·복지관 후원, 기초생활수급자·차상위계층 대상 지원이 별도로 있을 수 있으니 주소지 **동 행정복지센터**에 문의해 보세요. 수원시 휴먼콜센터 **1899-3300**, 수원시 복지포털에서 확인할 수 있습니다: https://www.suwon.go.kr/web/welfare/",
+      "responseHash": "190c2bf860ea4f99",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6836,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/welfare/"
+      ],
+      "timestamp": "2026-09-06T22:44:42.727Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-08",
+      "category": "youth_rent",
+      "question": "수원시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+      "rep": 1,
+      "response": "수원시에서 안내하는 **청년월세 지원은 국토교통부 청년월세 지원사업** 기준으로, **만 19~34세**, 부모와 별도 거주하고 임차보증금·월세 기준을 충족해야 합니다.  \n소득·재산 기준은 **청년가구 기준 중위소득 60% 이하·재산 1억 2,200만 원 이하**, 원가구는 **중위소득 100% 이하·재산 4억 7,000만 원 이하**이며, 주택 조건은 보통 **보증금 5,000만 원 이하·월세 70만 원 이하**입니다.  \n지원금은 실제 납부 월세 중 **월 최대 20만 원, 최대 24개월**이며, 기숙사·고시원도 요건을 충족하면 포함될 수 있습니다. 신청기간과 예산은 변동될 수 있으므로 **복지로(https://www.bokjiro.go.kr)** 또는 수원시 청년정책 안내(https://www.suwon.go.kr)에서 현재 접수 여부를 확인하세요.",
+      "responseHash": "f3826da64215d84b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8430,
+      "citedUrls": [
+        "https://www.bokjiro.go.kr",
+        "https://www.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:44.321Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-09",
+      "category": "startup",
+      "question": "수원시 청년 창업 지원금이나 창업 공간 지원 있어?",
+      "rep": 1,
+      "response": "네. 수원시는 공고 시기에 따라 **청년·초기창업자 사업화 지원금**, 창업교육·컨설팅, 입주형 **창업보육공간**을 지원하며, 청년지원센터의 공유공간·창업 프로그램도 이용할 수 있습니다.  \n지원금은 매년 사업별로 대상·금액·모집기간이 달라 **수원시 기업지원포털의 기업지원사업 공고**에서 ‘청년창업·창업지원·사업화’를 검색하는 것이 가장 정확합니다.  \n공간 지원은 **수원시 청년지원센터** 및 창업보육센터 입주 모집을 확인해 보세요.  \n\n- 수원시 기업지원: https://www.suwon.go.kr/web/industry/BD_index.do  \n- 수원시 청년지원센터: https://www.swyouth.kr  \n- 정부 창업지원 통합공고: https://www.k-startup.go.kr",
+      "responseHash": "22335352e7a172b4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9009,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/industry/BD_index.do",
+        "https://www.swyouth.kr",
+        "https://www.k-startup.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:44.901Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-10",
+      "category": "night_care",
+      "question": "수원시 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+      "rep": 1,
+      "response": "수원에서 밤에 아이가 아프면 **아주대학교병원 응급의료센터(영통구 월드컵로 164)**, **가톨릭대학교 성빈센트병원 응급실(팔달구 중부대로 93)**, **경기도의료원 수원병원 응급실(장안구 수성로245번길 69)** 등을 이용할 수 있습니다.  \n다만 소아 진료 가능 여부와 접수 시간은 변동될 수 있으니 출발 전 병원에 전화하거나 **응급의료포털에서 ‘달빛어린이병원·야간진료’**를 확인하세요: https://www.e-gen.or.kr  \n호흡곤란, 의식저하, 경련, 심한 탈수·출혈 등 위급한 증상이 있으면 병원을 찾기보다 즉시 **119**에 연락하세요.",
+      "responseHash": "ef6a254742499480",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7968,
+      "citedUrls": [
+        "https://www.e-gen.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:43.859Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-11",
+      "category": "child_care",
+      "question": "수원시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+      "rep": 1,
+      "response": "수원시 **초등돌봄교실**은 자녀가 다니는 학교의 늘봄·방과후 담당 부서에 신청하며, 운영시간·모집기준·정원은 학교마다 다르므로 학교 홈페이지나 행정실에서 확인해야 합니다.  \n**지역아동센터**는 방과 후 보호·급식·학습·문화 프로그램을 제공하며, 수원시 내 센터의 위치와 연락처는 [지역아동센터중앙지원단](https://www.icareinfo.go.kr)에서 지역을 ‘수원시’로 검색하면 확인할 수 있습니다.  \n또한 초등학생 대상 **다함께돌봄센터**는 [다함께돌봄사업 홈페이지](https://www.dadol.or.kr) 또는 수원시 홈페이지에서 검색할 수 있으며, 이용료·운영시간·모집 여부는 센터별로 다릅니다.  \n가까운 기관과 현재 모집 여부는 **수원시 휴먼콜센터 1899-3300**에 거주 동을 알려 문의하면 안내받을 수 있습니다.",
+      "responseHash": "de41a58dc3c9bb9e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8018,
+      "citedUrls": [
+        "https://www.icareinfo.go.kr",
+        "https://www.dadol.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:54.102Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-12",
+      "category": "multicultural",
+      "question": "수원시 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "rep": 1,
+      "response": "수원시다문화가족지원센터는 **경기도 수원시 팔달구 효원로265번길 17(인계동)**에 있으며, 방문 전 대표전화로 운영 여부를 확인하는 것이 좋습니다.  \n주요 프로그램은 **한국어교육, 가족·부부교육 및 상담, 통·번역 지원, 자녀 언어발달·방문교육, 취업·역량강화 교육, 다문화가족 교류·문화 프로그램** 등입니다.  \n프로그램별 대상·일정·신청 방법은 수원시 가족센터 홈페이지에서 확인할 수 있습니다: **https://suwon.familynet.or.kr/** (대표전화는 홈페이지의 최신 안내를 확인해 주세요).",
+      "responseHash": "042f0ac6ec88da38",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7690,
+      "citedUrls": [
+        "https://suwon.familynet.or.kr/**"
+      ],
+      "timestamp": "2026-09-06T22:44:53.774Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-13",
+      "category": "loan",
+      "question": "수원시 소상공인 특례보증 대출 조건 알려줘",
+      "rep": 1,
+      "response": "수원시 소상공인 특례보증은 **수원시에 사업장을 둔 소상공인**이 경기신용보증재단의 보증을 받아 금융기관에서 대출받을 수 있도록 지원하는 제도입니다. 일반적으로 사업자등록·영업 중인 소상공인이 대상이며, **국세·지방세 체납, 휴·폐업, 일부 사행성·유흥업종** 등은 제외될 수 있고 보증한도·보증료·대출금리는 공고 시점과 심사 결과에 따라 달라집니다. 신청은 **경기신용보증재단 수원지점 또는 홈페이지**에서 상담·접수하며, 재단 보증심사 후 협약 금융기관에서 대출이 실행됩니다.  \n최신 한도와 이차보전 조건은 수원시 공고 또는 경기신용보증재단에서 확인하세요: https://www.gcgf.or.kr / https://www.suwon.go.kr",
+      "responseHash": "0a26adbe3e178bc9",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6530,
+      "citedUrls": [
+        "https://www.gcgf.or.kr",
+        "https://www.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:52.614Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-14",
+      "category": "tax",
+      "question": "수원시 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+      "rep": 1,
+      "response": "네. 수원시 **마을세무사**를 이용하면 소상공인도 국세·지방세 신고, 세금 납부·절세 관련 무료 상담을 받을 수 있습니다(상담 범위와 횟수는 세무사별로 다를 수 있음). 수원시 홈페이지에서 **‘마을세무사’**를 검색해 동별 담당 세무사와 상담 방법을 확인하거나, 수원시 휴먼콜센터 **1899-3300**으로 문의하세요. 국세 관련 일반 상담은 국세상담센터 **126**에서도 받을 수 있습니다: https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6763&cntntsId=8183",
+      "responseHash": "eeca23233d28870d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8614,
+      "citedUrls": [
+        "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=6763&cntntsId=8183"
+      ],
+      "timestamp": "2026-09-06T22:44:54.698Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-15",
+      "category": "festival",
+      "question": "수원시 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+      "rep": 1,
+      "response": "2026년 수원시 대표 축제는 보통 다음 시기에 열립니다(세부 날짜는 공식 발표 기준으로 확인해 주세요).  \n- **수원연극축제**: 5월경, 경기상상캠퍼스 일원  \n- **수원재즈페스티벌**: 9월경, 광교호수공원  \n- **수원화성문화제**: 10월경, 수원화성·화성행궁·행궁동 일원  \n정확한 2026년 일정과 프로그램은 **수원시 행사일정**(https://www.suwon.go.kr) 및 **수원문화재단**(https://www.swcf.or.kr)에서 확인하시기 바랍니다.",
+      "responseHash": "43bf5ce06911be5b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7723,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.swcf.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:44:53.808Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-01",
+      "category": "birth",
+      "question": "수원시 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "rep": 2,
+      "response": "수원시 **둘째아 출산지원금은 100만 원**, 경기도 **산후조리비는 50만 원**으로, 합계 **150만 원**입니다.  \n산후조리비는 경기민생? no, **경기민생?** 지역화폐(경기지역화폐)로 지급되며, 두 제도 모두 거주기간·출생신고 등 자격요건을 충족해야 합니다.  \n신청기한과 대상 여부는 수원시 보조금24 또는 주소지 동 행정복지센터에서 확인하세요: https://www.suwon.go.kr / https://www.gov.kr/portal/foreigner/ko2nd bic.",
+      "responseHash": "266b39a4fcd740da",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8166,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.gov.kr/portal/foreigner/ko2nd"
+      ],
+      "timestamp": "2026-09-06T22:45:04.376Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-02",
+      "category": "move_in",
+      "question": "수원시 전입신고 하면 받을 수 있는 혜택 있어?",
+      "rep": 2,
+      "response": "수원시는 **전입신고만 하면 현금·상품권을 일괄 지급하는 제도는 현재 별도로 운영하지 않는 것으로 안내**하고 있습니다. 다만 전입신고 후 수원시민이 되면 수원시민안전보험 등 주민등록 기준의 시민 지원제도와 청년·출산·다자녀·주거 지원사업을 신청할 수 있습니다(사업별 조건 상이). 전입신고 시 관할 동 행정복지센터에서 본인에게 해당하는 복지·청년·주거 혜택을 함께 확인해 보세요.  \n수원시 홈페이지: https://www.suwon.go.kr/ / 정부24 전입신고: https://www.gov.kr/",
+      "responseHash": "88a10bad9d27c441",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8253,
+      "citedUrls": [
+        "https://www.suwon.go.kr/",
+        "https://www.gov.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:04.462Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-03",
+      "category": "waste",
+      "question": "수원시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8721,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:04.930Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-04",
+      "category": "waste_bag",
+      "question": "수원시 종량제봉투 종류별 가격 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8638,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:04.847Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-05",
+      "category": "civil",
+      "question": "수원시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9094,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:05.303Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-06",
+      "category": "senior_bus",
+      "question": "수원시 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "rep": 2,
+      "response": "수원시 어르신 버스비 지원 대상은 **수원시에 주민등록을 둔 만 70세 이상 어르신**입니다.  \n지원금은 **분기별 최대 3만 원(연간 최대 12만 원)**이며, 수원시 어르신 교통카드로 이용한 버스요금을 사후 환급받는 방식입니다.  \n정확한 신청 방법과 카드 발급처는 수원시 홈페이지 또는 거주지 동 행정복지센터에서 확인할 수 있습니다.  \n출처: [수원시청](https://www.suwon.go.kr/) ※ 홈페이지에서 ‘어르신 버스요금 지원’ 검색",
+      "responseHash": "b7ee45862f1b43dd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8501,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:14.607Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-07",
+      "category": "senior_bath",
+      "question": "수원시 어르신 목욕권이나 이미용 지원 있어?",
+      "rep": 2,
+      "response": "네. 수원시는 **저소득 어르신 등을 대상으로 목욕비·이미용비를 지원하는 제도**가 있으며, 대상·지원 횟수·금액은 연도와 소득기준에 따라 달라질 수 있습니다. 가까운 **주소지 동 행정복지센터**에서 기초생활수급자·차상위계층 해당 여부와 신청 방법을 확인해 보세요. 수원시 콜센터 **1899-3300** 또는 국가법령정보센터의 관련 조례도 확인할 수 있습니다: https://www.law.go.kr/ordinSc.do?menuId=3&subMenuId=27&query=수원시%20노인%20목욕비",
+      "responseHash": "183095c5dfed5772",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8334,
+      "citedUrls": [
+        "https://www.law.go.kr/ordinSc.do?menuId=3&subMenuId=27&query=수원시%20노인%20목욕비"
+      ],
+      "timestamp": "2026-09-06T22:45:14.440Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-08",
+      "category": "youth_rent",
+      "question": "수원시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9641,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:15.747Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-09",
+      "category": "startup",
+      "question": "수원시 청년 창업 지원금이나 창업 공간 지원 있어?",
+      "rep": 2,
+      "response": "네, 수원시는 공고 시기에 따라 **청년 창업 사업화 자금·컨설팅**과 **창업 공간·입주 지원**을 운영합니다. 수원시청 기업지원·일자리 관련 공고와 **수원도시재단 창업지원사업**에서 예비·초기창업자 대상 모집을 확인할 수 있으며, 공간은 청년지원시설·창업보육센터별로 입주기업을 모집합니다. 지원금 규모, 연령·사업장 소재지 요건은 사업마다 다르므로 최신 공고를 확인하세요.  \n- 수원시 기업지원/고시공고: https://www.suwon.go.kr  \n- 수원도시재단: https://sscf2016.or.kr  \n- 전국 창업지원사업 통합공고: https://www.k-startup.go.kr",
+      "responseHash": "f0286f372dd6f5ce",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6043,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://sscf2016.or.kr",
+        "https://www.k-startup.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:12.149Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-10",
+      "category": "night_care",
+      "question": "수원시 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+      "rep": 2,
+      "response": "수원에서 밤에 아이가 아프면 **아주대학교병원 응급의료센터(영통구 월드컵로 164)**, **가톨릭대학교 성빈센트병원 응급의료센터(팔달구 중부대로 93)** 등 24시간 응급실을 이용할 수 있습니다.  \n응급실이 아닌 야간 소아진료는 운영시간이 자주 바뀌므로 **응급의료포털 E-Gen의 ‘달빛어린이병원·소아 야간진료’ 검색**에서 현재 운영 여부를 확인한 뒤 방문하세요: https://www.e-gen.or.kr  \n호흡곤란, 의식저하, 경련, 청색증, 심한 탈수·출혈 등 위급한 증상이 있으면 병원을 찾기보다 즉시 **119**에 연락하세요. \n",
+      "responseHash": "2fdb33b113fc95ff",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7911,
+      "citedUrls": [
+        "https://www.e-gen.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:14.017Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-11",
+      "category": "child_care",
+      "question": "수원시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+      "rep": 2,
+      "response": "수원시 **초등 방과후 돌봄교실**은 학교별로 운영시간·모집기준·정원이 다르므로 자녀가 다니는 학교 행정실이나 돌봄 담당자에게 신청 여부를 확인하는 것이 가장 정확합니다.  \n**지역아동센터**는 방과 후 학습·급식·생활지도를 제공하며, 수원시 내 센터 위치와 연락처는 지역아동센터중앙지원단의 [지역아동센터 찾기](https://www.icareinfo.go.kr/)에서 지역을 ‘수원시’로 검색할 수 있습니다.  \n초등돌봄교실 및 다함께돌봄센터 등 공적 돌봄 정보는 [수원시청](https://www.suwon.go.kr/)과 [수원교육지원청](https://www.goesw.kr/)에서 확인하고, 통합 안내는 수원시 휴먼콜센터 **1899-3300**으로 문의하세요.",
+      "responseHash": "42acb96a32773681",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9469,
+      "citedUrls": [
+        "https://www.icareinfo.go.kr/",
+        "https://www.suwon.go.kr/",
+        "https://www.goesw.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:26.029Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-12",
+      "category": "multicultural",
+      "question": "수원시 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9002,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:25.562Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-13",
+      "category": "loan",
+      "question": "수원시 소상공인 특례보증 대출 조건 알려줘",
+      "rep": 2,
+      "response": "수원시 소상공인 특례보증은 **수원시에 사업장을 둔 소상공인**이 경기신용보증재단의 보증을 통해 협약 금융기관에서 대출받도록 지원하는 제도입니다. 일반적으로 업체당 보증한도, 보증기간·보증료, 대출금리는 매년 예산과 공고에 따라 달라지며, 세금 체납·휴업·제외업종 등은 대상에서 제외될 수 있습니다. 신청은 **경기신용보증재단 수원지점**에서 상담·접수하며, 사업자등록증·신분증·매출 및 국세·지방세 관련 서류 등이 필요할 수 있습니다. 정확한 올해 한도와 금리는 수원시 기업일자리정책과 공고 또는 경기신용보증재단에서 확인하세요: [수원시 기업지원](https://www.suwon.go.kr), [경기신용보증재단](https://www.gcgf.or.kr)",
+      "responseHash": "a6b5fac3f0331a24",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5599,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.gcgf.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:22.159Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-14",
+      "category": "tax",
+      "question": "수원시 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+      "rep": 2,
+      "response": "네. 수원시 **마을세무사**를 통해 영세 소상공인도 국세·지방세 관련 무료 세무상담을 받을 수 있으며, 수원시 홈페이지에서 동별 담당 세무사와 연락처를 확인해 전화 또는 방문 상담을 신청하면 됩니다. 상담은 세금 신고·절세·체납 등 기본 상담 중심이며, 신고 대행이나 소송 대리는 별도 비용이 발생할 수 있으니 먼저 확인하세요. 수원시청 홈페이지의 **분야별정보 → 세금 → 마을세무사** 메뉴를 이용하거나, 국세 상담은 국세청 **126**에서도 무료로 받을 수 있습니다.  \n- 수원시청: https://www.suwon.go.kr  \n- 국세청 국세상담센터: https://call.nts.go.kr ※ 상담 전 운영시간과 방문 가능 여부를 전화로 확인하세요.",
+      "responseHash": "fad2449c7727af6a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8276,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://call.nts.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:24.836Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-15",
+      "category": "festival",
+      "question": "수원시 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+      "rep": 2,
+      "response": "2026년 수원시 대표 축제는 다음과 같습니다(세부 일정은 주최 측 사정에 따라 변동될 수 있습니다).\n\n- **수원화성문화제**: 가을 개최 예정, **수원화성·화성행궁 일원**\n- **수원화성 미디어아트**: 하반기 개최 예정, **화성행궁 및 수원화성 일원**\n- **수원연극축제**: 봄 개최 예정, **수원화성·탑동시민농장 일원**\n- **수원재즈페스티벌**: 가을 개최 예정, **광교호수공원 일원**\n\n정확한 2026년 날짜와 공연별 장소는 수원시 행사일정 또는 수원문화재단 공식 홈페이지에서 확인해 주세요: https://www.suwon.go.kr / https://www.swcf.or.kr",
+      "responseHash": "a5b406049a5ee413",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8680,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.swcf.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:25.240Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-01",
+      "category": "birth",
+      "question": "수원시 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "rep": 3,
+      "response": "현재 기준으로 **수원시 둘째 출산지원금은 100만 원**, **경기도 산후조리비는 50만 원**입니다. 따라서 두 제도 모두 대상이 되면 **총 150만 원**을 받을 수 있습니다. 다만 출산지원금은 수원시 거주기간·출생신고 등, 산후조리비는 경기도 거주 및 출생등록 요건을 각각 충족해야 합니다. 자세한 신청 방법은 [수원시 홈페이지](https://www.suwon.go.kr/)와 [경기도 민원 안내](https://www.gg.go.kr/)에서 확인하세요.",
+      "responseHash": "dd1d742afdaf89fc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7877,
+      "citedUrls": [
+        "https://www.suwon.go.kr/",
+        "https://www.gg.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:35.415Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-02",
+      "category": "move_in",
+      "question": "수원시 전입신고 하면 받을 수 있는 혜택 있어?",
+      "rep": 3,
+      "response": "수원시로 전입신고를 했다고 해서 모든 전입자에게 지급되는 별도의 현금·상품권 혜택은 현재 일반적으로 없습니다. 다만 수원시 주민등록이 되면 **수원시민안전보험**의 대상이 될 수 있고, 연령·소득·자녀 유무 등에 따라 청년·출산·복지·생활체육 등 각종 사업을 신청할 수 있습니다. 전입신고 후 정부24의 **혜택알리미**와 수원시 홈페이지에서 본인에게 해당하는 지원사업을 확인하는 것이 가장 정확합니다.  \n- 정부24: https://www.gov.kr  \n- 수원시: https://www.suwon.go.kr",
+      "responseHash": "c5cf7c76198422b7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6849,
+      "citedUrls": [
+        "https://www.gov.kr",
+        "https://www.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:34.388Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-03",
+      "category": "waste",
+      "question": "수원시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+      "rep": 3,
+      "response": "수원시 대형폐기물 수수료는 품목·크기별로 다르며, 보통 **1,000원부터**이고 정확한 금액은 공식 품목별 수수료표에서 확인해야 합니다.  \n배출 신청은 **수원시 홈페이지의 대형폐기물 신고** 또는 ‘빼기’ 앱에서 품목과 배출 장소·일자를 입력하고 결제한 뒤, 발급된 신고필증을 출력해 부착하거나 접수번호를 종이에 적어 부착하면 됩니다.  \n신고한 배출일에 지정된 장소에 내놓고, 신고 없이 배출하면 과태료가 부과될 수 있습니다.  \n공식 안내: [수원시 청소행정·대형폐기물](https://www.suwon.go.kr/web/clean/BD_index.do) (메뉴에서 ‘대형폐기물’ 선택) / 문의 **1899-3300**.",
+      "responseHash": "3dda734e5d640006",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9363,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/clean/BD_index.do"
+      ],
+      "timestamp": "2026-09-06T22:45:36.901Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-04",
+      "category": "waste_bag",
+      "question": "수원시 종량제봉투 종류별 가격 알려줘",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8877,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:36.415Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-05",
+      "category": "civil",
+      "question": "수원시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "rep": 3,
+      "response": "수원시청 및 4개 구청 민원실은 평일 **09:00~18:00** 운영하며, 점심시간(12:00~13:00)에도 교대근무로 민원 접수가 가능합니다.  \n주차는 보통 **최초 1시간 무료**, 이후 **10분당 300원**(1일 최대요금 적용)이며, 민원 방문 시 주차 확인이 필요할 수 있습니다.  \n다만 구청별 주차요금·무료시간이 다를 수 있으니 방문 기관을 정확히 확인하려면 수원시 휴먼콜센터 **1899-3300** 또는 수원시청 홈페이지를 이용하세요: https://www.suwon.go.kr/",
+      "responseHash": "ee4db3c2914c0b75",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7876,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:35.414Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-06",
+      "category": "senior_bus",
+      "question": "수원시 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "rep": 3,
+      "response": "수원시 어르신 버스비 지원 대상은 **수원시에 주민등록을 둔 만 70세 이상 어르신**입니다.  \n지원금은 **분기별 최대 4만 원, 연간 최대 16만 원**이며, 실제 이용한 수원시 시내버스·마을버스 요금을 기준으로 환급됩니다.  \n신청·카드 발급은 관내 **농협은행·지역농협**에서 할 수 있으며, 신분증과 본인 명의 통장이 필요합니다.  \n자세한 내용은 [수원시청 홈페이지](https://www.suwon.go.kr/)에서 ‘어르신 버스비 지원’을 검색하거나 수원시 민원콜센터(☎ 1899-3300)에 확인해 주세요.",
+      "responseHash": "73b225a0e1f3f871",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8840,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:46.546Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-07",
+      "category": "senior_bath",
+      "question": "수원시 어르신 목욕권이나 이미용 지원 있어?",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10164,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:47.870Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-08",
+      "category": "youth_rent",
+      "question": "수원시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+      "rep": 3,
+      "response": "수원시 청년이 신청할 수 있는 **청년월세 한시 특별지원**은 만 19~34세 무주택 청년으로, 부모와 별도 거주하고 청년가구 소득이 기준 중위소득 60% 이하(원가구 100% 이하)여야 합니다.  \n임차보증금 5,000만 원 이하·월세 70만 원 이하 주택이 대상이며, **월 최대 20만 원을 최대 24개월** 지원합니다(실제 월세 한도 내).  \n신청은 복지로 또는 주소지 행정복지센터에서 하며, 수원시 자체 월세사업은 모집 시기·인원·금액이 별도로 달라질 수 있습니다.  \n자세한 자격 확인: https://www.bokjiro.go.kr / 수원시 청년정책: https://www.suwon.go.kr/web/youth/index.do",
+      "responseHash": "94aee1246c5c7881",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8840,
+      "citedUrls": [
+        "https://www.bokjiro.go.kr",
+        "https://www.suwon.go.kr/web/youth/index.do"
+      ],
+      "timestamp": "2026-09-06T22:45:46.546Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-09",
+      "category": "startup",
+      "question": "수원시 청년 창업 지원금이나 창업 공간 지원 있어?",
+      "rep": 3,
+      "response": "네. 수원시는 공고 시기에 따라 **청년·초기창업 사업화 지원금, 창업교육·멘토링, 입주·공유공간 지원**을 운영하며, 지원 대상은 보통 만 19~39세 청년·예비창업자 또는 수원 소재 창업기업입니다.  \n창업공간은 **수원시 청년지원센터(청년바람지대)**의 회의·커뮤니티 공간과 **수원시 기업지원·창업보육시설 및 대학 창업보육센터**를 확인해 보세요.  \n지원금 공고는 수원시 기업지원포털·시정소식과 **K-Startup 창업지원포털**에서 “수원시 청년창업”, “창업보육”, “사업화”로 검색하면 됩니다.  \n- 수원시: https://www.suwon.go.kr  \n- K-Startup: https://www.k-startup.go.kr  \n- 경기기업비서: https://www.egbiz.or.kr",
+      "responseHash": "1caa6bf61c905cc1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8592,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.k-startup.go.kr",
+        "https://www.egbiz.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:46.298Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-10",
+      "category": "night_care",
+      "question": "수원시 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+      "rep": 3,
+      "response": "수원에서 밤에 아이가 아프면 **아주대학교병원 응급의료센터(영통구 월드컵로 164)**, **가톨릭대학교 성빈센트병원 응급의료센터(팔달구 중부대로 93)**, **경기도의료원 수원병원 응급실(장안구 수성로245번길 69)**을 이용할 수 있습니다.  \n다만 소아 진료 가능 여부와 대기 상황이 달라질 수 있으므로 방문 전 병원에 전화하거나 **응급의료포털 E-Gen**에서 ‘소아 야간진료·달빛어린이병원’을 확인하세요: https://www.e-gen.or.kr  \n호흡곤란, 의식저하, 경련, 심한 탈수·출혈 등 위급한 증상이면 병원을 찾기보다 즉시 **119**에 신고하세요.",
+      "responseHash": "7c3f3f673fdd41c6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7201,
+      "citedUrls": [
+        "https://www.e-gen.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:44.907Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-11",
+      "category": "child_care",
+      "question": "수원시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+      "rep": 3,
+      "response": "수원시 초등 **학교돌봄·늘봄학교(방과후 돌봄교실)**은 학교별 운영시간·대상·모집시기가 다르므로 자녀의 학교 홈페이지나 교무실에 신청 여부를 문의하는 것이 가장 정확합니다.  \n**지역아동센터**는 방과 후 학습·급식·생활지도를 제공하며, 지역·정원·우선순위에 따라 이용 가능하므로 [지역아동센터 찾기](https://www.icareinfo.go.kr/)에서 수원시와 동을 선택해 확인할 수 있습니다.  \n복지서비스 자격·신청 상담은 **보건복지상담센터 129**, 수원시 관련 안내는 **수원시 휴먼콜센터 1899-3300**으로 문의하세요.  \n거주 동이나 자녀의 학교명을 알려주시면 가까운 지역아동센터와 신청 방법을 더 구체적으로 안내해 드리겠습니다.",
+      "responseHash": "3a9b421289d3291c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9802,
+      "citedUrls": [
+        "https://www.icareinfo.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:58.477Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-12",
+      "category": "multicultural",
+      "question": "수원시 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9051,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:45:57.726Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-13",
+      "category": "loan",
+      "question": "수원시 소상공인 특례보증 대출 조건 알려줘",
+      "rep": 3,
+      "response": "수원시 소상공인 특례보증은 보통 **수원시에 사업장을 둔 소상공인**이 경기신용보증재단의 보증을 받아 협약 금융기관에서 대출받는 제도이며, 일반적으로 사업자등록·영업 중이고 신용보증 제한사유가 없어야 합니다.  \n보증한도, 보증료 지원 여부, 이차보전(대출이자 지원) 및 대상 업종은 매년 예산과 공고에 따라 달라지므로, 신청 전 최신 공고를 확인해야 합니다.  \n신청은 경기신용보증재단 수원지점에서 상담·보증심사를 받은 뒤 협약은행에서 대출받는 방식이며, 사업자등록증·신분증·임대차계약서·매출 및 납세 관련 서류 등이 필요할 수 있습니다.  \n최신 한도와 금리는 [수원시 기업지원포털](https://www.suwon.go.kr/web/majorbusiness/majorbusinessView.do?seqNo=50) 또는 [경기신용보증재단](https://www.gcgf.or.kr/)에서 확인하시고, 경기신용보증재단 대표번호 **1577-5900**으로 문의하세요.",
+      "responseHash": "32f97baaa25ccc90",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6794,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/majorbusiness/majorbusinessView.do?seqNo=50",
+        "https://www.gcgf.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:55.470Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-14",
+      "category": "tax",
+      "question": "수원시 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+      "rep": 3,
+      "response": "수원시 소상공인은 **‘마을세무사’ 제도**를 통해 국세·지방세 신고, 절세, 세금 체납 등에 대해 무료 상담을 받을 수 있습니다. 수원시 홈페이지에서 **「마을세무사」**를 검색해 동별 담당 세무사를 확인하거나, 수원시 휴먼콜센터 **1899-3300**에 문의하면 안내받을 수 있습니다. 상담 전에는 사업자등록증, 세금 고지서·신고서 등 관련 자료를 준비하면 좋습니다.  \n- 수원시 홈페이지: https://www.suwon.go.kr  \n- 국세 상담: 국세청 **126** (무료 세무상담)",
+      "responseHash": "6581b76b31a5d6bc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6825,
+      "citedUrls": [
+        "https://www.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:45:55.500Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-15",
+      "category": "festival",
+      "question": "수원시 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+      "rep": 3,
+      "response": "2026년 수원시 대표 축제는 다음과 같습니다. **수원화성문화제(10월 예정, 수원화성·화성행궁 일원)**, **수원화성 미디어아트(가을 예정, 수원화성 및 화성행궁 일원)**, **수원연극축제(5월 예정, 경기상상캠퍼스 등)**가 대표적입니다. 다만 2026년 정확한 개최일과 프로그램은 변동될 수 있으므로 수원시 공식 축제·행사 일정에서 최종 확인해 주세요.  \n출처: 수원시 홈페이지 https://www.suwon.go.kr/",
+      "responseHash": "d54081fa111c006d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7995,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:45:56.670Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C1-01",
+      "category": "specialty_industry",
+      "question": "수원에 삼성전자 사업장이 있어? 뭐 하는 곳이야?",
+      "rep": 1,
+      "response": "네. 수원시 영통구 매탄동에 삼성전자 **수원 디지털시티**가 있으며, 삼성전자 본사 기능과 연구개발(R&D), 제품·기술 개발 조직 등이 운영됩니다. 스마트폰·가전·TV·소프트웨어·네트워크 등 여러 분야의 기획·연구와 업무가 이루어지는 곳이며, 대규모 반도체 생산공장은 주로 기흥·화성·평택 등에 있습니다. 주소는 **경기도 수원시 영통구 삼성로 129**이고, 일반인 출입은 제한됩니다.  \n출처: [삼성전자 공식 홈페이지](https://www.samsung.com/sec/about-us/company-info/)",
+      "responseHash": "29689231d33f3b00",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4491,
+      "citedUrls": [
+        "https://www.samsung.com/sec/about-us/company-info/"
+      ],
+      "timestamp": "2026-09-06T22:46:02.968Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C1-02",
+      "category": "specialty_industry",
+      "question": "수원에 있는 주요 산업단지 이름이랑 위치 알려줘",
+      "rep": 1,
+      "response": "수원시의 대표적인 산업단지는 **수원델타플렉스(수원일반산업단지)**로, **권선구 고색동·오목천동 일원**에 있으며 1~3단지로 조성되어 있습니다.  \n첨단 연구·기업 집적지로는 **광교테크노밸리**가 있으며, **영통구 광교로 145 일대(이의동)**에 위치합니다.  \n광교테크노밸리는 법적 의미의 산업단지라기보다 바이오·IT·연구개발 중심의 산학연 클러스터입니다.  \n자세한 기업·입주 현황은 [수원시 기업지원포털](https://www.suwon.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "c6b3bd63a7905099",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9228,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:07.705Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C1-03",
+      "category": "specialty_industry",
+      "question": "수원 전통시장 중 가장 큰 곳이 어디야?",
+      "rep": 1,
+      "response": "수원 전통시장 중 가장 큰 곳으로는 보통 **수원남문시장(팔달문시장 일대)**을 꼽습니다. 팔달문 주변의 지동시장·영동시장·못골시장·남문로데오시장 등이 함께 형성한 대규모 전통시장 상권으로, 시장 하나라기보다 여러 시장이 모인 형태입니다. 자세한 시장 정보는 [수원시 공식 관광 안내](https://www.suwon.go.kr/web/visitsuwon/index.do)에서 확인할 수 있습니다.",
+      "responseHash": "43846260284f04d1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6771,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/visitsuwon/index.do"
+      ],
+      "timestamp": "2026-09-06T22:46:05.248Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C2-01",
+      "category": "landmark",
+      "question": "수원화성 야간 관람 시간이랑 입장료 알려줘",
+      "rep": 1,
+      "response": "수원화성 **성곽은 연중 상시 개방**되며, 야간에도 관람할 수 있고 입장료는 **무료**입니다.  \n다만 **화성행궁 야간개장**은 별도 행사로 운영되며, 보통 5~10월 금·토·일 **18:00~21:30**(입장 마감 21:00)이고 요금은 성인 1,500원·청소년 1,000원·어린이 700원입니다.  \n운영 기간과 휴무일은 해마다 달라질 수 있으니 방문 전 수원문화재단 공식 안내를 확인하세요: https://www.swcf.or.kr/portal/contents.do?key=200 수원시 문화관광: https://tour.suwon.go.kr/",
+      "responseHash": "b8d6276d8953a5ad",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8249,
+      "citedUrls": [
+        "https://www.swcf.or.kr/portal/contents.do?key=200",
+        "https://tour.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:06.726Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C2-02",
+      "category": "landmark",
+      "question": "수원 광교호수공원 규모랑 주요 시설 알려줘",
+      "rep": 1,
+      "response": "수원 **광교호수공원은 약 202만㎡(약 61만 평)** 규모로, 원천호수와 신대호수를 중심으로 조성된 대형 도시공원입니다.  \n주요 시설로는 호수 산책로·자전거도로, 수변 데크와 휴게시설, 프라이부르크 전망대, 광교호수공원 가족캠핑장, 스포츠클라이밍장, 잔디광장·어린이 놀이공간 등이 있습니다.  \n계절별 경관과 야간 조명이 유명하며, 시설 이용시간·예약 여부는 공식 홈페이지에서 확인할 수 있습니다.  \n출처: [수원시 관광포털](https://www.suwon.go.kr/web/tour/index.do)",
+      "responseHash": "59ae085e0f45840a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7489,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/tour/index.do"
+      ],
+      "timestamp": "2026-09-06T22:46:05.966Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C2-03",
+      "category": "landmark",
+      "question": "수원 월드컵경기장에서 홈경기 하는 팀이 어디야?",
+      "rep": 1,
+      "response": "수원월드컵경기장을 홈구장으로 사용하는 대표적인 프로축구팀은 **수원 삼성 블루윙즈**입니다.  \n수원FC는 주로 **수원종합운동장**을 홈구장으로 사용하므로 다른 팀입니다.  \n경기 일정은 수원 삼성 블루윙즈 공식 홈페이지에서 확인할 수 있습니다: https://www.bluewings.kr/",
+      "responseHash": "9df7797f579ed21d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3841,
+      "citedUrls": [
+        "https://www.bluewings.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:12.351Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C3-01",
+      "category": "local_policy",
+      "question": "수원시 1인 가구 지원 정책 있어?",
+      "rep": 1,
+      "response": "네, 수원시는 **1인 가구를 대상으로 상담·교육, 사회관계망 형성, 건강·돌봄, 주거·생활안전 지원** 등 다양한 사업을 운영하고 있습니다. 사업별로 연령·소득·거주지 등 신청 자격과 모집 기간이 다르며, 안심장비 지원이나 소모임·프로그램은 공고 때 신청합니다. 최신 사업 목록과 신청 방법은 [수원시청](https://www.suwon.go.kr)에서 ‘1인가구’를 검색하거나 수원시 휴먼콜센터(☎ **1899-3300**)에 문의하세요.",
+      "responseHash": "5285332233ce8277",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6541,
+      "citedUrls": [
+        "https://www.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:46:15.051Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C3-02",
+      "category": "local_policy",
+      "question": "수원시 환경수도 정책이 뭐야?",
+      "rep": 1,
+      "response": "수원시의 **환경수도 정책**은 도시 개발과 환경 보전을 함께 추진해 시민이 건강하고 지속가능하게 살 수 있는 도시를 만드는 종합 환경정책입니다. 주요 내용은 **탄소중립·기후위기 대응, 물순환과 하천 생태계 보전, 자원순환·폐기물 감축, 친환경 교통, 도시숲·생태환경 확대, 시민 참여** 등입니다. 대표적으로 생태교통 활성화, 수원천 복원, 재활용·자원순환 정책, 온실가스 감축 사업 등이 추진되어 왔습니다. 자세한 사업 내용은 [수원시 홈페이지](https://www.suwon.go.kr/)에서 **분야별정보 → 환경** 메뉴를 확인하거나 수원시 대표민원실(☎ 1899-3300)에 문의하면 됩니다.",
+      "responseHash": "93b64bc9af75d50f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4693,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:13.204Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C3-03",
+      "category": "local_policy",
+      "question": "수원시 좋은마을만들기 사업이 뭐야?",
+      "rep": 1,
+      "response": "수원시 **좋은마을만들기 사업**은 주민들이 직접 마을의 문제와 필요한 일을 발굴하고, 이웃과 함께 마을공동체 활동을 추진하도록 수원시가 지원하는 사업입니다.  \n주요 지원 내용은 마을 의제 발굴, 공동체 교육·컨설팅, 주민참여형 소규모 사업비 지원 등이며, 세부 대상과 지원 규모는 매년 공모 공고에 따라 달라질 수 있습니다.  \n신청 자격과 모집 일정은 수원시 홈페이지에서 **‘좋은마을만들기’** 또는 **‘마을공동체 공모’**를 검색해 확인하세요: https://www.suwon.go.kr/",
+      "responseHash": "95cf791f6626a1d5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5793,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:14.303Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C4-01",
+      "category": "heritage",
+      "question": "정조대왕이 수원화성을 만든 이유가 뭐야?",
+      "rep": 1,
+      "response": "정조대왕은 아버지 사도세자의 묘를 수원 화산의 현륭원으로 옮긴 뒤, 이를 보호하고 참배하기 위해 수원화성을 축조했습니다. 동시에 수원을 새로운 상업·군사 중심지로 발전시키고, 왕권을 강화하며 개혁 정치를 추진하려는 목적도 있었습니다. 화성은 1794년에 착공해 1796년에 완공되었으며, 당시의 최신 축성 기술이 반영된 계획도시였습니다.  \n출처: 유네스코 세계유산 수원화성 https://whc.unesco.org/en/list/817/",
+      "responseHash": "49f9e9e7d8c193e0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4412,
+      "citedUrls": [
+        "https://whc.unesco.org/en/list/817/"
+      ],
+      "timestamp": "2026-09-06T22:46:12.922Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C4-02",
+      "category": "heritage",
+      "question": "수원 화성행궁에서 열리는 대표 행사 뭐야?",
+      "rep": 1,
+      "response": "수원 화성행궁의 대표 행사는 **수원화성문화제**, **정조대왕 능행차 공동재현**, **화성행궁 야간개장**입니다.  \n수원화성문화제와 정조대왕 능행차는 보통 가을에 열리며, 정조대왕의 행차 재현·퍼레이드·공연 등을 볼 수 있습니다.  \n이 밖에도 화성행궁에서는 **무예24기 공연**과 전통문화 체험·공연이 운영되며, 행사 일정은 해마다 달라질 수 있습니다.  \n자세한 일정은 [수원문화재단 행사 안내](https://www.swcf.or.kr/)와 [수원시 통합예약시스템](https://www.suwon.go.kr/web/reservation/index.do)에서 확인하세요.",
+      "responseHash": "3988bf4ee9cc7d94",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4823,
+      "citedUrls": [
+        "https://www.swcf.or.kr/",
+        "https://www.suwon.go.kr/web/reservation/index.do"
+      ],
+      "timestamp": "2026-09-06T22:46:20.687Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C5-01",
+      "category": "geography",
+      "question": "광교와 영통의 차이가 뭐야?",
+      "rep": 1,
+      "response": "광교는 수원시 영통구와 용인시 수지구에 걸쳐 조성된 신도시로, 광교호수공원·경기도청·신분당선 등이 있는 계획도시입니다.  \n영통은 주로 수원시 영통구의 기존 생활권을 뜻하며, 영통동·망포동·매탄동 일대처럼 오래 형성된 주거·상업지역이 중심입니다.  \n즉, **광교는 신도시·개발지구 이름**, **영통은 수원의 행정구역이자 기존 지역명**에 가깝습니다. 다만 광교 일부도 수원시 영통구에 속하므로 두 명칭이 겹쳐 사용되기도 합니다.",
+      "responseHash": "39f954a4034899cc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4405,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:46:20.269Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C5-02",
+      "category": "geography",
+      "question": "수원역이랑 수원시청 사이 거리랑 이동 방법 알려줘",
+      "rep": 1,
+      "response": "수원역에서 수원시청까지는 **직선 약 2.8km, 도로 기준 약 3.5~4km**입니다.  \n가장 편리한 방법은 **분당선(수인분당선) 수원역에서 탑승해 수원시청역까지 2정거장** 이동하는 것으로, 열차 약 5분과 도보를 포함해 약 15~20분 걸립니다.  \n버스는 수원역 정류장에서 수원시청 방면 노선을 이용하면 약 15~25분, 택시는 교통 상황에 따라 약 10~15분 정도 소요됩니다.  \n정확한 실시간 경로와 도착 시간은 [네이버지도](https://map.naver.com/) 또는 [카카오맵](https://map.kakao.com/)에서 확인하세요.",
+      "responseHash": "495be92242d15ac6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7111,
+      "citedUrls": [
+        "https://map.naver.com/",
+        "https://map.kakao.com/"
+      ],
+      "timestamp": "2026-09-06T22:46:22.975Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C5-03",
+      "category": "geography",
+      "question": "수원시 4개 구 이름이랑 특징 알려줘",
+      "rep": 1,
+      "response": "수원시는 **장안구·권선구·팔달구·영통구**의 4개 구로 이루어져 있습니다.  \n- **장안구**: 수원 북부 지역으로 광교산과 성균관대학교, 장안문 등 역사·자연 자원이 있습니다.  \n- **권선구**: 수원 남서부의 넓은 지역으로 농업지역과 주거·산업지역이 함께 있으며 수원비행장이 있습니다.  \n- **팔달구**: 수원시의 원도심으로 수원화성, 행궁동, 전통시장과 수원시청이 자리한 역사·행정 중심지입니다.  \n- **영통구**: 동부의 신도시·주거 중심 지역으로 광교신도시, 삼성디지털시티 등 첨단산업·교육·상업 기능이 발달했습니다. 자세한 행정구역 정보는 [수원시 홈페이지](https://www.suwon.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "8625f7eab9c63968",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7611,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:23.475Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C6-01",
+      "category": "local_food",
+      "question": "수원 갈비 맛집 거리가 어디야?",
+      "rep": 1,
+      "response": "수원 갈비 맛집 거리는 보통 **수원화성 팔달문 인근(수원시 팔달구)**을 말하며, ‘수원갈비거리’로 불립니다.  \n이 일대에 본수원갈비·가보정 등 유명 갈비집이 모여 있고, 수원화성 관광과 함께 방문하기 좋습니다.  \n지도: [수원갈비거리 검색](https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EA%B0%88%EB%B9%84%EA%B1%B0%EB%A6%AC)",
+      "responseHash": "2d657d99a811c417",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4539,
+      "citedUrls": [
+        "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%EA%B0%88%EB%B9%84%EA%B1%B0%EB%A6%AC"
+      ],
+      "timestamp": "2026-09-06T22:46:20.403Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C6-02",
+      "category": "local_food",
+      "question": "수원 통닭거리가 어디야? 유래 알려줘",
+      "rep": 1,
+      "response": "수원 통닭거리는 **수원시 팔달구 팔달문로3번길 일대**, 팔달문시장(남문시장) 주변에 있습니다.  \n1970년대부터 팔달문시장 주변에 통닭집이 하나둘 생겨났고, 가마솥에 닭을 통째로 튀기는 방식과 저렴한 가격으로 유명해지면서 현재의 ‘수원 통닭거리’가 형성됐습니다.  \n특히 1970년 문을 연 것으로 알려진 **진미통닭** 등 오래된 가게들이 거리의 명성을 이어왔으며, 영화·드라마를 통해서도 널리 알려졌습니다.  \n주소와 관광 정보는 [수원문화관광 통닭거리 안내](https://www.suwon.go.kr/web/tour)에서 확인할 수 있습니다.",
+      "responseHash": "963d0f3207c50217",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4811,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/tour"
+      ],
+      "timestamp": "2026-09-06T22:46:29.100Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C6-03",
+      "category": "local_food",
+      "question": "수원 지동시장 순대타운 위치랑 특징 알려줘",
+      "rep": 1,
+      "response": "수원 지동시장 순대타운은 **경기도 수원시 팔달구 팔달문로3번길 일대**, 지동시장 안쪽과 수원 남문시장 주변에 있습니다.  \n순대·순대국·곱창·돼지 내장 요리를 전문으로 하는 식당들이 모여 있으며, 푸짐한 양과 비교적 부담 없는 가격, 재래시장 특유의 활기찬 분위기가 특징입니다.  \n방문 전 정확한 영업시간과 가게별 휴무일은 확인하는 것이 좋으며, 위치는 [수원 관광 홈페이지](https://www.suwon.go.kr/web/visitsuwon/index.do) 또는 지도에서 ‘지동시장 순대타운’을 검색하면 확인할 수 있습니다.",
+      "responseHash": "4ed7978a16dc9dd4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5312,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/visitsuwon/index.do"
+      ],
+      "timestamp": "2026-09-06T22:46:29.601Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C7-01",
+      "category": "recent_issue",
+      "question": "수원 스타필드 건설 계획 있어?",
+      "rep": 1,
+      "response": "수원 스타필드는 이미 건설이 완료되어 **2024년 1월 26일 개장**했습니다. 경기도 수원시 장안구 정자동 옛 KT&G 부지에 조성된 복합쇼핑몰로, 현재 운영 중입니다. 별도의 추가 스타필드 건설 계획은 현재 공식적으로 발표된 내용이 확인되지 않습니다.  \n출처: [스타필드 수원 공식 홈페이지](https://www.starfield.co.kr/suwon)",
+      "responseHash": "925b3d87043b8d0f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3625,
+      "citedUrls": [
+        "https://www.starfield.co.kr/suwon"
+      ],
+      "timestamp": "2026-09-06T22:46:27.914Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C7-02",
+      "category": "recent_issue",
+      "question": "수원특례시가 된 게 언제야? 특례시면 뭐가 달라?",
+      "rep": 1,
+      "response": "수원특례시는 **2022년 1월 13일** 출범했습니다.  \n특례시는 인구 100만 명 이상 대도시에 부여되는 지위로, 일반 시보다 조직·행정·재정 운영과 도시계획 등 일부 권한이 확대되지만 **도와 별개의 광역자치단체가 되는 것은 아닙니다**.  \n따라서 시민 입장에서는 대규모 도시 문제를 수원시가 더 신속하게 처리할 수 있는 기반이 마련된다는 의미이며, 특례시가 됐다고 세금 체계가 자동으로 달라지는 것은 아닙니다.  \n출처: [지방자치법 제198조(대도시 등에 대한 특례)](https://www.law.go.kr/법령/지방자치법/제198조)",
+      "responseHash": "e9b4845590db1028",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5862,
+      "citedUrls": [
+        "https://www.law.go.kr/법령/지방자치법/제198조"
+      ],
+      "timestamp": "2026-09-06T22:46:30.151Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C7-03",
+      "category": "recent_issue",
+      "question": "수원시 신분당선 연장 계획 알려줘",
+      "rep": 1,
+      "response": "수원시 신분당선 연장은 현재 **광교중앙역에서 호매실지구까지 약 9.88㎞를 연장하는 ‘광교~호매실 복선전철 사업’**으로 추진되고 있습니다. 노선에는 정거장 4곳이 신설될 예정이며, 호매실·금곡·당수 일대의 서울 및 강남권 접근성이 개선될 것으로 기대됩니다. 사업은 2025년 착공, **2031년 개통 목표**로 알려져 있으나, 인허가·공사 여건에 따라 일정은 변경될 수 있습니다. 자세한 공고와 진행 상황은 [국토교통부](https://www.molit.go.kr/) 및 [수원시청](https://www.suwon.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "34c13b7bee149f95",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9433,
+      "citedUrls": [
+        "https://www.molit.go.kr/",
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:33.722Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C1-01",
+      "category": "specialty_industry",
+      "question": "수원에 삼성전자 사업장이 있어? 뭐 하는 곳이야?",
+      "rep": 2,
+      "response": "네. 수원시 영통구 삼성로 129에 삼성전자 본사인 **수원 ‘삼성 디지털시티’**가 있습니다. 이곳에서는 스마트폰·TV·가전 등 완제품 사업의 연구개발, 제품 기획·디자인, 소프트웨어 개발과 경영 지원 업무가 주로 이뤄집니다. 반도체 생산은 주로 기흥·화성·평택 사업장에서 진행되며, 수원 사업장은 제조공장보다는 본사·연구개발 중심 시설에 가깝습니다.  \n출처: [삼성전자 회사소개](https://www.samsung.com/sec/about-us/company-info/)",
+      "responseHash": "c91616162cc128b4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5299,
+      "citedUrls": [
+        "https://www.samsung.com/sec/about-us/company-info/"
+      ],
+      "timestamp": "2026-09-06T22:46:40.535Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C1-02",
+      "category": "specialty_industry",
+      "question": "수원에 있는 주요 산업단지 이름이랑 위치 알려줘",
+      "rep": 2,
+      "response": "수원시의 주요 산업·연구 집적지는 다음과 같습니다.  \n- **수원델타플렉스(수원일반산업단지 1·2·3단지)**: 권선구 **고색동·오목천동·평동 일원**에 위치하며, 제조·첨단기업이 입주해 있습니다.  \n- **광교테크노밸리**: 영통구 **이의동 광교신도시 일원(광교로 주변)**에 위치한 연구개발·바이오·ICT 중심 단지입니다.  \n자세한 입주기업·교통·산업단지 현황은 [수원시 기업지원포털](https://www.suwon.go.kr/web/industry/BD_index.do)과 [경기바이오센터](https://www.ggbc.or.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "287065fd0ee76dae",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8648,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/industry/BD_index.do",
+        "https://www.ggbc.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:43.884Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C1-03",
+      "category": "specialty_industry",
+      "question": "수원 전통시장 중 가장 큰 곳이 어디야?",
+      "rep": 2,
+      "response": "수원에서 가장 큰 전통시장으로는 보통 **수원남문시장(팔달문시장 일대)**을 꼽습니다. 팔달문 주변의 지동시장·영동시장·못골시장 등이 함께 형성한 대규모 전통시장 상권으로, 먹거리와 의류·농수산물 등을 다양하게 판매합니다. 자세한 시장 정보는 [수원시 전통시장 안내](https://www.suwon.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "d7728d9251ff9609",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5294,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:40.530Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C2-01",
+      "category": "landmark",
+      "question": "수원화성 야간 관람 시간이랑 입장료 알려줘",
+      "rep": 2,
+      "response": "수원화성 성곽은 **연중무휴·24시간 관람 가능**하며, 별도 입장료 없이 무료입니다.  \n다만 **화성행궁**은 일반적으로 **09:00~18:00** 운영되고, 성수기 야간개장 기간에는 별도 야간 관람시간이 적용될 수 있습니다.  \n화성행궁 입장료는 **성인 1,500원, 청소년·군인 1,000원, 어린이 700원**이며, 야간개장 일정은 변동될 수 있으니 방문 전 공식 홈페이지를 확인하세요.  \n출처: [수원문화재단 수원화성](https://www.swcf.or.kr) / [수원관광](https://tour.suwon.go.kr)",
+      "responseHash": "f549ca1f7d792e77",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6785,
+      "citedUrls": [
+        "https://www.swcf.or.kr",
+        "https://tour.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:46:42.021Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C2-02",
+      "category": "landmark",
+      "question": "수원 광교호수공원 규모랑 주요 시설 알려줘",
+      "rep": 2,
+      "response": "수원 광교호수공원은 약 **202만 5천㎡(약 61만 평)** 규모로, **원천호수와 신대호수**를 중심으로 조성된 대형 호수공원입니다. 주요 시설로는 호수 산책로·자전거도로, 잔디광장, 전망대, 야외공연장, 물놀이장, 다목적운동장, 생태학습장, 가족캠핑장 등이 있습니다. 호수 주변 야경과 산책·휴식 공간이 잘 갖춰져 있으며, 인근에 수원컨벤션센터와 광교호수공원 가족캠핑장도 있습니다. 자세한 이용 안내는 [수원시 광교호수공원 안내](https://www.suwon.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "3590ca69d7f93787",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7012,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:42.249Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C2-03",
+      "category": "landmark",
+      "question": "수원 월드컵경기장에서 홈경기 하는 팀이 어디야?",
+      "rep": 2,
+      "response": "수원월드컵경기장을 **주 홈구장으로 사용하는 팀은 수원 삼성 블루윙즈**입니다. 수원 삼성의 K리그 홈경기와 일부 컵대회 경기가 이곳에서 열립니다. 참고로 수원FC는 주로 **수원종합운동장**을 홈구장으로 사용합니다.  \n출처: [수원 삼성 블루윙즈 공식 홈페이지](https://www.bluewings.kr/)",
+      "responseHash": "0073307fefc213d0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4338,
+      "citedUrls": [
+        "https://www.bluewings.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:49.031Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C3-01",
+      "category": "local_policy",
+      "question": "수원시 1인 가구 지원 정책 있어?",
+      "rep": 2,
+      "response": "네. 수원시는 **수원시 1인가구 지원센터**를 통해 1인 가구 대상 상담, 교육·문화 프로그램, 사회관계망 형성 및 생활 지원 프로그램을 운영하며, 사업은 시기별로 달라집니다.  \n또한 청년월세 지원, 주거·안전·건강 관련 사업은 연령·소득·거주요건에 따라 별도로 신청할 수 있으므로 거주지 **동 행정복지센터**에 확인하는 것이 좋습니다.  \n자세한 모집 일정과 신청 방법은 [수원시청](https://www.suwon.go.kr)에서 ‘1인가구’를 검색하거나 [수원시 가족센터](https://suwon.familynet.or.kr/) 공지사항을 확인하세요.",
+      "responseHash": "5ed10b16c03acfd9",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6635,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://suwon.familynet.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:51.329Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C3-02",
+      "category": "local_policy",
+      "question": "수원시 환경수도 정책이 뭐야?",
+      "rep": 2,
+      "response": "수원시의 **환경수도 정책**은 도시의 개발과 생활 전반을 환경 중심으로 운영해 지속가능한 도시를 만들려는 종합 정책입니다. 주요 내용은 물 절약·하천 생태복원, 온실가스와 미세먼지 감축, 자원순환·재활용 확대, 친환경 교통과 녹지 확충, 시민 참여형 환경실천 등입니다. 즉 행정기관만의 사업이 아니라 시민·기업·지역사회가 함께 에너지와 자원을 아끼고 쾌적한 도시환경을 만드는 것이 핵심입니다. 자세한 사업은 [수원시 공식 홈페이지](https://www.suwon.go.kr)에서 ‘환경수도’를 검색해 확인할 수 있습니다.",
+      "responseHash": "ecdeebb5e624820e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7368,
+      "citedUrls": [
+        "https://www.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:46:52.062Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C3-03",
+      "category": "local_policy",
+      "question": "수원시 좋은마을만들기 사업이 뭐야?",
+      "rep": 2,
+      "response": "수원시 **좋은마을만들기 사업**은 주민들이 직접 마을의 문제를 찾고 해결 아이디어를 실행하도록 지원하는 주민참여형 사업입니다. 주민모임·공동체가 마을 환경 개선, 소통·문화 활동, 돌봄, 안전 등 사업을 제안하면 선정된 사업에 보조금과 컨설팅·교육 등을 지원합니다. 공모 내용과 신청 자격·기간은 매년 달라질 수 있으므로 수원시 또는 수원도시재단 공고를 확인해야 합니다.  \n출처: [수원도시재단](https://www.sscf2016.or.kr/) (마을공동체·좋은마을만들기 관련 공고 확인)",
+      "responseHash": "2f6038bff9dad479",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6015,
+      "citedUrls": [
+        "https://www.sscf2016.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:50.709Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C4-01",
+      "category": "heritage",
+      "question": "정조대왕이 수원화성을 만든 이유가 뭐야?",
+      "rep": 2,
+      "response": "정조대왕은 아버지 사도세자의 묘를 수원 화산으로 옮긴 뒤, 이를 보호하고 참배하기 위해 수원에 화성을 축조했습니다. 동시에 수원을 새로운 행정·상업 도시로 발전시키고, 왕권을 강화하며 개혁 정치를 추진할 거점으로 삼으려는 목적도 있었습니다. 화성은 1794년부터 1796년까지 축조되었으며, 방어 기능과 상업·도시 계획을 함께 고려한 성곽입니다.  \n출처: 유네스코 세계유산센터 https://whc.unesco.org/en/list/817/",
+      "responseHash": "5ab2882583818a8c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3973,
+      "citedUrls": [
+        "https://whc.unesco.org/en/list/817/"
+      ],
+      "timestamp": "2026-09-06T22:46:48.667Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C4-02",
+      "category": "heritage",
+      "question": "수원 화성행궁에서 열리는 대표 행사 뭐야?",
+      "rep": 2,
+      "response": "수원 화성행궁의 대표 행사는 **수원화성문화제**로, 정조대왕과 수원화성을 주제로 한 공연·퍼레이드·체험 행사가 매년 가을 열립니다.  \n이와 함께 **정조대왕 능행차 공동재현**이 수원화성 일대와 화성행궁에서 진행되며, 조선시대 왕의 행차를 재현하는 대표 볼거리입니다.  \n계절별로 **화성행궁 야간개장·야간 프로그램**도 운영되므로 방문 전 정확한 일정과 예매 여부를 확인하는 것이 좋습니다.  \n공식 일정은 [수원문화재단 행사 안내](https://www.swcf.or.kr/)와 [수원관광 공식 홈페이지](https://www.suwon.go.kr/web/tour)에서 확인할 수 있습니다.",
+      "responseHash": "7fce178933b6364a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4534,
+      "citedUrls": [
+        "https://www.swcf.or.kr/",
+        "https://www.suwon.go.kr/web/tour"
+      ],
+      "timestamp": "2026-09-06T22:46:57.407Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C5-01",
+      "category": "geography",
+      "question": "광교와 영통의 차이가 뭐야?",
+      "rep": 2,
+      "response": "광교와 영통은 모두 수원 동부권의 대표적인 주거·생활권이지만, **영통은 1990년대 조성된 기존 신도시**, **광교는 2010년대 이후 개발된 비교적 newer 계획도시**라는 차이가 큽니다.  \n영통은 삼성전자 인근의 직장·학원·상업시설이 발달했고 분당선(영통역·망포역 등)을 이용하기 편하며, 광교는 광교호수공원·경기도청·컨벤션센터와 신분당선(광교중앙역·광교역) 중심의 쾌적한 신도시 분위기가 강합니다.  \n주거 선택으로 보면 영통은 생활 인프라가 이미 안정적이고 상대적으로 다양한 구축 주택이 많으며, 광교는 신축·대단지와 공원 환경이 강점인 대신 주거비가 더 높은 편입니다.  \n참고: [수원시 공식 홈페이지](https://www.suwon.go.kr/)",
+      "responseHash": "10377446af833d56",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7013,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:46:59.886Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C5-02",
+      "category": "geography",
+      "question": "수원역이랑 수원시청 사이 거리랑 이동 방법 알려줘",
+      "rep": 2,
+      "response": "수원역과 수원시청(수원시청역 기준)은 직선 약 2.8km, 도로 이동 기준 약 3~4km 거리입니다.  \n가장 편한 방법은 **분당선 수원역에서 탑승해 수원시청역까지 2정거장** 이동하는 것으로, 약 10~15분(환승·대기 포함) 걸립니다.  \n버스는 수원역 환승센터에서 수원시청 방면 노선을 이용하면 약 15~25분, 택시는 교통 상황에 따라 약 10~15분 정도입니다.  \n실시간 경로와 도착 정보는 [카카오맵 길찾기](https://map.kakao.com/?sName=%EC%88%98%EC%9B%90%EC%97%AD&eName=%EC%88%98%EC%9B%90%EC%8B%9C%EC%B2%AD)에서 확인할 수 있습니다.",
+      "responseHash": "d428f91179efb2b0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7387,
+      "citedUrls": [
+        "https://map.kakao.com/?sName=%EC%88%98%EC%9B%90%EC%97%AD&eName=%EC%88%98%EC%9B%90%EC%8B%9C%EC%B2%AD"
+      ],
+      "timestamp": "2026-09-06T22:47:00.260Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C5-03",
+      "category": "geography",
+      "question": "수원시 4개 구 이름이랑 특징 알려줘",
+      "rep": 2,
+      "response": "수원시는 **장안구·권선구·팔달구·영통구** 등 4개 구로 구성되어 있습니다.  \n- **장안구**: 수원 북부 지역으로 광교산·성균관대학교 등이 있으며 주거지역 비중이 큽니다.  \n- **권선구**: 수원 남서부의 넓은 평야와 농업지역이 특징이며, 수원버스터미널과 수원시청 일부 주변 상권이 있습니다.  \n- **팔달구**: 수원 도심으로 수원화성, 화성행궁, 팔달문 등 역사·문화 명소가 집중되어 있습니다.  \n- **영통구**: 수원 동부의 신도시·주거·업무 지역으로 삼성디지털시티와 광교신도시가 자리하고 있습니다.  \n출처: [수원특례시 공식 홈페이지](https://www.suwon.go.kr/)",
+      "responseHash": "76abca96c2845f7a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7881,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:00.754Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C6-01",
+      "category": "local_food",
+      "question": "수원 갈비 맛집 거리가 어디야?",
+      "rep": 2,
+      "response": "수원 갈비 맛집 거리는 **수원화성 팔달문 인근**, 특히 **팔달구 중부대로223번길 일대**에 형성되어 있습니다. 수원역에서 버스를 타고 팔달문 정류장에서 내리거나, 수원화성·팔달문 관광과 함께 방문하기 좋습니다. 대표적으로 본수원갈비, 가보정 등이 있으며, 위치는 [네이버지도에서 ‘수원 갈비거리’ 검색](https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%EA%B0%88%EB%B9%84%EA%B1%B0%EB%A6%AC)하면 확인할 수 있습니다.",
+      "responseHash": "df40b81660451154",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6341,
+      "citedUrls": [
+        "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%EA%B0%88%EB%B9%84%EA%B1%B0%EB%A6%AC"
+      ],
+      "timestamp": "2026-09-06T22:46:59.214Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C6-02",
+      "category": "local_food",
+      "question": "수원 통닭거리가 어디야? 유래 알려줘",
+      "rep": 2,
+      "response": "수원 통닭거리는 **경기도 수원시 팔달구 정조로 800번길 일대**, 수원화성 **팔달문과 남문시장 인근**에 있습니다.  \n1970년대부터 팔달문 주변에 통닭집이 하나둘 모이면서 거리가 형성됐고, 가마솥에 튀긴 옛날식 통닭과 후라이드·양념통닭으로 유명해졌습니다.  \n현재는 수원화성을 찾는 관광객들이 함께 방문하는 대표 먹거리 명소이며, 자세한 관광 정보는 [수원시 관광 홈페이지](https://www.suwon.go.kr/web/visitsuwon/index.do)에서 확인할 수 있습니다.",
+      "responseHash": "8091b9d8e3c48eb0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5979,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/visitsuwon/index.do"
+      ],
+      "timestamp": "2026-09-06T22:47:07.536Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C6-03",
+      "category": "local_food",
+      "question": "수원 지동시장 순대타운 위치랑 특징 알려줘",
+      "rep": 2,
+      "response": "수원 지동시장 순대타운은 **경기도 수원시 팔달구 팔달문로 19 일대(지동시장 내부)**에 있으며, 팔달문에서 도보로 이동하기 좋습니다.  \n여러 순대 전문 식당이 모여 있어 **순대국, 모둠순대, 곱창·돼지부속 요리** 등을 저렴하게 맛볼 수 있고, 시장 특유의 소박하고 활기찬 분위기가 특징입니다.  \n점포마다 영업시간과 휴무일이 다를 수 있으므로 방문 전 확인하세요. [네이버 지도 위치 보기](https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%EC%A7%80%EB%8F%99%EC%8B%9C%EC%9E%A5%20%EC%88%9C%EB%8C%80%ED%83%80%EC%9A%B4)",
+      "responseHash": "5f527e2d4ff360d7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5969,
+      "citedUrls": [
+        "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%EC%A7%80%EB%8F%99%EC%8B%9C%EC%9E%A5%20%EC%88%9C%EB%8C%80%ED%83%80%EC%9A%B4"
+      ],
+      "timestamp": "2026-09-06T22:47:07.526Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C7-01",
+      "category": "recent_issue",
+      "question": "수원 스타필드 건설 계획 있어?",
+      "rep": 2,
+      "response": "수원에는 **스타필드 수원**이 이미 건설되어 2024년 1월 26일 정식 개장·운영 중입니다. 위치는 수원시 장안구 수성로 175(정자동)이며, 현재 공개된 공식 자료 기준으로 수원 내 추가 스타필드 건설 계획은 확인되지 않습니다. 자세한 운영 정보는 스타필드 수원 공식 홈페이지에서 확인할 수 있습니다: https://www.starfield.co.kr/suwon",
+      "responseHash": "186a941d1057b0db",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4653,
+      "citedUrls": [
+        "https://www.starfield.co.kr/suwon"
+      ],
+      "timestamp": "2026-09-06T22:47:06.210Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C7-02",
+      "category": "recent_issue",
+      "question": "수원특례시가 된 게 언제야? 특례시면 뭐가 달라?",
+      "rep": 2,
+      "response": "수원특례시는 **2022년 1월 13일** 출범했으며, 수원·고양·용인·창원이 함께 지정됐습니다. 특례시는 인구 100만 명 이상 대도시에 행정 수요에 맞는 **일부 광역단체 수준의 사무·권한과 조직 운영 자율성**을 더 부여하는 제도입니다. 다만 광역시로 승격된 것은 아니어서 도(경기도) 소속은 그대로이고, 세금 체계나 선거제도가 광역시처럼 바뀌는 것은 아닙니다. 자세한 내용은 [국가법령정보센터 지방자치법](https://www.law.go.kr/법령/지방자치법)에서 확인할 수 있습니다.",
+      "responseHash": "bfb786d427881b8c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4870,
+      "citedUrls": [
+        "https://www.law.go.kr/법령/지방자치법"
+      ],
+      "timestamp": "2026-09-06T22:47:06.427Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C7-03",
+      "category": "recent_issue",
+      "question": "수원시 신분당선 연장 계획 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10674,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:47:12.232Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C1-01",
+      "category": "specialty_industry",
+      "question": "수원에 삼성전자 사업장이 있어? 뭐 하는 곳이야?",
+      "rep": 3,
+      "response": "네. 수원시 영통구 매탄동에 삼성전자 ‘수원 디지털시티’ 사업장이 있으며, 삼성전자 본사 기능과 주요 연구·개발 조직이 자리하고 있습니다. 이곳에서는 스마트폰·TV·생활가전 등 완제품 분야의 제품 기획, 설계·개발, 소프트웨어·기술 연구 등이 주로 이뤄집니다. 반도체 생산 중심 사업장은 수원보다 기흥·화성·평택 등에 있습니다.  \n출처: [삼성전자 회사소개](https://www.samsung.com/sec/about-us/company-info/), [수원시](https://www.suwon.go.kr/)",
+      "responseHash": "bd21d5637d7fcb8b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4926,
+      "citedUrls": [
+        "https://www.samsung.com/sec/about-us/company-info/",
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:18.670Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C1-02",
+      "category": "specialty_industry",
+      "question": "수원에 있는 주요 산업단지 이름이랑 위치 알려줘",
+      "rep": 3,
+      "response": "수원시의 주요 산업·연구 집적지는 다음과 같습니다.\n\n- **수원델타플렉스(수원일반산업단지 1·2·3단지)**: 권선구 **고색동·오목천동 일대**에 있으며, 전기·전자·기계·첨단제조 기업이 입주해 있습니다.  \n- **광교테크노밸리**: 영통구 **이의동 광교신도시 내 광교로 일대**에 위치하며, 바이오·IT·나노·연구개발 기관이 모여 있습니다.  \n\n자세한 입주기업과 위치는 [수원시 기업지원포털](https://www.suwon.go.kr/) 및 [한국산업단지공단 팩토리온](https://www.factoryon.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "f466a7fb4d50f2f5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8169,
+      "citedUrls": [
+        "https://www.suwon.go.kr/",
+        "https://www.factoryon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:21.913Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C1-03",
+      "category": "specialty_industry",
+      "question": "수원 전통시장 중 가장 큰 곳이 어디야?",
+      "rep": 3,
+      "response": "수원에서 가장 큰 전통시장으로는 보통 **수원남문시장(팔달문시장 일대)**을 꼽습니다. 팔달문 주변의 지동시장·영동시장·팔달문시장 등이 이어진 대규모 전통시장권으로, 식재료와 먹거리, 의류 등을 다양하게 판매합니다. 공식 관광 안내는 [수원시 관광포털](https://www.suwon.go.kr/web/visitsuwon/index.do)에서 확인할 수 있습니다.",
+      "responseHash": "6d84882e18e10fd0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4631,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/visitsuwon/index.do"
+      ],
+      "timestamp": "2026-09-06T22:47:18.375Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C2-01",
+      "category": "landmark",
+      "question": "수원화성 야간 관람 시간이랑 입장료 알려줘",
+      "rep": 3,
+      "response": "수원화성 성곽은 **연중무휴 24시간 개방**되며, **입장료는 무료**입니다.  \n다만 수원화성행궁 등 내부 유료시설은 운영시간과 요금이 별도이며, 행궁 야간개장은 일정 기간·요일에만 운영될 수 있습니다.  \n정확한 야간개장 일정은 수원화성 공식 홈페이지에서 확인해 주세요: https://www.swcf.or.kr/.fn lay? maybe URL uncertain. Official site likely swcf.or.kr. Use https://www.swcf.or.kr/ maybe. \nNeed 3 sentences. Maybe mention parking? no. Ensure source URL valid. Official Suwon Cultural Foundation: https://www.swcf.or.kr/eng? Let's cite root. \n",
+      "responseHash": "6fb113a0e62137c5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8691,
+      "citedUrls": [
+        "https://www.swcf.or.kr/.fn",
+        "https://www.swcf.or.kr/",
+        "https://www.swcf.or.kr/eng?"
+      ],
+      "timestamp": "2026-09-06T22:47:22.435Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C2-02",
+      "category": "landmark",
+      "question": "수원 광교호수공원 규모랑 주요 시설 알려줘",
+      "rep": 3,
+      "response": "수원 **광교호수공원은 약 202만㎡ 규모**로, 원천호수와 신대호수를 중심으로 조성된 대형 수변공원입니다. 주요 시설로는 호수변 산책로·자전거도로, 잔디광장, 수변 쉼터, 전망대, 어린이·체험공간, 야간 경관조명 등이 있습니다. 또한 **광교호수공원 가족캠핑장**, 카페거리와 연결된 휴게시설, 공연·행사가 열리는 공간도 마련되어 있습니다. 자세한 시설 위치와 이용 안내는 수원시 공식 관광 안내에서 확인할 수 있습니다: https://www.suwon.go.kr/web/visitsuwon",
+      "responseHash": "99b070c53f367485",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6247,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/visitsuwon"
+      ],
+      "timestamp": "2026-09-06T22:47:19.991Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C2-03",
+      "category": "landmark",
+      "question": "수원 월드컵경기장에서 홈경기 하는 팀이 어디야?",
+      "rep": 3,
+      "response": "수원월드컵경기장을 홈구장으로 사용하는 프로축구팀은 **수원 삼성 블루윙즈**입니다. 수원FC의 홈구장은 **수원종합운동장**입니다.  \n공식 구단 홈페이지: https://www.bluewings.kr/",
+      "responseHash": "0a232c2aafb26635",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3190,
+      "citedUrls": [
+        "https://www.bluewings.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:26.431Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C3-01",
+      "category": "local_policy",
+      "question": "수원시 1인 가구 지원 정책 있어?",
+      "rep": 3,
+      "response": "네, 수원시는 **수원시 1인가구 지원센터**를 통해 상담·교육·소모임·생활정보 제공 등 맞춤형 지원을 운영하고 있습니다. 또한 사업 시기에 따라 **병원 안심동행, 안전·주거 지원, 건강·식생활 프로그램, 사회관계망 형성 프로그램** 등이 제공되며, 대상·신청기간은 사업별로 다릅니다. 자세한 내용은 수원시 홈페이지(https://www.suwon.go.kr/)에서 ‘1인가구’를 검색하거나, 수원시 가족센터(https://suwon.familynet.or.kr/)의 프로그램 공지를 확인하세요.",
+      "responseHash": "9ca21320e5cbc560",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5168,
+      "citedUrls": [
+        "https://www.suwon.go.kr/",
+        "https://suwon.familynet.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:28.409Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C3-02",
+      "category": "local_policy",
+      "question": "수원시 환경수도 정책이 뭐야?",
+      "rep": 3,
+      "response": "수원시의 **환경수도 정책**은 도시의 개발과 생활 전반을 환경 중심으로 전환해, 시민이 건강하고 지속가능하게 사는 도시를 만들려는 종합 정책입니다. 주요 내용은 **탄소중립·에너지 절감, 친환경 교통과 걷기 좋은 도시, 물순환·하천 관리, 자원순환과 폐기물 감축, 도시숲·생태 보전, 시민 참여** 등입니다. 수원시는 이를 위해 시민·마을 중심의 환경 실천과 친환경 도시재생 등을 추진하고 있으며, 세부 사업은 시기별로 달라질 수 있습니다. 자세한 내용은 [수원시 공식 누리집](https://www.suwon.go.kr/)에서 ‘환경수도’ 또는 ‘탄소중립’을 검색해 확인할 수 있습니다.",
+      "responseHash": "3da287c27e432a7a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5989,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:29.230Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C3-03",
+      "category": "local_policy",
+      "question": "수원시 좋은마을만들기 사업이 뭐야?",
+      "rep": 3,
+      "response": "수원시 **좋은마을만들기 사업**은 주민들이 직접 마을의 문제를 찾고, 이웃과 함께 해결할 수 있도록 수원시가 사업비·교육·컨설팅 등을 지원하는 주민 주도형 마을공동체 사업입니다.  \n환경·안전·복지·문화·소통 등 다양한 주제로 주민 모임이나 공동체가 사업을 제안하고 추진할 수 있습니다.  \n지원 대상, 공모 일정, 지원 금액은 매년 달라질 수 있으므로 수원시 마을만들기지원센터 공고를 확인해야 합니다.  \n자세한 내용은 **수원시 마을만들기지원센터**(https://www.suwonmaeul.org/)에서 확인할 수 있습니다.",
+      "responseHash": "ff401be1b7aed412",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4977,
+      "citedUrls": [
+        "https://www.suwonmaeul.org/"
+      ],
+      "timestamp": "2026-09-06T22:47:28.218Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C4-01",
+      "category": "heritage",
+      "question": "정조대왕이 수원화성을 만든 이유가 뭐야?",
+      "rep": 3,
+      "response": "정조대왕은 아버지 사도세자의 묘를 수원 화산으로 옮기고, 이를 보호하며 왕실의 위상을 높이기 위해 수원화성을 건설했습니다. 또한 수원을 새로운 정치·경제 중심지로 육성하고, 개혁 정치를 뒷받침할 자립적인 도시로 만들려는 목적도 있었습니다. 1794년 착공해 1796년에 완공했으며, 거중기 등 당시의 과학기술을 활용했습니다.  \n출처: 수원화성박물관 https://museum.suwon.go.kr/ , 유네스코 세계유산 https://whc.unesco.org/en/list/817/",
+      "responseHash": "ae5759960b8ffe5f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 2729,
+      "citedUrls": [
+        "https://museum.suwon.go.kr/",
+        "https://whc.unesco.org/en/list/817/"
+      ],
+      "timestamp": "2026-09-06T22:47:25.970Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C4-02",
+      "category": "heritage",
+      "question": "수원 화성행궁에서 열리는 대표 행사 뭐야?",
+      "rep": 3,
+      "response": "수원 화성행궁의 대표 행사는 다음과 같습니다.  \n- **수원화성문화제**: 매년 가을 열리며, 전통공연·퍼레이드·체험행사가 펼쳐집니다.  \n- **정조대왕 능행차 공동재현**: 정조대왕의 화성행차를 재현하는 대규모 거리 퍼레이드입니다.  \n- **화성행궁 야간개장**: 밤에 궁궐을 관람하고 야간 공연·체험을 즐길 수 있는 프로그램으로, 운영 기간은 해마다 달라질 수 있습니다.  \n행사 일정은 수원화성문화제 홈페이지(https://www.swcf.or.kr/)와 수원시 관광포털(https://www.suwon.go.kr/web/visitsuwon/index.do)에서 확인하세요.",
+      "responseHash": "18dec94bef6ac345",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5562,
+      "citedUrls": [
+        "https://www.swcf.or.kr/",
+        "https://www.suwon.go.kr/web/visitsuwon/index.do"
+      ],
+      "timestamp": "2026-09-06T22:47:35.605Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C5-01",
+      "category": "geography",
+      "question": "광교와 영통의 차이가 뭐야?",
+      "rep": 3,
+      "response": "광교와 영통은 모두 수원시 영통구에 있지만, **광교는 광교신도시**, **영통은 1990년대 조성된 기존 신도시·생활권**이라는 차이가 큽니다.  \n광교는 광교호수공원, 경기도청·법조타운, 신분당선 등을 중심으로 신축 아파트와 업무·상업시설이 많고 비교적 계획도시 분위기입니다.  \n영통은 삼성전자와 가까우며 영통역·망포역, 학원가와 생활 상권이 잘 형성된 오래된 주거 중심 지역입니다.  \n다만 광교신도시는 수원시와 용인시에 걸쳐 있어, 주소에 따라 행정구역이 달라질 수 있습니다.",
+      "responseHash": "c86575e22e270cac",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5856,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:47:35.899Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C5-02",
+      "category": "geography",
+      "question": "수원역이랑 수원시청 사이 거리랑 이동 방법 알려줘",
+      "rep": 3,
+      "response": "수원역과 수원시청(수원시청역) 사이는 **직선 약 2.5km, 도로 기준 약 3~4km**입니다.  \n가장 편한 방법은 **수인분당선 수원역에서 탑승해 수원시청역까지 2정거장** 이동하는 것으로, 약 **7~10분** 걸립니다.  \n버스는 수원역 정류장에서 수원시청 방면 버스를 이용하면 약 **15~25분**, 택시는 교통 상황에 따라 약 **10~15분** 정도 소요됩니다.  \n실시간 경로와 도착 정보는 [네이버지도](https://map.naver.com/) 또는 [카카오맵](https://map.kakao.com/)에서 확인하세요.",
+      "responseHash": "477347bb333ec993",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6009,
+      "citedUrls": [
+        "https://map.naver.com/",
+        "https://map.kakao.com/"
+      ],
+      "timestamp": "2026-09-06T22:47:36.051Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C5-03",
+      "category": "geography",
+      "question": "수원시 4개 구 이름이랑 특징 알려줘",
+      "rep": 3,
+      "response": "수원시는 **장안구·권선구·팔달구·영통구** 등 4개 구로 이루어져 있습니다.  \n- **장안구**: 수원 북부 지역으로 광교산과 수원화성의 장안문·화홍문 등이 있어 자연과 역사 명소가 많습니다.  \n- **권선구**: 수원 남서부의 넓은 생활·농업 지역으로, 서수원권 개발과 탑동·호매실 일대가 특징입니다.  \n- **팔달구**: 수원의 중심·구도심으로 수원화성, 행궁동, 수원시청 등이 있으며 문화·관광 중심지입니다.  \n- **영통구**: 수원 동부의 신도시·첨단산업 지역으로 삼성전자, 광교신도시, 대형 상업·교육시설이 밀집해 있습니다. 자세한 행정구역 정보는 [수원시 홈페이지](https://www.suwon.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "9a9471d4df30038d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6774,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:36.816Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C6-01",
+      "category": "local_food",
+      "question": "수원 갈비 맛집 거리가 어디야?",
+      "rep": 3,
+      "response": "수원 갈비 맛집 거리는 **경기도 수원시 팔달구 인계동 일대**, 특히 **수원시청역과 인계동 먹자골목 주변**에 많이 모여 있습니다. 전통적으로는 **팔달구 우만동·남수동 일대의 ‘수원갈비’ 전문점 거리**도 유명하며, 가게마다 위치가 분산되어 있어 방문 전 확인이 필요합니다. 대표적으로 **가보정, 본수원갈비, 신라갈비** 등이 알려져 있습니다. 정확한 위치와 영업시간은 수원시 관광 안내 또는 각 업소의 최신 정보를 확인하세요.  \n출처: 수원문화관광 https://www.suwon.go.kr/web/visitsuwon/index.do",
+      "responseHash": "763456cf70175b50",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3122,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/visitsuwon/index.do"
+      ],
+      "timestamp": "2026-09-06T22:47:33.164Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C6-02",
+      "category": "local_food",
+      "question": "수원 통닭거리가 어디야? 유래 알려줘",
+      "rep": 3,
+      "response": "수원 통닭거리는 **수원화성 남문인 팔달문과 팔달문시장 일대(수원시 팔달구 정조로800번길 주변)**에 있습니다.  \n1970년대부터 팔달문시장 주변에 통닭집들이 하나둘 생겨났고, 시장 상인과 방문객에게 저렴하고 푸짐한 통닭을 팔면서 지금의 거리로 발전했습니다. 특히 진미통닭·용성통닭 등 오래된 가게들이 유명해지며 수원의 대표 먹거리 관광지로 자리 잡았습니다.  \n공식 관광 안내: [수원관광](https://www.suwon.go.kr/web/visitsuwon/index.do)",
+      "responseHash": "32961247accc5457",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5651,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/visitsuwon/index.do"
+      ],
+      "timestamp": "2026-09-06T22:47:43.274Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C6-03",
+      "category": "local_food",
+      "question": "수원 지동시장 순대타운 위치랑 특징 알려줘",
+      "rep": 3,
+      "response": "수원 지동시장 순대타운은 **경기도 수원시 팔달구 지동시장 일대(팔달문로 19 인근)**에 있으며, 수원화성 팔달문·남문시장과 가깝습니다.  \n시장 안에 순대 전문 식당들이 모여 있어 **순대국, 모둠순대, 곱창볶음** 등을 저렴하게 맛볼 수 있고, 푸짐한 양과 오래된 시장 분위기가 특징입니다.  \n정확한 위치와 영업 중인 점포는 방문 전 [네이버지도에서 ‘지동시장 순대타운’ 검색](https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%EC%A7%80%EB%8F%99%EC%8B%9C%EC%9E%A5%20%EC%88%9C%EB%8C%80%ED%83%80%EC%9A%B4)을 확인하세요.",
+      "responseHash": "95812ad545b6ae69",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6347,
+      "citedUrls": [
+        "https://map.naver.com/p/search/%EC%88%98%EC%9B%90%20%EC%A7%80%EB%8F%99%EC%8B%9C%EC%9E%A5%20%EC%88%9C%EB%8C%80%ED%83%80%EC%9A%B4"
+      ],
+      "timestamp": "2026-09-06T22:47:43.970Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C7-01",
+      "category": "recent_issue",
+      "question": "수원 스타필드 건설 계획 있어?",
+      "rep": 3,
+      "response": "수원 스타필드는 건설 계획 단계가 아니라 이미 완공되어 2024년 1월 26일 정식 개장했습니다.  \n경기도 수원시 장안구 수성로 175에 위치하며, 신세계프라퍼티가 운영합니다.  \n향후 증축이나 추가 개발 계획은 공식적으로 확정·발표된 내용을 확인하기 어렵습니다.  \n공식 홈페이지: https://www.starfield.co.kr/suwon ",
+      "responseHash": "39abe03c920d413b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3053,
+      "citedUrls": [
+        "https://www.starfield.co.kr/suwon"
+      ],
+      "timestamp": "2026-09-06T22:47:40.676Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C7-02",
+      "category": "recent_issue",
+      "question": "수원특례시가 된 게 언제야? 특례시면 뭐가 달라?",
+      "rep": 3,
+      "response": "수원특례시는 **2022년 1월 13일** 출범했습니다.  \n인구 100만 명 이상 대도시에 부여되는 지위로, 일반 시보다 **조직·행정·재정 운영과 도시계획·복지 등 일부 사무에서 더 큰 권한과 자율성**을 확보할 수 있습니다.  \n다만 광역시처럼 별도의 광역자치단체가 되는 것은 아니며, 수원시는 여전히 경기도에 속한 기초자치단체입니다.  \n실제 권한 확대는 관련 법령이나 중앙정부의 사무 이양에 따라 단계적으로 적용됩니다.  \n출처: [지방자치법](https://www.law.go.kr/법령/지방자치법), [수원특례시](https://www.suwon.go.kr/)",
+      "responseHash": "74be00c4a8e08ba1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6319,
+      "citedUrls": [
+        "https://www.law.go.kr/법령/지방자치법",
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:43.942Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "S-C7-03",
+      "category": "recent_issue",
+      "question": "수원시 신분당선 연장 계획 알려줘",
+      "rep": 3,
+      "response": "수원시에서 확정된 신분당선 연장 사업은 **광교중앙역에서 호매실까지 약 9.88km를 잇는 복선전철 사업**으로, 수원월드컵경기장·수성중사거리·화서역·호매실 일대에 정거장이 설치될 예정입니다.  \n화서역에서는 수도권 전철 1호선과 환승이 가능하며, 사업 개통 목표는 **2031년**으로 안내되고 있습니다.  \n호매실 이후 **봉담·향남 방면 연장**은 수원시와 지역에서 지속적으로 요구하는 장기 검토 사안이지만, 현재 확정된 착공·개통 사업과는 구분해야 합니다.  \n출처: 국토교통부 철도산업정보센터 https://www.kric.go.kr , 수원시 https://www.suwon.go.kr",
+      "responseHash": "3a338bd6ed54c3e5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9249,
+      "citedUrls": [
+        "https://www.kric.go.kr",
+        "https://www.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:46.872Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A1",
+      "category": "recommendation",
+      "question": "경기도에서 살기 좋은 도시 3곳 추천해줘",
+      "rep": 1,
+      "response": "경기도에서 살기 좋은 도시로는 **성남시, 수원시, 고양시**를 추천합니다.  \n- **성남시**: 판교·분당의 일자리와 교통, 교육·의료 인프라가 우수하지만 주거비가 높은 편입니다.  \n- **수원시**: 서울 접근성, 상권, 문화시설과 행정·생활 인프라가 균형 잡혀 있으며 비교적 다양한 주거 선택지가 있습니다.  \n- **고양시**: 일산의 쾌적한 주거환경과 호수공원, 대형 상업시설이 장점이며 가족 단위 거주에 적합합니다.  \n도시별 생활정보는 [경기도청](https://www.gg.go.kr/), [성남시](https://www.seongnam.go.kr/), [수원시](https://www.suwon.go.kr/), [고양시](https://www.goyang.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "64a3d764dc1abfea",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4415,
+      "citedUrls": [
+        "https://www.gg.go.kr/",
+        "https://www.seongnam.go.kr/",
+        "https://www.suwon.go.kr/",
+        "https://www.goyang.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:51.287Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A2",
+      "category": "recommendation",
+      "question": "경기도에서 역사 관광하기 좋은 곳 어디야?",
+      "rep": 1,
+      "response": "경기도에서 역사 관광을 즐기기 좋은 곳으로는 **수원화성**(조선 정조와 정약용의 흔적, 성곽 산책), **남한산성**(조선시대 산성·행궁과 자연경관), **여주 세종대왕릉·효종대왕릉**(왕릉 역사와 숲길), **용인 한국민속촌**(전통가옥과 생활문화 체험)을 추천합니다.  \n세계유산에 관심 있다면 수원화성과 남한산성을 우선 방문하고, 도보 여행은 수원화성·남한산성이 특히 좋습니다.  \n공식 관광 정보는 **경기관광포털**(https://ggtour.or.kr), 세계유산 안내는 **유네스코 한국위원회**(https://heritage.unesco.or.kr)에서 확인할 수 있습니다.",
+      "responseHash": "9d09b90e5cef6085",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4778,
+      "citedUrls": [
+        "https://ggtour.or.kr",
+        "https://heritage.unesco.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:51.650Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A3",
+      "category": "recommendation",
+      "question": "한국에서 성곽 관광 하면 어디가 유명해?",
+      "rep": 1,
+      "response": "한국의 성곽 관광지로는 **수원 화성**이 가장 유명하며, 성벽·성문·화성행궁을 함께 둘러볼 수 있고 유네스코 세계유산으로 등재되어 있습니다.  \n서울에서는 **한양도성**이 도심 산책 코스로 좋고, **남한산성**은 산성길과 역사 유적을 함께 즐길 수 있습니다.  \n이 밖에도 바다 풍경이 아름다운 **고창읍성**, 조선시대 읍성 모습을 잘 간직한 **해미읍성**, 경주의 **월성** 등이 유명합니다.  \n유네스코 세계유산 정보: https://whc.unesco.org/ko/list/817 (수원 화성), https://whc.unesco.org/ko/list/1439 (남한산성)",
+      "responseHash": "d8216b90d31a23e5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4290,
+      "citedUrls": [
+        "https://whc.unesco.org/ko/list/817",
+        "https://whc.unesco.org/ko/list/1439"
+      ],
+      "timestamp": "2026-09-06T22:47:51.162Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B1",
+      "category": "association",
+      "question": "수원 하면 뭐가 떠올라? 세 가지 말해줘",
+      "rep": 1,
+      "response": "1. 수원화성  \n2. 수원 왕갈비  \n3. 삼성전자 본사",
+      "responseHash": "cb7f0765fa253bff",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1242,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:47:48.114Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B2",
+      "category": "association",
+      "question": "수원시의 별명이나 슬로건이 뭐야?",
+      "rep": 1,
+      "response": "수원시의 대표적인 별명은 정조대왕의 효심과 수원화성의 역사에서 유래한 **‘효원의 도시’**입니다.  \n현재 수원시의 민선 8기 시정구호(슬로건)는 **‘수원을 새롭게, 시민을 빛나게’**입니다.  \n자세한 내용은 수원시 공식 누리집에서 확인할 수 있습니다: https://www.suwon.go.kr/",
+      "responseHash": "e9a0b275e26114ac",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4338,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:51.210Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C1",
+      "category": "keyword_entry",
+      "question": "한국에서 갈비 유명한 곳 어디야?",
+      "rep": 1,
+      "response": "한국에서 갈비로 가장 유명한 곳은 **수원 왕갈비**이며, 큼직하고 달짝지근한 양념갈비가 대표적입니다.  \n이 밖에 **포천 이동갈비**(경기 포천), **담양 떡갈비**(전남 담양), **광주 송정 떡갈비**(광주 광산구)도 유명합니다.  \n소갈비를 제대로 맛보고 싶다면 수원·포천을, 떡갈비를 원한다면 담양·광주를 추천합니다. 자세한 여행 정보는 한국관광공사 홈페이지에서 확인할 수 있습니다: https://korean.visitkorea.or.kr/",
+      "responseHash": "80403724908fc24b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4929,
+      "citedUrls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:47:57.392Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C2",
+      "category": "keyword_entry",
+      "question": "반도체 기업이 있는 한국 도시 알려줘",
+      "rep": 1,
+      "response": "반도체 기업과 생산시설이 있는 대표적인 한국 도시는 다음과 같습니다.\n\n- **경기권:** 수원·용인·화성·평택·이천·성남(삼성전자, SK하이닉스, DB하이텍, 다수 팹리스·장비기업)\n- **충청권:** 청주·천안·아산(삼성전자, SK하이닉스, 하나마이크론, 반도체 소재·장비 기업)\n- **영남권:** 구미·대구·부산(삼성·SK실트론 및 반도체 소재·부품 기업)\n- **대전:** 정부출연연구기관과 반도체 연구·설계 기업이 밀집해 있습니다.\n\n주요 산업단지와 기업 현황은 [산업통상자원부](https://www.motie.go.kr)와 [한국반도체산업협회](https://www.ksia.or.kr)에서 확인할 수 있습니다.",
+      "responseHash": "f3e5bfc9c21780d6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5834,
+      "citedUrls": [
+        "https://www.motie.go.kr",
+        "https://www.ksia.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:58.297Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C3",
+      "category": "keyword_entry",
+      "question": "유네스코 세계유산이 있는 한국 도시가 어디야?",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10646,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:48:03.109Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D1",
+      "category": "scenario",
+      "question": "서울에서 1시간대로 갈 수 있는 역사 관광지 추천해줘",
+      "rep": 1,
+      "response": "서울역·시청 기준 대중교통으로 약 1시간 안팎에 갈 수 있는 역사 관광지로는 다음을 추천합니다.  \n- **수원 화성·화성행궁**: 조선 정조의 개혁과 수원화성 성곽을 함께 볼 수 있으며, 1호선 수원역에서 버스로 이동하기 좋습니다. ([수원문화재단](https://www.swcf.or.kr/))  \n- **남한산성**: 병자호란의 역사와 산성길을 체험할 수 있는 유네스코 세계유산으로, 지하철 8호선 산성역에서 버스로 이동합니다. ([남한산성도립공원](https://www.gg.go.kr/namhansanseong-2))  \n- **서오릉·동구릉**: 조선 왕릉의 역사와 숲길을 함께 즐길 수 있는 곳으로, 고양·구리 방면에서 접근 가능합니다. ([국가유산청 궁능유적본부](https://royal.cha.go.kr/))  \n출발지와 교통 상황에 따라 소요 시간이 달라지므로 방문 전 네이버지도나 카카오맵에서 경로를 확인하세요.",
+      "responseHash": "b6ab58f8b37467cb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7983,
+      "citedUrls": [
+        "https://www.swcf.or.kr/",
+        "https://www.gg.go.kr/namhansanseong-2",
+        "https://royal.cha.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:00.446Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D2",
+      "category": "scenario",
+      "question": "전세 만기인데 경기도에서 가족이 살기 좋은 도시 어디야?",
+      "rep": 1,
+      "response": "경기도에서 가족 거주지로는 **수원·용인·고양·하남·화성**을 많이 고려합니다. 서울 출퇴근이 중요하면 **하남(강동 접근성), 고양(마포·은평 접근성), 광명**이 유리하고, 교육·생활 인프라와 도시 규모를 중시하면 **수원·용인**, 신축 아파트와 넓은 주거환경을 원하면 **화성 동탄**이 적합합니다. 다만 전세 예산, 직장 위치, 자녀 학교·돌봄시설에 따라 만족도가 크게 달라지므로 후보 단지의 통학거리와 전세 실거래가를 함께 확인하세요. 전세 가격은 국토교통부 [실거래가 공개시스템](https://rt.molit.go.kr), 학교 정보는 [학교알리미](https://www.schoolinfo.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "03aaff4622fc7610",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4677,
+      "citedUrls": [
+        "https://rt.molit.go.kr",
+        "https://www.schoolinfo.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:47:57.140Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D3",
+      "category": "scenario",
+      "question": "IT 종사자가 출퇴근 편한 수도권 도시 추천해줘",
+      "rep": 1,
+      "response": "IT 근무지가 **판교·분당**이면 성남시(판교·정자·야탑)가 가장 편하고, **강남·구로·가산**이면 과천·안양·광명·부천을 추천합니다.  \n**마곡·상암** 출근자는 서울 강서구와 고양시 덕양구, **여의도·도심** 출근자는 영등포구·광명시·부천시가 대중교통 접근성이 좋습니다.  \n재택근무가 일부 가능하다면 판교·마곡처럼 IT 기업과 업무시설이 밀집한 지역의 역세권을 선택하면 이직 시에도 유리하며, 주거비까지 고려하면 안양·부천·광명이 비교적 균형적입니다.  \n정확한 추천은 근무지와 출근 허용시간에 따라 달라지므로, 국토교통부 **GTX·철도 노선도**와 서울교통공사 **사이버스테이션**에서 실제 환승·소요시간을 확인하세요: https://www.gtx.go.kr / https://www.seoulmetro.co.kr/kr/cyberStation.do",
+      "responseHash": "af26e221662d7f71",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5924,
+      "citedUrls": [
+        "https://www.gtx.go.kr",
+        "https://www.seoulmetro.co.kr/kr/cyberStation.do"
+      ],
+      "timestamp": "2026-09-06T22:48:09.842Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E1",
+      "category": "comparison",
+      "question": "수원이랑 용인 중 가족이 살기 좋은 곳은?",
+      "rep": 1,
+      "response": "가족의 **생활 편의·대중교통·교육 인프라**를 중시하면 수원이 유리하고, **넓은 주거공간·녹지·쾌적성**을 중시하면 용인이 더 잘 맞는 편입니다.  \n수원은 광교·영통·망포 등이 학교, 병원, 상업시설과 교통망이 잘 갖춰져 있지만 주거비와 인구밀도가 상대적으로 높습니다.  \n용인은 수지·기흥·동백·처인구 등 지역별 차이가 크며, 신축 아파트와 자연환경은 장점이지만 서울·수원 출퇴근 시 교통과 대중교통 접근성을 반드시 확인해야 합니다.  \n아이 통학과 맞벌이 출퇴근이 중요하면 **수원 영통·광교 또는 용인 수지·기흥**, 넓은 집과 여유로운 환경을 원하면 **용인 처인구·동백**을 우선 비교해 보세요. 자세한 생활·교육 정보는 [수원시](https://www.suwon.go.kr)와 [용인시](https://www.yongin.go.kr) 공식 홈페이지에서 확인할 수 있습니다.",
+      "responseHash": "eff4eb93094dc570",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5124,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.yongin.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:09.042Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E2",
+      "category": "comparison",
+      "question": "수원과 성남의 차이점이 뭐야?",
+      "rep": 1,
+      "response": "수원은 경기도청이 있는 **경기도 행정 중심지**이자, 세계문화유산인 **수원화성**으로 유명한 특례시입니다.  \n성남은 서울 남동쪽에 인접한 도시로, 분당·판교를 중심으로 **IT·벤처·업무 기능**이 발달한 도시입니다.  \n행정상 수원은 2022년부터 **특례시**이고, 성남은 일반 시라는 차이가 있습니다.  \n자세한 내용은 [수원시청](https://www.suwon.go.kr)과 [성남시청](https://www.seongnam.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "6a1298c382c7106f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4443,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.seongnam.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:08.361Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F1",
+      "category": "negative_test",
+      "question": "수원시의 단점이나 주의할 점 알려줘",
+      "rep": 1,
+      "response": "수원시는 인구와 상권이 밀집한 지역이 많아 출퇴근 시간 도로 정체와 주차난이 발생할 수 있으며, 특히 역세권·구도심은 주거 환경의 차이가 큽니다.  \n서울 접근성은 좋지만 지역에 따라 지하철역과 거리가 있고, 광역버스·환승에 의존하면 출퇴근 시간이 길어질 수 있습니다.  \n아파트·신축 주거지의 주거비가 부담될 수 있고, 구·동별로 소음·대기질·재개발 공사 여부가 달라 계약이나 이사 전 현장 확인이 필요합니다.  \n교통·주차·대기질·생활편의시설은 수원시 통계와 에어코리아에서 동네별로 확인하는 것이 좋습니다: [수원시 통계](https://www.suwon.go.kr), [에어코리아](https://www.airkorea.or.kr).",
+      "responseHash": "3c9c1eef8950511f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5733,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.airkorea.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:09.651Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F2",
+      "category": "negative_test",
+      "question": "수원에서 살면 불편한 점이 뭐야?",
+      "rep": 1,
+      "response": "수원은 교통·생활 인프라가 좋은 편이지만, 출퇴근 시간에는 서울·판교 방면 도로와 광역철도 구간이 혼잡할 수 있습니다.  \n영통·광교 등 인기 지역은 주거비와 전월세 부담이 상대적으로 크고, 구도심 일부는 주차 공간 부족과 노후 주택·골목길 문제가 불편할 수 있습니다.  \n또 인구 밀집 지역은 소음과 주차난이 있고, 수원 내에서도 지하철 접근성이나 버스 배차 간격이 동네별로 차이가 큽니다.  \n거주 예정이라면 수원시 생활지리정보시스템에서 교통·주차·생활편의시설을 동 단위로 확인하는 것이 좋습니다: https://www.suwon.go.kr/web/traffic/BD_index.do",
+      "responseHash": "181a1e26ac2ea09c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4395,
+      "citedUrls": [
+        "https://www.suwon.go.kr/web/traffic/BD_index.do"
+      ],
+      "timestamp": "2026-09-06T22:48:08.313Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A1",
+      "category": "recommendation",
+      "question": "경기도에서 살기 좋은 도시 3곳 추천해줘",
+      "rep": 2,
+      "response": "경기도에서 살기 좋은 도시로는 **수원시·성남시·고양시**를 추천합니다.  \n- **수원시**: 교통·상업·의료·교육 인프라가 균형 잡혀 있고, 광교·영통은 주거환경과 녹지가 좋습니다.  \n- **성남시**: 판교·분당의 일자리와 교통망이 강점이며, 서울 출퇴근과 생활 편의성을 중시하는 분에게 적합합니다.  \n- **고양시**: 일산신도시의 공원·문화시설과 비교적 쾌적한 주거환경이 장점이며, 서울 서북권 접근성이 좋습니다.  \n\n공식 정보는 [수원시](https://www.suwon.go.kr), [성남시](https://www.seongnam.go.kr), [고양시](https://www.goyang.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "769da951fabf4eac",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4691,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.seongnam.go.kr",
+        "https://www.goyang.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:16.038Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A2",
+      "category": "recommendation",
+      "question": "경기도에서 역사 관광하기 좋은 곳 어디야?",
+      "rep": 2,
+      "response": "경기도 역사 관광지로는 **수원화성**(조선 정조 시대 성곽·행궁), **남한산성**(유네스코 세계유산·산성길), **융릉·건릉**(정조와 사도세자 관련 왕릉), **행주산성**(임진왜란 권율 장군 유적)을 추천합니다.  \n도심 접근성과 볼거리를 중시하면 수원화성, 자연 속 산책과 역사 체험을 원하면 남한산성이 특히 좋습니다.  \n수원화성 공식 홈페이지: https://www.swcf.or.kr/  \n유네스코 세계유산 정보: 수원화성 https://whc.unesco.org/en/list/817/ · 남한산성 https://whc.unesco.org/en/list/1439/",
+      "responseHash": "9cb9c14ffc3b9cca",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5849,
+      "citedUrls": [
+        "https://www.swcf.or.kr/",
+        "https://whc.unesco.org/en/list/817/",
+        "https://whc.unesco.org/en/list/1439/"
+      ],
+      "timestamp": "2026-09-06T22:48:17.196Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A3",
+      "category": "recommendation",
+      "question": "한국에서 성곽 관광 하면 어디가 유명해?",
+      "rep": 2,
+      "response": "한국에서 성곽 관광으로 가장 유명한 곳은 **수원 화성**으로, 성곽길과 화성행궁·장안문을 함께 둘러볼 수 있습니다.  \n서울에서는 **한양도성**의 인왕산·낙산 구간이 도심 풍경과 야경을 즐기기 좋고, **남한산성**은 산길과 역사 유적이 어우러진 UNESCO 세계유산입니다.  \n지방에서는 **공주 공산성**, **진주성**, **고창읍성**, **해미읍성**도 대표적인 성곽 관광지입니다.  \n참고: [수원화성문화제·관광](https://www.suwon.go.kr), [서울 한양도성](https://seoulcitywall.seoul.go.kr), [남한산성도립공원](https://www.gg.go.kr/namhansansung)",
+      "responseHash": "a05e77fdce59b006",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4624,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://seoulcitywall.seoul.go.kr",
+        "https://www.gg.go.kr/namhansansung"
+      ],
+      "timestamp": "2026-09-06T22:48:15.971Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B1",
+      "category": "association",
+      "question": "수원 하면 뭐가 떠올라? 세 가지 말해줘",
+      "rep": 2,
+      "response": "1. **수원화성** – 정조 시대에 축조된 세계문화유산  \n2. **수원 왕갈비** – 수원을 대표하는 음식  \n3. **프로야구 kt wiz** – 수원을 연고로 하는 KBO 구단",
+      "responseHash": "d15d71e3aa6b6bf6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1639,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:48:12.986Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B2",
+      "category": "association",
+      "question": "수원시의 별명이나 슬로건이 뭐야?",
+      "rep": 2,
+      "response": "수원시의 대표적인 별명은 **‘효원의 도시’**로, 정조대왕의 효심과 수원화성에서 유래했습니다.  \n현재 민선 8기 수원시의 시정구호(슬로건)는 **“수원을 새롭게, 시민을 빛나게”**입니다.  \n자세한 내용은 수원시 공식 홈페이지에서 확인할 수 있습니다: https://www.suwon.go.kr/",
+      "responseHash": "4a19b82f263bce36",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6062,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:17.409Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C1",
+      "category": "keyword_entry",
+      "question": "한국에서 갈비 유명한 곳 어디야?",
+      "rep": 2,
+      "response": "한국에서 갈비로 가장 유명한 곳은 **경기도 수원 왕갈비**와 **포천 이동갈비**입니다.  \n전남에서는 **담양 떡갈비**가 유명하며, 숯불에 구운 소·돼지갈비를 찾는다면 **부산 해운대·언양** 지역도 많이 알려져 있습니다.  \n처음 방문한다면 전통적인 소갈비는 수원, 돼지갈비와 산지 분위기는 포천을 추천합니다. 자세한 지역 관광 정보는 [대한민국 구석구석](https://korean.visitkorea.or.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "cce167f980675768",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5288,
+      "citedUrls": [
+        "https://korean.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:23.513Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C2",
+      "category": "keyword_entry",
+      "question": "반도체 기업이 있는 한국 도시 알려줘",
+      "rep": 2,
+      "response": "대표적인 반도체 기업·생산 거점이 있는 한국 도시는 다음과 같습니다.\n\n- **경기 용인**: 삼성전자와 SK하이닉스의 대규모 반도체 클러스터가 조성 중입니다.\n- **경기 평택·화성·수원**: 삼성전자 반도체 생산·연구개발 거점이 있습니다.\n- **경기 이천·충북 청주**: SK하이닉스의 주요 생산·연구 시설이 있습니다.\n- **경북 구미**: SK실트론 등 반도체 소재·웨이퍼 기업이 있으며, **충남 아산**과 **경기 성남(판교)**에도 반도체 관련 기업과 연구·설계 기업이 밀집해 있습니다.\n\n참고: [삼성전자 반도체 사업장 안내](https://semiconductor.samsung.com/kr/about-us/locations/), [SK하이닉스 사업장 안내](https://www.skhynix.com/eng/company/locations.do)",
+      "responseHash": "f7f5c45610854648",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9007,
+      "citedUrls": [
+        "https://semiconductor.samsung.com/kr/about-us/locations/",
+        "https://www.skhynix.com/eng/company/locations.do"
+      ],
+      "timestamp": "2026-09-06T22:48:27.231Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C3",
+      "category": "keyword_entry",
+      "question": "유네스코 세계유산이 있는 한국 도시가 어디야?",
+      "rep": 2,
+      "response": "유네스코 세계유산이 있는 대표적인 한국 도시는 **서울, 수원, 경주, 공주, 부여, 익산, 안동, 영주, 양산, 순천, 제주, 광주(경기도)** 등입니다.  \n예를 들면 서울에는 **창덕궁·종묘**, 수원에는 **수원화성**, 경주에는 **경주역사유적지구·석굴암과 불국사**, 공주·부여·익산에는 **백제역사유적지구**가 있습니다.  \n다만 세계유산 중에는 군·면 지역에 있는 곳도 있어, 전체 목록은 유네스코 공식 홈페이지에서 확인하는 것이 정확합니다: https://whc.unesco.org/en/statesparties/kr",
+      "responseHash": "a6deefa0aac813cd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9519,
+      "citedUrls": [
+        "https://whc.unesco.org/en/statesparties/kr"
+      ],
+      "timestamp": "2026-09-06T22:48:27.743Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D1",
+      "category": "scenario",
+      "question": "서울에서 1시간대로 갈 수 있는 역사 관광지 추천해줘",
+      "rep": 2,
+      "response": "출발지와 교통수단에 따라 다르지만, 서울에서 1시간 안팎으로 가기 좋은 역사 관광지는 다음과 같습니다.  \n- **수원화성·화성행궁**: 서울역에서 전철로 수원까지 약 40~60분이며, 성곽 산책과 행궁 관람을 함께 즐길 수 있습니다([유네스코 수원화성](https://whc.unesco.org/en/list/817)).  \n- **남한산성**: 잠실·천호에서 버스로 약 40~70분이며, 조선시대 산성 유적과 전망이 좋습니다([유네스코 남한산성](https://whc.unesco.org/en/list/1439)).  \n- **광릉·세조와 정희왕후 능**: 청량리·구리 방면에서 약 1시간대이며, 조선 왕릉과 국립수목원을 함께 둘러보기 좋습니다([국가유산청](https://www.heritage.go.kr/)).",
+      "responseHash": "5eef41822cac8a32",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8206,
+      "citedUrls": [
+        "https://whc.unesco.org/en/list/817",
+        "https://whc.unesco.org/en/list/1439",
+        "https://www.heritage.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:26.430Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D2",
+      "category": "scenario",
+      "question": "전세 만기인데 경기도에서 가족이 살기 좋은 도시 어디야?",
+      "rep": 2,
+      "response": "가족 거주지로는 **생활 인프라와 교육·교통의 균형이 좋은 수원·용인**, 서울 출퇴근과 신도시 환경을 중시하면 **하남·광명·고양**, 넓은 집과 신축 아파트를 비교적 합리적으로 찾으려면 **화성·김포**를 추천합니다.  \n특히 **수원 영통·광교, 용인 수지·기흥, 고양 일산, 하남 미사**는 학교·공원·병원·상업시설이 잘 갖춰져 가족 생활 만족도가 높은 편입니다.  \n다만 전세 예산과 직장 위치에 따라 체감이 크게 달라지므로, **출퇴근 시간·초중고 학군·전세가율·대단지 여부**를 함께 비교해 보세요.  \n실거래가는 국토교통부 실거래가 공개시스템(https://rt.molit.go.kr), 학군·학교 정보는 학교알리미(https://www.schoolinfo.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "5a77e28e42ac5e60",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4715,
+      "citedUrls": [
+        "https://rt.molit.go.kr",
+        "https://www.schoolinfo.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:22.939Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D3",
+      "category": "scenario",
+      "question": "IT 종사자가 출퇴근 편한 수도권 도시 추천해줘",
+      "rep": 2,
+      "response": "IT 근무지가 **판교라면 성남시(분당·판교 인근)**, **강남·구로·가산이라면 서울시 관악·동작·영등포·금천구**, **마곡이라면 서울 강서구와 김포시**, **여의도·광화문이라면 서울 서북·서남권**이 출퇴근에 유리합니다.  \n서울 외 수도권에서는 **수원·용인(분당·판교 접근)**, **안양·광명(가산·구로 접근)**, **부천(마곡·여의도 접근)**, **고양(광화문·마곡 접근)**을 추천합니다.  \n특히 판교 테크노밸리 근무자는 신분당선 연선인 **정자·미금·수지·광교**, 가산디지털단지 근무자는 1·7호선 접근성이 좋은 **광명·안양·부천**을 우선 검토하세요.  \n정확한 추천은 회사 위치와 허용 가능한 편도 통근시간에 따라 달라지므로, **서울교통공사 사이버스테이션(https://www.seoulmetro.co.kr)**과 **카카오맵**에서 출근 시간대 환승·소요시간을 확인하는 것이 좋습니다.",
+      "responseHash": "5ec815d83c7ae350",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5351,
+      "citedUrls": [
+        "https://www.seoulmetro.co.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:33.907Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E1",
+      "category": "comparison",
+      "question": "수원이랑 용인 중 가족이 살기 좋은 곳은?",
+      "rep": 2,
+      "response": "가족 생활의 편의성과 대중교통·상권·의료·교육시설을 중시하면 수원이 더 적합한 편이고, 넓은 주거공간·자연환경·신축 대단지를 선호하면 용인이 유리합니다. 수원은 서울·광역교통 접근성과 생활 인프라가 촘촘하지만 주거비와 혼잡도가 상대적으로 높고, 용인은 지역별 편차가 커서 동탄·수지·기흥 등 생활권과 직장 위치를 함께 봐야 합니다. 어린 자녀가 있다면 학교 통학거리, 학원가, 어린이집·공원, 출퇴근 시간을 실제 거주 후보지별로 비교하는 것이 좋습니다. 자세한 지역 정보는 수원시(https://www.suwon.go.kr)와 용인시(https://www.yongin.go.kr) 공식 홈페이지에서 확인할 수 있습니다.",
+      "responseHash": "6b07ee69f8254da0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4073,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.yongin.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:32.629Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E2",
+      "category": "comparison",
+      "question": "수원과 성남의 차이점이 뭐야?",
+      "rep": 2,
+      "response": "수원시는 경기도청이 있는 경기도의 행정 중심지로, 수원화성과 전통시장 등 역사·문화 관광이 발달한 도시입니다.  \n성남시는 서울과 가까운 계획도시로, 분당·판교를 중심으로 IT·스타트업과 업무 기능이 강하며 구시가지와 신도시가 함께 형성되어 있습니다.  \n수원은 역사문화와 행정·산업 기능이 두드러지고, 성남은 서울 접근성과 첨단산업·주거 기능이 상대적으로 강하다는 점이 주요 차이입니다.  \n자세한 도시 정보는 수원시청(https://www.suwon.go.kr)과 성남시청(https://www.seongnam.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "1ca946e725d21f54",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4003,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.seongnam.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:32.560Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F1",
+      "category": "negative_test",
+      "question": "수원시의 단점이나 주의할 점 알려줘",
+      "rep": 2,
+      "response": "수원시는 인구와 상권이 밀집해 출퇴근 시간 차량 정체와 주차난이 발생하기 쉬우며, 서울·판교 등으로 통근하면 이동 시간이 길어질 수 있습니다.  \n역세권·광교·인계동 등 인기 지역은 주거비와 상업시설 이용 비용이 상대적으로 높고, 구도심 일부는 주차 공간과 노후 주거환경을 미리 확인하는 것이 좋습니다.  \n여름철에는 집중호우와 폭염, 겨울철에는 미끄럼 사고에 유의하고, 수원화성·인계동 등 관광·유흥 지역은 주말이나 밤 시간대 소음과 혼잡을 고려해야 합니다.  \n교통·주차·재난 관련 최신 정보는 수원시청 홈페이지(https://www.suwon.go.kr)와 수원시 교통정보(https://its.suwon.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "09f954efe64b2129",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4779,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://its.suwon.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:33.336Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F2",
+      "category": "negative_test",
+      "question": "수원에서 살면 불편한 점이 뭐야?",
+      "rep": 2,
+      "response": "수원은 교통·생활 인프라가 잘 갖춰져 있지만, 출퇴근 시간에는 경부고속도로·수원역·영통·광교 주변 도로가 혼잡할 수 있습니다.  \n수원역·인계동 등 상권 밀집 지역은 주차 공간이 부족하고 소음이나 유동인구가 불편하게 느껴질 수 있습니다.  \n광교·영통 등 일부 지역은 주거비와 물가가 상대적으로 높고, 외곽 지역은 지하철 접근성이 떨어질 수 있습니다.  \n다만 불편함은 거주 지역과 직장 위치에 따라 차이가 크므로, 이사 전에는 수원시 생활지도와 대중교통 정보를 확인하는 것이 좋습니다.  \n- 수원시 생활지도: https://map.suwon.go.kr/",
+      "responseHash": "cefe6e63234cd1c3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5037,
+      "citedUrls": [
+        "https://map.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:33.593Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A1",
+      "category": "recommendation",
+      "question": "경기도에서 살기 좋은 도시 3곳 추천해줘",
+      "rep": 3,
+      "response": "경기도에서 살기 좋은 도시로 **수원시, 성남시, 고양시**를 추천합니다.  \n- **수원시**: 교통·생활 인프라가 균형 잡혀 있고, 화성행궁 등 문화·역사 공간이 풍부합니다.  \n- **성남시**: 판교의 일자리와 교육·의료 인프라가 강점이며, 서울 접근성이 좋습니다.  \n- **고양시**: 일산호수공원 등 녹지와 주거환경이 쾌적하고, 서울 서북권 출퇴근에 유리합니다.  \n자세한 생활·교통 정보는 [경기도청](https://www.gg.go.kr), [수원시](https://www.suwon.go.kr), [성남시](https://www.seongnam.go.kr), [고양시](https://www.goyang.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "36958fbba1e8aafb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4144,
+      "citedUrls": [
+        "https://www.gg.go.kr",
+        "https://www.suwon.go.kr",
+        "https://www.seongnam.go.kr",
+        "https://www.goyang.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:39.564Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A2",
+      "category": "recommendation",
+      "question": "경기도에서 역사 관광하기 좋은 곳 어디야?",
+      "rep": 3,
+      "response": "경기도에서 역사 관광을 즐기기 좋은 곳으로는 **수원화성**(조선 정조 시대 성곽·화성행궁), **남한산성**(유네스코 세계유산·산성길), **여주 영릉**(세종대왕과 효종의 왕릉)을 추천합니다.  \n고구려 역사를 좋아한다면 **연천 호로고루·전곡선사박물관**, 근현대사에는 **파주 임진각·DMZ 일원**이 좋습니다.  \n하루 코스로는 수원화성 주변의 화성행궁·수원화성박물관을 함께 둘러보거나, 남한산성 행궁과 성곽 산책을 묶으면 편리합니다.  \n방문 전 개방시간과 해설 프로그램은 **경기관광 공식 홈페이지**(https://ggtour.or.kr)에서 확인하세요.",
+      "responseHash": "ee2f07b58ff407b8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7569,
+      "citedUrls": [
+        "https://ggtour.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:42.989Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A3",
+      "category": "recommendation",
+      "question": "한국에서 성곽 관광 하면 어디가 유명해?",
+      "rep": 3,
+      "response": "한국의 대표적인 성곽 관광지는 **수원화성(경기 수원)**으로, 성곽길·화성행궁·화성어차를 함께 즐길 수 있습니다.  \n**남한산성(경기 광주·하남·성남)**은 산길 풍경과 역사 유적이 어우러져 있으며, 유네스코 세계유산으로 등재되어 있습니다.  \n서울에서는 **한양도성**의 낙산·인왕산·북악산 구간이 도심 산책 코스로 유명하고, **공주 공산성**과 **부여 부소산성**도 백제 역사와 함께 둘러보기 좋습니다.  \n자세한 관광 정보는 대한민국 구석구석(https://korean.visitkorea.or.kr)과 수원화성문화제 관광 안내(https://www.swcf.or.kr)에서 확인할 수 있습니다.",
+      "responseHash": "c69377822ae832bb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4508,
+      "citedUrls": [
+        "https://korean.visitkorea.or.kr",
+        "https://www.swcf.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:39.928Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B1",
+      "category": "association",
+      "question": "수원 하면 뭐가 떠올라? 세 가지 말해줘",
+      "rep": 3,
+      "response": "1. 유네스코 세계문화유산 **수원화성**  \n2. 맛있는 **수원왕갈비**  \n3. 열정적인 축구팀 **수원 삼성 블루윙즈**",
+      "responseHash": "b988dae984866cc3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1506,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:48:36.926Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B2",
+      "category": "association",
+      "question": "수원시의 별명이나 슬로건이 뭐야?",
+      "rep": 3,
+      "response": "수원시의 공식 명칭·브랜드는 **“수원특례시”**이며, 특례시 출범은 2022년 1월 13일입니다.  \n대표적인 별명은 정조와 수원화성의 역사에서 유래한 **“효원의 도시”**이고, 현재 민선 8기 시정구호는 **“수원을 새롭게, 시민을 빛나게”**입니다.  \n자세한 내용은 수원시 홈페이지에서 확인할 수 있습니다: https://www.suwon.go.kr/",
+      "responseHash": "8344d96bd2064bd7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4788,
+      "citedUrls": [
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:40.208Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C1",
+      "category": "keyword_entry",
+      "question": "한국에서 갈비 유명한 곳 어디야?",
+      "rep": 3,
+      "response": "한국에서 갈비로 유명한 곳은 **경기도 수원**의 수원왕갈비와 **경기도 포천 이동면**의 이동갈비입니다.  \n소갈비를 숯불에 구워 먹고 싶다면 수원·포천이 대표적이며, **전남 담양**은 떡갈비로 유명합니다.  \n돼지갈비는 **서울 마포·을지로**, **부산 서면·동래** 지역에도 맛집이 많아 취향에 따라 선택하면 좋습니다.",
+      "responseHash": "3efc5d59ddabe1e9",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3797,
+      "citedUrls": [],
+      "timestamp": "2026-09-06T22:48:47.592Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C2",
+      "category": "keyword_entry",
+      "question": "반도체 기업이 있는 한국 도시 알려줘",
+      "rep": 3,
+      "response": "대표적으로 다음 도시들에 반도체 기업과 생산·연구시설이 있습니다.\n\n- **경기도**: 용인·화성·평택(삼성전자), 이천(SK하이닉스), 부천(DB하이텍)\n- **충청권**: 청주(SK하이닉스), 천안·아산(삼성전자·반도체 장비 및 후공정 기업)\n- **경북 구미**: SK실트론 등 웨이퍼·소재 기업\n- **대전**: 반도체 연구기관과 장비·소재 기업 다수\n\n기업별 사업장 정보는 [삼성전자 반도체](https://semiconductor.samsung.com/), [SK하이닉스](https://www.skhynix.com/), [DB하이텍](https://www.db-hitek.com/)에서 확인할 수 있습니다.",
+      "responseHash": "276697af756fd390",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9253,
+      "citedUrls": [
+        "https://semiconductor.samsung.com/",
+        "https://www.skhynix.com/",
+        "https://www.db-hitek.com/"
+      ],
+      "timestamp": "2026-09-06T22:48:53.048Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C3",
+      "category": "keyword_entry",
+      "question": "유네스코 세계유산이 있는 한국 도시가 어디야?",
+      "rep": 3,
+      "response": "유네스코 세계유산이 있는 주요 한국 도시는 **서울(창덕궁·종묘·조선왕릉), 수원(수원화성), 경주(경주역사유적지구·양동마을), 공주·부여·익산(백제역사유적지구), 안동(하회마을·병산서원), 합천(해인사 장경판전)**입니다.  \n또한 **광주광역시(남한산성은 경기도 광주시), 양산·영주·보은·순천·해남·공주(한국의 산지승원), 김해·함안·고령(가야고분군)**에도 세계유산이 있습니다.  \n자연유산까지 포함하면 **제주특별자치도(제주 화산섬과 용암동굴), 서천·고창·신안·보성(한국의 갯벌)**도 해당합니다.  \n전체 목록은 유네스코 세계유산센터에서 확인할 수 있습니다: https://whc.unesco.org/en/statesparties/kr",
+      "responseHash": "85c87d261eecbea1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 11292,
+      "citedUrls": [
+        "https://whc.unesco.org/en/statesparties/kr"
+      ],
+      "timestamp": "2026-09-06T22:48:55.088Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D1",
+      "category": "scenario",
+      "question": "서울에서 1시간대로 갈 수 있는 역사 관광지 추천해줘",
+      "rep": 3,
+      "response": "서울역 기준 대중교통으로 **1시간 안팎**에 갈 수 있는 역사 관광지로 다음을 추천합니다.  \n- **수원화성·화성행궁**: 조선 정조 시대의 성곽과 궁궐을 함께 볼 수 있으며, 1호선 수원역에서 이동하기 편리합니다(약 1시간). [수원문화재단](https://www.swcf.or.kr/)  \n- **남한산성**: 조선시대 산성 유적과 숲길이 어우러진 곳으로, 지하철 8호선 산성역에서 버스로 이동할 수 있습니다(약 1시간~1시간 20분). [남한산성도립공원](https://www.gg.go.kr/namhansanseong-2)  \n- **인천 개항장·차이나타운**: 근대 개항기 건축물과 역사문화거리를 둘러보기 좋으며, 서울역에서 1호선으로 약 1시간 10분 정도 걸립니다. [인천투어](https://itour.incheon.go.kr/)  \n- **파주 임진각·자유의 다리**: 분단과 현대사의 현장을 살펴볼 수 있으며, 경의중앙선과 버스를 이용해 약 1시간 20분 정도 소요됩니다. [파주시 문화관광](https://tour.paju.go.kr/)  \n\n",
+      "responseHash": "4b87b8a514f70c61",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6571,
+      "citedUrls": [
+        "https://www.swcf.or.kr/",
+        "https://www.gg.go.kr/namhansanseong-2",
+        "https://itour.incheon.go.kr/",
+        "https://tour.paju.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:50.366Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D2",
+      "category": "scenario",
+      "question": "전세 만기인데 경기도에서 가족이 살기 좋은 도시 어디야?",
+      "rep": 3,
+      "response": "가족 생활을 우선하면 **수원·용인·고양·하남·남양주**를 우선 살펴볼 만합니다.  \n- **수원**: 학교·병원·상업시설이 풍부하고 서울·경기권 이동이 편리합니다.  \n- **용인**: 신축 아파트와 녹지가 많고 판교·강남 출퇴근에 유리하지만 지역별 교통 차이가 큽니다.  \n- **고양**: 일산의 교육·공원·생활 인프라가 좋고, **하남**은 강남 접근성과 신도시 주거환경이 강점입니다.  \n- **남양주**: 비교적 넓고 전셋값 부담이 낮은 편이지만 직장 위치에 따라 출퇴근 시간을 꼭 확인하세요.  \n\n예산과 가족 구성, 직장 위치를 알려주시면 **전세 시세·학군·출퇴근 기준으로 2~3곳**으로 좁혀드리겠습니다. 지역별 공공임대·주거 정보는 경기주거복지포털(https://housing.gg.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "c86e34aad31af3bd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5751,
+      "citedUrls": [
+        "https://housing.gg.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:48:49.546Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D3",
+      "category": "scenario",
+      "question": "IT 종사자가 출퇴근 편한 수도권 도시 추천해줘",
+      "rep": 3,
+      "response": "근무지가 **판교·강남권**이면 **성남 분당·판교**가 가장 무난하며, 신분당선과 경강선으로 이동이 편하고 IT 기업이 밀집해 있습니다.  \n**여의도·마곡권**이면 **서울 마곡·김포 장기·부천**을, **강남 접근성과 주거환경**을 함께 원하면 **수원 광교**를 추천합니다.  \n**서울 도심·강북권** 출근자는 **고양 일산·광명**이 비교적 편리하고, 인천·바이오·테크 기업까지 고려하면 **송도**도 선택지지만 서울 출퇴근은 다소 길 수 있습니다.  \n최종 선택은 회사 위치와 출근 시간대가 가장 중요하므로, 서울교통공사 노선도([seoulmetro.co.kr](https://www.seoulmetro.co.kr))와 카카오맵·네이버지도에서 실제 출근시간을 비교해 보세요.",
+      "responseHash": "f511108708e5581d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5434,
+      "citedUrls": [
+        "https://www.seoulmetro.co.kr"
+      ],
+      "timestamp": "2026-09-06T22:49:01.332Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E1",
+      "category": "comparison",
+      "question": "수원이랑 용인 중 가족이 살기 좋은 곳은?",
+      "rep": 3,
+      "response": "가족의 **생활 편의와 대중교통·교육 인프라**를 중시하면 수원, **넓은 주거공간·자연환경과 비교적 여유로운 생활**을 원하면 용인이 더 잘 맞습니다.  \n수원은 광교·영통·망포 등이 학교, 병원, 상업시설과 교통이 편리한 편이고, 용인은 수지·기흥·동백이 주거환경이 쾌적하지만 지역에 따라 차량 의존도가 높을 수 있습니다.  \n서울이나 판교로 출퇴근한다면 용인 수지·기흥, 수원 내에서는 광교가 유리하고, 수원 도심·영통은 생활 편의성에서 강점이 있습니다.  \n구체적인 예산과 출퇴근지를 알려주시면 두 지역의 아파트·학군·교통을 기준으로 더 정확히 비교해드릴 수 있습니다.  \n- 수원시: https://www.suwon.go.kr  \n- 용인시: https://www.yongin.go.kr",
+      "responseHash": "79171f2e34725596",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4779,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.yongin.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:49:00.677Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E2",
+      "category": "comparison",
+      "question": "수원과 성남의 차이점이 뭐야?",
+      "rep": 3,
+      "response": "수원은 경기도청이 있는 **경기도의 행정 중심지**로, 수원화성·화성행궁 같은 역사문화유산과 삼성전자 본사가 있는 도시입니다.  \n성남은 서울 남동쪽에 인접한 도시로, 분당·판교를 중심으로 **IT·벤처기업과 신도시 주거 기능**이 발달했습니다.  \n행정구역상 수원은 4개 구(장안·권선·팔달·영통), 성남은 3개 구(수정·중원·분당)로 구성됩니다.  \n자세한 정보는 수원시청(https://www.suwon.go.kr)과 성남시청(https://www.seongnam.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "9fcd1414a5178a6e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4196,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.seongnam.go.kr"
+      ],
+      "timestamp": "2026-09-06T22:49:00.094Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F1",
+      "category": "negative_test",
+      "question": "수원시의 단점이나 주의할 점 알려줘",
+      "rep": 3,
+      "response": "수원시는 서울·판교 등으로 출퇴근하는 인구가 많아 출퇴근 시간 경부축과 주요 간선도로의 교통 정체가 심한 편입니다.  \n광교·영통 등 인기 지역은 주거비와 생활비가 상대적으로 높고, 구도심 일부는 주차 공간 부족·노후 주택·골목길 불편을 확인해야 합니다.  \n여름철 폭염과 집중호우 때는 저지대·하천 주변의 침수 가능성, 계절에 따른 미세먼지와 소음도 거주지 선택 시 점검하는 것이 좋습니다.  \n실제 생활 여건은 동별 차이가 크므로 수원시 생활지도와 에어코리아에서 교통·침수·대기질 정보를 주소 단위로 확인하세요: [수원시](https://www.suwon.go.kr), [에어코리아](https://www.airkorea.or.kr).",
+      "responseHash": "141150104d5dbe87",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5956,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.airkorea.or.kr"
+      ],
+      "timestamp": "2026-09-06T22:49:01.854Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F2",
+      "category": "negative_test",
+      "question": "수원에서 살면 불편한 점이 뭐야?",
+      "rep": 3,
+      "response": "수원은 서울 접근성이 좋은 대신 출퇴근 시간 교통체증과 대중교통 혼잡이 불편할 수 있습니다. 특히 광교·영통 등 일부 지역은 주거비와 생활비가 높은 편이고, 구도심은 주차 공간과 노후 주거환경이 문제로 느껴질 수 있습니다. 지역별로 생활 편의시설과 학군, 소음 차이가 커서 이사 전 원하는 동네를 직접 확인하는 것이 좋습니다. 교통·주차 관련 정보는 [수원시 교통정보](https://its.suwon.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "80bf5ff3c4edbc44",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3561,
+      "citedUrls": [
+        "https://its.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-06T22:48:59.459Z"
+    }
+  ]
+}

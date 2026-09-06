@@ -61,7 +61,11 @@ function loadTier2(): { id: string; category: string; body: string; groundTruth:
     console.log('  ⚠️ Tier 2 질문 파일 없음 — Tier 2 건너뜀');
     return [];
   }
-  return JSON.parse(fs.readFileSync(t2File, 'utf-8'));
+  const raw = JSON.parse(fs.readFileSync(t2File, 'utf-8'));
+  // wrapper 객체 { questions: [...] } 또는 flat 배열 [...] 모두 지원
+  const questions = Array.isArray(raw) ? raw : (raw.questions || []);
+  console.log(`  ✓ Tier 2 질문 ${questions.length}개 로드됨`);
+  return questions;
 }
 
 // ─── Tier 3 질문 로드 (파일 기반) ───
