@@ -123,6 +123,10 @@ export interface DiamondAnalysis {
 
 // ─── Stage 4: 최종 VIP 보고서 ───
 
+// DIR-01 §A-4: 판정 등급 정의 통일
+// 3/3 stable · 2/3 또는 1/3 unstable · 0/3 absent
+export type T1StabilityGrade = 'stable' | 'unstable' | 'absent';
+
 export interface VIPReportMetadata {
   unitId: string;
   unitName: string;
@@ -136,19 +140,37 @@ export interface VIPReportMetadata {
   errorCount: number;
   reps: number;
   isExploratory: boolean;              // INV-11
+  publisher: string;                   // DIR-01 §P-8: 발행 주체
 }
 
 export interface VIPDashboard {
-  t1Accuracy: number;                  // 0~1
-  t1StableCount: number;              // 3/3 안정 문항 수
+  // DIR-01 §P-2: "정확도"가 아니라 "응답률"
+  t1ResponseRate: number;              // 0~1, 응답이 존재한 비율
+  t1ResponseCount: number;             // 분자: 응답 건수
+  t1TotalCount: number;                // 분모: 총 관측 건수
+  t1StableCount: number;               // 3/3 안정 문항 수
+  t1UnstableCount: number;             // 1~2/3 불안정 문항 수
+  t1AbsentCount: number;               // 0/3 미응답 문항 수
   t1TotalQuestions: number;
-  t2RelevanceRate: number;             // accurate_relevant / total
-  t2GenericRate: number;               // accurate_generic / total
+  t2RelevanceRate: number;
+  t2RelevanceCount: number;            // 분자
+  t2TotalCount: number;                // 분모
+  t2GenericRate: number;
   t2TotalQuestions: number;
-  t3ShareOfVoice: number;             // mentioned / total
-  t3ByType: { type: string; rate: number }[];
+  t3ShareOfVoice: number;
+  t3MentionCount: number;              // 분자
+  t3TotalCount: number;                // 분모
+  t3ByType: { type: string; rate: number; mentioned: number; total: number }[];
   floorRisk: FloorRisk;
   confabulationCount: number;
+}
+
+// DIR-01 §3.5: R4 후보 — 정보 문제가 아닐 수 있는 항목
+export interface R4Candidate {
+  questionId: string;
+  question: string;
+  observation: string;     // "응답은 했지만 불안정"
+  hypothesis: string;      // "정보가 아니라 절차·창구 문제일 수 있습니다"
 }
 
 export interface VIPReport {
@@ -158,6 +180,7 @@ export interface VIPReport {
   oneLineForLeader: string;
   insights: InsightBundle;
   diamond: DiamondAnalysis;
+  r4Candidates: R4Candidate[];         // DIR-01 §3.5
   markdownFull: string;
   markdownSections: { id: string; title: string; content: string }[];
 }

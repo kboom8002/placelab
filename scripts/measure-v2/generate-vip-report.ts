@@ -1,7 +1,8 @@
 #!/usr/bin/env npx tsx
 // scripts/measure-v2/generate-vip-report.ts
 // 측정 결과 JSON → VIP 보고서 마크다운 자동 생성
-// 사용법: npx tsx scripts/measure-v2/generate-vip-report.ts --unit-id lg-41110 --unit 수원시
+// DIR-01 서식 표준 적용 · 12항 체크리스트 자동 검증
+// 사용법: npx tsx scripts/measure-v2/generate-vip-report.ts --unit 수원시 --unit-id lg-41110
 
 import * as fs from 'fs';
 import * as path from 'path';
@@ -14,12 +15,14 @@ import {
   generateOneLiner,
 } from '../../lib/aeo/vip-renderer';
 import { calculateFloorRisk } from '../../lib/aeo/scorer';
+import { runChecklist, printChecklistResults } from '../../lib/aeo/report-checklist';
 import type { MeasureResult } from '../../lib/aeo/measure-engine';
 import type {
   VIPReport,
   VIPReportMetadata,
   VIPDashboard,
   ScoredResult,
+  R4Candidate,
 } from '../../lib/aeo/types/vip-report';
 
 // ─── CLI 인자 파싱 ───
@@ -33,6 +36,9 @@ const UNIT_NAME = getArg('unit') || '수원시';
 const UNIT_ID = getArg('unit-id') || 'lg-41110';
 const MEASUREMENT_FILE = getArg('file');
 
+// DIR-01 §P-8: 발행 주체
+const PUBLISHER = '(주)디지털미디어네트워크';
+
 // ─── 측정 파일 찾기 ───
 function findMeasurementFile(): string {
   if (MEASUREMENT_FILE) return path.resolve(MEASUREMENT_FILE);
@@ -43,12 +49,11 @@ function findMeasurementFile(): string {
     process.exit(1);
   }
 
-  // unit-id에서 숫자만 추출
   const idNum = UNIT_ID.replace(/[^0-9]/g, '');
   const files = fs.readdirSync(dir)
     .filter(f => f.includes(idNum) && f.endsWith('.json'))
     .sort()
-    .reverse(); // 최신 파일 우선
+    .reverse();
 
   if (files.length === 0) {
     console.error(`❌ ${idNum}에 대한 측정 파일 없음`);
@@ -72,38 +77,41 @@ function loadTier3Questions() {
   return JSON.parse(fs.readFileSync(f, 'utf-8'));
 }
 
-// ─── 대시보드 계산 ───
+// ─── DIR-01 §A-2: 대시보드 재계산 (원자료 기반) ───
 function computeDashboard(scored: ScoredResult[], reps: number): VIPDashboard {
   const t1 = scored.filter(r => r.tier === 'T1');
   const t2 = scored.filter(r => r.tier === 'T2');
   const t3 = scored.filter(r => r.tier === 'T3');
 
-  // T1 정확도
-  const t1Accurate = t1.filter(r => r.verdict === 'accurate').length;
-  const t1Accuracy = t1.length > 0 ? t1Accurate / t1.length : 0;
+  // T1: 응답률 (정확도가 아님 — DIR-01 §P-2)
+  const t1Responded = t1.filter(r => r.verdict !== 'absent').length;
+  const t1ResponseRate = t1.length > 0 ? t1Responded / t1.length : 0;
 
-  // T1 안정 문항 수 (3/3 정확)
+  // T1 문항별 안정도
   const t1ByQ = new Map<string, string[]>();
   for (const r of t1) {
     if (!t1ByQ.has(r.questionId)) t1ByQ.set(r.questionId, []);
     t1ByQ.get(r.questionId)!.push(r.verdict);
   }
-  let t1StableCount = 0;
+  let t1StableCount = 0, t1UnstableCount = 0, t1AbsentCount = 0;
   for (const [, verdicts] of t1ByQ) {
-    if (verdicts.every(v => v === 'accurate')) t1StableCount++;
+    const respondedCount = verdicts.filter(v => v !== 'absent').length;
+    if (respondedCount === reps) t1StableCount++;
+    else if (respondedCount === 0) t1AbsentCount++;
+    else t1UnstableCount++;
   }
 
-  // T2 relevant / generic 비율
+  // T2
   const t2Relevant = t2.filter(r => r.verdict === 'accurate_relevant').length;
   const t2Generic = t2.filter(r => r.verdict === 'accurate_generic').length;
   const t2RelevanceRate = t2.length > 0 ? t2Relevant / t2.length : 0;
   const t2GenericRate = t2.length > 0 ? t2Generic / t2.length : 0;
 
-  // T3 Share of Voice
+  // T3
   const t3Mentioned = t3.filter(r => r.targetMentioned === true).length;
   const t3Sov = t3.length > 0 ? t3Mentioned / t3.length : 0;
 
-  // T3 유형별
+  // T3 유형별 — DIR-01 §A-3: 분자·분모 병기
   const typeGroups = new Map<string, { mentioned: number; total: number }>();
   for (const r of t3) {
     const type = r.category;
@@ -115,33 +123,66 @@ function computeDashboard(scored: ScoredResult[], reps: number): VIPDashboard {
   const t3ByType = Array.from(typeGroups.entries()).map(([type, g]) => ({
     type,
     rate: g.total > 0 ? g.mentioned / g.total : 0,
+    mentioned: g.mentioned,
+    total: g.total,
   }));
 
   // Floor Risk
   const allVerdicts = scored.map(r => r.verdict);
   const floorRisk = calculateFloorRisk(allVerdicts);
-
   const confabulationCount = scored.filter(r => r.verdict === 'wrong').length;
 
   return {
-    t1Accuracy,
+    t1ResponseRate,
+    t1ResponseCount: t1Responded,
+    t1TotalCount: t1.length,
     t1StableCount,
+    t1UnstableCount,
+    t1AbsentCount,
     t1TotalQuestions: t1ByQ.size,
     t2RelevanceRate,
+    t2RelevanceCount: t2Relevant,
+    t2TotalCount: t2.length,
     t2GenericRate,
     t2TotalQuestions: new Set(t2.map(r => r.questionId)).size,
     t3ShareOfVoice: t3Sov,
+    t3MentionCount: t3Mentioned,
+    t3TotalCount: t3.length,
     t3ByType,
     floorRisk,
     confabulationCount,
   };
 }
 
+// ─── DIR-01 §3.5: R4 후보 탐지 ───
+function detectR4Candidates(
+  stability: { questionId: string; question: string; status: string; reps: { rep: number; verdict: string }[] }[]
+): R4Candidate[] {
+  const candidates: R4Candidate[] = [];
+
+  for (const s of stability) {
+    if (!s.questionId.startsWith('B-')) continue;
+    // R4: 응답은 했지만 불안정 (2/3) — 정보가 있는데 안정적이지 않은 것
+    const respondedCount = s.reps.filter(r => r.verdict !== 'absent').length;
+    if (respondedCount >= 2 && s.status === 'unstable') {
+      candidates.push({
+        questionId: s.questionId,
+        question: s.question,
+        observation: `${s.reps.length}회 중 ${respondedCount}회 답했지만 일관되지 않음`,
+        hypothesis: '안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.',
+      });
+    }
+  }
+
+  return candidates.slice(0, 3); // 최대 3건
+}
+
 // ─── 메인 ───
 async function main() {
   console.log(`\n═══════════════════════════════════════════════════`);
-  console.log(`  VIP 보고서 생성`);
+  console.log(`  VIP 보고서 생성 (DIR-01 서식 표준)`);
   console.log(`  단위: ${UNIT_NAME} (${UNIT_ID})`);
+  console.log(`  발행: ${PUBLISHER}`);
   console.log(`═══════════════════════════════════════════════════\n`);
 
   // 1. 측정 파일 로드
@@ -166,26 +207,25 @@ async function main() {
   const insights = extractInsights(scored, UNIT_NAME, t2q, t3q);
   console.log(`  → 연상어: ${insights.associationTest.stableWords.join(', ') || '(없음)'}`);
   console.log(`  → 추천 누락: ${insights.recommendationGaps.filter(g => g.targetMissing).length}건`);
-  console.log(`  → T1 안정: ${insights.stabilityAnalysis.filter(s => s.status === 'stable').length}문항`);
 
-  // 5. 대시보드 계산
+  // 5. 대시보드 계산 (DIR-01 §A-2: 원자료 기반 재계산)
   const reps = rawData.reps || 3;
   const dashboard = computeDashboard(scored, reps);
-  console.log(`\n📊 대시보드:`);
-  console.log(`  T1 정확도: ${Math.round(dashboard.t1Accuracy * 100)}%`);
-  console.log(`  T2 고유정보: ${Math.round(dashboard.t2RelevanceRate * 100)}%`);
-  console.log(`  T3 SoV: ${Math.round(dashboard.t3ShareOfVoice * 100)}%`);
-  console.log(`  Floor Risk: ${dashboard.floorRisk}`);
+  console.log(`\n📊 대시보드 (DIR-01 재계산):`);
+  console.log(`  T1 응답률: ${dashboard.t1ResponseCount}/${dashboard.t1TotalCount}건 (${Math.round(dashboard.t1ResponseRate * 1000) / 10}%)`);
+  console.log(`  T1 안정/불안정/미응답: ${dashboard.t1StableCount}/${dashboard.t1UnstableCount}/${dashboard.t1AbsentCount}`);
+  console.log(`  T2 고유정보: ${dashboard.t2RelevanceCount}/${dashboard.t2TotalCount}건 (${Math.round(dashboard.t2RelevanceRate * 1000) / 10}%)`);
+  console.log(`  T3 SoV: ${dashboard.t3MentionCount}/${dashboard.t3TotalCount}건 (${Math.round(dashboard.t3ShareOfVoice * 1000) / 10}%)`);
 
-  // 6. 다이아몬드 분석
+  // 6. R4 후보 탐지 (DIR-01 §3.5)
+  const r4Candidates = detectR4Candidates(insights.stabilityAnalysis);
+  console.log(`  R4 후보: ${r4Candidates.length}건`);
+
+  // 7. 다이아몬드 분석
   console.log(`\n⚙️ Stage 3: 다이아몬드 분석 중...`);
   const diamond = analyzeDiamond(insights, dashboard, UNIT_NAME);
-  console.log(`  → 강점 ${diamond.signals.strengths.length}, 약점 ${diamond.signals.weaknesses.length}`);
-  console.log(`  → 기회 ${diamond.signals.opportunities.length}, 위협 ${diamond.signals.threats.length}`);
-  console.log(`  → 방어 ${diamond.defenseAreas.length}건, 기회 ${diamond.opportunityAreas.length}건`);
 
-  // 7. 보고서 조립
-  console.log(`\n⚙️ Stage 4: 보고서 렌더링 중...`);
+  // 8. 메타데이터
   const metadata: VIPReportMetadata = {
     unitId: UNIT_ID,
     unitName: UNIT_NAME,
@@ -198,11 +238,14 @@ async function main() {
     absentCount: results.filter(r => !r.response || r.response === '(응답 없음)').length,
     errorCount: results.filter(r => r.response?.startsWith('[ERROR]')).length,
     reps,
-    isExploratory: true, // INV-11
+    isExploratory: true,
+    publisher: PUBLISHER,
   };
 
-  const executiveSummary = generateExecutiveSummary(dashboard, insights, UNIT_NAME);
-  const oneLineForLeader = generateOneLiner(dashboard, insights, UNIT_NAME);
+  // 9. 보고서 조립
+  console.log(`⚙️ Stage 4: 보고서 렌더링 중...`);
+  const executiveSummary = generateExecutiveSummary(dashboard, insights, UNIT_NAME, metadata);
+  const oneLineForLeader = generateOneLiner(dashboard, insights, UNIT_NAME, metadata);
 
   const vipReport: VIPReport = {
     metadata,
@@ -211,29 +254,33 @@ async function main() {
     oneLineForLeader,
     insights,
     diamond,
+    r4Candidates,
     markdownFull: '',
     markdownSections: [],
   };
 
-  // 마크다운 렌더링
   vipReport.markdownFull = renderVIPReport(vipReport);
 
-  // 8. 저장
+  // 10. 12항 체크리스트 (DIR-01 부록)
+  const checkResults = runChecklist(vipReport);
+  const allPassed = printChecklistResults(checkResults);
+
+  // 11. 저장
   const outDir = path.resolve(__dirname, '../../docs/aeo-reports');
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
   const dateStr = metadata.measuredOn.replace(/-/g, '');
-  const mdFile = path.join(outDir, `vip-${UNIT_ID}-${dateStr}.md`);
-  const jsonFile = path.join(outDir, `vip-${UNIT_ID}-${dateStr}.json`);
+  const suffix = allPassed ? '' : '_DRAFT';
+  const mdFile = path.join(outDir, `vip-${UNIT_ID}-${dateStr}${suffix}.md`);
+  const jsonFile = path.join(outDir, `vip-${UNIT_ID}-${dateStr}${suffix}.json`);
 
   fs.writeFileSync(mdFile, vipReport.markdownFull, 'utf-8');
   fs.writeFileSync(jsonFile, JSON.stringify(vipReport, null, 2), 'utf-8');
 
-  console.log(`\n✅ VIP 보고서 생성 완료!`);
+  console.log(`\n${allPassed ? '✅' : '⚠️'} VIP 보고서 생성 ${allPassed ? '완료' : '(DRAFT)'}!`);
   console.log(`  📄 마크다운: ${mdFile}`);
   console.log(`  📊 JSON: ${jsonFile}`);
-  console.log(`\n핵심 요약:`);
-  console.log(`  ${oneLineForLeader}`);
+  console.log(`\n한 문장: ${oneLineForLeader}`);
 }
 
 main().catch(err => {

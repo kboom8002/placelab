@@ -209,19 +209,15 @@ export function analyzeDiamond(
       area: '핵심 브랜드',
       currentState: '높은 인지도 유지 중',
       evidence: '안정적 키워드 도출',
-      action: '현 상태 유지 (모니터링)',
+      action: '현 상태 유지 — 관련 페이지 개편 시 기존 텍스트 보존',
       cost: '0원',
       timeline: '즉시',
       expectedEffect: '현상 유지'
     });
   }
 
-  // 추가 로드맵 항목 정리
-  oneMonth.push({
-    action: '범용 카테고리 페이지 개편',
-    detail: 'AI가 자주 언급하는 범용 답변 영역 구체화',
-    cost: '웹 운영 리소스'
-  });
+  // DIR-01 §P-5: 1개월·3개월은 이 측정만으로 순서를 정할 근거가 부족
+  // oneMonth, threeMonths는 빈 배열로 유지
 
   return {
     signals: {
@@ -234,8 +230,8 @@ export function analyzeDiamond(
     opportunityAreas,
     roadmap: {
       immediate,
-      oneMonth,
-      threeMonths
+      oneMonth: [],    // DIR-01: "이 순서를 정하려면 측정이 더 필요합니다"
+      threeMonths: []  // DIR-01: 근거 부족으로 제거
     }
   };
 }

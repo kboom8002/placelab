@@ -200,7 +200,7 @@ export function extractInsights(
   });
 
   Object.entries(t1QGroups).forEach(([qId, reps]) => {
-    const qText = reps[0]?.query || '';
+    const qText = reps[0]?.question || reps[0]?.query || '';
     const category = reps[0]?.category || 'unknown';
     const repData = reps.map((r, i) => ({ rep: r.rep || i + 1, verdict: r.verdict }));
     
