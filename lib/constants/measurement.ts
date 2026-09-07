@@ -79,4 +79,37 @@ export const V21_TOTAL_QUESTIONS = 50;
 export const V21_QUICK_TOTAL_CALLS = V21_TOTAL_QUESTIONS * V21_QUICK_REPS; // 150
 export const V21_FULL_TOTAL_CALLS = V21_TOTAL_QUESTIONS * V21_FULL_REPS;   // 250
 
+// ─── Policy Theme Lab (PRD v3.0) 상수 ───
+export const THEME_LAB_TOPIC_LABELS: Record<string, string> = {
+  housing: '주거·주택',
+  care: '돌봄·보육·복지',
+  mobility: '이동·교통·도로',
+  work: '일자리·창업·상공인',
+  environment: '환경·위생·청소',
+  culture: '문화·관광·체육',
+  civic_admin: '생활행정·민원·세무',
+  other: '기타 생활의제',
+};
+
+export const THEME_LAB_STAGE_LABELS: Record<string, string> = {
+  discovery: '1. 발견 (정보 탐색)',
+  understanding: '2. 이해 (자격·조건)',
+  comparison: '3. 비교 (선택·판단)',
+  application: '4. 신청 (절차·구비서류)',
+  use: '5. 이용 (실제 수령·방문)',
+  post_confirmation: '6. 사후 확인 (변경·갱신)',
+  unknown: '미분류 단계',
+};
+
+export const THEME_LAB_DIFFICULTY_LABELS: Record<string, string> = {
+  info_absence: '공식 정보 부재',
+  contradiction: '자료 간 수치 상충',
+  understanding_difficulty: '행정용어 이해 난해',
+  access: '접근성 한계 (이미지/PDF)',
+  procedure: '복잡한 창구 절차',
+  supply: '공급·예산 한계',
+  unknown: '원인 미확인',
+};
+
+
 

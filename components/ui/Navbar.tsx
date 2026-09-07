@@ -13,6 +13,7 @@ import {
   Menu,
   X,
   ChevronDown,
+  Compass,
 } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
@@ -31,6 +32,7 @@ export const Navbar: React.FC = () => {
     { href: '/units', label: '단위 목록' },
     { href: '/selfcheck', label: '셀프체크' },
     { href: '/measure', label: 'AI 측정' },
+    { href: '/theme-lab', label: '정책테마랩', icon: Compass },
     { href: '/equity', label: '형평성 측정', icon: Scale },
   ];
 

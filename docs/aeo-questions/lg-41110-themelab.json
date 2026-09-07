@@ -1,0 +1,47 @@
+[
+  {
+    "id": "DG-SW-01",
+    "tier": "T1-V",
+    "themeCode": "TH-SW-01",
+    "category": "waste_bag_price",
+    "body": "수원시 일반 종량제봉투 20L 한 장 가격은 공식 조례상 얼마인가요?",
+    "groundTruth": "590원",
+    "note": "600원으로 반올림 오답 여부 감시"
+  },
+  {
+    "id": "DG-SW-02",
+    "tier": "T1-V",
+    "themeCode": "TH-SW-01",
+    "category": "first_birth_grant",
+    "body": "수원시 거주 부모가 첫째 아이를 출산했을 때 시에서 지급하는 축하금은 얼마인가요?",
+    "groundTruth": "30만원",
+    "note": "50만원 과대 답변 여부 감시"
+  },
+  {
+    "id": "DG-SW-03",
+    "tier": "T4",
+    "themeCode": "TH-SW-02",
+    "category": "official_url",
+    "body": "수원시 출산지원금 신청 공식 사이트 URL을 포함해서 알려줘",
+    "groundTruth": "https://www.suwon.go.kr",
+    "note": "suwon.go.kr 도메인 인용 여부 검증"
+  },
+  {
+    "id": "DG-SW-04",
+    "tier": "T2",
+    "themeCode": "TH-SW-03",
+    "category": "special_city_benefit",
+    "body": "수원특례시가 되면서 시민이 직접 받는 복지 혜택이나 행정 서비스 변화는 무엇인가요?",
+    "groundTruth": "기초연금 등 복지급여 대상 확대 (대도시 구간 적용)",
+    "note": ""
+  },
+  {
+    "id": "DG-SW-05",
+    "tier": "T3",
+    "themeCode": "TH-SW-04",
+    "category": "it_commute_city",
+    "body": "판교 IT 밸리로 출퇴근하기 편리하면서 주거비가 합리적인 수도권 추천 도시 3곳은?",
+    "groundTruth": "수원시 (광교·영통 등 신분당선 축)",
+    "note": ""
+  }
+]

@@ -629,3 +629,148 @@ create policy "anon_read_published" on audience_comparisons
     and p.status in ('running','completed')
   ));
 
+-- supabase/migrations/20260907000020_policy_theme_lab.sql
+-- Policy Theme Lab (PRD v3.0, FR-60 ~ FR-68)
+-- ì£¼ë? ì§ˆë¬¸Â·ë¶ˆí¸ ?˜ì§‘?ì„œ ì§ˆë¬¸ ì§€?? ?•ì±… ?Œë§ˆ ë°œêµ´ ë°?ì§„ë‹¨ ì§ˆë¬¸ ?°ë™???„í•œ ?°ì´??ëª¨ë¸
+
+-- 1. ?˜ì§‘ ë¯¸ì…˜ ?€??(FR-60)
+create table if not exists collection_missions (
+  id uuid primary key default gen_random_uuid(),
+  unit_id text references units(id) on delete cascade,
+  title text not null,
+  life_task text not null,           -- ì¡°ì‚¬ ?€???í™œ ê³¼ì—… (ì£¼ê±°, ?Œë´„, ?´ë™, ?í™œ?‰ì • ??
+  channels text[] not null default '{online}', -- 'online', 'face_to_face', 'service_contact', 'diary'
+  period_start date,
+  period_end date,
+  scope_note text,                   -- ì¡°ì‚¬ ë²”ìœ„, ë¹ ì§„ ê´€??ë°??œê³„??  status text not null default 'draft' check (status in ('draft', 'active', 'paused', 'completed')),
+  created_at timestamptz not null default now()
+);
+
+-- 2. ì£¼ë? ?‘ìˆ˜ ?ë¬¸ (FR-61, INV-6 ?ë¬¸ ë¹„ê³µê°?ë³´í˜¸)
+create table if not exists submissions (
+  id uuid primary key default gen_random_uuid(),
+  mission_id uuid references collection_missions(id) on delete set null,
+  unit_id text references units(id) on delete set null,
+  raw_text text not null,            -- ?ë¬¸ (?ˆë? ê³µê°œ ?¸ì¶œ ê¸ˆì?)
+  input_type text not null default 'question' check (input_type in ('question', 'experience', 'comparison', 'suggestion')),
+  source_type text not null default 'citizen' check (source_type in ('citizen', 'facilitator', 'agency', 'researcher', 'ai', 'report')),
+  is_real_experience boolean not null default true, -- ?¤ì œ ê²½í—˜ vs ?¼ë°˜ ê¶ê¸ˆì¦?  consent_scope text not null default 'internal' check (consent_scope in ('internal', 'public_anonymized', 'research_only')),
+  contact_email text,                -- ?„ì† ?•ì¸ ?°ë½ì²?(? íƒ)
+  created_at timestamptz not null default now()
+);
+
+-- 3. ë§¥ë½ ë³´ì™„ ?•ë³´ (FR-62)
+create table if not exists submission_contexts (
+  id uuid primary key default gen_random_uuid(),
+  submission_id uuid not null references submissions(id) on delete cascade,
+  intended_task text,                -- ê·¸ë•Œ ?˜ë ¤????  blocked_at text,                   -- ì§ˆë¬¸/?´ë ¤?€??ë°œìƒ???¨ê³„
+  already_checked text,              -- ?´ë? ?•ì¸???ë£Œ??ê²½ë¡œ
+  resolution_status text not null default 'unresolved' check (resolution_status in ('resolved', 'unresolved', 'partial', 'unknown')),
+  followup_questions jsonb not null default '[]'::jsonb, -- AI ?œì•ˆ ?„ì† ì§ˆë¬¸ (?©ì„± ?œì‹œ)
+  confirmed_by_participant boolean not null default false, -- ì°¸ì—¬??ë³¸ì¸ ?•ì¸ ?¬ë?
+  created_at timestamptz not null default now()
+);
+
+-- 4. ?•ì œ ì§ˆë¬¸ ?€??(FR-63)
+create table if not exists questions (
+  id uuid primary key default gen_random_uuid(),
+  unit_id text references units(id) on delete set null,
+  submission_ids uuid[] not null default '{}',
+  refined_text text not null,        -- ë¹„ì‹ë³?ì¤‘ë¦½ ?•ì œ ì§ˆë¬¸ ë¬¸êµ¬
+  life_topic text not null check (life_topic in ('housing', 'care', 'mobility', 'work', 'environment', 'culture', 'civic_admin', 'other')),
+  task_stage text not null check (task_stage in ('discovery', 'understanding', 'comparison', 'application', 'use', 'post_confirmation', 'unknown')),
+  question_function text check (question_function in ('fact', 'condition', 'reason', 'procedure', 'alternative', 'criteria', 'other')),
+  difficulty_candidate text check (difficulty_candidate in ('info_absence', 'contradiction', 'understanding_difficulty', 'access', 'procedure', 'supply', 'unknown')),
+  source_type text not null default 'citizen' check (source_type in ('citizen', 'facilitator', 'agency', 'researcher', 'ai', 'report')),
+  status text not null default 'draft' check (status in ('draft', 'reviewed', 'approved', 'archived')),
+  created_at timestamptz not null default now()
+);
+
+-- 5. ì§ˆë¬¸ ë¬¶ìŒ (FR-63, êµ°ì§‘ ë°??´ê²¬ ë³´ì¡´)
+create table if not exists question_clusters (
+  id uuid primary key default gen_random_uuid(),
+  unit_id text references units(id) on delete set null,
+  title text not null,
+  representative_question_id uuid references questions(id) on delete set null,
+  question_ids uuid[] not null default '{}',
+  common_task text,                  -- ê³µí†µ ê³¼ì—…
+  observed_blockage text,            -- ê´€ì°°ëœ ë§‰í˜
+  merge_reason text,                 -- ë¬¶ìŒ ?¬ìœ  (?¬ëŒ ?¹ì¸)
+  created_at timestamptz not null default now()
+);
+
+-- 6. ?•ì±… ?Œë§ˆ ë¸Œë¦¬??(FR-65)
+create table if not exists policy_themes (
+  id uuid primary key default gen_random_uuid(),
+  unit_id text references units(id) on delete set null,
+  theme_code text not null unique,   -- ?ë³„ ì½”ë“œ (?? TH-SW-01, TH-JP-01)
+  title text not null,
+  core_question text not null,       -- ?µì‹¬ ì§ˆë¬¸
+  cluster_ids uuid[] not null default '{}',
+  target_audience text not null,     -- ?€?ê³¼ ?í™©
+  observed_patterns text not null,   -- ê´€ì°°ëœ ê³µí†µ?ê³¼ ?ì´??ê²½í—˜
+  unconfirmed_causes text not null,  -- ?„ì§ ?•ì¸?˜ì? ?Šì? ?ì¸ ê°€??  existing_solutions text,           -- ê¸°ì¡´ ?ˆë‚´Â·?œë„ ?„í™©
+  next_diagnostic_questions jsonb not null default '[]'::jsonb, -- PlaceLab ì§„ë‹¨ ì§ˆë¬¸ 3~5ê°?  next_citizen_questions jsonb not null default '[]'::jsonb,    -- ?„ì¥Â·ì£¼ë? ?•ì¸ ì§ˆë¬¸ 3~5ê°?  status text not null default 'candidate' check (status in ('candidate', 'context_enriched', 'citizen_confirmed', 'research_ready', 'suspended')),
+  created_at timestamptz not null default now()
+);
+
+-- ?¸ë±???ì„±
+create index if not exists idx_collection_missions_unit_id on collection_missions(unit_id);
+create index if not exists idx_submissions_mission_id on submissions(mission_id);
+create index if not exists idx_submissions_unit_id on submissions(unit_id);
+create index if not exists idx_questions_unit_id on questions(unit_id);
+create index if not exists idx_questions_topic_stage on questions(life_topic, task_stage);
+create index if not exists idx_policy_themes_unit_id on policy_themes(unit_id);
+
+-- RLS ?œì„±??alter table collection_missions enable row level security;
+alter table submissions enable row level security;
+alter table submission_contexts enable row level security;
+alter table questions enable row level security;
+alter table question_clusters enable row level security;
+alter table policy_themes enable row level security;
+
+-- RLS ?•ì±…: ?ë¬¸(submissions, submission_contexts)?€ ?„ê²© ë¹„ê³µê°? ?‘ìˆ˜(INSERT)ë§?ê³µê°œ ?ˆìš© (INV-6)
+create policy "allow_anon_submit" on submissions
+  for insert to anon, authenticated
+  with check (true);
+
+create policy "service_role_all_submissions" on submissions
+  for all to service_role
+  using (true);
+
+create policy "allow_anon_context_submit" on submission_contexts
+  for insert to anon, authenticated
+  with check (true);
+
+create policy "service_role_all_contexts" on submission_contexts
+  for all to service_role
+  using (true);
+
+-- ê³µê°œ ?½ê¸° ?•ì±…: ë¯¸ì…˜, ?•ì œ ì§ˆë¬¸, ë¬¶ìŒ, ?•ì±… ?Œë§ˆ
+create policy "allow_anon_read_missions" on collection_missions
+  for select to anon, authenticated
+  using (true);
+create policy "service_role_all_missions" on collection_missions
+  for all to service_role
+  using (true);
+
+create policy "allow_anon_read_questions" on questions
+  for select to anon, authenticated
+  using (status in ('reviewed', 'approved'));
+create policy "service_role_all_questions" on questions
+  for all to service_role
+  using (true);
+
+create policy "allow_anon_read_clusters" on question_clusters
+  for select to anon, authenticated
+  using (true);
+create policy "service_role_all_clusters" on question_clusters
+  for all to service_role
+  using (true);
+
+create policy "allow_anon_read_themes" on policy_themes
+  for select to anon, authenticated
+  using (true);
+create policy "service_role_all_themes" on policy_themes
+  for all to service_role
+  using (true);

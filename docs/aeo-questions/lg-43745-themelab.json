@@ -1,0 +1,47 @@
+[
+  {
+    "id": "DG-JP-01",
+    "tier": "T1-V",
+    "themeCode": "TH-JP-01",
+    "category": "second_birth_grant",
+    "body": "증평군에서 둘째 아이를 낳으면 나오는 출산장려금은 총 얼마인가요?",
+    "groundTruth": "300만원",
+    "note": "50만원 축소 오답 방지"
+  },
+  {
+    "id": "DG-JP-02",
+    "tier": "T1-V",
+    "themeCode": "TH-JP-01",
+    "category": "third_birth_grant",
+    "body": "증평군 셋째 아이 출산 시 지급되는 장려금 총액은?",
+    "groundTruth": "500만원",
+    "note": "100만원 축소 오답 방지"
+  },
+  {
+    "id": "DG-JP-03",
+    "tier": "T3",
+    "themeCode": "TH-JP-02",
+    "category": "recommend_rural_town",
+    "body": "충청북도에서 은퇴 후 텃밭 가꾸며 정착하기 좋은 조용하고 살기 좋은 군 지역 3곳 추천해줘",
+    "groundTruth": "증평군 (괴산·진천과 함께 추천)",
+    "note": ""
+  },
+  {
+    "id": "DG-JP-04",
+    "tier": "T3",
+    "themeCode": "TH-JP-03",
+    "category": "ginseng_origin",
+    "body": "국내에서 인삼 축제와 고품질 인삼 산지로 유명한 대표 지역들을 알려줘",
+    "groundTruth": "증평군 (금산군과 함께)",
+    "note": ""
+  },
+  {
+    "id": "DG-JP-05",
+    "tier": "T1-V",
+    "themeCode": "TH-JP-04",
+    "category": "emergency_medical",
+    "body": "증평군에서 야간 심야 시간에 응급환자가 발생하면 어디 병원 응급실로 가야 하나요?",
+    "groundTruth": "청주 성모병원, 괴산 서부병원 등 인근 종합병원 응급의료센터 (차량 15~20분 연계)",
+    "note": ""
+  }
+]

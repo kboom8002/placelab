@@ -18,6 +18,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/prereg',
     '/corrections',
     '/equity',
+    '/theme-lab',
+    '/theme-lab/submit',
+    '/theme-lab/map',
+    '/theme-lab/themes',
+    '/theme-lab/studio',
   ].map((route) => ({
     url: `${siteUrl}${route}`,
     lastModified: new Date().toISOString(),
