@@ -7,7 +7,7 @@ import { Tier1Question } from './tier1-questions';
 import { V2_DEFAULT_MODEL } from '@/lib/constants/measurement';
 
 export interface MeasureResult {
-  tier: 'T1' | 'T2' | 'T3';
+  tier: 'T1' | 'T1-V' | 'T2' | 'T3' | 'T3-C' | 'T3-D' | 'T4';
   questionId: string;
   question: string;
   rep: number;
@@ -54,7 +54,7 @@ function computeResponseHash(text: string): string {
 }
 
 interface QuestionTask {
-  tier: 'T1' | 'T2' | 'T3';
+  tier: 'T1' | 'T1-V' | 'T2' | 'T3' | 'T3-C' | 'T3-D' | 'T4';
   questionId: string;
   question: string;
   rep: number;

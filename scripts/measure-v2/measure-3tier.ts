@@ -93,7 +93,7 @@ function loadExtendedProbes(suffix: string): any[] {
 
 // ─── 단일 호출 ───
 interface Result {
-  tier: 'T1' | 'T2' | 'T3';
+  tier: 'T1' | 'T1-V' | 'T2' | 'T3' | 'T3-C' | 'T3-D' | 'T4';
   questionId: string;
   category: string;
   question: string;
@@ -106,7 +106,7 @@ interface Result {
   timestamp: string;
 }
 
-async function callAI(tier: 'T1' | 'T2' | 'T3', qId: string, category: string, body: string, rep: number): Promise<Result> {
+async function callAI(tier: 'T1' | 'T1-V' | 'T2' | 'T3' | 'T3-C' | 'T3-D' | 'T4', qId: string, category: string, body: string, rep: number): Promise<Result> {
   const start = Date.now();
   try {
     const completion = await client.chat.completions.create({
