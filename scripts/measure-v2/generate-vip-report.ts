@@ -16,6 +16,12 @@ import {
 } from '../../lib/aeo/vip-renderer';
 import { calculateFloorRisk } from '../../lib/aeo/scorer';
 import { runChecklist, printChecklistResults } from '../../lib/aeo/report-checklist';
+import {
+  scoreVerification,
+  scoreCompetitive,
+  scoreReputation,
+  scoreSourceTracking,
+} from '../../lib/aeo/verification-scorer';
 import type { MeasureResult } from '../../lib/aeo/measure-engine';
 import type {
   VIPReport,
@@ -221,6 +227,75 @@ async function main() {
   const r4Candidates = detectR4Candidates(insights.stabilityAnalysis);
   console.log(`  R4 후보: ${r4Candidates.length}건`);
 
+  // 6.5 확대 프로브 채점 (T1-V, T3-C, T3-D, T4)
+  console.log(`\n⚙️ Stage 2.5: 확대 프로브 채점 중...`);
+  const t1vResults = results.filter(r => r.tier === 'T1-V');
+  const t3cResults = results.filter(r => r.tier === 'T3-C');
+  const t3dResults = results.filter(r => r.tier === 'T3-D');
+  const t4Results = results.filter(r => r.tier === 'T4');
+
+  // T1-V: 사실 검증 채점
+  let verificationScores: any[] = [];
+  const t1vProbeFile = path.resolve(__dirname, `../../docs/aeo-questions/${UNIT_ID}-t1v.json`);
+  if (t1vResults.length > 0 && fs.existsSync(t1vProbeFile)) {
+    const t1vProbes = JSON.parse(fs.readFileSync(t1vProbeFile, 'utf-8'));
+    for (const probe of (Array.isArray(t1vProbes) ? t1vProbes : t1vProbes.questions || [])) {
+      // 다수결: 3회 중 가장 많은 verdict
+      const reps = t1vResults.filter(r => r.questionId === probe.id);
+      if (reps.length === 0) continue;
+      const scores = reps.map(r => scoreVerification(r.response, probe));
+      // 대표 결과: 첫번째 rep 기준 (후속 안정성 분석에서 개선 가능)
+      verificationScores.push(scores[0]);
+    }
+    const correct = verificationScores.filter(s => s.verdict === 'correct').length;
+    const wrong = verificationScores.filter(s => s.verdict === 'wrong_value' || s.verdict === 'wrong_procedure').length;
+    const outdated = verificationScores.filter(s => s.verdict === 'outdated').length;
+    console.log(`  T1-V: 정확 ${correct} · 오류 ${wrong} · 구버전 ${outdated} / ${verificationScores.length}건`);
+  }
+
+  // T3-C: 경쟁 매핑 채점
+  let competitiveResults: any[] = [];
+  const t3cProbeFile = path.resolve(__dirname, `../../docs/aeo-questions/${UNIT_ID}-t3c.json`);
+  if (t3cResults.length > 0 && fs.existsSync(t3cProbeFile)) {
+    const t3cProbes = JSON.parse(fs.readFileSync(t3cProbeFile, 'utf-8'));
+    for (const probe of (Array.isArray(t3cProbes) ? t3cProbes : t3cProbes.questions || [])) {
+      const reps = t3cResults.filter(r => r.questionId === probe.id);
+      if (reps.length === 0) continue;
+      // 대표 결과: 1회차 기준
+      competitiveResults.push(scoreCompetitive(reps[0].response, probe, UNIT_NAME));
+    }
+    const wins = competitiveResults.filter(r => r.targetMentioned).length;
+    console.log(`  T3-C: ${UNIT_NAME} 언급 ${wins}/${competitiveResults.length}건`);
+  }
+
+  // T3-D: 평판 채점
+  let reputationResults: any[] = [];
+  const t3dProbeFile = path.resolve(__dirname, `../../docs/aeo-questions/${UNIT_ID}-t3d.json`);
+  if (t3dResults.length > 0 && fs.existsSync(t3dProbeFile)) {
+    const t3dProbes = JSON.parse(fs.readFileSync(t3dProbeFile, 'utf-8'));
+    for (const probe of (Array.isArray(t3dProbes) ? t3dProbes : t3dProbes.questions || [])) {
+      const reps = t3dResults.filter(r => r.questionId === probe.id);
+      if (reps.length === 0) continue;
+      reputationResults.push(scoreReputation(reps[0].response, probe));
+    }
+    const highRisk = reputationResults.filter(r => r.severity === 'high').length;
+    console.log(`  T3-D: 고위험 ${highRisk}/${reputationResults.length}건`);
+  }
+
+  // T4: 출처 추적 채점
+  let sourceTrackingResults: any[] = [];
+  const t4ProbeFile = path.resolve(__dirname, `../../docs/aeo-questions/${UNIT_ID}-t4.json`);
+  if (t4Results.length > 0 && fs.existsSync(t4ProbeFile)) {
+    const t4Probes = JSON.parse(fs.readFileSync(t4ProbeFile, 'utf-8'));
+    for (const probe of (Array.isArray(t4Probes) ? t4Probes : t4Probes.questions || [])) {
+      const reps = t4Results.filter(r => r.questionId === probe.id);
+      if (reps.length === 0) continue;
+      sourceTrackingResults.push(scoreSourceTracking(reps[0].response, probe));
+    }
+    const official = sourceTrackingResults.filter(r => r.sourceQuality === 'official').length;
+    console.log(`  T4: 공식 출처 ${official}/${sourceTrackingResults.length}건`);
+  }
+
   // 7. 다이아몬드 분석
   console.log(`\n⚙️ Stage 3: 다이아몬드 분석 중...`);
   const diamond = analyzeDiamond(insights, dashboard, UNIT_NAME);
@@ -230,9 +305,9 @@ async function main() {
     unitId: UNIT_ID,
     unitName: UNIT_NAME,
     population: 'local_gov',
-    measuredOn: rawData.measuredOn || new Date().toISOString().split('T')[0],
-    model: rawData.model || 'gpt-5.6-luna',
-    methodVersion: rawData.methodVersion || 'v2.1',
+    measuredOn: rawData.measurement?.completed_at?.split('T')[0] || new Date().toISOString().split('T')[0],
+    model: rawData.measurement?.model || 'gpt-5.6-luna',
+    methodVersion: rawData.measurement?.method_version || 'v2.2',
     totalQueries: new Set(results.map(r => r.questionId)).size,
     successCount: results.filter(r => r.response && !r.response.startsWith('[ERROR]')).length,
     absentCount: results.filter(r => !r.response || r.response === '(응답 없음)').length,
@@ -255,6 +330,11 @@ async function main() {
     insights,
     diamond,
     r4Candidates,
+    // 확대 프로브 결과 (v2.2)
+    verificationScores: verificationScores.length > 0 ? verificationScores : undefined,
+    competitiveResults: competitiveResults.length > 0 ? competitiveResults : undefined,
+    reputationResults: reputationResults.length > 0 ? reputationResults : undefined,
+    sourceTrackingResults: sourceTrackingResults.length > 0 ? sourceTrackingResults : undefined,
     markdownFull: '',
     markdownSections: [],
   };

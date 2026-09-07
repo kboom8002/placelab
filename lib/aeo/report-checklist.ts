@@ -39,10 +39,12 @@ export function runChecklist(report: VIPReport): CheckResult[] {
   // 백분율 단독 패턴: "N%" 앞에 "/" 없으면 위반 (건 단위 표현 없이 % 단독)
   const pctPattern = /(?<!\d\/\d+건\s*\()(\d+\.?\d*)%/g;
   const pctMatches = [...md.matchAll(pctPattern)];
-  // 표지의 산출식 안 백분율, 푸터 등은 허용
+  // 표지의 산출식 안 백분율, 푸터, 표 내부(GT값), "중위소득" 등은 허용
   const isolatedPcts = pctMatches.filter(m => {
-    const context = md.substring(Math.max(0, m.index! - 30), m.index! + 10);
-    return !context.includes('/') && !context.includes('건') && !context.includes('산출식');
+    const context = md.substring(Math.max(0, m.index! - 50), m.index! + 20);
+    return !context.includes('/') && !context.includes('건') && !context.includes('산출식')
+      && !context.includes('중위소득') && !context.includes('| ❌') && !context.includes('| ✅')
+      && !context.includes('| 🟡') && !context.includes('공식 정보');
   });
   results.push({
     id: 2,

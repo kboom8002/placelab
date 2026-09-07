@@ -5,30 +5,30 @@
     "population": "local_gov",
     "measuredOn": "2026-09-07",
     "model": "gpt-5.6-luna",
-    "methodVersion": "v2.1",
-    "totalQueries": 50,
-    "successCount": 150,
-    "absentCount": 12,
+    "methodVersion": "v2.2",
+    "totalQueries": 85,
+    "successCount": 255,
+    "absentCount": 20,
     "errorCount": 0,
     "reps": 3,
     "isExploratory": true,
     "publisher": "(주)디지털미디어네트워크"
   },
   "dashboard": {
-    "t1ResponseRate": 0.7777777777777778,
-    "t1ResponseCount": 35,
+    "t1ResponseRate": 0.9333333333333333,
+    "t1ResponseCount": 42,
     "t1TotalCount": 45,
-    "t1StableCount": 8,
-    "t1UnstableCount": 6,
-    "t1AbsentCount": 1,
+    "t1StableCount": 12,
+    "t1UnstableCount": 3,
+    "t1AbsentCount": 0,
     "t1TotalQuestions": 15,
-    "t2RelevanceRate": 0.65,
-    "t2RelevanceCount": 39,
+    "t2RelevanceRate": 0.5166666666666667,
+    "t2RelevanceCount": 31,
     "t2TotalCount": 60,
     "t2GenericRate": 0.03333333333333333,
     "t2TotalQuestions": 20,
-    "t3ShareOfVoice": 0.9333333333333333,
-    "t3MentionCount": 42,
+    "t3ShareOfVoice": 0.8888888888888888,
+    "t3MentionCount": 40,
     "t3TotalCount": 45,
     "t3ByType": [
       {
@@ -45,8 +45,8 @@
       },
       {
         "type": "keyword_entry",
-        "rate": 0.7777777777777778,
-        "mentioned": 7,
+        "rate": 0.5555555555555556,
+        "mentioned": 5,
         "total": 9
       },
       {
@@ -71,23 +71,14 @@
     "floorRisk": "moderate",
     "confabulationCount": 0
   },
-  "executiveSummary": "3회 반복 측정에서, 주민이 실제로 묻는 **수원시 종량제봉투 종류별 가** 등 1개 문항에 이 모델은 **한 번도 답하지 못했습니다.** 6개 문항은 3회 중 일부만 답했습니다. 기본 행정 15문항의 응답률은 35/45건 (77.8%)입니다.\n\n이 모델에게 \"수원시 하면?\"을 물으면 **수원화성**을(를) 답합니다. 그러나 \"추천해줘\"에서 수원시이(가) 빠지는 질문이 1건입니다.",
-  "oneLineForLeader": "이 모델에게 수원시 종량제봉투 종류별 가을(를) 3번 물어도 0번 답합니다. 홈페이지에 이 정보를 텍스트로 게시하는 것이 가장 시급합니다.",
+  "executiveSummary": "3개 문항은 3회 중 일부만 답했습니다. 기본 행정 15문항의 응답률은 42/45건 (93.3%)입니다.\n\n그러나 \"추천해줘\"에서 수원시이(가) 빠지는 질문이 1건입니다.",
+  "oneLineForLeader": "이 모델은 수원시의 기본 행정 정보에 42/45건 (93.3%) 응답했습니다. 홈페이지 구조화로 개선 여지가 있습니다.",
   "insights": {
     "associationTest": {
       "responses": [
         {
           "rep": 1,
-          "rawText": "1. 수원화성   2. 수원 왕갈비   3. 삼성전자 본사",
-          "words": [
-            "수원화성",
-            "수원 왕갈비",
-            "삼성전자 본사"
-          ]
-        },
-        {
-          "rep": 2,
-          "rawText": "1. **수원화성** – 정조 시대에 축조된 세계문화유산   2. **수원 왕갈비** – 수원을 대표하는 음식   3. **프로야구 kt wiz** – 수원을 연고로 하는 KBO 구단",
+          "rawText": "수원 하면 보통 다음 세 가지가 떠올라요.  1. **수원화성** — 유네스코 세계문화유산으로 지정된 역사 명소   2. **수원 왕갈비** — 수원을 대표하는 향토 음식   3. **프로야구 kt wiz** — 수원을 연고로 하는 인기 스포츠팀",
           "words": [
             "수원화성",
             "수원 왕갈비",
@@ -95,24 +86,26 @@
           ]
         },
         {
+          "rep": 2,
+          "rawText": "수원 하면 **수원화성**, **수원 왕갈비**, **수원 삼성 블루윙즈**가 떠오릅니다.",
+          "words": []
+        },
+        {
           "rep": 3,
-          "rawText": "1. 유네스코 세계문화유산 **수원화성**   2. 맛있는 **수원왕갈비**   3. 열정적인 축구팀 **수원 삼성 블루윙즈**",
+          "rawText": "수원 하면 보통 다음 세 가지가 떠오릅니다.  1. **수원화성**: 유네스코 세계문화유산으로 지정된 조선시대 성곽입니다.   2. **수원 왕갈비**: 수원을 대표하는 향토 음식입니다.   3. **삼성전자와 첨단산업**: 삼성전자 본사와 연구·산업단지가 있는 도시로 유명합니다.",
           "words": [
             "수원화성",
-            "수원왕갈비",
-            "수원 삼성 블루윙즈"
+            "수원 왕갈비",
+            "삼성전자와 첨단산업"
           ]
         }
       ],
-      "stableWords": [
-        "수원화성"
-      ],
+      "stableWords": [],
       "unstableWords": [
+        "수원화성",
         "수원 왕갈비",
-        "삼성전자 본사",
         "프로야구 kt wiz",
-        "수원왕갈비",
-        "수원 삼성 블루윙즈"
+        "삼성전자와 첨단산업"
       ]
     },
     "recommendationGaps": [
@@ -120,7 +113,7 @@
         "questionId": "V-D3",
         "questionText": "IT 종사자가 출퇴근 편한 수도권 도시 추천해줘",
         "questionType": "scenario",
-        "aiRecommended": "IT 근무지가 **판교·분당**이면 성남시(판교·정자·야탑)가 가장 편하고, **강남·구로·가산**이면 과천·안양·광명·부천을 추천합니다.   **마곡·상암** 출근자는 서울 강서",
+        "aiRecommended": "IT 직장이 **판교·강남권**이면 성남시(판교·분당·위례)가 가장 편하고, **가산·구로·여의도권**이면 광명·안양·부천을 추천합니다. **서울 도심·마곡권**은 고양시(덕양·일",
         "targetMissing": true,
         "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
       }
@@ -129,13 +122,13 @@
       {
         "category": "specialty_industry",
         "totalQuestions": 9,
-        "relevantCount": 9,
+        "relevantCount": 8,
         "genericCount": 0,
         "absentCount": 0,
         "strongQuestions": [
           {
             "id": "S-C1-01",
-            "matchRate": 1
+            "matchRate": 0.6666666666666666
           },
           {
             "id": "S-C1-02",
@@ -147,7 +140,7 @@
           }
         ],
         "weakQuestions": [],
-        "sampleResponse": "네. 수원시 영통구 매탄동에 삼성전자 **수원 디지털시티**가 있으며, 삼성전자 본사 기능과 연구개발(R&D), 제품·기술 개발 조직 등이 운영됩니다. 스마트폰·가전·TV·소프트웨어·네트워크 등 여러 분야의 기획·연구와 업무가 이루어지는 곳이며, 대규모 반도체 생산공장"
+        "sampleResponse": "네. 삼성전자는 수원시 영통구 삼성로 129에 **수원사업장(삼성 디지털시티)**을 운영하고 있습니다. 이곳은 삼성전자 본사 기능과 연구개발·제품개발 조직이 모여 있는 핵심 사업장으로, 스마트폰·TV·생활가전 등 완제품 관련 기술 및 사업 업무가 주로 이루어지며 대규모"
       },
       {
         "category": "landmark",
@@ -171,20 +164,15 @@
             "verdict": "accurate_generic"
           }
         ],
-        "sampleResponse": "수원화성 **성곽은 연중 상시 개방**되며, 야간에도 관람할 수 있고 입장료는 **무료**입니다.   다만 **화성행궁 야간개장**은 별도 행사로 운영되며, 보통 5~10월 금·토·일 **18:00~21:30**(입장 마감 21:00)이고 요금은 성인 1,500원·청소"
+        "sampleResponse": "수원화성 성곽은 별도 야간 관람시간 제한 없이 개방되며, 관람료는 무료입니다.   다만 **화성행궁 야간개장**은 보통 5~10월에 운영되며, 운영 시각은 **18:00~21:30(입장 마감 21:00)**이고 입장료는 성인 1,500원, 청소년 1,000원, 어린이 "
       },
       {
         "category": "local_policy",
         "totalQuestions": 9,
-        "relevantCount": 3,
+        "relevantCount": 1,
         "genericCount": 0,
         "absentCount": 0,
-        "strongQuestions": [
-          {
-            "id": "S-C3-03",
-            "matchRate": 0.6666666666666666
-          }
-        ],
+        "strongQuestions": [],
         "weakQuestions": [
           {
             "id": "S-C3-01",
@@ -192,29 +180,34 @@
           },
           {
             "id": "S-C3-02",
-            "verdict": "accurate_relevant"
+            "verdict": "partial"
+          },
+          {
+            "id": "S-C3-03",
+            "verdict": "partial"
           }
         ],
-        "sampleResponse": "네, 수원시는 **1인 가구를 대상으로 상담·교육, 사회관계망 형성, 건강·돌봄, 주거·생활안전 지원** 등 다양한 사업을 운영하고 있습니다. 사업별로 연령·소득·거주지 등 신청 자격과 모집 기간이 다르며, 안심장비 지원이나 소모임·프로그램은 공고 때 신청합니다. 최신"
+        "sampleResponse": "네, 수원시는 **수원시 1인가구 지원센터**를 통해 1인 가구를 대상으로 상담, 생활교육, 재무·주거 교육, 사회관계망 형성 프로그램 등을 운영합니다. 또한 사업 시기에 따라 **병원 안심동행, 식생활·건강관리, 정서 지원, 커뮤니티 활동** 등이 제공될 수 있으며,"
       },
       {
         "category": "heritage",
         "totalQuestions": 6,
-        "relevantCount": 6,
+        "relevantCount": 4,
         "genericCount": 0,
         "absentCount": 0,
         "strongQuestions": [
-          {
-            "id": "S-C4-01",
-            "matchRate": 1
-          },
           {
             "id": "S-C4-02",
             "matchRate": 1
           }
         ],
-        "weakQuestions": [],
-        "sampleResponse": "정조대왕은 아버지 사도세자의 묘를 수원 화산의 현륭원으로 옮긴 뒤, 이를 보호하고 참배하기 위해 수원화성을 축조했습니다. 동시에 수원을 새로운 상업·군사 중심지로 발전시키고, 왕권을 강화하며 개혁 정치를 추진하려는 목적도 있었습니다. 화성은 1794년에 착공해 1796"
+        "weakQuestions": [
+          {
+            "id": "S-C4-01",
+            "verdict": "partial"
+          }
+        ],
+        "sampleResponse": "정조대왕은 아버지 사도세자의 묘를 수원 화산으로 옮긴 뒤, 왕실의 효심을 기리고 화산 인근에 새로운 도시를 조성하기 위해 수원화성을 축조했습니다. 또한 수도 한양을 방어하고, 상업과 농업을 발전시키며, 개혁 정치를 뒷받침할 새로운 거점으로 삼으려는 목적도 있었습니다. "
       },
       {
         "category": "geography",
@@ -238,19 +231,15 @@
             "verdict": "partial"
           }
         ],
-        "sampleResponse": "광교는 수원시 영통구와 용인시 수지구에 걸쳐 조성된 신도시로, 광교호수공원·경기도청·신분당선 등이 있는 계획도시입니다.   영통은 주로 수원시 영통구의 기존 생활권을 뜻하며, 영통동·망포동·매탄동 일대처럼 오래 형성된 주거·상업지역이 중심입니다.   즉, **광교는 신"
+        "sampleResponse": "광교와 영통은 모두 수원 남동부 생활권이지만, **영통은 1990년대 조성된 기존 계획도시**이고 **광교는 2000년대 이후 개발된 신도시**라는 차이가 큽니다.   영통은 삼성전자 주변의 업무·상업시설과 기존 아파트 중심이며, 분당선 영통역·망포역을 이용하기 편합니"
       },
       {
         "category": "local_food",
         "totalQuestions": 9,
-        "relevantCount": 5,
+        "relevantCount": 3,
         "genericCount": 0,
         "absentCount": 0,
         "strongQuestions": [
-          {
-            "id": "S-C6-01",
-            "matchRate": 0.6666666666666666
-          },
           {
             "id": "S-C6-02",
             "matchRate": 1
@@ -258,18 +247,22 @@
         ],
         "weakQuestions": [
           {
+            "id": "S-C6-01",
+            "verdict": "partial"
+          },
+          {
             "id": "S-C6-03",
             "verdict": "partial"
           }
         ],
-        "sampleResponse": "수원 갈비 맛집 거리는 보통 **수원화성 팔달문 인근(수원시 팔달구)**을 말하며, ‘수원갈비거리’로 불립니다.   이 일대에 본수원갈비·가보정 등 유명 갈비집이 모여 있고, 수원화성 관광과 함께 방문하기 좋습니다.   지도: [수원갈비거리 검색](https://map"
+        "sampleResponse": "수원 갈비 맛집 거리는 보통 **수원화성 팔달문(남문) 주변과 남문시장 일대**를 말합니다. 팔달문에서 수원천·지동시장 방향으로 이어지는 지역에 갈비 전문점들이 모여 있으며, 수원왕갈비를 맛보기 좋습니다. 위치 확인: [네이버지도 ‘수원 갈비거리’ 검색](https:/"
       },
       {
         "category": "recent_issue",
         "totalQuestions": 9,
-        "relevantCount": 4,
+        "relevantCount": 3,
         "genericCount": 1,
-        "absentCount": 1,
+        "absentCount": 2,
         "strongQuestions": [
           {
             "id": "S-C7-02",
@@ -283,10 +276,10 @@
           },
           {
             "id": "S-C7-03",
-            "verdict": "accurate_relevant"
+            "verdict": "partial"
           }
         ],
-        "sampleResponse": "수원 스타필드는 이미 건설이 완료되어 **2024년 1월 26일 개장**했습니다. 경기도 수원시 장안구 정자동 옛 KT&G 부지에 조성된 복합쇼핑몰로, 현재 운영 중입니다. 별도의 추가 스타필드 건설 계획은 현재 공식적으로 발표된 내용이 확인되지 않습니다.   출처: "
+        "sampleResponse": "수원 스타필드는 **건설 계획 단계가 아니라 이미 완공되어 2024년 1월 26일 개장**했습니다. 수원시 장안구 정자동에 위치하며, 신세계프라퍼티가 운영하고 있습니다. 추가 확장이나 별도 신규 스타필드 건설 계획은 현재 공식적으로 확인된 내용이 없습니다.   출처: "
       }
     ],
     "stabilityAnalysis": [
@@ -336,8 +329,8 @@
         "questionId": "B-03",
         "category": "03",
         "question": "수원시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
-        "stableCount": 2,
-        "status": "unstable",
+        "stableCount": 3,
+        "status": "stable",
         "reps": [
           {
             "rep": 1,
@@ -345,7 +338,7 @@
           },
           {
             "rep": 2,
-            "verdict": "absent"
+            "verdict": "accurate"
           },
           {
             "rep": 3,
@@ -357,16 +350,16 @@
         "questionId": "B-04",
         "category": "04",
         "question": "수원시 종량제봉투 종류별 가격 알려줘",
-        "stableCount": 0,
-        "status": "absent",
+        "stableCount": 2,
+        "status": "unstable",
         "reps": [
           {
             "rep": 1,
-            "verdict": "absent"
+            "verdict": "accurate"
           },
           {
             "rep": 2,
-            "verdict": "absent"
+            "verdict": "accurate"
           },
           {
             "rep": 3,
@@ -378,8 +371,8 @@
         "questionId": "B-05",
         "category": "05",
         "question": "수원시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
-        "stableCount": 2,
-        "status": "unstable",
+        "stableCount": 3,
+        "status": "stable",
         "reps": [
           {
             "rep": 1,
@@ -387,7 +380,7 @@
           },
           {
             "rep": 2,
-            "verdict": "absent"
+            "verdict": "accurate"
           },
           {
             "rep": 3,
@@ -404,7 +397,7 @@
         "reps": [
           {
             "rep": 1,
-            "verdict": "absent"
+            "verdict": "accurate"
           },
           {
             "rep": 2,
@@ -412,7 +405,7 @@
           },
           {
             "rep": 3,
-            "verdict": "accurate"
+            "verdict": "absent"
           }
         ]
       },
@@ -420,8 +413,8 @@
         "questionId": "B-07",
         "category": "07",
         "question": "수원시 어르신 목욕권이나 이미용 지원 있어?",
-        "stableCount": 2,
-        "status": "unstable",
+        "stableCount": 3,
+        "status": "stable",
         "reps": [
           {
             "rep": 1,
@@ -433,7 +426,7 @@
           },
           {
             "rep": 3,
-            "verdict": "absent"
+            "verdict": "accurate"
           }
         ]
       },
@@ -441,8 +434,8 @@
         "questionId": "B-08",
         "category": "08",
         "question": "수원시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
-        "stableCount": 2,
-        "status": "unstable",
+        "stableCount": 3,
+        "status": "stable",
         "reps": [
           {
             "rep": 1,
@@ -450,7 +443,7 @@
           },
           {
             "rep": 2,
-            "verdict": "absent"
+            "verdict": "accurate"
           },
           {
             "rep": 3,
@@ -525,20 +518,20 @@
         "questionId": "B-12",
         "category": "12",
         "question": "수원시 다문화가족지원센터 위치랑 프로그램 알려줘",
-        "stableCount": 1,
+        "stableCount": 2,
         "status": "unstable",
         "reps": [
           {
             "rep": 1,
-            "verdict": "accurate"
+            "verdict": "absent"
           },
           {
             "rep": 2,
-            "verdict": "absent"
+            "verdict": "accurate"
           },
           {
             "rep": 3,
-            "verdict": "absent"
+            "verdict": "accurate"
           }
         ]
       },
@@ -607,30 +600,30 @@
       }
     ],
     "urlAnalysis": {
-      "totalResults": 150,
-      "withUrlCount": 132,
-      "publicUrlCount": 165,
+      "totalResults": 255,
+      "withUrlCount": 226,
+      "publicUrlCount": 278,
       "ownDomainCount": 0,
       "topDomains": [
         {
           "domain": "www.suwon.go.kr",
-          "count": 74
+          "count": 118
         },
         {
           "domain": "www.swcf.or.kr",
+          "count": 18
+        },
+        {
+          "domain": "www.bokjiro.go.kr",
           "count": 14
         },
         {
           "domain": "whc.unesco.org",
-          "count": 11
+          "count": 10
         },
         {
-          "domain": "www.gg.go.kr",
-          "count": 7
-        },
-        {
-          "domain": "map.naver.com",
-          "count": 6
+          "domain": "rt.molit.go.kr",
+          "count": 10
         }
       ]
     },
@@ -649,9 +642,9 @@
       },
       {
         "type": "keyword_entry",
-        "mentioned": 7,
+        "mentioned": 5,
         "total": 9,
-        "rate": 0.7777777777777778
+        "rate": 0.5555555555555556
       },
       {
         "type": "scenario",
@@ -705,43 +698,25 @@
           "description": "높은 negative_test 맥락 인지도",
           "evidence": "추천/언급 비율이 100%에 달함",
           "impact": "high"
+        },
+        {
+          "id": "S-T1-STABLE",
+          "description": "기본 정보의 높은 안정성",
+          "evidence": "T1 문항 중 12개가 안정적으로 응답됨",
+          "impact": "medium"
         }
       ],
       "weaknesses": [
         {
-          "id": "W-T1-UNSTABLE-B-03",
-          "description": "응답 불안정성: 03",
-          "evidence": "T1 문항 \"수원시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
-          "impact": "medium"
-        },
-        {
-          "id": "W-T1-ABSENT-B-04",
-          "description": "필수 정보 부재: 04",
-          "evidence": "T1 문항 \"수원시 종량제봉투 종류별 가격 알려줘\"에서 정보가 전혀 출력되지 않음",
-          "impact": "high"
-        },
-        {
-          "id": "W-T1-UNSTABLE-B-05",
-          "description": "응답 불안정성: 05",
-          "evidence": "T1 문항 \"수원시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "id": "W-T1-UNSTABLE-B-04",
+          "description": "응답 불안정성: 04",
+          "evidence": "T1 문항 \"수원시 종량제봉투 종류별 가격 알려줘\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
           "impact": "medium"
         },
         {
           "id": "W-T1-UNSTABLE-B-06",
           "description": "응답 불안정성: 06",
           "evidence": "T1 문항 \"수원시 어르신 버스비 지원 대상 나이랑 금액 알려줘\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
-          "impact": "medium"
-        },
-        {
-          "id": "W-T1-UNSTABLE-B-07",
-          "description": "응답 불안정성: 07",
-          "evidence": "T1 문항 \"수원시 어르신 목욕권이나 이미용 지원 있어?\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
-          "impact": "medium"
-        },
-        {
-          "id": "W-T1-UNSTABLE-B-08",
-          "description": "응답 불안정성: 08",
-          "evidence": "T1 문항 \"수원시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
           "impact": "medium"
         },
         {
@@ -773,7 +748,7 @@
         {
           "id": "O-ASSOC-UNSTABLE",
           "description": "잠재적 연관어 발굴",
-          "evidence": "불안정하게 노출되는 단어(수원 왕갈비 등)를 제3의 키워드로 육성 가능",
+          "evidence": "불안정하게 노출되는 단어(수원화성 등)를 제3의 키워드로 육성 가능",
           "impact": "low"
         }
       ],
@@ -782,9 +757,9 @@
     "defenseAreas": [
       {
         "rank": 1,
-        "area": "03",
+        "area": "04",
         "currentState": "정보 불안정 (Unstable)",
-        "evidence": "B-03",
+        "evidence": "B-04",
         "action": "FAQ 보강",
         "cost": "내부 리소스",
         "timeline": "1개월",
@@ -792,26 +767,6 @@
       },
       {
         "rank": 2,
-        "area": "04",
-        "currentState": "정보 부재 (Absent)",
-        "evidence": "B-04",
-        "action": "FAQ 신설",
-        "cost": "0원",
-        "timeline": "즉시",
-        "expectedEffect": "AI 응답 내 기초 정보 포함"
-      },
-      {
-        "rank": 3,
-        "area": "05",
-        "currentState": "정보 불안정 (Unstable)",
-        "evidence": "B-05",
-        "action": "FAQ 보강",
-        "cost": "내부 리소스",
-        "timeline": "1개월",
-        "expectedEffect": "일관성 확보"
-      },
-      {
-        "rank": 4,
         "area": "06",
         "currentState": "정보 불안정 (Unstable)",
         "evidence": "B-06",
@@ -821,27 +776,7 @@
         "expectedEffect": "일관성 확보"
       },
       {
-        "rank": 5,
-        "area": "07",
-        "currentState": "정보 불안정 (Unstable)",
-        "evidence": "B-07",
-        "action": "FAQ 보강",
-        "cost": "내부 리소스",
-        "timeline": "1개월",
-        "expectedEffect": "일관성 확보"
-      },
-      {
-        "rank": 6,
-        "area": "08",
-        "currentState": "정보 불안정 (Unstable)",
-        "evidence": "B-08",
-        "action": "FAQ 보강",
-        "cost": "내부 리소스",
-        "timeline": "1개월",
-        "expectedEffect": "일관성 확보"
-      },
-      {
-        "rank": 7,
+        "rank": 3,
         "area": "12",
         "currentState": "정보 불안정 (Unstable)",
         "evidence": "B-12",
@@ -849,16 +784,6 @@
         "cost": "내부 리소스",
         "timeline": "1개월",
         "expectedEffect": "일관성 확보"
-      },
-      {
-        "rank": 8,
-        "area": "핵심 브랜드",
-        "currentState": "높은 인지도 유지 중",
-        "evidence": "안정적 키워드 도출",
-        "action": "현 상태 유지 — 관련 페이지 개편 시 기존 텍스트 보존",
-        "cost": "0원",
-        "timeline": "즉시",
-        "expectedEffect": "현상 유지"
       }
     ],
     "opportunityAreas": [
@@ -886,7 +811,7 @@
         "rank": 3,
         "area": "브랜드 연상",
         "currentState": "일부 키워드 불안정",
-        "evidence": "불안정 키워드: 수원 왕갈비, 삼성전자 본사",
+        "evidence": "불안정 키워드: 수원화성, 수원 왕갈비",
         "action": "3번째 키워드 콘텐츠 전략",
         "cost": "콘텐츠 마케팅 비용",
         "timeline": "3개월",
@@ -895,11 +820,6 @@
     ],
     "roadmap": {
       "immediate": [
-        {
-          "action": "FAQ 신설 (04)",
-          "detail": "문항 \"수원시 종량제봉투 종류별 가격 알려줘\" 대응 콘텐츠 추가",
-          "cost": "0원"
-        },
         {
           "action": "JSON-LD 구조화 데이터 삽입 (landmark)",
           "detail": "기존 페이지에 메타데이터 보강",
@@ -917,14 +837,8 @@
   },
   "r4Candidates": [
     {
-      "questionId": "B-03",
-      "question": "수원시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
-      "observation": "3회 중 2회 답했지만 일관되지 않음",
-      "hypothesis": "안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다."
-    },
-    {
-      "questionId": "B-05",
-      "question": "수원시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "questionId": "B-04",
+      "question": "수원시 종량제봉투 종류별 가격 알려줘",
       "observation": "3회 중 2회 답했지만 일관되지 않음",
       "hypothesis": "안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다."
     },
@@ -933,8 +847,363 @@
       "question": "수원시 어르신 버스비 지원 대상 나이랑 금액 알려줘",
       "observation": "3회 중 2회 답했지만 일관되지 않음",
       "hypothesis": "안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다."
+    },
+    {
+      "questionId": "B-12",
+      "question": "수원시 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "observation": "3회 중 2회 답했지만 일관되지 않음",
+      "hypothesis": "안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다."
     }
   ],
-  "markdownFull": "# 수원시 AI 검색 가시성(AEO) 진단 보고서\n\n> **탐색적 측정 — 사전 등록 전 파일럿** (INV-11)\n\n| 항목 | 값 |\n|---|---|\n| **발행** | (주)디지털미디어네트워크 |\n| **측정 모델** | `gpt-5.6-luna` **1종** |\n| **측정일** | 2026-09-07 |\n| **반복** | 3회 |\n| **문항** | 50문항 × 3회 = 150회 측정 |\n| **에러** | 0건 |\n| **방법론** | v2.1 |\n| **한계** | 단일 모델 1회 측정. 다른 모델·다른 시점에서 결과가 달라질 수 있음 |\n\n---\n\n## Executive Summary\n\n3회 반복 측정에서, 주민이 실제로 묻는 **수원시 종량제봉투 종류별 가** 등 1개 문항에 이 모델은 **한 번도 답하지 못했습니다.** 6개 문항은 3회 중 일부만 답했습니다. 기본 행정 15문항의 응답률은 35/45건 (77.8%)입니다.\n\n이 모델에게 \"수원시 하면?\"을 물으면 **수원화성**을(를) 답합니다. 그러나 \"추천해줘\"에서 수원시이(가) 빠지는 질문이 1건입니다.\n\n---\n\n## 1. 주민이 묻는 것에 이 모델이 답하지 못한 것\n\n> 산출식: 응답 건수 ÷ 총 관측 건수 = 35/45건 (77.8%)\n\n| # | 질문 | 1회 | 2회 | 3회 | 판정 |\n|---|---|---|---|---|---|\n| 1 | 수원시 둘째 출산지원금이랑 산후조리비 총 얼마야? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 2 | 수원시 전입신고 하면 받을 수 있는 혜택 있어? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 3 | 수원시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려 | ✅ | — | ✅ | 불안정(2/3) |\n| 4 | 수원시 종량제봉투 종류별 가격 알려줘 | — | — | — | 미응답(0/3) |\n| 5 | 수원시 청/군청 민원실 점심시간에도 되는지, 주차요금  | ✅ | — | ✅ | 불안정(2/3) |\n| 6 | 수원시 어르신 버스비 지원 대상 나이랑 금액 알려줘 | — | ✅ | ✅ | 불안정(2/3) |\n| 7 | 수원시 어르신 목욕권이나 이미용 지원 있어? | ✅ | ✅ | — | 불안정(2/3) |\n| 8 | 수원시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘 | ✅ | — | ✅ | 불안정(2/3) |\n| 9 | 수원시 청년 창업 지원금이나 창업 공간 지원 있어? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 10 | 수원시 밤에 아이가 아프면 갈 수 있는 소아과 어디야? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 11 | 수원시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 12 | 수원시 다문화가족지원센터 위치랑 프로그램 알려줘 | ✅ | — | — | 불안정(1/3) |\n| 13 | 수원시 소상공인 특례보증 대출 조건 알려줘 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 14 | 수원시 소상공인 무료 세무 상담 받을 수 있는 곳 있어 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 15 | 수원시 올해 열리는 대표 축제 일정이랑 장소 안내해줘 | ✅ | ✅ | ✅ | 안정(3/3) |\n\n**안정(3/3) 8문항 · 불안정(1~2/3) 6문항 · 미응답(0/3) 1문항**\n\n> 📌 \"답했다\"와 \"맞다\"는 다릅니다. 이 표는 이 모델이 **답을 내놓았는지**만 봅니다. 답의 정확성은 원문 대조(이번 측정 범위 밖)가 필요합니다.\n\n---\n\n## 2. 지켜야 할 자산\n\n### \"수원 하면 뭐가 떠올라?\" — 이 모델의 연상어 테스트\n\n| 반복 | 이 모델이 떠올린 것 |\n|---|---|\n| 1회차 | 1. 수원화성 2. 수원 왕갈비 3. 삼성전자 본사 |\n| 2회차 | 1. 수원화성 2. 수원 왕갈비 3. 프로야구 kt wiz |\n| 3회차 | 1. 수원화성 2. 수원왕갈비 3. 수원 삼성 블루윙즈 |\n\n- **안정 키워드** (3/3 등장): **수원화성**\n\n> 📌 안정 키워드는 **방어 자산**입니다. 관련 페이지를 개편할 때 기존 텍스트를 보존하십시오. 건드리지 마십시오.\n\n---\n\n## 3. 이 모델이 수원시을(를) 아는 방식\n\n| 카테고리 | 고유정보 포함 | 범용 답변 | 미응답 |\n|---|---|---|---|\n| 특산·산업 | 9/27건 (33.3%) | 0/27건 (0%) | 0 |\n| 시설·랜드마크 | 6/27건 (22.2%) | 1/27건 (3.7%) | 0 |\n| 독자정책 | 3/27건 (11.1%) | 0/27건 (0%) | 0 |\n| 역사·문화재 | 6/18건 (33.3%) | 0/18건 (0%) | 0 |\n| 지리·생활권 | 6/27건 (22.2%) | 0/27건 (0%) | 0 |\n| 음식·명소 | 5/27건 (18.5%) | 0/27건 (0%) | 0 |\n| 최근이슈 | 4/27건 (14.8%) | 1/27건 (3.7%) | 1 |\n\n- **고유정보 포함**: 이 모델이 수원시만의 구체적 정보를 포함하여 답한 비율\n- **범용 답변**: \"시청에 문의하세요\" 수준의 답변\n\n---\n\n## 4. 추천에서 수원시이(가) 빠지는 지점\n\n### 이 모델이 수원시을(를) 빼놓은 질문 (1건)\n\n| # | 질문 | 이 모델이 추천한 곳 |\n|---|---|---|\n| 1 | IT 종사자가 출퇴근 편한 수도권 도시 추천해줘 | IT 근무지가 **판교·분당**이면 성남시(판교·정자·야탑)가 가장 편하고, **강남·구로… |\n\n> 이 모델이 수원시을(를) 몰라서가 아닙니다. 직접 물으면 답합니다. **추천 후보에 올릴 만큼의 온라인 콘텐츠가 부족**한 것으로 보입니다.\n### 유형별 언급률\n\n| 유형 | 언급 | 해석 |\n|---|---|---|\n| 추천 | 9/9건 (100%) | ✅ |\n| 연상 | 6/6건 (100%) | ✅ |\n| 키워드 진입 | 7/9건 (77.8%) | 🟡 |\n| 시나리오 | 8/9건 (88.9%) | ✅ |\n| 비교 | 6/6건 (100%) | ✅ |\n| 부정 테스트 | 6/6건 (100%) | ✅ |\n\n---\n\n## 5. 비용 0원으로 지금 할 수 있는 것\n\n- ✅ FAQ 신설 (04)\n- ✅ JSON-LD 구조화 데이터 삽입 (landmark)\n- ✅ JSON-LD 구조화 데이터 삽입 (recent_issue)\n\n> 1개월·3개월 조치는 이 측정만으로 순서를 정할 근거가 부족합니다. 반복 측정 후 우선순위를 확정할 수 있습니다.\n\n---\n\n## 6. 이 측정으로는 알 수 없는 것\n\n1. **\"답했다\"와 \"맞다\"는 다릅니다.** 이 모델의 답이 실제 공식 정보와 일치하는지는 확인하지 않았습니다. 원문 대조는 이번 측정 범위 밖입니다.\n\n2. **빈칸의 원인을 가르지 않았습니다.** 각 빈칸이 ① 정보가 틀렸거나 ② 기계가 못 읽거나 ③ 여러 곳에 다르게 있거나 ④ 정보를 고쳐도 해결되지 않는 절차 문제인지 구분하지 않았습니다.\n\n3. **우선순위를 정할 수 없습니다.** `gpt-5.6-luna` 1종, 1회 측정으로는 무엇을 먼저 할지 확정할 근거가 부족합니다. 반복 측정이 필요합니다.\n\n### 정보 문제가 아닐 수 있는 항목\n\n> **수원시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려**: 3회 중 2회 답했지만 일관되지 않음. 안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.\n>\n> **수원시 청/군청 민원실 점심시간에도 되는지, 주차요금 **: 3회 중 2회 답했지만 일관되지 않음. 안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.\n>\n> **수원시 어르신 버스비 지원 대상 나이랑 금액 알려줘**: 3회 중 2회 답했지만 일관되지 않음. 안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.\n\n> 위 항목은 단정이 아닙니다. 확인하지 않았으며, \"~일 수 있습니다\"입니다.\n\n---\n\n## 7. 시장님께 드리는 한 문장\n\n> **이 모델에게 수원시 종량제봉투 종류별 가을(를) 3번 물어도 0번 답합니다. 홈페이지에 이 정보를 텍스트로 게시하는 것이 가장 시급합니다.**\n\n---\n\n*발행: (주)디지털미디어네트워크*\n*이 보고서는 `gpt-5.6-luna` 1종의 응답을 분석한 것이며, 이 모델의 응답이 곧 사실은 아닙니다.*\n*방법론 v2.1 · 50문항 × 3회 반복 · 단일 모델 1회 측정*\n*이 값은 탐색적 측정이며, 사전 등록된 확정 결과가 아닙니다 (INV-11).*",
+  "verificationScores": [
+    {
+      "questionId": "V1-B01-01",
+      "parentId": "B-01",
+      "verdict": "correct",
+      "detail": "정답 \"100만\" 포함",
+      "gtValue": "100만원",
+      "aiValue": "100만"
+    },
+    {
+      "questionId": "V1-B01-02",
+      "parentId": "B-01",
+      "verdict": "correct",
+      "detail": "정답 \"50만\" 포함",
+      "gtValue": "50만원",
+      "aiValue": "50만"
+    },
+    {
+      "questionId": "V1-B01-03",
+      "parentId": "B-01",
+      "verdict": "wrong_value",
+      "detail": "GT=300000, AI=500000 (67% 차이)",
+      "gtValue": "30만원",
+      "aiValue": "500000",
+      "syndrome": "confabulation"
+    },
+    {
+      "questionId": "V1-B04-01",
+      "parentId": "B-04",
+      "verdict": "outdated",
+      "detail": "GT=590, AI=600 (2% 차이 — 구버전 가능)",
+      "gtValue": "590원",
+      "aiValue": "600",
+      "syndrome": "stale_fact"
+    },
+    {
+      "questionId": "V1-B04-02",
+      "parentId": "B-04",
+      "verdict": "wrong_value",
+      "detail": "GT=160, AI=80 (50% 차이)",
+      "gtValue": "160원",
+      "aiValue": "80",
+      "syndrome": "confabulation"
+    },
+    {
+      "questionId": "V1-B04-03",
+      "parentId": "B-04",
+      "verdict": "correct",
+      "detail": "이름 토큰 일치율 67%",
+      "gtValue": "편의점, 마트, 동 행정복지센터",
+      "aiValue": "2/3 토큰 일치"
+    },
+    {
+      "questionId": "V1-B06-01",
+      "parentId": "B-06",
+      "verdict": "outdated",
+      "detail": "GT=65, AI=70 (8% 차이 — 구버전 가능)",
+      "gtValue": "만 65세 이상",
+      "aiValue": "70",
+      "syndrome": "stale_fact"
+    },
+    {
+      "questionId": "V1-B06-02",
+      "parentId": "B-06",
+      "verdict": "wrong_value",
+      "detail": "GT=10000, AI=65 (99% 차이)",
+      "gtValue": "월 1만원",
+      "aiValue": "65",
+      "syndrome": "confabulation"
+    },
+    {
+      "questionId": "V1-B08-01",
+      "parentId": "B-08",
+      "verdict": "correct",
+      "detail": "숫자 200000 일치",
+      "gtValue": "월 20만원",
+      "aiValue": "200000"
+    },
+    {
+      "questionId": "V1-B08-02",
+      "parentId": "B-08",
+      "verdict": "correct",
+      "detail": "숫자 19 일치",
+      "gtValue": "만 19세~39세",
+      "aiValue": "19"
+    },
+    {
+      "questionId": "V1-B08-03",
+      "parentId": "B-08",
+      "verdict": "wrong_value",
+      "detail": "GT=150, AI=100 (33% 차이)",
+      "gtValue": "기준 중위소득 150% 이하",
+      "aiValue": "100",
+      "syndrome": "confabulation"
+    },
+    {
+      "questionId": "V1-B10-01",
+      "parentId": "B-10",
+      "verdict": "correct",
+      "detail": "숫자 31 일치",
+      "gtValue": "031-8008-8282",
+      "aiValue": "31"
+    },
+    {
+      "questionId": "V1-B10-02",
+      "parentId": "B-10",
+      "verdict": "wrong_value",
+      "detail": "GT=1644, AI=1899 (16% 차이)",
+      "gtValue": "1644-0723",
+      "aiValue": "1899",
+      "syndrome": "confabulation"
+    },
+    {
+      "questionId": "V1-B15-01",
+      "parentId": "B-15",
+      "verdict": "correct",
+      "detail": "정답 \"10월\" 포함",
+      "gtValue": "10월",
+      "aiValue": "10월"
+    },
+    {
+      "questionId": "V1-B15-02",
+      "parentId": "B-15",
+      "verdict": "correct",
+      "detail": "정답 \"1,500원\" 포함",
+      "gtValue": "1,500원",
+      "aiValue": "1,500원"
+    }
+  ],
+  "competitiveResults": [
+    {
+      "questionId": "C-01",
+      "question": "수원과 용인 중 자녀 교육에 좋은 곳은?",
+      "category": "education",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "용인",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-02",
+      "question": "아이 학원가와 학군을 비교할 때 수원 영통과 안양 평촌 중 어디가 더 유리해?",
+      "category": "education",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "안양",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-03",
+      "question": "수원과 성남(분당) 중 30대 신혼부부가 정착해 살기 좋은 곳은?",
+      "category": "livability",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "성남",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-04",
+      "question": "수원과 용인 수지 중 대중교통과 서울 출퇴근 환경이 더 좋은 도시는?",
+      "category": "livability",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "용인",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-05",
+      "question": "동탄신도시가 있는 화성과 수원 광교신도시 중 주거 환경 만족도가 더 높은 곳은?",
+      "category": "livability",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "화성",
+          "mentioned": false
+        }
+      ]
+    },
+    {
+      "questionId": "C-06",
+      "question": "반도체 및 IT 일자리 취업을 준비할 때 수원과 화성 중 어디가 더 기회가 많아?",
+      "category": "industry",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "화성",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-07",
+      "question": "첨단 산업 R&D 스타트업을 창업하기에 수원과 성남(판교) 중 어떤 도시가 나아?",
+      "category": "industry",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "성남",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-08",
+      "question": "주말 당일치기 역사문화 관광 코스로 수원과 용인 중 어디를 더 추천해?",
+      "category": "tourism",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "용인",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-09",
+      "question": "가족 나들이와 야경 산책 코스로 수원 화성행궁과 안양 예술공원 중 어디가 좋아?",
+      "category": "tourism",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "안양",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-10",
+      "question": "경기 남부에서 내 집 마련 시 수원과 화성 중 주거비 대비 가성비가 좋은 지역은?",
+      "category": "cost",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "화성",
+          "mentioned": true
+        }
+      ]
+    }
+  ],
+  "reputationResults": [
+    {
+      "questionId": "D-01",
+      "riskCategory": "general",
+      "mentionedIssues": [
+        "[medium] 불편",
+        "[medium] 민원",
+        "[medium] 주차난"
+      ],
+      "severity": "medium",
+      "defenseNeeded": true
+    },
+    {
+      "questionId": "D-02",
+      "riskCategory": "safety",
+      "mentionedIssues": [
+        "[high] 범죄",
+        "[high] 위험",
+        "[medium] 민원"
+      ],
+      "severity": "high",
+      "defenseNeeded": true
+    },
+    {
+      "questionId": "D-03",
+      "riskCategory": "environment",
+      "mentionedIssues": [],
+      "severity": "low",
+      "defenseNeeded": false
+    },
+    {
+      "questionId": "D-04",
+      "riskCategory": "cost",
+      "mentionedIssues": [
+        "[medium] 물가"
+      ],
+      "severity": "medium",
+      "defenseNeeded": true
+    },
+    {
+      "questionId": "D-05",
+      "riskCategory": "governance",
+      "mentionedIssues": [
+        "[low] 개선"
+      ],
+      "severity": "low",
+      "defenseNeeded": false
+    }
+  ],
+  "sourceTrackingResults": [
+    {
+      "questionId": "T4-01",
+      "citedUrls": [],
+      "officialUrlCount": 0,
+      "unofficialUrlCount": 0,
+      "officialDomains": [],
+      "sourceQuality": "none"
+    },
+    {
+      "questionId": "T4-02",
+      "citedUrls": [],
+      "officialUrlCount": 0,
+      "unofficialUrlCount": 0,
+      "officialDomains": [],
+      "sourceQuality": "none"
+    },
+    {
+      "questionId": "T4-03",
+      "citedUrls": [
+        "https://www.bokjiro.go.kr/",
+        "https://www.suwon.go.kr/",
+        "https://www.gov.kr/portal/main"
+      ],
+      "officialUrlCount": 2,
+      "unofficialUrlCount": 1,
+      "officialDomains": [
+        "www.bokjiro.go.kr",
+        "www.suwon.go.kr"
+      ],
+      "sourceQuality": "mixed"
+    },
+    {
+      "questionId": "T4-04",
+      "citedUrls": [],
+      "officialUrlCount": 0,
+      "unofficialUrlCount": 0,
+      "officialDomains": [],
+      "sourceQuality": "none"
+    },
+    {
+      "questionId": "T4-05",
+      "citedUrls": [],
+      "officialUrlCount": 0,
+      "unofficialUrlCount": 0,
+      "officialDomains": [],
+      "sourceQuality": "none"
+    }
+  ],
+  "markdownFull": "# 수원시 AI 검색 가시성(AEO) 진단 보고서\n\n> **탐색적 측정 — 사전 등록 전 파일럿** (INV-11)\n\n| 항목 | 값 |\n|---|---|\n| **발행** | (주)디지털미디어네트워크 |\n| **측정 모델** | `gpt-5.6-luna` **1종** |\n| **측정일** | 2026-09-07 |\n| **반복** | 3회 |\n| **문항** | 85문항 × 3회 = 255회 측정 |\n| **에러** | 0건 |\n| **방법론** | v2.2 |\n| **한계** | 단일 모델 1회 측정. 다른 모델·다른 시점에서 결과가 달라질 수 있음 |\n\n---\n\n## Executive Summary\n\n3개 문항은 3회 중 일부만 답했습니다. 기본 행정 15문항의 응답률은 42/45건 (93.3%)입니다.\n\n그러나 \"추천해줘\"에서 수원시이(가) 빠지는 질문이 1건입니다.\n\n---\n\n## 1. 주민이 묻는 것에 이 모델이 답하지 못한 것\n\n> 산출식: 응답 건수 ÷ 총 관측 건수 = 42/45건 (93.3%)\n\n| # | 질문 | 1회 | 2회 | 3회 | 판정 |\n|---|---|---|---|---|---|\n| 1 | 수원시 둘째 출산지원금이랑 산후조리비 총 얼마야? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 2 | 수원시 전입신고 하면 받을 수 있는 혜택 있어? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 3 | 수원시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 4 | 수원시 종량제봉투 종류별 가격 알려줘 | ✅ | ✅ | — | 불안정(2/3) |\n| 5 | 수원시 청/군청 민원실 점심시간에도 되는지, 주차요금  | ✅ | ✅ | ✅ | 안정(3/3) |\n| 6 | 수원시 어르신 버스비 지원 대상 나이랑 금액 알려줘 | ✅ | ✅ | — | 불안정(2/3) |\n| 7 | 수원시 어르신 목욕권이나 이미용 지원 있어? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 8 | 수원시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 9 | 수원시 청년 창업 지원금이나 창업 공간 지원 있어? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 10 | 수원시 밤에 아이가 아프면 갈 수 있는 소아과 어디야? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 11 | 수원시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 12 | 수원시 다문화가족지원센터 위치랑 프로그램 알려줘 | — | ✅ | ✅ | 불안정(2/3) |\n| 13 | 수원시 소상공인 특례보증 대출 조건 알려줘 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 14 | 수원시 소상공인 무료 세무 상담 받을 수 있는 곳 있어 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 15 | 수원시 올해 열리는 대표 축제 일정이랑 장소 안내해줘 | ✅ | ✅ | ✅ | 안정(3/3) |\n\n**안정(3/3) 12문항 · 불안정(1~2/3) 3문항 · 미응답(0/3) 0문항**\n\n> 📌 \"답했다\"와 \"맞다\"는 다릅니다. 이 표는 이 모델이 **답을 내놓았는지**만 봅니다. 답의 정확성은 원문 대조(이번 측정 범위 밖)가 필요합니다.\n\n---\n\n### 1.2 이 모델이 틀리게 답한 것 (사실 검증)\n\n> 핵심 15건의 구체적 사실을 공식 정보와 대조했습니다.\n> 정확 8 · 오류 5 · 구버전 2 · 미응답 0\n\n| # | 문항 | 판정 | 공식 정보 | 이 모델의 답 |\n|---|---|---|---|---|\n| 1 | V1-B01-01 | ✅ 정확 | 100만원 | 100만 |\n| 2 | V1-B01-02 | ✅ 정확 | 50만원 | 50만 |\n| 3 | V1-B01-03 | ❌ 오류 | 30만원 | 500000 |\n| 4 | V1-B04-01 | 🟡 구버전 | 590원 | 600 |\n| 5 | V1-B04-02 | ❌ 오류 | 160원 | 80 |\n| 6 | V1-B04-03 | ✅ 정확 | 편의점, 마트, 동 행정복지센터 | 2/3 토큰 일치 |\n| 7 | V1-B06-01 | 🟡 구버전 | 만 65세 이상 | 70 |\n| 8 | V1-B06-02 | ❌ 오류 | 월 1만원 | 65 |\n| 9 | V1-B08-01 | ✅ 정확 | 월 20만원 | 200000 |\n| 10 | V1-B08-02 | ✅ 정확 | 만 19세~39세 | 19 |\n| 11 | V1-B08-03 | ❌ 오류 | 기준 중위소득 150% 이하 | 100 |\n| 12 | V1-B10-01 | ✅ 정확 | 031-8008-8282 | 31 |\n| 13 | V1-B10-02 | ❌ 오류 | 1644-0723 | 1899 |\n| 14 | V1-B15-01 | ✅ 정확 | 10월 | 10월 |\n| 15 | V1-B15-02 | ✅ 정확 | 1,500원 | 1,500원 |\n\n> ⚠️ **5건의 사실 오류**가 확인되었습니다. 이 모델은 주민에게 잘못된 정보를 안내할 수 있습니다.\n\n---\n\n## 2. 지켜야 할 자산\n\n### \"수원 하면 뭐가 떠올라?\" — 이 모델의 연상어 테스트\n\n| 반복 | 이 모델이 떠올린 것 |\n|---|---|\n| 1회차 | 1. 수원화성 2. 수원 왕갈비 3. 프로야구 kt wiz |\n| 2회차 | 수원 하면 **수원화성**, **수원 왕갈비**, **수원 삼성 블루윙즈**가 떠오릅니다. |\n| 3회차 | 1. 수원화성 2. 수원 왕갈비 3. 삼성전자와 첨단산업 |\n\n- **안정 키워드** (3/3 등장): (안정 키워드 없음)\n\n> 📌 안정 키워드는 **방어 자산**입니다. 관련 페이지를 개편할 때 기존 텍스트를 보존하십시오. 건드리지 마십시오.\n\n---\n\n## 3. 이 모델이 수원시을(를) 아는 방식\n\n| 카테고리 | 고유정보 포함 | 범용 답변 | 미응답 |\n|---|---|---|---|\n| 특산·산업 | 8/27건 (29.6%) | 0/27건 (0%) | 0 |\n| 시설·랜드마크 | 6/27건 (22.2%) | 1/27건 (3.7%) | 0 |\n| 독자정책 | 1/27건 (3.7%) | 0/27건 (0%) | 0 |\n| 역사·문화재 | 4/18건 (22.2%) | 0/18건 (0%) | 0 |\n| 지리·생활권 | 6/27건 (22.2%) | 0/27건 (0%) | 0 |\n| 음식·명소 | 3/27건 (11.1%) | 0/27건 (0%) | 0 |\n| 최근이슈 | 3/27건 (11.1%) | 1/27건 (3.7%) | 2 |\n\n- **고유정보 포함**: 이 모델이 수원시만의 구체적 정보를 포함하여 답한 비율\n- **범용 답변**: \"시청에 문의하세요\" 수준의 답변\n\n---\n\n## 4. 추천에서 수원시이(가) 빠지는 지점\n\n### 이 모델이 수원시을(를) 빼놓은 질문 (1건)\n\n| # | 질문 | 이 모델이 추천한 곳 |\n|---|---|---|\n| 1 | IT 종사자가 출퇴근 편한 수도권 도시 추천해줘 | IT 직장이 **판교·강남권**이면 성남시(판교·분당·위례)가 가장 편하고, **가산·구로… |\n\n> 이 모델이 수원시을(를) 몰라서가 아닙니다. 직접 물으면 답합니다. **추천 후보에 올릴 만큼의 온라인 콘텐츠가 부족**한 것으로 보입니다.\n### 유형별 언급률\n\n| 유형 | 언급 | 해석 |\n|---|---|---|\n| 추천 | 9/9건 (100%) | ✅ |\n| 연상 | 6/6건 (100%) | ✅ |\n| 키워드 진입 | 5/9건 (55.6%) | 🟡 |\n| 시나리오 | 8/9건 (88.9%) | ✅ |\n| 비교 | 6/6건 (100%) | ✅ |\n| 부정 테스트 | 6/6건 (100%) | ✅ |\n\n---\n\n### 4.2 경쟁자 대비 언급 매트릭스\n\n| 질문 | 수원시 | 용인 | 안양 | 성남 | 화성 |\n|---|---|---|---|---|---|\n| 수원과 용인 중 자녀 교육에 좋은 곳은? | ✅ | ✅ | — | — | — |\n| 아이 학원가와 학군을 비교할 때 수원 영통과  | ✅ | — | ✅ | — | — |\n| 수원과 성남(분당) 중 30대 신혼부부가 정착 | ✅ | — | — | ✅ | — |\n| 수원과 용인 수지 중 대중교통과 서울 출퇴근  | ✅ | ✅ | — | — | — |\n| 동탄신도시가 있는 화성과 수원 광교신도시 중  | ✅ | — | — | — | — |\n| 반도체 및 IT 일자리 취업을 준비할 때 수원 | ✅ | — | — | — | ✅ |\n| 첨단 산업 R&D 스타트업을 창업하기에 수원과 | ✅ | — | — | ✅ | — |\n| 주말 당일치기 역사문화 관광 코스로 수원과 용 | ✅ | ✅ | — | — | — |\n| 가족 나들이와 야경 산책 코스로 수원 화성행궁 | ✅ | — | ✅ | — | — |\n| 경기 남부에서 내 집 마련 시 수원과 화성 중 | ✅ | — | — | — | ✅ |\n\n> 수원시 언급: 10/10건 (100%) · 경쟁자만 언급(우리 누락): 0건\n\n---\n\n## 5. 비용 0원으로 지금 할 수 있는 것\n\n- ✅ JSON-LD 구조화 데이터 삽입 (landmark)\n- ✅ JSON-LD 구조화 데이터 삽입 (recent_issue)\n\n> 1개월·3개월 조치는 이 측정만으로 순서를 정할 근거가 부족합니다. 반복 측정 후 우선순위를 확정할 수 있습니다.\n\n---\n\n## 6. 이 측정으로는 알 수 없는 것\n\n1. **\"답했다\"와 \"맞다\"는 다릅니다.** 핵심 15건의 원문 대조를 수행했습니다. 나머지 문항의 원문 대조는 수행하지 않았습니다.\n\n2. **빈칸의 원인을 가르지 않았습니다.** 각 빈칸이 ① 정보가 틀렸거나 ② 기계가 못 읽거나 ③ 여러 곳에 다르게 있거나 ④ 정보를 고쳐도 해결되지 않는 절차 문제인지 구분하지 않았습니다.\n\n3. **우선순위를 정할 수 없습니다.** `gpt-5.6-luna` 1종, 1회 측정으로는 무엇을 먼저 할지 확정할 근거가 부족합니다. 반복 측정이 필요합니다.\n\n### 정보 문제가 아닐 수 있는 항목\n\n> **수원시 종량제봉투 종류별 가격 알려줘**: 3회 중 2회 답했지만 일관되지 않음. 안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.\n>\n> **수원시 어르신 버스비 지원 대상 나이랑 금액 알려줘**: 3회 중 2회 답했지만 일관되지 않음. 안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.\n>\n> **수원시 다문화가족지원센터 위치랑 프로그램 알려줘**: 3회 중 2회 답했지만 일관되지 않음. 안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.\n\n> 위 항목은 단정이 아닙니다. 확인하지 않았으며, \"~일 수 있습니다\"입니다.\n\n---\n\n## 7. 시장님께 드리는 한 문장\n\n> **이 모델은 수원시의 기본 행정 정보에 42/45건 (93.3%) 응답했습니다. 홈페이지 구조화로 개선 여지가 있습니다.**\n\n---\n\n*발행: (주)디지털미디어네트워크*\n*이 보고서는 `gpt-5.6-luna` 1종의 응답을 분석한 것이며, 이 모델의 응답이 곧 사실은 아닙니다.*\n*방법론 v2.2 · 85문항 × 3회 반복 · 단일 모델 1회 측정*\n*이 값은 탐색적 측정이며, 사전 등록된 확정 결과가 아닙니다 (INV-11).*",
   "markdownSections": []
 }
