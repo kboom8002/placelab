@@ -1,0 +1,1019 @@
+{
+  "metadata": {
+    "unitId": "lg-43745",
+    "unitName": "증평군",
+    "population": "local_gov",
+    "measuredOn": "2026-09-07",
+    "model": "gpt-5.6-luna",
+    "methodVersion": "v2.1",
+    "totalQueries": 50,
+    "successCount": 150,
+    "absentCount": 9,
+    "errorCount": 0,
+    "reps": 3,
+    "isExploratory": true
+  },
+  "dashboard": {
+    "t1Accuracy": 0.8,
+    "t1StableCount": 10,
+    "t1TotalQuestions": 15,
+    "t2RelevanceRate": 0.48333333333333334,
+    "t2GenericRate": 0.05,
+    "t2TotalQuestions": 20,
+    "t3ShareOfVoice": 0.5111111111111111,
+    "t3ByType": [
+      {
+        "type": "recommendation",
+        "rate": 0
+      },
+      {
+        "type": "association",
+        "rate": 1
+      },
+      {
+        "type": "keyword_entry",
+        "rate": 0.5555555555555556
+      },
+      {
+        "type": "scenario",
+        "rate": 0
+      },
+      {
+        "type": "comparison",
+        "rate": 1
+      },
+      {
+        "type": "negative_test",
+        "rate": 1
+      }
+    ],
+    "floorRisk": "moderate",
+    "confabulationCount": 0
+  },
+  "executiveSummary": "기본 행정 정보는 80% 정확도로 양호합니다. \n\n그러나 **\"추천해줘\"라는 질문에서 증평군이(가) 18건 빠집니다.** AI가 증평을(를) 몰라서가 아니라, 추천 후보에 올릴 만큼의 콘텐츠가 부족하기 때문입니다.\n\n**기회**: 홈페이지의 텍스트 구조화(JSON-LD)만으로 개선이 가능합니다.",
+  "oneLineForLeader": "AI에게 \"충북에서 살기 좋은 곳 3곳 추천해줘…\"를 물으면 증평군이(가) 빠집니다. 홈페이지의 핵심 콘텐츠를 JSON-LD로 구조화하면 비용 없이 AI 추천 목록에 진입할 수 있습니다.",
+  "insights": {
+    "associationTest": {
+      "responses": [
+        {
+          "rep": 1,
+          "rawText": "증평 하면 보통 다음 세 가지가 떠올라요.  1. **좌구산휴양랜드** – 자연 속에서 산책·휴양을 즐길 수 있는 곳   2. **증평민속체험박물관** – 지역 전통문화와 민속을 체험할 수 있는 공간   3. **인삼과 홍삼** – 증평의 대표적인 특산물 이미지",
+          "words": [
+            "좌구산휴양랜드",
+            "증평민속체험박물관",
+            "인삼과 홍삼"
+          ]
+        },
+        {
+          "rep": 2,
+          "rawText": "증평 하면 보통 다음 세 가지가 떠올라요.  1. **좌구산 휴양랜드** – 숲과 자연을 즐길 수 있는 대표 관광지   2. **증평 인삼** – 건강식품으로 유명한 지역 특산물   3. **보강천 미루나무숲** – 산책과 휴식을 즐기기 좋은 명소",
+          "words": [
+            "좌구산 휴양랜드",
+            "증평 인삼",
+            "보강천 미루나무숲"
+          ]
+        },
+        {
+          "rep": 3,
+          "rawText": "증평 하면 보통 다음 세 가지가 떠오릅니다.   1. **좌구산휴양랜드** – 자연휴양림과 출렁다리 등으로 유명한 휴양지   2. **증평민속체험박물관** – 지역 전통문화와 민속을 체험할 수 있는 곳   3. **인삼과 홍삼 제품** – 증평의 대표 특산물 중 하나로 건강식품으로 잘 알려져 있습니다.",
+          "words": [
+            "좌구산휴양랜드",
+            "증평민속체험박물관",
+            "인삼과 홍삼 제품"
+          ]
+        }
+      ],
+      "stableWords": [
+        "좌구산휴양랜드"
+      ],
+      "unstableWords": [
+        "증평민속체험박물관",
+        "인삼과 홍삼",
+        "증평 인삼",
+        "보강천 미루나무숲",
+        "인삼과 홍삼 제품"
+      ]
+    },
+    "recommendationGaps": [
+      {
+        "questionId": "V-A1",
+        "questionText": "충북에서 살기 좋은 곳 3곳 추천해줘",
+        "questionType": "recommendation",
+        "aiRecommended": "충북에서 살기 좋은 곳으로는 다음 3곳을 추천합니다.  1. **청주시**: 충북의 중심 도시로 일자리·병원·교육·쇼핑 등 생활 인프라가 가장 편리합니다.   2. **충주시**:",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A2",
+        "questionText": "충북에서 귀농귀촌하기 좋은 곳 어디야?",
+        "questionType": "recommendation",
+        "aiRecommended": "충북에서는 **괴산·보은**이 농촌 정착과 귀농 교육·지원사업이 비교적 활발하고, **옥천·영동**은 대전·청주 등 도시 접근성과 과수·원예 농업 여건이 좋은 편입니다. **단양*",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A3",
+        "questionText": "한국에서 인삼 산지로 유명한 곳 어디야?",
+        "questionType": "recommendation",
+        "aiRecommended": "한국의 대표적인 인삼 산지는 **충남 금산**, **경북 영주·풍기**, **전북 진안**, **강원 홍천**, **충북 괴산**입니다.   특히 **금산**은 국내 최대 규모의 ",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D1",
+        "questionText": "서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "서울에서 **승용차 기준 1시간 30분 안팎**으로 접근 가능한 귀촌 후보지는 다음과 같습니다(교통량에 따라 달라집니다).  - **양평군**: 서울 접근성이 좋고 산·강 환경과 ",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D2",
+        "questionText": "은퇴 후 충북에서 조용히 살 곳 어디야?",
+        "questionType": "scenario",
+        "aiRecommended": "은퇴 후 조용한 생활을 원하면 **괴산·보은·옥천의 읍면 지역**이 전원생활에 적합하고, 자연경관과 생활편의를 함께 원하면 **제천 외곽이나 단양**을 추천합니다.   의료기관·장",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D3",
+        "questionText": "50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "50대 부부가 텃밭을 가꾸며 살기에는 **충남 공주·서천, 전북 남원·김제, 경북 상주·영주, 전남 순천 외곽**을 추천합니다.   - **공주**: 대전 접근성이 좋고 농촌 주거",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A1",
+        "questionText": "충북에서 살기 좋은 곳 3곳 추천해줘",
+        "questionType": "recommendation",
+        "aiRecommended": "충북에서 살기 좋은 곳으로는 다음 3곳을 추천합니다.  1. **청주시**: 일자리·교육·의료·문화시설이 가장 다양하고, 교통과 생활 편의성이 좋습니다.   2. **충주시**: ",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A2",
+        "questionText": "충북에서 귀농귀촌하기 좋은 곳 어디야?",
+        "questionType": "recommendation",
+        "aiRecommended": "충북에서는 **괴산·보은**이 농촌 정착과 귀농 교육·공동체 활동을 중시하는 분에게, **옥천·영동**이 대전 등 도시 접근성과 과수·농업을 함께 고려하는 분에게 적합합니다.   ",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A3",
+        "questionText": "한국에서 인삼 산지로 유명한 곳 어디야?",
+        "questionType": "recommendation",
+        "aiRecommended": "한국의 대표적인 인삼 산지는 **충남 금산**, **경북 영주·풍기**, **전북 진안**, **충북 음성**입니다.   특히 **금산 인삼**은 국내 최대 규모의 인삼 유통지로 ",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D1",
+        "questionText": "서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "서울 도심 기준 자차 약 1시간 30분 안팎으로는 **경기 양평·가평·여주·이천**, **인천 강화군**, **강원 홍천 서부권**을 우선 검토해볼 만합니다.   양평·가평은 자연",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D2",
+        "questionText": "은퇴 후 충북에서 조용히 살 곳 어디야?",
+        "questionType": "scenario",
+        "aiRecommended": "은퇴 후 조용한 생활을 원하시면 **괴산·보은·옥천**이 전원생활과 낮은 주거 밀도 측면에서 적합하고, 병원·마트 등 생활 편의까지 고려하면 **제천 외곽이나 충주 외곽**이 균형",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D3",
+        "questionText": "50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "50대 부부가 텃밭을 가꾸며 살기에는 **충남 홍성·예산, 전북 남원, 경북 영주, 전남 순천 외곽**을 추천합니다.   - **홍성·예산**: 귀농·귀촌 기반과 농산물 직거래가 ",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A1",
+        "questionText": "충북에서 살기 좋은 곳 3곳 추천해줘",
+        "questionType": "recommendation",
+        "aiRecommended": "충북에서 살기 좋은 곳으로는 다음 3곳을 추천합니다.   1. **청주시**: 일자리·교육·의료·문화시설이 가장 다양하고, 교통과 생활 인프라를 중시하는 분에게 적합합니다.   2",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A2",
+        "questionText": "충북에서 귀농귀촌하기 좋은 곳 어디야?",
+        "questionType": "recommendation",
+        "aiRecommended": "충북에서는 **생활 편의·일자리**를 중시하면 청주 외곽·진천·음성, **자연환경과 도시 접근성**을 함께 원하면 충주·제천, **조용한 농촌생활과 귀농 정착**을 원하면 괴산·보",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A3",
+        "questionText": "한국에서 인삼 산지로 유명한 곳 어디야?",
+        "questionType": "recommendation",
+        "aiRecommended": "한국에서 인삼 산지로 가장 유명한 곳은 **충남 금산군**입니다. 금산은 전국 최대 규모의 인삼 유통지로, **금산인삼시장**과 매년 열리는 **금산세계인삼축제**로도 잘 알려져 ",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D1",
+        "questionText": "서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "서울 도심 기준 **차량 이동 1시간 30분 안팎**의 귀촌 후보지는 다음과 같습니다(교통량과 출발지에 따라 달라집니다).   - **양평**: 서울 접근성, 자연환경, 병원·생활",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D2",
+        "questionText": "은퇴 후 충북에서 조용히 살 곳 어디야?",
+        "questionType": "scenario",
+        "aiRecommended": "은퇴 후 조용한 생활을 원하시면 **괴산·보은·옥천의 읍·면 지역**이 전원생활에 적합하고, 산과 호수를 선호하면 **제천 외곽·단양**도 좋습니다.   다만 병원·장보기·대중교통",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D3",
+        "questionText": "50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "텃밭과 전원생활을 함께 원한다면 **충북 제천·단양, 전북 남원·정읍, 충남 서산·공주, 경남 밀양**을 추천합니다.   제천·단양은 공기와 자연환경이 좋지만 겨울이 춥고, 남원·",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      }
+    ],
+    "categoryInsights": [
+      {
+        "category": "specialty_industry",
+        "totalQuestions": 9,
+        "relevantCount": 1,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [],
+        "weakQuestions": [
+          {
+            "id": "J-C1-01",
+            "verdict": "partial"
+          },
+          {
+            "id": "J-C1-02",
+            "verdict": "partial"
+          },
+          {
+            "id": "J-C1-03",
+            "verdict": "accurate_relevant"
+          }
+        ],
+        "sampleResponse": "증평 인삼은 사계절이 뚜렷하고 일교차가 큰 기후, 깨끗한 물과 비옥한 토양 등 인삼 재배에 알맞은 환경에서 자라 품질이 좋다고 알려져 있습니다. 또한 오랜 재배 경험과 생산·가공 기술이 축적되어 있으며, 증평인삼골축제와 직거래·가공품 등을 통해 인지도가 높아졌습니다. "
+      },
+      {
+        "category": "landmark",
+        "totalQuestions": 9,
+        "relevantCount": 6,
+        "genericCount": 2,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "J-C2-01",
+            "matchRate": 1
+          },
+          {
+            "id": "J-C2-02",
+            "matchRate": 0.6666666666666666
+          },
+          {
+            "id": "J-C2-03",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [],
+        "sampleResponse": "증평 **좌구산자연휴양림**에는 숲속의집·산림문화휴양관 등 숙박시설과 야영장, 산책로, 휴게시설이 있으며, 인근에 좌구산 명상구름다리·천문대·숲속모험시설 등도 함께 이용할 수 있습니다.   이용은 **숲나들e**에서 회원가입 후 ‘좌구산자연휴양림’을 검색해 날짜와 시설"
+      },
+      {
+        "category": "local_policy",
+        "totalQuestions": 9,
+        "relevantCount": 4,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "J-C3-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "J-C3-01",
+            "verdict": "partial"
+          },
+          {
+            "id": "J-C3-03",
+            "verdict": "partial"
+          }
+        ],
+        "sampleResponse": "네. 증평군은 귀농·귀촌인을 대상으로 **귀농 농업창업·주택구입 지원(저리 융자)**, 귀농·귀촌 교육 및 상담, 영농 정착 관련 사업 등을 운영하며, 사업별로 대상·한도·신청기간이 다릅니다.   특히 농업창업·주택구입 지원은 보조금이 아니라 융자사업인 경우가 많으므로"
+      },
+      {
+        "category": "heritage",
+        "totalQuestions": 6,
+        "relevantCount": 3,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "J-C4-01",
+            "matchRate": 0.6666666666666666
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "J-C4-02",
+            "verdict": "partial"
+          }
+        ],
+        "sampleResponse": "증평군은 **2003년 8월 30일**, 괴산군에서 분리되어 독립된 군으로 출범했습니다.   따라서 2026년 기준으로 독립 군이 된 지 약 23년이 되었습니다.   출처: [증평군청](https://www.jp.go.kr/)"
+      },
+      {
+        "category": "geography",
+        "totalQuestions": 9,
+        "relevantCount": 3,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "J-C5-01",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "J-C5-02",
+            "verdict": "partial"
+          },
+          {
+            "id": "J-C5-03",
+            "verdict": "partial"
+          }
+        ],
+        "sampleResponse": "증평에서 서울까지는 **시외버스**가 가장 간편하며, 증평시외버스터미널에서 **동서울터미널까지 약 1시간 40분~2시간 20분** 정도 걸립니다(교통 상황에 따라 변동).   **승용차**는 중부고속도로를 이용하면 약 **1시간 40분~2시간 30분**이지만, 출퇴근 "
+      },
+      {
+        "category": "local_food",
+        "totalQuestions": 6,
+        "relevantCount": 5,
+        "genericCount": 1,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "J-C6-01",
+            "matchRate": 1
+          },
+          {
+            "id": "J-C6-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [],
+        "sampleResponse": "증평의 대표적인 먹거리로는 **증평인삼을 활용한 인삼삼계탕·인삼튀김·인삼정식**이 있습니다.   또한 금강 상류 지역에서 잡히는 다슬기로 만든 **올갱이국**도 향토 음식으로 많이 알려져 있습니다.   지역 특산품으로는 **증평인삼과 장뜰쌀**을 함께 알아보시면 좋습니"
+      },
+      {
+        "category": "recent_issue",
+        "totalQuestions": 12,
+        "relevantCount": 7,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "J-C7-01",
+            "matchRate": 1
+          },
+          {
+            "id": "J-C7-03",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "J-C7-02",
+            "verdict": "accurate_relevant"
+          },
+          {
+            "id": "J-C7-04",
+            "verdict": "partial"
+          }
+        ],
+        "sampleResponse": "네. 증평군은 주민 편의시설과 문화·복지 기능을 한곳에 모은 **복합커뮤니티센터 건립을 추진하는 계획**을 마련한 것으로 알려져 있습니다. 다만 사업 규모와 착공·준공 일정은 예산 확보와 행정절차에 따라 변경될 수 있으므로, 최신 확정 내용은 증평군청의 고시·공고 및 "
+      }
+    ],
+    "stabilityAnalysis": [
+      {
+        "questionId": "B-01",
+        "category": "01",
+        "question": "",
+        "stableCount": 1,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "absent"
+          }
+        ]
+      },
+      {
+        "questionId": "B-02",
+        "category": "02",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-03",
+        "category": "03",
+        "question": "",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "absent"
+          }
+        ]
+      },
+      {
+        "questionId": "B-04",
+        "category": "04",
+        "question": "",
+        "stableCount": 1,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "absent"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "absent"
+          }
+        ]
+      },
+      {
+        "questionId": "B-05",
+        "category": "05",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-06",
+        "category": "06",
+        "question": "",
+        "stableCount": 1,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "absent"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "absent"
+          }
+        ]
+      },
+      {
+        "questionId": "B-07",
+        "category": "07",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-08",
+        "category": "08",
+        "question": "",
+        "stableCount": 1,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "absent"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "absent"
+          }
+        ]
+      },
+      {
+        "questionId": "B-09",
+        "category": "09",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-10",
+        "category": "10",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-11",
+        "category": "11",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-12",
+        "category": "12",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-13",
+        "category": "13",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-14",
+        "category": "14",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-15",
+        "category": "15",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      }
+    ],
+    "urlAnalysis": {
+      "totalResults": 150,
+      "withUrlCount": 133,
+      "publicUrlCount": 160,
+      "ownDomainCount": 93,
+      "topDomains": [
+        {
+          "domain": "www.jp.go.kr",
+          "count": 93
+        },
+        {
+          "domain": "www.returnfarm.com",
+          "count": 11
+        },
+        {
+          "domain": "www.foresttrip.go.kr",
+          "count": 6
+        },
+        {
+          "domain": "www.chungbuk.go.kr",
+          "count": 5
+        },
+        {
+          "domain": "www",
+          "count": 5
+        }
+      ]
+    },
+    "t3MentionByType": [
+      {
+        "type": "recommendation",
+        "mentioned": 0,
+        "total": 9,
+        "rate": 0
+      },
+      {
+        "type": "association",
+        "mentioned": 6,
+        "total": 6,
+        "rate": 1
+      },
+      {
+        "type": "keyword_entry",
+        "mentioned": 5,
+        "total": 9,
+        "rate": 0.5555555555555556
+      },
+      {
+        "type": "scenario",
+        "mentioned": 0,
+        "total": 9,
+        "rate": 0
+      },
+      {
+        "type": "comparison",
+        "mentioned": 6,
+        "total": 6,
+        "rate": 1
+      },
+      {
+        "type": "negative_test",
+        "mentioned": 6,
+        "total": 6,
+        "rate": 1
+      }
+    ]
+  },
+  "diamond": {
+    "signals": {
+      "strengths": [
+        {
+          "id": "S-T3-association",
+          "description": "높은 association 맥락 인지도",
+          "evidence": "추천/언급 비율이 100%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-T3-comparison",
+          "description": "높은 comparison 맥락 인지도",
+          "evidence": "추천/언급 비율이 100%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-T3-negative_test",
+          "description": "높은 negative_test 맥락 인지도",
+          "evidence": "추천/언급 비율이 100%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-URL",
+          "description": "공식 채널 출처 비중이 높음",
+          "evidence": "총 인용 URL 중 공식 도메인 비중 50% 초과",
+          "impact": "medium"
+        }
+      ],
+      "weaknesses": [
+        {
+          "id": "W-T1-UNSTABLE-B-01",
+          "description": "응답 불안정성: 01",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-03",
+          "description": "응답 불안정성: 03",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-04",
+          "description": "응답 불안정성: 04",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-06",
+          "description": "응답 불안정성: 06",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-08",
+          "description": "응답 불안정성: 08",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T3-REC-ZERO",
+          "description": "AI 추천 목록 내 진입 실패",
+          "evidence": "추천형 질의(T3)에서 한 번도 언급되지 않음",
+          "impact": "high"
+        }
+      ],
+      "opportunities": [
+        {
+          "id": "O-T2-PARTIAL-landmark",
+          "description": "부분적 이해도 활용 (landmark)",
+          "evidence": "범용적(generic) 응답을 상세(relevant) 응답으로 전환 가능성 높음",
+          "impact": "medium"
+        },
+        {
+          "id": "O-T2-PARTIAL-local_food",
+          "description": "부분적 이해도 활용 (local_food)",
+          "evidence": "범용적(generic) 응답을 상세(relevant) 응답으로 전환 가능성 높음",
+          "impact": "medium"
+        },
+        {
+          "id": "O-T3-KEYWORD",
+          "description": "키워드 연상성 확대",
+          "evidence": "키워드 진입(T3) 비율이 상승 여력이 있음",
+          "impact": "medium"
+        },
+        {
+          "id": "O-ASSOC-UNSTABLE",
+          "description": "잠재적 연관어 발굴",
+          "evidence": "불안정하게 노출되는 단어(증평민속체험박물관 등)를 제3의 키워드로 육성 가능",
+          "impact": "low"
+        }
+      ],
+      "threats": []
+    },
+    "defenseAreas": [
+      {
+        "rank": 1,
+        "area": "01",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-01",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 2,
+        "area": "03",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-03",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 3,
+        "area": "04",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-04",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 4,
+        "area": "06",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-06",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 5,
+        "area": "08",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-08",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 6,
+        "area": "핵심 브랜드",
+        "currentState": "높은 인지도 유지 중",
+        "evidence": "안정적 키워드 도출",
+        "action": "현 상태 유지 (모니터링)",
+        "cost": "0원",
+        "timeline": "즉시",
+        "expectedEffect": "현상 유지"
+      }
+    ],
+    "opportunityAreas": [
+      {
+        "rank": 1,
+        "area": "추천 진입",
+        "currentState": "추천 빈도 0%",
+        "evidence": "T3 Recommendation",
+        "action": "AI 추천 목록 진입을 위한 통합 소개 페이지 개설",
+        "cost": "웹사이트 수정 필요",
+        "timeline": "1개월",
+        "expectedEffect": "LLM 문맥에 지자체 추천 맥락 강화"
+      },
+      {
+        "rank": 2,
+        "area": "landmark",
+        "currentState": "범용적 안내 수준",
+        "evidence": "Category: landmark",
+        "action": "JSON-LD 구조화 데이터 삽입",
+        "cost": "0원 ~ 소액",
+        "timeline": "즉시",
+        "expectedEffect": "구체적 사실(Fact)의 검색 노출 및 AI 인용률 상승"
+      },
+      {
+        "rank": 3,
+        "area": "local_food",
+        "currentState": "범용적 안내 수준",
+        "evidence": "Category: local_food",
+        "action": "JSON-LD 구조화 데이터 삽입",
+        "cost": "0원 ~ 소액",
+        "timeline": "즉시",
+        "expectedEffect": "구체적 사실(Fact)의 검색 노출 및 AI 인용률 상승"
+      },
+      {
+        "rank": 4,
+        "area": "브랜드 연상",
+        "currentState": "일부 키워드 불안정",
+        "evidence": "불안정 키워드: 증평민속체험박물관, 인삼과 홍삼",
+        "action": "3번째 키워드 콘텐츠 전략",
+        "cost": "콘텐츠 마케팅 비용",
+        "timeline": "3개월",
+        "expectedEffect": "신규 키워드 선점 및 AI 연관성 강화"
+      }
+    ],
+    "roadmap": {
+      "immediate": [
+        {
+          "action": "JSON-LD 구조화 데이터 삽입 (landmark)",
+          "detail": "기존 페이지에 메타데이터 보강",
+          "cost": "0원"
+        },
+        {
+          "action": "JSON-LD 구조화 데이터 삽입 (local_food)",
+          "detail": "기존 페이지에 메타데이터 보강",
+          "cost": "0원"
+        }
+      ],
+      "oneMonth": [
+        {
+          "action": "범용 카테고리 페이지 개편",
+          "detail": "AI가 자주 언급하는 범용 답변 영역 구체화",
+          "cost": "웹 운영 리소스"
+        }
+      ],
+      "threeMonths": [
+        {
+          "action": "신규 키워드 전략 실행",
+          "detail": "증평민속체험박물관, 인삼과 홍삼 중심의 콘텐츠 발행",
+          "cost": "마케팅 비용 편성 필요"
+        }
+      ]
+    }
+  },
+  "markdownFull": "# 증평군 AI 검색 가시성(AEO) 종합 진단 보고서\n\n> **탐색적 측정 — 사전 등록 전 파일럿** (INV-11)\n>\n> 측정일 2026-09-07 · 모델 gpt-5.6-luna · 방법론 v2.1\n> 50문항 × 3회 반복 = 150회 측정 · 에러 0건 · 작화 9건\n\n---\n\n## Executive Summary\n\n기본 행정 정보는 80% 정확도로 양호합니다. \n\n그러나 **\"추천해줘\"라는 질문에서 증평군이(가) 18건 빠집니다.** AI가 증평을(를) 몰라서가 아니라, 추천 후보에 올릴 만큼의 콘텐츠가 부족하기 때문입니다.\n\n**기회**: 홈페이지의 텍스트 구조화(JSON-LD)만으로 개선이 가능합니다.\n\n---\n\n## 1. AI가 보는 증평군 — 한눈에\n\n| 지표 | 결과 | 등급 | 의미 |\n|---|---|---|---|\n| **기본 행정 정확도** | **80%** (150건 중 36건) | 🟢 양호 | AI가 행정 정보를 물으면 정확하게 답하는 비율 |\n| **고유 정보 인지도** | **48%** | 🟡 보통 | 증평군 고유 정보를 포함하여 답하는 비율 |\n| **AI 추천 점유율** | **51%** | 🟡 보통 | 추천·비교·시나리오 질문에 증평군이(가) 등장하는 비율 |\n| **Floor Risk** | moderate | 🟡 주의 | 작화(존재하지 않는 정보 생성) 위험도 |\n\n### T3 유형별 언급률\n\n| 유형 | 언급률 | 해석 |\n|---|---|---|\n| 추천 | 0% | ❌ **미언급** |\n| 연상 | 100% | ✅ 우수 |\n| 키워드 진입 | 56% | 🟡 보통 |\n| 시나리오 | 0% | ❌ **미언급** |\n| 비교 | 100% | ✅ 우수 |\n| 부정 테스트 | 100% | ✅ 우수 |\n\n---\n\n## 2. AI가 가장 잘 아는 증평군\n\n### \"증평 하면 뭐가 떠올라?\" 연상어 테스트\n\n| 반복 | AI가 떠올린 것 |\n|---|---|\n| 1회차 | 1. 좌구산휴양랜드 2. 증평민속체험박물관 3. 인삼과 홍삼 |\n| 2회차 | 1. 좌구산 휴양랜드 2. 증평 인삼 3. 보강천 미루나무숲 |\n| 3회차 | 1. 좌구산휴양랜드 2. 증평민속체험박물관 3. 인삼과 홍삼 제품 |\n\n- **안정 키워드** (3/3 등장): **좌구산휴양랜드**\n- **불안정 키워드** (1~2/3): 증평민속체험박물관, 인삼과 홍삼, 증평 인삼, 보강천 미루나무숲, 인삼과 홍삼 제품\n\n> 📌 안정 키워드는 **방어 자산**입니다. 관련 페이지 개편 시 기존 텍스트를 보존해야 합니다.\n\n---\n\n## 3. AI 추천에서 증평군이(가) 빠지는 순간 — 가장 중요한 섹션\n\n### ❌ \"증평군\"이(가) 빠진 질문 (18건)\n\n| # | 질문 | AI가 추천한 곳 |\n|---|---|---|\n| 1 | 충북에서 살기 좋은 곳 3곳 추천해줘 | 충북에서 살기 좋은 곳으로는 다음 3곳을 추천합니다.  1. **청주시**: 충북의 중심 도시로 일자리·병원… |\n| 2 | 충북에서 귀농귀촌하기 좋은 곳 어디야? | 충북에서는 **괴산·보은**이 농촌 정착과 귀농 교육·지원사업이 비교적 활발하고, **옥천·영동**은 대전·… |\n| 3 | 한국에서 인삼 산지로 유명한 곳 어디야? | 한국의 대표적인 인삼 산지는 **충남 금산**, **경북 영주·풍기**, **전북 진안**, **강원 홍천*… |\n| 4 | 서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘 | 서울에서 **승용차 기준 1시간 30분 안팎**으로 접근 가능한 귀촌 후보지는 다음과 같습니다(교통량에 따라… |\n| 5 | 은퇴 후 충북에서 조용히 살 곳 어디야? | 은퇴 후 조용한 생활을 원하면 **괴산·보은·옥천의 읍면 지역**이 전원생활에 적합하고, 자연경관과 생활편의… |\n| 6 | 50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘 | 50대 부부가 텃밭을 가꾸며 살기에는 **충남 공주·서천, 전북 남원·김제, 경북 상주·영주, 전남 순천 외… |\n| 7 | 충북에서 살기 좋은 곳 3곳 추천해줘 | 충북에서 살기 좋은 곳으로는 다음 3곳을 추천합니다.  1. **청주시**: 일자리·교육·의료·문화시설이 가… |\n| 8 | 충북에서 귀농귀촌하기 좋은 곳 어디야? | 충북에서는 **괴산·보은**이 농촌 정착과 귀농 교육·공동체 활동을 중시하는 분에게, **옥천·영동**이 대… |\n| 9 | 한국에서 인삼 산지로 유명한 곳 어디야? | 한국의 대표적인 인삼 산지는 **충남 금산**, **경북 영주·풍기**, **전북 진안**, **충북 음성*… |\n| 10 | 서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘 | 서울 도심 기준 자차 약 1시간 30분 안팎으로는 **경기 양평·가평·여주·이천**, **인천 강화군**, … |\n| 11 | 은퇴 후 충북에서 조용히 살 곳 어디야? | 은퇴 후 조용한 생활을 원하시면 **괴산·보은·옥천**이 전원생활과 낮은 주거 밀도 측면에서 적합하고, 병원… |\n| 12 | 50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘 | 50대 부부가 텃밭을 가꾸며 살기에는 **충남 홍성·예산, 전북 남원, 경북 영주, 전남 순천 외곽**을 추… |\n| 13 | 충북에서 살기 좋은 곳 3곳 추천해줘 | 충북에서 살기 좋은 곳으로는 다음 3곳을 추천합니다.   1. **청주시**: 일자리·교육·의료·문화시설이 … |\n| 14 | 충북에서 귀농귀촌하기 좋은 곳 어디야? | 충북에서는 **생활 편의·일자리**를 중시하면 청주 외곽·진천·음성, **자연환경과 도시 접근성**을 함께 … |\n| 15 | 한국에서 인삼 산지로 유명한 곳 어디야? | 한국에서 인삼 산지로 가장 유명한 곳은 **충남 금산군**입니다. 금산은 전국 최대 규모의 인삼 유통지로, … |\n| 16 | 서울에서 1시간 30분대로 갈 수 있는 귀촌 후보지 추천해줘 | 서울 도심 기준 **차량 이동 1시간 30분 안팎**의 귀촌 후보지는 다음과 같습니다(교통량과 출발지에 따라… |\n| 17 | 은퇴 후 충북에서 조용히 살 곳 어디야? | 은퇴 후 조용한 생활을 원하시면 **괴산·보은·옥천의 읍·면 지역**이 전원생활에 적합하고, 산과 호수를 선… |\n| 18 | 50대 부부가 텃밭 가꾸며 살기 좋은 한국 소도시 추천해줘 | 텃밭과 전원생활을 함께 원한다면 **충북 제천·단양, 전북 남원·정읍, 충남 서산·공주, 경남 밀양**을 추… |\n\n> 🔴 **18개 추천/시나리오 질문에서 증평군이(가) 빠집니다.** AI가 증평군을(를) 몰라서가 아니라, **추천 후보 목록에 올릴 만큼의 온라인 콘텐츠가 부족**한 것입니다.\n\n---\n\n## 4. 기본 행정 점검표 (15문항 × 3회)\n\n| # | 질문 | 1회 | 2회 | 3회 | 판정 |\n|---|---|---|---|---|---|\n| 1 | … | ✅ | — | — | 🟡 불안정 |\n| 2 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 3 | … | ✅ | ✅ | — | 🟡 불안정 |\n| 4 | … | — | ✅ | — | 🟡 불안정 |\n| 5 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 6 | … | — | ✅ | — | 🟡 불안정 |\n| 7 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 8 | … | — | ✅ | — | 🟡 불안정 |\n| 9 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 10 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 11 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 12 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 13 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 14 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 15 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n\n**🟢 안정 10문항 · 🟡 불안정 5문항 · 🔴 미응답/위험 0문항**\n\n---\n\n## 5. 고유 정보 카테고리별 분석\n\n| 카테고리 | 고유정보 포함 | 범용 답변 | 미응답 | 등급 |\n|---|---|---|---|---|\n| 특산·산업 | 11% | 0% | 0 | 🔴 |\n| 시설·랜드마크 | 67% | 22% | 0 | 🟢 |\n| 독자정책 | 44% | 0% | 0 | 🟡 |\n| 역사·문화재 | 50% | 0% | 0 | 🟡 |\n| 지리·생활권 | 33% | 0% | 0 | 🟡 |\n| 음식·명소 | 83% | 17% | 0 | 🟢 |\n| 최근이슈 | 58% | 0% | 0 | 🟡 |\n\n- **고유정보 포함**: AI가 해당 도시만의 구체적 정보를 답한 비율\n- **범용 답변**: \"시청에 문의하세요\" 수준의 일반적 답변\n\n---\n\n## 6. 전략 매트릭스 — 기회 vs 방어\n\n### 🛡️ 방어 필수 — \"방치하면 시민 민원이 된다\"\n\n| 순위 | 영역 | 현재 | 근거 | 조치 | 비용 |\n|---|---|---|---|---|---|\n| D1 | **01** | 정보 불안정 (Unstable) | B-01 | FAQ 보강 | 내부 리소스 |\n| D2 | **03** | 정보 불안정 (Unstable) | B-03 | FAQ 보강 | 내부 리소스 |\n| D3 | **04** | 정보 불안정 (Unstable) | B-04 | FAQ 보강 | 내부 리소스 |\n| D4 | **06** | 정보 불안정 (Unstable) | B-06 | FAQ 보강 | 내부 리소스 |\n| D5 | **08** | 정보 불안정 (Unstable) | B-08 | FAQ 보강 | 내부 리소스 |\n| D6 | **핵심 브랜드** | 높은 인지도 유지 중 | 안정적 키워드 도출 | 현 상태 유지 (모니터링) | 0원 |\n\n### 🚀 기회 영역 — \"투자 대비 효과가 큰 곳\"\n\n| 순위 | 영역 | 현재 | 근거 | 전략 | 기대 효과 |\n|---|---|---|---|---|---|\n| O1 | **추천 진입** | 추천 빈도 0% | T3 Recommendation | AI 추천 목록 진입을 위한 통합 소개 페이지 개설 | LLM 문맥에 지자체 추천 맥락 강화 |\n| O2 | **landmark** | 범용적 안내 수준 | Category: landmark | JSON-LD 구조화 데이터 삽입 | 구체적 사실(Fact)의 검색 노출 및 AI 인용률 상승 |\n| O3 | **local_food** | 범용적 안내 수준 | Category: local_food | JSON-LD 구조화 데이터 삽입 | 구체적 사실(Fact)의 검색 노출 및 AI 인용률 상승 |\n| O4 | **브랜드 연상** | 일부 키워드 불안정 | 불안정 키워드: 증평민속체험박물관, 인삼과 홍삼 | 3번째 키워드 콘텐츠 전략 | 신규 키워드 선점 및 AI 연관성 강화 |\n\n---\n\n## 7. 처방전 — 실행 로드맵\n\n### 즉시 (1주일, 비용 0원)\n\n```\n✅ JSON-LD 구조화 데이터 삽입 (landmark)\n✅ JSON-LD 구조화 데이터 삽입 (local_food)\n```\n\n### 1개월 (예산 500만원 이내)\n\n```\n📋 범용 카테고리 페이지 개편\n```\n\n### 3개월 (콘텐츠 전략)\n\n```\n🎯 신규 키워드 전략 실행\n```\n\n---\n\n## 8. 군수님께 드리는 한 문장\n\n> **AI에게 \"충북에서 살기 좋은 곳 3곳 추천해줘…\"를 물으면 증평군이(가) 빠집니다. 홈페이지의 핵심 콘텐츠를 JSON-LD로 구조화하면 비용 없이 AI 추천 목록에 진입할 수 있습니다.**\n\n---\n\n*이 보고서는 gpt-5.6-luna 모델의 응답을 분석한 것이며, AI의 응답이 곧 사실은 아닙니다.*\n*측정 방법론 v2.1 · 50문항 × 3회 반복*\n*이 값은 탐색적 측정이며, 사전 등록된 확정 결과가 아닙니다 (INV-11).*",
+  "markdownSections": []
+}

@@ -1,0 +1,911 @@
+{
+  "metadata": {
+    "unitId": "lg-41110",
+    "unitName": "수원시",
+    "population": "local_gov",
+    "measuredOn": "2026-09-07",
+    "model": "gpt-5.6-luna",
+    "methodVersion": "v2.1",
+    "totalQueries": 50,
+    "successCount": 150,
+    "absentCount": 12,
+    "errorCount": 0,
+    "reps": 3,
+    "isExploratory": true
+  },
+  "dashboard": {
+    "t1Accuracy": 0.7777777777777778,
+    "t1StableCount": 8,
+    "t1TotalQuestions": 15,
+    "t2RelevanceRate": 0.65,
+    "t2GenericRate": 0.03333333333333333,
+    "t2TotalQuestions": 20,
+    "t3ShareOfVoice": 0.9333333333333333,
+    "t3ByType": [
+      {
+        "type": "recommendation",
+        "rate": 1
+      },
+      {
+        "type": "association",
+        "rate": 1
+      },
+      {
+        "type": "keyword_entry",
+        "rate": 0.7777777777777778
+      },
+      {
+        "type": "scenario",
+        "rate": 0.8888888888888888
+      },
+      {
+        "type": "comparison",
+        "rate": 1
+      },
+      {
+        "type": "negative_test",
+        "rate": 1
+      }
+    ],
+    "floorRisk": "moderate",
+    "confabulationCount": 0
+  },
+  "executiveSummary": "기본 행정 정보의 정확도가 78%로, 개선이 필요합니다. \n\n그러나 **\"추천해줘\"라는 질문에서 수원시이(가) 1건 빠집니다.** AI가 수원을(를) 몰라서가 아니라, 추천 후보에 올릴 만큼의 콘텐츠가 부족하기 때문입니다.\n\n**기회**: 홈페이지의 텍스트 구조화(JSON-LD)만으로 개선이 가능합니다.",
+  "oneLineForLeader": "수원시은(는) AI가 …을(를) 3번 물어도 0번 답합니다. 홈페이지에 FAQ 한 페이지를 추가하는 것이 가장 시급한 조치입니다.",
+  "insights": {
+    "associationTest": {
+      "responses": [
+        {
+          "rep": 1,
+          "rawText": "1. 수원화성   2. 수원 왕갈비   3. 삼성전자 본사",
+          "words": [
+            "수원화성",
+            "수원 왕갈비",
+            "삼성전자 본사"
+          ]
+        },
+        {
+          "rep": 2,
+          "rawText": "1. **수원화성** – 정조 시대에 축조된 세계문화유산   2. **수원 왕갈비** – 수원을 대표하는 음식   3. **프로야구 kt wiz** – 수원을 연고로 하는 KBO 구단",
+          "words": [
+            "수원화성",
+            "수원 왕갈비",
+            "프로야구 kt wiz"
+          ]
+        },
+        {
+          "rep": 3,
+          "rawText": "1. 유네스코 세계문화유산 **수원화성**   2. 맛있는 **수원왕갈비**   3. 열정적인 축구팀 **수원 삼성 블루윙즈**",
+          "words": [
+            "수원화성",
+            "수원왕갈비",
+            "수원 삼성 블루윙즈"
+          ]
+        }
+      ],
+      "stableWords": [
+        "수원화성"
+      ],
+      "unstableWords": [
+        "수원 왕갈비",
+        "삼성전자 본사",
+        "프로야구 kt wiz",
+        "수원왕갈비",
+        "수원 삼성 블루윙즈"
+      ]
+    },
+    "recommendationGaps": [
+      {
+        "questionId": "V-D3",
+        "questionText": "IT 종사자가 출퇴근 편한 수도권 도시 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "IT 근무지가 **판교·분당**이면 성남시(판교·정자·야탑)가 가장 편하고, **강남·구로·가산**이면 과천·안양·광명·부천을 추천합니다.   **마곡·상암** 출근자는 서울 강서",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      }
+    ],
+    "categoryInsights": [
+      {
+        "category": "specialty_industry",
+        "totalQuestions": 9,
+        "relevantCount": 9,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "S-C1-01",
+            "matchRate": 1
+          },
+          {
+            "id": "S-C1-02",
+            "matchRate": 1
+          },
+          {
+            "id": "S-C1-03",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [],
+        "sampleResponse": "네. 수원시 영통구 매탄동에 삼성전자 **수원 디지털시티**가 있으며, 삼성전자 본사 기능과 연구개발(R&D), 제품·기술 개발 조직 등이 운영됩니다. 스마트폰·가전·TV·소프트웨어·네트워크 등 여러 분야의 기획·연구와 업무가 이루어지는 곳이며, 대규모 반도체 생산공장"
+      },
+      {
+        "category": "landmark",
+        "totalQuestions": 9,
+        "relevantCount": 6,
+        "genericCount": 1,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "S-C2-01",
+            "matchRate": 1
+          },
+          {
+            "id": "S-C2-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "S-C2-03",
+            "verdict": "accurate_generic"
+          }
+        ],
+        "sampleResponse": "수원화성 **성곽은 연중 상시 개방**되며, 야간에도 관람할 수 있고 입장료는 **무료**입니다.   다만 **화성행궁 야간개장**은 별도 행사로 운영되며, 보통 5~10월 금·토·일 **18:00~21:30**(입장 마감 21:00)이고 요금은 성인 1,500원·청소"
+      },
+      {
+        "category": "local_policy",
+        "totalQuestions": 9,
+        "relevantCount": 3,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "S-C3-03",
+            "matchRate": 0.6666666666666666
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "S-C3-01",
+            "verdict": "partial"
+          },
+          {
+            "id": "S-C3-02",
+            "verdict": "accurate_relevant"
+          }
+        ],
+        "sampleResponse": "네, 수원시는 **1인 가구를 대상으로 상담·교육, 사회관계망 형성, 건강·돌봄, 주거·생활안전 지원** 등 다양한 사업을 운영하고 있습니다. 사업별로 연령·소득·거주지 등 신청 자격과 모집 기간이 다르며, 안심장비 지원이나 소모임·프로그램은 공고 때 신청합니다. 최신"
+      },
+      {
+        "category": "heritage",
+        "totalQuestions": 6,
+        "relevantCount": 6,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "S-C4-01",
+            "matchRate": 1
+          },
+          {
+            "id": "S-C4-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [],
+        "sampleResponse": "정조대왕은 아버지 사도세자의 묘를 수원 화산의 현륭원으로 옮긴 뒤, 이를 보호하고 참배하기 위해 수원화성을 축조했습니다. 동시에 수원을 새로운 상업·군사 중심지로 발전시키고, 왕권을 강화하며 개혁 정치를 추진하려는 목적도 있었습니다. 화성은 1794년에 착공해 1796"
+      },
+      {
+        "category": "geography",
+        "totalQuestions": 9,
+        "relevantCount": 6,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "S-C5-02",
+            "matchRate": 1
+          },
+          {
+            "id": "S-C5-03",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "S-C5-01",
+            "verdict": "partial"
+          }
+        ],
+        "sampleResponse": "광교는 수원시 영통구와 용인시 수지구에 걸쳐 조성된 신도시로, 광교호수공원·경기도청·신분당선 등이 있는 계획도시입니다.   영통은 주로 수원시 영통구의 기존 생활권을 뜻하며, 영통동·망포동·매탄동 일대처럼 오래 형성된 주거·상업지역이 중심입니다.   즉, **광교는 신"
+      },
+      {
+        "category": "local_food",
+        "totalQuestions": 9,
+        "relevantCount": 5,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "S-C6-01",
+            "matchRate": 0.6666666666666666
+          },
+          {
+            "id": "S-C6-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "S-C6-03",
+            "verdict": "partial"
+          }
+        ],
+        "sampleResponse": "수원 갈비 맛집 거리는 보통 **수원화성 팔달문 인근(수원시 팔달구)**을 말하며, ‘수원갈비거리’로 불립니다.   이 일대에 본수원갈비·가보정 등 유명 갈비집이 모여 있고, 수원화성 관광과 함께 방문하기 좋습니다.   지도: [수원갈비거리 검색](https://map"
+      },
+      {
+        "category": "recent_issue",
+        "totalQuestions": 9,
+        "relevantCount": 4,
+        "genericCount": 1,
+        "absentCount": 1,
+        "strongQuestions": [
+          {
+            "id": "S-C7-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "S-C7-01",
+            "verdict": "partial"
+          },
+          {
+            "id": "S-C7-03",
+            "verdict": "accurate_relevant"
+          }
+        ],
+        "sampleResponse": "수원 스타필드는 이미 건설이 완료되어 **2024년 1월 26일 개장**했습니다. 경기도 수원시 장안구 정자동 옛 KT&G 부지에 조성된 복합쇼핑몰로, 현재 운영 중입니다. 별도의 추가 스타필드 건설 계획은 현재 공식적으로 발표된 내용이 확인되지 않습니다.   출처: "
+      }
+    ],
+    "stabilityAnalysis": [
+      {
+        "questionId": "B-01",
+        "category": "01",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-02",
+        "category": "02",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-03",
+        "category": "03",
+        "question": "",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-04",
+        "category": "04",
+        "question": "",
+        "stableCount": 0,
+        "status": "absent",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "absent"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "absent"
+          }
+        ]
+      },
+      {
+        "questionId": "B-05",
+        "category": "05",
+        "question": "",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-06",
+        "category": "06",
+        "question": "",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "absent"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-07",
+        "category": "07",
+        "question": "",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "absent"
+          }
+        ]
+      },
+      {
+        "questionId": "B-08",
+        "category": "08",
+        "question": "",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-09",
+        "category": "09",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-10",
+        "category": "10",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-11",
+        "category": "11",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-12",
+        "category": "12",
+        "question": "",
+        "stableCount": 1,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "absent"
+          }
+        ]
+      },
+      {
+        "questionId": "B-13",
+        "category": "13",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-14",
+        "category": "14",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-15",
+        "category": "15",
+        "question": "",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      }
+    ],
+    "urlAnalysis": {
+      "totalResults": 150,
+      "withUrlCount": 132,
+      "publicUrlCount": 165,
+      "ownDomainCount": 0,
+      "topDomains": [
+        {
+          "domain": "www.suwon.go.kr",
+          "count": 74
+        },
+        {
+          "domain": "www.swcf.or.kr",
+          "count": 14
+        },
+        {
+          "domain": "whc.unesco.org",
+          "count": 11
+        },
+        {
+          "domain": "www.gg.go.kr",
+          "count": 7
+        },
+        {
+          "domain": "map.naver.com",
+          "count": 6
+        }
+      ]
+    },
+    "t3MentionByType": [
+      {
+        "type": "recommendation",
+        "mentioned": 9,
+        "total": 9,
+        "rate": 1
+      },
+      {
+        "type": "association",
+        "mentioned": 6,
+        "total": 6,
+        "rate": 1
+      },
+      {
+        "type": "keyword_entry",
+        "mentioned": 7,
+        "total": 9,
+        "rate": 0.7777777777777778
+      },
+      {
+        "type": "scenario",
+        "mentioned": 8,
+        "total": 9,
+        "rate": 0.8888888888888888
+      },
+      {
+        "type": "comparison",
+        "mentioned": 6,
+        "total": 6,
+        "rate": 1
+      },
+      {
+        "type": "negative_test",
+        "mentioned": 6,
+        "total": 6,
+        "rate": 1
+      }
+    ]
+  },
+  "diamond": {
+    "signals": {
+      "strengths": [
+        {
+          "id": "S-T3-recommendation",
+          "description": "높은 recommendation 맥락 인지도",
+          "evidence": "추천/언급 비율이 100%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-T3-association",
+          "description": "높은 association 맥락 인지도",
+          "evidence": "추천/언급 비율이 100%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-T3-scenario",
+          "description": "높은 scenario 맥락 인지도",
+          "evidence": "추천/언급 비율이 89%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-T3-comparison",
+          "description": "높은 comparison 맥락 인지도",
+          "evidence": "추천/언급 비율이 100%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-T3-negative_test",
+          "description": "높은 negative_test 맥락 인지도",
+          "evidence": "추천/언급 비율이 100%에 달함",
+          "impact": "high"
+        }
+      ],
+      "weaknesses": [
+        {
+          "id": "W-T1-UNSTABLE-B-03",
+          "description": "응답 불안정성: 03",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-ABSENT-B-04",
+          "description": "필수 정보 부재: 04",
+          "evidence": "T1 문항 \"\"에서 정보가 전혀 출력되지 않음",
+          "impact": "high"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-05",
+          "description": "응답 불안정성: 05",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-06",
+          "description": "응답 불안정성: 06",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-07",
+          "description": "응답 불안정성: 07",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-08",
+          "description": "응답 불안정성: 08",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-12",
+          "description": "응답 불안정성: 12",
+          "evidence": "T1 문항 \"\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        }
+      ],
+      "opportunities": [
+        {
+          "id": "O-T2-PARTIAL-landmark",
+          "description": "부분적 이해도 활용 (landmark)",
+          "evidence": "범용적(generic) 응답을 상세(relevant) 응답으로 전환 가능성 높음",
+          "impact": "medium"
+        },
+        {
+          "id": "O-T2-PARTIAL-recent_issue",
+          "description": "부분적 이해도 활용 (recent_issue)",
+          "evidence": "범용적(generic) 응답을 상세(relevant) 응답으로 전환 가능성 높음",
+          "impact": "medium"
+        },
+        {
+          "id": "O-T3-KEYWORD",
+          "description": "키워드 연상성 확대",
+          "evidence": "키워드 진입(T3) 비율이 상승 여력이 있음",
+          "impact": "medium"
+        },
+        {
+          "id": "O-ASSOC-UNSTABLE",
+          "description": "잠재적 연관어 발굴",
+          "evidence": "불안정하게 노출되는 단어(수원 왕갈비 등)를 제3의 키워드로 육성 가능",
+          "impact": "low"
+        }
+      ],
+      "threats": []
+    },
+    "defenseAreas": [
+      {
+        "rank": 1,
+        "area": "03",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-03",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 2,
+        "area": "04",
+        "currentState": "정보 부재 (Absent)",
+        "evidence": "B-04",
+        "action": "FAQ 신설",
+        "cost": "0원",
+        "timeline": "즉시",
+        "expectedEffect": "AI 응답 내 기초 정보 포함"
+      },
+      {
+        "rank": 3,
+        "area": "05",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-05",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 4,
+        "area": "06",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-06",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 5,
+        "area": "07",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-07",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 6,
+        "area": "08",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-08",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 7,
+        "area": "12",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-12",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 8,
+        "area": "핵심 브랜드",
+        "currentState": "높은 인지도 유지 중",
+        "evidence": "안정적 키워드 도출",
+        "action": "현 상태 유지 (모니터링)",
+        "cost": "0원",
+        "timeline": "즉시",
+        "expectedEffect": "현상 유지"
+      }
+    ],
+    "opportunityAreas": [
+      {
+        "rank": 1,
+        "area": "landmark",
+        "currentState": "범용적 안내 수준",
+        "evidence": "Category: landmark",
+        "action": "JSON-LD 구조화 데이터 삽입",
+        "cost": "0원 ~ 소액",
+        "timeline": "즉시",
+        "expectedEffect": "구체적 사실(Fact)의 검색 노출 및 AI 인용률 상승"
+      },
+      {
+        "rank": 2,
+        "area": "recent_issue",
+        "currentState": "범용적 안내 수준",
+        "evidence": "Category: recent_issue",
+        "action": "JSON-LD 구조화 데이터 삽입",
+        "cost": "0원 ~ 소액",
+        "timeline": "즉시",
+        "expectedEffect": "구체적 사실(Fact)의 검색 노출 및 AI 인용률 상승"
+      },
+      {
+        "rank": 3,
+        "area": "브랜드 연상",
+        "currentState": "일부 키워드 불안정",
+        "evidence": "불안정 키워드: 수원 왕갈비, 삼성전자 본사",
+        "action": "3번째 키워드 콘텐츠 전략",
+        "cost": "콘텐츠 마케팅 비용",
+        "timeline": "3개월",
+        "expectedEffect": "신규 키워드 선점 및 AI 연관성 강화"
+      }
+    ],
+    "roadmap": {
+      "immediate": [
+        {
+          "action": "FAQ 신설 (04)",
+          "detail": "문항 \"\" 대응 콘텐츠 추가",
+          "cost": "0원"
+        },
+        {
+          "action": "JSON-LD 구조화 데이터 삽입 (landmark)",
+          "detail": "기존 페이지에 메타데이터 보강",
+          "cost": "0원"
+        },
+        {
+          "action": "JSON-LD 구조화 데이터 삽입 (recent_issue)",
+          "detail": "기존 페이지에 메타데이터 보강",
+          "cost": "0원"
+        }
+      ],
+      "oneMonth": [
+        {
+          "action": "범용 카테고리 페이지 개편",
+          "detail": "AI가 자주 언급하는 범용 답변 영역 구체화",
+          "cost": "웹 운영 리소스"
+        }
+      ],
+      "threeMonths": [
+        {
+          "action": "신규 키워드 전략 실행",
+          "detail": "수원 왕갈비, 삼성전자 본사 중심의 콘텐츠 발행",
+          "cost": "마케팅 비용 편성 필요"
+        }
+      ]
+    }
+  },
+  "markdownFull": "# 수원시 AI 검색 가시성(AEO) 종합 진단 보고서\n\n> **탐색적 측정 — 사전 등록 전 파일럿** (INV-11)\n>\n> 측정일 2026-09-07 · 모델 gpt-5.6-luna · 방법론 v2.1\n> 50문항 × 3회 반복 = 150회 측정 · 에러 0건 · 작화 12건\n\n---\n\n## Executive Summary\n\n기본 행정 정보의 정확도가 78%로, 개선이 필요합니다. \n\n그러나 **\"추천해줘\"라는 질문에서 수원시이(가) 1건 빠집니다.** AI가 수원을(를) 몰라서가 아니라, 추천 후보에 올릴 만큼의 콘텐츠가 부족하기 때문입니다.\n\n**기회**: 홈페이지의 텍스트 구조화(JSON-LD)만으로 개선이 가능합니다.\n\n---\n\n## 1. AI가 보는 수원시 — 한눈에\n\n| 지표 | 결과 | 등급 | 의미 |\n|---|---|---|---|\n| **기본 행정 정확도** | **78%** (150건 중 35건) | 🟢 양호 | AI가 행정 정보를 물으면 정확하게 답하는 비율 |\n| **고유 정보 인지도** | **65%** | 🟢 양호 | 수원시 고유 정보를 포함하여 답하는 비율 |\n| **AI 추천 점유율** | **93%** | 🟢 우수 | 추천·비교·시나리오 질문에 수원시이(가) 등장하는 비율 |\n| **Floor Risk** | moderate | 🟡 주의 | 작화(존재하지 않는 정보 생성) 위험도 |\n\n### T3 유형별 언급률\n\n| 유형 | 언급률 | 해석 |\n|---|---|---|\n| 추천 | 100% | ✅ 우수 |\n| 연상 | 100% | ✅ 우수 |\n| 키워드 진입 | 78% | 🟡 보통 |\n| 시나리오 | 89% | ✅ 우수 |\n| 비교 | 100% | ✅ 우수 |\n| 부정 테스트 | 100% | ✅ 우수 |\n\n---\n\n## 2. AI가 가장 잘 아는 수원시\n\n### \"수원 하면 뭐가 떠올라?\" 연상어 테스트\n\n| 반복 | AI가 떠올린 것 |\n|---|---|\n| 1회차 | 1. 수원화성 2. 수원 왕갈비 3. 삼성전자 본사 |\n| 2회차 | 1. 수원화성 2. 수원 왕갈비 3. 프로야구 kt wiz |\n| 3회차 | 1. 수원화성 2. 수원왕갈비 3. 수원 삼성 블루윙즈 |\n\n- **안정 키워드** (3/3 등장): **수원화성**\n- **불안정 키워드** (1~2/3): 수원 왕갈비, 삼성전자 본사, 프로야구 kt wiz, 수원왕갈비, 수원 삼성 블루윙즈\n\n> 📌 안정 키워드는 **방어 자산**입니다. 관련 페이지 개편 시 기존 텍스트를 보존해야 합니다.\n\n---\n\n## 3. AI 추천에서 수원시이(가) 빠지는 순간 — 가장 중요한 섹션\n\n### ❌ \"수원시\"이(가) 빠진 질문 (1건)\n\n| # | 질문 | AI가 추천한 곳 |\n|---|---|---|\n| 1 | IT 종사자가 출퇴근 편한 수도권 도시 추천해줘 | IT 근무지가 **판교·분당**이면 성남시(판교·정자·야탑)가 가장 편하고, **강남·구로·가산**이면 과천… |\n\n> 🔴 **1개 추천/시나리오 질문에서 수원시이(가) 빠집니다.** AI가 수원시을(를) 몰라서가 아니라, **추천 후보 목록에 올릴 만큼의 온라인 콘텐츠가 부족**한 것입니다.\n\n---\n\n## 4. 기본 행정 점검표 (15문항 × 3회)\n\n| # | 질문 | 1회 | 2회 | 3회 | 판정 |\n|---|---|---|---|---|---|\n| 1 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 2 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 3 | … | ✅ | — | ✅ | 🟡 불안정 |\n| 4 | … | — | — | — | 🔴 **미응답** |\n| 5 | … | ✅ | — | ✅ | 🟡 불안정 |\n| 6 | … | — | ✅ | ✅ | 🟡 불안정 |\n| 7 | … | ✅ | ✅ | — | 🟡 불안정 |\n| 8 | … | ✅ | — | ✅ | 🟡 불안정 |\n| 9 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 10 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 11 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 12 | … | ✅ | — | — | 🟡 불안정 |\n| 13 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 14 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n| 15 | … | ✅ | ✅ | ✅ | 🟢 안정 |\n\n**🟢 안정 8문항 · 🟡 불안정 6문항 · 🔴 미응답/위험 1문항**\n\n---\n\n## 5. 고유 정보 카테고리별 분석\n\n| 카테고리 | 고유정보 포함 | 범용 답변 | 미응답 | 등급 |\n|---|---|---|---|---|\n| 특산·산업 | 100% | 0% | 0 | 🟢 |\n| 시설·랜드마크 | 67% | 11% | 0 | 🟢 |\n| 독자정책 | 33% | 0% | 0 | 🟡 |\n| 역사·문화재 | 100% | 0% | 0 | 🟢 |\n| 지리·생활권 | 67% | 0% | 0 | 🟢 |\n| 음식·명소 | 56% | 0% | 0 | 🟡 |\n| 최근이슈 | 44% | 11% | 1 | 🟡 |\n\n- **고유정보 포함**: AI가 해당 도시만의 구체적 정보를 답한 비율\n- **범용 답변**: \"시청에 문의하세요\" 수준의 일반적 답변\n\n---\n\n## 6. 전략 매트릭스 — 기회 vs 방어\n\n### 🛡️ 방어 필수 — \"방치하면 시민 민원이 된다\"\n\n| 순위 | 영역 | 현재 | 근거 | 조치 | 비용 |\n|---|---|---|---|---|---|\n| D1 | **03** | 정보 불안정 (Unstable) | B-03 | FAQ 보강 | 내부 리소스 |\n| D2 | **04** | 정보 부재 (Absent) | B-04 | FAQ 신설 | 0원 |\n| D3 | **05** | 정보 불안정 (Unstable) | B-05 | FAQ 보강 | 내부 리소스 |\n| D4 | **06** | 정보 불안정 (Unstable) | B-06 | FAQ 보강 | 내부 리소스 |\n| D5 | **07** | 정보 불안정 (Unstable) | B-07 | FAQ 보강 | 내부 리소스 |\n| D6 | **08** | 정보 불안정 (Unstable) | B-08 | FAQ 보강 | 내부 리소스 |\n| D7 | **12** | 정보 불안정 (Unstable) | B-12 | FAQ 보강 | 내부 리소스 |\n| D8 | **핵심 브랜드** | 높은 인지도 유지 중 | 안정적 키워드 도출 | 현 상태 유지 (모니터링) | 0원 |\n\n### 🚀 기회 영역 — \"투자 대비 효과가 큰 곳\"\n\n| 순위 | 영역 | 현재 | 근거 | 전략 | 기대 효과 |\n|---|---|---|---|---|---|\n| O1 | **landmark** | 범용적 안내 수준 | Category: landmark | JSON-LD 구조화 데이터 삽입 | 구체적 사실(Fact)의 검색 노출 및 AI 인용률 상승 |\n| O2 | **recent_issue** | 범용적 안내 수준 | Category: recent_issue | JSON-LD 구조화 데이터 삽입 | 구체적 사실(Fact)의 검색 노출 및 AI 인용률 상승 |\n| O3 | **브랜드 연상** | 일부 키워드 불안정 | 불안정 키워드: 수원 왕갈비, 삼성전자 본사 | 3번째 키워드 콘텐츠 전략 | 신규 키워드 선점 및 AI 연관성 강화 |\n\n---\n\n## 7. 처방전 — 실행 로드맵\n\n### 즉시 (1주일, 비용 0원)\n\n```\n✅ FAQ 신설 (04)\n✅ JSON-LD 구조화 데이터 삽입 (landmark)\n✅ JSON-LD 구조화 데이터 삽입 (recent_issue)\n```\n\n### 1개월 (예산 500만원 이내)\n\n```\n📋 범용 카테고리 페이지 개편\n```\n\n### 3개월 (콘텐츠 전략)\n\n```\n🎯 신규 키워드 전략 실행\n```\n\n---\n\n## 8. 시장님께 드리는 한 문장\n\n> **수원시은(는) AI가 …을(를) 3번 물어도 0번 답합니다. 홈페이지에 FAQ 한 페이지를 추가하는 것이 가장 시급한 조치입니다.**\n\n---\n\n*이 보고서는 gpt-5.6-luna 모델의 응답을 분석한 것이며, AI의 응답이 곧 사실은 아닙니다.*\n*측정 방법론 v2.1 · 50문항 × 3회 반복*\n*이 값은 탐색적 측정이며, 사전 등록된 확정 결과가 아닙니다 (INV-11).*",
+  "markdownSections": []
+}
