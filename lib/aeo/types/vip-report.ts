@@ -181,6 +181,11 @@ export interface VIPReport {
   insights: InsightBundle;
   diamond: DiamondAnalysis;
   r4Candidates: R4Candidate[];         // DIR-01 §3.5
+  // 확대 프로브 결과 (v2.2) — 타입은 probe-extended.ts 참조
+  verificationScores?: any[];           // VerificationScore[]
+  competitiveResults?: any[];           // CompetitiveResult[]
+  reputationResults?: any[];            // ReputationResult[]
+  sourceTrackingResults?: any[];        // SourceTrackingResult[]
   markdownFull: string;
   markdownSections: { id: string; title: string; content: string }[];
 }

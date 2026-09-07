@@ -1,0 +1,92 @@
+[
+  {
+    "id": "C-01",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "수원과 용인 중 자녀 교육에 좋은 곳은?",
+    "competitors": ["용인"],
+    "category": "education",
+    "targetKeywords": ["수원", "영통", "광교"]
+  },
+  {
+    "id": "C-02",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "아이 학원가와 학군을 비교할 때 수원 영통과 안양 평촌 중 어디가 더 유리해?",
+    "competitors": ["안양"],
+    "category": "education",
+    "targetKeywords": ["수원", "영통"]
+  },
+  {
+    "id": "C-03",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "수원과 성남(분당) 중 30대 신혼부부가 정착해 살기 좋은 곳은?",
+    "competitors": ["성남"],
+    "category": "livability",
+    "targetKeywords": ["수원", "광교"]
+  },
+  {
+    "id": "C-04",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "수원과 용인 수지 중 대중교통과 서울 출퇴근 환경이 더 좋은 도시는?",
+    "competitors": ["용인"],
+    "category": "livability",
+    "targetKeywords": ["수원", "신분당선"]
+  },
+  {
+    "id": "C-05",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "동탄신도시가 있는 화성과 수원 광교신도시 중 주거 환경 만족도가 더 높은 곳은?",
+    "competitors": ["화성"],
+    "category": "livability",
+    "targetKeywords": ["수원", "광교"]
+  },
+  {
+    "id": "C-06",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "반도체 및 IT 일자리 취업을 준비할 때 수원과 화성 중 어디가 더 기회가 많아?",
+    "competitors": ["화성"],
+    "category": "industry",
+    "targetKeywords": ["수원", "삼성전자"]
+  },
+  {
+    "id": "C-07",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "첨단 산업 R&D 스타트업을 창업하기에 수원과 성남(판교) 중 어떤 도시가 나아?",
+    "competitors": ["성남"],
+    "category": "industry",
+    "targetKeywords": ["수원", "델타플렉스"]
+  },
+  {
+    "id": "C-08",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "주말 당일치기 역사문화 관광 코스로 수원과 용인 중 어디를 더 추천해?",
+    "competitors": ["용인"],
+    "category": "tourism",
+    "targetKeywords": ["수원", "수원화성"]
+  },
+  {
+    "id": "C-09",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "가족 나들이와 야경 산책 코스로 수원 화성행궁과 안양 예술공원 중 어디가 좋아?",
+    "competitors": ["안양"],
+    "category": "tourism",
+    "targetKeywords": ["수원", "화성행궁"]
+  },
+  {
+    "id": "C-10",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "경기 남부에서 내 집 마련 시 수원과 화성 중 주거비 대비 가성비가 좋은 지역은?",
+    "competitors": ["화성"],
+    "category": "cost",
+    "targetKeywords": ["수원"]
+  }
+]

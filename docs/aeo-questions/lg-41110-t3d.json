@@ -1,0 +1,42 @@
+[
+  {
+    "id": "D-01",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "수원에서 살면서 시민들이 꼽는 가장 불편하거나 불만인 점은 뭐야?",
+    "riskCategory": "general",
+    "targetKeywords": ["수원"]
+  },
+  {
+    "id": "D-02",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "수원 구도심이나 수원역 주변의 치안과 밤길 보행 안전에 대한 불안 요소가 있어?",
+    "riskCategory": "safety",
+    "targetKeywords": ["수원", "치안"]
+  },
+  {
+    "id": "D-03",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "수원 군공항(비행장) 인접 지역의 항공기 소음 피해와 고도제한 갈등이 얼마나 심각해?",
+    "riskCategory": "environment",
+    "targetKeywords": ["수원", "군공항"]
+  },
+  {
+    "id": "D-04",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "광교신도시를 비롯한 수원 주요 주거지의 아파트 매매·전세가와 생활 물가 부담이 큰 편이야?",
+    "riskCategory": "cost",
+    "targetKeywords": ["수원", "광교"]
+  },
+  {
+    "id": "D-05",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "수원특례시로 승격된 이후 행정 서비스의 질이나 시민 체감 행정 혁신이 기대에 못 미친다는 비판이 있어?",
+    "riskCategory": "governance",
+    "targetKeywords": ["수원", "특례시"]
+  }
+]

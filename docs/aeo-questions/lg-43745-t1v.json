@@ -1,0 +1,184 @@
+[
+  {
+    "id": "V1-B01-01",
+    "parentId": "B-01",
+    "tier": "T1-V",
+    "category": "birth",
+    "body": "증평군 둘째아 출산장려금 지원 금액은 얼마인가요?",
+    "groundTruth": "300만원",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["300만", "3000000", "삼백만", "300만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B01-02",
+    "parentId": "B-01",
+    "tier": "T1-V",
+    "category": "birth",
+    "body": "증평군 첫째아 출산장려금 지원 금액은 얼마인가요?",
+    "groundTruth": "100만원",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["100만", "1000000", "백만", "100만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B01-03",
+    "parentId": "B-01",
+    "tier": "T1-V",
+    "category": "birth",
+    "body": "증평군 셋째아 출산장려금 지원 금액은 얼마인가요?",
+    "groundTruth": "500만원",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["500만", "5000000", "오백만", "500만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B04-01",
+    "parentId": "B-04",
+    "tier": "T1-V",
+    "category": "waste_bag",
+    "body": "증평군 일반종량제봉투 20리터 1장 가격은 얼마인가요?",
+    "groundTruth": "450원",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["450", "450원", "사백오십원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B04-02",
+    "parentId": "B-04",
+    "tier": "T1-V",
+    "category": "waste_bag",
+    "body": "증평군 일반종량제봉투 10리터 1장 가격은 얼마인가요?",
+    "groundTruth": "270원",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["270", "270원", "이백칠십원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B04-03",
+    "parentId": "B-04",
+    "tier": "T1-V",
+    "category": "waste_bag",
+    "body": "증평군 종량제봉투는 어디에서 구입할 수 있나요?",
+    "groundTruth": "읍·면사무소 및 관내 마트·편의점",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": [
+      "읍면사무소·마트",
+      "읍면사무소, 마트",
+      "증평읍사무소, 도안면사무소, 마트",
+      "읍면사무소",
+      "마트"
+    ],
+    "errorType": "name"
+  },
+  {
+    "id": "V1-B06-01",
+    "parentId": "B-06",
+    "tier": "T1-V",
+    "category": "senior_bus",
+    "body": "증평군 어르신 시내버스 교통비 지원 대상 연령 기준은 몇 세 이상인가요?",
+    "groundTruth": "만 65세 이상",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["만 65세", "만65세", "65세", "65세 이상", "만 65세 이상"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B06-02",
+    "parentId": "B-06",
+    "tier": "T1-V",
+    "category": "senior_bus",
+    "body": "증평군 어르신 버스 교통비 지원 금액은 월 얼마인가요?",
+    "groundTruth": "월 1만원",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["월 1만원", "월 1만", "1만원", "10000원", "월1만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B08-01",
+    "parentId": "B-08",
+    "tier": "T1-V",
+    "category": "youth_rent",
+    "body": "증평군 청년 월세 특별지원 사업의 월 최대 지원 금액은 얼마인가요?",
+    "groundTruth": "월 최대 15만원",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["월 15만원", "월15만원", "15만원", "150000원", "월 최대 15만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B08-02",
+    "parentId": "B-08",
+    "tier": "T1-V",
+    "category": "youth_rent",
+    "body": "증평군 청년 월세 지원 대상자의 연령 기준은 어떻게 되나요?",
+    "groundTruth": "만 19세~34세",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["만19~34세", "19세~34세", "만 19세 이상 34세 이하", "19-34세", "만 19세~34세"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B08-03",
+    "parentId": "B-08",
+    "tier": "T1-V",
+    "category": "youth_rent",
+    "body": "증평군 청년 월세 지원은 최대 몇 개월 동안 지원받을 수 있나요?",
+    "groundTruth": "최대 24개월",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["최대 24개월", "24개월", "2년", "최대 2년", "24달"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B10-01",
+    "parentId": "B-10",
+    "tier": "T1-V",
+    "category": "night_care",
+    "body": "증평군보건소 및 야간 보건의료 안내 대표 전화번호는 어디인가요?",
+    "groundTruth": "043-835-4000",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["043-835-4000", "0438354000"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B10-02",
+    "parentId": "B-10",
+    "tier": "T1-V",
+    "category": "night_care",
+    "body": "증평군에서 야간 응급환자 발생 시 응급실 이용 방법은 어떻게 안내되나요?",
+    "groundTruth": "관내 응급실 부재로 인근 청주·괴산 종합병원 응급의료센터 이용",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": [
+      "인근 청주/괴산 응급실 이용",
+      "청주 효성병원·괴산성모병원 등 인근 응급실 연계",
+      "인근 지역 응급실 이용",
+      "청주·괴산 응급의료센터 이용"
+    ],
+    "errorType": "text"
+  },
+  {
+    "id": "V1-B15-01",
+    "parentId": "B-15",
+    "tier": "T1-V",
+    "category": "festival",
+    "body": "증평군의 대표 축제인 증평인삼골축제(인삼축제)는 매년 몇 월에 개최되나요?",
+    "groundTruth": "10월",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": ["10월", "매년 10월", "10월경"],
+    "errorType": "date"
+  },
+  {
+    "id": "V1-B15-02",
+    "parentId": "B-15",
+    "tier": "T1-V",
+    "category": "festival",
+    "body": "증평인삼축제 개최 장소와 축제장 기본 입장료는 어떻게 되나요?",
+    "groundTruth": "보강천 미루나무숲 일원, 입장료 무료",
+    "groundTruthSource": "https://www.jp.go.kr",
+    "acceptableVariants": [
+      "보강천변, 무료",
+      "보강천변 무료",
+      "보강천 미루나무숲, 무료",
+      "보강천변",
+      "무료"
+    ],
+    "errorType": "text"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GroundTruthEntry",
+  "description": "Ground Truth entry schema for kplacelab AEO measurement verification",
+  "type": "object",
+  "required": [
+    "id",
+    "unitId",
+    "questionId",
+    "category",
+    "value",
+    "valueType",
+    "acceptableVariants",
+    "sourceUrl",
+    "sourceOrg",
+    "verifiedAt",
+    "verifiedBy",
+    "validFrom",
+    "validUntil",
+    "updateFrequency",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the ground truth entry",
+      "pattern": "^GT-[0-9]{5}-[A-Z0-9]+-[a-z0-9_-]+$"
+    },
+    "unitId": {
+      "type": "string",
+      "description": "Municipality unit code (e.g. lg-41110, lg-43745)",
+      "pattern": "^lg-[0-9]{5}$"
+    },
+    "questionId": {
+      "type": "string",
+      "description": "Associated probe question ID (e.g. V1-B01-01)"
+    },
+    "category": {
+      "type": "string",
+      "description": "Subject category of the entry"
+    },
+    "value": {
+      "type": "string",
+      "description": "Specific ground truth value"
+    },
+    "valueType": {
+      "type": "string",
+      "description": "Data type of the ground truth value",
+      "enum": ["numeric", "name", "date", "url", "text", "procedure"]
+    },
+    "acceptableVariants": {
+      "type": "array",
+      "description": "Alternative acceptable expressions of the ground truth value",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sourceUrl": {
+      "type": "string",
+      "description": "Official verification URL (.go.kr or .or.kr)",
+      "format": "uri"
+    },
+    "sourceOrg": {
+      "type": "string",
+      "description": "Official administrative body providing the information"
+    },
+    "verifiedAt": {
+      "type": "string",
+      "description": "Verification date in YYYY-MM-DD format",
+      "format": "date"
+    },
+    "verifiedBy": {
+      "type": "string",
+      "description": "Verification agent type",
+      "enum": ["human", "crawler"]
+    },
+    "validFrom": {
+      "type": "string",
+      "description": "Validity start date in YYYY-MM-DD format",
+      "format": "date"
+    },
+    "validUntil": {
+      "type": "string",
+      "description": "Validity end date in YYYY-MM-DD format",
+      "format": "date"
+    },
+    "updateFrequency": {
+      "type": "string",
+      "description": "Expected update frequency",
+      "enum": ["annual", "quarterly", "monthly", "event", "unknown"]
+    },
+    "status": {
+      "type": "string",
+      "description": "Current status of the ground truth entry",
+      "enum": ["active", "expired", "unverified"]
+    }
+  },
+  "additionalProperties": false
+}

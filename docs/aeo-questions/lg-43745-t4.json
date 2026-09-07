@@ -1,0 +1,37 @@
+[
+  {
+    "id": "T4-01",
+    "tier": "T4",
+    "type": "source_tracking",
+    "body": "증평군 출산장려금 지원 금액과 신청 절차를 공식 군청 웹사이트 주소와 함께 안내해줘",
+    "expectedDomains": ["jp.go.kr"]
+  },
+  {
+    "id": "T4-02",
+    "tier": "T4",
+    "type": "source_tracking",
+    "body": "증평인삼골축제 축제 일정 및 행사 프로그램을 확인할 수 있는 공식 사이트 주소를 알려줘",
+    "expectedDomains": ["jp.go.kr"]
+  },
+  {
+    "id": "T4-03",
+    "tier": "T4",
+    "type": "source_tracking",
+    "body": "증평군 청년 월세 특별지원 신청 자격과 공고문을 확인할 수 있는 군청 공식 웹사이트 도메인을 알려줘",
+    "expectedDomains": ["jp.go.kr"]
+  },
+  {
+    "id": "T4-04",
+    "tier": "T4",
+    "type": "source_tracking",
+    "body": "증평군 쓰레기 종량제봉투 규격별 가격표와 판매처 안내 공식 페이지 주소를 알려줘",
+    "expectedDomains": ["jp.go.kr"]
+  },
+  {
+    "id": "T4-05",
+    "tier": "T4",
+    "type": "source_tracking",
+    "body": "증평 좌구산자연휴양림 숙박 시설 예약 및 시설 이용 정보를 안내하는 공식 사이트 URL을 알려줘",
+    "expectedDomains": ["jp.go.kr"]
+  }
+]

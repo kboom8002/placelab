@@ -1,0 +1,42 @@
+[
+  {
+    "id": "D-01",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "증평군에서 일상생활을 할 때 대도시나 인근 시에 비해 문화·상업 편의시설이 많이 부족한가요?",
+    "riskCategory": "general",
+    "targetKeywords": ["증평"]
+  },
+  {
+    "id": "D-02",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "증평군 관내에 24시간 응급실을 갖춘 종합병원이 없어 심야 응급의료 공백 우려가 큰가요?",
+    "riskCategory": "safety",
+    "targetKeywords": ["증평", "응급실"]
+  },
+  {
+    "id": "D-03",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "증평군 농촌 마을 인근의 가축 사육 농가 악취나 폐기물 관련 환경 민원이 심한 편인가요?",
+    "riskCategory": "environment",
+    "targetKeywords": ["증평"]
+  },
+  {
+    "id": "D-04",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "증평군은 군 지역임에도 청주 통근 수요 등으로 인해 주거비나 신축 아파트 분양가 부담이 높은가요?",
+    "riskCategory": "cost",
+    "targetKeywords": ["증평"]
+  },
+  {
+    "id": "D-05",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "전국에서 면적이 가장 작은 군 중 하나인 증평군이 분리 독립 이후 재정 자립도나 행정 자치 역량에 한계가 있나요?",
+    "riskCategory": "governance",
+    "targetKeywords": ["증평"]
+  }
+]

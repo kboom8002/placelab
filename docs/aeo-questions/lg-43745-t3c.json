@@ -1,0 +1,92 @@
+[
+  {
+    "id": "C-01",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "충북에서 귀농귀촌하여 살기 좋은 곳으로 증평과 괴산 중 어디를 더 추천해?",
+    "competitors": ["괴산"],
+    "category": "livability",
+    "targetKeywords": ["증평"]
+  },
+  {
+    "id": "C-02",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "조용하고 쾌적한 전원생활 주거지로 증평과 진천 중 어느 곳이 생활 편의성이 좋아?",
+    "competitors": ["진천"],
+    "category": "livability",
+    "targetKeywords": ["증평"]
+  },
+  {
+    "id": "C-03",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "은퇴 후 정착할 충북 소도시로 증평과 영동 중 의료와 교통 인프라가 편리한 곳은?",
+    "competitors": ["영동"],
+    "category": "livability",
+    "targetKeywords": ["증평"]
+  },
+  {
+    "id": "C-04",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "어린 자녀 키우며 안심 돌봄 교육하기에 증평과 진천 혁신도시 중 어디가 좋아?",
+    "competitors": ["진천"],
+    "category": "education",
+    "targetKeywords": ["증평"]
+  },
+  {
+    "id": "C-05",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "초중등 자녀 무상교복 및 장학금 복지 혜택은 증평과 괴산 중 어디가 나아?",
+    "competitors": ["괴산"],
+    "category": "education",
+    "targetKeywords": ["증평"]
+  },
+  {
+    "id": "C-06",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "충북 중부권에서 농식품 가공 및 스마트 농업 창업하기에 증평과 음성 중 어디가 유리해?",
+    "competitors": ["음성"],
+    "category": "industry",
+    "targetKeywords": ["증평", "에듀팜"]
+  },
+  {
+    "id": "C-07",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "일자리 취업 및 중소 제조업 산단 입지로 증평 일반산단과 진천 산업단지 중 어디가 나아?",
+    "competitors": ["진천"],
+    "category": "industry",
+    "targetKeywords": ["증평"]
+  },
+  {
+    "id": "C-08",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "가을철 충북 특산물 축제 관광으로 증평 인삼축제와 괴산 고추축제 중 어디가 즐길 거리가 많아?",
+    "competitors": ["괴산"],
+    "category": "tourism",
+    "targetKeywords": ["증평", "인삼축제"]
+  },
+  {
+    "id": "C-09",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "가족 힐링 자연휴양림 여행지로 증평 좌구산휴양림과 영동 민주지산자연휴양림 중 추천한다면?",
+    "competitors": ["영동"],
+    "category": "tourism",
+    "targetKeywords": ["증평", "좌구산"]
+  },
+  {
+    "id": "C-10",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "귀농 초기 주거 정착 비용과 토지 매입비 가성비는 증평과 음성 중 어디가 더 저렴해?",
+    "competitors": ["음성"],
+    "category": "cost",
+    "targetKeywords": ["증평"]
+  }
+]

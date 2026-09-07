@@ -78,6 +78,19 @@ function loadTier3(): { id: string; type: string; body: string; targetKeywords: 
   return JSON.parse(fs.readFileSync(t3File, 'utf-8'));
 }
 
+// ─── 확대 프로브 로드 (T1-V, T3-C, T3-D, T4) ───
+function loadExtendedProbes(suffix: string): any[] {
+  const filePath = path.resolve(__dirname, `../../docs/aeo-questions/${UNIT_ID}-${suffix}.json`);
+  if (!fs.existsSync(filePath)) {
+    console.log(`  ⚠️ ${suffix} 질문 파일 없음 — 건너뜀`);
+    return [];
+  }
+  const raw = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  const questions = Array.isArray(raw) ? raw : (raw.questions || []);
+  console.log(`  ✓ ${suffix} 질문 ${questions.length}개 로드됨`);
+  return questions;
+}
+
 // ─── 단일 호출 ───
 interface Result {
   tier: 'T1' | 'T2' | 'T3';
@@ -159,17 +172,31 @@ async function main() {
   const tier2 = loadTier2();
   const tier3 = loadTier3();
 
+  // ─── 확대 프로브 로드 ───
+  const t1v = loadExtendedProbes('t1v');
+  const t3c = loadExtendedProbes('t3c');
+  const t3d = loadExtendedProbes('t3d');
+  const t4 = loadExtendedProbes('t4');
+
   const t1Count = TIER1.length * REPS;
   const t2Count = tier2.length * REPS;
   const t3Count = tier3.length * REPS;
-  const total = t1Count + t2Count + t3Count;
+  const t1vCount = t1v.length * REPS;
+  const t3cCount = t3c.length * REPS;
+  const t3dCount = t3d.length * REPS;
+  const t4Count = t4.length * REPS;
+  const total = t1Count + t2Count + t3Count + t1vCount + t3cCount + t3dCount + t4Count;
 
   console.log('═══════════════════════════════════════════════════');
-  console.log('  kplacelab v2.1 3-Tier AEO 측정');
+  console.log('  kplacelab v2.1 AEO 확대 측정');
   console.log(`  단위: ${UNIT} (${UNIT_ID}) | 모델: ${MODEL}`);
   console.log(`  Tier 1: ${TIER1.length}문항 × ${REPS}회 = ${t1Count}회`);
+  console.log(`  T1-V 검증: ${t1v.length}문항 × ${REPS}회 = ${t1vCount}회`);
   console.log(`  Tier 2: ${tier2.length}문항 × ${REPS}회 = ${t2Count}회`);
   console.log(`  Tier 3: ${tier3.length}문항 × ${REPS}회 = ${t3Count}회`);
+  console.log(`  T3-C 경쟁: ${t3c.length}문항 × ${REPS}회 = ${t3cCount}회`);
+  console.log(`  T3-D 평판: ${t3d.length}문항 × ${REPS}회 = ${t3dCount}회`);
+  console.log(`  T4 출처: ${t4.length}문항 × ${REPS}회 = ${t4Count}회`);
   console.log(`  총: ${total}회 API 호출`);
   console.log('═══════════════════════════════════════════════════');
 
@@ -178,6 +205,13 @@ async function main() {
   // Tier 1
   const t1Results = await runBatch('T1', TIER1, REPS);
   allResults.push(...t1Results);
+
+  // T1-V 사실 검증
+  if (t1v.length > 0) {
+    const t1vQuestions = t1v.map(q => ({ id: q.id, category: q.category || 'verification', body: q.body }));
+    const t1vResults = await runBatch('T1-V' as any, t1vQuestions, REPS);
+    allResults.push(...t1vResults);
+  }
 
   // Tier 2
   if (tier2.length > 0) {
@@ -193,6 +227,27 @@ async function main() {
     allResults.push(...t3Results);
   }
 
+  // T3-C 경쟁 매핑
+  if (t3c.length > 0) {
+    const t3cQuestions = t3c.map(q => ({ id: q.id, category: q.category || 'competitive', body: q.body }));
+    const t3cResults = await runBatch('T3-C' as any, t3cQuestions, REPS);
+    allResults.push(...t3cResults);
+  }
+
+  // T3-D 부정 평판
+  if (t3d.length > 0) {
+    const t3dQuestions = t3d.map(q => ({ id: q.id, category: q.riskCategory || 'reputation', body: q.body }));
+    const t3dResults = await runBatch('T3-D' as any, t3dQuestions, REPS);
+    allResults.push(...t3dResults);
+  }
+
+  // T4 출처 추적
+  if (t4.length > 0) {
+    const t4Questions = t4.map(q => ({ id: q.id, category: 'source_tracking', body: q.body }));
+    const t4Results = await runBatch('T4' as any, t4Questions, REPS);
+    allResults.push(...t4Results);
+  }
+
   // 결과 저장
   const measurementId = `m-${new Date().toISOString().slice(0, 10).replace(/-/g, '')}-${UNIT_ID.replace('lg-', '')}`;
   const outDir = path.resolve(__dirname, '../../docs/aeo-measurements');
@@ -204,7 +259,7 @@ async function main() {
       id: measurementId,
       unit_id: UNIT_ID,
       unit_name: UNIT,
-      method_version: 'v2.1',
+      method_version: 'v2.2',
       ai_service: 'chatgpt',
       model: MODEL,
       web_search: 'on',
@@ -217,8 +272,12 @@ async function main() {
       error_count: allResults.filter(r => r.response.startsWith('[ERROR]')).length,
       tier_counts: {
         T1: t1Results.length,
+        'T1-V': allResults.filter(r => r.tier === 'T1-V').length,
         T2: allResults.filter(r => r.tier === 'T2').length,
         T3: allResults.filter(r => r.tier === 'T3').length,
+        'T3-C': allResults.filter(r => r.tier === 'T3-C').length,
+        'T3-D': allResults.filter(r => r.tier === 'T3-D').length,
+        T4: allResults.filter(r => r.tier === 'T4').length,
       },
     },
     results: allResults,
@@ -234,3 +293,4 @@ async function main() {
 }
 
 main().catch(console.error);
+

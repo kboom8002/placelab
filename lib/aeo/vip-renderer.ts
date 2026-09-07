@@ -12,6 +12,8 @@ import type {
   StabilityItem,
   R4Candidate,
 } from './types/vip-report';
+import type { VerificationScore } from './verification-scorer';
+import type { CompetitiveResult, ReputationResult, SourceTrackingResult } from './types/probe-extended';
 
 // ─── DIR-01 §A-3: 백분율은 반드시 분자·분모와 함께 ───
 
@@ -20,7 +22,7 @@ function pct(n: number, d: number): string {
   return `${n}/${d}건 (${Math.round(n / d * 1000) / 10}%)`;
 }
 
-// ─── 메인 렌더러 — DIR-01 §3.3 목차 순서 ───
+// ─── 메인 렌더러 — DIR-01 §3.3 목차 순서 + 확대 프로브 ───
 
 export function renderVIPReport(report: VIPReport): string {
   const sections = [
@@ -28,16 +30,20 @@ export function renderVIPReport(report: VIPReport): string {
     renderExecutiveSummary(report.executiveSummary),
     // §1 주민이 묻는 것에 답하지 못한 것 (생활행정 먼저)
     renderT1Checklist(report.insights.stabilityAnalysis, report.metadata),
+    // §1.2 사실 검증 결과 (확대 프로브 T1-V)
+    renderVerificationResults(report.verificationScores || []),
     // §2 지켜야 할 자산 (연상어 + 방어)
     renderAssociationTest(report.insights, report.metadata.unitName),
     // §3 이 모델이 우리 지역을 아는 방식 (T2)
     renderT2CategoryAnalysis(report.insights, report.metadata),
     // §4 추천에서 빠지는 지점 (T3)
     renderRecommendationGaps(report.insights, report.metadata),
+    // §4.2 경쟁 매트릭스 (확대 프로브 T3-C)
+    renderCompetitiveMatrix(report.competitiveResults || [], report.metadata),
     // §5 비용 0원으로 지금 할 수 있는 것 (즉시만)
     renderImmediateActions(report.diamond),
     // §6 이 측정으로는 알 수 없는 것 (DIR-01 §3.4 신설)
-    renderLimitations(report.metadata, report.r4Candidates),
+    renderLimitations(report.metadata, report.r4Candidates, report.verificationScores),
     // §7 단체장께 드리는 한 문장
     renderOneLiner(report.oneLineForLeader, report.metadata.unitName),
     renderFooter(report.metadata),
@@ -235,9 +241,77 @@ ${rows}
 > 1개월·3개월 조치는 이 측정만으로 순서를 정할 근거가 부족합니다. 반복 측정 후 우선순위를 확정할 수 있습니다.`;
 }
 
+// ─── §1.2 사실 검증 결과 (확대 프로브 T1-V) ───
+
+function renderVerificationResults(scores: VerificationScore[]): string {
+  if (!scores || scores.length === 0) return '';
+
+  const correct = scores.filter(s => s.verdict === 'correct').length;
+  const wrong = scores.filter(s => s.verdict === 'wrong_value').length;
+  const outdated = scores.filter(s => s.verdict === 'outdated').length;
+  const wrongProc = scores.filter(s => s.verdict === 'wrong_procedure').length;
+  const absent = scores.filter(s => s.verdict === 'absent').length;
+  const total = scores.length;
+
+  const rows = scores.map((s, i) => {
+    const icon = s.verdict === 'correct' ? '✅' :
+      s.verdict === 'absent' ? '—' :
+      s.verdict === 'outdated' ? '🟡' : '❌';
+    const verdictLabel = s.verdict === 'correct' ? '정확' :
+      s.verdict === 'wrong_value' ? '오류' :
+      s.verdict === 'outdated' ? '구버전' :
+      s.verdict === 'wrong_procedure' ? '절차오류' : '미응답';
+    return `| ${i + 1} | ${s.questionId} | ${icon} ${verdictLabel} | ${s.gtValue} | ${s.aiValue || '—'} |`;
+  }).join('\n');
+
+  return `### 1.2 이 모델이 틀리게 답한 것 (사실 검증)
+
+> 핵심 ${total}건의 구체적 사실을 공식 정보와 대조했습니다.
+> 정확 ${correct} · 오류 ${wrong + wrongProc} · 구버전 ${outdated} · 미응답 ${absent}
+
+| # | 문항 | 판정 | 공식 정보 | 이 모델의 답 |
+|---|---|---|---|---|
+${rows}
+
+${wrong + wrongProc > 0 ? `> ⚠️ **${wrong + wrongProc}건의 사실 오류**가 확인되었습니다. 이 모델은 주민에게 잘못된 정보를 안내할 수 있습니다.` : '> 검증 범위 내에서 사실 오류는 발견되지 않았습니다.'}`;
+}
+
+// ─── §4.2 경쟁 매트릭스 (확대 프로브 T3-C) ───
+
+function renderCompetitiveMatrix(results: CompetitiveResult[], meta: VIPReportMetadata): string {
+  if (!results || results.length === 0) return '';
+
+  // 모든 경쟁자 수집
+  const allCompetitors = [...new Set(results.flatMap(r => r.competitorsMentioned.map(c => c.name)))];
+  if (allCompetitors.length === 0) return '';
+
+  const header = `| 질문 | ${meta.unitName} | ${allCompetitors.join(' | ')} |`;
+  const sep = `|---|${['---', ...allCompetitors.map(() => '---')].join('|')}|`;
+
+  const rows = results.map(r => {
+    const target = r.targetMentioned ? '✅' : '❌';
+    const comps = allCompetitors.map(name => {
+      const comp = r.competitorsMentioned.find(c => c.name === name);
+      return comp?.mentioned ? '✅' : '—';
+    }).join(' | ');
+    return `| ${r.question.substring(0, 25)} | ${target} | ${comps} |`;
+  }).join('\n');
+
+  const wins = results.filter(r => r.targetMentioned).length;
+  const losses = results.filter(r => !r.targetMentioned && r.competitorsMentioned.some(c => c.mentioned)).length;
+
+  return `### 4.2 경쟁자 대비 언급 매트릭스
+
+${header}
+${sep}
+${rows}
+
+> ${meta.unitName} 언급: ${pct(wins, results.length)} · 경쟁자만 언급(우리 누락): ${losses}건`;
+}
+
 // ─── §6 이 측정으로는 알 수 없는 것 (DIR-01 §3.4 신설) ───
 
-function renderLimitations(meta: VIPReportMetadata, r4Candidates: R4Candidate[]): string {
+function renderLimitations(meta: VIPReportMetadata, r4Candidates: R4Candidate[], verificationScores?: VerificationScore[]): string {
   let r4Section = '';
   if (r4Candidates && r4Candidates.length > 0) {
     const r4Rows = r4Candidates.map(r =>
@@ -247,9 +321,15 @@ function renderLimitations(meta: VIPReportMetadata, r4Candidates: R4Candidate[])
     r4Section = `\n\n### 정보 문제가 아닐 수 있는 항목\n\n${r4Rows}\n\n> 위 항목은 단정이 아닙니다. 확인하지 않았으며, "~일 수 있습니다"입니다.`;
   }
 
+  // 사실 검증을 수행했으면 §6.1을 업데이트
+  const hasVerification = verificationScores && verificationScores.length > 0;
+  const verNote = hasVerification
+    ? `핵심 ${verificationScores!.length}건의 원문 대조를 수행했습니다. 나머지 문항의 원문 대조는 수행하지 않았습니다.`
+    : '이 모델의 답이 실제 공식 정보와 일치하는지는 확인하지 않았습니다. 원문 대조는 이번 측정 범위 밖입니다.';
+
   return `## 6. 이 측정으로는 알 수 없는 것
 
-1. **"답했다"와 "맞다"는 다릅니다.** 이 모델의 답이 실제 공식 정보와 일치하는지는 확인하지 않았습니다. 원문 대조는 이번 측정 범위 밖입니다.
+1. **"답했다"와 "맞다"는 다릅니다.** ${verNote}
 
 2. **빈칸의 원인을 가르지 않았습니다.** 각 빈칸이 ① 정보가 틀렸거나 ② 기계가 못 읽거나 ③ 여러 곳에 다르게 있거나 ④ 정보를 고쳐도 해결되지 않는 절차 문제인지 구분하지 않았습니다.
 
