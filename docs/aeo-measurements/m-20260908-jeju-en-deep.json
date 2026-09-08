@@ -1,0 +1,2077 @@
+{
+  "unit": "Jeju Special Self-Governing Province",
+  "unit_id": "lg-50000",
+  "scope": "deep_global_luxury_and_fdi",
+  "language": "en",
+  "model": "gpt-5.6-luna",
+  "method_version": "v2.2-jeju-en-deep",
+  "reps": 3,
+  "measuredAt": "2026-09-08T11:51:24.146Z",
+  "totalQueries": 135,
+  "summary": {
+    "success": 69,
+    "absent": 66,
+    "error": 0
+  },
+  "results": [
+    {
+      "questionId": "JJ-EN-S1-01",
+      "tier": "T2",
+      "category": "luxury_resort",
+      "question": "What are the best luxury 5-star oceanfront resorts in Jeju with private pool villas and top-tier amenities?",
+      "rep": 1,
+      "response": "The strongest match is **JW Marriott Jeju Resort & Spa** in Seogwipo: an ocean-cliff setting, private pool villas, destination dining, spa facilities, multiple pools, and Marriott’s top-tier service standards—official site: https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/overview/  \n**Bayhill Pool & Villa** is the best villa-focused alternative, offering spacious private-pool villas, ocean views, landscaped grounds, and a more intimate boutique atmosphere—official site: https://www.bayhill.co.kr/  \nFor a classic five-star resort experience, **The Shilla Jeju** provides exceptional oceanfront grounds, premium dining, spa and pool facilities, but its private-pool accommodation is more limited than JW Marriott or Bayhill—official site: https://www.shilla.net/jeju/index.do  \nBecause private-pool inventory is highly limited and room categories can change, confirm the exact villa type, pool privacy, heated-pool availability, and ocean frontage directly before booking.",
+      "responseHash": "aac718c1f038e03f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8957,
+      "citedUrls": [
+        "https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/overview/",
+        "https://www.bayhill.co.kr/",
+        "https://www.shilla.net/jeju/index.do"
+      ],
+      "timestamp": "2026-09-08T11:47:03.841Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-02",
+      "tier": "T2",
+      "category": "luxury_resort",
+      "question": "Are there major international luxury hotel brands like Marriott, Hyatt, or Accor operating high-end properties in Jeju Island?",
+      "rep": 1,
+      "response": "Yes—**Marriott International** operates two major luxury assets: **JW Marriott Jeju Resort & Spa** in Seogwipo, opened in 2024, and **Jeju Shinhwa World Marriott Resort**; JW Marriott’s official page is [marriott.com/.../jw-marriott-jeju-resort-and-spa](https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/overview/). **Hyatt** operates **Grand Hyatt Jeju**, the flagship hotel within Jeju Dream Tower in central Jeju City, with 1,626 rooms and suites: [hyatt.com/.../grand-hyatt-jeju](https://www.hyatt.com/grand-hyatt/en-US/cjugh-grand-hyatt-jeju). **Accor’s presence is less prominent in Jeju’s current ultra-luxury segment** than Marriott or Hyatt, so investors should verify live inventory through Accor’s official hotel locator rather than assume that every Shinhwa World or Jungmun property is Accor-managed: [all.accor.com](https://all.accor.com/).",
+      "responseHash": "c271c5962d4c75d4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8849,
+      "citedUrls": [
+        "https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/overview/",
+        "https://www.hyatt.com/grand-hyatt/en-US/cjugh-grand-hyatt-jeju",
+        "https://all.accor.com/"
+      ],
+      "timestamp": "2026-09-08T11:47:03.733Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-03",
+      "tier": "T2",
+      "category": "michelin_dining",
+      "question": "Does Jeju Island have Michelin-starred restaurants or Michelin Guide recommended fine dining spots?",
+      "rep": 1,
+      "response": "No—**Jeju Island currently has no Michelin-starred restaurants and no restaurants officially listed in the Michelin Guide**. Michelin’s Korean coverage is limited to **Seoul and Busan**, as shown on its official Korea portal: https://guide.michelin.com/en/kr. This reflects the Guide’s geographic coverage, not a judgment on Jeju’s culinary quality; Jeju has strong high-end hotel dining, seafood, and black-pork restaurants, but these are not Michelin-designated. For local restaurant discovery, use the official Jeju Tourism Organization portal https://www.visitjeju.net/en and Korea Tourism Organization’s VisitKorea site https://english.visitkorea.or.kr/.",
+      "responseHash": "c9d2349dbc49e265",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7922,
+      "citedUrls": [
+        "https://guide.michelin.com/en/kr.",
+        "https://www.visitjeju.net/en",
+        "https://english.visitkorea.or.kr/."
+      ],
+      "timestamp": "2026-09-08T11:47:02.806Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-04",
+      "tier": "T2",
+      "category": "fine_dining",
+      "question": "What are the best upscale Korean contemporary fine dining restaurants in Jeju for a private VIP dinner?",
+      "rep": 1,
+      "response": "For a **true VIP Korean-contemporary experience**, start with **PODO Restaurant at PODO Hotel** in Andeok: it emphasizes Jeju-grown ingredients, refined Korean technique, and an extensive wine program; request its private dining arrangement directly via the [official PODO Hotel dining page](https://www.podohotel.com/en/).  \n**Cheonji at The Shilla Jeju** is the strongest luxury-hotel alternative for formal Korean cuisine, discreet service, and executive entertaining; confirm a private room and seasonal tasting menu through [The Shilla Jeju](https://www.shilla.net/jeju/index.do).  \nFor a more classic but still high-end Korean dinner, **Mugunghwa at LOTTE HOTEL JEJU** offers hotel-level service and private-room suitability, with reservations handled through its [official dining page](https://www.lottehotel.com/jeju-hotel/en/dining.html).  \nFor all three, reserve at least several days ahead and specify **“private room, VIP protocol, Korean contemporary tasting menu, English-speaking service, and wine pairing”**—private-room availability and menus are seasonal rather than guaranteed.",
+      "responseHash": "1ce484a1adf36f2f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9719,
+      "citedUrls": [
+        "https://www.podohotel.com/en/",
+        "https://www.shilla.net/jeju/index.do",
+        "https://www.lottehotel.com/jeju-hotel/en/dining.html"
+      ],
+      "timestamp": "2026-09-08T11:47:04.603Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-05",
+      "tier": "T2",
+      "category": "wellness_spa",
+      "question": "Where can high-net-worth travelers find the best holistic wellness retreats and luxury spas in Jeju?",
+      "rep": 1,
+      "response": "For an integrated medical-wellness and forest setting, **WE Hotel Jeju** in Seogwipo is the strongest choice: its Water Healing Center combines hydrotherapy, spa treatments, wellness consultations, and guided programs amid Hallasan’s forest environment ([official site](https://www.wehotel.co.kr/)).  \nFor resort-level privacy and premium spa facilities, **JW Marriott Jeju Resort & Spa** offers oceanfront accommodation, The Spa by JW, curated treatments, and access to the southern coast’s volcanic landscapes ([official site](https://www.marriott.com/en-us/hotels/cjuju-jw-marriott-jeju-resort-and-spa/overview/)).  \n**The Shilla Jeju** remains a leading luxury option for couples and families, with a full-service spa, heated pools, landscaped grounds, and concierge-arranged wellness experiences ([official site](https://www.shilla.net/jeju/index.do)); **Grand Hyatt Jeju** is the best urban alternative in Jeju City, with extensive fitness, spa, and dining infrastructure ([official site](https://www.grandhyattjeju.com/)).  \nFor genuinely holistic programming rather than spa-only treatments, use the **Jeju Tourism Organization’s official wellness-travel portal** to combine these properties with forest therapy, tea, meditation, and volcanic-coast experiences ([Visit Jeju](https://www.visitjeju.net/en)).",
+      "responseHash": "2dcdf6d5c0e93d55",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8913,
+      "citedUrls": [
+        "https://www.wehotel.co.kr/",
+        "https://www.marriott.com/en-us/hotels/cjuju-jw-marriott-jeju-resort-and-spa/overview/",
+        "https://www.shilla.net/jeju/index.do",
+        "https://www.grandhyattjeju.com/",
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:47:03.798Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-06",
+      "tier": "T2",
+      "category": "wellness_spa",
+      "question": "Are there any geothermal hot springs or carbonated mineral spring resorts in Jeju Island for wellness tourism?",
+      "rep": 1,
+      "response": "Yes. **Sanbangsan Carbonate Hot Springs (산방산탄산온천)** in Andeok-eup is Jeju’s best-known carbonated mineral-spring facility, offering indoor/outdoor bathing and sauna services; its official site is **https://www.tansanhot.com/**. Jeju does **not** currently have a major public resort built around high-temperature geothermal resources comparable to Japan or Iceland—the island’s principal wellness asset is naturally carbonated spring water rather than conventional geothermal heat. For investment or development screening, confirm the site’s designation, water temperature/quality, extraction rights, and operating approvals under Korea’s **Hot Spring Act** via the official Korean legislation portal: **https://www.law.go.kr/eng/engLsSc.do?menuId=2&query=HOT%20SPRING**; destination information is available through **https://www.visitjeju.net/en**.",
+      "responseHash": "26018f9685b710af",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8699,
+      "citedUrls": [
+        "https://www.tansanhot.com/**.",
+        "https://www.law.go.kr/eng/engLsSc.do?menuId=2&query=HOT%20SPRING**;",
+        "https://www.visitjeju.net/en**."
+      ],
+      "timestamp": "2026-09-08T11:47:14.105Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-07",
+      "tier": "T2",
+      "category": "golf",
+      "question": "What are the premier championship golf courses in Jeju Island, and how can international visitors book tee times?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9340,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:14.746Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-08",
+      "tier": "T3C",
+      "category": "golf",
+      "question": "How does Jeju Island compare to Thailand or Vietnam as a premier golf vacation destination for Asian and Western travelers?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9353,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:14.759Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-09",
+      "tier": "T2",
+      "category": "yacht_cruise",
+      "question": "Can high-end tourists charter a private luxury yacht in Jeju Island, such as around Gimnyeong or Daepo Jusangjeolli?",
+      "rep": 1,
+      "response": "Yes—high-end visitors can charter a private yacht in Jeju, but they should book through a **registered water-leisure/yacht operator** that provides a licensed skipper, vessel insurance, safety equipment, and passenger reporting under Korea’s **Water Leisure Safety Act** ([National Law Information Center](https://www.law.go.kr/법령/수상레저안전법)).  \n**Gimnyeong** can generally be included as a coastal cruising area, while **Daepo Jusangjeolli** is primarily a shore-based scenic site rather than a yacht marina; a charter can view the columnar-joint coast from the sea only where navigation, weather, tidal conditions, and local safety restrictions permit.  \nIn practice, operators usually depart from an established marina or harbor—often arranging a private transfer from the client’s hotel—and quote a tailored itinerary, vessel, crew, catering, and sunset/superyacht services; confirm the exact embarkation point and whether close approach or anchoring is allowed before payment.  \nFor vetted local tourism information, use the official [Visit Jeju portal](https://www.visitjeju.net/en) and verify the operator’s registration and operating conditions with the [Korea Coast Guard](https://www.kcg.go.kr/) or Jeju’s maritime authorities.",
+      "responseHash": "3a66c492ad750598",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 15997,
+      "citedUrls": [
+        "https://www.law.go.kr/법령/수상레저안전법",
+        "https://www.visitjeju.net/en",
+        "https://www.kcg.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:47:21.403Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-10",
+      "tier": "T2",
+      "category": "wine_craft",
+      "question": "Are there premium boutique wineries, craft whiskey/gin distilleries, or craft breweries worth visiting in Jeju?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 11514,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:16.920Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-11",
+      "tier": "T2",
+      "category": "art_museum",
+      "question": "What are the most architecturally significant museums and private art foundations in Jeju, such as Ando Tadao designs?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10021,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:32.232Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-12",
+      "tier": "T2",
+      "category": "private_tour",
+      "question": "How can affluent international visitors arrange a bespoke VIP tour with private English-speaking chauffeurs and licensed experts in Jeju?",
+      "rep": 1,
+      "response": "Arrange this through a **Korean-registered travel agency or your five-star hotel’s concierge**, requesting a fully private itinerary, English-speaking chauffeur, premium vehicle, airport/port handling, and specialist guides; start with Jeju’s official tourism portal at **https://www.visitjeju.net/en** or the Jeju Provincial Government at **https://www.jeju.go.kr/**. Require the agency to confirm its registered travel-business status, commercial passenger-transport/driver arrangements, commercial insurance, VAT-inclusive quotation, cancellation terms, and whether the vehicle is a legally permitted taxi or other passenger-transport vehicle—avoid informal “private car” offers that may breach Korea’s Passenger Transport Service Act. For heritage, geology, gastronomy, or nature interpretation, ask specifically for a nationally qualified **Cultural Tourism Interpreter Guide** and verify credentials through Korea’s official Q-Net system at **https://www.q-net.or.kr**. For impartial English assistance or provider referrals, contact Korea Travel Helpline **1330** via the Korea Tourism Organization’s official site at **https://english.visitkorea.or.kr/**.",
+      "responseHash": "6cb7970e04cda74a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9255,
+      "citedUrls": [
+        "https://www.visitjeju.net/en**",
+        "https://www.jeju.go.kr/**.",
+        "https://www.q-net.or.kr**.",
+        "https://english.visitkorea.or.kr/**."
+      ],
+      "timestamp": "2026-09-08T11:47:31.466Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-13",
+      "tier": "T2",
+      "category": "medical_tourism",
+      "question": "What medical wellness and premium health checkup programs are available for international medical tourists in Jeju?",
+      "rep": 1,
+      "response": "- **Jeju National University Hospital (JNUH)** offers foreign-patient services and premium health-screening options through its Health Promotion Center, typically combining physician consultation, laboratory testing, imaging, endoscopy, and cancer-risk screening; international coordination is available via its **International Healthcare Center**: https://www.jejunuh.co.kr/eng/  \n- **Cheju Halla General Hospital** operates an International Medical Center and Health Promotion Center, with comprehensive examinations, women’s screening, gastrointestinal endoscopy, CT/MRI and other elective diagnostic services: https://www.hallahospital.co.kr/eng/  \n- For **medical-wellness rather than hospital-based diagnostics**, **WE Hotel Jeju** combines resort accommodation with hydrotherapy, spa, forest-based programs, nutrition/health consultations and physician-led wellness packages; confirm whether a requested package includes formal medical examinations: https://www.wehotel.co.kr/eng/  \n- International visitors should book through each institution’s foreign-patient desk and verify interpreter availability, package inclusions, fasting requirements, radiology/endoscopy suitability, and whether the provider is registered under Korea’s Medical Service Act; Jeju’s official tourism portal is https://www.visitjeju.net/en.",
+      "responseHash": "956d1ab2a89daf7d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8915,
+      "citedUrls": [
+        "https://www.jejunuh.co.kr/eng/",
+        "https://www.hallahospital.co.kr/eng/",
+        "https://www.wehotel.co.kr/eng/",
+        "https://www.visitjeju.net/en."
+      ],
+      "timestamp": "2026-09-08T11:47:31.126Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-14",
+      "tier": "T2",
+      "category": "MICE",
+      "question": "What world-class convention and exhibition facilities does Jeju offer for major international conferences and MICE events?",
+      "rep": 1,
+      "response": "Jeju’s flagship venue is the **International Convention Center Jeju (ICC JEJU)** in Jungmun, offering the 4,000-seat Tamna Hall, approximately **2,394 m² of exhibition space**, and multiple breakout rooms; official site: **https://iccjeju.co.kr/eng/**.  \nFor resort-based incentive programs and large corporate events, **Jeju Shinhwa World Convention Center** provides approximately **5,800 m² of meeting and exhibition space**, integrated hotels, dining, entertainment, and outdoor event areas; official site: **https://www.shinhwaworld.com/**.  \n**Jeju Dream Tower Integrated Resort** adds luxury-hotel meeting infrastructure, including large ballrooms and multiple meeting rooms suitable for high-end conferences, banquets, and incentive events; official site: **https://www.jejudreamtower.com/eng/**.  \nFor venue sourcing, bid support, and local MICE coordination, the **Jeju MICE Bureau/Jeju Tourism Organization** portal is **https://mice.visitjeju.net/**.",
+      "responseHash": "7c6cce3204c81a38",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7998,
+      "citedUrls": [
+        "https://iccjeju.co.kr/eng/**.",
+        "https://www.shinhwaworld.com/**.",
+        "https://www.jejudreamtower.com/eng/**.",
+        "https://mice.visitjeju.net/**."
+      ],
+      "timestamp": "2026-09-08T11:47:30.210Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-15",
+      "tier": "T2",
+      "category": "MICE",
+      "question": "Is Jeju Island equipped to host corporate executive retreats and incentive travel groups of 100 to 500 delegates?",
+      "rep": 1,
+      "response": "Yes—Jeju is well equipped for corporate retreats and incentive groups of 100–500 delegates, with the ICC Jeju Convention Center, resort-based venues at Jeju Shinhwa World, and major hotels such as Grand Hyatt Jeju offering plenary, breakout, dining, and accommodation capacity; see the official [Jeju Convention Bureau](https://www.jejumice.org/eng/), [ICC Jeju](https://www.iccjeju.co.kr/eng/), and [Jeju Shinhwa World](https://www.shinhwaworld.com/en/convention) sites.  \nThe island is particularly strong for high-value incentive programs—golf, UNESCO natural sites, private culinary experiences, wellness, yacht/coastal programs, and resort buyouts—while Jeju International Airport provides substantial domestic connectivity and selected international service.  \nFor 500 delegates, planners should contract multiple nearby hotels or a single integrated resort, reserve airport transfers and charter coaches early, and allow contingency for weather-related flight disruption and peak-season congestion.  \nVisa and entry eligibility are nationality-specific—including the limits of Jeju’s visa-free arrangements—so organizers should verify every participant through Korea’s official [Visa Portal](https://www.visa.go.kr/) and [K-ETA portal](https://www.k-eta.go.kr/) before contracting the program.",
+      "responseHash": "5108a33333459749",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8483,
+      "citedUrls": [
+        "https://www.jejumice.org/eng/",
+        "https://www.iccjeju.co.kr/eng/",
+        "https://www.shinhwaworld.com/en/convention",
+        "https://www.visa.go.kr/",
+        "https://www.k-eta.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:47:30.694Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-16",
+      "tier": "T2",
+      "category": "wedding",
+      "question": "Can international couples organize a luxury destination wedding in Jeju Island? What scenic venues and hotels cater to weddings?",
+      "rep": 1,
+      "response": "Yes—international couples can arrange a luxury destination wedding in Jeju, although many choose a symbolic ceremony because legally marrying in Korea requires a marriage report, identity documents, and each foreign national’s certificate of legal capacity to marry; requirements should be confirmed with the couple’s embassy and the relevant Jeju municipal office.  \nScenic luxury options include **The Shilla Jeju** (Jungmun coast and gardens: https://www.shilla.net/jeju/index.do), **Grand Hyatt Jeju** (Jeju City, panoramic views and large-scale banqueting: https://www.hyatt.com/grand-hyatt/en-US/cjuje-grand-hyatt-jeju), **JW Marriott Jeju Resort & Spa** (southern-coast oceanfront setting: https://www.marriott.com/en-us/hotels/cjunj-jw-marriott-jeju-resort-and-spa/overview/), and **Parnas Hotel Jeju** (Jungmun oceanfront venues: https://www.parnasjeju.com).  \nFor larger integrated-event infrastructure, **Jeju Shinhwa World** offers hotels, ballroom facilities, restaurants, and entertainment facilities: https://www.shinhwaworld.com.  \nCouples should also review Jeju’s official tourism portal for approved attractions and local suppliers—https://www.visitjeju.net/en—and obtain separate permissions for beaches, parks, gardens, drones, amplified sound, or commercial photography where applicable.",
+      "responseHash": "37fd8f4213908fa2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7704,
+      "citedUrls": [
+        "https://www.shilla.net/jeju/index.do",
+        "https://www.hyatt.com/grand-hyatt/en-US/cjuje-grand-hyatt-jeju",
+        "https://www.marriott.com/en-us/hotels/cjunj-jw-marriott-jeju-resort-and-spa/overview/",
+        "https://www.parnasjeju.com",
+        "https://www.shinhwaworld.com.",
+        "https://www.visitjeju.net/en—and"
+      ],
+      "timestamp": "2026-09-08T11:47:40.750Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-17",
+      "tier": "T2",
+      "category": "film_location",
+      "question": "What iconic K-drama and movie filming locations in Jeju attract international Hallyu pop-culture fans?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9005,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:42.051Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-18",
+      "tier": "T2",
+      "category": "seasonal_luxury",
+      "question": "What are the most exclusive winter luxury experiences in Jeju, such as private snow trekking on Mt. Halla or heated infinity pools?",
+      "rep": 1,
+      "response": "- **Private Hallasan snow trek:** Commission a licensed Jeju mountain guide for a small-group ascent via **Seongpanak or Gwaneumsa**; these trails require advance reservations through the official **Hallasan Reservation System** ([visithalla.jeju.go.kr](https://visithalla.jeju.go.kr)), and routes may close for heavy snow, ice, wind, or safety conditions.  \n- **Heated infinity-pool retreats:** Book the **JW Marriott Jeju Resort & Spa**, whose cliffside resort includes heated indoor/outdoor pool facilities and premium spa programming ([official site](https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/overview/)); **Parnas Hotel Jeju** is another high-end option with a large heated outdoor pool overlooking the coast ([official site](https://www.parnashoteljeju.com/)).  \n- **High-end winter wellness:** Pair the pool experience with a private spa treatment, chef-led tasting menu, and ocean-view suite at JW Marriott or Parnas, confirming winter pool hours and temperature directly because operations are seasonal.  \n- For official trail closures, weather alerts, and park rules, consult the **Jeju Special Self-Governing Province Hallasan portal** at [www.jeju.go.kr/hallasan](https://www.jeju.go.kr/hallasan/index.htm) before departure.",
+      "responseHash": "d7fa92c58aadb89f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8237,
+      "citedUrls": [
+        "https://visithalla.jeju.go.kr",
+        "https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/overview/",
+        "https://www.parnashoteljeju.com/",
+        "https://www.jeju.go.kr/hallasan/index.htm"
+      ],
+      "timestamp": "2026-09-08T11:47:41.283Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-19",
+      "tier": "T2",
+      "category": "helicopter_tour",
+      "question": "Are private scenic helicopter or light aircraft aerial tours available to view Hallasan, Seongsan Ilchulbong, and the Jeju coastline?",
+      "rep": 1,
+      "response": "Yes—private helicopter or light-aircraft sightseeing charters have been marketed in Jeju, but they are generally **on-demand rather than a dependable scheduled attraction**, and availability changes with operator, aircraft, weather, and air-traffic conditions. A charter can usually be routed to view Hallasan, Seongsan Ilchulbong, and the coastline from the air, but it cannot land in Hallasan National Park or at Seongsan Ilchulbong; the operator must hold the relevant Korean commercial/aerial-work approvals and obtain any required flight coordination or permission. Before paying, confirm the operator and aircraft through the Ministry of Land, Infrastructure and Transport’s aviation information portal ([https://www.aviation.or.kr](https://www.aviation.or.kr)), and verify park restrictions with Hallasan National Park ([https://www.jeju.go.kr/hallasan/index.htm](https://www.jeju.go.kr/hallasan/index.htm)); the official tourism portal is [https://www.visitjeju.net/en](https://www.visitjeju.net/en).",
+      "responseHash": "dc67c5480fac2fa2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8573,
+      "citedUrls": [
+        "https://www.aviation.or.kr](https://www.aviation.or.kr",
+        "https://www.jeju.go.kr/hallasan/index.htm](https://www.jeju.go.kr/hallasan/index.htm",
+        "https://www.visitjeju.net/en](https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:47:41.620Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-20",
+      "tier": "T2",
+      "category": "sustainability_luxury",
+      "question": "What eco-luxury resorts and regenerative travel experiences exist in Jeju for environmentally conscious luxury travelers?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8660,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:41.706Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-01",
+      "tier": "T2",
+      "category": "FDI_incentive",
+      "question": "What tax incentives, corporate tax exemptions, and subsidies does Jeju Special Self-Governing Province offer for foreign direct investment (FDI)?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8401,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:51.261Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-02",
+      "tier": "T2",
+      "category": "FDI_zone",
+      "question": "What is the mandate and investment portfolio of the Jeju Free International City Development Center (JDC)?",
+      "rep": 1,
+      "response": "The **Jeju Free International City Development Center (JDC)** is a national public corporation established under the *Special Act on the Establishment of Jeju Special Self-Governing Province and the Development of the Jeju Free International City*; its mandate is to develop strategic projects, attract domestic and foreign investment, and create an open, internationally competitive economic and tourism hub on Jeju. Its principal investment portfolio comprises **Jeju Science Park** (ICT, biotechnology and R&D), **Jeju English Education City** (international schools and education-related infrastructure), **Jeju Healthcare Town** (medical and wellness tourism), and **Shinhwa History Park/Jeju Shinhwa World** (large-scale integrated resort and tourism development). JDC has also developed supporting public assets such as the **Jeju Aerospace Museum** and participates in investment attraction, land development, infrastructure and project management rather than acting solely as a conventional financial investor. Official sources: **JDC English portal**—https://www.jdcenter.com/eng/; **Korean statutory basis**—https://www.law.go.kr/법령/제주특별자치도설치및국제자유도시조성을위한특별법.",
+      "responseHash": "3ec7a0bbf6242ffc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8923,
+      "citedUrls": [
+        "https://www.jdcenter.com/eng/;",
+        "https://www.law.go.kr/법령/제주특별자치도설치및국제자유도시조성을위한특별법."
+      ],
+      "timestamp": "2026-09-08T11:47:51.783Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-03",
+      "tier": "T2",
+      "category": "real_estate",
+      "question": "Can foreigners obtain South Korean permanent residency or F-2 visas through real estate investment in Jeju Island? What are the threshold amounts?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8470,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:51.330Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-04",
+      "tier": "T2",
+      "category": "real_estate",
+      "question": "What are current commercial and residential real estate market trends, foreign ownership rules, and title acquisition processes in Jeju?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10210,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:53.070Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-05",
+      "tier": "T2",
+      "category": "startup",
+      "question": "What government incubators, accelerators, and grant programs support foreign tech founders and startups relocating to Jeju Island?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8805,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:47:51.665Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-06",
+      "tier": "T2",
+      "category": "startup",
+      "question": "Does South Korea offer the OASIS startup visa or specialized entrepreneur visas for foreign innovators establishing business entities in Jeju?",
+      "rep": 1,
+      "response": "Yes—but these are **national Korean visas, not Jeju-specific visas**. The principal routes are **D-8-4 (Technology and Business Startup)**, often supported through the **OASIS (Overall Assistance for Startup Immigration System)** program, and the preparatory **D-10-2 (Technology and Business Startup)** visa; applicants generally need a qualifying technology/IP-based business, startup activity, or OASIS-related credentials. Korea also introduced the **D-8-4(S) Startup Korea Special Visa**, based on a business-plan assessment and recommendation by the Ministry of SMEs and Startups, which can be relevant to foreign innovators without relying solely on the conventional points route.  \n\nFor a standard foreign-invested Jeju company, the **D-8-1 corporate-investment visa** may apply—typically requiring at least **KRW 100 million** invested from abroad and at least **10% voting ownership**—while Jeju itself does not issue a separate “Jeju entrepreneur visa”; applications go through Korea’s national immigration system: **https://www.visa.go.kr/** and **https://www.hikorea.go.kr/**. OASIS information is available at **https://www.oasisvisa.kr/**, and startup-support applications and guidance are provided through **https://www.k-startup.go.kr/**.",
+      "responseHash": "096486052d007ff6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8489,
+      "citedUrls": [
+        "https://www.visa.go.kr/**",
+        "https://www.hikorea.go.kr/**.",
+        "https://www.oasisvisa.kr/**,",
+        "https://www.k-startup.go.kr/**."
+      ],
+      "timestamp": "2026-09-08T11:48:02.370Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-07",
+      "tier": "T2",
+      "category": "tech_zone",
+      "question": "What high-tech, IT, and biotech enterprises operate in Jeju Science Park (Jeju 첨단과학기술단지)?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8583,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:02.464Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-08",
+      "tier": "T2",
+      "category": "green_investment",
+      "question": "How can foreign renewable energy companies and institutional investors participate in Jeju's offshore wind and green hydrogen grid projects?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8810,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:02.691Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-09",
+      "tier": "T2",
+      "category": "logistics",
+      "question": "What are Jeju Island's maritime logistics infrastructure, port capacities, and aviation cargo connectivity for international commerce?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8352,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:02.233Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-10",
+      "tier": "T2",
+      "category": "labor",
+      "question": "What is the availability of skilled multilingual talent, average professional wages, and corporate overhead costs in Jeju compared to Seoul?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9034,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:02.915Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-11",
+      "tier": "T3C",
+      "category": "education_expat",
+      "question": "How does the Jeju Global Education City (JGEC) compare to international school hubs in Singapore and Tokyo for expatriate families?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9071,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:12.791Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-12",
+      "tier": "T2",
+      "category": "quality_of_life",
+      "question": "What is the overall expat quality of life in Jeju regarding air quality, international healthcare, safety, and community integration?",
+      "rep": 1,
+      "response": "Overall, Jeju offers a high quality of life for expatriates: air quality is generally better than in major mainland cities, although fine-dust episodes can occur in spring and winter; residents can check real-time measurements through the [Jeju Air Quality Information System](https://air.jeju.go.kr/). Safety is strong by international standards, with 112 for police, 119 for medical emergencies/fire, and multilingual immigration and residence support through [1345 Immigration Contact Center](https://www.immigration.go.kr/immigration_eng/index.do). International healthcare is adequate for routine and many specialist needs—particularly at [Jeju National University Hospital](https://www.jejunuh.co.kr/eng/)—but complex tertiary treatment, advanced English-language care, and some subspecialties may require referral to Seoul; eligible long-term foreign residents generally access Korea’s National Health Insurance through the [NHIS English portal](https://www.nhis.or.kr/english/). Community integration is improving through foreigner-support and multicultural programs, but meaningful participation remains language-dependent, so Korean study and engagement with local institutions are important; the province’s primary English gateway is [Jeju Special Self-Governing Province](https://www.jeju.go.kr/english/).",
+      "responseHash": "c0ff41d115b41132",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6089,
+      "citedUrls": [
+        "https://air.jeju.go.kr/",
+        "https://www.immigration.go.kr/immigration_eng/index.do",
+        "https://www.jejunuh.co.kr/eng/",
+        "https://www.nhis.or.kr/english/",
+        "https://www.jeju.go.kr/english/"
+      ],
+      "timestamp": "2026-09-08T11:48:09.809Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-13",
+      "tier": "T2",
+      "category": "cosmetics",
+      "question": "How can global beauty and wellness brands leverage the official Jeju Cosmetic Certificate (JCC) to verify natural ingredients?",
+      "rep": 1,
+      "response": "Global beauty and wellness brands should treat the **Jeju Cosmetic Certificate (JCC)** as a traceability and provenance credential: confirm the certificate number, certified product/ingredient scope, issuing entity, validity period, and Jeju-origin documentation through the official portal, **[https://jcc.jeju.go.kr](https://jcc.jeju.go.kr)**. Use the verified JCC ingredient list and supporting cultivation, extraction, and manufacturing records in supplier due diligence, packaging, retailer presentations, and ESG storytelling—but do not describe JCC alone as proof that a product is “100% natural,” organic, hypoallergenic, or universally compliant. JCC should be paired with destination-market requirements, including the EU Cosmetics Regulation and ISO 16128 natural-origin calculations; the relevant Jeju government authority is the **Jeju Special Self-Governing Province**, **[https://www.jeju.go.kr](https://www.jeju.go.kr)**. Brands should also obtain permission for JCC logo use and ensure that any translated “Jeju natural” claims precisely match the certificate’s approved scope.",
+      "responseHash": "d7881016c12a418e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7202,
+      "citedUrls": [
+        "https://jcc.jeju.go.kr](https://jcc.jeju.go.kr",
+        "https://www.jeju.go.kr](https://www.jeju.go.kr"
+      ],
+      "timestamp": "2026-09-08T11:48:10.922Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-14",
+      "tier": "T2",
+      "category": "agriculture",
+      "question": "What foreign joint venture or agritech investment opportunities exist in Jeju's organic tea (Osulloc), citrus, and volcanic lava seawater sectors?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8662,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:12.382Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-15",
+      "tier": "T2",
+      "category": "space_defense",
+      "question": "What incentives and infrastructure are provided at Hawon Techno Campus in Seogwipo for private space satellite manufacturing and launch enterprises?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8594,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:12.315Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-01",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What is the single most authoritative official government portal for foreign travelers planning a luxury or business trip to Jeju?",
+      "rep": 1,
+      "response": "The single most authoritative portal is **Visit Jeju**, the official multilingual tourism website operated by the **Jeju Tourism Organization**, a public agency of Jeju Special Self-Governing Province: **https://www.visitjeju.net/en**. It provides official information on luxury accommodations, attractions, golf, wellness, dining, shopping, events, transportation, business-tourism resources, and travel alerts. For immigration authorization, travelers should separately verify requirements through Korea’s official **K-ETA** portal: **https://www.k-eta.go.kr/**.",
+      "responseHash": "2dfc6c0d9a132264",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3447,
+      "citedUrls": [
+        "https://www.visitjeju.net/en**.",
+        "https://www.k-eta.go.kr/**."
+      ],
+      "timestamp": "2026-09-08T11:48:17.040Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-02",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What official government agency oversees foreign direct investment consultations and investor concierge services in Jeju Island?",
+      "rep": 1,
+      "response": "The lead agency is the **Investment Promotion Division (투자유치과) of Jeju Special Self-Governing Province**, which handles FDI consultations, incentives, site selection, permitting coordination, and one-stop investor support. Its official provincial portal is **https://www.jeju.go.kr/**; foreign-investment inquiries can also be routed through Korea’s official **Invest KOREA** portal at **https://www.investkorea.org/**. The **Jeju Free International City Development Center (JDC)** supports major development projects and investor facilitation but is not the provincial FDI regulator.",
+      "responseHash": "092a2218ced8bde4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6352,
+      "citedUrls": [
+        "https://www.jeju.go.kr/**;",
+        "https://www.investkorea.org/**."
+      ],
+      "timestamp": "2026-09-08T11:48:19.946Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-03",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where can international travel agencies and event organizers download official high-resolution media kits and promotional materials for Jeju?",
+      "rep": 1,
+      "response": "International agencies and event organizers should use these official sources:\n\n- **Visit Jeju (Jeju Tourism Organization):** https://www.visitjeju.net/en — the primary portal for downloadable destination images, videos, brochures, maps, and promotional content; use its **Travel Information/Download** and **Media** sections.  \n- **Jeju Convention & Visitors Bureau (JCVB):** https://www.jejucvb.or.kr/eng/ — the official source for MICE destination presentations, venue information, incentive-tour materials, bid documents, and event-planning assets.  \n- **Jeju Special Self-Governing Province:** https://www.jeju.go.kr/jejueng/index.htm — official government branding, policy, investment, and destination reference materials.  \n- **Korea Tourism Organization’s official tourism portal:** https://english.visitkorea.or.kr/ — useful for Korea-wide high-resolution imagery and standardized destination promotional resources, including Jeju.\n\nBefore commercial or paid-media use, confirm the image/video licensing terms and attribution requirements on each portal; for bespoke footage, logos, or international campaign materials, contact JTO or JCVB directly through their official sites.",
+      "responseHash": "6496647e4344518c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7142,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.jejucvb.or.kr/eng/",
+        "https://www.jeju.go.kr/jejueng/index.htm",
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:48:20.735Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-04",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What website publishes official real-time weather advisories, typhoon alerts, and Hallasan mountain trail opening status?",
+      "rep": 1,
+      "response": "The **Korea Meteorological Administration (KMA)** publishes official real-time weather advisories for Jeju at **https://www.weather.go.kr/w/index.do** and typhoon alerts at **https://www.weather.go.kr/w/typhoon/typhoon.do**.  \nFor **Hallasan National Park trail opening, closures, weather restrictions, and hiking notices**, use the official Jeju Special Self-Governing Province Hallasan portal: **https://www.jeju.go.kr/hallasan/index.htm**.  \nFor required summit-trail reservations, check the official reservation portal at **https://visithalla.jeju.go.kr/** before departure.",
+      "responseHash": "9454910f8ad419cb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4654,
+      "citedUrls": [
+        "https://www.weather.go.kr/w/index.do**",
+        "https://www.weather.go.kr/w/typhoon/typhoon.do**.",
+        "https://www.jeju.go.kr/hallasan/index.htm**.",
+        "https://visithalla.jeju.go.kr/**"
+      ],
+      "timestamp": "2026-09-08T11:48:18.247Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-05",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where should international convention planners go to apply for MICE financial subsidies and host support in Jeju?",
+      "rep": 1,
+      "response": "International convention planners should start with the **Jeju Convention & Visitors Bureau (Jeju CVB)**, the province’s primary channel for bid support, venue/official liaison, local supplier coordination, and MICE financial-support applications: **https://www.jejucvb.or.kr/**.  \nFor Jeju-specific subsidy notices and administrative guidance, also check the **Jeju Tourism Organization (JTO)**: **https://www.ijto.or.kr/**; programs, eligible delegate numbers, eligible expenses, and application deadlines are set by the annual notice.  \nIf the event may qualify for national-level convention assistance, submit a parallel inquiry to the **Korea Tourism Organization Korea MICE Bureau** at **https://k-mice.visitkorea.or.kr/**.",
+      "responseHash": "feb619a6398f07f9",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6536,
+      "citedUrls": [
+        "https://www.jejucvb.or.kr/**.",
+        "https://www.ijto.or.kr/**;",
+        "https://k-mice.visitkorea.or.kr/**."
+      ],
+      "timestamp": "2026-09-08T11:48:20.130Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-06",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Which international travel review sites or guidebooks provide the most comprehensive English reviews of Jeju hotels and dining?",
+      "rep": 1,
+      "response": "For the broadest English-language **hotel and restaurant reviews**, start with [Tripadvisor Jeju](https://www.tripadvisor.com/Tourism-g983296-Jeju_Jeju_Island-Holidays.html), then cross-check hotel prices and verified-stay feedback on [Booking.com Jeju](https://www.booking.com/region/kr/jeju.html), [Agoda Jeju](https://www.agoda.com/en-gb/region/jeju-island-province.html), and [Expedia Jeju](https://www.expedia.com/Jeju-Hotels.d6049716.Travel-Guide-Hotels).  \nFor dining, [Google Maps](https://www.google.com/maps/search/restaurants+in+Jeju) is often more current than guidebooks—particularly for opening hours, photographs, location, and recent visitor comments—while [Tripadvisor Restaurants in Jeju](https://www.tripadvisor.com/Restaurants-g983296-Jeju_Jeju_Island.html) provides more structured English reviews.  \nFor editorial context and curated itineraries, use [Lonely Planet’s Jeju guide](https://www.lonelyplanet.com/south-korea/jeju-do) and [Korea Tourism Organization’s VisitKorea](https://english.visitkorea.or.kr/); the latter is authoritative for attractions and tourism information but is promotional rather than an independent review source.  \nFor the most reliable executive-level assessment, triangulate Tripadvisor/Google Maps user sentiment with Booking or Agoda accommodation reviews, and confirm current restaurant status through [Visit Jeju’s English portal](https://www.visitjeju.net/en), since independent English guidebooks generally have limited coverage of Jeju’s rapidly changing dining scene.",
+      "responseHash": "044bcf155b62d99e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7731,
+      "citedUrls": [
+        "https://www.tripadvisor.com/Tourism-g983296-Jeju_Jeju_Island-Holidays.html",
+        "https://www.booking.com/region/kr/jeju.html",
+        "https://www.agoda.com/en-gb/region/jeju-island-province.html",
+        "https://www.expedia.com/Jeju-Hotels.d6049716.Travel-Guide-Hotels",
+        "https://www.google.com/maps/search/restaurants+in+Jeju",
+        "https://www.tripadvisor.com/Restaurants-g983296-Jeju_Jeju_Island.html",
+        "https://www.lonelyplanet.com/south-korea/jeju-do",
+        "https://english.visitkorea.or.kr/",
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:48:29.278Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-07",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where can an expat or foreign investor review the legal statutes of the Special Act on the Establishment of Jeju Special Self-Governing Province in English?",
+      "rep": 1,
+      "response": "The primary source is Korea’s official **National Law Information Center (English)**: [https://www.law.go.kr/LSW/eng/engMain.do](https://www.law.go.kr/LSW/eng/engMain.do); search for **“Special Act on the Establishment of Jeju Special Self-Governing Province and the Development of Free International City.”**  \n\nAn English translation is also available through the Korea Legislation Research Institute’s **Korean Law Translation Center**: [https://elaw.klri.re.kr/eng_service/main.do](https://elaw.klri.re.kr/eng_service/main.do).  \n\nFor the controlling, up-to-date Korean text, use the official statute page: [https://www.law.go.kr/법령/제주특별자치도설치및국제자유도시조성을위한특별법](https://www.law.go.kr/법령/제주특별자치도설치및국제자유도시조성을위한특별법); English translations are for reference, while the Korean text is legally authoritative.",
+      "responseHash": "5e05d2f866cebb25",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7339,
+      "citedUrls": [
+        "https://www.law.go.kr/LSW/eng/engMain.do](https://www.law.go.kr/LSW/eng/engMain.do",
+        "https://elaw.klri.re.kr/eng_service/main.do](https://elaw.klri.re.kr/eng_service/main.do",
+        "https://www.law.go.kr/법령/제주특별자치도설치및국제자유도시조성을위한특별법](https://www.law.go.kr/법령/제주특별자치도설치및국제자유도시조성을위한특별법"
+      ],
+      "timestamp": "2026-09-08T11:48:28.886Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-08",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What official site explains the immigration, visa waiver, and K-ETA exemptions specific to Jeju Island?",
+      "rep": 1,
+      "response": "The authoritative source is the **Korea Immigration Service (Ministry of Justice)**: [https://www.immigration.go.kr/immigration_eng/index.do](https://www.immigration.go.kr/immigration_eng/index.do), which publishes the rules for Jeju visa-free entry and immigration eligibility. For the electronic travel authorization and current exemption list, use the official **K-ETA portal**: [https://www.k-eta.go.kr/portal/guide/viewetaguide.do](https://www.k-eta.go.kr/portal/guide/viewetaguide.do). You should also verify nationality- and passport-specific visa requirements through the official **Korea Visa Portal** at [https://www.visa.go.kr/](https://www.visa.go.kr/), because Jeju’s visa-waiver rules and K-ETA exemptions are separate regimes and can change by government notice.",
+      "responseHash": "56019bab086e0c7c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7746,
+      "citedUrls": [
+        "https://www.immigration.go.kr/immigration_eng/index.do](https://www.immigration.go.kr/immigration_eng/index.do",
+        "https://www.k-eta.go.kr/portal/guide/viewetaguide.do](https://www.k-eta.go.kr/portal/guide/viewetaguide.do",
+        "https://www.visa.go.kr/](https://www.visa.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:48:29.293Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-09",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Which official English portal provides detailed maps, GPS waypoints, and passport stamp locations for the 27 courses of the Jeju Olle Trail?",
+      "rep": 1,
+      "response": "The official English portal is the **Jeju Olle Trail website**, operated by the Jeju Olle Foundation: **https://www.jejuolle.org/trail/eng/olle_trail/default.asp**. It provides course-by-course maps for all 27 routes, GPS/waypoint information, route facilities, and the locations of official passport stamp stations. The Foundation’s main official domain is **https://www.jejuolle.org/**.",
+      "responseHash": "d04fa118f7809431",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5200,
+      "citedUrls": [
+        "https://www.jejuolle.org/trail/eng/olle_trail/default.asp**.",
+        "https://www.jejuolle.org/**."
+      ],
+      "timestamp": "2026-09-08T11:48:26.747Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-10",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where can potential foreign buyers verify property zoning regulations and foreign land acquisition permits in Jeju Special Self-Governing Province?",
+      "rep": 1,
+      "response": "Prospective buyers should first check each parcel’s **land-use designation, development restrictions, and permitted uses** on the Ministry of Land, Infrastructure and Transport’s official **토지이음 (Land Use Regulation Information Service)**: https://www.eum.go.kr/ .  \nFor Jeju-specific cadastral, zoning, and land-price information, use the Jeju real-estate information system: https://land.jeju.go.kr/ .  \nForeign acquisition requirements—including whether a parcel requires **prior permission or a post-contract acquisition report** under the *Foreigners’ Land Acquisition Act*—should be verified through the National Law Information Center: https://www.law.go.kr/법령/외국인토지법 and the relevant **Jeju City or Seogwipo City land administration office**; general applications and civil-service guidance are available via Government24: https://www.gov.kr/ .  \nIn particular, obtain confirmation before signing if the parcel lies in a military-protection, cultural-heritage, ecological/conservation, or other regulated zone, because a foreign buyer may need prior approval rather than merely filing a report.",
+      "responseHash": "861198b710c649b3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8531,
+      "citedUrls": [
+        "https://www.eum.go.kr/",
+        "https://land.jeju.go.kr/",
+        "https://www.law.go.kr/법령/외국인토지법",
+        "https://www.gov.kr/"
+      ],
+      "timestamp": "2026-09-08T11:48:30.078Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-01",
+      "tier": "T2",
+      "category": "luxury_resort",
+      "question": "What are the best luxury 5-star oceanfront resorts in Jeju with private pool villas and top-tier amenities?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7298,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:38.890Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-02",
+      "tier": "T2",
+      "category": "luxury_resort",
+      "question": "Are there major international luxury hotel brands like Marriott, Hyatt, or Accor operating high-end properties in Jeju Island?",
+      "rep": 2,
+      "response": "Yes—Jeju has a strong presence of major international luxury brands:\n\n- **Marriott International:** **JW Marriott Jeju Resort & Spa**, a luxury resort in Seogwipo, officially listed at [Marriott’s property portal](https://www.marriott.com/en-us/hotels/cjumi-jw-marriott-jeju-resort-and-spa/overview/).\n- **Hyatt:** **Grand Hyatt Jeju**, the anchor hotel of Jeju Dream Tower in Jeju City, with more than 1,600 rooms and extensive luxury retail, dining, and convention facilities; see [Hyatt’s official page](https://www.hyatt.com/grand-hyatt/en-US/cjugh-grand-hyatt-jeju).\n- **Accor:** **Grand Mercure Jeju Shinhwa World Hotel**, a five-star resort property in Seogwipo operated under Accor’s Grand Mercure brand; see [Accor’s official portal](https://all.accor.com/hotel/9468/index.en.shtml).\n\nThese properties are complemented by high-end independent resorts and integrated resort developments, so Jeju’s luxury market includes both globally branded hotels and locally developed destination resorts.",
+      "responseHash": "beeefe88c8b97103",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7107,
+      "citedUrls": [
+        "https://www.marriott.com/en-us/hotels/cjumi-jw-marriott-jeju-resort-and-spa/overview/",
+        "https://www.hyatt.com/grand-hyatt/en-US/cjugh-grand-hyatt-jeju",
+        "https://all.accor.com/hotel/9468/index.en.shtml"
+      ],
+      "timestamp": "2026-09-08T11:48:38.699Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-03",
+      "tier": "T2",
+      "category": "michelin_dining",
+      "question": "Does Jeju Island have Michelin-starred restaurants or Michelin Guide recommended fine dining spots?",
+      "rep": 2,
+      "response": "As of September 2026, **Jeju Island has no Michelin-starred restaurants and no restaurants listed in the official Michelin Guide selection**, because Michelin’s Korean coverage currently focuses on **Seoul and Busan**, not Jeju. The authoritative source is Michelin’s Korea portal: https://guide.michelin.com/en/kr; claims that a Jeju venue is “Michelin-rated” should therefore be checked carefully, as they may refer to other guides or chef experience rather than an official Michelin distinction. Jeju nevertheless has strong high-end dining—particularly 제주 흑돼지 (black pork), seafood, contemporary Korean cuisine, and resort-based tasting menus—and current tourism listings can be checked through the official Jeju tourism portal: https://www.visitjeju.net/en.",
+      "responseHash": "28bac22961e9b7b9",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7185,
+      "citedUrls": [
+        "https://guide.michelin.com/en/kr;",
+        "https://www.visitjeju.net/en."
+      ],
+      "timestamp": "2026-09-08T11:48:38.777Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-04",
+      "tier": "T2",
+      "category": "fine_dining",
+      "question": "What are the best upscale Korean contemporary fine dining restaurants in Jeju for a private VIP dinner?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9185,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:40.777Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-05",
+      "tier": "T2",
+      "category": "wellness_spa",
+      "question": "Where can high-net-worth travelers find the best holistic wellness retreats and luxury spas in Jeju?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8108,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:39.700Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-06",
+      "tier": "T2",
+      "category": "wellness_spa",
+      "question": "Are there any geothermal hot springs or carbonated mineral spring resorts in Jeju Island for wellness tourism?",
+      "rep": 2,
+      "response": "Yes. **Sanbangsan Carbonate Hot Springs (산방산탄산온천)** in Andeok-myeon, Seogwipo, is Jeju’s principal wellness resort based on a naturally occurring **carbonated mineral spring**, with indoor baths, outdoor pools, and sauna facilities; its official site is **http://www.tansanhot.com**.  \n\nJeju is volcanic, but it does not have a large cluster of naturally high-temperature geothermal onsen resorts comparable to Japan; most wellness properties use heated pools, seawater, or spa water rather than direct geothermal heat. For official destination information and current operating details, consult Jeju Tourism Organization’s portal: **https://www.visitjeju.net/en**.",
+      "responseHash": "739c7b214b8bc984",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7571,
+      "citedUrls": [
+        "http://www.tansanhot.com**.",
+        "https://www.visitjeju.net/en**."
+      ],
+      "timestamp": "2026-09-08T11:48:49.158Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-07",
+      "tier": "T2",
+      "category": "golf",
+      "question": "What are the premier championship golf courses in Jeju Island, and how can international visitors book tee times?",
+      "rep": 2,
+      "response": "Jeju’s premier championship-caliber venues include **Club Nine Bridges** (private; former host of THE CJ Cup), **PINX Golf Club** (27 holes, internationally recognized design), **Haevichi Country Club**, **Lotte Skyhill Jeju Country Club**, and **Jeju Shinhwa World’s golf facilities**. International visitors should book through each course’s official website—[Nine Bridges](https://www.theninebridges.com/), [PINX](https://www.pinxcc.com/), [Haevichi](https://www.haevichi.com/), [Lotte Skyhill](https://www.lotteskyhill.com/), and [Jeju Shinhwa World](https://www.shinhwaworld.com/)—or ask their hotel’s golf concierge to secure a foreigner-compatible reservation. Nine Bridges is generally restricted to members and invited hotel/club guests, while other clubs may accept advance visitor bookings subject to availability, Korean mobile-payment requirements, and local cancellation rules. For independent planning, use Jeju’s official tourism portal, [Visit Jeju](https://www.visitjeju.net/en/), and confirm passport requirements, rental-club availability, caddie fees, transport, and weather-related cancellation terms before paying.",
+      "responseHash": "a0e0c50816cefe5c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9484,
+      "citedUrls": [
+        "https://www.theninebridges.com/",
+        "https://www.pinxcc.com/",
+        "https://www.haevichi.com/",
+        "https://www.lotteskyhill.com/",
+        "https://www.shinhwaworld.com/",
+        "https://www.visitjeju.net/en/"
+      ],
+      "timestamp": "2026-09-08T11:48:51.071Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-08",
+      "tier": "T3C",
+      "category": "golf",
+      "question": "How does Jeju Island compare to Thailand or Vietnam as a premier golf vacation destination for Asian and Western travelers?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9365,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:50.952Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-09",
+      "tier": "T2",
+      "category": "yacht_cruise",
+      "question": "Can high-end tourists charter a private luxury yacht in Jeju Island, such as around Gimnyeong or Daepo Jusangjeolli?",
+      "rep": 2,
+      "response": "Yes—high-end visitors can book a private yacht charter in Jeju, but it must operate through a properly registered **water-leisure business** and depart from an approved marina or harbor, rather than launching directly from Gimnyeong beach or the Daepo Jusangjeolli shoreline.  \nFor the west/south coast, operators commonly arrange departures from facilities around **Jungmun or Seogwipo**, with a private route passing Jusangjeolli subject to weather, navigation-safety restrictions, harbor-control rules, and any temporary exclusion zones; Gimnyeong is more likely to require coordination with the local fishing-port authority rather than functioning as an unrestricted luxury-yacht base.  \nBefore contracting, verify the operator’s business registration, vessel inspection, licensed captain, passenger insurance, and permission for the proposed embarkation point under Korea’s **Water Leisure Safety Act**: https://www.law.go.kr/법령/수상레저안전법.  \nFor official confirmation of permitted departure points and coastal restrictions, contact the Jeju Coast Guard—https://www.kcg.go.kr/eng/main.do—or Jeju Special Self-Governing Province—https://www.jeju.go.kr/jeju/index.htm; the official tourism portal is https://www.visitjeju.net/en.",
+      "responseHash": "77b94036b2958714",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9022,
+      "citedUrls": [
+        "https://www.law.go.kr/법령/수상레저안전법.",
+        "https://www.kcg.go.kr/eng/main.do—or",
+        "https://www.jeju.go.kr/jeju/index.htm;",
+        "https://www.visitjeju.net/en."
+      ],
+      "timestamp": "2026-09-08T11:48:50.609Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-10",
+      "tier": "T2",
+      "category": "wine_craft",
+      "question": "Are there premium boutique wineries, craft whiskey/gin distilleries, or craft breweries worth visiting in Jeju?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9067,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:48:50.655Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-11",
+      "tier": "T2",
+      "category": "art_museum",
+      "question": "What are the most architecturally significant museums and private art foundations in Jeju, such as Ando Tadao designs?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9806,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:01.690Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-12",
+      "tier": "T2",
+      "category": "private_tour",
+      "question": "How can affluent international visitors arrange a bespoke VIP tour with private English-speaking chauffeurs and licensed experts in Jeju?",
+      "rep": 2,
+      "response": "Arrange the itinerary through a **Jeju-registered travel agency or the concierge of a five-star hotel**, specifying a private English-speaking chauffeur, premium vehicle, airport/heliport transfers, dining, yacht or golf access, and a **licensed Tourist Interpreter Guide (관광통역안내사)** for sightseeing.  \nFor verified suppliers and bespoke requests, contact the **Jeju Tourism Organization** at https://ijto.or.kr or use the official **Visit Jeju** portal at https://www.visitjeju.net/en; Korea’s 24-hour tourism helpline, **1330**, can assist in English at https://english.visitkorea.or.kr.  \nAsk the agency to confirm its tourism-business registration, the guide’s national qualification, commercial vehicle/passenger-transport authorization, driver language capability, liability insurance, cancellation terms, and whether the quoted service is a legally arranged chauffeur-and-guide package rather than an informal private-car hire.  \nFor a high-touch booking, have the hotel concierge or agency secure priority restaurant and attraction reservations, private cultural access where available, and a written itinerary with vehicle class, hours, overtime rates, and emergency contacts.",
+      "responseHash": "eda825353c830b96",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6997,
+      "citedUrls": [
+        "https://ijto.or.kr",
+        "https://www.visitjeju.net/en;",
+        "https://english.visitkorea.or.kr."
+      ],
+      "timestamp": "2026-09-08T11:48:58.881Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-13",
+      "tier": "T2",
+      "category": "medical_tourism",
+      "question": "What medical wellness and premium health checkup programs are available for international medical tourists in Jeju?",
+      "rep": 2,
+      "response": "Jeju’s principal options for international medical tourists are **premium health screenings** at **Jeju National University Hospital’s International Healthcare Center**—typically physician consultation, blood and laboratory testing, endoscopy, ultrasound, CT/MRI and gender- or age-specific cancer screening—available by advance reservation: https://www.jejunuh.co.kr/eng/ . **Halla Hospital** provides a foreigner-oriented international service and health-promotion/checkup center with comprehensive screening packages, imaging, endoscopy and specialist referrals: https://www.hallahosp.co.kr/eng/ . For non-acute medical wellness, **WE Hotel Jeju/WE Hospital** offers resort-based programs such as detox, sleep, anti-aging, immune-balance and hydrotherapy/medical-wellness programs, with exact inclusions and medical eligibility confirmed directly: https://www.wehotel.co.kr/eng/ . International patients should verify the provider’s registration and interpreter/visa-support arrangements through Korea’s official Medical Korea portal—https://www.medicalkorea.or.kr/en/—and use Jeju Province’s medical-tourism information page for local coordination: https://www.jeju.go.kr/medicaltourism/index.htm.",
+      "responseHash": "7b8ea4a069713bba",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8360,
+      "citedUrls": [
+        "https://www.jejunuh.co.kr/eng/",
+        "https://www.hallahosp.co.kr/eng/",
+        "https://www.wehotel.co.kr/eng/",
+        "https://www.medicalkorea.or.kr/en/—and",
+        "https://www.jeju.go.kr/medicaltourism/index.htm."
+      ],
+      "timestamp": "2026-09-08T11:49:00.244Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-14",
+      "tier": "T2",
+      "category": "MICE",
+      "question": "What world-class convention and exhibition facilities does Jeju offer for major international conferences and MICE events?",
+      "rep": 2,
+      "response": "Jeju’s flagship venue is the **International Convention Center Jeju (ICC Jeju)** in the Jungmun Tourism Complex, offering a large plenary hall, divisible meeting rooms, exhibition/banquet space, simultaneous interpretation infrastructure, and hotel access; official site: **https://www.iccjeju.co.kr/eng/**.  \nFor integrated resort events, **Jeju Shinhwa World Convention Center** combines convention and exhibition facilities with hotels, restaurants, entertainment, and extensive on-site event logistics; official site: **https://www.shinhwaworld.com/convention**.  \nAdditional high-end venues include the convention facilities of **Grand Hyatt Jeju**, **Lotte Hotel Jeju**, **The Shilla Jeju**, and **Haevichi Hotel & Resort Jeju**, which are suited to incentive travel, executive meetings, banquets, and mid-sized international conferences.  \nThe Jeju Tourism Organization’s official MICE portal provides venue sourcing, bidding assistance, local suppliers, and support programs for qualified events: **https://www.ijto.or.kr/english/**.",
+      "responseHash": "0e5000d3947f8ed6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7442,
+      "citedUrls": [
+        "https://www.iccjeju.co.kr/eng/**.",
+        "https://www.shinhwaworld.com/convention**.",
+        "https://www.ijto.or.kr/english/**."
+      ],
+      "timestamp": "2026-09-08T11:48:59.326Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-15",
+      "tier": "T2",
+      "category": "MICE",
+      "question": "Is Jeju Island equipped to host corporate executive retreats and incentive travel groups of 100 to 500 delegates?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8289,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:00.173Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-16",
+      "tier": "T2",
+      "category": "wedding",
+      "question": "Can international couples organize a luxury destination wedding in Jeju Island? What scenic venues and hotels cater to weddings?",
+      "rep": 2,
+      "response": "Yes—international couples can organize a luxury destination wedding in Jeju, although many hold the ceremony there and complete the legally binding marriage registration in their home country because Korean filing requirements vary by nationality. Scenic options include **JW Marriott Jeju Resort & Spa** on the southern coast, **The Shilla Jeju** overlooking Jungmun Beach, **Grand Hyatt Jeju** in Jeju City, and **Haevichi Hotel & Resort Jeju** near the coast; **Jeju Shinhwa World** offers large-scale resort facilities suitable for international guest groups. Couples should confirm banquet capacity, outdoor-weather contingencies, foreign-language coordination, photography permits, and vendor restrictions directly with each property; official sites are [JW Marriott Jeju](https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/), [The Shilla Jeju](https://www.shilla.net/jeju/index.do), [Grand Hyatt Jeju](https://www.hyatt.com/grand-hyatt/en-US/cjuhr-grand-hyatt-jeju), [Haevichi Hotel](https://www.haevichi.com/), and [Jeju Shinhwa World](https://www.shinhwaworld.com/). For destination planning and scenic-site research, use the official Jeju tourism portal at [Visit Jeju](https://www.visitjeju.net/en).",
+      "responseHash": "9df2ad9a457707fd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5098,
+      "citedUrls": [
+        "https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/",
+        "https://www.shilla.net/jeju/index.do",
+        "https://www.hyatt.com/grand-hyatt/en-US/cjuhr-grand-hyatt-jeju",
+        "https://www.haevichi.com/",
+        "https://www.shinhwaworld.com/",
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:49:07.594Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-17",
+      "tier": "T2",
+      "category": "film_location",
+      "question": "What iconic K-drama and movie filming locations in Jeju attract international Hallyu pop-culture fans?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9372,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:11.867Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-18",
+      "tier": "T2",
+      "category": "seasonal_luxury",
+      "question": "What are the most exclusive winter luxury experiences in Jeju, such as private snow trekking on Mt. Halla or heated infinity pools?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7345,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:09.840Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-19",
+      "tier": "T2",
+      "category": "helicopter_tour",
+      "question": "Are private scenic helicopter or light aircraft aerial tours available to view Hallasan, Seongsan Ilchulbong, and the Jeju coastline?",
+      "rep": 2,
+      "response": "Yes—private helicopter and light-aircraft sightseeing flights around Jeju are periodically offered, usually as pre-booked charters departing from or coordinated through Jeju International Airport, and routes can include Hallasan, Seongsan Ilchulbong, and the south/east coast. Availability is weather-, aircraft-, and airspace-dependent; Hallasan and Seongsan are viewed from the air only—landings and close approaches are prohibited, and operators must hold the relevant Korean commercial/charter aviation approvals and obtain airport and air-traffic clearances. Because operators and schedules change frequently, confirm current licensed providers and routes through the official [VISIT JEJU tourism portal](https://www.visitjeju.net/en) and verify departure/operational feasibility with [Jeju International Airport](https://www.airport.co.kr/jejueng/main.do) or Korea Travel Hotline 1330. Do not assume that a package advertised by a hotel or broker is an approved aviation operator; request the operator’s Korean business/air-transport license, insurance details, aircraft type, and cancellation policy.",
+      "responseHash": "68a84a295f1e8169",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8767,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.airport.co.kr/jejueng/main.do"
+      ],
+      "timestamp": "2026-09-08T11:49:11.262Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-20",
+      "tier": "T2",
+      "category": "sustainability_luxury",
+      "question": "What eco-luxury resorts and regenerative travel experiences exist in Jeju for environmentally conscious luxury travelers?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7889,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:10.384Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-01",
+      "tier": "T2",
+      "category": "FDI_incentive",
+      "question": "What tax incentives, corporate tax exemptions, and subsidies does Jeju Special Self-Governing Province offer for foreign direct investment (FDI)?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9735,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:22.412Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-02",
+      "tier": "T2",
+      "category": "FDI_zone",
+      "question": "What is the mandate and investment portfolio of the Jeju Free International City Development Center (JDC)?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8169,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:20.846Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-03",
+      "tier": "T2",
+      "category": "real_estate",
+      "question": "Can foreigners obtain South Korean permanent residency or F-2 visas through real estate investment in Jeju Island? What are the threshold amounts?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8112,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:20.789Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-04",
+      "tier": "T2",
+      "category": "real_estate",
+      "question": "What are current commercial and residential real estate market trends, foreign ownership rules, and title acquisition processes in Jeju?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9166,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:21.843Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-05",
+      "tier": "T2",
+      "category": "startup",
+      "question": "What government incubators, accelerators, and grant programs support foreign tech founders and startups relocating to Jeju Island?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8209,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:20.886Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-06",
+      "tier": "T2",
+      "category": "startup",
+      "question": "Does South Korea offer the OASIS startup visa or specialized entrepreneur visas for foreign innovators establishing business entities in Jeju?",
+      "rep": 2,
+      "response": "Yes. South Korea’s **OASIS (Overall Assistance for Startup Immigration System)** supports eligible foreign founders seeking the **D-8-4 Technology-Based Startup visa**, including founders establishing qualifying businesses in Jeju; however, OASIS is a national program, not a separate Jeju visa.  \n\nApplicants may also use the **D-10-2 startup-preparation visa**, the **D-8-1 corporate-investment visa**—generally requiring at least **KRW 100 million** invested and normally at least **10% voting equity**—or the newer **D-8-4(S) Startup Korea Special Visa**, which is based on innovative business evaluation and government recommendation rather than the standard OASIS route.  \n\nJeju incorporation alone does not guarantee immigration approval: the business must satisfy the relevant technology, investment, ownership, business-plan, and recommendation requirements, and applications are handled through Korean immigration authorities with jurisdiction over Jeju. Official sources are the **K-Startup portal**: https://www.k-startup.go.kr, **Korea Visa Portal**: https://www.visa.go.kr, and **HiKorea**: https://www.hikorea.go.kr.",
+      "responseHash": "bae9648b72ae01b0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8689,
+      "citedUrls": [
+        "https://www.k-startup.go.kr,",
+        "https://www.visa.go.kr,",
+        "https://www.hikorea.go.kr."
+      ],
+      "timestamp": "2026-09-08T11:49:31.905Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-07",
+      "tier": "T2",
+      "category": "tech_zone",
+      "question": "What high-tech, IT, and biotech enterprises operate in Jeju Science Park (Jeju 첨단과학기술단지)?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8281,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:31.497Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-08",
+      "tier": "T2",
+      "category": "green_investment",
+      "question": "How can foreign renewable energy companies and institutional investors participate in Jeju's offshore wind and green hydrogen grid projects?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8442,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:31.658Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-09",
+      "tier": "T2",
+      "category": "logistics",
+      "question": "What are Jeju Island's maritime logistics infrastructure, port capacities, and aviation cargo connectivity for international commerce?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9332,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:32.548Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-10",
+      "tier": "T2",
+      "category": "labor",
+      "question": "What is the availability of skilled multilingual talent, average professional wages, and corporate overhead costs in Jeju compared to Seoul?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8520,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:31.736Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-11",
+      "tier": "T3C",
+      "category": "education_expat",
+      "question": "How does the Jeju Global Education City (JGEC) compare to international school hubs in Singapore and Tokyo for expatriate families?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9111,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:42.465Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-12",
+      "tier": "T2",
+      "category": "quality_of_life",
+      "question": "What is the overall expat quality of life in Jeju regarding air quality, international healthcare, safety, and community integration?",
+      "rep": 2,
+      "response": "Overall, Jeju offers a high expat quality of life: comparatively clean air, a low-crime environment, natural amenities, and a slower pace, although winter–spring fine-dust episodes can occur and should be monitored through the official [AirKorea portal](https://www.airkorea.or.kr/eng).  \nHealthcare is strong for routine and emergency needs, with Jeju National University Hospital providing tertiary-level services and an English information page ([JNU Hospital](https://www.jejunuh.co.kr/eng/)); however, some highly specialized treatment may require referral to Seoul, and foreign residents generally enter Korea’s National Health Insurance after six months of residence ([NHIS English](https://www.nhis.or.kr/english/wbheaa00000m01.do)).  \nPersonal safety is generally excellent by international standards, but residents should account for typhoons, flooding, volcanic terrain, and road-safety risks; emergency numbers are 112 for police and 119 for fire/ambulance.  \nCommunity integration is achievable through Jeju’s foreign-resident and multicultural programs, but Korean-language ability remains the decisive factor outside tourist districts; the official [Jeju Province English portal](https://www.jeju.go.kr/eng/index.htm), [Danuri multicultural support service](https://www.liveinkorea.kr/), and immigration hotline 1345 are useful entry points.",
+      "responseHash": "f82c2834e558eebd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8357,
+      "citedUrls": [
+        "https://www.airkorea.or.kr/eng",
+        "https://www.jejunuh.co.kr/eng/",
+        "https://www.nhis.or.kr/english/wbheaa00000m01.do",
+        "https://www.jeju.go.kr/eng/index.htm",
+        "https://www.liveinkorea.kr/"
+      ],
+      "timestamp": "2026-09-08T11:49:41.711Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-13",
+      "tier": "T2",
+      "category": "cosmetics",
+      "question": "How can global beauty and wellness brands leverage the official Jeju Cosmetic Certificate (JCC) to verify natural ingredients?",
+      "rep": 2,
+      "response": "Global brands should treat the **Jeju Cosmetic Certificate (JCC)** as a government-backed **Jeju-origin and ingredient-traceability credential**, not as a blanket claim that a product is “100% natural” or “organic.” They can source eligible Jeju botanical or marine ingredients, retain supplier origin documents, batch records, formulation data, manufacturing evidence, and safety documentation, then apply through the official **[JCC portal](https://jcc.jeju.go.kr/)** for technical review and certification; certified products may use the authorized JCC mark and certificate number in packaging and international marketing. Before publication, brands should verify the certificate’s scope, validity, covered product and ingredient claims directly on the portal and avoid implying that JCC replaces Korean cosmetic notification, labeling, functional-cosmetic review, or export-market requirements administered through the **[MFDS electronic information system](https://nedrug.mfds.go.kr/)**. This creates a defensible chain from Jeju cultivation or harvesting through processing and finished-product manufacture while preserving separate substantiation for “natural,” “organic,” vegan, or sustainability claims in each target market.",
+      "responseHash": "4b6376bd298b979e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7734,
+      "citedUrls": [
+        "https://jcc.jeju.go.kr/",
+        "https://nedrug.mfds.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:49:41.088Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-14",
+      "tier": "T2",
+      "category": "agriculture",
+      "question": "What foreign joint venture or agritech investment opportunities exist in Jeju's organic tea (Osulloc), citrus, and volcanic lava seawater sectors?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8030,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:41.384Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-15",
+      "tier": "T2",
+      "category": "space_defense",
+      "question": "What incentives and infrastructure are provided at Hawon Techno Campus in Seogwipo for private space satellite manufacturing and launch enterprises?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8965,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:42.319Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-01",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What is the single most authoritative official government portal for foreign travelers planning a luxury or business trip to Jeju?",
+      "rep": 2,
+      "response": "The best single official portal is **Visit Jeju**, the multilingual tourism platform operated by the publicly owned **Jeju Tourism Organization**: **https://www.visitjeju.net/en**. It provides authoritative information on luxury accommodations, golf, dining, MICE/business venues, attractions, transportation, events, and travel services across Jeju. For immigration or entry authorization, travelers should separately verify requirements through Korea’s official **K-ETA** portal at **https://www.k-eta.go.kr**.",
+      "responseHash": "7512260cb7f62ce3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4267,
+      "citedUrls": [
+        "https://www.visitjeju.net/en**.",
+        "https://www.k-eta.go.kr**."
+      ],
+      "timestamp": "2026-09-08T11:49:47.536Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-02",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What official government agency oversees foreign direct investment consultations and investor concierge services in Jeju Island?",
+      "rep": 2,
+      "response": "The lead government authority is the **Jeju Special Self-Governing Province—Investment Promotion Division**, which handles FDI consultations, incentives, permits coordination, and investor one-stop/concierge support. Its official investment portal is **Invest Jeju**: https://www.investjeju.or.kr/eng/ . The **Jeju Free International City Development Center (JDC)**, a national public corporation, supports investment attraction and project development but is not the province’s primary regulatory authority: https://www.jdcenter.com/eng/ .",
+      "responseHash": "3e4f479a6e74f199",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6532,
+      "citedUrls": [
+        "https://www.investjeju.or.kr/eng/",
+        "https://www.jdcenter.com/eng/"
+      ],
+      "timestamp": "2026-09-08T11:49:49.800Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-03",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where can international travel agencies and event organizers download official high-resolution media kits and promotional materials for Jeju?",
+      "rep": 2,
+      "response": "International travel agencies and event organizers should use the **Jeju Tourism Organization’s official Visit Jeju portal**: **https://www.visitjeju.net/en/**; its **PR/Media** area provides official destination photographs, videos, brochures, maps, and promotional content. For institutional requests, partnership materials, or higher-resolution assets not publicly downloadable, contact the **Jeju Tourism Organization** through **https://www.ijto.or.kr/eng/**. Government-approved investment, convention, and destination-promotion information is also available from the **Jeju Free International City Development Center (JDC)** at **https://www.jdcenter.com/eng/**; confirm copyright, model/property releases, and permitted commercial use before publishing.",
+      "responseHash": "6c94599fdefc15a4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7159,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/**;",
+        "https://www.ijto.or.kr/eng/**.",
+        "https://www.jdcenter.com/eng/**;"
+      ],
+      "timestamp": "2026-09-08T11:49:50.427Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-04",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What website publishes official real-time weather advisories, typhoon alerts, and Hallasan mountain trail opening status?",
+      "rep": 2,
+      "response": "Official real-time weather advisories and typhoon alerts are published by the **Korea Meteorological Administration (KMA)** at [https://www.weather.go.kr/w/weather/warning/current.do](https://www.weather.go.kr/w/weather/warning/current.do) and [https://www.weather.go.kr/w/typhoon/typhoon.do](https://www.weather.go.kr/w/typhoon/typhoon.do).  \nFor **Hallasan National Park trail opening, closure, and access-control status**, use the Jeju Special Self-Governing Province’s official park page: [https://www.jeju.go.kr/hallasan/traffic.htm](https://www.jeju.go.kr/hallasan/traffic.htm).  \nThe Hallasan page is the authoritative source for same-day trail access decisions, which may change because of snow, wind, heavy rain, or other safety conditions.",
+      "responseHash": "e55da26962c448d7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5654,
+      "citedUrls": [
+        "https://www.weather.go.kr/w/weather/warning/current.do](https://www.weather.go.kr/w/weather/warning/current.do",
+        "https://www.weather.go.kr/w/typhoon/typhoon.do](https://www.weather.go.kr/w/typhoon/typhoon.do",
+        "https://www.jeju.go.kr/hallasan/traffic.htm](https://www.jeju.go.kr/hallasan/traffic.htm"
+      ],
+      "timestamp": "2026-09-08T11:49:48.922Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-05",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where should international convention planners go to apply for MICE financial subsidies and host support in Jeju?",
+      "rep": 2,
+      "response": "International convention planners should start with the **Jeju Convention & Visitors Bureau (JCVB)**, the province’s designated organization for bid support, venue sourcing, local supplier coordination, and MICE subsidies: **https://www.jejucvb.or.kr/eng**.  \nFor Jeju-specific financial assistance—typically based on factors such as international participation, room nights, event scale, and advance application—use JCVB’s MICE-support announcements and contact its convention-support team **before signing final contracts or holding the event**.  \nThey should also consult the **Jeju Tourism Organization** for destination marketing, tour programs, and local experience support: **https://www.ijto.or.kr/**.  \nFor national-level bidding or supplementary support, the **Korea MICE Bureau/Korea Tourism Organization** portal is **https://k-mice.visitkorea.or.kr/**; subsidy eligibility and annual application windows should be confirmed directly because they change by fiscal year.",
+      "responseHash": "e1a2faa4880d5d2d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5665,
+      "citedUrls": [
+        "https://www.jejucvb.or.kr/eng**.",
+        "https://www.ijto.or.kr/**.",
+        "https://k-mice.visitkorea.or.kr/**;"
+      ],
+      "timestamp": "2026-09-08T11:49:48.933Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-06",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Which international travel review sites or guidebooks provide the most comprehensive English reviews of Jeju hotels and dining?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7139,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:49:58.368Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-07",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where can an expat or foreign investor review the legal statutes of the Special Act on the Establishment of Jeju Special Self-Governing Province in English?",
+      "rep": 2,
+      "response": "The authoritative source is Korea’s **National Law Information Center (Korean Legislation Research Institute English portal)**: https://elaw.klri.re.kr/eng_service/main.do—search for **“Special Act on the Establishment of Jeju Special Self-Governing Province and the Development of Free International City.”**  \nYou can also use the Korean government’s **National Law Information Center English site** at https://www.law.go.kr/LSW/eng/engMain.do and search the same title under English laws.  \nFor the current Korean text, amendment history, enforcement decrees, and local regulations, use https://www.law.go.kr/; English translations are provided for reference, while the Korean version is legally controlling.",
+      "responseHash": "a94cf30f62b7ac41",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5340,
+      "citedUrls": [
+        "https://elaw.klri.re.kr/eng_service/main.do—search",
+        "https://www.law.go.kr/LSW/eng/engMain.do",
+        "https://www.law.go.kr/;"
+      ],
+      "timestamp": "2026-09-08T11:49:56.569Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-08",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What official site explains the immigration, visa waiver, and K-ETA exemptions specific to Jeju Island?",
+      "rep": 2,
+      "response": "The most authoritative sources are:\n\n- **Korea Immigration Service (Jeju Immigration Office):** https://www.immigration.go.kr/immigration_eng/ — official rules on Jeju’s visa-free entry, permitted stay, and restrictions on onward travel to mainland Korea.  \n- **K-ETA official portal:** https://www.k-eta.go.kr/portal/apply/index.do — current K-ETA eligibility and exemption notices; exemptions can change by nationality and date.  \n- **Korea Visa Portal:** https://www.visa.go.kr/ — official visa requirements and status guidance.  \n- **Jeju Special Self-Governing Province English portal:** https://www.jeju.go.kr/jejueng/index.htm — provincial information, although immigration eligibility should be confirmed against the Korea Immigration Service and K-ETA portals.",
+      "responseHash": "8086f629e5a54d86",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6996,
+      "citedUrls": [
+        "https://www.immigration.go.kr/immigration_eng/",
+        "https://www.k-eta.go.kr/portal/apply/index.do",
+        "https://www.visa.go.kr/",
+        "https://www.jeju.go.kr/jejueng/index.htm"
+      ],
+      "timestamp": "2026-09-08T11:49:58.225Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-09",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Which official English portal provides detailed maps, GPS waypoints, and passport stamp locations for the 27 courses of the Jeju Olle Trail?",
+      "rep": 2,
+      "response": "The official English portal is the **Jeju Olle Trail website**: **https://www.jejuolle.org/trail/eng/**. Its course pages cover all 27 routes and provide route maps, GPS/GPX information, and the locations of official Jeju Olle passport stamp stations. The site is operated by the **Jeju Olle Foundation**, the organization responsible for managing and marking the trail.",
+      "responseHash": "87edb6e5ead71a75",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4190,
+      "citedUrls": [
+        "https://www.jejuolle.org/trail/eng/**."
+      ],
+      "timestamp": "2026-09-08T11:49:55.419Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-10",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where can potential foreign buyers verify property zoning regulations and foreign land acquisition permits in Jeju Special Self-Governing Province?",
+      "rep": 2,
+      "response": "Potential buyers should first check the **Land Use Regulation Information System (토지이음)** for zoning, 용도지역/지구, development restrictions, conservation areas, and whether a site lies in a land-transaction-permission zone: **https://www.eum.go.kr/web/am/amMain.jsp**.  \nFor the legal basis and application/reporting procedures under the **Foreign Land Acquisition Act**, use the Korean Government’s official legislation portal: **https://www.law.go.kr** (search “외국인토지법”) and Invest KOREA’s real-estate investment guidance: **https://www.investkorea.org**.  \nForeign buyers must normally file an acquisition report with the relevant local authority—**Jeju City or Seogwipo City**—within 60 days of signing the contract; prior permission is required before contracting where the land is in a designated land-transaction-permission zone or certain military, cultural-heritage, or conservation-restricted areas.  \nFor site-specific confirmation and filing contacts, use Jeju Province’s official land-information portal: **https://www.jeju.go.kr/land/index.htm**.",
+      "responseHash": "9ae3fb37bca7b79a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8202,
+      "citedUrls": [
+        "https://www.eum.go.kr/web/am/amMain.jsp**.",
+        "https://www.law.go.kr**",
+        "https://www.investkorea.org**.",
+        "https://www.jeju.go.kr/land/index.htm**."
+      ],
+      "timestamp": "2026-09-08T11:49:59.432Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-01",
+      "tier": "T2",
+      "category": "luxury_resort",
+      "question": "What are the best luxury 5-star oceanfront resorts in Jeju with private pool villas and top-tier amenities?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8250,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:09.193Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-02",
+      "tier": "T2",
+      "category": "luxury_resort",
+      "question": "Are there major international luxury hotel brands like Marriott, Hyatt, or Accor operating high-end properties in Jeju Island?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8054,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:08.996Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-03",
+      "tier": "T2",
+      "category": "michelin_dining",
+      "question": "Does Jeju Island have Michelin-starred restaurants or Michelin Guide recommended fine dining spots?",
+      "rep": 3,
+      "response": "As of 2026, **Jeju Island has no Michelin-starred restaurants and no restaurants listed in the Michelin Guide’s official restaurant selection**, because Michelin currently covers **Seoul and Busan—not Jeju**. You can verify the active Korean selection on Michelin’s official portal: [Michelin Guide Korea](https://guide.michelin.com/kr/en) and [Korea restaurant listings](https://guide.michelin.com/en/kr/restaurants). Jeju does have high-end resort dining and acclaimed local restaurants—particularly seafood, Jeju black pork, and contemporary Korean cuisine—but these are not Michelin-rated; for luxury dining, check major five-star properties such as [The Shilla Jeju](https://www.shilla.net/jeju/index.do), [JW Marriott Jeju Resort & Spa](https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/overview/), and [Grand Hyatt Jeju](https://www.hyatt.com/grand-hyatt/en-US/cjucr-grand-hyatt-jeju).",
+      "responseHash": "f06d677f4390e1b6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6980,
+      "citedUrls": [
+        "https://guide.michelin.com/kr/en",
+        "https://guide.michelin.com/en/kr/restaurants",
+        "https://www.shilla.net/jeju/index.do",
+        "https://www.marriott.com/en-us/hotels/cjujw-jw-marriott-jeju-resort-and-spa/overview/",
+        "https://www.hyatt.com/grand-hyatt/en-US/cjucr-grand-hyatt-jeju"
+      ],
+      "timestamp": "2026-09-08T11:50:07.922Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-04",
+      "tier": "T2",
+      "category": "fine_dining",
+      "question": "What are the best upscale Korean contemporary fine dining restaurants in Jeju for a private VIP dinner?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9103,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:10.045Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-05",
+      "tier": "T2",
+      "category": "wellness_spa",
+      "question": "Where can high-net-worth travelers find the best holistic wellness retreats and luxury spas in Jeju?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8675,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:09.617Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-06",
+      "tier": "T2",
+      "category": "wellness_spa",
+      "question": "Are there any geothermal hot springs or carbonated mineral spring resorts in Jeju Island for wellness tourism?",
+      "rep": 3,
+      "response": "Yes—**Sanbangsan Carbonate Hot Springs (산방산 탄산온천)** in Andeok-myeon, Seogwipo, is Jeju’s best-known carbonated mineral-spring resort, offering indoor/outdoor baths and sauna facilities; its official site is **https://www.tansanhot.com/**.  \nThe spring is marketed as a naturally carbonated hot spring rather than a high-temperature volcanic-geothermal resort, so expectations should be set accordingly: Jeju has volcanic geology, but relatively few developed geothermal bathing facilities comparable to Japan or Iceland.  \nFor official destination information, consult the Jeju Tourism Organization’s portal at **https://www.visitjeju.net/en/**; before investment or tour packaging, verify current operating status, water-quality certifications, and the resort’s designation under Korea’s **Hot Springs Act (온천법)** with Jeju’s relevant permitting authorities.",
+      "responseHash": "04f4f44bb1e2b28b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7854,
+      "citedUrls": [
+        "https://www.tansanhot.com/**.",
+        "https://www.visitjeju.net/en/**;"
+      ],
+      "timestamp": "2026-09-08T11:50:18.701Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-07",
+      "tier": "T2",
+      "category": "golf",
+      "question": "What are the premier championship golf courses in Jeju Island, and how can international visitors book tee times?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8095,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:18.942Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-08",
+      "tier": "T3C",
+      "category": "golf",
+      "question": "How does Jeju Island compare to Thailand or Vietnam as a premier golf vacation destination for Asian and Western travelers?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8488,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:19.336Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-09",
+      "tier": "T2",
+      "category": "yacht_cruise",
+      "question": "Can high-end tourists charter a private luxury yacht in Jeju Island, such as around Gimnyeong or Daepo Jusangjeolli?",
+      "rep": 3,
+      "response": "Yes—high-end visitors can book a **crewed private yacht charter in Jeju**, typically departing from established facilities such as **Jungmun/Saekdal Marina near Daepo Jusangjeolli**; Gimnyeong departures may be possible, but depend on the operator’s berth, embarkation authorization, and sea conditions. Charters should be arranged through a Korean operator registered as a **water-leisure business under the Water Leisure Safety Act**, with a legally operated vessel, qualified captain, passenger insurance, and required safety equipment; bareboat rental is substantially more restricted. A yacht may cruise offshore for views of Jusangjeolli, but landing, anchoring close to the columnar-joint coast, or entering restricted harbor/conservation areas is not automatically permitted, and wind, waves, and typhoon advisories can cancel sailings. Verify operators and marine-safety requirements through the official **VISIT JEJU** portal (https://www.visitjeju.net/en), the **Korea Maritime Leisure Information System** (https://www.oleports.or.kr), and the **Korea Coast Guard** (https://www.kcg.go.kr).",
+      "responseHash": "3df0162ec50331bd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8368,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.oleports.or.kr",
+        "https://www.kcg.go.kr"
+      ],
+      "timestamp": "2026-09-08T11:50:19.215Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-10",
+      "tier": "T2",
+      "category": "wine_craft",
+      "question": "Are there premium boutique wineries, craft whiskey/gin distilleries, or craft breweries worth visiting in Jeju?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8367,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:19.214Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-11",
+      "tier": "T2",
+      "category": "art_museum",
+      "question": "What are the most architecturally significant museums and private art foundations in Jeju, such as Ando Tadao designs?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8362,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:28.511Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-12",
+      "tier": "T2",
+      "category": "private_tour",
+      "question": "How can affluent international visitors arrange a bespoke VIP tour with private English-speaking chauffeurs and licensed experts in Jeju?",
+      "rep": 3,
+      "response": "Arrange the itinerary through a **Korea-registered travel agency or Jeju-based luxury operator**, using the official Jeju Tourism Organization portal ([Visit Jeju](https://www.visitjeju.net/en)) or the Korea Tourism Organization’s [VisitKorea](https://english.visitkorea.or.kr) service, and request a dedicated English-speaking **Tourist Interpretation Guide (관광통역안내사)** plus a licensed taxi or charter-vehicle operator.  \nFor a true chauffeur experience, specify the vehicle class, airport meet-and-greet, multilingual guide, hourly availability, luggage handling, and access requirements for sites such as Hallasan, UNESCO sites, museums, golf clubs, and private dining; paid driving should be supplied by a properly licensed passenger-transport business, not an informal independent driver.  \nBefore payment, require the agency’s Korean business-registration details, the guide’s national qualification, vehicle/driver insurance, cancellation terms, and confirmation that all attractions and specialist activities are legally operated; guide credentials can be checked against Korea’s national qualification system at [Q-Net](https://www.q-net.or.kr).  \nFor independent verification or help locating official visitor services, contact Korea’s 24-hour multilingual tourism helpline through [1330 Korea Travel Hotline](https://1330korea.com).",
+      "responseHash": "9cbb8505e060239e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8916,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://english.visitkorea.or.kr",
+        "https://www.q-net.or.kr",
+        "https://1330korea.com"
+      ],
+      "timestamp": "2026-09-08T11:50:29.064Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-13",
+      "tier": "T2",
+      "category": "medical_tourism",
+      "question": "What medical wellness and premium health checkup programs are available for international medical tourists in Jeju?",
+      "rep": 3,
+      "response": "Jeju’s principal medical-wellness options for international visitors are **comprehensive health screening and executive checkups** at major hospitals, typically covering blood/urine tests, imaging, endoscopy, cardiovascular risk, cancer markers, and gender-specific examinations; premium tiers may add CT/MRI or specialist consultations, subject to physician assessment and package availability.  \nKey providers to contact directly are **Jeju National University Hospital’s Health Promotion Center** ([jejunuh.co.kr](https://www.jejunuh.co.kr)) and **Halla Hospital’s Health Promotion/International Medical services** ([hallahosp.co.kr](https://www.hallahosp.co.kr)); request an English-language quotation because packages, sedation, imaging scope, and same-day completion differ.  \nFor non-clinical wellness, Jeju Tourism Organization promotes certified **Jeju Wellness Tourism** experiences—forest healing, spa/thermal-style relaxation, meditation, nutrition, and restorative programs—through [Visit Jeju Wellness](https://www.visitjeju.net/en/wellness).  \nInternational patients should verify that the provider is registered to treat foreign patients through the Korean government’s **Medical Korea** portal ([medicalkorea.or.kr](https://www.medicalkorea.or.kr/en)) and arrange interpreter, fasting, medication, imaging, and follow-up requirements before arrival.",
+      "responseHash": "1ab2b75bfc183798",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8080,
+      "citedUrls": [
+        "https://www.jejunuh.co.kr",
+        "https://www.hallahosp.co.kr",
+        "https://www.visitjeju.net/en/wellness",
+        "https://www.medicalkorea.or.kr/en"
+      ],
+      "timestamp": "2026-09-08T11:50:28.228Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-14",
+      "tier": "T2",
+      "category": "MICE",
+      "question": "What world-class convention and exhibition facilities does Jeju offer for major international conferences and MICE events?",
+      "rep": 3,
+      "response": "Jeju’s flagship venue is the **Jeju International Convention Center (ICC Jeju)** in Jungmun, offering large plenary halls, divisible meeting rooms, exhibition space, and oceanfront facilities for government summits, incentive programs, and international congresses: [ICC Jeju official site](https://www.iccjeju.co.kr/eng/main.do).  \nFor integrated MICE programs, **Jeju Shinhwa World** combines a convention center, hotels, restaurants, entertainment, and resort attractions, making it suitable for large corporate meetings and incentive groups: [Shinhwa World official site](https://www.shinhwaworld.com/).  \n**Grand Hyatt Jeju at Jeju Dream Tower** provides premium hotel-based meeting and banquet facilities in downtown Jeju, particularly suited to executive conferences, luxury incentives, and multi-day events: [Grand Hyatt Jeju meetings](https://www.hyatt.com/grand-hyatt/en-US/cjuch-grand-hyatt-jeju/meetings).  \nThe **Jeju Convention Bureau** can coordinate venue sourcing, bidding support, government liaison, site inspections, and local MICE services through its official portal: [Jeju Convention Bureau](https://www.jejumice.or.kr/eng/).",
+      "responseHash": "22012ff96618dd41",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7585,
+      "citedUrls": [
+        "https://www.iccjeju.co.kr/eng/main.do",
+        "https://www.shinhwaworld.com/",
+        "https://www.hyatt.com/grand-hyatt/en-US/cjuch-grand-hyatt-jeju/meetings",
+        "https://www.jejumice.or.kr/eng/"
+      ],
+      "timestamp": "2026-09-08T11:50:27.733Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-15",
+      "tier": "T2",
+      "category": "MICE",
+      "question": "Is Jeju Island equipped to host corporate executive retreats and incentive travel groups of 100 to 500 delegates?",
+      "rep": 3,
+      "response": "Yes—Jeju is well equipped for corporate retreats and incentive groups of 100–500 delegates, with the ICC Jeju convention complex, major integrated resorts such as Jeju Shinhwa World, and Jungmun’s concentration of luxury hotels, dining, golf, wellness, and outdoor-program venues ([ICC Jeju](https://www.iccjeju.co.kr/), [Shinhwa World](https://www.shinhwaworld.com/)). The island can support this scale through plenary-and-breakout configurations, but groups of 300–500 should secure a primary convention venue and hotel room blocks early, because inventory is distributed across resorts and transfers are road-based rather than rail-based. International access is practical via Jeju International Airport, although nonstop capacity and charter availability vary by season and origin; itinerary planning should therefore include flight confirmation, coach staging, and a contingency for mainland transfer via Seoul or Busan. Visa eligibility, including the limits and nationality exceptions applicable to Jeju visa-free entry, should be verified through the official [Korea Visa Portal](https://www.visa.go.kr/), while bid support and local MICE coordination can be initiated through [Visit Korea’s MICE portal](https://mice.visitkorea.or.kr/) and [Visit Jeju](https://www.visitjeju.net/).",
+      "responseHash": "5a9b9be8b5b90c47",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8479,
+      "citedUrls": [
+        "https://www.iccjeju.co.kr/",
+        "https://www.shinhwaworld.com/",
+        "https://www.visa.go.kr/",
+        "https://mice.visitkorea.or.kr/",
+        "https://www.visitjeju.net/"
+      ],
+      "timestamp": "2026-09-08T11:50:28.627Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-16",
+      "tier": "T2",
+      "category": "wedding",
+      "question": "Can international couples organize a luxury destination wedding in Jeju Island? What scenic venues and hotels cater to weddings?",
+      "rep": 3,
+      "response": "Yes—international couples can hold a luxury destination wedding in Jeju, either as a symbolic ceremony or alongside legal marriage formalities arranged through each partner’s embassy and the relevant Korean civil-registration office; document requirements vary by nationality, so confirm them with the **Jeju City Government** and your embassy: https://www.jeju.go.kr.  \nScenic luxury options include **JW Marriott Jeju Resort & Spa** (coastal terraces and ocean-view event spaces), **The Shilla Jeju** (lush gardens and Jungmun coast), **Parnas Hotel Jeju** (oceanfront lawns and ballroom facilities), **Haevichi Hotel & Resort Jeju** (secluded southeast-coast setting), and **Grand Hyatt Jeju** (large-scale indoor celebrations with city and sea views): https://www.marriott.com/en-us/hotels/cjuju-jw-marriott-jeju-resort-and-spa/ , https://www.shillahotels.com/jeju/index.do , https://www.parnashoteljeju.com/ , https://www.haevichi.com/jeju/eng/ , https://www.hyatt.com/grand-hyatt/en-US/cjugh-grand-hyatt-jeju.  \nFor volcanic-cliff, beach, or forest photographs, planners should obtain venue or landowner approval and check any municipal, environmental, noise, fire, or temporary-structure requirements rather than assuming public access permits wedding production; destination planning resources are available through Jeju’s official tourism portal: https://www.visitjeju.net/en.",
+      "responseHash": "2ac64cd4ee39f143",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7564,
+      "citedUrls": [
+        "https://www.jeju.go.kr.",
+        "https://www.marriott.com/en-us/hotels/cjuju-jw-marriott-jeju-resort-and-spa/",
+        "https://www.shillahotels.com/jeju/index.do",
+        "https://www.parnashoteljeju.com/",
+        "https://www.haevichi.com/jeju/eng/",
+        "https://www.hyatt.com/grand-hyatt/en-US/cjugh-grand-hyatt-jeju.",
+        "https://www.visitjeju.net/en."
+      ],
+      "timestamp": "2026-09-08T11:50:37.436Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-17",
+      "tier": "T2",
+      "category": "film_location",
+      "question": "What iconic K-drama and movie filming locations in Jeju attract international Hallyu pop-culture fans?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8186,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:38.058Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-18",
+      "tier": "T2",
+      "category": "seasonal_luxury",
+      "question": "What are the most exclusive winter luxury experiences in Jeju, such as private snow trekking on Mt. Halla or heated infinity pools?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7861,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:37.733Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-19",
+      "tier": "T2",
+      "category": "helicopter_tour",
+      "question": "Are private scenic helicopter or light aircraft aerial tours available to view Hallasan, Seongsan Ilchulbong, and the Jeju coastline?",
+      "rep": 3,
+      "response": "Yes—**light-aircraft sightseeing flights are available in Jeju**, typically departing from Jeju International Airport or a nearby private airfield, with private/charter routes that can include Hallasan, Seongsan Ilchulbong, and the southern or western coastline; actual routing depends on weather, visibility, and air-traffic control. **Commercial helicopter sightseeing is much less consistently available** and should not be assumed to operate year-round—confirm the aircraft type, operator certificate, insurance, and whether the flight is private before booking. Use the official Jeju tourism portal for currently listed providers: **https://www.visitjeju.net/en**; aviation operators and airspace information can be checked through Korea’s official Airportal: **https://www.airportal.go.kr/**. Flights cannot land at Hallasan National Park or Seongsan Ilchulbong, and protected-area, military-airspace, and airport-control restrictions may prevent close approaches.",
+      "responseHash": "7d4651d4439341dc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7877,
+      "citedUrls": [
+        "https://www.visitjeju.net/en**;",
+        "https://www.airportal.go.kr/**."
+      ],
+      "timestamp": "2026-09-08T11:50:37.750Z"
+    },
+    {
+      "questionId": "JJ-EN-S1-20",
+      "tier": "T2",
+      "category": "sustainability_luxury",
+      "question": "What eco-luxury resorts and regenerative travel experiences exist in Jeju for environmentally conscious luxury travelers?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8862,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:38.734Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-01",
+      "tier": "T2",
+      "category": "FDI_incentive",
+      "question": "What tax incentives, corporate tax exemptions, and subsidies does Jeju Special Self-Governing Province offer for foreign direct investment (FDI)?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8250,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:47.795Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-02",
+      "tier": "T2",
+      "category": "FDI_zone",
+      "question": "What is the mandate and investment portfolio of the Jeju Free International City Development Center (JDC)?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7802,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:47.348Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-03",
+      "tier": "T2",
+      "category": "real_estate",
+      "question": "Can foreigners obtain South Korean permanent residency or F-2 visas through real estate investment in Jeju Island? What are the threshold amounts?",
+      "rep": 3,
+      "response": "Yes. Foreigners may obtain an **F-2-8 resident visa** through investment of at least **KRW 1.5 billion** in a qualifying, government-designated real-estate investment facility in Jeju—not merely by buying an ordinary apartment, villa, or land; the property must be on the Ministry of Justice/Jeju eligible-facility list and the investment must be maintained. After maintaining the qualifying investment and residence status for **five years**, the investor may apply for **F-5 permanent residency**, subject to immigration, conduct, tax, and other eligibility requirements; permanent residency is not automatic. Thresholds and eligible projects can change, so confirm the current list and application rules with **HiKorea** (https://www.hikorea.go.kr/), the **Korea Visa Portal** (https://www.visa.go.kr/), and Jeju Province’s official site (https://www.jeju.go.kr/jeju/english.htm).",
+      "responseHash": "3d72f2fa01121e7a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7175,
+      "citedUrls": [
+        "https://www.hikorea.go.kr/",
+        "https://www.visa.go.kr/",
+        "https://www.jeju.go.kr/jeju/english.htm"
+      ],
+      "timestamp": "2026-09-08T11:50:46.721Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-04",
+      "tier": "T2",
+      "category": "real_estate",
+      "question": "What are current commercial and residential real estate market trends, foreign ownership rules, and title acquisition processes in Jeju?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8527,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:48.074Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-05",
+      "tier": "T2",
+      "category": "startup",
+      "question": "What government incubators, accelerators, and grant programs support foreign tech founders and startups relocating to Jeju Island?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8063,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:47.609Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-06",
+      "tier": "T2",
+      "category": "startup",
+      "question": "Does South Korea offer the OASIS startup visa or specialized entrepreneur visas for foreign innovators establishing business entities in Jeju?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8780,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:57.655Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-07",
+      "tier": "T2",
+      "category": "tech_zone",
+      "question": "What high-tech, IT, and biotech enterprises operate in Jeju Science Park (Jeju 첨단과학기술단지)?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8807,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:57.682Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-08",
+      "tier": "T2",
+      "category": "green_investment",
+      "question": "How can foreign renewable energy companies and institutional investors participate in Jeju's offshore wind and green hydrogen grid projects?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8229,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:57.105Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-09",
+      "tier": "T2",
+      "category": "logistics",
+      "question": "What are Jeju Island's maritime logistics infrastructure, port capacities, and aviation cargo connectivity for international commerce?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8928,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:57.803Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-10",
+      "tier": "T2",
+      "category": "labor",
+      "question": "What is the availability of skilled multilingual talent, average professional wages, and corporate overhead costs in Jeju compared to Seoul?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8034,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:50:56.909Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-11",
+      "tier": "T3C",
+      "category": "education_expat",
+      "question": "How does the Jeju Global Education City (JGEC) compare to international school hubs in Singapore and Tokyo for expatriate families?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8280,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:51:06.896Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-12",
+      "tier": "T2",
+      "category": "quality_of_life",
+      "question": "What is the overall expat quality of life in Jeju regarding air quality, international healthcare, safety, and community integration?",
+      "rep": 3,
+      "response": "Overall, Jeju offers a high quality of life for expatriates: air quality is typically better than in major mainland cities, although fine-dust and Asian-dust episodes still occur, so residents should monitor the official **AirKorea** index at https://www.airkorea.or.kr/eng.  \nHealthcare is reliable for routine and emergency treatment, with Jeju National University Hospital and other major hospitals concentrated around Jeju City; however, highly specialized or complex international care may require referral to Seoul, and foreign residents should confirm National Health Insurance enrollment through https://www.nhis.or.kr/english.  \nJeju is generally safe, with Korea’s 112 police and 119 fire/ambulance systems providing fast emergency access; official police information is available at https://www.police.go.kr/eng/main.do.  \nCommunity integration is positive but depends substantially on Korean-language ability: expatriate networks, schools, tourism businesses, and foreign-resident services are strongest in Jeju City and Seogwipo, while the provincial English portal is https://www.jeju.go.kr/jeju/english.htm; the main adjustment challenges are island-seasonality, limited specialist services, and fewer English-speaking public services outside urban areas.",
+      "responseHash": "48237e569c28dd73",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6706,
+      "citedUrls": [
+        "https://www.airkorea.or.kr/eng.",
+        "https://www.nhis.or.kr/english.",
+        "https://www.police.go.kr/eng/main.do.",
+        "https://www.jeju.go.kr/jeju/english.htm;"
+      ],
+      "timestamp": "2026-09-08T11:51:05.323Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-13",
+      "tier": "T2",
+      "category": "cosmetics",
+      "question": "How can global beauty and wellness brands leverage the official Jeju Cosmetic Certificate (JCC) to verify natural ingredients?",
+      "rep": 3,
+      "response": "Global brands should use the official **Jeju Cosmetic Certificate (JCC)** as a provenance and process-verification tool—not as a blanket substitute for “natural” or organic certification—by matching each product’s INCI list to documented Jeju-origin raw materials and retaining supplier, origin, manufacturing, and testing records. Applications, certification criteria, logo-use rules, and certified-product searches should be confirmed through the official **JCC portal: https://jcosmetic.jeju.go.kr/** and the certifying body, **Jeju Technopark: https://www.jejutp.or.kr/**. Brands can then place the authorized JCC mark or certificate reference on packaging, e-commerce pages, and B2B dossiers, while linking it to a QR-based ingredient-origin story and clearly separating JCC verification from destination-market claims regulated under Korea’s **Ministry of Food and Drug Safety (MFDS): https://www.mfds.go.kr/eng/**. For export launches, obtain written confirmation of the current JCC eligibility threshold and logo conditions, because JCC approval does not automatically satisfy the EU Cosmetics Regulation, U.S. FTC advertising rules, or other countries’ natural/organic-claim requirements.",
+      "responseHash": "cc77e3810e81d890",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7599,
+      "citedUrls": [
+        "https://jcosmetic.jeju.go.kr/**",
+        "https://www.jejutp.or.kr/**.",
+        "https://www.mfds.go.kr/eng/**."
+      ],
+      "timestamp": "2026-09-08T11:51:06.216Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-14",
+      "tier": "T2",
+      "category": "agriculture",
+      "question": "What foreign joint venture or agritech investment opportunities exist in Jeju's organic tea (Osulloc), citrus, and volcanic lava seawater sectors?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8661,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:51:07.278Z"
+    },
+    {
+      "questionId": "JJ-EN-S2-15",
+      "tier": "T2",
+      "category": "space_defense",
+      "question": "What incentives and infrastructure are provided at Hawon Techno Campus in Seogwipo for private space satellite manufacturing and launch enterprises?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8072,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:51:06.689Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-01",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What is the single most authoritative official government portal for foreign travelers planning a luxury or business trip to Jeju?",
+      "rep": 3,
+      "response": "The single best official portal is **Visit Jeju**, operated by the **Jeju Tourism Organization**, a public entity of Jeju Special Self-Governing Province: **https://english.visitjeju.net/**. It provides authoritative English-language information on luxury accommodation, attractions, dining, transportation, events, tours, and business-travel planning across Jeju. For visa or entry eligibility, travelers should separately verify requirements with Korea’s official Visa Portal, but **Visit Jeju is the primary official destination-planning portal**.",
+      "responseHash": "5df95cee2167f731",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4665,
+      "citedUrls": [
+        "https://english.visitjeju.net/**."
+      ],
+      "timestamp": "2026-09-08T11:51:12.756Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-02",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What official government agency oversees foreign direct investment consultations and investor concierge services in Jeju Island?",
+      "rep": 3,
+      "response": "The **Jeju Special Self-Governing Province—Investment Promotion Division (투자유치과)** is the primary government authority overseeing foreign direct-investment consultations and investor-support services on Jeju Island. Its official **Invest Jeju** portal provides investment information, consultations, incentives, and administrative “one-stop” assistance: **https://www.investjeju.or.kr/eng/**. The **Jeju Free International City Development Center (JDC)** is a separate national public corporation that supports investment in its designated development projects, but it does not replace the Province as the overarching FDI authority: **https://www.jdcenter.com/eng/**.",
+      "responseHash": "cf683c28f5e5e0f8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4952,
+      "citedUrls": [
+        "https://www.investjeju.or.kr/eng/**.",
+        "https://www.jdcenter.com/eng/**."
+      ],
+      "timestamp": "2026-09-08T11:51:13.042Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-03",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where can international travel agencies and event organizers download official high-resolution media kits and promotional materials for Jeju?",
+      "rep": 3,
+      "response": "International travel agencies should use the **Jeju Tourism Organization’s official Visit Jeju portal**: https://www.visitjeju.net/en/ — open **PR Center/Photo Gallery** for downloadable destination images, videos, brochures, maps, and promotional content.  \nEvent organizers should also consult the **Jeju Convention & Visitors Bureau (Jeju MICE) portal**: https://www.jejumice.org/ for venue images, convention guides, incentive-tourism materials, bid-support information, and event-planning resources.  \nFor province-level announcements, logos, and official promotional publications, use the **Jeju Special Self-Governing Province English website**: https://www.jeju.go.kr/jeju/english.htm.  \nBefore commercial or paid-campaign use, verify each asset’s download-page license, required attribution, and any restrictions on logos, identifiable people, or third-party trademarks.",
+      "responseHash": "4e6c4dcf407e4186",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7086,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/",
+        "https://www.jejumice.org/",
+        "https://www.jeju.go.kr/jeju/english.htm."
+      ],
+      "timestamp": "2026-09-08T11:51:15.176Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-04",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What website publishes official real-time weather advisories, typhoon alerts, and Hallasan mountain trail opening status?",
+      "rep": 3,
+      "response": "The **Korea Meteorological Administration (KMA)** publishes official real-time weather advisories and typhoon alerts at **https://www.weather.go.kr/w/index.do** (English: **https://www.weather.go.kr/eng/index.do**).  \nFor **Hallasan National Park trail opening/closure status**, use the official Jeju Special Self-Governing Province portal: **https://www.jeju.go.kr/hallasan/index.htm**.  \nCheck KMA for weather and typhoon warnings, and the Hallasan portal’s **“탐방로 통제현황” (trail control status)** before departure, since access can change rapidly due to wind, snow, rainfall, or volcanic-area safety conditions.",
+      "responseHash": "e724cf9950a1b29e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3885,
+      "citedUrls": [
+        "https://www.weather.go.kr/w/index.do**",
+        "https://www.weather.go.kr/eng/index.do**",
+        "https://www.jeju.go.kr/hallasan/index.htm**."
+      ],
+      "timestamp": "2026-09-08T11:51:11.975Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-05",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where should international convention planners go to apply for MICE financial subsidies and host support in Jeju?",
+      "rep": 3,
+      "response": "International convention planners should first contact the **Jeju Convention & Visitors Bureau (JCVB)**, Jeju’s one-stop agency for venue bidding, local suppliers, site inspections, and MICE host support: **https://www.jejumice.org/**.  \nApplications for Jeju’s convention incentives and financial subsidies are handled through the JCVB/Jeju Tourism Organization program notices; check the official Jeju Tourism Organization portal at **https://www.ijto.or.kr/** and obtain approval **before** contracting or holding the event, since eligibility, minimum participation, and eligible-cost rules vary by program.  \nFor events seeking Korea-wide international-convention assistance, also consult the Korea Tourism Organization’s Korea MICE Bureau portal: **https://k-mice.visitkorea.or.kr/**.",
+      "responseHash": "a394e4f19a076e88",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5936,
+      "citedUrls": [
+        "https://www.jejumice.org/**.",
+        "https://www.ijto.or.kr/**",
+        "https://k-mice.visitkorea.or.kr/**."
+      ],
+      "timestamp": "2026-09-08T11:51:14.026Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-06",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Which international travel review sites or guidebooks provide the most comprehensive English reviews of Jeju hotels and dining?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7077,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:51:23.066Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-07",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where can an expat or foreign investor review the legal statutes of the Special Act on the Establishment of Jeju Special Self-Governing Province in English?",
+      "rep": 3,
+      "response": "The primary source is the Korean Ministry of Government Legislation’s **Korean Law Information Center (English)**: [https://www.law.go.kr/LSW/eng/engMain.do](https://www.law.go.kr/LSW/eng/engMain.do); use **Law Search** and enter **“Special Act on the Establishment of Jeju Special Self-Governing Province and the Development of Free International City.”**  \nAn accessible English database is the Korea Legislation Research Institute’s **Korean Legislation in English** portal: [https://elaw.klri.re.kr/eng_service/main.do](https://elaw.klri.re.kr/eng_service/main.do).  \nFor investment implementation, also check the Act’s **Enforcement Decree and Enforcement Regulations**, because many licensing, tax, development-project, and foreign-investment details are delegated to subordinate legislation.  \nThe Korean text published through the official Korean law system is legally controlling; English versions are reference translations and should be verified against the current Korean provisions for a transaction or legal opinion.",
+      "responseHash": "2bcdfa277ccf7057",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5868,
+      "citedUrls": [
+        "https://www.law.go.kr/LSW/eng/engMain.do](https://www.law.go.kr/LSW/eng/engMain.do",
+        "https://elaw.klri.re.kr/eng_service/main.do](https://elaw.klri.re.kr/eng_service/main.do"
+      ],
+      "timestamp": "2026-09-08T11:51:21.857Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-08",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What official site explains the immigration, visa waiver, and K-ETA exemptions specific to Jeju Island?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7704,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:51:23.693Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-09",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Which official English portal provides detailed maps, GPS waypoints, and passport stamp locations for the 27 courses of the Jeju Olle Trail?",
+      "rep": 3,
+      "response": "The official English portal is the **Jeju Olle Foundation’s Jeju Olle Trail website**: **https://www.jejuolle.org/trail?lang=en**. It provides route-by-route maps for the 27 courses, downloadable GPS information/waypoints, and the locations of official passport stamps and stamp shops. The Foundation’s main official site is **https://www.jejuolle.org/** if the English-language link does not load automatically.",
+      "responseHash": "23bd048eae784918",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6248,
+      "citedUrls": [
+        "https://www.jejuolle.org/trail?lang=en**.",
+        "https://www.jejuolle.org/**"
+      ],
+      "timestamp": "2026-09-08T11:51:22.237Z"
+    },
+    {
+      "questionId": "JJ-EN-S3-10",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "Where can potential foreign buyers verify property zoning regulations and foreign land acquisition permits in Jeju Special Self-Governing Province?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8155,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:51:24.144Z"
+    }
+  ]
+}

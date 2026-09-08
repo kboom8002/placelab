@@ -1,0 +1,317 @@
+[
+  {
+    "id": "JJ-EN-S1-01",
+    "tier": "T2",
+    "category": "luxury_resort",
+    "body": "What are the best luxury 5-star oceanfront resorts in Jeju with private pool villas and top-tier amenities?",
+    "targetKeywords": ["Shilla Jeju", "Lotte Hotel Jeju", "Grand Josun", "Parnas Hotel Jeju", "JW Marriott Jeju", "pool villa"]
+  },
+  {
+    "id": "JJ-EN-S1-02",
+    "tier": "T2",
+    "category": "luxury_resort",
+    "body": "Are there major international luxury hotel brands like Marriott, Hyatt, or Accor operating high-end properties in Jeju Island?",
+    "targetKeywords": ["Grand Hyatt Jeju", "JW Marriott Jeju Resort & Spa", "Marriott", "Hyatt", "Dream Tower"]
+  },
+  {
+    "id": "JJ-EN-S1-03",
+    "tier": "T2",
+    "category": "michelin_dining",
+    "body": "Does Jeju Island have Michelin-starred restaurants or Michelin Guide recommended fine dining spots?",
+    "targetKeywords": ["Michelin Guide", "fine dining", "Jeju restaurants", "gourmet", "black pork", "seafood"]
+  },
+  {
+    "id": "JJ-EN-S1-04",
+    "tier": "T2",
+    "category": "fine_dining",
+    "body": "What are the best upscale Korean contemporary fine dining restaurants in Jeju for a private VIP dinner?",
+    "targetKeywords": ["contemporary Korean", "fine dining", "VIP dinner", "seasonal ingredients", "Jeju"]
+  },
+  {
+    "id": "JJ-EN-S1-05",
+    "tier": "T2",
+    "category": "wellness_spa",
+    "body": "Where can high-net-worth travelers find the best holistic wellness retreats and luxury spas in Jeju?",
+    "targetKeywords": ["wellness retreat", "luxury spa", "WE Hotel", "healing forest", "thalassotherapy", "Jeju"]
+  },
+  {
+    "id": "JJ-EN-S1-06",
+    "tier": "T2",
+    "category": "wellness_spa",
+    "body": "Are there any geothermal hot springs or carbonated mineral spring resorts in Jeju Island for wellness tourism?",
+    "targetKeywords": ["Sanbangsan carbonated hot spring", "hot spring", "mineral spring", "wellness", "Jeju"]
+  },
+  {
+    "id": "JJ-EN-S1-07",
+    "tier": "T2",
+    "category": "golf",
+    "body": "What are the premier championship golf courses in Jeju Island, and how can international visitors book tee times?",
+    "targetKeywords": ["Nine Bridges", "Blackstone Jeju", "Pinx Golf Club", "Teddy Valley", "green fees", "tee time"]
+  },
+  {
+    "id": "JJ-EN-S1-08",
+    "tier": "T3C",
+    "category": "golf",
+    "body": "How does Jeju Island compare to Thailand or Vietnam as a premier golf vacation destination for Asian and Western travelers?",
+    "targetKeywords": ["Jeju golf", "PGA Tour Nine Bridges", "Thailand golf", "Vietnam golf", "comparison", "four seasons"]
+  },
+  {
+    "id": "JJ-EN-S1-09",
+    "tier": "T2",
+    "category": "yacht_cruise",
+    "body": "Can high-end tourists charter a private luxury yacht in Jeju Island, such as around Gimnyeong or Daepo Jusangjeolli?",
+    "targetKeywords": ["luxury yacht charter", "private cruise", "Gimnyeong yacht", "Jusangjeolli", "sunset cruise"]
+  },
+  {
+    "id": "JJ-EN-S1-10",
+    "tier": "T2",
+    "category": "wine_craft",
+    "body": "Are there premium boutique wineries, craft whiskey/gin distilleries, or craft breweries worth visiting in Jeju?",
+    "targetKeywords": ["Jeju Beer", "Magpie Brewing", "craft distillery", "citrus wine", "boutique"]
+  },
+  {
+    "id": "JJ-EN-S1-11",
+    "tier": "T2",
+    "category": "art_museum",
+    "body": "What are the most architecturally significant museums and private art foundations in Jeju, such as Ando Tadao designs?",
+    "targetKeywords": ["Bonte Museum", "Yumin Art Museum", "Glass House", "Ando Tadao", "Itami Jun", "Arario Museum"]
+  },
+  {
+    "id": "JJ-EN-S1-12",
+    "tier": "T2",
+    "category": "private_tour",
+    "body": "How can affluent international visitors arrange a bespoke VIP tour with private English-speaking chauffeurs and licensed experts in Jeju?",
+    "targetKeywords": ["private VIP tour", "bespoke itinerary", "licensed English guide", "chauffeur", "luxury travel"]
+  },
+  {
+    "id": "JJ-EN-S1-13",
+    "tier": "T2",
+    "category": "medical_tourism",
+    "body": "What medical wellness and premium health checkup programs are available for international medical tourists in Jeju?",
+    "targetKeywords": ["medical tourism", "health screening", "WE Hospital", "anti-aging", "wellness checkup"]
+  },
+  {
+    "id": "JJ-EN-S1-14",
+    "tier": "T2",
+    "category": "MICE",
+    "body": "What world-class convention and exhibition facilities does Jeju offer for major international conferences and MICE events?",
+    "targetKeywords": ["ICC JEJU", "International Convention Center", "MICE", "Jungmun", "exhibition"]
+  },
+  {
+    "id": "JJ-EN-S1-15",
+    "tier": "T2",
+    "category": "MICE",
+    "body": "Is Jeju Island equipped to host corporate executive retreats and incentive travel groups of 100 to 500 delegates?",
+    "targetKeywords": ["corporate retreat", "incentive travel", "team building", "luxury hotel ballroom", "Jeju MICE Bureau"]
+  },
+  {
+    "id": "JJ-EN-S1-16",
+    "tier": "T2",
+    "category": "wedding",
+    "body": "Can international couples organize a luxury destination wedding in Jeju Island? What scenic venues and hotels cater to weddings?",
+    "targetKeywords": ["destination wedding", "oceanfront chapel", "Shilla Jeju wedding", "outdoor lawn", "luxury wedding"]
+  },
+  {
+    "id": "JJ-EN-S1-17",
+    "tier": "T2",
+    "category": "film_location",
+    "body": "What iconic K-drama and movie filming locations in Jeju attract international Hallyu pop-culture fans?",
+    "targetKeywords": ["Our Blues", "Crash Landing on You", "Extraordinary Attorney Woo", "filming locations", "Jeju"]
+  },
+  {
+    "id": "JJ-EN-S1-18",
+    "tier": "T2",
+    "category": "seasonal_luxury",
+    "body": "What are the most exclusive winter luxury experiences in Jeju, such as private snow trekking on Mt. Halla or heated infinity pools?",
+    "targetKeywords": ["winter luxury", "Hallasan snow trek", "heated infinity pool", "camellia blooming", "Grand Josun"]
+  },
+  {
+    "id": "JJ-EN-S1-19",
+    "tier": "T2",
+    "category": "helicopter_tour",
+    "body": "Are private scenic helicopter or light aircraft aerial tours available to view Hallasan, Seongsan Ilchulbong, and the Jeju coastline?",
+    "targetKeywords": ["helicopter tour", "aerial sightseeing", "Hallasan aerial view", "scenic flight"]
+  },
+  {
+    "id": "JJ-EN-S1-20",
+    "tier": "T2",
+    "category": "sustainability_luxury",
+    "body": "What eco-luxury resorts and regenerative travel experiences exist in Jeju for environmentally conscious luxury travelers?",
+    "targetKeywords": ["eco-luxury", "sustainable tourism", "Gotjawal", "carbon neutral stay", "organic dining"]
+  },
+  {
+    "id": "JJ-EN-S2-01",
+    "tier": "T2",
+    "category": "FDI_incentive",
+    "body": "What tax incentives, corporate tax exemptions, and subsidies does Jeju Special Self-Governing Province offer for foreign direct investment (FDI)?",
+    "targetKeywords": ["tax incentives", "corporate tax exemption", "FDI", "Investment Promotion Zone", "customs duty reduction"]
+  },
+  {
+    "id": "JJ-EN-S2-02",
+    "tier": "T2",
+    "category": "FDI_zone",
+    "body": "What is the mandate and investment portfolio of the Jeju Free International City Development Center (JDC)?",
+    "targetKeywords": ["JDC", "Jeju Free International City Development Center", "MOLIT", "core projects", "English Education City", "Science Park"]
+  },
+  {
+    "id": "JJ-EN-S2-03",
+    "tier": "T2",
+    "category": "real_estate",
+    "body": "Can foreigners obtain South Korean permanent residency or F-2 visas through real estate investment in Jeju Island? What are the threshold amounts?",
+    "targetKeywords": ["Real Estate Investment Immigration System", "F-2 visa", "permanent residency F-5", "investment threshold", "designated resorts"]
+  },
+  {
+    "id": "JJ-EN-S2-04",
+    "tier": "T2",
+    "category": "real_estate",
+    "body": "What are current commercial and residential real estate market trends, foreign ownership rules, and title acquisition processes in Jeju?",
+    "targetKeywords": ["foreign property acquisition", "Foreigner's Land Acquisition Act", "residential market", "commercial real estate"]
+  },
+  {
+    "id": "JJ-EN-S2-05",
+    "tier": "T2",
+    "category": "startup",
+    "body": "What government incubators, accelerators, and grant programs support foreign tech founders and startups relocating to Jeju Island?",
+    "targetKeywords": ["Jeju Center for Creative Economy and Innovation", "CCEI", "startup incubator", "Route330", "J-Space"]
+  },
+  {
+    "id": "JJ-EN-S2-06",
+    "tier": "T2",
+    "category": "startup",
+    "body": "Does South Korea offer the OASIS startup visa or specialized entrepreneur visas for foreign innovators establishing business entities in Jeju?",
+    "targetKeywords": ["OASIS visa", "D-8-4 startup visa", "foreign entrepreneur", "incorporation", "Jeju"]
+  },
+  {
+    "id": "JJ-EN-S2-07",
+    "tier": "T2",
+    "category": "tech_zone",
+    "body": "What high-tech, IT, and biotech enterprises operate in Jeju Science Park (Jeju 첨단과학기술단지)?",
+    "targetKeywords": ["Jeju Science Park", "Kakao headquarters", "ESTsoft", "JDC", "biotech", "IT cluster"]
+  },
+  {
+    "id": "JJ-EN-S2-08",
+    "tier": "T2",
+    "category": "green_investment",
+    "body": "How can foreign renewable energy companies and institutional investors participate in Jeju's offshore wind and green hydrogen grid projects?",
+    "targetKeywords": ["offshore wind", "green hydrogen", "distributed energy special zone", "Jeju Energy Corporation", "clean energy tender"]
+  },
+  {
+    "id": "JJ-EN-S2-09",
+    "tier": "T2",
+    "category": "logistics",
+    "body": "What are Jeju Island's maritime logistics infrastructure, port capacities, and aviation cargo connectivity for international commerce?",
+    "targetKeywords": ["Jeju Port", "Seogwipo Port", "cargo connectivity", "international logistics", "cold chain"]
+  },
+  {
+    "id": "JJ-EN-S2-10",
+    "tier": "T2",
+    "category": "labor",
+    "body": "What is the availability of skilled multilingual talent, average professional wages, and corporate overhead costs in Jeju compared to Seoul?",
+    "targetKeywords": ["labor costs", "multilingual talent", "cost of doing business", "Jeju National University", "operating expenses"]
+  },
+  {
+    "id": "JJ-EN-S2-11",
+    "tier": "T3C",
+    "category": "education_expat",
+    "body": "How does the Jeju Global Education City (JGEC) compare to international school hubs in Singapore and Tokyo for expatriate families?",
+    "targetKeywords": ["Jeju Global Education City", "Singapore international schools", "boarding school", "IB curriculum", "tuition cost"]
+  },
+  {
+    "id": "JJ-EN-S2-12",
+    "tier": "T2",
+    "category": "quality_of_life",
+    "body": "What is the overall expat quality of life in Jeju regarding air quality, international healthcare, safety, and community integration?",
+    "targetKeywords": ["expat quality of life", "clean air", "safety index", "international healthcare", "community"]
+  },
+  {
+    "id": "JJ-EN-S2-13",
+    "tier": "T2",
+    "category": "cosmetics",
+    "body": "How can global beauty and wellness brands leverage the official Jeju Cosmetic Certificate (JCC) to verify natural ingredients?",
+    "targetKeywords": ["Jeju Cosmetic Certificate", "JCC", "Jeju volcanic water", "botanical ingredients", "certification process"]
+  },
+  {
+    "id": "JJ-EN-S2-14",
+    "tier": "T2",
+    "category": "agriculture",
+    "body": "What foreign joint venture or agritech investment opportunities exist in Jeju's organic tea (Osulloc), citrus, and volcanic lava seawater sectors?",
+    "targetKeywords": ["Osulloc green tea", "volcanic lava seawater", "agritech", "organic agriculture", "functional food"]
+  },
+  {
+    "id": "JJ-EN-S2-15",
+    "tier": "T2",
+    "category": "space_defense",
+    "body": "What incentives and infrastructure are provided at Hawon Techno Campus in Seogwipo for private space satellite manufacturing and launch enterprises?",
+    "targetKeywords": ["Hawon Techno Campus", "Hanwha Systems", "Perigee Aerospace", "space satellite cluster", "Seogwipo"]
+  },
+  {
+    "id": "JJ-EN-S3-01",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "What is the single most authoritative official government portal for foreign travelers planning a luxury or business trip to Jeju?",
+    "targetKeywords": ["visitjeju.net", "jeju.go.kr", "english.visitkorea.or.kr", "official government portal"]
+  },
+  {
+    "id": "JJ-EN-S3-02",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "What official government agency oversees foreign direct investment consultations and investor concierge services in Jeju Island?",
+    "targetKeywords": ["Invest Korea", "JDC", "Jeju Special Self-Governing Province Investment Promotion Division"]
+  },
+  {
+    "id": "JJ-EN-S3-03",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "Where can international travel agencies and event organizers download official high-resolution media kits and promotional materials for Jeju?",
+    "targetKeywords": ["Jeju Tourism Organization", "JTO", "visitjeju.net", "media kit", "photo gallery"]
+  },
+  {
+    "id": "JJ-EN-S3-04",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "What website publishes official real-time weather advisories, typhoon alerts, and Hallasan mountain trail opening status?",
+    "targetKeywords": ["KMA", "weather.go.kr", "visithalla.jeju.go.kr", "Jeju provincial disaster management"]
+  },
+  {
+    "id": "JJ-EN-S3-05",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "Where should international convention planners go to apply for MICE financial subsidies and host support in Jeju?",
+    "targetKeywords": ["Jeju Convention Bureau", "MICE subsidy", "ICC JEJU", "jejucvb.or.kr"]
+  },
+  {
+    "id": "JJ-EN-S3-06",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "Which international travel review sites or guidebooks provide the most comprehensive English reviews of Jeju hotels and dining?",
+    "targetKeywords": ["TripAdvisor", "Lonely Planet", "Michelin Guide", "Agoda", "Booking.com"]
+  },
+  {
+    "id": "JJ-EN-S3-07",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "Where can an expat or foreign investor review the legal statutes of the Special Act on the Establishment of Jeju Special Self-Governing Province in English?",
+    "targetKeywords": ["Korea Legislation Research Institute", "elaw.klri.re.kr", "Jeju Special Act", "statutes"]
+  },
+  {
+    "id": "JJ-EN-S3-08",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "What official site explains the immigration, visa waiver, and K-ETA exemptions specific to Jeju Island?",
+    "targetKeywords": ["k-eta.go.kr", "hikorea.go.kr", "visa.go.kr", "immigration.go.kr"]
+  },
+  {
+    "id": "JJ-EN-S3-09",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "Which official English portal provides detailed maps, GPS waypoints, and passport stamp locations for the 27 courses of the Jeju Olle Trail?",
+    "targetKeywords": ["jejuolle.org", "Jeju Olle Foundation", "Olle passport", "walking trail map"]
+  },
+  {
+    "id": "JJ-EN-S3-10",
+    "tier": "T4",
+    "category": "source_tracking",
+    "body": "Where can potential foreign buyers verify property zoning regulations and foreign land acquisition permits in Jeju Special Self-Governing Province?",
+    "targetKeywords": ["eum.go.kr", "jeju.go.kr", "Land Use Regulation Service", "zoning verification"]
+  }
+]
