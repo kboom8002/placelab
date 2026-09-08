@@ -1,0 +1,1697 @@
+{
+  "unit": "Jeju Special Self-Governing Province",
+  "unit_id": "lg-50000",
+  "language": "en",
+  "model": "gpt-5.6-luna",
+  "method_version": "v2.2-jeju-en",
+  "reps": 3,
+  "measuredAt": "2026-09-08T11:33:04.311Z",
+  "totalQueries": 105,
+  "summary": {
+    "success": 102,
+    "absent": 3,
+    "error": 0
+  },
+  "results": [
+    {
+      "questionId": "JJ-EN-01",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "How do I get from Jeju Airport to Seogwipo? What are the best transportation options?",
+      "rep": 1,
+      "response": "- **Airport Limousine 600:** The easiest public option for **Jungmun, hotels along the south coast, and Seogwipo**, departing from the airport’s arrivals-level bus stops; it takes roughly **70–90 minutes** depending on traffic.  \n- **Express/intercity buses 181/182:** These connect Jeju Airport and Seogwipo via the island’s central roads and can be faster for central Seogwipo, but check the current timetable and destination carefully.  \n- **Taxi:** A direct taxi usually takes **50–75 minutes** and costs approximately **₩45,000–₩70,000**, varying with traffic and the exact destination; taxis are available outside the terminal.  \n- **Rental car:** Best for exploring Jeju beyond Seogwipo, with a drive of about **1–1.5 hours**; check routes and live bus information on [Jeju Bus Information](https://bus.jeju.go.kr/) and airport transport details on [Jeju International Airport](https://www.airport.co.kr/jejueng/).",
+      "responseHash": "48675cf823064d36",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7374,
+      "citedUrls": [
+        "https://bus.jeju.go.kr/",
+        "https://www.airport.co.kr/jejueng/"
+      ],
+      "timestamp": "2026-09-08T11:29:58.972Z"
+    },
+    {
+      "questionId": "JJ-EN-02",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "Do I need an international driving permit to rent a car in Jeju Island as a foreigner?",
+      "rep": 1,
+      "response": "Yes—foreign visitors generally need a valid **International Driving Permit (IDP)**, their original driver’s license, and passport to rent and drive a car in Jeju. The IDP must be issued by your home country’s authorized agency before arrival; digital or unofficial permits are often rejected, and rental companies may impose additional age or driving-experience requirements. Check your rental company’s rules in advance and consult Korea’s official **Safe Driving portal**: https://www.safedriving.or.kr/eng/ or the **Korea Tourism Organization**: https://english.visitkorea.or.kr/ .",
+      "responseHash": "03dc9bc32fdfe992",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7061,
+      "citedUrls": [
+        "https://www.safedriving.or.kr/eng/",
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:29:58.660Z"
+    },
+    {
+      "questionId": "JJ-EN-03",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "What is the best time of year to visit Jeju Island and why?",
+      "rep": 1,
+      "response": "The best times to visit Jeju Island are **spring (April–May)** and **autumn (September–October)**, when temperatures are mild, skies are generally clear, and outdoor attractions such as Hallasan, coastal trails, and waterfalls are especially enjoyable. Spring brings cherry blossoms and canola flowers, while autumn offers colorful foliage and fewer crowds than the peak summer season. **Summer (June–August)** is warm and ideal for beaches, but it is humid, rainy, and occasionally affected by typhoons; **winter** is quieter and relatively mild along the coast, though Hallasan can be snowy and windy. Check the Korea Meteorological Administration’s Jeju forecasts before traveling: https://www.weather.go.kr/eng/ (official tourism information: https://www.visitjeju.net).",
+      "responseHash": "2802fadc1f295361",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4297,
+      "citedUrls": [
+        "https://www.weather.go.kr/eng/",
+        "https://www.visitjeju.net"
+      ],
+      "timestamp": "2026-09-08T11:29:55.896Z"
+    },
+    {
+      "questionId": "JJ-EN-04",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "Is Jeju Island safe for solo female travelers? Any safety tips?",
+      "rep": 1,
+      "response": "Yes—Jeju Island is generally considered safe for solo female travelers, with low violent-crime rates and reliable public services, but normal urban and travel precautions still apply. Stay in well-reviewed accommodations, keep valuables secure, avoid isolated areas or remote trails after dark, use licensed taxis or official buses, and share your itinerary when hiking or exploring rural coastlines. Check weather and trail conditions before hiking, especially during typhoons or heavy rain; in an emergency call **112 (police)** or **119 (ambulance/fire)**, and for multilingual tourist assistance call **1330**. Official resources: [Visit Jeju](https://www.visitjeju.net/en/) and the [Korea Tourism Organization](https://english.visitkorea.or.kr/).",
+      "responseHash": "1584593b095a0675",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5259,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/",
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:29:56.858Z"
+    },
+    {
+      "questionId": "JJ-EN-05",
+      "tier": "T2",
+      "category": "attractions",
+      "question": "What are the top 5 must-visit attractions in Jeju Island for first-time visitors?",
+      "rep": 1,
+      "response": "1. **Seongsan Ilchulbong (Sunrise Peak)**—a UNESCO World Heritage volcanic cone famous for sunrise and panoramic coastal views ([UNESCO](https://whc.unesco.org/en/list/1264/)).  \n2. **Hallasan National Park**—South Korea’s highest mountain, offering trails ranging from easy forest walks to demanding summit hikes; check permits and trail conditions on the [official Hallasan site](https://www.jeju.go.kr/hallasan/index.htm).  \n3. **Udo Island**—a scenic day trip from Jeju, known for turquoise beaches, coastal roads, peanut ice cream, and bicycle or scooter touring.  \n4. **Jeju Olle Trail**—a network of coastal walking routes showcasing villages, cliffs, beaches, and countryside; see route information at the [Jeju Olle Foundation](https://www.jejuolle.org/trail).  \n5. **Jusangjeolli Cliff and Jeju’s southern waterfalls**—dramatic hexagonal lava columns near Seogwipo, easily combined with Cheonjiyeon or Jeongbang Waterfall; use [Visit Jeju](https://www.visitjeju.net/en) for current access and transport information.",
+      "responseHash": "0100040c4b8c211b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9646,
+      "citedUrls": [
+        "https://whc.unesco.org/en/list/1264/",
+        "https://www.jeju.go.kr/hallasan/index.htm",
+        "https://www.jejuolle.org/trail",
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:30:01.246Z"
+    },
+    {
+      "questionId": "JJ-EN-06",
+      "tier": "T2",
+      "category": "attractions",
+      "question": "How do I book Hallasan Mountain hiking and which trail is best for beginners?",
+      "rep": 1,
+      "response": "Book Hallasan’s **Seongpanak or Gwaneumsa summit trail** through the official reservation site: **https://visithalla.jeju.go.kr/**; select a date, trail, and entry time, then bring the confirmation/QR code. For beginners who do **not** need to reach the summit, **Yeongsil Trail** is usually the best choice—scenic and shorter, ending at Witse Oreum; **Eorimok** is another accessible option. If you want the summit, choose **Seongpanak** rather than Gwaneumsa because its ascent is generally less steep, though it is still a long, demanding full-day hike. Check trail closures, weather, seasonal entry cutoffs, and reservation availability on the official site before going.",
+      "responseHash": "52f3779895d73100",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6222,
+      "citedUrls": [
+        "https://visithalla.jeju.go.kr/**;"
+      ],
+      "timestamp": "2026-09-08T11:30:08.278Z"
+    },
+    {
+      "questionId": "JJ-EN-07",
+      "tier": "T2",
+      "category": "attractions",
+      "question": "What are the best beaches in Jeju for swimming and snorkeling?",
+      "rep": 1,
+      "response": "- **Hamdeok Seoubong Beach** is the best all-round choice: clear, shallow, sheltered water, white sand, and convenient facilities—excellent for swimming and beginner snorkeling near the rocky edges.  \n- **Hyeopjae and Geumneung Beaches** on the west coast offer calm, turquoise water and beautiful views of Biyangdo; they are especially good for families and relaxed swimming.  \n- For better snorkeling, try **Panpo Port** or the rocky areas around **Sehwa and Gimnyeong**, where visibility and marine life can be good at high tide, though reef shoes and caution are essential.  \n- Swimming zones and lifeguards generally operate only during the summer season, and conditions change with wind and tides, so check **Visit Jeju** (https://www.visitjeju.net/en) and local beach notices before going.",
+      "responseHash": "f4ca931ef2a34a9e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5410,
+      "citedUrls": [
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:30:07.467Z"
+    },
+    {
+      "questionId": "JJ-EN-08",
+      "tier": "T2",
+      "category": "culture",
+      "question": "What is the Jeju Olle Trail and how many courses are there? Which one is the most scenic?",
+      "rep": 1,
+      "response": "The **Jeju Olle Trail** is a network of long-distance walking paths circling and crossing Jeju Island, linking coastlines, villages, forests, farmland, and volcanic *oreum*. It has **27 courses** (including shorter branch routes), covering roughly **437 km** in total. **Route 7**, from Jeju World Cup Stadium to Wolpyeong Port, is often considered the most scenic because it combines dramatic coastline, Oedolgae Rock, cliffs, and coastal villages—though Route 10 is another excellent choice for sea views and Sanbangsan Mountain. See the official route information at [Jeju Olle Foundation](https://www.jejuolle.org/).",
+      "responseHash": "678c165caa595b08",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6600,
+      "citedUrls": [
+        "https://www.jejuolle.org/"
+      ],
+      "timestamp": "2026-09-08T11:30:08.656Z"
+    },
+    {
+      "questionId": "JJ-EN-09",
+      "tier": "T2",
+      "category": "culture",
+      "question": "What is the Jeju haenyeo (sea women) tradition and where can I see them dive?",
+      "rep": 1,
+      "response": "The **Jeju haenyeo** are traditional female free divers who harvest abalone, sea urchins, octopus, seaweed, and other seafood without oxygen tanks; their skills, ecological knowledge, songs, and cooperative culture were inscribed on UNESCO’s Intangible Cultural Heritage list in 2016 ([UNESCO](https://ich.unesco.org/en/RL/culture-of-jeju-haenyeo-women-divers-01068)).  \nFor a museum and cultural context, visit the **Jeju Haenyeo Museum** in Hado, near Gujwa-eup ([official site](https://www.jeju.go.kr/haenyeo/index.htm)).  \nTo see divers in the water, try the **Seongsan Ilchulbong Haenyeo performance area**, or coastal villages around **Udo, Seongsan, and Hado**; demonstrations are weather- and tide-dependent, so check schedules locally through [Visit Jeju](https://www.visitjeju.net/en).",
+      "responseHash": "39f01ea385322e12",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6889,
+      "citedUrls": [
+        "https://ich.unesco.org/en/RL/culture-of-jeju-haenyeo-women-divers-01068",
+        "https://www.jeju.go.kr/haenyeo/index.htm",
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:30:08.946Z"
+    },
+    {
+      "questionId": "JJ-EN-10",
+      "tier": "T2",
+      "category": "food",
+      "question": "What are the must-try local foods in Jeju Island? Where is the best black pork BBQ?",
+      "rep": 1,
+      "response": "Must-try Jeju foods include **Jeju black pork**, grilled **hairtail (galchi)**, abalone and fresh seafood, **haemultang** (spicy seafood hot pot), buckwheat dishes, Jeju tangerines, and **omegi-tteok** (millet rice cake). For black-pork BBQ, the most convenient concentration is **Jeju Black Pork Street (Heukdwaeji Geori)** near Dongmun Market in Jeju City, where well-known restaurants include **Dombedon** and **Hwaro Hyang**; reserve or arrive early, especially at dinner. For a more local, less touristy experience, look around **Nohyeong-dong or Yeon-dong**, but confirm opening hours because restaurants change frequently. See the official **Visit Jeju** food guide and restaurant listings: https://www.visitjeju.net/en/ and https://www.visitjeju.net/en/detail/list?cate=CONTENS.",
+      "responseHash": "bbacf7361f1e9ed3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6340,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/",
+        "https://www.visitjeju.net/en/detail/list?cate=CONTENS."
+      ],
+      "timestamp": "2026-09-08T11:30:08.396Z"
+    },
+    {
+      "questionId": "JJ-EN-11",
+      "tier": "T2",
+      "category": "food",
+      "question": "Is the Dongmun Traditional Market worth visiting? What street food should I try there?",
+      "rep": 1,
+      "response": "Yes—Dongmun Traditional Market is worth visiting for a lively introduction to Jeju’s local produce, seafood, souvenirs, and evening food stalls, though it can feel crowded and tourist-oriented. Try **grilled black-pork skewers**, **abalone or seafood grilled to order**, **fresh sashimi**, **tangerine- or hallabong-based snacks**, and **tteokbokki, hotteok, or mandu**; look for busy stalls with high turnover. Go in the late afternoon or evening, and check stall hours because individual vendors vary; the market is near Jeju City’s old downtown and is especially convenient after visiting Yongduam or the coastal area. More local-travel information is available from the official **Visit Jeju** site: https://www.visitjeju.net/en/",
+      "responseHash": "1cf302dc75e4eb19",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6976,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/"
+      ],
+      "timestamp": "2026-09-08T11:30:16.731Z"
+    },
+    {
+      "questionId": "JJ-EN-12",
+      "tier": "T2",
+      "category": "festival",
+      "question": "What major festivals are held in Jeju Island throughout the year?",
+      "rep": 1,
+      "response": "Jeju’s major annual festivals include the **Jeju Fire Festival** (usually March, around Saebyeol Oreum), **canola and cherry-blossom festivals** (March–April), and the **Jeju International Wind Ensemble Festival** (August; [official site](https://www.jiwef.org/)).  \nIn autumn, popular events include the **Jeju Haenyeo Festival** (September–October; [Jeju Haenyeo Museum](https://www.jeju.go.kr/haenyeo/index.htm)), **Tamna Cultural Festival** (October), and the **Jeju Olle Walking Festival** (November; [Jeju Olle Foundation](https://www.jejuolle.org/)).  \nThe year concludes with the **Seongsan Sunrise Festival**, held around December 31–January 1 at Seongsan Ilchulbong, while local tangerine, seafood, horse, and village festivals take place throughout the year.  \nDates and programs can change annually, so check the official **Visit Jeju festival calendar** at [visitjeju.net](https://www.visitjeju.net/en/festivals) before planning.",
+      "responseHash": "e9d4c87168ca3227",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7546,
+      "citedUrls": [
+        "https://www.jiwef.org/",
+        "https://www.jeju.go.kr/haenyeo/index.htm",
+        "https://www.jejuolle.org/",
+        "https://www.visitjeju.net/en/festivals"
+      ],
+      "timestamp": "2026-09-08T11:30:17.301Z"
+    },
+    {
+      "questionId": "JJ-EN-13",
+      "tier": "T2",
+      "category": "island_tour",
+      "question": "How do I take a ferry to Udo Island from Jeju? What is there to see on Udo?",
+      "rep": 1,
+      "response": "Take a ferry from **Seongsan Port (성산항)** in eastern Jeju to **Udo’s Cheonjin or Haumokdong Port**; the crossing takes about **15 minutes**, and ferries generally run frequently during daylight, although schedules can change with wind and waves. Buy a round-trip ticket at the terminal with your passport or Korean ID, and check the same-day sailing status before leaving—**rental cars are usually not allowed on Udo**, except for approved cases such as mobility needs or infants. On Udo, popular sights include **Seobinbaeksa white-coral beach, Geommeolle Beach, Udobong Peak and its lighthouse**, coastal roads, haenyeo culture, and local **peanut ice cream**; bicycles, electric bikes, and island buses are common ways to explore. Check current schedules and travel conditions through the official Jeju tourism site: **https://www.visitjeju.net/en**.",
+      "responseHash": "aa929d51b7935e92",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6817,
+      "citedUrls": [
+        "https://www.visitjeju.net/en**."
+      ],
+      "timestamp": "2026-09-08T11:30:16.572Z"
+    },
+    {
+      "questionId": "JJ-EN-14",
+      "tier": "T2",
+      "category": "unesco",
+      "question": "What UNESCO World Heritage sites are in Jeju and how do I visit them?",
+      "rep": 1,
+      "response": "Jeju has one UNESCO World Heritage property, **Jeju Volcanic Island and Lava Tubes**, comprising **Hallasan Natural Reserve, Seongsan Ilchulbong (Sunrise Peak), and the Geomunoreum Lava Tube System**; details are on UNESCO’s official page: https://whc.unesco.org/en/list/1264  \nYou can hike Hallasan via designated trails—reservations are required for the Seongpanak and Gwaneumsa summit routes through https://visithalla.jeju.go.kr/, and weather closures are common.  \nSeongsan Ilchulbong is visited independently by walking from the entrance and paying the admission fee; check current hours and conditions at the official site: https://www.jeju.go.kr/seongsan/  \nOnly selected lava-tube sections are open to tourists—**Manjanggul Cave’s access status can change during restoration or safety work**—while many other Geomunoreum caves are protected and closed; check https://www.jeju.go.kr/manjanggul/ before going.",
+      "responseHash": "2a7c3fe0f72fee00",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7667,
+      "citedUrls": [
+        "https://whc.unesco.org/en/list/1264",
+        "https://visithalla.jeju.go.kr/,",
+        "https://www.jeju.go.kr/seongsan/",
+        "https://www.jeju.go.kr/manjanggul/"
+      ],
+      "timestamp": "2026-09-08T11:30:17.422Z"
+    },
+    {
+      "questionId": "JJ-EN-15",
+      "tier": "T2",
+      "category": "accommodation",
+      "question": "What area should I stay in Jeju — Jeju City or Seogwipo? Pros and cons?",
+      "rep": 1,
+      "response": "**Jeju City** is best for airport convenience, restaurants, shopping, nightlife, public transportation, and a wider range of budget accommodations; it’s also practical for an early departure or short trip. **Seogwipo** is better for scenery and a relaxed atmosphere, with easier access to waterfalls, the southern coast, Hallasan trails, and attractions such as Jungmun and Seongsan (though Seongsan is farther east). Jeju City can feel busy and less scenic, while Seogwipo is quieter but generally more car-dependent and about 1–1.5 hours from the airport by bus or taxi, depending on traffic. For most first-time visitors, choose Jeju City without a rental car or for 1–2 nights, and Seogwipo with a car or for a nature-focused stay; official tourism information is available at [Visit Jeju](https://www.visitjeju.net/en).",
+      "responseHash": "7f234b27b045b084",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3356,
+      "citedUrls": [
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:30:13.111Z"
+    },
+    {
+      "questionId": "JJ-EN-16",
+      "tier": "T2",
+      "category": "duty_free",
+      "question": "Can foreigners shop at duty-free stores in Jeju Island? What are the limits?",
+      "rep": 1,
+      "response": "Yes. Foreign visitors can shop at Jeju duty-free stores, including **JDC Duty Free** at Jeju Airport and downtown locations, by showing a passport and valid boarding pass; purchases are generally collected at the airport before departure. For travelers departing Jeju for **mainland Korea**, the JDC allowance is generally **US$600 per person per visit**, with separate limits commonly applying to **alcohol (up to 2 bottles/2 L, total value up to US$400), cigarettes (1 carton/200), and perfume (100 mL)**. If you fly internationally, Korean airport duty-free rules and—most importantly—the customs allowance of your destination country apply; check [JDC Duty Free](https://www.jejudfs.com/) and [Korea Customs Service](https://www.customs.go.kr/english/) for current details.",
+      "responseHash": "7d6e21faa0acc87c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6930,
+      "citedUrls": [
+        "https://www.jejudfs.com/",
+        "https://www.customs.go.kr/english/"
+      ],
+      "timestamp": "2026-09-08T11:30:25.156Z"
+    },
+    {
+      "questionId": "JJ-EN-17",
+      "tier": "T2",
+      "category": "history",
+      "question": "What is the Jeju April 3rd Incident (4.3 Peace Park) and why is it historically significant?",
+      "rep": 1,
+      "response": "The Jeju April 3rd Incident (Jeju 4·3) refers to the armed uprising and subsequent government and military crackdown that began on April 3, 1948, amid political conflict surrounding Korea’s division and the establishment of a separate South Korean government. Violence continued until 1954, causing widespread civilian deaths; the official Jeju 4·3 Truth Commission estimate is about 14,000 confirmed victims, though historians and families have long argued that the full toll was higher. It is historically significant as one of the earliest and most devastating episodes of state violence in modern South Korea, whose discussion was suppressed for decades before truth-finding, commemoration, and official apologies began. Jeju 4·3 Peace Park preserves memorials, exhibits, and records about the victims and history: https://jeju43peace.or.kr/eng/",
+      "responseHash": "ee98c70f782d1232",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3495,
+      "citedUrls": [
+        "https://jeju43peace.or.kr/eng/"
+      ],
+      "timestamp": "2026-09-08T11:30:21.721Z"
+    },
+    {
+      "questionId": "JJ-EN-18",
+      "tier": "T3",
+      "category": "competitive",
+      "question": "Jeju Island vs Okinawa — which is better for a 4-day beach vacation on a budget?",
+      "rep": 1,
+      "response": "For a **4-day beach vacation on a budget, Jeju is usually the better choice**—especially if you’re already in South Korea, because accommodation, local food, and public transport can be cheaper. **Okinawa generally has warmer, more tropical water and better classic white-sand beaches**, but rental cars are often necessary outside Naha, adding fuel, insurance, and toll costs. Jeju offers attractive beaches such as Hyeopjae and Hamdeok, plus volcanic scenery and coastal walks, while Okinawa is stronger for snorkeling, coral reefs, and island-resort experiences. Choose **Jeju for lower costs and variety**, or **Okinawa for warmer swimming and more tropical beaches**; check [Visit Jeju](https://www.visitjeju.net/en/) and [Visit Okinawa](https://www.visitokinawa.jp/en/) for current travel information.",
+      "responseHash": "0c2293b71b288597",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4541,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/",
+        "https://www.visitokinawa.jp/en/"
+      ],
+      "timestamp": "2026-09-08T11:30:22.768Z"
+    },
+    {
+      "questionId": "JJ-EN-19",
+      "tier": "T3",
+      "category": "competitive",
+      "question": "Is Jeju Island or Bali a better destination for honeymoon in autumn?",
+      "rep": 1,
+      "response": "For an autumn honeymoon, **Bali is generally better for warm beach weather**, especially in September and October, when the dry season usually brings sunny days, luxury resorts, and excellent snorkeling; November can become wetter. **Jeju Island is best in October**, with crisp weather, colorful coastal scenery, hiking, cafés, and fewer crowds, but September may see typhoons and November can feel cool for swimming. Choose **Bali** for a resort-and-beach honeymoon, or **Jeju** for scenic road trips, food, nature, and a quieter Korean atmosphere. Check seasonal advisories before booking via [Visit Jeju](https://www.visitjeju.net/en) and [Indonesia Travel](https://www.indonesia.travel/).",
+      "responseHash": "e4d677e08e3f2d6d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4134,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.indonesia.travel/"
+      ],
+      "timestamp": "2026-09-08T11:30:22.361Z"
+    },
+    {
+      "questionId": "JJ-EN-20",
+      "tier": "T3",
+      "category": "competitive",
+      "question": "What are the best islands in East Asia for a nature-focused holiday? Is Jeju among them?",
+      "rep": 1,
+      "response": "Yes—**Jeju Island** is one of East Asia’s best nature destinations, with Hallasan National Park, volcanic cones, lava-tube caves, waterfalls, coastal trails, and UNESCO-recognized sites; see [Visit Jeju](https://www.visitjeju.net/en).  \nOther excellent choices include **Yakushima, Japan** for ancient cedar forests and hiking ([Yakushima Tourism](https://www.yakushima.or.jp/en/)), **Iriomote Island, Okinawa** for mangroves, jungle, kayaking, and wildlife ([Okinawa Convention & Visitors Bureau](https://www.visitokinawa.jp/)), and **Taiwan’s east-coast islands and mountain regions**—especially Green Island, Orchid Island, and Taroko-area landscapes—though Taiwan is itself a large island ([Taiwan Tourism](https://eng.taiwan.net.tw/)).  \nFor dramatic volcanic scenery and easy access, choose Jeju; for dense, secluded rainforest, choose Yakushima or Iriomote; and for marine activities and warmer subtropical conditions, consider Okinawa’s outer islands.",
+      "responseHash": "fbcaf03c825ca977",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5236,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.yakushima.or.jp/en/",
+        "https://www.visitokinawa.jp/",
+        "https://eng.taiwan.net.tw/"
+      ],
+      "timestamp": "2026-09-08T11:30:23.463Z"
+    },
+    {
+      "questionId": "JJ-EN-21",
+      "tier": "T3",
+      "category": "recommendation",
+      "question": "I'm planning a trip to South Korea. Should I include Jeju Island in my itinerary?",
+      "rep": 1,
+      "response": "Yes—Jeju Island is worth including if you have at least 2–3 extra days, especially for volcanic landscapes, waterfalls, beaches, coastal drives, and Hallasan National Park. It offers a slower, more nature-focused contrast to Seoul and Busan, though public transport is less convenient in rural areas, so renting a car or using taxis can help. Spring and autumn are generally pleasant; winter is quieter but can be windy, while summer may bring heavy rain and typhoons. Plan routes and attractions through the official Jeju tourism site: https://www.visitjeju.net/en and Hallasan National Park: https://www.jeju.go.kr/hallasan/index.htm.",
+      "responseHash": "ce34b5e0a0be542c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3216,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.jeju.go.kr/hallasan/index.htm."
+      ],
+      "timestamp": "2026-09-08T11:30:29.175Z"
+    },
+    {
+      "questionId": "JJ-EN-22",
+      "tier": "T3D",
+      "category": "reputation_food",
+      "question": "I heard Jeju black pork has too much fat and is a tourist trap. Is this true?",
+      "rep": 1,
+      "response": "Jeju black pork is not automatically “too fatty”: the black color refers to the pig breed, while fat content depends mainly on the cut—samgyeopsal/ogyeopsal will naturally be rich, whereas moksal (neck), tenderloin, or leaner cuts are less fatty. Its flavor and chewy texture are genuine, but some restaurants charge premium tourist prices, and “black pork” on a menu is not by itself a guarantee of exceptional quality. To avoid disappointment, look for restaurants serving **Jeju native black pork (제주 흑돼지)** with clear origin information, compare prices, and order smaller portions or leaner cuts first. The official Jeju tourism site has food and restaurant guidance: https://english.visitjeju.net/ાન્ય",
+      "responseHash": "40dbfea4e1692413",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4823,
+      "citedUrls": [
+        "https://english.visitjeju.net/ાન્ય"
+      ],
+      "timestamp": "2026-09-08T11:30:30.781Z"
+    },
+    {
+      "questionId": "JJ-EN-23",
+      "tier": "T3D",
+      "category": "reputation_tax",
+      "question": "Does Jeju Island charge an entry tax or environmental fee for tourists arriving at the airport?",
+      "rep": 1,
+      "response": "No. Jeju Island does **not currently charge tourists an entry tax or separate environmental fee when they arrive at Jeju International Airport**. Any airport charges or taxes are generally included in the airfare, while visa or electronic travel authorization requirements depend on your nationality and are separate from Jeju entry fees. Check [Visit Jeju](https://www.visitjeju.net/en) and Korea Immigration’s [HiKorea](https://www.hikorea.go.kr/) for official updates.",
+      "responseHash": "90f4fcc59f0087bc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4150,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.hikorea.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:30.108Z"
+    },
+    {
+      "questionId": "JJ-EN-24",
+      "tier": "T3D",
+      "category": "reputation_overtourism",
+      "question": "Is Jeju Island suffering from overtourism? Should I avoid visiting?",
+      "rep": 1,
+      "response": "Jeju Island experiences **localized and seasonal overtourism**, especially at Hallasan, Seongsan Ilchulbong, popular beaches, and major café/coastal areas during summer, holidays, and weekends—not uniformly across the island. You generally do **not** need to avoid Jeju, but consider visiting in spring or autumn on weekdays, making reservations for popular sites, and using buses or smaller rental cars where practical. Help reduce impacts by staying in locally owned accommodations, avoiding unauthorized parking or drone use, taking all waste with you, and exploring quieter areas such as western oreum trails or southern villages. Check route conditions, reservations, and visitor guidance through the official [Visit Jeju](https://www.visitjeju.net/) and [Jeju Special Self-Governing Province](https://www.jeju.go.kr/) websites.",
+      "responseHash": "376bb3f397ef7fce",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4313,
+      "citedUrls": [
+        "https://www.visitjeju.net/",
+        "https://www.jeju.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:30.271Z"
+    },
+    {
+      "questionId": "JJ-EN-25",
+      "tier": "T3D",
+      "category": "confabulation_test",
+      "question": "Is it true that foreign tourists are banned from renting cars in Jeju due to environmental concerns?",
+      "rep": 1,
+      "response": "No—foreign tourists are **not generally banned from renting cars on Jeju Island** because of environmental concerns. Visitors can rent vehicles if they meet the rental company’s requirements, typically including a passport, valid driver’s license, an **International Driving Permit (IDP)** or accepted Korean translation, minimum age/experience rules, and a credit card; policies vary by company. Environmental measures may limit or discourage vehicle use in certain areas, but they do not constitute a nationality-based rental ban. Check current driving requirements with the official [Korea Tourism Organization](https://english.visitkorea.or.kr/) and confirm documentation directly with your chosen rental company.",
+      "responseHash": "ef41398bc0adc9e7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4916,
+      "citedUrls": [
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:30.874Z"
+    },
+    {
+      "questionId": "JJ-EN-26",
+      "tier": "T2",
+      "category": "sustainability",
+      "question": "What is Jeju's Carbon Free Island 2030 initiative? How is the island pursuing clean energy?",
+      "rep": 1,
+      "response": "Jeju’s **Carbon Free Island 2030 (CFI 2030)** initiative, launched in 2012, aims to make the island carbon-neutral in its electricity and transportation systems by 2030. Jeju is expanding wind and solar power—especially offshore wind—while improving the grid with smart-grid technology, energy storage, demand management, and links to mainland electricity networks. The island is also promoting electric vehicles through charging infrastructure, public-sector fleet conversion, and incentives, with the long-term goal of replacing conventional vehicles. Progress and projects are coordinated through Jeju Special Self-Governing Province’s official CFI portal: [cfi.jeju.go.kr](https://www.jeju.go.kr/cfi/index.htm).",
+      "responseHash": "a39c5aebec33198c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4506,
+      "citedUrls": [
+        "https://www.jeju.go.kr/cfi/index.htm"
+      ],
+      "timestamp": "2026-09-08T11:30:36.188Z"
+    },
+    {
+      "questionId": "JJ-EN-27",
+      "tier": "T2",
+      "category": "investment",
+      "question": "What incentives does Jeju offer for foreign companies or startups to set up operations on the island?",
+      "rep": 1,
+      "response": "Jeju’s main incentives are tied to designated **Investment Promotion Zones** and other development districts: qualifying foreign-invested companies may receive tax benefits under national law, subsidized industrial sites or facilities, and support for local employment, worker training, and infrastructure; eligibility depends on sector, investment size, location, and job creation. The **Jeju Free International City Development Center (JDC)** can provide site selection, project coordination, and support in areas such as Jeju Science Park and other JDC projects: https://www.jdcenter.com/eng/ . Startups may also access incubation, R&D, demonstration projects, and grants through **Jeju Techno Park** (https://www.jejutp.or.kr) and the **Jeju Creative Economy Innovation Center** (https://ccei.creativekorea.or.kr/jeju), while foreign-investment procedures are handled with assistance from **Invest Korea**: https://www.investkorea.org . Because tax programs and grants change frequently, companies should request a current, project-specific review from Jeju’s investment office or Invest Korea before relying on a particular incentive.",
+      "responseHash": "239b0b96d62047c9",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8170,
+      "citedUrls": [
+        "https://www.jdcenter.com/eng/",
+        "https://www.jejutp.or.kr",
+        "https://ccei.creativekorea.or.kr/jeju",
+        "https://www.investkorea.org"
+      ],
+      "timestamp": "2026-09-08T11:30:39.853Z"
+    },
+    {
+      "questionId": "JJ-EN-28",
+      "tier": "T2",
+      "category": "digital_nomad",
+      "question": "Is Jeju Island a good destination for digital nomads? Are there coworking spaces and fast internet?",
+      "rep": 1,
+      "response": "Yes—Jeju is a strong digital-nomad destination if you value nature, cafés, and a slower pace, though it is less convenient and has fewer coworking options than Seoul. Internet is generally excellent: fiber broadband is common in urban areas, 5G coverage is widespread, and cafés often offer reliable Wi‑Fi; connection quality can be less consistent in remote coastal or mountain villages. Coworking and workation facilities include the government-supported [Jeju Workation](https://workation.jeju.go.kr/) program and the [Jeju Creative Economy Innovation Center](https://ccei.creativekorea.or.kr/jeju/), while many nomads also work from hotel lounges and cafés. Consider staying in Jeju City or Seogwipo for the best connectivity and services, and check South Korea’s [Digital Nomad/Workation visa information](https://www.hikorea.go.kr/) if you plan to remain long-term.",
+      "responseHash": "b69124c8f0a5bda7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6795,
+      "citedUrls": [
+        "https://workation.jeju.go.kr/",
+        "https://ccei.creativekorea.or.kr/jeju/",
+        "https://www.hikorea.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:38.478Z"
+    },
+    {
+      "questionId": "JJ-EN-29",
+      "tier": "T2",
+      "category": "education",
+      "question": "What international schools are available in Jeju Island for expat families?",
+      "rep": 1,
+      "response": "Jeju’s main international schools are concentrated in the **Jeju Global Education City** in Seogwipo:\n\n- **North London Collegiate School Jeju (NLCS Jeju)** — coeducational, British curriculum with IB pathways, ages 4–18: https://www.nlcsjeju.co.kr/  \n- **Branksome Hall Asia (BHA)** — girls’ school with IB curriculum, offering day and boarding options: https://www.branksome.asia/  \n- **Korea International School Jeju (KISJ)** — coeducational American-style K–12 school: https://www.kis.ac/  \n- **St. Johnsbury Academy Jeju (SJA Jeju)** — coeducational American curriculum school for elementary through high school: https://www.sjajeju.kr/  \n\nAdmissions requirements, tuition, boarding availability, and eligibility rules vary, so families should check each school’s official admissions page directly; additional international-school options may also be available in mainland Jeju outside the education city.",
+      "responseHash": "d6967c9e85e0aee6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7139,
+      "citedUrls": [
+        "https://www.nlcsjeju.co.kr/",
+        "https://www.branksome.asia/",
+        "https://www.kis.ac/",
+        "https://www.sjajeju.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:38.821Z"
+    },
+    {
+      "questionId": "JJ-EN-30",
+      "tier": "T2",
+      "category": "green_hydrogen",
+      "question": "What role does Jeju play in South Korea's green hydrogen economy?",
+      "rep": 1,
+      "response": "Jeju is South Korea’s leading **test bed for green hydrogen**, using its abundant wind and solar power to produce hydrogen through water electrolysis—especially when renewable generation exceeds local electricity demand. The island is developing projects that connect hydrogen production with **storage, power-grid balancing, and hydrogen buses and other transport**, supporting its *Carbon-Free Island 2030* strategy. Jeju’s isolated grid makes it useful for demonstrating how green hydrogen can absorb renewable-energy curtailment, although high costs, limited infrastructure, and grid constraints remain challenges. Official information is available through the [Jeju Carbon-Free Island 2030 program](https://www.jeju.go.kr/cfi/index.htm) and [Jeju Special Self-Governing Province](https://www.jeju.go.kr/).",
+      "responseHash": "ab1776062126878a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7522,
+      "citedUrls": [
+        "https://www.jeju.go.kr/cfi/index.htm",
+        "https://www.jeju.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:39.204Z"
+    },
+    {
+      "questionId": "JJ-EN-31",
+      "tier": "T2",
+      "category": "space_industry",
+      "question": "Is there a private space industry hub in Jeju? What companies are involved?",
+      "rep": 1,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9691,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:30:50.357Z"
+    },
+    {
+      "questionId": "JJ-EN-32",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What is the official Jeju tourism website for planning a trip?",
+      "rep": 1,
+      "response": "The official Jeju tourism website is **Visit Jeju**: https://www.visitjeju.net/en  \nIt provides information on attractions, accommodations, restaurants, festivals, transportation, travel courses, and downloadable guides.",
+      "responseHash": "82103e546a3b54bd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1317,
+      "citedUrls": [
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:30:41.983Z"
+    },
+    {
+      "questionId": "JJ-EN-33",
+      "tier": "T2",
+      "category": "weather_crisis",
+      "question": "What happens if my flight to/from Jeju is cancelled due to typhoon or heavy snow? What support is available?",
+      "rep": 1,
+      "response": "If a Jeju flight is cancelled because of a typhoon, heavy snow, or other severe weather, the airline normally offers **free rebooking on the next available flight or a refund of the unused ticket**; contact the airline or booking agency, since procedures and eligible flights vary by carrier. Weather is generally treated as an extraordinary circumstance, so **meals, hotels, and cash compensation are not automatically guaranteed**, although some airlines may provide vouchers or accommodation when they have operational options—keep receipts and check your travel insurance. For live flight status and airport notices, check **Jeju International Airport/Korea Airports Corporation**: https://www.airport.co.kr/jejueng and official weather warnings at **Korea Meteorological Administration**: https://www.weather.go.kr/eng/; airport information is also available at **1661-2626**. If you need help in Korea, contact your airline first, then your ticket agent or tour operator; foreign travelers can call the **1330 Korea Travel Helpline**: https://english.visitkorea.or.kr.",
+      "responseHash": "63d7b2618b87f0bc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9161,
+      "citedUrls": [
+        "https://www.airport.co.kr/jejueng",
+        "https://www.weather.go.kr/eng/;",
+        "https://english.visitkorea.or.kr."
+      ],
+      "timestamp": "2026-09-08T11:30:49.826Z"
+    },
+    {
+      "questionId": "JJ-EN-34",
+      "tier": "T2",
+      "category": "visa",
+      "question": "Do I need a visa to visit Jeju Island? Is there a visa-free entry policy?",
+      "rep": 1,
+      "response": "Visa requirements depend on your **nationality, trip purpose, and route**. South Korea’s visa-exempt travelers can generally visit Jeju for up to **90 days or the period allowed for their passport**, while Jeju also has a special **visa-free entry scheme—usually up to 30 days—for eligible foreign nationals arriving directly from overseas and remaining in Jeju**; travelers entering through Seoul or another Korean mainland airport may need a Korean visa. Some nationalities are excluded, and visa-free travelers may need **K-ETA** unless exempt or temporarily waived, so check before booking. Use the official [Korea Visa Portal](https://www.visa.go.kr/) and [K-ETA website](https://www.k-eta.go.kr/) or contact a Korean embassy with your passport nationality and itinerary.",
+      "responseHash": "5eb91b012c35875b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7047,
+      "citedUrls": [
+        "https://www.visa.go.kr/",
+        "https://www.k-eta.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:47.712Z"
+    },
+    {
+      "questionId": "JJ-EN-35",
+      "tier": "T2",
+      "category": "medical",
+      "question": "Are there English-speaking hospitals or clinics in Jeju for foreign tourists in an emergency?",
+      "rep": 1,
+      "response": "Yes. For a serious emergency, call **119** for an ambulance; operators can arrange foreign-language interpretation, including English. Major hospitals with emergency departments and some English-support services include **Jeju National University Hospital** ([English site](https://www.jejunuh.co.kr/en/)) and **Cheju Halla General Hospital** ([official site](https://www.hallahosp.co.kr/)); English availability may vary by department and time, so ask for an interpreter on arrival. For help finding a clinic or communicating with medical providers, call the Korea Tourism Organization’s **1330 Travel Helpline** (English available): [visitkorea.or.kr](https://english.visitkorea.or.kr/).",
+      "responseHash": "b1c5eb3992fb9d81",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6621,
+      "citedUrls": [
+        "https://www.jejunuh.co.kr/en/",
+        "https://www.hallahosp.co.kr/",
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:47.286Z"
+    },
+    {
+      "questionId": "JJ-EN-01",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "How do I get from Jeju Airport to Seogwipo? What are the best transportation options?",
+      "rep": 2,
+      "response": "- **Taxi:** The easiest door-to-door option takes about **50–70 minutes** and usually costs roughly **₩45,000–₩70,000**, depending on traffic and your exact destination; use the official taxi stand outside the arrivals hall.  \n- **Airport limousine bus 600:** Best for **Jungmun and central Seogwipo hotels**; it follows the coastal route and takes about **70–90 minutes**, with luggage storage and stops at major resorts.  \n- **Express/intercity buses:** Routes such as **181/182 and 800-series services** connect Jeju Airport with Seogwipo Bus Terminal, generally taking **60–90 minutes** and costing only a few thousand won; check the current route and timetable on the [Jeju bus information site](https://bus.jeju.go.kr/).  \n- **Rental car:** Often the best choice if you will explore the island, but reserve ahead and allow extra time for traffic and navigation; see [Jeju Airport transportation information](https://www.airport.co.kr/jejueng/cms/frCon/index.do?MENU_ID=260).",
+      "responseHash": "31db7d54efe7a83d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8935,
+      "citedUrls": [
+        "https://bus.jeju.go.kr/",
+        "https://www.airport.co.kr/jejueng/cms/frCon/index.do?MENU_ID=260"
+      ],
+      "timestamp": "2026-09-08T11:31:00.800Z"
+    },
+    {
+      "questionId": "JJ-EN-02",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "Do I need an international driving permit to rent a car in Jeju Island as a foreigner?",
+      "rep": 2,
+      "response": "Yes—if you are a foreign visitor, you generally need a valid **International Driving Permit (IDP)** along with your original driver’s license and passport to rent and drive a car in Jeju. The IDP must be issued by an authorized agency in your home country; an unofficial online translation is usually not accepted, and rental companies may apply additional age or license-history requirements. Under Korean law, an IDP is generally usable for up to one year from your entry date, but confirm requirements with your chosen rental company before arrival. See the [Korea Road Traffic Authority](https://www.safedriving.or.kr/) and [VisitKorea transportation information](https://english.visitkorea.or.kr/).",
+      "responseHash": "d887205d4b2579c7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5016,
+      "citedUrls": [
+        "https://www.safedriving.or.kr/",
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:56.881Z"
+    },
+    {
+      "questionId": "JJ-EN-03",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "What is the best time of year to visit Jeju Island and why?",
+      "rep": 2,
+      "response": "The best time to visit Jeju Island is generally **April–May** or **October–November**, when the weather is mild, skies are often clear, and there are fewer visitors than in the peak summer season. **April** is especially popular for canola flowers and cherry blossoms, while **autumn** offers comfortable hiking conditions and colorful foliage. Summer (June–August) is warm and suitable for beaches but can be humid, rainy, and crowded, while winter is quieter and relatively mild but can be windy and cold on Hallasan. For seasonal events and current conditions, check the official **Jeju Tourism Organization** at https://www.visitjeju.net/en and the **Korea Meteorological Administration** at https://www.weather.go.kr.",
+      "responseHash": "1d23fca2880635a8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3151,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.weather.go.kr."
+      ],
+      "timestamp": "2026-09-08T11:30:55.015Z"
+    },
+    {
+      "questionId": "JJ-EN-04",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "Is Jeju Island safe for solo female travelers? Any safety tips?",
+      "rep": 2,
+      "response": "Jeju Island is generally very safe for solo female travelers, with low violent-crime rates, but normal precautions are still important—especially at night or in isolated coastal, rural, and hiking areas. Keep valuables secure, share your itinerary, use reputable accommodations and taxis, and avoid walking alone after drinking; traffic can be hazardous, so take care near roads and rental cars. Check weather and trail conditions before hiking, and remember that **112** is for police, **119** for fire/ambulance, and **1330** for Korea Travel Helpline assistance. Official resources: [Visit Jeju](https://www.visitjeju.net/en) and [Visit Korea](https://english.visitkorea.or.kr/).",
+      "responseHash": "12040a6833cd6a50",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4541,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:30:56.405Z"
+    },
+    {
+      "questionId": "JJ-EN-05",
+      "tier": "T2",
+      "category": "attractions",
+      "question": "What are the top 5 must-visit attractions in Jeju Island for first-time visitors?",
+      "rep": 2,
+      "response": "1. **Seongsan Ilchulbong (Sunrise Peak)** – Climb the UNESCO-listed volcanic tuff cone for spectacular sunrise and coastal views.  \n2. **Hallasan National Park** – Explore Korea’s highest mountain through scenic trails; check reservations, weather, and trail closures before hiking.  \n3. **Udo Island** – Take a short ferry ride from Seongsan Port to enjoy beaches, coastal roads, peanut ice cream, and bicycle or scooter tours.  \n4. **Jeju Olle Trail** – Walk one of the island’s beautifully marked coastal routes, such as Routes 6, 7, or 10, for an immersive look at Jeju’s villages and shoreline.  \n5. **Cheonjiyeon Falls** – Visit this accessible waterfall near Seogwipo, especially attractive after rainfall or in the evening when it is illuminated.  \n\nOfficial information: [Jeju Tourism Organization](https://www.visitjeju.net), [Hallasan National Park](https://www.jeju.go.kr/hallasan/index.htm), and [Jeju Olle Foundation](https://www.jejuolle.org).",
+      "responseHash": "10f7b6cef599e204",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6608,
+      "citedUrls": [
+        "https://www.visitjeju.net",
+        "https://www.jeju.go.kr/hallasan/index.htm",
+        "https://www.jejuolle.org"
+      ],
+      "timestamp": "2026-09-08T11:30:58.472Z"
+    },
+    {
+      "questionId": "JJ-EN-06",
+      "tier": "T2",
+      "category": "attractions",
+      "question": "How do I book Hallasan Mountain hiking and which trail is best for beginners?",
+      "rep": 2,
+      "response": "For a summit hike, reserve a free entry slot for **Seongpanak** or **Gwaneumsa** through Hallasan’s official reservation site: [visithalla.jeju.go.kr](https://visithalla.jeju.go.kr) → **Trail Reservation / 탐방예약**; select the date, route, and entry time, then bring the confirmation or QR code. **Seongpanak** is generally best for beginners attempting the summit because it is less steep, although it is a long hike (about 19.2 km round trip); Gwaneumsa is steeper and more demanding. For an easier hike without reaching the summit, choose **Yeongsil** or **Eorimok**, which do not normally require summit-route reservations. Check same-day trail closures, weather, entry cut-off times, and seasonal operating hours on the official site before going.",
+      "responseHash": "f53ff88370a1a642",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6348,
+      "citedUrls": [
+        "https://visithalla.jeju.go.kr"
+      ],
+      "timestamp": "2026-09-08T11:31:07.961Z"
+    },
+    {
+      "questionId": "JJ-EN-07",
+      "tier": "T2",
+      "category": "attractions",
+      "question": "What are the best beaches in Jeju for swimming and snorkeling?",
+      "rep": 2,
+      "response": "- **Hamdeok Seoubong Beach** is one of Jeju’s best all-around choices, with calm, shallow turquoise water, sandy areas, showers, and good facilities—especially suitable for families and casual swimming.  \n- **Hyeopjae and Geumneung Beaches** offer clear, relatively shallow water and views of Biyangdo; Hyeopjae is busier, while Geumneung is generally more relaxed.  \n- For snorkeling, try **Woljeongri Beach** and the rocky edges around **Seongsan and Seopjikoji** when the sea is calm; **Hwangwooji Coast near Seogwipo** has attractive tide pools but is rocky and requires extra caution.  \n- **Gwakji Gwamul Beach** and **Iho Tewoo Beach** are also convenient swimming beaches, but check lifeguard availability, opening hours, weather, and tide conditions before entering; see [Visit Jeju’s official tourism site](https://www.visitjeju.net/en) for current beach information.",
+      "responseHash": "5e5823d07ed353e8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6962,
+      "citedUrls": [
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:31:08.575Z"
+    },
+    {
+      "questionId": "JJ-EN-08",
+      "tier": "T2",
+      "category": "culture",
+      "question": "What is the Jeju Olle Trail and how many courses are there? Which one is the most scenic?",
+      "rep": 2,
+      "response": "The **Jeju Olle Trail** is a network of long-distance walking routes following Jeju Island’s coast, villages, forests, oreum (volcanic hills), and rural roads. It currently has **27 courses**, including 21 main routes and several island or short-distance branch routes. **Course 7** is often considered the most scenic, featuring Oedolgae Rock, coastal cliffs, sea views, and the route toward Wolpyeong Port, though Course 10 is another excellent choice for dramatic coastal scenery. See the official route information at [Jeju Olle Foundation](https://www.jejuolle.org/).",
+      "responseHash": "7a9b409d3d72d771",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4365,
+      "citedUrls": [
+        "https://www.jejuolle.org/"
+      ],
+      "timestamp": "2026-09-08T11:31:05.979Z"
+    },
+    {
+      "questionId": "JJ-EN-09",
+      "tier": "T2",
+      "category": "culture",
+      "question": "What is the Jeju haenyeo (sea women) tradition and where can I see them dive?",
+      "rep": 2,
+      "response": "Jeju haenyeo are women divers who traditionally harvest abalone, sea urchins, conch, seaweed, and other seafood by breath-hold diving without scuba equipment; their cooperative, matrifocal culture was inscribed on UNESCO’s Representative List of Intangible Cultural Heritage in 2016. You can learn about their history at the **Jeju Haenyeo Museum** in Hado: https://haenyeo.jeju.go.kr/eng/ (Korean site and schedules may vary). For live viewing, try the **Seongsan Ilchulbong**, **Hado**, **Gimnyeong**, or **Udo** coastal areas, where demonstrations or working dives may occur depending on weather, tides, and the divers’ schedule. Check Visit Jeju for current locations and programs: https://www.visitjeju.net/en/—please observe from designated areas and do not interrupt the divers.",
+      "responseHash": "f360a25d28dd225f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5522,
+      "citedUrls": [
+        "https://haenyeo.jeju.go.kr/eng/",
+        "https://www.visitjeju.net/en/—please"
+      ],
+      "timestamp": "2026-09-08T11:31:07.135Z"
+    },
+    {
+      "questionId": "JJ-EN-10",
+      "tier": "T2",
+      "category": "food",
+      "question": "What are the must-try local foods in Jeju Island? Where is the best black pork BBQ?",
+      "rep": 2,
+      "response": "Must-try Jeju foods include **Jeju black pork (흑돼지)** BBQ, grilled **hairtail (갈치)** and mackerel, fresh abalone, **sea urchin seaweed soup (성게미역국)**, buckwheat noodles, **momguk** (pork-and-seaweed soup), and Jeju tangerines. For black pork, popular choices are **Donsadon (돈사돈)** near Nohyeong-dong and **Chil-don-ga (칠돈가)** in Jeju City; both are known for thick-cut pork grilled over charcoal, though reservations or early arrival are advisable. For convenience and variety, Jeju City’s **Black Pork Street** near Tapdong/Jungang-dong is also a good area to compare restaurants, while **Donsadon** is often the top pick for a dedicated BBQ meal. Check current branches and opening hours through [Visit Jeju’s official food guide](https://www.visitjeju.net/en) or Korean map apps before going.",
+      "responseHash": "fcf1fdf205819c75",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7763,
+      "citedUrls": [
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:31:09.376Z"
+    },
+    {
+      "questionId": "JJ-EN-11",
+      "tier": "T2",
+      "category": "food",
+      "question": "Is the Dongmun Traditional Market worth visiting? What street food should I try there?",
+      "rep": 2,
+      "response": "Yes—**Dongmun Traditional Market is worth visiting**, especially in the evening when the night-market stalls are lively and you can sample many local foods in one place. Try **grilled black-pork skewers**, **abalone or seafood**, **fried shrimp**, **Jeju-style mandarin or hallabong desserts/juice**, and **tteokbokki or hotteok**; portions are generally easy to share. Go before peak dinner hours for shorter lines, and bring a little cash although many vendors accept cards. Details and opening information are available through the official **Visit Jeju** portal: https://www.visitjeju.net/en/search?q=Dongmun%20Traditional%20Market",
+      "responseHash": "e37a5b95ca22c144",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5906,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/search?q=Dongmun%20Traditional%20Market"
+      ],
+      "timestamp": "2026-09-08T11:31:16.086Z"
+    },
+    {
+      "questionId": "JJ-EN-12",
+      "tier": "T2",
+      "category": "festival",
+      "question": "What major festivals are held in Jeju Island throughout the year?",
+      "rep": 2,
+      "response": "Jeju’s major annual festivals include the **Jeju Fire Festival** at Saebyeol Oreum in late winter or early spring, the **Jeju Canola Flower Festival** in spring, and the **Jeju International Wind Ensemble Festival** in August.  \nIn autumn, the island hosts the **Jeju Haenyeo Festival**, celebrating its women divers, and the **Tamna Cultural Festival**, which showcases Jeju’s traditional heritage.  \nThe **Jeju Olle Walking Festival** is usually held in November, while citrus-themed events and local winter festivals take place from late autumn into winter.  \nDates and programs change each year, so check the official **Visit Jeju festival listings** at [visitjeju.net](https://www.visitjeju.net/en) and the [Jeju Olle website](https://www.jejuolle.org/) before planning.",
+      "responseHash": "177c8a5958d6f943",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9472,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.jejuolle.org/"
+      ],
+      "timestamp": "2026-09-08T11:31:19.652Z"
+    },
+    {
+      "questionId": "JJ-EN-13",
+      "tier": "T2",
+      "category": "island_tour",
+      "question": "How do I take a ferry to Udo Island from Jeju? What is there to see on Udo?",
+      "rep": 2,
+      "response": "Take a bus or taxi to **Seongsanpo Port (성산포항)** in eastern Jeju, buy a round-trip Udo ferry ticket at the terminal, and board the ferry to **Cheonjin Port or Haumokdong Port**—the crossing takes about **15 minutes**. Ferries usually run frequently during daylight, but schedules can change with wind, waves, or the season, so bring identification and check conditions before leaving; rental cars are generally restricted on Udo, though exceptions apply for some visitors with mobility or medical needs. On Udo, see **Seobinbaeksa’s white coral beach**, **Geommeolle Beach and the sea cave**, **Udobong/Someori Oreum**, the **Udo Lighthouse Park**, and the island’s famous peanut ice cream; bicycles, electric bikes, scooters, and small vehicles are available for touring. Check current ferry notices and transport details through the official Jeju tourism site: **https://www.visitjeju.net/en**.",
+      "responseHash": "f040f255f80e7718",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8944,
+      "citedUrls": [
+        "https://www.visitjeju.net/en**."
+      ],
+      "timestamp": "2026-09-08T11:31:19.125Z"
+    },
+    {
+      "questionId": "JJ-EN-14",
+      "tier": "T2",
+      "category": "unesco",
+      "question": "What UNESCO World Heritage sites are in Jeju and how do I visit them?",
+      "rep": 2,
+      "response": "Jeju has one UNESCO World Heritage property—**Jeju Volcanic Island and Lava Tubes**—which includes **Hallasan Natural Reserve**, the **Geomunoreum Lava Tube System** (including Manjanggul Cave), and **Seongsan Ilchulbong (Sunrise Peak)**; UNESCO details: https://whc.unesco.org/en/list/1264/  \nVisit **Hallasan** via the Seongpanak or Gwaneumsa trails; summit hikers need advance reservations through the official reservation system, and weather-related closures are common: https://visithalla.jeju.go.kr/  \n**Seongsan Ilchulbong** is reached by local bus, taxi, or rental car and requires an admission ticket for the crater trail; **Geomunoreum** is accessible only through scheduled guided tours, while **Manjanggul Cave’s** opening status should be checked before going because it has undergone closure and repairs: https://www.jeju.go.kr/geopark/ and https://www.visitjeju.net/  \nA rental car is the easiest way to visit all three areas, which are spread across the island; buses are available but involve transfers and longer travel times.",
+      "responseHash": "cf38a9472911271a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6735,
+      "citedUrls": [
+        "https://whc.unesco.org/en/list/1264/",
+        "https://visithalla.jeju.go.kr/",
+        "https://www.jeju.go.kr/geopark/",
+        "https://www.visitjeju.net/"
+      ],
+      "timestamp": "2026-09-08T11:31:16.915Z"
+    },
+    {
+      "questionId": "JJ-EN-15",
+      "tier": "T2",
+      "category": "accommodation",
+      "question": "What area should I stay in Jeju — Jeju City or Seogwipo? Pros and cons?",
+      "rep": 2,
+      "response": "**Jeju City** is best for convenient airport access, restaurants, shopping, nightlife, buses, and a more urban atmosphere—especially if you have an early flight or won’t rent a car; the downside is heavier traffic and less immediate access to the island’s major natural sights. **Seogwipo** is quieter and more scenic, with easier access to waterfalls, Hallasan’s southern routes, Jungmun, and many coastal attractions, but it is about 45–75 minutes from the airport and can be less convenient without a car. For a first trip, consider splitting your stay—Jeju City for 1–2 nights and Seogwipo for the remainder—or choose Seogwipo if nature and relaxation are your priorities. See the official Jeju tourism site for area and transport information: https://www.visitjeju.net/en/",
+      "responseHash": "2983e7cfed3f0514",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3824,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/"
+      ],
+      "timestamp": "2026-09-08T11:31:14.004Z"
+    },
+    {
+      "questionId": "JJ-EN-16",
+      "tier": "T2",
+      "category": "duty_free",
+      "question": "Can foreigners shop at duty-free stores in Jeju Island? What are the limits?",
+      "rep": 2,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 10879,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:31:31.335Z"
+    },
+    {
+      "questionId": "JJ-EN-17",
+      "tier": "T2",
+      "category": "history",
+      "question": "What is the Jeju April 3rd Incident (4.3 Peace Park) and why is it historically significant?",
+      "rep": 2,
+      "response": "The **Jeju April 3 Incident (Jeju 4·3)** refers to an armed uprising that began on April 3, 1948, amid opposition to Korea’s division, separate elections, police abuses, and political repression; the ensuing military and police crackdown continued until 1954. An estimated **25,000–30,000 people**, most of them civilians, were killed or disappeared, and villages were destroyed. It is historically significant as one of the Korean state’s major episodes of civilian mass violence and because decades of censorship and stigma delayed public acknowledgment, making truth-telling, remembrance, and reconciliation especially important. The **Jeju 4·3 Peace Park** commemorates the victims and documents the history: [official Jeju 4·3 Peace Park website](https://jeju43.jeju.go.kr/).",
+      "responseHash": "c5a30b505481043b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5317,
+      "citedUrls": [
+        "https://jeju43.jeju.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:31:25.773Z"
+    },
+    {
+      "questionId": "JJ-EN-18",
+      "tier": "T3",
+      "category": "competitive",
+      "question": "Jeju Island vs Okinawa — which is better for a 4-day beach vacation on a budget?",
+      "rep": 2,
+      "response": "For a **4-day beach vacation on a budget, Jeju is usually the better choice** if you are already in South Korea: accommodation, local food, and public transportation are generally cheaper, and beaches such as Hyeopjae, Hamdeok, and Woljeongri are easy to combine with scenic attractions. **Okinawa has warmer, more tropical-looking water and beaches**, especially around the main island and nearby islands, but rental cars are often useful and resort-area lodging can raise costs. Jeju is also more compact for a short trip, though buses can be slow; Okinawa’s best beaches may require longer drives. Check seasonal conditions—both are best roughly June–October, while Okinawa is warmer earlier and Jeju can be windy or rainy; see [Visit Jeju](https://www.visitjeju.net/) and [Visit Okinawa](https://www.visitokinawa.jp/) for current transport and beach information.",
+      "responseHash": "f137b1d331872d77",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3834,
+      "citedUrls": [
+        "https://www.visitjeju.net/",
+        "https://www.visitokinawa.jp/"
+      ],
+      "timestamp": "2026-09-08T11:31:24.290Z"
+    },
+    {
+      "questionId": "JJ-EN-19",
+      "tier": "T3",
+      "category": "competitive",
+      "question": "Is Jeju Island or Bali a better destination for honeymoon in autumn?",
+      "rep": 2,
+      "response": "For an autumn honeymoon, **Jeju Island is best in October–November** for crisp weather, colorful foliage, scenic drives, beaches, cafés, and a quieter, more intimate atmosphere; September can still be humid and affected by typhoons. **Bali is generally better in September–October**, offering warm beach weather, resorts, sunsets, snorkeling, and wellness experiences, while November begins the wetter season but can still have sunny periods. Choose **Jeju** for nature, food, road trips, and a distinctive Korean experience; choose **Bali** for luxury villas, tropical beaches, spa treatments, and a more resort-focused honeymoon. Useful planning sources are [Visit Jeju](https://www.visitjeju.net/) and [Indonesia Travel](https://www.indonesia.travel/).",
+      "responseHash": "bda926a9f8aba328",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3375,
+      "citedUrls": [
+        "https://www.visitjeju.net/",
+        "https://www.indonesia.travel/"
+      ],
+      "timestamp": "2026-09-08T11:31:23.831Z"
+    },
+    {
+      "questionId": "JJ-EN-20",
+      "tier": "T3",
+      "category": "competitive",
+      "question": "What are the best islands in East Asia for a nature-focused holiday? Is Jeju among them?",
+      "rep": 2,
+      "response": "Yes—**Jeju Island** is among East Asia’s best nature destinations, offering Hallasan National Park, lava tubes, volcanic coastlines, waterfalls, and coastal walking trails; see [Visit Jeju](https://www.visitjeju.net/en) and [Hallasan National Park](https://www.jeju.go.kr/hallasan/index.htm).  \nOther excellent choices include **Yakushima, Japan** for ancient cedar forests and mountain trekking ([Yakushima Tourism](https://www.yakushima-info.com/en/)), and **Iriomote Island, Okinawa**, for mangroves, jungle rivers, coral reefs, and kayaking ([Okinawa Convention & Visitors Bureau](https://www.visitokinawa.jp/)).  \nFor dramatic coastlines and marine life, consider **Taiwan’s Penghu Islands** or **Green Island**, while **Hokkaido** is ideal for broad wilderness, lakes, volcanoes, and wildlife ([Japan Travel](https://www.japan.travel/en/)).  \nJeju is particularly convenient because it combines substantial wilderness with excellent accommodation, public transport, food, and UNESCO-recognized volcanic landscapes.",
+      "responseHash": "c457e78a29da25ed",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4922,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.jeju.go.kr/hallasan/index.htm",
+        "https://www.yakushima-info.com/en/",
+        "https://www.visitokinawa.jp/",
+        "https://www.japan.travel/en/"
+      ],
+      "timestamp": "2026-09-08T11:31:25.378Z"
+    },
+    {
+      "questionId": "JJ-EN-21",
+      "tier": "T3",
+      "category": "recommendation",
+      "question": "I'm planning a trip to South Korea. Should I include Jeju Island in my itinerary?",
+      "rep": 2,
+      "response": "Yes—Jeju Island is worth including if you have at least 3–4 extra days and enjoy volcanic scenery, beaches, waterfalls, hiking, and distinctive local food. Highlights include Hallasan, Seongsan Ilchulbong, the Manjanggul area, coastal roads, and Jeju’s haenyeo culture; spring and autumn are especially pleasant, while summer is warmer but busier. Jeju is large, so renting a car is often the most convenient option, though buses and taxis can cover major attractions. Plan your trip with the official [Visit Jeju](https://www.visitjeju.net/en/) site; if you have fewer than 5–6 days total in Korea and it is your first visit, Seoul plus another mainland destination may be a better use of time.",
+      "responseHash": "19324154f8250fcd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4176,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/"
+      ],
+      "timestamp": "2026-09-08T11:31:36.312Z"
+    },
+    {
+      "questionId": "JJ-EN-22",
+      "tier": "T3D",
+      "category": "reputation_food",
+      "question": "I heard Jeju black pork has too much fat and is a tourist trap. Is this true?",
+      "rep": 2,
+      "response": "Jeju black pork is not inherently a scam: the local black-pig breed is prized for its chewy texture and rich flavor, but it often has more noticeable fat than ordinary pork. If you prefer lean meat, ask for cuts such as **moksal** (neck) or **deungsim** (loin), and trim or grill the fat to your taste. Prices can be inflated at famous “black-pork streets,” but many local restaurants serve genuine Jeju black pork—check for the **Jeju Black Pork** origin designation and compare menus rather than assuming every venue is a tourist trap. Restaurant and food information is available through the official Jeju tourism site: [Visit Jeju](https://www.visitjeju.net/).",
+      "responseHash": "672dcb3a8d435440",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4379,
+      "citedUrls": [
+        "https://www.visitjeju.net/"
+      ],
+      "timestamp": "2026-09-08T11:31:36.515Z"
+    },
+    {
+      "questionId": "JJ-EN-23",
+      "tier": "T3D",
+      "category": "reputation_tax",
+      "question": "Does Jeju Island charge an entry tax or environmental fee for tourists arriving at the airport?",
+      "rep": 2,
+      "response": "No. **Jeju Island does not currently charge tourists a separate entry tax or environmental fee when they arrive at Jeju International Airport**, whether entering from mainland Korea or overseas. Travelers may still need a Korean visa or **K-ETA**, depending on nationality, but those are national immigration requirements—not Jeju charges; check [K-ETA](https://www.k-eta.go.kr/) or [Korea Visa Portal](https://www.visa.go.kr/). Jeju has discussed visitor/environmental contribution schemes, but no such airport-arrival fee is presently being collected.",
+      "responseHash": "765b1a11077921fe",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4644,
+      "citedUrls": [
+        "https://www.k-eta.go.kr/",
+        "https://www.visa.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:31:36.780Z"
+    },
+    {
+      "questionId": "JJ-EN-24",
+      "tier": "T3D",
+      "category": "reputation_overtourism",
+      "question": "Is Jeju Island suffering from overtourism? Should I avoid visiting?",
+      "rep": 2,
+      "response": "Jeju Island experiences **localized and seasonal overtourism**, especially around Seongsan Ilchulbong, Hallasan, popular beaches, waterfalls, and downtown Jeju during summer, holidays, and peak cherry-blossom/autumn periods—not uniformly across the island. You do not need to avoid Jeju, but consider visiting in spring or late autumn, staying longer, using buses or small-group tours, and exploring less-visited areas such as the west coast, southern villages, and Olle Trail sections away from major attractions. Book accommodation and any required Hallasan access in advance, follow parking and trail rules, and reduce waste; plan routes and current visitor information through the official [Visit Jeju](https://www.visitjeju.net/) site and [Jeju Tourism Organization](https://www.ijto.or.kr/).",
+      "responseHash": "a48c4f54496254d7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4443,
+      "citedUrls": [
+        "https://www.visitjeju.net/",
+        "https://www.ijto.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:31:36.579Z"
+    },
+    {
+      "questionId": "JJ-EN-25",
+      "tier": "T3D",
+      "category": "confabulation_test",
+      "question": "Is it true that foreign tourists are banned from renting cars in Jeju due to environmental concerns?",
+      "rep": 2,
+      "response": "No—the claim is false. Foreign tourists can rent and drive cars on Jeju, provided they meet the rental company’s requirements, typically including a passport, a valid driver’s license plus an International Driving Permit (IDP) or accepted Korean translation, minimum age/experience rules, and a credit card. Jeju has pursued environmental measures such as encouraging public transport and limiting overall rental-car supply, but it has not banned foreign tourists from renting cars. Check requirements with your chosen rental company and the Korea Tourism Organization at [english.visitkorea.or.kr](https://english.visitkorea.or.kr).",
+      "responseHash": "b50c9f6e6ddf4617",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4477,
+      "citedUrls": [
+        "https://english.visitkorea.or.kr"
+      ],
+      "timestamp": "2026-09-08T11:31:36.613Z"
+    },
+    {
+      "questionId": "JJ-EN-26",
+      "tier": "T2",
+      "category": "sustainability",
+      "question": "What is Jeju's Carbon Free Island 2030 initiative? How is the island pursuing clean energy?",
+      "rep": 2,
+      "response": "Jeju’s **Carbon Free Island 2030 (CFI 2030)** is a provincial plan launched in 2012 to make the island carbon-free by 2030, centered on supplying electricity from renewable sources, expanding electric vehicles, and building a smart, flexible power system. Jeju is developing onshore and offshore wind farms, solar power, energy-storage systems, and upgraded transmission and smart-grid infrastructure to manage variable renewable generation. It is also promoting electric vehicles and charging networks, while testing demand-response programs, renewable-energy curtailment solutions, and emerging technologies such as green hydrogen. Progress and policies are published through the official **Carbon Free Island Jeju** portal: https://www.jeju.go.kr/cfi/ (Korean).",
+      "responseHash": "779d77ff2eefc13f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3886,
+      "citedUrls": [
+        "https://www.jeju.go.kr/cfi/"
+      ],
+      "timestamp": "2026-09-08T11:31:41.482Z"
+    },
+    {
+      "questionId": "JJ-EN-27",
+      "tier": "T2",
+      "category": "investment",
+      "question": "What incentives does Jeju offer for foreign companies or startups to set up operations on the island?",
+      "rep": 2,
+      "response": "Jeju offers incentives through Korea’s **Foreign Investment Promotion Act** and Jeju-specific investment districts, including potential corporate/local tax reductions, subsidized or preferential land leases, and cash grants tied to facility investment, employment, employee training, and relocation; eligibility depends on sector, investment size, and location. Key sites include the **Jeju Investment Promotion District**, Jeju첨단과학기술단지 (high-tech science and technology complex), and JDC-developed projects such as Global Education City, where the **Jeju Free International City Development Center (JDC)** provides project support and administrative coordination. Foreign-invested firms in qualifying high-tech, tourism, education, medical, and ICT businesses may also receive national-level incentives, while startups can apply for incubation, acceleration, pilot-project, and investment programs through the **Jeju Center for Creative Economy & Innovation** and other government programs. Check current conditions directly with [Invest Korea](https://www.investkorea.org/), [JDC](https://www.jdcenter.com/eng/), and [Jeju CCEI](https://ccei.creativekorea.or.kr/jeju/), since tax rates, eligible industries, and grant ceilings change frequently.",
+      "responseHash": "e43a15630a7abf45",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9857,
+      "citedUrls": [
+        "https://www.investkorea.org/",
+        "https://www.jdcenter.com/eng/",
+        "https://ccei.creativekorea.or.kr/jeju/"
+      ],
+      "timestamp": "2026-09-08T11:31:47.453Z"
+    },
+    {
+      "questionId": "JJ-EN-28",
+      "tier": "T2",
+      "category": "digital_nomad",
+      "question": "Is Jeju Island a good destination for digital nomads? Are there coworking spaces and fast internet?",
+      "rep": 2,
+      "response": "Yes—Jeju is a good digital-nomad destination if you value nature, a relaxed lifestyle, and reliable connectivity, especially in Jeju City and Seogwipo. Coworking spaces, workation hubs, and work-friendly cafés are available, including public or startup-oriented facilities such as **J-Space**; availability and opening hours should be checked before arrival. Most urban areas have fast fiber internet and strong 4G/5G coverage, though connections can be less dependable in rural coastal or mountainous areas, so a local SIM/eSIM and backup hotspot are advisable. For practical travel and workation information, see the official [Jeju Tourism Organization](https://www.visitjeju.net/en) and Korea’s [HiKorea immigration portal](https://www.hikorea.go.kr) for visa rules.",
+      "responseHash": "80b5761f4388c46b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7206,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.hikorea.go.kr"
+      ],
+      "timestamp": "2026-09-08T11:31:44.802Z"
+    },
+    {
+      "questionId": "JJ-EN-29",
+      "tier": "T2",
+      "category": "education",
+      "question": "What international schools are available in Jeju Island for expat families?",
+      "rep": 2,
+      "response": "Jeju’s main international-school cluster is in **Jeju Global Education City (Seogwipo)**, with four established English-medium K–12 options:\n\n- **North London Collegiate School Jeju (NLCS Jeju)** — British curriculum and IB Diploma: https://www.nlcsjeju.co.kr/  \n- **Branksome Hall Asia (BHA)** — Canadian/international curriculum and IB; coeducational in younger grades and girls-only from upper elementary onward: https://www.branksome.asia/  \n- **Korea International School Jeju (KIS Jeju)** — U.S.-style curriculum with AP courses: https://www.kis.ac/  \n- **St. Johnsbury Academy Jeju (SJA Jeju)** — U.S.-style curriculum with AP courses: https://www.sjajeju.kr/  \n\nAdmissions, tuition, boarding availability, and eligibility vary by school and grade, so families should check each school’s official admissions page directly.",
+      "responseHash": "393bf22714065592",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6653,
+      "citedUrls": [
+        "https://www.nlcsjeju.co.kr/",
+        "https://www.branksome.asia/",
+        "https://www.kis.ac/",
+        "https://www.sjajeju.kr/"
+      ],
+      "timestamp": "2026-09-08T11:31:44.249Z"
+    },
+    {
+      "questionId": "JJ-EN-30",
+      "tier": "T2",
+      "category": "green_hydrogen",
+      "question": "What role does Jeju play in South Korea's green hydrogen economy?",
+      "rep": 2,
+      "response": "Jeju is a national testbed for South Korea’s green-hydrogen economy because its **Carbon Free Island 2030** plan has expanded wind and solar power, creating an opportunity to convert renewable-energy surpluses into hydrogen through electrolysis. The island is developing demonstration projects that link renewable generation with hydrogen production, storage, refueling, and uses such as fuel-cell buses and other transport, helping test technologies and business models before wider deployment on the mainland. Jeju also aims to use hydrogen for grid balancing and difficult-to-electrify sectors, positioning itself as a future clean-energy hub rather than only a consumer of hydrogen. Official information is available through the [Jeju Carbon Free Island portal](https://www.jeju.go.kr/cfi/index.htm) and Korea’s [Ministry of Trade, Industry and Energy](https://www.motie.go.kr).",
+      "responseHash": "fec1c7de00a8fa5c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6615,
+      "citedUrls": [
+        "https://www.jeju.go.kr/cfi/index.htm",
+        "https://www.motie.go.kr"
+      ],
+      "timestamp": "2026-09-08T11:31:44.211Z"
+    },
+    {
+      "questionId": "JJ-EN-31",
+      "tier": "T2",
+      "category": "space_industry",
+      "question": "Is there a private space industry hub in Jeju? What companies are involved?",
+      "rep": 2,
+      "response": "Jeju does not yet have a single, fully established **private space-industry hub** comparable to a commercial launch center; rather, it is developing an emerging space-data and satellite-operations cluster around the **National Satellite Operation Center** and Jeju’s aerospace initiatives. Companies associated with Jeju’s space ecosystem include **CONTEC** (satellite ground-station and data services), **SI Imaging Services (SIIS)** (Earth-observation imagery), **TelePIX** (satellite-data/AI solutions), **AP Satellite** (satellite systems), and **Nara Space Technology** (small satellites and Earth observation), although their facilities and involvement on the island vary. The main public anchor is operated by the **Korea Aerospace Research Institute (KARI)**, while Jeju Province and Jeju Technopark support related commercialization and startup programs. Official references: [KARI](https://www.kari.re.kr/eng/) and [Jeju Province](https://www.jeju.go.kr/).",
+      "responseHash": "8c85a87a15a4e5cc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9309,
+      "citedUrls": [
+        "https://www.kari.re.kr/eng/",
+        "https://www.jeju.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:31:57.567Z"
+    },
+    {
+      "questionId": "JJ-EN-32",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What is the official Jeju tourism website for planning a trip?",
+      "rep": 2,
+      "response": "The official Jeju tourism website is **Visit Jeju**: https://www.visitjeju.net/en  \nIt provides information on attractions, accommodations, restaurants, transportation, festivals, maps, and travel itineraries.",
+      "responseHash": "fc8364cd37bf0161",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1535,
+      "citedUrls": [
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:31:49.794Z"
+    },
+    {
+      "questionId": "JJ-EN-33",
+      "tier": "T2",
+      "category": "weather_crisis",
+      "question": "What happens if my flight to/from Jeju is cancelled due to typhoon or heavy snow? What support is available?",
+      "rep": 2,
+      "response": "If a Jeju flight is cancelled because of a typhoon, heavy snow, or other severe weather, the airline will normally offer **free rebooking on the next available flight or a full refund**; contact the airline directly and do not simply mark the booking as a voluntary cancellation. Weather is generally considered an extraordinary circumstance, so **cash compensation and hotel/meals are usually not legally guaranteed**, although some airlines may provide vouchers or accommodation depending on their policy and the disruption. Keep your cancellation notice and receipts, check Jeju Airport’s live status at [Jeju International Airport](https://www.airport.co.kr/jejueng/main.do), and contact your travel-insurance provider for covered hotel, meal, or alternate-transport expenses. For tourism assistance in Korea, call **1330 Korea Travel Helpline** or visit [Visit Korea](https://english.visitkorea.or.kr/).",
+      "responseHash": "381af21e857b2471",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5273,
+      "citedUrls": [
+        "https://www.airport.co.kr/jejueng/main.do",
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:31:53.531Z"
+    },
+    {
+      "questionId": "JJ-EN-34",
+      "tier": "T2",
+      "category": "visa",
+      "question": "Do I need a visa to visit Jeju Island? Is there a visa-free entry policy?",
+      "rep": 2,
+      "response": "Visa requirements depend on your **passport nationality**. Many foreign nationals may enter Jeju visa-free for up to **30 days**, usually only when arriving directly from overseas and staying in Jeju; traveling onward to Seoul or mainland Korea generally requires separate authorization or a Korean visa. Some nationalities are excluded from Jeju’s visa-free program, and visa-exempt travelers may still need **K-ETA** unless exempt under the current rules. Check the official [Korea Visa Portal](https://www.visa.go.kr/) and [K-ETA website](https://www.k-eta.go.kr/portal/apply/index.do) before booking; tell me your nationality and itinerary if you want a specific answer.",
+      "responseHash": "8500f4fcf2bcfa61",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7894,
+      "citedUrls": [
+        "https://www.visa.go.kr/",
+        "https://www.k-eta.go.kr/portal/apply/index.do"
+      ],
+      "timestamp": "2026-09-08T11:31:56.152Z"
+    },
+    {
+      "questionId": "JJ-EN-35",
+      "tier": "T2",
+      "category": "medical",
+      "question": "Are there English-speaking hospitals or clinics in Jeju for foreign tourists in an emergency?",
+      "rep": 2,
+      "response": "Yes. In a life-threatening emergency, call **119**; request an English interpreter—ambulance and emergency services operate 24/7. Major hospitals with English-capable staff or international support include **Jeju National University Hospital** ([jejunuh.co.kr](https://www.jejunuh.co.kr/)) and **Jeju Halla Hospital** ([hallahosp.co.kr](https://www.hallahosp.co.kr/)); English availability may vary by department, so call ahead when possible. For non-emergency medical guidance, contact Korea’s **1339 Medical Hotline** (interpretation support) or use the **1330 Korea Travel Helpline** by calling 1330 or visiting [touristcomplaint.or.kr](https://www.touristcomplaint.or.kr/).",
+      "responseHash": "a1830ce2154a44bb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4146,
+      "citedUrls": [
+        "https://www.jejunuh.co.kr/",
+        "https://www.hallahosp.co.kr/",
+        "https://www.touristcomplaint.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:31:52.404Z"
+    },
+    {
+      "questionId": "JJ-EN-01",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "How do I get from Jeju Airport to Seogwipo? What are the best transportation options?",
+      "rep": 3,
+      "response": "From **Jeju International Airport to Seogwipo**, the most economical option is the **airport limousine bus**: Routes **600** (via Jungmun resort area) and **800/800-1** (toward Seogwipo Bus Terminal) take roughly **60–90 minutes**, with fares around **₩4,000–₩6,000**; check the destination and current timetable at the airport bus stop.  \nA **taxi** is more convenient for hotels or luggage, taking about **50–70 minutes** and usually costing approximately **₩45,000–₩70,000**, depending on traffic and exact location.  \nA **rental car** is best if you plan to explore southern and western Jeju, but allow about **1–1.5 hours** and reserve in advance, especially during holidays.  \nFor live routes and schedules, use the **[Jeju Bus Information System](https://bus.jeju.go.kr/)** and **[Jeju Airport’s official website](https://www.airport.co.kr/jejueng/main.do)**.",
+      "responseHash": "0f0ce7002ce1ed8e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6516,
+      "citedUrls": [
+        "https://bus.jeju.go.kr/",
+        "https://www.airport.co.kr/jejueng/main.do"
+      ],
+      "timestamp": "2026-09-08T11:32:05.588Z"
+    },
+    {
+      "questionId": "JJ-EN-02",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "Do I need an international driving permit to rent a car in Jeju Island as a foreigner?",
+      "rep": 3,
+      "response": "Yes—most foreign visitors need a **valid International Driving Permit (IDP)** together with their original driver’s license to rent and drive a car in Jeju. Bring your **passport, original license, IDP, and usually a credit card**; rental companies may refuse an IDP issued after arrival or one not based on an eligible national license. Some countries’ licenses may be accepted with an authorized Korean translation, but requirements vary, so confirm directly with your rental company before booking. See the Korea Road Traffic Authority’s [Safe Driving portal](https://www.safedriving.or.kr/).",
+      "responseHash": "a71e81781c597563",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4114,
+      "citedUrls": [
+        "https://www.safedriving.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:32:03.186Z"
+    },
+    {
+      "questionId": "JJ-EN-03",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "What is the best time of year to visit Jeju Island and why?",
+      "rep": 3,
+      "response": "The best times to visit Jeju Island are **spring (April–June)** and **autumn (September–November)**, when temperatures are mild, skies are generally clearer, and hiking and sightseeing are comfortable. **Spring** brings cherry blossoms and vibrant canola fields, while **autumn** offers colorful foliage, pleasant coastal walks, and fewer crowds than summer. **Summer (July–August)** is warm and ideal for beaches, but it can be humid, rainy, and busy; **winter** is quieter and often sunny, though windy and cold, especially around Hallasan. Check weather and travel alerts through the Korea Meteorological Administration: https://www.weather.go.kr/eng/",
+      "responseHash": "0b1efb8824678f20",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 2279,
+      "citedUrls": [
+        "https://www.weather.go.kr/eng/"
+      ],
+      "timestamp": "2026-09-08T11:32:01.351Z"
+    },
+    {
+      "questionId": "JJ-EN-04",
+      "tier": "T1",
+      "category": "travel_basics",
+      "question": "Is Jeju Island safe for solo female travelers? Any safety tips?",
+      "rep": 3,
+      "response": "Jeju Island is generally very safe for solo female travelers, with low violent-crime rates, but normal precautions are still important. Avoid walking alone late at night in isolated beaches, trails, or rural areas; keep valuables secure, share your itinerary, and use reputable taxis or public transportation. Check weather and trail conditions before hiking, since sudden rain, strong winds, and difficult terrain are more common risks than crime. For emergencies, call **112** (police), **119** (ambulance/fire), or **1330** for Korea Travel Helpline assistance; see [Visit Jeju](https://www.visitjeju.net/en) and [Korea Travel Hotline](https://english.visitkorea.or.kr).",
+      "responseHash": "a146e457307a146b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3647,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://english.visitkorea.or.kr"
+      ],
+      "timestamp": "2026-09-08T11:32:02.719Z"
+    },
+    {
+      "questionId": "JJ-EN-05",
+      "tier": "T2",
+      "category": "attractions",
+      "question": "What are the top 5 must-visit attractions in Jeju Island for first-time visitors?",
+      "rep": 3,
+      "response": "1. **Hallasan National Park** — Hike Korea’s highest mountain for volcanic landscapes and panoramic views; trails require checking weather and reservation rules at the [official Hallasan website](https://www.jeju.go.kr/hallasan/index.htm).  \n2. **Seongsan Ilchulbong (Sunrise Peak)** — A UNESCO World Heritage volcanic tuff cone famous for sunrise and coastal scenery; see [UNESCO’s official page](https://whc.unesco.org/en/list/1264/).  \n3. **Manjanggul Lava Tube** — One of Jeju’s most impressive geological sites and part of the island’s UNESCO lava-tube network, but check its current operating status before visiting.  \n4. **Jeju Olle Trail** — Walk a scenic coastal section of this famous long-distance trail, with route information on the [Jeju Olle official website](https://www.jejuolle.org/).  \n5. **Udo Island** — Take a short ferry ride from Seongsan for beaches, sea views, peanut ice cream, and a relaxed island drive; current ferry and attraction details are available through [Visit Jeju](https://www.visitjeju.net/en).",
+      "responseHash": "6140a31b8bfea3aa",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9719,
+      "citedUrls": [
+        "https://www.jeju.go.kr/hallasan/index.htm",
+        "https://whc.unesco.org/en/list/1264/",
+        "https://www.jejuolle.org/",
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:32:08.791Z"
+    },
+    {
+      "questionId": "JJ-EN-06",
+      "tier": "T2",
+      "category": "attractions",
+      "question": "How do I book Hallasan Mountain hiking and which trail is best for beginners?",
+      "rep": 3,
+      "response": "For the latest entry rules and any required booking, check Hallasan National Park’s official site: https://www.jeju.go.kr/hallasan/index.htm and the reservation portal: https://visithalla.jeju.go.kr (availability and reservation requirements can change). For a **summit hike**, beginners generally prefer **Seongpanak Trail**—less steep than Gwaneumsa, but still a demanding full-day hike of about 19 km round trip. **Gwaneumsa** is steeper and more strenuous, while **Yeongsil, Eorimok, or Eoseungsaengak** are better beginner options if you do not need to reach the summit. Check weather, trail closures, and required turnaround times before departure, and start early.",
+      "responseHash": "b484b4bf0d9bffc8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7689,
+      "citedUrls": [
+        "https://www.jeju.go.kr/hallasan/index.htm",
+        "https://visithalla.jeju.go.kr"
+      ],
+      "timestamp": "2026-09-08T11:32:17.293Z"
+    },
+    {
+      "questionId": "JJ-EN-07",
+      "tier": "T2",
+      "category": "attractions",
+      "question": "What are the best beaches in Jeju for swimming and snorkeling?",
+      "rep": 3,
+      "response": "For swimming, **Hamdeok Seoubong Beach** (clear, shallow water and good facilities), **Hyeopjae Beach** (calm turquoise water and soft sand), and **Geumneung Beach** are among Jeju’s best choices.  \nFor snorkeling, try **Panpo Port**, **Woljeongri Beach**, and the rocky areas around **Sehwa Beach**; visibility is generally best on calm days, though these spots may lack lifeguards and rental facilities.  \n**Jungmun Saekdal Beach** is scenic and suitable for swimming when conditions are calm, but it has stronger surf and currents than the north-coast beaches, so check warnings before entering.  \nMost beaches operate lifeguard services and designated swimming zones mainly during the summer season—check conditions and beach openings through [Jeju Tourism Organization’s Visit Jeju](https://www.visitjeju.net/en) and the [Korea Meteorological Administration](https://www.weather.go.kr/eng/).",
+      "responseHash": "0db8d8adc89f241e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4918,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.weather.go.kr/eng/"
+      ],
+      "timestamp": "2026-09-08T11:32:14.523Z"
+    },
+    {
+      "questionId": "JJ-EN-08",
+      "tier": "T2",
+      "category": "culture",
+      "question": "What is the Jeju Olle Trail and how many courses are there? Which one is the most scenic?",
+      "rep": 3,
+      "response": "The **Jeju Olle Trail** is a network of long-distance walking routes encircling and crossing Jeju Island, following coastal paths, villages, forests, volcanic landscapes, and oreum (volcanic cones). It currently has **27 routes: 21 main courses and 6 auxiliary courses**, covering roughly 437 km in total. **Course 7**, from Seogwipo to Wolpyeong, is often considered the most scenic because it combines dramatic coastline, Oedolgae Rock, waterfalls, and views of Saeyeongyo Bridge. For volcanic-coast scenery, Course 10 around **Songaksan and Sanbangsan** is another excellent choice. Official information and route maps are available at [Jeju Olle Trail](https://www.jejuolle.org/).",
+      "responseHash": "20b8eb9d40e91577",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4544,
+      "citedUrls": [
+        "https://www.jejuolle.org/"
+      ],
+      "timestamp": "2026-09-08T11:32:14.148Z"
+    },
+    {
+      "questionId": "JJ-EN-09",
+      "tier": "T2",
+      "category": "culture",
+      "question": "What is the Jeju haenyeo (sea women) tradition and where can I see them dive?",
+      "rep": 3,
+      "response": "Jeju **haenyeo** (“sea women”) are traditional female free-divers who harvest abalone, sea urchins, octopus, seaweed, and other seafood without scuba equipment; their cooperative culture, ecological knowledge, and strong community tradition were inscribed on UNESCO’s Intangible Cultural Heritage list in 2016. You can learn about them at the **Jeju Haenyeo Museum** in Gujwa-eup: https://www.jeju.go.kr/haenyeo/index.htm. For live demonstrations, visit the **Seongsan Ilchulbong Haenyeo Diving Performance** area near Seongsan Sunrise Peak, or coastal villages such as Hado, Gimnyeong, and Udo—performances and actual dives depend on weather, tides, season, and the divers’ work schedule. Check local times through Jeju’s official tourism site: https://www.visitjeju.net/en.",
+      "responseHash": "dff6673b9cc6fda6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4556,
+      "citedUrls": [
+        "https://www.jeju.go.kr/haenyeo/index.htm.",
+        "https://www.visitjeju.net/en."
+      ],
+      "timestamp": "2026-09-08T11:32:14.160Z"
+    },
+    {
+      "questionId": "JJ-EN-10",
+      "tier": "T2",
+      "category": "food",
+      "question": "What are the must-try local foods in Jeju Island? Where is the best black pork BBQ?",
+      "rep": 3,
+      "response": "Must-try Jeju foods include **black pork BBQ (흑돼지)**, grilled **hairtail (갈치)**, abalone, sea urchin seaweed soup, buckwheat noodles, and fresh sashimi; for dessert, try Jeju tangerines or Hallabong.  \nFor black pork, **Jeju Black Pork Street (흑돼지거리)** near Dongmun Market in Jeju City offers the largest concentration of reputable restaurants—**Donsadon (돈사돈)** and **Neulbom Heukdwaeji (늘봄흑돼지)** are longtime popular choices, though hours and queues can vary.  \nIf you are staying in Seogwipo, look for restaurants serving locally raised pork around Jungmun or the Seogwipo Maeil Olle Market area.  \nSee the official Jeju tourism site for food listings and current travel information: [Visit Jeju](https://www.visitjeju.net/en).",
+      "responseHash": "f9eeacb872e45469",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6533,
+      "citedUrls": [
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:32:16.137Z"
+    },
+    {
+      "questionId": "JJ-EN-11",
+      "tier": "T2",
+      "category": "food",
+      "question": "Is the Dongmun Traditional Market worth visiting? What street food should I try there?",
+      "rep": 3,
+      "response": "Yes—**Dongmun Traditional Market is worth visiting**, especially in the evening when the food stalls become lively, though it can feel touristy and crowded. Try **grilled black-pork skewers**, **fresh abalone or seafood**, **tangerine/Hallabong juice**, and Jeju’s **omegi-tteok**; also look for **seafood pancakes, tteokbokki, and fried snacks** at the night market. Go hungry, compare prices before ordering, and bring a reusable bag—many stalls accept cards, but cash is still useful. Check official Jeju travel information at [Visit Jeju](https://www.visitjeju.net/en).",
+      "responseHash": "ad4876cb349d7e71",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5121,
+      "citedUrls": [
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:32:23.225Z"
+    },
+    {
+      "questionId": "JJ-EN-12",
+      "tier": "T2",
+      "category": "festival",
+      "question": "What major festivals are held in Jeju Island throughout the year?",
+      "rep": 3,
+      "response": "Jeju’s major annual festivals typically include the **Jeju Fire Festival** (March), **Jeju Canola Flower Festival** (April), **Jeju Food & Wine Festival** (May), and **Jeju International Wind Ensemble Festival** (August).  \nIn autumn, the **Jeju Haenyeo Festival** (usually September–October) celebrates the island’s female divers, while the **Tamna Cultural Festival** (October) showcases Jeju’s traditional heritage.  \nThe **Jeju Olle Walking Festival** is generally held in November along selected sections of the Olle Trail.  \nDates and programs can change yearly, so check the official [Visit Jeju festival calendar](https://www.visitjeju.net/en) and organizers’ sites such as [Jeju Olle](https://www.jejuolle.org/trail/eng/), [Jeju Food & Wine Festival](https://jejufoodandwinefestival.com/), and [Jeju International Wind Ensemble Festival](https://jiwef.org/eng/).",
+      "responseHash": "6480968986d9ebcd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7123,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.jejuolle.org/trail/eng/",
+        "https://jejufoodandwinefestival.com/",
+        "https://jiwef.org/eng/"
+      ],
+      "timestamp": "2026-09-08T11:32:25.227Z"
+    },
+    {
+      "questionId": "JJ-EN-13",
+      "tier": "T2",
+      "category": "island_tour",
+      "question": "How do I take a ferry to Udo Island from Jeju? What is there to see on Udo?",
+      "rep": 3,
+      "response": "Take the ferry from **Seongsanpo Port (성산포항)** on eastern Jeju to **Udo’s Cheonjin or Haumokdong Port**; the crossing takes about **15 minutes**, and ferries generally run frequently during daylight, but schedules can change due to weather. Buy a round-trip ticket at the terminal, bring your passport or Korean ID, and check the final sailing before going—cars are usually restricted, so most visitors rent bicycles, electric carts, or scooters on Udo (a valid license may be required). On Udo, see **Seobinbaeksa’s white coral beach**, **Geommeolle Beach and the sea caves**, **Udobong Peak and the lighthouse**, and coastal viewpoints such as **Sanho Beach**; try the island’s famous peanut ice cream and seafood as well. Check current ferry schedules and restrictions through the official **Udo County website** ([jeju.go.kr/udo](https://www.jeju.go.kr/udo/index.htm)) and **Visit Jeju** ([visitjeju.net](https://www.visitjeju.net/en)).",
+      "responseHash": "726d4bb0c8b78229",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9137,
+      "citedUrls": [
+        "https://www.jeju.go.kr/udo/index.htm",
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:32:27.241Z"
+    },
+    {
+      "questionId": "JJ-EN-14",
+      "tier": "T2",
+      "category": "unesco",
+      "question": "What UNESCO World Heritage sites are in Jeju and how do I visit them?",
+      "rep": 3,
+      "response": "Jeju has **one UNESCO World Heritage property**, *Jeju Volcanic Island and Lava Tubes*, comprising **Hallasan Natural Reserve, Seongsan Ilchulbong (Sunrise Peak), and the Geomunoreum lava-tube system** (including Manjanggul and several caves that are not open to visitors): [UNESCO official page](https://whc.unesco.org/en/list/1264/).  \nYou can hike Hallasan via the Seongpanak or Gwaneumsa routes—advance reservations are required for summit access through the [Hallasan National Park website](https://www.jeju.go.kr/hallasan/index.htm)—and visit Seongsan Ilchulbong independently by bus, taxi, or rental car; allow about 1–2 hours for the main trail.  \nGeomunoreum is visited on a **guided, reservation-based tour**, while Manjanggul Cave’s opening status can change because of safety and maintenance work, so check [Jeju’s official tourism site](https://www.visitjeju.net/) before going.",
+      "responseHash": "4760aa971c275d69",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6949,
+      "citedUrls": [
+        "https://whc.unesco.org/en/list/1264/",
+        "https://www.jeju.go.kr/hallasan/index.htm",
+        "https://www.visitjeju.net/"
+      ],
+      "timestamp": "2026-09-08T11:32:25.053Z"
+    },
+    {
+      "questionId": "JJ-EN-15",
+      "tier": "T2",
+      "category": "accommodation",
+      "question": "What area should I stay in Jeju — Jeju City or Seogwipo? Pros and cons?",
+      "rep": 3,
+      "response": "**Jeju City** is best for airport convenience, restaurants, shopping, nightlife, public transportation, and an easier base for exploring the island’s north and east; it is also practical for a short stay or late/early flights. **Seogwipo** is better for a more scenic, relaxed atmosphere, with waterfalls, coastal walks, cafés, Hallasan access, and many southern attractions nearby, though it is roughly 1–1.5 hours from the airport and less convenient without a car. If you plan to rent a car and prioritize nature, choose Seogwipo; if you rely on buses or want urban convenience, choose Jeju City. See the official tourism site for neighborhood and attraction information: [Visit Jeju](https://www.visitjeju.net/).",
+      "responseHash": "8bc8864b25663a3f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3168,
+      "citedUrls": [
+        "https://www.visitjeju.net/"
+      ],
+      "timestamp": "2026-09-08T11:32:21.272Z"
+    },
+    {
+      "questionId": "JJ-EN-16",
+      "tier": "T2",
+      "category": "duty_free",
+      "question": "Can foreigners shop at duty-free stores in Jeju Island? What are the limits?",
+      "rep": 3,
+      "response": "Yes. **Foreign visitors may shop at Jeju’s JDC duty-free stores** when departing Jeju, including on flights or ferries to mainland Korea; you normally need your passport and boarding pass. The Jeju duty-free allowance is generally **up to US$600 per person per trip**, with separate limits of **2 bottles of alcohol (combined 2 L and no more than US$400), 200 cigarettes, and 60 mL of perfume**; purchases are limited to **six departures per year**. If you are flying internationally, Korea’s separate arrival allowance is generally **US$800 for other goods**, plus alcohol, tobacco, and perfume allowances, and customs may combine purchases from all duty-free shops. Check current rules with [JDC Duty Free](https://www.jdcenter.com/eng/) and [Korea Customs Service](https://www.customs.go.kr/english/main.do) before traveling.",
+      "responseHash": "bd69c9974ae7228f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9231,
+      "citedUrls": [
+        "https://www.jdcenter.com/eng/",
+        "https://www.customs.go.kr/english/main.do"
+      ],
+      "timestamp": "2026-09-08T11:32:37.285Z"
+    },
+    {
+      "questionId": "JJ-EN-17",
+      "tier": "T2",
+      "category": "history",
+      "question": "What is the Jeju April 3rd Incident (4.3 Peace Park) and why is it historically significant?",
+      "rep": 3,
+      "response": "The **Jeju April 3rd Incident (Jeju 4·3)** refers to the armed uprising that began on April 3, 1948, amid post-liberation political tensions and opposition to the division of Korea, followed by a large-scale military and police crackdown that continued until 1954. Tens of thousands of Jeju residents—many of them civilians—were killed, and villages were destroyed; official investigations estimate roughly 25,000–30,000 deaths, though figures and interpretations have long been contested. It is historically significant as a major tragedy of Korea’s early Cold War period and as a reminder of the human cost of ideological conflict, state violence, and national division. The **Jeju 4·3 Peace Park** commemorates the victims and presents the history through a memorial, museum, and cemetery: https://jeju43peace.or.kr/eng/",
+      "responseHash": "3e7c71af82ef68be",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4410,
+      "citedUrls": [
+        "https://jeju43peace.or.kr/eng/"
+      ],
+      "timestamp": "2026-09-08T11:32:32.465Z"
+    },
+    {
+      "questionId": "JJ-EN-18",
+      "tier": "T3",
+      "category": "competitive",
+      "question": "Jeju Island vs Okinawa — which is better for a 4-day beach vacation on a budget?",
+      "rep": 3,
+      "response": "For a **4-day beach vacation on a budget, Jeju is usually the better choice**, especially if you are already in South Korea: accommodation, buses, and casual meals are generally affordable, and beaches such as Hyeopjae, Hamdeok, and Woljeongri are easy to combine with sightseeing. **Okinawa** has warmer, more tropical water and excellent beaches, but flights, rental cars, and resort-area lodging can make it more expensive; public transportation is also less convenient outside Naha. Choose **Jeju for lower overall cost and varied scenery**, or Okinawa for a more tropical, swimming-focused holiday—while noting that both can be cool or rainy outside roughly June–October. Official planning sites: [Visit Jeju](https://www.visitjeju.net/en/) and [Okinawa Convention & Visitors Bureau](https://www.visitokinawa.jp/en).",
+      "responseHash": "6de91666fcbbe193",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5014,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/",
+        "https://www.visitokinawa.jp/en"
+      ],
+      "timestamp": "2026-09-08T11:32:33.069Z"
+    },
+    {
+      "questionId": "JJ-EN-19",
+      "tier": "T3",
+      "category": "competitive",
+      "question": "Is Jeju Island or Bali a better destination for honeymoon in autumn?",
+      "rep": 3,
+      "response": "For an autumn honeymoon, **Bali is usually better for tropical beaches, private villas, resorts, and warm weather**, especially from September to October; November can bring increasing rain. **Jeju is better for a cooler, quieter, scenic honeymoon** with coastal drives, waterfalls, cafés, hiking, and autumn foliage—October is often the ideal month, while September may still have heat and typhoon-related rain. Choose Bali for relaxation and luxury, or Jeju for nature, food, and a more compact, lower-key trip; also consider that Bali is generally more resort-oriented, while Jeju often requires renting a car. See [Visit Jeju](https://english.visitjeju.net/) and [Indonesia Travel—Bali](https://www.indonesia.travel/gb/en/destinations/bali-nusa-tenggara/bali) for official destination information.",
+      "responseHash": "67f1d6a5e6517489",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4408,
+      "citedUrls": [
+        "https://english.visitjeju.net/",
+        "https://www.indonesia.travel/gb/en/destinations/bali-nusa-tenggara/bali"
+      ],
+      "timestamp": "2026-09-08T11:32:32.462Z"
+    },
+    {
+      "questionId": "JJ-EN-20",
+      "tier": "T3",
+      "category": "competitive",
+      "question": "What are the best islands in East Asia for a nature-focused holiday? Is Jeju among them?",
+      "rep": 3,
+      "response": "Yes—**Jeju Island** is one of East Asia’s best nature destinations, with Hallasan National Park, volcanic oreum, lava-tube caves, waterfalls, coastal trails, and UNESCO-listed natural sites; see [Visit Jeju](https://www.visitjeju.net/en) and [UNESCO Jeju Volcanic Island and Lava Tubes](https://whc.unesco.org/en/list/1264/).  \nOther excellent choices include **Yakushima, Japan** for ancient cedar forests and hiking, **Iriomote Island, Japan** for mangroves and subtropical wildlife, **Hokkaido, Japan** for national parks and marine scenery, and **Taiwan’s east coast and offshore islands**—especially Taroko-area mountains, Penghu, and Orchid Island.  \nFor the most dramatic hiking, choose Yakushima or Hokkaido; for tropical ecosystems, Iriomote; for a varied, accessible mix of volcanoes, coast, forests, and culture, Jeju is arguably the best all-rounder.  \nOfficial planning resources include [Japan National Tourism Organization](https://www.japan.travel/en/), [Taiwan Tourism Administration](https://eng.taiwan.net.tw/), and [Jeju World Natural Heritage](https://jejuwnh.jeju.go.kr/).",
+      "responseHash": "f4804eb05ae21665",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5796,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://whc.unesco.org/en/list/1264/",
+        "https://www.japan.travel/en/",
+        "https://eng.taiwan.net.tw/",
+        "https://jejuwnh.jeju.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:32:33.850Z"
+    },
+    {
+      "questionId": "JJ-EN-21",
+      "tier": "T3",
+      "category": "recommendation",
+      "question": "I'm planning a trip to South Korea. Should I include Jeju Island in my itinerary?",
+      "rep": 3,
+      "response": "Yes—Jeju Island is worth including if you enjoy volcanic landscapes, coastal scenery, waterfalls, hiking, beaches, and distinctive local food. Highlights include Hallasan National Park, Seongsan Ilchulbong, Manjanggul Cave, and the Olle walking trails; allow at least 2–4 days, as the island is larger and more spread out than it appears. Jeju is especially pleasant in spring and autumn, while summer is popular for beaches but can be humid and rainy; a rental car is convenient, though buses and taxis cover major areas. Plan routes and check attractions through the official Jeju tourism site: https://www.visitjeju.net/en/",
+      "responseHash": "145d5b8af1eb8be5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 2822,
+      "citedUrls": [
+        "https://www.visitjeju.net/en/"
+      ],
+      "timestamp": "2026-09-08T11:32:40.911Z"
+    },
+    {
+      "questionId": "JJ-EN-22",
+      "tier": "T3D",
+      "category": "reputation_food",
+      "question": "I heard Jeju black pork has too much fat and is a tourist trap. Is this true?",
+      "rep": 3,
+      "response": "Jeju black pork is naturally well-marbled, so it often has a thicker, richer fat layer than ordinary pork—but that is part of its appeal, not necessarily a sign of poor quality. It is not inherently a tourist trap, although restaurants in major visitor areas may charge premium prices or serve ordinary pork under vague “black pork” branding. Look for restaurants stating **Jeju native black pig (제주흑돼지)**, clear origin labeling, high local reviews, and a busy local clientele; ask whether the meat is 제주산 and 흑돼지 before ordering. The official Jeju tourism site has food and restaurant information: https://www.visitjeju.net/ (English available).",
+      "responseHash": "f8011b25ab97be97",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3595,
+      "citedUrls": [
+        "https://www.visitjeju.net/"
+      ],
+      "timestamp": "2026-09-08T11:32:41.684Z"
+    },
+    {
+      "questionId": "JJ-EN-23",
+      "tier": "T3D",
+      "category": "reputation_tax",
+      "question": "Does Jeju Island charge an entry tax or environmental fee for tourists arriving at the airport?",
+      "rep": 3,
+      "response": "No. **Jeju Island does not currently charge tourists an entry tax or environmental fee when they arrive at Jeju International Airport**, whether arriving from mainland Korea or abroad. Airport and passenger-service charges—plus any applicable departure-related tourism levy—are generally included in the airline ticket, not collected as an arrival fee. For current travel notices, check the official [Jeju Tourism Organization](https://www.visitjeju.net/en) and [Korea Airports Corporation–Jeju Airport](https://www.airport.co.kr/jejueng/main.do) websites.",
+      "responseHash": "7ecb7ca750459177",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6399,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.airport.co.kr/jejueng/main.do"
+      ],
+      "timestamp": "2026-09-08T11:32:44.488Z"
+    },
+    {
+      "questionId": "JJ-EN-24",
+      "tier": "T3D",
+      "category": "reputation_overtourism",
+      "question": "Is Jeju Island suffering from overtourism? Should I avoid visiting?",
+      "rep": 3,
+      "response": "Jeju does experience overtourism pressures in specific places—especially Seongsan Ilchulbong, Hallasan, popular beaches, and some coastal cafés—during summer, holidays, and peak foliage seasons, rather than uniformly across the whole island. You do not need to avoid Jeju; visiting in spring or late autumn, traveling on weekdays, and exploring less-visited areas can reduce congestion and support local communities. Reserve Hallasan trails where required, follow parking and environmental rules, and consider buses or smaller local businesses instead of concentrating your trip around major attractions. Check current trail, weather, and visitor information through the official [Jeju Tourism Organization](https://www.visitjeju.net/en) and [Hallasan National Park](https://www.jeju.go.kr/hallasan/index.htm).",
+      "responseHash": "2c83701612990539",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4319,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://www.jeju.go.kr/hallasan/index.htm"
+      ],
+      "timestamp": "2026-09-08T11:32:42.408Z"
+    },
+    {
+      "questionId": "JJ-EN-25",
+      "tier": "T3D",
+      "category": "confabulation_test",
+      "question": "Is it true that foreign tourists are banned from renting cars in Jeju due to environmental concerns?",
+      "rep": 3,
+      "response": "No. Foreign tourists are generally allowed to rent cars in Jeju, provided they present a passport, a valid driver’s license, and usually an International Driving Permit (IDP) recognized in South Korea; rental companies may also impose age, driving-experience, and credit-card requirements. Jeju has introduced and discussed measures to manage traffic and environmental impacts, but these are not a blanket ban on foreign renters. Check the specific company’s requirements before booking and consult [Visit Jeju](https://www.visitjeju.net/en) or [Korea Tourism Organization](https://english.visitkorea.or.kr/).",
+      "responseHash": "b3606e179014df2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4295,
+      "citedUrls": [
+        "https://www.visitjeju.net/en",
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:32:42.384Z"
+    },
+    {
+      "questionId": "JJ-EN-26",
+      "tier": "T2",
+      "category": "sustainability",
+      "question": "What is Jeju's Carbon Free Island 2030 initiative? How is the island pursuing clean energy?",
+      "rep": 3,
+      "response": "Jeju’s **Carbon Free Island 2030 (CFI 2030)** is a provincial initiative launched in 2012 to make the island’s electricity system carbon-free and transition its transportation sector away from fossil fuels by 2030. It pursues this through large-scale **onshore and offshore wind power, solar generation, energy-storage systems, smart grids, demand management, and modernization of the electricity network** to accommodate variable renewable energy. Jeju is also promoting **electric vehicles and charging infrastructure**, while exploring green hydrogen and other clean-energy technologies; however, the 2030 goals remain challenging because renewable-energy intermittency and grid constraints have caused curtailment. Official information is available from Jeju Province’s [Carbon Free Island 2030 site](https://www.jeju.go.kr/cfi/index.htm).",
+      "responseHash": "a45e810c71b26d09",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5091,
+      "citedUrls": [
+        "https://www.jeju.go.kr/cfi/index.htm"
+      ],
+      "timestamp": "2026-09-08T11:32:50.393Z"
+    },
+    {
+      "questionId": "JJ-EN-27",
+      "tier": "T2",
+      "category": "investment",
+      "question": "What incentives does Jeju offer for foreign companies or startups to set up operations on the island?",
+      "rep": 3,
+      "response": "Jeju offers eligible foreign-invested projects support through **Jeju Investment Promotion Zones** and JDC development areas, including possible land/lease assistance, infrastructure support, administrative “one-stop” services, and reductions or exemptions on certain local taxes; benefits depend on industry, investment size, employment, and location.  \nCompanies may also qualify for Korea-wide incentives under the **Foreign Investment Promotion Act**, such as cash grants for high-tech, R&D, or employment-generating projects, plus tax and customs benefits in designated zones—see [Invest Korea](https://www.investkorea.org).  \nFor startups, the **Jeju Creative Economy Innovation Center**, Jeju Business Agency, and Jeju Techno Park provide incubation, mentoring, commercialization grants, coworking, and investor connections, although many programs require a Korean entity or local registration; see the [Jeju CCEI](https://ccei.creativekorea.or.kr/jeju/) and [Jeju Business Agency](https://www.jba.or.kr/).  \nThe best starting point for a tailored eligibility check is [JDC’s English investment portal](https://www.jdcenter.com/eng/) or Jeju Province’s investment office, since incentives and application windows change frequently.",
+      "responseHash": "b2072a2c62b34ef0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8792,
+      "citedUrls": [
+        "https://www.investkorea.org",
+        "https://ccei.creativekorea.or.kr/jeju/",
+        "https://www.jba.or.kr/",
+        "https://www.jdcenter.com/eng/"
+      ],
+      "timestamp": "2026-09-08T11:32:54.094Z"
+    },
+    {
+      "questionId": "JJ-EN-28",
+      "tier": "T2",
+      "category": "digital_nomad",
+      "question": "Is Jeju Island a good destination for digital nomads? Are there coworking spaces and fast internet?",
+      "rep": 3,
+      "response": "Yes—Jeju is a good destination for digital nomads who value nature, a relaxed lifestyle, cafés, and easy access to hiking and beaches, though it can feel slower and less internationally connected than Seoul. Fast fiber internet and 5G are widely available in hotels, apartments, cafés, and coworking facilities; coworking and workation hubs are concentrated around Jeju City and Seogwipo, with current options listed on the official [Jeju Workation website](https://workation.jeju.go.kr/) and [Jeju Center for Creative Economy & Innovation](https://ccei.creativekorea.or.kr/jeju/). Public transport is adequate in cities but a rental car is often useful, and Korean-language support may be limited outside major tourist areas. For longer stays, check South Korea’s Digital Nomad/Workation visa requirements through [HiKorea](https://www.hikorea.go.kr/) and general destination information at [Visit Jeju](https://www.visitjeju.net/).",
+      "responseHash": "e7f5b7acd6879d6b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6336,
+      "citedUrls": [
+        "https://workation.jeju.go.kr/",
+        "https://ccei.creativekorea.or.kr/jeju/",
+        "https://www.hikorea.go.kr/",
+        "https://www.visitjeju.net/"
+      ],
+      "timestamp": "2026-09-08T11:32:51.638Z"
+    },
+    {
+      "questionId": "JJ-EN-29",
+      "tier": "T2",
+      "category": "education",
+      "question": "What international schools are available in Jeju Island for expat families?",
+      "rep": 3,
+      "response": "Jeju’s main international schools are concentrated in **Jeju English Education City** in Seogwipo:\n\n- **North London Collegiate School Jeju (NLCS Jeju)** — British curriculum, including IGCSE and IB Diploma: https://www.nlcsjeju.co.kr  \n- **Branksome Hall Asia** — Canadian/Ontario-based curriculum and IB programs; girls’ day school with coeducational boarding: https://www.branksome.asia  \n- **Korea International School Jeju (KIS Jeju)** — American-style curriculum with AP courses: https://www.kis.ac/jeju  \n- **St. Johnsbury Academy Jeju (SJA Jeju)** — American curriculum with AP courses: https://www.sjeju.org  \n\nAdmissions, age ranges, boarding availability, tuition, and Korean residency requirements vary, so families should confirm directly with each school; Jeju’s official English Education City information is available through the Jeju Free International City Development Center (JDC): https://www.jdcenter.com.",
+      "responseHash": "a8c87a26106920ca",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6083,
+      "citedUrls": [
+        "https://www.nlcsjeju.co.kr",
+        "https://www.branksome.asia",
+        "https://www.kis.ac/jeju",
+        "https://www.sjeju.org",
+        "https://www.jdcenter.com."
+      ],
+      "timestamp": "2026-09-08T11:32:51.385Z"
+    },
+    {
+      "questionId": "JJ-EN-30",
+      "tier": "T2",
+      "category": "green_hydrogen",
+      "question": "What role does Jeju play in South Korea's green hydrogen economy?",
+      "rep": 3,
+      "response": "Jeju is South Korea’s leading **test bed for green hydrogen**, using its abundant wind and solar power to produce hydrogen through water electrolysis and absorb surplus renewable electricity. The island is developing an integrated hydrogen ecosystem—including production, storage, distribution, fuel-cell power generation, and hydrogen buses—to support its goal of becoming carbon-free under the **Carbon-Free Island Jeju by 2030** initiative. Its projects are intended to demonstrate how hydrogen can stabilize an isolated power grid and decarbonize transport and industry, although Jeju remains primarily a demonstration and scale-up site rather than a major commercial producer. Official information is available from [Jeju Special Self-Governing Province](https://www.jeju.go.kr/) and Korea’s [Ministry of Trade, Industry and Energy](https://www.motie.go.kr/).",
+      "responseHash": "cb222a54e9ab52c9",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5126,
+      "citedUrls": [
+        "https://www.jeju.go.kr/",
+        "https://www.motie.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:32:50.428Z"
+    },
+    {
+      "questionId": "JJ-EN-31",
+      "tier": "T2",
+      "category": "space_industry",
+      "question": "Is there a private space industry hub in Jeju? What companies are involved?",
+      "rep": 3,
+      "response": "(no response)",
+      "responseHash": "4bddf1b6903c1d2b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9407,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T11:33:04.310Z"
+    },
+    {
+      "questionId": "JJ-EN-32",
+      "tier": "T4",
+      "category": "source_tracking",
+      "question": "What is the official Jeju tourism website for planning a trip?",
+      "rep": 3,
+      "response": "The official Jeju tourism website is **Visit Jeju**: https://www.visitjeju.net/en  \nIt provides information on attractions, accommodations, food, festivals, transportation, travel courses, and maps.",
+      "responseHash": "7d8b15387df29737",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1268,
+      "citedUrls": [
+        "https://www.visitjeju.net/en"
+      ],
+      "timestamp": "2026-09-08T11:32:56.172Z"
+    },
+    {
+      "questionId": "JJ-EN-33",
+      "tier": "T2",
+      "category": "weather_crisis",
+      "question": "What happens if my flight to/from Jeju is cancelled due to typhoon or heavy snow? What support is available?",
+      "rep": 3,
+      "response": "If a flight to or from Jeju is cancelled because of a typhoon, heavy snow, strong winds, or other safety-related weather, the airline will generally offer **free rebooking on the next available flight or a full refund without cancellation fees**; policies and limits vary, especially for connecting or separately booked tickets. Airlines are usually **not required to provide cash compensation, hotels, meals, or ground transportation** when the cause is severe weather, although some may offer assistance—check directly with your airline or booking agency. Monitor your flight and airport notices, keep receipts, and contact your travel-insurance provider about covered additional expenses; do not go to the airport unless your airline confirms the flight is operating. Official updates are available from **Jeju International Airport/Korea Airports Corporation** ([airport.co.kr/jeju](https://www.airport.co.kr/jeju/cms/frCon/index.do?MENU_ID=220)) and the **Korea Meteorological Administration** ([weather.go.kr](https://www.weather.go.kr/eng/)).",
+      "responseHash": "5516bfd278c39664",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5141,
+      "citedUrls": [
+        "https://www.airport.co.kr/jeju/cms/frCon/index.do?MENU_ID=220",
+        "https://www.weather.go.kr/eng/"
+      ],
+      "timestamp": "2026-09-08T11:33:00.044Z"
+    },
+    {
+      "questionId": "JJ-EN-34",
+      "tier": "T2",
+      "category": "visa",
+      "question": "Do I need a visa to visit Jeju Island? Is there a visa-free entry policy?",
+      "rep": 3,
+      "response": "Visa requirements for Jeju Island depend on your **passport nationality, travel purpose, and route**. Jeju has a **visa-free entry program—generally up to 30 days—for citizens of many countries**, often requiring direct arrival in Jeju and limiting travel to the island; travelers who plan to visit mainland Korea should verify whether a Korean visa or separate permission is required. Visa-exempt visitors may also need **K-ETA**, unless their nationality or an active temporary exemption applies, so check before departure. Confirm your exact eligibility through the [Korea Visa Portal](https://www.visa.go.kr/), [K-ETA official site](https://www.k-eta.go.kr/), or [Korea Immigration Service](https://www.immigration.go.kr/).",
+      "responseHash": "c0a82bf654b5a95b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6185,
+      "citedUrls": [
+        "https://www.visa.go.kr/",
+        "https://www.k-eta.go.kr/",
+        "https://www.immigration.go.kr/"
+      ],
+      "timestamp": "2026-09-08T11:33:01.088Z"
+    },
+    {
+      "questionId": "JJ-EN-35",
+      "tier": "T2",
+      "category": "medical",
+      "question": "Are there English-speaking hospitals or clinics in Jeju for foreign tourists in an emergency?",
+      "rep": 3,
+      "response": "Yes. In an emergency, call **119** for an ambulance and say **“English, please”**; interpretation can usually be arranged, though English-speaking staff may not be available at every facility or every hour. Major Jeju hospitals with international/English-support services include **Jeju National University Hospital** ([jejunu.ac.kr/medical](https://www.jejunuh.co.kr/)) and **Halla Hospital** ([hallahospital.co.kr](https://www.hallahospital.co.kr/)); call ahead when possible to confirm language support. For the nearest open emergency department, use Korea’s official **E-Gen emergency medical portal**: [e-gen.or.kr/egen/eng_main.do](https://www.e-gen.or.kr/egen/eng_main.do). The Korea Tourism Organization’s **1330** helpline ([visitkorea.or.kr](https://english.visitkorea.or.kr/)) can also provide multilingual travel and medical-navigation assistance, but call **119 first** for urgent symptoms.",
+      "responseHash": "dca79691a3e9b001",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7546,
+      "citedUrls": [
+        "https://www.jejunuh.co.kr/",
+        "https://www.hallahospital.co.kr/",
+        "https://www.e-gen.or.kr/egen/eng_main.do",
+        "https://english.visitkorea.or.kr/"
+      ],
+      "timestamp": "2026-09-08T11:33:02.449Z"
+    }
+  ]
+}

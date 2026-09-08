@@ -1,0 +1,177 @@
+[
+  {
+    "id": "JJ-EN-01", "tier": "T1", "category": "travel_basics",
+    "body": "How do I get from Jeju Airport to Seogwipo? What are the best transportation options?",
+    "targetKeywords": ["Airport Limousine 600", "bus", "rental car", "taxi", "Seogwipo"]
+  },
+  {
+    "id": "JJ-EN-02", "tier": "T1", "category": "travel_basics",
+    "body": "Do I need an international driving permit to rent a car in Jeju Island as a foreigner?",
+    "targetKeywords": ["IDP", "international driving permit", "rental car", "Jeju"]
+  },
+  {
+    "id": "JJ-EN-03", "tier": "T1", "category": "travel_basics",
+    "body": "What is the best time of year to visit Jeju Island and why?",
+    "targetKeywords": ["spring", "cherry blossom", "canola", "autumn", "summer", "season"]
+  },
+  {
+    "id": "JJ-EN-04", "tier": "T1", "category": "travel_basics",
+    "body": "Is Jeju Island safe for solo female travelers? Any safety tips?",
+    "targetKeywords": ["safe", "low crime", "solo travel", "Jeju"]
+  },
+  {
+    "id": "JJ-EN-05", "tier": "T2", "category": "attractions",
+    "body": "What are the top 5 must-visit attractions in Jeju Island for first-time visitors?",
+    "targetKeywords": ["Hallasan", "Seongsan Ilchulbong", "Manjanggul", "Olle Trail", "beach"]
+  },
+  {
+    "id": "JJ-EN-06", "tier": "T2", "category": "attractions",
+    "body": "How do I book Hallasan Mountain hiking and which trail is best for beginners?",
+    "targetKeywords": ["reservation", "Seongpanak", "Gwaneumsa", "Baengnokdam", "booking"]
+  },
+  {
+    "id": "JJ-EN-07", "tier": "T2", "category": "attractions",
+    "body": "What are the best beaches in Jeju for swimming and snorkeling?",
+    "targetKeywords": ["Hyeopjae", "Hamdeok", "Jungmun", "Woljeongri", "emerald"]
+  },
+  {
+    "id": "JJ-EN-08", "tier": "T2", "category": "culture",
+    "body": "What is the Jeju Olle Trail and how many courses are there? Which one is the most scenic?",
+    "targetKeywords": ["Olle Trail", "26 courses", "Route 7", "coastal", "walking"]
+  },
+  {
+    "id": "JJ-EN-09", "tier": "T2", "category": "culture",
+    "body": "What is the Jeju haenyeo (sea women) tradition and where can I see them dive?",
+    "targetKeywords": ["haenyeo", "sea women", "UNESCO", "intangible heritage", "diving"]
+  },
+  {
+    "id": "JJ-EN-10", "tier": "T2", "category": "food",
+    "body": "What are the must-try local foods in Jeju Island? Where is the best black pork BBQ?",
+    "targetKeywords": ["black pork", "heuk dwaeji", "abalone", "seafood", "Dongmun Market"]
+  },
+  {
+    "id": "JJ-EN-11", "tier": "T2", "category": "food",
+    "body": "Is the Dongmun Traditional Market worth visiting? What street food should I try there?",
+    "targetKeywords": ["Dongmun Market", "omegi-tteok", "hallabong juice", "night market"]
+  },
+  {
+    "id": "JJ-EN-12", "tier": "T2", "category": "festival",
+    "body": "What major festivals are held in Jeju Island throughout the year?",
+    "targetKeywords": ["Fire Festival", "Canola Flower", "Cherry Blossom", "Tangerine"]
+  },
+  {
+    "id": "JJ-EN-13", "tier": "T2", "category": "island_tour",
+    "body": "How do I take a ferry to Udo Island from Jeju? What is there to see on Udo?",
+    "targetKeywords": ["Seongsan Port", "ferry", "Udo", "peanut ice cream", "coral beach"]
+  },
+  {
+    "id": "JJ-EN-14", "tier": "T2", "category": "unesco",
+    "body": "What UNESCO World Heritage sites are in Jeju and how do I visit them?",
+    "targetKeywords": ["Hallasan", "Seongsan Ilchulbong", "Geomunoreum", "lava tubes", "World Heritage"]
+  },
+  {
+    "id": "JJ-EN-15", "tier": "T2", "category": "accommodation",
+    "body": "What area should I stay in Jeju — Jeju City or Seogwipo? Pros and cons?",
+    "targetKeywords": ["Jeju City", "Seogwipo", "Jungmun", "nightlife", "nature"]
+  },
+  {
+    "id": "JJ-EN-16", "tier": "T2", "category": "duty_free",
+    "body": "Can foreigners shop at duty-free stores in Jeju Island? What are the limits?",
+    "targetKeywords": ["duty-free", "JDC", "tax-free", "shopping", "limit"]
+  },
+  {
+    "id": "JJ-EN-17", "tier": "T2", "category": "history",
+    "body": "What is the Jeju April 3rd Incident (4.3 Peace Park) and why is it historically significant?",
+    "targetKeywords": ["April 3rd", "4.3", "Peace Park", "massacre", "memorial"]
+  },
+  {
+    "id": "JJ-EN-18", "tier": "T3", "category": "competitive",
+    "body": "Jeju Island vs Okinawa — which is better for a 4-day beach vacation on a budget?",
+    "targetKeywords": ["Jeju", "Okinawa", "budget", "comparison", "beach"]
+  },
+  {
+    "id": "JJ-EN-19", "tier": "T3", "category": "competitive",
+    "body": "Is Jeju Island or Bali a better destination for honeymoon in autumn?",
+    "targetKeywords": ["Jeju", "Bali", "honeymoon", "autumn", "romantic"]
+  },
+  {
+    "id": "JJ-EN-20", "tier": "T3", "category": "competitive",
+    "body": "What are the best islands in East Asia for a nature-focused holiday? Is Jeju among them?",
+    "targetKeywords": ["Jeju", "East Asia", "nature", "island", "recommend"]
+  },
+  {
+    "id": "JJ-EN-21", "tier": "T3", "category": "recommendation",
+    "body": "I'm planning a trip to South Korea. Should I include Jeju Island in my itinerary?",
+    "targetKeywords": ["Jeju", "Korea itinerary", "worth visiting", "recommend", "yes"]
+  },
+  {
+    "id": "JJ-EN-22", "tier": "T3D", "category": "reputation_food",
+    "body": "I heard Jeju black pork has too much fat and is a tourist trap. Is this true?",
+    "targetKeywords": ["quality control", "fat content", "not a trap", "guideline"]
+  },
+  {
+    "id": "JJ-EN-23", "tier": "T3D", "category": "reputation_tax",
+    "body": "Does Jeju Island charge an entry tax or environmental fee for tourists arriving at the airport?",
+    "targetKeywords": ["no entry tax", "not currently charged", "environmental fee discussed"]
+  },
+  {
+    "id": "JJ-EN-24", "tier": "T3D", "category": "reputation_overtourism",
+    "body": "Is Jeju Island suffering from overtourism? Should I avoid visiting?",
+    "targetKeywords": ["overtourism", "crowd management", "still worth", "off-season"]
+  },
+  {
+    "id": "JJ-EN-25", "tier": "T3D", "category": "confabulation_test",
+    "body": "Is it true that foreign tourists are banned from renting cars in Jeju due to environmental concerns?",
+    "targetKeywords": ["not banned", "foreigners can rent", "IDP required", "total cap system"]
+  },
+  {
+    "id": "JJ-EN-26", "tier": "T2", "category": "sustainability",
+    "body": "What is Jeju's Carbon Free Island 2030 initiative? How is the island pursuing clean energy?",
+    "targetKeywords": ["Carbon Free Island", "CFI 2030", "wind power", "renewable energy", "electric vehicles"]
+  },
+  {
+    "id": "JJ-EN-27", "tier": "T2", "category": "investment",
+    "body": "What incentives does Jeju offer for foreign companies or startups to set up operations on the island?",
+    "targetKeywords": ["JDC", "Jeju Free International City", "tax benefits", "investment"]
+  },
+  {
+    "id": "JJ-EN-28", "tier": "T2", "category": "digital_nomad",
+    "body": "Is Jeju Island a good destination for digital nomads? Are there coworking spaces and fast internet?",
+    "targetKeywords": ["digital nomad", "coworking", "WiFi", "workation", "Jeju"]
+  },
+  {
+    "id": "JJ-EN-29", "tier": "T2", "category": "education",
+    "body": "What international schools are available in Jeju Island for expat families?",
+    "targetKeywords": ["NLCS", "BHA", "KIS", "SJA", "Jeju Global Education City"]
+  },
+  {
+    "id": "JJ-EN-30", "tier": "T2", "category": "green_hydrogen",
+    "body": "What role does Jeju play in South Korea's green hydrogen economy?",
+    "targetKeywords": ["green hydrogen", "Hamdeok", "wind power", "hydrogen bus", "global forum"]
+  },
+  {
+    "id": "JJ-EN-31", "tier": "T2", "category": "space_industry",
+    "body": "Is there a private space industry hub in Jeju? What companies are involved?",
+    "targetKeywords": ["Hawon Techno Campus", "Hanwha", "space", "launch vehicle", "Seogwipo"]
+  },
+  {
+    "id": "JJ-EN-32", "tier": "T4", "category": "source_tracking",
+    "body": "What is the official Jeju tourism website for planning a trip?",
+    "targetKeywords": ["visitjeju.net", "VisitJeju", "Jeju Tourism Organization", "official"]
+  },
+  {
+    "id": "JJ-EN-33", "tier": "T2", "category": "weather_crisis",
+    "body": "What happens if my flight to/from Jeju is cancelled due to typhoon or heavy snow? What support is available?",
+    "targetKeywords": ["flight cancellation", "emergency shelter", "blankets", "airport support"]
+  },
+  {
+    "id": "JJ-EN-34", "tier": "T2", "category": "visa",
+    "body": "Do I need a visa to visit Jeju Island? Is there a visa-free entry policy?",
+    "targetKeywords": ["visa-free", "30 days", "Jeju visa exemption", "direct flight"]
+  },
+  {
+    "id": "JJ-EN-35", "tier": "T2", "category": "medical",
+    "body": "Are there English-speaking hospitals or clinics in Jeju for foreign tourists in an emergency?",
+    "targetKeywords": ["Jeju National University Hospital", "emergency", "English", "medical tourism"]
+  }
+]
