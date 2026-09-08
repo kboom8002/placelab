@@ -1,0 +1,92 @@
+[
+  {
+    "id": "C-01",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "화성시 동탄과 수원 광교 중 자녀 교육에 좋은 곳은?",
+    "competitors": ["수원"],
+    "category": "education",
+    "targetKeywords": ["화성", "동탄"]
+  },
+  {
+    "id": "C-02",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "동탄과 판교 중 아이 학원가와 학군이 더 좋은 곳은?",
+    "competitors": ["성남"],
+    "category": "education",
+    "targetKeywords": ["동탄", "화성"]
+  },
+  {
+    "id": "C-03",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "화성시와 용인시 중 30대 신혼부부가 정착해 살기 좋은 곳은?",
+    "competitors": ["용인"],
+    "category": "livability",
+    "targetKeywords": ["화성", "동탄"]
+  },
+  {
+    "id": "C-04",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "동탄과 평택 고덕 중 서울 출퇴근이 더 편한 신도시는?",
+    "competitors": ["평택"],
+    "category": "livability",
+    "targetKeywords": ["동탄", "화성", "GTX"]
+  },
+  {
+    "id": "C-05",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "화성시와 오산시 중 생활 인프라가 더 잘 갖춰진 곳은?",
+    "competitors": ["오산"],
+    "category": "livability",
+    "targetKeywords": ["화성", "동탄"]
+  },
+  {
+    "id": "C-06",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "반도체 및 자동차 산업 취업을 준비할 때 화성과 평택 중 어디가 더 기회가 많아?",
+    "competitors": ["평택"],
+    "category": "industry",
+    "targetKeywords": ["화성", "삼성전자", "현대차"]
+  },
+  {
+    "id": "C-07",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "IT·제조업 창업하기에 화성시와 수원시 중 어떤 도시가 나아?",
+    "competitors": ["수원"],
+    "category": "industry",
+    "targetKeywords": ["화성", "향남"]
+  },
+  {
+    "id": "C-08",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "주말 바다 관광으로 화성 제부도와 안산 대부도 중 어디를 더 추천해?",
+    "competitors": ["안산"],
+    "category": "tourism",
+    "targetKeywords": ["제부도", "화성"]
+  },
+  {
+    "id": "C-09",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "가족 나들이와 호수 산책 코스로 동탄호수공원과 수원 광교호수공원 중 어디가 좋아?",
+    "competitors": ["수원"],
+    "category": "tourism",
+    "targetKeywords": ["동탄호수공원", "화성"]
+  },
+  {
+    "id": "C-10",
+    "tier": "T3-C",
+    "type": "competitive",
+    "body": "경기 남부에서 내 집 마련 시 화성 동탄과 수원 중 주거비 대비 가성비가 좋은 지역은?",
+    "competitors": ["수원"],
+    "category": "cost",
+    "targetKeywords": ["화성", "동탄"]
+  }
+]

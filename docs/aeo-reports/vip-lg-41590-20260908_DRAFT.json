@@ -1,0 +1,1282 @@
+{
+  "metadata": {
+    "unitId": "lg-41590",
+    "unitName": "화성시",
+    "population": "local_gov",
+    "measuredOn": "2026-09-08",
+    "model": "gpt-5.6-luna",
+    "methodVersion": "v2.2",
+    "totalQueries": 85,
+    "successCount": 255,
+    "absentCount": 23,
+    "errorCount": 0,
+    "reps": 3,
+    "isExploratory": true,
+    "publisher": "(주)디지털미디어네트워크"
+  },
+  "dashboard": {
+    "t1ResponseRate": 0.8444444444444444,
+    "t1ResponseCount": 38,
+    "t1TotalCount": 45,
+    "t1StableCount": 9,
+    "t1UnstableCount": 6,
+    "t1AbsentCount": 0,
+    "t1TotalQuestions": 15,
+    "t2RelevanceRate": 0.7,
+    "t2RelevanceCount": 42,
+    "t2TotalCount": 60,
+    "t2GenericRate": 0,
+    "t2TotalQuestions": 20,
+    "t3ShareOfVoice": 0.7555555555555555,
+    "t3MentionCount": 34,
+    "t3TotalCount": 45,
+    "t3ByType": [
+      {
+        "type": "recommendation",
+        "rate": 0.6666666666666666,
+        "mentioned": 6,
+        "total": 9
+      },
+      {
+        "type": "association",
+        "rate": 1,
+        "mentioned": 6,
+        "total": 6
+      },
+      {
+        "type": "keyword_entry",
+        "rate": 0.8888888888888888,
+        "mentioned": 8,
+        "total": 9
+      },
+      {
+        "type": "scenario",
+        "rate": 0.4444444444444444,
+        "mentioned": 4,
+        "total": 9
+      },
+      {
+        "type": "comparison",
+        "rate": 0.8333333333333334,
+        "mentioned": 5,
+        "total": 6
+      },
+      {
+        "type": "negative_test",
+        "rate": 0.8333333333333334,
+        "mentioned": 5,
+        "total": 6
+      }
+    ],
+    "floorRisk": "moderate",
+    "confabulationCount": 0
+  },
+  "executiveSummary": "6개 문항은 3회 중 일부만 답했습니다. 기본 행정 15문항의 응답률은 38/45건 (84.4%)입니다.\n\n이 모델에게 \"화성시 하면?\"을 물으면 **동탄신도시**을(를) 답합니다. 그러나 \"추천해줘\"에서 화성시이(가) 빠지는 질문이 8건입니다.",
+  "oneLineForLeader": "이 모델에게 \"경기도에서 살기 좋은 도시 3곳 추천…\"를 물으면 화성시이(가) 빠집니다. 홈페이지 핵심 콘텐츠를 구조화하면 추천 목록 진입이 가능합니다.",
+  "insights": {
+    "associationTest": {
+      "responses": [
+        {
+          "rep": 1,
+          "rawText": "1. **제부도**: 바닷길이 열리는 독특한 관광지   2. **동탄신도시**: 첨단 도시개발과 주거 중심지   3. **화성 공룡알 화석산지**: 공룡알 화석이 발견된 자연유산",
+          "words": [
+            "제부도",
+            "동탄신도시",
+            "화성 공룡알 화석산지"
+          ]
+        },
+        {
+          "rep": 2,
+          "rawText": "1. **제부도·궁평항** 같은 서해안 관광지   2. **화성행궁이 아닌 융건릉·용주사** 등 역사 유적   3. **동탄신도시**와 삼성전자 화성캠퍼스 같은 첨단산업 지역",
+          "words": [
+            "제부도·궁평항",
+            "화성행궁이 아닌 융건릉·용주사",
+            "동탄신도시"
+          ]
+        },
+        {
+          "rep": 3,
+          "rawText": "1. **융건릉** — 정조와 사도세자의 능이 있는 역사 유적지   2. **제부도·궁평항** — 바다 풍경과 갯벌 체험으로 유명한 관광지   3. **동탄신도시** — 교통과 첨단 산업이 발달한 화성시의 대표 신도시",
+          "words": [
+            "융건릉",
+            "제부도·궁평항",
+            "동탄신도시"
+          ]
+        }
+      ],
+      "stableWords": [
+        "동탄신도시"
+      ],
+      "unstableWords": [
+        "제부도",
+        "화성 공룡알 화석산지",
+        "제부도·궁평항",
+        "화성행궁이 아닌 융건릉·용주사",
+        "융건릉"
+      ]
+    },
+    "recommendationGaps": [
+      {
+        "questionId": "V-A1",
+        "questionText": "경기도에서 살기 좋은 도시 3곳 추천해줘",
+        "questionType": "recommendation",
+        "aiRecommended": "개인의 직장 위치·예산·자녀 교육 여부에 따라 다르지만, 경기도에서는 다음 3곳을 추천합니다.   1. **수원시**: 광역교통과 생활 인프라가 잘 갖춰져 있고, 상권·문화시설·공",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D1",
+        "questionText": "서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "강남 출퇴근을 최우선으로 하면 **성남 판교·분당신도시**가 가장 무난합니다. 신분당선으로 강남역까지 판교 약 15분, 정자 약 20분대이며 업무·상업·교육 인프라도 잘 갖춰져 있",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D2",
+        "questionText": "아이 키우기 좋은 경기도 신도시 어디야?",
+        "questionType": "scenario",
+        "aiRecommended": "아이 키우기 좋은 경기도 신도시로는 **광교·동탄·판교·다산·운정**을 많이 꼽습니다.   - **광교**: 호수공원·녹지와 생활 인프라가 좋고 수원·용인 접근성이 우수합니다.  ",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A1",
+        "questionText": "경기도에서 살기 좋은 도시 3곳 추천해줘",
+        "questionType": "recommendation",
+        "aiRecommended": "경기도에서 살기 좋은 도시로는 **수원시, 성남시, 고양시**를 추천합니다.   **수원시**는 교통·상업·문화시설이 균형 있고, **성남시**는 판교의 일자리와 우수한 생활·교육",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D1",
+        "questionText": "서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "강남역 기준으로는 **판교신도시**가 가장 무난합니다. 신분당선으로 강남역까지 약 15~20분이며, 업무·상업시설과 주거 인프라가 잘 갖춰져 있습니다.   통근시간을 최우선으로 하",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D2",
+        "questionText": "아이 키우기 좋은 경기도 신도시 어디야?",
+        "questionType": "scenario",
+        "aiRecommended": "아이 키우기 좋은 경기도 신도시로는 **광교신도시**를 가장 무난하게 추천합니다. 공원·호수공원, 도서관·생활체육시설, 신축 주거지와 보육 인프라가 잘 갖춰져 있으며 수원·용인 접",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-A1",
+        "questionText": "경기도에서 살기 좋은 도시 3곳 추천해줘",
+        "questionType": "recommendation",
+        "aiRecommended": "경기도에서 살기 좋은 도시로는 다음 3곳을 추천합니다.  1. **성남시**: 판교·분당의 일자리와 상업·의료·교육 인프라가 우수하고, 서울 접근성이 좋습니다.   2. **수원시",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      },
+      {
+        "questionId": "V-D1",
+        "questionText": "서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘",
+        "questionType": "scenario",
+        "aiRecommended": "서울 강남 출퇴근이라면 **판교신도시**를 1순위로 추천합니다. 신분당선으로 강남역까지 약 15~20분이면 이동할 수 있고, IT·업무시설과 생활 인프라도 잘 갖춰져 있습니다.  ",
+        "targetMissing": true,
+        "whyShouldBeIncluded": "AI 추천 목록 진입 필요"
+      }
+    ],
+    "categoryInsights": [
+      {
+        "category": "specialty_industry",
+        "totalQuestions": 9,
+        "relevantCount": 6,
+        "genericCount": 0,
+        "absentCount": 1,
+        "strongQuestions": [
+          {
+            "id": "H-C1-01",
+            "matchRate": 1
+          },
+          {
+            "id": "H-C1-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "H-C1-03",
+            "verdict": "absent"
+          }
+        ],
+        "sampleResponse": "네, 화성시에는 삼성전자 **화성캠퍼스(반도체 사업장)**가 있습니다. 이곳에서는 메모리·시스템 반도체의 생산뿐 아니라 파운드리(위탁생산) 공정 개발과 반도체 연구·개발도 진행합니다. 특히 첨단 미세공정과 차세대 반도체 기술을 개발·양산하는 핵심 거점 중 하나이며, 일"
+      },
+      {
+        "category": "landmark",
+        "totalQuestions": 9,
+        "relevantCount": 8,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "H-C2-01",
+            "matchRate": 0.6666666666666666
+          },
+          {
+            "id": "H-C2-02",
+            "matchRate": 1
+          },
+          {
+            "id": "H-C2-03",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [],
+        "sampleResponse": "화성시 **동탄호수공원은 약 184만㎡** 규모이며, 이 중 호수 면적은 약 **56만㎡**입니다.   주요 시설로는 **6km 안팎의 호수 산책로, 수변문화광장, 운답원, 제방가로원, 창포원, 잔디광장, 어린이 물놀이장** 등이 있습니다.   특히 야간 경관을 즐길 "
+      },
+      {
+        "category": "local_policy",
+        "totalQuestions": 9,
+        "relevantCount": 7,
+        "genericCount": 0,
+        "absentCount": 1,
+        "strongQuestions": [
+          {
+            "id": "H-C3-01",
+            "matchRate": 0.6666666666666666
+          },
+          {
+            "id": "H-C3-02",
+            "matchRate": 0.6666666666666666
+          },
+          {
+            "id": "H-C3-03",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [],
+        "sampleResponse": "네. 화성시는 **출산지원금**으로 첫째 100만 원, 둘째 200만 원, 셋째 이상 300만 원을 지원하며, 출생일 기준 부모의 화성시 거주기간 등 요건을 충족해야 합니다.   또한 **경기도 산후조리비(출생아 1명당 50만 원 지역화폐)**, 난임 시술비·임신 사전"
+      },
+      {
+        "category": "heritage",
+        "totalQuestions": 6,
+        "relevantCount": 6,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "H-C4-01",
+            "matchRate": 1
+          },
+          {
+            "id": "H-C4-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [],
+        "sampleResponse": "화성시 **융건릉(隆健陵)**은 조선 왕실의 능으로, **융릉**에는 사도세자(장조)와 헌경왕후(혜경궁 홍씨), **건릉**에는 정조와 효의왕후가 모셔져 있습니다.   경기도 화성시 **효행로 481번길 21(안녕동)**에 있으며, 울창한 숲길과 역사 유적을 함께 둘러"
+      },
+      {
+        "category": "geography",
+        "totalQuestions": 9,
+        "relevantCount": 4,
+        "genericCount": 0,
+        "absentCount": 2,
+        "strongQuestions": [
+          {
+            "id": "H-C5-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "H-C5-01",
+            "verdict": "absent"
+          },
+          {
+            "id": "H-C5-03",
+            "verdict": "partial"
+          }
+        ],
+        "sampleResponse": "(응답 없음)"
+      },
+      {
+        "category": "local_food",
+        "totalQuestions": 9,
+        "relevantCount": 6,
+        "genericCount": 0,
+        "absentCount": 0,
+        "strongQuestions": [
+          {
+            "id": "H-C6-01",
+            "matchRate": 1
+          },
+          {
+            "id": "H-C6-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "H-C6-03",
+            "verdict": "partial"
+          }
+        ],
+        "sampleResponse": "화성시 궁평항의 대표 먹거리는 **싱싱한 활어회와 각종 수산물**, 그리고 **바지락칼국수·조개구이**입니다.   궁평항 수산물직판장에서는 꽃게, 새우, 조개류 등을 구입해 먹거나 주변 식당에서 회와 해산물 요리로 즐길 수 있습니다.   방문 전 제철 수산물과 영업 여"
+      },
+      {
+        "category": "recent_issue",
+        "totalQuestions": 9,
+        "relevantCount": 5,
+        "genericCount": 0,
+        "absentCount": 4,
+        "strongQuestions": [
+          {
+            "id": "H-C7-01",
+            "matchRate": 0.6666666666666666
+          },
+          {
+            "id": "H-C7-02",
+            "matchRate": 1
+          }
+        ],
+        "weakQuestions": [
+          {
+            "id": "H-C7-03",
+            "verdict": "absent"
+          }
+        ],
+        "sampleResponse": "화성시는 2023년 인구 100만 명을 넘어선 뒤 특례시 승격을 추진했으며, 2025년 1월 1일 전국 다섯 번째 특례시로 공식 출범했습니다. 이에 따라 일반 시보다 확대된 조직·행정·재정 권한을 확보하고, 복지급여 기준 완화와 대도시 행정수요에 맞춘 권한 이양을 추진"
+      }
+    ],
+    "stabilityAnalysis": [
+      {
+        "questionId": "B-01",
+        "category": "01",
+        "question": "화성시 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "absent"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-02",
+        "category": "02",
+        "question": "화성시 전입신고 하면 받을 수 있는 혜택 있어?",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-03",
+        "category": "03",
+        "question": "화성시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-04",
+        "category": "04",
+        "question": "화성시 종량제봉투 종류별 가격 알려줘",
+        "stableCount": 1,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "absent"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-05",
+        "category": "05",
+        "question": "화성시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-06",
+        "category": "06",
+        "question": "화성시 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-07",
+        "category": "07",
+        "question": "화성시 어르신 목욕권이나 이미용 지원 있어?",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-08",
+        "category": "08",
+        "question": "화성시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "absent"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-09",
+        "category": "09",
+        "question": "화성시 청년 창업 지원금이나 창업 공간 지원 있어?",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-10",
+        "category": "10",
+        "question": "화성시 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-11",
+        "category": "11",
+        "question": "화성시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-12",
+        "category": "12",
+        "question": "화성시 다문화가족지원센터 위치랑 프로그램 알려줘",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-13",
+        "category": "13",
+        "question": "화성시 소상공인 특례보증 대출 조건 알려줘",
+        "stableCount": 2,
+        "status": "unstable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "absent"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-14",
+        "category": "14",
+        "question": "화성시 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      },
+      {
+        "questionId": "B-15",
+        "category": "15",
+        "question": "화성시 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+        "stableCount": 3,
+        "status": "stable",
+        "reps": [
+          {
+            "rep": 1,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 2,
+            "verdict": "accurate"
+          },
+          {
+            "rep": 3,
+            "verdict": "accurate"
+          }
+        ]
+      }
+    ],
+    "urlAnalysis": {
+      "totalResults": 255,
+      "withUrlCount": 227,
+      "publicUrlCount": 279,
+      "ownDomainCount": 0,
+      "topDomains": [
+        {
+          "domain": "www.hscity.go.kr",
+          "count": 99
+        },
+        {
+          "domain": "tour.hscity.go.kr",
+          "count": 22
+        },
+        {
+          "domain": "www.gtx-a.com",
+          "count": 14
+        },
+        {
+          "domain": "www.bokjiro.go.kr",
+          "count": 9
+        },
+        {
+          "domain": "www.schoolinfo.go.kr",
+          "count": 8
+        }
+      ]
+    },
+    "t3MentionByType": [
+      {
+        "type": "recommendation",
+        "mentioned": 6,
+        "total": 9,
+        "rate": 0.6666666666666666
+      },
+      {
+        "type": "association",
+        "mentioned": 6,
+        "total": 6,
+        "rate": 1
+      },
+      {
+        "type": "keyword_entry",
+        "mentioned": 8,
+        "total": 9,
+        "rate": 0.8888888888888888
+      },
+      {
+        "type": "scenario",
+        "mentioned": 4,
+        "total": 9,
+        "rate": 0.4444444444444444
+      },
+      {
+        "type": "comparison",
+        "mentioned": 5,
+        "total": 6,
+        "rate": 0.8333333333333334
+      },
+      {
+        "type": "negative_test",
+        "mentioned": 5,
+        "total": 6,
+        "rate": 0.8333333333333334
+      }
+    ]
+  },
+  "diamond": {
+    "signals": {
+      "strengths": [
+        {
+          "id": "S-T3-association",
+          "description": "높은 association 맥락 인지도",
+          "evidence": "추천/언급 비율이 100%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-T3-keyword_entry",
+          "description": "높은 keyword_entry 맥락 인지도",
+          "evidence": "추천/언급 비율이 89%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-T3-comparison",
+          "description": "높은 comparison 맥락 인지도",
+          "evidence": "추천/언급 비율이 83%에 달함",
+          "impact": "high"
+        },
+        {
+          "id": "S-T3-negative_test",
+          "description": "높은 negative_test 맥락 인지도",
+          "evidence": "추천/언급 비율이 83%에 달함",
+          "impact": "high"
+        }
+      ],
+      "weaknesses": [
+        {
+          "id": "W-T1-UNSTABLE-B-01",
+          "description": "응답 불안정성: 01",
+          "evidence": "T1 문항 \"화성시 둘째 출산지원금이랑 산후조리비 총 얼마야?\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-04",
+          "description": "응답 불안정성: 04",
+          "evidence": "T1 문항 \"화성시 종량제봉투 종류별 가격 알려줘\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-06",
+          "description": "응답 불안정성: 06",
+          "evidence": "T1 문항 \"화성시 어르신 버스비 지원 대상 나이랑 금액 알려줘\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-07",
+          "description": "응답 불안정성: 07",
+          "evidence": "T1 문항 \"화성시 어르신 목욕권이나 이미용 지원 있어?\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-08",
+          "description": "응답 불안정성: 08",
+          "evidence": "T1 문항 \"화성시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        },
+        {
+          "id": "W-T1-UNSTABLE-B-13",
+          "description": "응답 불안정성: 13",
+          "evidence": "T1 문항 \"화성시 소상공인 특례보증 대출 조건 알려줘\"에 대한 응답이 매번 다름 (할루시네이션 위험)",
+          "impact": "medium"
+        }
+      ],
+      "opportunities": [
+        {
+          "id": "O-T3-KEYWORD",
+          "description": "키워드 연상성 확대",
+          "evidence": "키워드 진입(T3) 비율이 상승 여력이 있음",
+          "impact": "medium"
+        },
+        {
+          "id": "O-ASSOC-UNSTABLE",
+          "description": "잠재적 연관어 발굴",
+          "evidence": "불안정하게 노출되는 단어(제부도 등)를 제3의 키워드로 육성 가능",
+          "impact": "low"
+        }
+      ],
+      "threats": []
+    },
+    "defenseAreas": [
+      {
+        "rank": 1,
+        "area": "01",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-01",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 2,
+        "area": "04",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-04",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 3,
+        "area": "06",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-06",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 4,
+        "area": "07",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-07",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 5,
+        "area": "08",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-08",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 6,
+        "area": "13",
+        "currentState": "정보 불안정 (Unstable)",
+        "evidence": "B-13",
+        "action": "FAQ 보강",
+        "cost": "내부 리소스",
+        "timeline": "1개월",
+        "expectedEffect": "일관성 확보"
+      },
+      {
+        "rank": 7,
+        "area": "핵심 브랜드",
+        "currentState": "높은 인지도 유지 중",
+        "evidence": "안정적 키워드 도출",
+        "action": "현 상태 유지 — 관련 페이지 개편 시 기존 텍스트 보존",
+        "cost": "0원",
+        "timeline": "즉시",
+        "expectedEffect": "현상 유지"
+      }
+    ],
+    "opportunityAreas": [
+      {
+        "rank": 1,
+        "area": "브랜드 연상",
+        "currentState": "일부 키워드 불안정",
+        "evidence": "불안정 키워드: 제부도, 화성 공룡알 화석산지",
+        "action": "3번째 키워드 콘텐츠 전략",
+        "cost": "콘텐츠 마케팅 비용",
+        "timeline": "3개월",
+        "expectedEffect": "신규 키워드 선점 및 AI 연관성 강화"
+      }
+    ],
+    "roadmap": {
+      "immediate": [],
+      "oneMonth": [],
+      "threeMonths": []
+    }
+  },
+  "r4Candidates": [
+    {
+      "questionId": "B-01",
+      "question": "화성시 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "observation": "3회 중 2회 답했지만 일관되지 않음",
+      "hypothesis": "안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다."
+    },
+    {
+      "questionId": "B-06",
+      "question": "화성시 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "observation": "3회 중 2회 답했지만 일관되지 않음",
+      "hypothesis": "안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다."
+    },
+    {
+      "questionId": "B-07",
+      "question": "화성시 어르신 목욕권이나 이미용 지원 있어?",
+      "observation": "3회 중 2회 답했지만 일관되지 않음",
+      "hypothesis": "안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다."
+    }
+  ],
+  "verificationScores": [
+    {
+      "questionId": "V1-B01-01",
+      "parentId": "B-01",
+      "verdict": "correct",
+      "detail": "정답 \"200만\" 포함",
+      "gtValue": "200만원",
+      "aiValue": "200만"
+    },
+    {
+      "questionId": "V1-B01-02",
+      "parentId": "B-01",
+      "verdict": "correct",
+      "detail": "정답 \"100만\" 포함",
+      "gtValue": "100만원",
+      "aiValue": "100만"
+    },
+    {
+      "questionId": "V1-B01-03",
+      "parentId": "B-01",
+      "verdict": "correct",
+      "detail": "정답 \"100만\" 포함",
+      "gtValue": "100만원",
+      "aiValue": "100만"
+    },
+    {
+      "questionId": "V1-B04-01",
+      "parentId": "B-04",
+      "verdict": "outdated",
+      "detail": "GT=600, AI=560 (7% 차이 — 구버전 가능)",
+      "gtValue": "600원",
+      "aiValue": "560",
+      "syndrome": "stale_fact"
+    },
+    {
+      "questionId": "V1-B04-02",
+      "parentId": "B-04",
+      "verdict": "wrong_value",
+      "detail": "GT=120, AI=100 (17% 차이)",
+      "gtValue": "120원",
+      "aiValue": "100",
+      "syndrome": "confabulation"
+    },
+    {
+      "questionId": "V1-B04-03",
+      "parentId": "B-04",
+      "verdict": "correct",
+      "detail": "이름 토큰 일치율 75%",
+      "gtValue": "편의점, 마트, 읍면동 행정복지센터",
+      "aiValue": "3/4 토큰 일치"
+    },
+    {
+      "questionId": "V1-B06-01",
+      "parentId": "B-06",
+      "verdict": "correct",
+      "detail": "정답 \"만 65세 이상\" 포함",
+      "gtValue": "만 65세 이상",
+      "aiValue": "만 65세 이상"
+    },
+    {
+      "questionId": "V1-B06-02",
+      "parentId": "B-06",
+      "verdict": "wrong_value",
+      "detail": "GT=20000, AI=10000 (50% 차이)",
+      "gtValue": "월 2만원",
+      "aiValue": "10000",
+      "syndrome": "confabulation"
+    },
+    {
+      "questionId": "V1-B08-01",
+      "parentId": "B-08",
+      "verdict": "correct",
+      "detail": "숫자 200000 일치",
+      "gtValue": "월 20만원",
+      "aiValue": "200000"
+    },
+    {
+      "questionId": "V1-B08-02",
+      "parentId": "B-08",
+      "verdict": "correct",
+      "detail": "숫자 19 일치",
+      "gtValue": "만 19세~39세",
+      "aiValue": "19"
+    },
+    {
+      "questionId": "V1-B08-03",
+      "parentId": "B-08",
+      "verdict": "wrong_value",
+      "detail": "GT=150, AI=100 (33% 차이)",
+      "gtValue": "기준 중위소득 150% 이하",
+      "aiValue": "100",
+      "syndrome": "confabulation"
+    },
+    {
+      "questionId": "V1-B10-01",
+      "parentId": "B-10",
+      "verdict": "correct",
+      "detail": "숫자 31 일치",
+      "gtValue": "031-5189-6114",
+      "aiValue": "31"
+    },
+    {
+      "questionId": "V1-B10-02",
+      "parentId": "B-10",
+      "verdict": "outdated",
+      "detail": "GT=1644, AI=1577 (4% 차이 — 구버전 가능)",
+      "gtValue": "1644-0723",
+      "aiValue": "1577",
+      "syndrome": "stale_fact"
+    },
+    {
+      "questionId": "V1-B15-01",
+      "parentId": "B-15",
+      "verdict": "wrong_value",
+      "detail": "GT와 일치하는 내용 없음",
+      "gtValue": "9월",
+      "aiValue": ""
+    },
+    {
+      "questionId": "V1-B15-02",
+      "parentId": "B-15",
+      "verdict": "correct",
+      "detail": "정답 \"하루 2회\" 포함",
+      "gtValue": "하루 2회",
+      "aiValue": "하루 2회"
+    }
+  ],
+  "competitiveResults": [
+    {
+      "questionId": "C-01",
+      "question": "화성시 동탄과 수원 광교 중 자녀 교육에 좋은 곳은?",
+      "category": "education",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "수원",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-02",
+      "question": "동탄과 판교 중 아이 학원가와 학군이 더 좋은 곳은?",
+      "category": "education",
+      "targetMentioned": false,
+      "competitorsMentioned": [
+        {
+          "name": "성남",
+          "mentioned": false
+        }
+      ]
+    },
+    {
+      "questionId": "C-03",
+      "question": "화성시와 용인시 중 30대 신혼부부가 정착해 살기 좋은 곳은?",
+      "category": "livability",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "용인",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-04",
+      "question": "동탄과 평택 고덕 중 서울 출퇴근이 더 편한 신도시는?",
+      "category": "livability",
+      "targetMentioned": false,
+      "competitorsMentioned": [
+        {
+          "name": "평택",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-05",
+      "question": "화성시와 오산시 중 생활 인프라가 더 잘 갖춰진 곳은?",
+      "category": "livability",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "오산",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-06",
+      "question": "반도체 및 자동차 산업 취업을 준비할 때 화성과 평택 중 어디가 더 기회가 많아?",
+      "category": "industry",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "평택",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-07",
+      "question": "IT·제조업 창업하기에 화성시와 수원시 중 어떤 도시가 나아?",
+      "category": "industry",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "수원",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-08",
+      "question": "주말 바다 관광으로 화성 제부도와 안산 대부도 중 어디를 더 추천해?",
+      "category": "tourism",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "안산",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-09",
+      "question": "가족 나들이와 호수 산책 코스로 동탄호수공원과 수원 광교호수공원 중 어디가 좋아?",
+      "category": "tourism",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "수원",
+          "mentioned": true
+        }
+      ]
+    },
+    {
+      "questionId": "C-10",
+      "question": "경기 남부에서 내 집 마련 시 화성 동탄과 수원 중 주거비 대비 가성비가 좋은 지역은?",
+      "category": "cost",
+      "targetMentioned": true,
+      "competitorsMentioned": [
+        {
+          "name": "수원",
+          "mentioned": true
+        }
+      ]
+    }
+  ],
+  "reputationResults": [
+    {
+      "questionId": "D-01",
+      "riskCategory": "general",
+      "mentionedIssues": [
+        "[medium] 불편",
+        "[medium] 부족",
+        "[medium] 민원"
+      ],
+      "severity": "medium",
+      "defenseNeeded": true
+    },
+    {
+      "questionId": "D-02",
+      "riskCategory": "environment",
+      "mentionedIssues": [
+        "[medium] 불편",
+        "[medium] 부족",
+        "[medium] 교통 체증",
+        "[low] 개선"
+      ],
+      "severity": "medium",
+      "defenseNeeded": true
+    },
+    {
+      "questionId": "D-03",
+      "riskCategory": "governance",
+      "mentionedIssues": [
+        "[low] 과제"
+      ],
+      "severity": "low",
+      "defenseNeeded": false
+    },
+    {
+      "questionId": "D-04",
+      "riskCategory": "cost",
+      "mentionedIssues": [],
+      "severity": "low",
+      "defenseNeeded": false
+    },
+    {
+      "questionId": "D-05",
+      "riskCategory": "environment",
+      "mentionedIssues": [
+        "[medium] 부족"
+      ],
+      "severity": "medium",
+      "defenseNeeded": true
+    }
+  ],
+  "sourceTrackingResults": [
+    {
+      "questionId": "T4-01",
+      "citedUrls": [],
+      "officialUrlCount": 0,
+      "unofficialUrlCount": 0,
+      "officialDomains": [],
+      "sourceQuality": "none"
+    },
+    {
+      "questionId": "T4-02",
+      "citedUrls": [
+        "https://tour.hscity.go.kr/",
+        "https://www.khoa.go.kr/"
+      ],
+      "officialUrlCount": 2,
+      "unofficialUrlCount": 0,
+      "officialDomains": [
+        "tour.hscity.go.kr",
+        "www.khoa.go.kr"
+      ],
+      "sourceQuality": "official"
+    },
+    {
+      "questionId": "T4-03",
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.bokjiro.go.kr/"
+      ],
+      "officialUrlCount": 2,
+      "unofficialUrlCount": 0,
+      "officialDomains": [
+        "www.hscity.go.kr",
+        "www.bokjiro.go.kr"
+      ],
+      "sourceQuality": "official"
+    },
+    {
+      "questionId": "T4-04",
+      "citedUrls": [],
+      "officialUrlCount": 0,
+      "unofficialUrlCount": 0,
+      "officialDomains": [],
+      "sourceQuality": "none"
+    },
+    {
+      "questionId": "T4-05",
+      "citedUrls": [
+        "https://traffic.hscity.go.kr/"
+      ],
+      "officialUrlCount": 1,
+      "unofficialUrlCount": 0,
+      "officialDomains": [
+        "traffic.hscity.go.kr"
+      ],
+      "sourceQuality": "official"
+    }
+  ],
+  "markdownFull": "# 화성시 AI 검색 가시성(AEO) 진단 보고서\n\n> **탐색적 측정 — 사전 등록 전 파일럿** (INV-11)\n\n| 항목 | 값 |\n|---|---|\n| **발행** | (주)디지털미디어네트워크 |\n| **측정 모델** | `gpt-5.6-luna` **1종** |\n| **측정일** | 2026-09-08 |\n| **반복** | 3회 |\n| **문항** | 85문항 × 3회 = 255회 측정 |\n| **에러** | 0건 |\n| **방법론** | v2.2 |\n| **한계** | 단일 모델 1회 측정. 다른 모델·다른 시점에서 결과가 달라질 수 있음 |\n\n---\n\n## Executive Summary\n\n6개 문항은 3회 중 일부만 답했습니다. 기본 행정 15문항의 응답률은 38/45건 (84.4%)입니다.\n\n이 모델에게 \"화성시 하면?\"을 물으면 **동탄신도시**을(를) 답합니다. 그러나 \"추천해줘\"에서 화성시이(가) 빠지는 질문이 8건입니다.\n\n---\n\n## 1. 주민이 묻는 것에 이 모델이 답하지 못한 것\n\n> 산출식: 응답 건수 ÷ 총 관측 건수 = 38/45건 (84.4%)\n\n| # | 질문 | 1회 | 2회 | 3회 | 판정 |\n|---|---|---|---|---|---|\n| 1 | 화성시 둘째 출산지원금이랑 산후조리비 총 얼마야? | — | ✅ | ✅ | 불안정(2/3) |\n| 2 | 화성시 전입신고 하면 받을 수 있는 혜택 있어? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 3 | 화성시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 4 | 화성시 종량제봉투 종류별 가격 알려줘 | — | — | ✅ | 불안정(1/3) |\n| 5 | 화성시 청/군청 민원실 점심시간에도 되는지, 주차요금  | ✅ | ✅ | ✅ | 안정(3/3) |\n| 6 | 화성시 어르신 버스비 지원 대상 나이랑 금액 알려줘 | ✅ | — | ✅ | 불안정(2/3) |\n| 7 | 화성시 어르신 목욕권이나 이미용 지원 있어? | ✅ | — | ✅ | 불안정(2/3) |\n| 8 | 화성시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘 | ✅ | — | ✅ | 불안정(2/3) |\n| 9 | 화성시 청년 창업 지원금이나 창업 공간 지원 있어? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 10 | 화성시 밤에 아이가 아프면 갈 수 있는 소아과 어디야? | ✅ | ✅ | ✅ | 안정(3/3) |\n| 11 | 화성시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 12 | 화성시 다문화가족지원센터 위치랑 프로그램 알려줘 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 13 | 화성시 소상공인 특례보증 대출 조건 알려줘 | — | ✅ | ✅ | 불안정(2/3) |\n| 14 | 화성시 소상공인 무료 세무 상담 받을 수 있는 곳 있어 | ✅ | ✅ | ✅ | 안정(3/3) |\n| 15 | 화성시 올해 열리는 대표 축제 일정이랑 장소 안내해줘 | ✅ | ✅ | ✅ | 안정(3/3) |\n\n**안정(3/3) 9문항 · 불안정(1~2/3) 6문항 · 미응답(0/3) 0문항**\n\n> 📌 \"답했다\"와 \"맞다\"는 다릅니다. 이 표는 이 모델이 **답을 내놓았는지**만 봅니다. 답의 정확성은 원문 대조(이번 측정 범위 밖)가 필요합니다.\n\n---\n\n### 1.2 이 모델이 틀리게 답한 것 (사실 검증)\n\n> 핵심 15건의 구체적 사실을 공식 정보와 대조했습니다.\n> 정확 9 · 오류 4 · 구버전 2 · 미응답 0\n\n| # | 문항 | 판정 | 공식 정보 | 이 모델의 답 |\n|---|---|---|---|---|\n| 1 | V1-B01-01 | ✅ 정확 | 200만원 | 200만 |\n| 2 | V1-B01-02 | ✅ 정확 | 100만원 | 100만 |\n| 3 | V1-B01-03 | ✅ 정확 | 100만원 | 100만 |\n| 4 | V1-B04-01 | 🟡 구버전 | 600원 | 560 |\n| 5 | V1-B04-02 | ❌ 오류 | 120원 | 100 |\n| 6 | V1-B04-03 | ✅ 정확 | 편의점, 마트, 읍면동 행정복지센터 | 3/4 토큰 일치 |\n| 7 | V1-B06-01 | ✅ 정확 | 만 65세 이상 | 만 65세 이상 |\n| 8 | V1-B06-02 | ❌ 오류 | 월 2만원 | 10000 |\n| 9 | V1-B08-01 | ✅ 정확 | 월 20만원 | 200000 |\n| 10 | V1-B08-02 | ✅ 정확 | 만 19세~39세 | 19 |\n| 11 | V1-B08-03 | ❌ 오류 | 기준 중위소득 150% 이하 | 100 |\n| 12 | V1-B10-01 | ✅ 정확 | 031-5189-6114 | 31 |\n| 13 | V1-B10-02 | 🟡 구버전 | 1644-0723 | 1577 |\n| 14 | V1-B15-01 | ❌ 오류 | 9월 | — |\n| 15 | V1-B15-02 | ✅ 정확 | 하루 2회 | 하루 2회 |\n\n> ⚠️ **4건의 사실 오류**가 확인되었습니다. 이 모델은 주민에게 잘못된 정보를 안내할 수 있습니다.\n\n---\n\n## 2. 지켜야 할 자산\n\n### \"화성 하면 뭐가 떠올라?\" — 이 모델의 연상어 테스트\n\n| 반복 | 이 모델이 떠올린 것 |\n|---|---|\n| 1회차 | 1. 제부도 2. 동탄신도시 3. 화성 공룡알 화석산지 |\n| 2회차 | 1. 제부도·궁평항 2. 화성행궁이 아닌 융건릉·용주사 3. 동탄신도시 |\n| 3회차 | 1. 융건릉 2. 제부도·궁평항 3. 동탄신도시 |\n\n- **안정 키워드** (3/3 등장): **동탄신도시**\n\n> 📌 안정 키워드는 **방어 자산**입니다. 관련 페이지를 개편할 때 기존 텍스트를 보존하십시오. 건드리지 마십시오.\n\n---\n\n## 3. 이 모델이 화성시을(를) 아는 방식\n\n| 카테고리 | 고유정보 포함 | 범용 답변 | 미응답 |\n|---|---|---|---|\n| 특산·산업 | 6/27건 (22.2%) | 0/27건 (0%) | 1 |\n| 시설·랜드마크 | 8/27건 (29.6%) | 0/27건 (0%) | 0 |\n| 독자정책 | 7/27건 (25.9%) | 0/27건 (0%) | 1 |\n| 역사·문화재 | 6/18건 (33.3%) | 0/18건 (0%) | 0 |\n| 지리·생활권 | 4/27건 (14.8%) | 0/27건 (0%) | 2 |\n| 음식·명소 | 6/27건 (22.2%) | 0/27건 (0%) | 0 |\n| 최근이슈 | 5/27건 (18.5%) | 0/27건 (0%) | 4 |\n\n- **고유정보 포함**: 이 모델이 화성시만의 구체적 정보를 포함하여 답한 비율\n- **범용 답변**: \"시청에 문의하세요\" 수준의 답변\n\n---\n\n## 4. 추천에서 화성시이(가) 빠지는 지점\n\n### 이 모델이 화성시을(를) 빼놓은 질문 (8건)\n\n| # | 질문 | 이 모델이 추천한 곳 |\n|---|---|---|\n| 1 | 경기도에서 살기 좋은 도시 3곳 추천해줘 | 개인의 직장 위치·예산·자녀 교육 여부에 따라 다르지만, 경기도에서는 다음 3곳을 추천합니… |\n| 2 | 서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘 | 강남 출퇴근을 최우선으로 하면 **성남 판교·분당신도시**가 가장 무난합니다. 신분당선으로… |\n| 3 | 아이 키우기 좋은 경기도 신도시 어디야? | 아이 키우기 좋은 경기도 신도시로는 **광교·동탄·판교·다산·운정**을 많이 꼽습니다.  … |\n| 4 | 경기도에서 살기 좋은 도시 3곳 추천해줘 | 경기도에서 살기 좋은 도시로는 **수원시, 성남시, 고양시**를 추천합니다.   **수원시… |\n| 5 | 서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘 | 강남역 기준으로는 **판교신도시**가 가장 무난합니다. 신분당선으로 강남역까지 약 15~2… |\n| 6 | 아이 키우기 좋은 경기도 신도시 어디야? | 아이 키우기 좋은 경기도 신도시로는 **광교신도시**를 가장 무난하게 추천합니다. 공원·호… |\n| 7 | 경기도에서 살기 좋은 도시 3곳 추천해줘 | 경기도에서 살기 좋은 도시로는 다음 3곳을 추천합니다.  1. **성남시**: 판교·분당의… |\n| 8 | 서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘 | 서울 강남 출퇴근이라면 **판교신도시**를 1순위로 추천합니다. 신분당선으로 강남역까지 약… |\n\n> 이 모델이 화성시을(를) 몰라서가 아닙니다. 직접 물으면 답합니다. **추천 후보에 올릴 만큼의 온라인 콘텐츠가 부족**한 것으로 보입니다.\n### 유형별 언급률\n\n| 유형 | 언급 | 해석 |\n|---|---|---|\n| 추천 | 6/9건 (66.7%) | 🟡 |\n| 연상 | 6/6건 (100%) | ✅ |\n| 키워드 진입 | 8/9건 (88.9%) | ✅ |\n| 시나리오 | 4/9건 (44.4%) | 🟡 |\n| 비교 | 5/6건 (83.3%) | ✅ |\n| 부정 테스트 | 5/6건 (83.3%) | ✅ |\n\n---\n\n### 4.2 경쟁자 대비 언급 매트릭스\n\n| 질문 | 화성시 | 수원 | 성남 | 용인 | 평택 | 오산 | 안산 |\n|---|---|---|---|---|---|---|---|\n| 화성시 동탄과 수원 광교 중 자녀 교육에 좋은 | ✅ | ✅ | — | — | — | — | — |\n| 동탄과 판교 중 아이 학원가와 학군이 더 좋은 | ❌ | — | — | — | — | — | — |\n| 화성시와 용인시 중 30대 신혼부부가 정착해  | ✅ | — | — | ✅ | — | — | — |\n| 동탄과 평택 고덕 중 서울 출퇴근이 더 편한  | ❌ | — | — | — | ✅ | — | — |\n| 화성시와 오산시 중 생활 인프라가 더 잘 갖춰 | ✅ | — | — | — | — | ✅ | — |\n| 반도체 및 자동차 산업 취업을 준비할 때 화성 | ✅ | — | — | — | ✅ | — | — |\n| IT·제조업 창업하기에 화성시와 수원시 중 어 | ✅ | ✅ | — | — | — | — | — |\n| 주말 바다 관광으로 화성 제부도와 안산 대부도 | ✅ | — | — | — | — | — | ✅ |\n| 가족 나들이와 호수 산책 코스로 동탄호수공원과 | ✅ | ✅ | — | — | — | — | — |\n| 경기 남부에서 내 집 마련 시 화성 동탄과 수 | ✅ | ✅ | — | — | — | — | — |\n\n> 화성시 언급: 8/10건 (80%) · 경쟁자만 언급(우리 누락): 1건\n\n---\n\n## 6. 이 측정으로는 알 수 없는 것\n\n1. **\"답했다\"와 \"맞다\"는 다릅니다.** 핵심 15건의 원문 대조를 수행했습니다. 나머지 문항의 원문 대조는 수행하지 않았습니다.\n\n2. **빈칸의 원인을 가르지 않았습니다.** 각 빈칸이 ① 정보가 틀렸거나 ② 기계가 못 읽거나 ③ 여러 곳에 다르게 있거나 ④ 정보를 고쳐도 해결되지 않는 절차 문제인지 구분하지 않았습니다.\n\n3. **우선순위를 정할 수 없습니다.** `gpt-5.6-luna` 1종, 1회 측정으로는 무엇을 먼저 할지 확정할 근거가 부족합니다. 반복 측정이 필요합니다.\n\n### 정보 문제가 아닐 수 있는 항목\n\n> **화성시 둘째 출산지원금이랑 산후조리비 총 얼마야?**: 3회 중 2회 답했지만 일관되지 않음. 안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.\n>\n> **화성시 어르신 버스비 지원 대상 나이랑 금액 알려줘**: 3회 중 2회 답했지만 일관되지 않음. 안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.\n>\n> **화성시 어르신 목욕권이나 이미용 지원 있어?**: 3회 중 2회 답했지만 일관되지 않음. 안내 자체는 확인되지만, 이것은 안내의 문제가 아니라 신청 절차나 창구 운영의 문제일 수 있습니다. 이 구분은 이번 측정 범위 밖입니다.\n\n> 위 항목은 단정이 아닙니다. 확인하지 않았으며, \"~일 수 있습니다\"입니다.\n\n---\n\n## 7. 시장님께 드리는 한 문장\n\n> **이 모델에게 \"경기도에서 살기 좋은 도시 3곳 추천…\"를 물으면 화성시이(가) 빠집니다. 홈페이지 핵심 콘텐츠를 구조화하면 추천 목록 진입이 가능합니다.**\n\n---\n\n*발행: (주)디지털미디어네트워크*\n*이 보고서는 `gpt-5.6-luna` 1종의 응답을 분석한 것이며, 이 모델의 응답이 곧 사실은 아닙니다.*\n*방법론 v2.2 · 85문항 × 3회 반복 · 단일 모델 1회 측정*\n*이 값은 탐색적 측정이며, 사전 등록된 확정 결과가 아닙니다 (INV-11).*",
+  "markdownSections": []
+}

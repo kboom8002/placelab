@@ -1,0 +1,3927 @@
+{
+  "measurement": {
+    "id": "m-20260908-41590",
+    "unit_id": "lg-41590",
+    "unit_name": "화성시",
+    "method_version": "v2.2",
+    "ai_service": "chatgpt",
+    "model": "gpt-5.6-luna",
+    "web_search": "on",
+    "mode": "quick",
+    "reps": 3,
+    "status": "completed",
+    "started_at": "2026-09-08T00:07:46.345Z",
+    "completed_at": "2026-09-08T00:13:54.307Z",
+    "total_queries": 255,
+    "error_count": 0,
+    "tier_counts": {
+      "T1": 45,
+      "T1-V": 45,
+      "T2": 60,
+      "T3": 45,
+      "T3-C": 30,
+      "T3-D": 15,
+      "T4": 15
+    }
+  },
+  "results": [
+    {
+      "tier": "T1",
+      "questionId": "B-01",
+      "category": "birth",
+      "question": "화성시 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8324,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:07:46.345Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-02",
+      "category": "move_in",
+      "question": "화성시 전입신고 하면 받을 수 있는 혜택 있어?",
+      "rep": 1,
+      "response": "화성시는 **전입신고만 하면 모든 전입자에게 현금·상품권을 일괄 지급하는 제도는 없는 것으로 안내**하고 있습니다. 다만 화성시민이 되면 **시민안전보험**이 자동 적용될 수 있고, 청년·대학생·신혼부부·출산가정 등은 별도의 전입·정착 지원사업 대상이 될 수 있습니다. 지원 여부와 신청기간은 사업별로 다르므로 화성시청 홈페이지에서 **「전입지원」 또는 「인구정책」**을 확인하거나 콜센터(☎ 1577-4200)에 문의하세요.  \n출처: 화성시청 https://www.hscity.go.kr/",
+      "responseHash": "f0d442ed2b3f7bf5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 8297,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:07:46.320Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-03",
+      "category": "waste",
+      "question": "화성시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+      "rep": 1,
+      "response": "화성시 대형폐기물 수수료는 품목·크기별로 다르며, 예를 들어 1인용 매트리스 약 5,000원, 2인용 매트리스 약 8,000원, 1인용 소파 약 3,000원, 3인용 소파 약 5,000원 수준입니다(품목별 정확한 금액은 신청 화면에서 확인).  \n배출은 **화성시 대형폐기물 배출신고 사이트**에서 품목·수량·배출 장소를 입력하고 수수료를 결제한 뒤, 신고필증을 출력하거나 접수번호를 종이에 적어 폐기물에 부착하면 됩니다.  \n지정한 배출일 전날 저녁부터 공동주택은 관리사무소가 정한 장소에, 단독주택은 집 앞에 내놓으세요.  \n신청 및 전체 수수료표: [화성시 대형폐기물 배출신고](https://waste.hscity.go.kr/)",
+      "responseHash": "61611fdecb6e7df3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7781,
+      "citedUrls": [
+        "https://waste.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:07:45.804Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-04",
+      "category": "waste_bag",
+      "question": "화성시 종량제봉투 종류별 가격 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7481,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:07:45.504Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-05",
+      "category": "civil",
+      "question": "화성시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "rep": 1,
+      "response": "화성시청 민원실은 **평일 09:00~18:00** 운영하며, 점심시간(12:00~13:00)에도 교대 근무로 민원 접수가 가능하지만 대기시간이 길어질 수 있습니다.  \n화성시청 주차장은 **최초 1시간 무료, 이후 10분당 300원, 1일 최대 7,000원**으로 안내되어 있습니다(주차장·감면 대상에 따라 다를 수 있음).  \n방문 전 정확한 운영 여부와 주차요금은 화성시 콜센터 **1577-4200** 또는 [화성시청 홈페이지](https://www.hscity.go.kr)에서 확인하세요.",
+      "responseHash": "3644f3b62c8bca15",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7007,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:07:45.030Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-06",
+      "category": "senior_bus",
+      "question": "화성시 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "rep": 1,
+      "response": "화성시 어르신 버스비 지원 대상은 **화성시에 주민등록이 된 만 65세 이상 어르신**입니다.  \n지원금은 **화성시 관내 시내버스·마을버스 이용요금 전액(월 최대 10만 원)**이며, 이용 후 등록한 계좌로 환급됩니다.  \n광역·직행좌석·시외버스 등은 지원 대상에서 제외될 수 있으며, 자세한 신청 방법은 화성시 무상교통 홈페이지에서 확인하세요: https://traffic.hscity.go.kr",
+      "responseHash": "6d42fab2b1e7a18d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6312,
+      "citedUrls": [
+        "https://traffic.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:07:53.461Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-07",
+      "category": "senior_bath",
+      "question": "화성시 어르신 목욕권이나 이미용 지원 있어?",
+      "rep": 1,
+      "response": "네. 화성시는 **만 75세 이상 기초연금 수급 어르신**을 대상으로 목욕·이미용비를 **분기별 3만 원(연 12만 원)** 지원하는 사업을 운영하고 있습니다. 지원금은 지정된 목욕탕·이미용업소에서 사용할 수 있으며, 신청·카드 발급은 주소지 **읍·면·동 행정복지센터**에서 확인하면 됩니다. 대상 여부와 이용 가능한 가맹점은 화성시청 복지포털 또는 화성시 콜센터(☎ 1577-4200)에서 최신 기준을 확인하세요: https://www.hscity.go.kr/",
+      "responseHash": "79ce5cc2cfe92405",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6151,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:07:53.300Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-08",
+      "category": "youth_rent",
+      "question": "화성시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+      "rep": 1,
+      "response": "화성시 청년이 신청할 수 있는 **청년월세 한시 특별지원**은 부모와 별도 거주하는 **19~34세 무주택 청년**이 대상이며, 청년가구 소득이 기준 중위소득 60% 이하·재산 1억 2,200만 원 이하이고 원가구 소득·재산 기준도 충족해야 합니다.  \n지원금은 실제 납부 월세 중 **월 최대 20만 원**, **최대 24개월(총 480만 원)**이며, 보증금·관리비는 제외됩니다.  \n신청은 복지로 또는 주소지 읍·면·동 행정복지센터에서 가능하고, 사업 기간·신청기간은 변동될 수 있으므로 화성시 공고를 함께 확인하세요.  \n출처: [복지로 청년월세 지원](https://www.bokjiro.go.kr), [화성시청](https://www.hscity.go.kr)",
+      "responseHash": "34e833294f242193",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6540,
+      "citedUrls": [
+        "https://www.bokjiro.go.kr",
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:07:53.690Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-09",
+      "category": "startup",
+      "question": "화성시 청년 창업 지원금이나 창업 공간 지원 있어?",
+      "rep": 1,
+      "response": "네. 화성시는 매년 **청년창업 지원사업(사업화 자금·컨설팅·교육 등)**을 공고하고, 화성산업진흥원을 통해 **창업보육공간·공유오피스·입주기업 모집** 등을 지원하는 경우가 있습니다. 다만 지원금액·연령·사업장 소재지·모집기간은 공고마다 달라서, 현재 모집 중인 사업은 **화성시 기업지원플랫폼**과 **화성산업진흥원 사업공고**에서 확인하는 것이 정확합니다.  \n- 화성시 기업지원플랫폼: https://hipa.hscity.go.kr  \n- 화성산업진흥원: https://hipa.or.kr  \n- 화성시청 기업지원 관련 공고: https://www.hscity.go.kr  \n\n청년 여부, 사업 아이템, 사업자등록 여부와 희망 지역(동탄·향남 등)을 알려주시면 신청 가능한 사업을 더 구체적으로 찾아드릴게요.",
+      "responseHash": "dcf5184179038fb2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4563,
+      "citedUrls": [
+        "https://hipa.hscity.go.kr",
+        "https://hipa.or.kr",
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:07:51.713Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-10",
+      "category": "night_care",
+      "question": "화성시 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+      "rep": 1,
+      "response": "화성시에서 밤에 아이가 아프면 **응급의료포털 E-Gen의 ‘달빛어린이병원·야간진료 소아과’**를 먼저 확인하세요: https://www.e-gen.or.kr/ (지역을 ‘화성시’로 설정).  \n증상이 심하거나 호흡곤란·의식저하·경련·심한 탈수·지속되는 고열이 있으면 가까운 **응급실**로 가거나 **119**에 연락해야 합니다.  \n가까운 병원은 동탄·병점·남양 등 거주 지역과 현재 시간에 따라 달라지므로, **화성시 어느 동인지와 아이 증상·나이**를 알려주시면 운영 중인 곳을 더 정확히 안내해 드리겠습니다.",
+      "responseHash": "81a12f2d5e7f80c4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5788,
+      "citedUrls": [
+        "https://www.e-gen.or.kr/"
+      ],
+      "timestamp": "2026-09-08T00:07:52.939Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-11",
+      "category": "child_care",
+      "question": "화성시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+      "rep": 1,
+      "response": "화성시 **초등돌봄교실·늘봄학교**는 자녀가 다니는 학교의 교무실 또는 행정실에 모집 시기·이용 시간·신청 자격을 문의하는 것이 가장 정확하며, **경기화성교육지원청**에서도 안내받을 수 있습니다: https://www.goehs.kr  \n**지역아동센터**는 방과 후 돌봄이 필요한 18세 미만 아동을 대상으로 급식·학습·문화 프로그램 등을 제공하며, 센터별 이용 조건과 정원이 다릅니다.  \n화성시 내 센터는 지역아동센터 포털에서 지역을 ‘경기도→화성시’로 검색하거나, 거주지 **읍·면·동 행정복지센터**에 문의하세요: https://www.icareinfo.go.kr  \n화성시 관련 복지 상담은 시청 홈페이지 https://www.hscity.go.kr 또는 화성시 민원콜센터 **1577-4200**을 이용하면 됩니다.",
+      "responseHash": "fbc0e36d6b63f96c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5492,
+      "citedUrls": [
+        "https://www.goehs.kr",
+        "https://www.icareinfo.go.kr",
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:07:59.990Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-12",
+      "category": "multicultural",
+      "question": "화성시 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "rep": 1,
+      "response": "화성시 다문화가족지원센터는 현재 **화성시가족센터**로 운영되며, 본소는 **경기도 화성시 태안로 145 유앤아이센터**에 있습니다. 동탄 지역에는 **동탄대로8길 36 동탄호수공원 어울림센터** 내 분소가 운영되므로, 방문 전 기관에 위치와 운영시간을 확인하는 것이 좋습니다. 주요 프로그램은 결혼이민자 한국어교육, 통·번역 지원, 방문교육, 자녀 언어·성장 지원, 가족상담·교육, 취업·문화 프로그램 등이며 일정과 신청 방법은 홈페이지에서 확인할 수 있습니다. 공식 홈페이지: https://hsfc.familynet.or.kr/",
+      "responseHash": "5073e3cd96497678",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6377,
+      "citedUrls": [
+        "https://hsfc.familynet.or.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:00.876Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-13",
+      "category": "loan",
+      "question": "화성시 소상공인 특례보증 대출 조건 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6805,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:08:01.303Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-14",
+      "category": "tax",
+      "question": "화성시 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+      "rep": 1,
+      "response": "네. 화성시에서는 **‘마을세무사’ 제도**를 통해 소상공인·시민이 국세와 지방세 관련 무료 상담을 받을 수 있습니다. 상담은 사전 예약 후 진행되며, 가까운 읍·면·동 행정복지센터나 화성시청 홈페이지에서 담당 세무사와 연락처를 확인하면 됩니다.  \n- 화성시청: https://www.hscity.go.kr/ (검색창에 **마을세무사** 입력)  \n- 경기도 콜센터: **031-120**, 국세 상담: **국번 없이 126**  \n단, 신고서 작성·대행이나 소송 등은 무료 상담 범위에서 제외될 수 있습니다.",
+      "responseHash": "30fcce6a6009cb18",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5702,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:00.200Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-15",
+      "category": "festival",
+      "question": "화성시 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+      "rep": 1,
+      "response": "2026년 화성시 대표 축제는 다음과 같습니다(정확한 개최일은 주최 측 사정에 따라 변동될 수 있습니다).\n\n- **화성 뱃놀이 축제**: 6월경, **서신면 전곡항·제부도 일원**  \n- **화성송산포도축제**: 9월경, **동탄호수공원 또는 송산면 일원**  \n- **정조효문화제**: 10월경, **융릉·건릉 및 용주사 일원**\n\n올해 확정된 날짜와 장소는 화성시 공식 행사일정에서 확인해 주세요: [화성시 홈페이지](https://www.hscity.go.kr/) · [화성시문화재단](https://www.hcf.or.kr/)",
+      "responseHash": "5ab52a27d94d1450",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6409,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.hcf.or.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:00.907Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-01",
+      "category": "birth",
+      "question": "화성시 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "rep": 2,
+      "response": "화성시 **둘째아 출산지원금은 200만 원**, 경기도 **산후조리비는 50만 원**이므로 합계 **250만 원**입니다.  \n산후조리비는 출생일 기준 경기도 거주 등 요건을 충족해야 하며, 출산지원금도 부모·출생아의 화성시 거주기간 등 신청 조건이 적용될 수 있습니다.  \n세부 자격과 신청기한은 화성시 출산·보육 지원 안내에서 확인하세요: [화성시청](https://www.hscity.go.kr), [경기도 산후조리비 안내](https://www.gg.go.kr)",
+      "responseHash": "d2c7278b629e00fb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6057,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.gg.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:08.864Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-02",
+      "category": "move_in",
+      "question": "화성시 전입신고 하면 받을 수 있는 혜택 있어?",
+      "rep": 2,
+      "response": "화성시는 **전입신고만으로 지급되는 일괄적인 현금·상품 혜택은 별도로 운영하지 않는 것으로 확인됩니다.** 다만 주민등록이 화성시로 되어 있으면 화성시민안전보험에 자동 가입되며, 연령·소득·자녀 유무 등에 따라 무상교통, 출산·아동·청년 지원사업을 신청할 수 있습니다. 혜택별 조건과 신청기간이 다르므로 화성시청 복지포털에서 확인하세요.  \n- 화성시청: https://www.hscity.go.kr/  \n- 정부24 전입신고: https://www.gov.kr/portal/service/serviceInfo/13100000019",
+      "responseHash": "a38c17d507e23789",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7051,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.gov.kr/portal/service/serviceInfo/13100000019"
+      ],
+      "timestamp": "2026-09-08T00:08:09.858Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-03",
+      "category": "waste",
+      "question": "화성시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+      "rep": 2,
+      "response": "화성시 대형폐기물 수수료는 품목·규격별로 다르며, 공식 배출신고 사이트에서 품목을 검색하면 정확한 금액을 확인할 수 있습니다(보통 소형 품목은 1,000원부터 대형 가구·가전은 규격에 따라 수천~수만 원).  \n배출 방법은 **화성시 대형폐기물 인터넷 신고 사이트**에서 품목·수량·배출 장소와 날짜를 입력하고 수수료를 결제한 뒤, 신고필증을 출력해 부착하거나 접수번호를 폐기물에 잘 보이게 적는 방식입니다.  \n온라인 이용이 어려우면 가까운 읍·면·동 행정복지센터에서 신고할 수 있으며, 지정한 배출일 전날 밤부터 배출해야 합니다.  \n신청 및 품목별 수수료 확인: [화성시 대형폐기물 배출신고](https://waste.hscity.go.kr/)",
+      "responseHash": "94c70e64cff7b8e7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5492,
+      "citedUrls": [
+        "https://waste.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:08.299Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-04",
+      "category": "waste_bag",
+      "question": "화성시 종량제봉투 종류별 가격 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7731,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:08:10.538Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-05",
+      "category": "civil",
+      "question": "화성시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "rep": 2,
+      "response": "화성시청 본청 민원실은 평일 **09:00~18:00** 운영하며, **12:00~13:00 점심시간에도 교대근무로 민원 접수가 가능**합니다(담당자 상담·일부 업무는 지연될 수 있음).  \n청사 방문 민원인의 **부설주차장은 무료**로 이용할 수 있습니다.  \n방문 전 운영 여부는 화성시 콜센터 **1577-4200** 또는 화성시청 홈페이지(https://www.hscity.go.kr)에서 확인해 주세요.",
+      "responseHash": "a5a85e36d204c158",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4942,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:07.749Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-06",
+      "category": "senior_bus",
+      "question": "화성시 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7258,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:08:18.603Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-07",
+      "category": "senior_bath",
+      "question": "화성시 어르신 목욕권이나 이미용 지원 있어?",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7258,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:08:18.603Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-08",
+      "category": "youth_rent",
+      "question": "화성시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7700,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:08:19.046Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-09",
+      "category": "startup",
+      "question": "화성시 청년 창업 지원금이나 창업 공간 지원 있어?",
+      "rep": 2,
+      "response": "네. 화성시는 공고 시기에 따라 **청년·예비창업자 사업화 지원금, 창업교육·컨설팅, 입주형 창업공간·보육시설** 등을 지원하며, 주로 화성시와 **화성산업진흥원**에서 모집합니다.  \n현재 모집 중인 사업과 자격(연령, 사업장 소재지, 창업기간, 자부담 등)은 화성시 기업지원 공고와 화성산업진흥원 공고를 확인하는 것이 가장 정확합니다.  \n- 화성시 기업지원: https://www.hscity.go.kr  \n- 화성산업진흥원: https://www.hipa.or.kr  \n전국 단위 청년창업 지원금·공간은 **K-Startup 창업지원포털**(https://www.k-startup.go.kr)에서 ‘청년창업’, ‘화성시’, ‘창업공간’으로 검색하면 됩니다.",
+      "responseHash": "97a00ffa38634017",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5114,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.hipa.or.kr",
+        "https://www.k-startup.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:16.459Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-10",
+      "category": "night_care",
+      "question": "화성시 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+      "rep": 2,
+      "response": "화성시에서 밤에 아이가 아프면 **한림대학교동탄성심병원 응급의료센터**(화성시 큰재봉길 7, ☎ 031-8086-3000) 등 가까운 응급실을 이용할 수 있습니다. 방문 전 **응급의료포털 E-Gen**에서 현재 소아 진료·야간 운영 여부를 확인하고 전화로 접수 가능 여부를 문의하세요: https://www.e-gen.or.kr  \n가벼운 증상이라면 E-Gen의 **달빛어린이병원·야간진료기관** 검색을 이용하면 됩니다. 호흡곤란, 의식저하, 경련, 심한 탈수·고열 등이 있으면 병원을 찾기보다 즉시 **119**에 연락하세요.",
+      "responseHash": "3de1b88b47351074",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4942,
+      "citedUrls": [
+        "https://www.e-gen.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:16.287Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-11",
+      "category": "child_care",
+      "question": "화성시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+      "rep": 2,
+      "response": "화성시 **초등학교 방과후 돌봄교실(늘봄학교)**은 자녀가 재학 중인 학교의 늘봄지원실·행정실에 신청하며, 운영시간과 모집 기준은 학교마다 다릅니다. **지역아동센터**는 방과 후 돌봄, 급식·학습·문화 프로그램을 제공하며, 저소득·맞벌이·한부모 등 돌봄이 필요한 아동을 우선 이용할 수 있습니다. 센터 위치와 연락처는 [지역아동센터 찾기](https://www.icareinfo.go.kr/)에서 지역을 ‘경기도→화성시’로 검색하고, 학교 돌봄은 [경기도교육청](https://www.goe.go.kr/) 또는 해당 학교에 문의하세요. 추가 안내는 화성시 민원콜센터 **1577-4200** 또는 경기도콜센터 **031-120**에서 받을 수 있습니다.",
+      "responseHash": "fd63914a8c5bf205",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6126,
+      "citedUrls": [
+        "https://www.icareinfo.go.kr/",
+        "https://www.goe.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:25.986Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-12",
+      "category": "multicultural",
+      "question": "화성시 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "rep": 2,
+      "response": "화성시 다문화가족지원센터는 현재 **화성시가족센터**로 운영되며, 본소는 **경기도 화성시 태안로 145 유앤아이센터**에 있습니다(문의: **031-267-8787**).  \n주요 프로그램은 **한국어교육, 가족상담·부부교육, 통번역·자녀 언어발달 지원, 다문화가족 자녀교육, 결혼이민자 취업·역량강화 및 문화교류** 등입니다.  \n프로그램별 대상·일정·신청 방법과 동탄 등 분소 위치는 화성시가족센터 홈페이지에서 확인해 주세요: **https://hsfc.familynet.or.kr**",
+      "responseHash": "caeabb601536292b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5954,
+      "citedUrls": [
+        "https://hsfc.familynet.or.kr**"
+      ],
+      "timestamp": "2026-09-08T00:08:25.814Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-13",
+      "category": "loan",
+      "question": "화성시 소상공인 특례보증 대출 조건 알려줘",
+      "rep": 2,
+      "response": "화성시 소상공인 특례보증은 **화성시에 사업장을 둔 소상공인**이 경기신용보증재단의 보증을 받아 금융기관에서 대출받는 제도이며, 일반적으로 **업체당 최대 5,000만 원**까지 이용할 수 있습니다.  \n대상은 사업자등록 후 영업 중인 소상공인으로, 국세·지방세 체납, 휴·폐업, 보증 제한 업종 등은 제외될 수 있으며 **보증기간·보증료·이자지원 여부는 연도별 공고에 따라 달라집니다**.  \n신청은 경기신용보증재단 상담 후 협약 금융기관에서 진행하며, 사업자등록증·신분증·국세·지방세 납세증명서 등이 필요할 수 있습니다.  \n최신 한도와 금리는 화성시 기업지원과 또는 경기신용보증재단에 확인하세요: [화성시](https://www.hscity.go.kr) / [경기신용보증재단](https://www.gcgf.or.kr)",
+      "responseHash": "df0d9c3cc6f55d06",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6862,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.gcgf.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:26.722Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-14",
+      "category": "tax",
+      "question": "화성시 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+      "rep": 2,
+      "response": "네. 화성시 소상공인은 **국세청 ‘영세납세자지원단’**을 통해 세무대리인이 없는 영세사업자 대상 무료 세무상담을 받을 수 있으며, 국세상담센터 **126번** 또는 홈택스에서 신청할 수 있습니다.  \n또한 **경기도시장상권진흥원 소상공인 종합지원센터**에서 세무·노무 등 무료 상담이나 지원사업을 운영할 수 있으니, 화성시 관할 센터와 상담 가능 여부를 확인해 보세요(대표전화 **1600-8001**).  \n관련 안내: 국세청 **https://www.nts.go.kr**, 경기도시장상권진흥원 **https://gmr.or.kr**, 화성시청 **https://www.hscity.go.kr**.",
+      "responseHash": "522a01014ae605a0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4609,
+      "citedUrls": [
+        "https://www.nts.go.kr**,",
+        "https://gmr.or.kr**,",
+        "https://www.hscity.go.kr**."
+      ],
+      "timestamp": "2026-09-08T00:08:24.469Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-15",
+      "category": "festival",
+      "question": "화성시 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+      "rep": 2,
+      "response": "화성시 대표 축제는 보통 **화성 뱃놀이축제(5~6월, 전곡항·제부도 일원)**, **화성송산포도축제(8~9월, 서신면 궁평항 일원)**, **정조효문화제(10월, 융건릉·용주사 일원)** 순으로 열립니다.  \n다만 2026년 정확한 개최일과 장소는 축제별 사정에 따라 변동될 수 있으므로, 방문 전 화성시 공식 홈페이지의 **축제·행사 일정**을 확인해 주세요.  \n공식 안내: 화성시청 https://www.hscity.go.kr · 화성시 문화관광 https://tour.hscity.go.kr/",
+      "responseHash": "3c7765517476b2d0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6432,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:26.292Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-01",
+      "category": "birth",
+      "question": "화성시 둘째 출산지원금이랑 산후조리비 총 얼마야?",
+      "rep": 3,
+      "response": "화성시 **둘째 출산지원금은 200만 원**, 경기도 **산후조리비는 50만 원**으로, 두 제도를 모두 받을 경우 **총 250만 원**입니다.  \n출산지원금은 거주기간·출생신고 등 요건을, 산후조리비는 경기도 거주 및 신청기간 요건을 충족해야 하며 지역화폐로 지급됩니다.  \n신청 가능 여부와 최신 기준은 화성시 출산지원 안내(https://www.hscity.go.kr) 및 정부24(https://www.gov.kr)에서 확인하세요.",
+      "responseHash": "71249188c6d55ddc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5538,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.gov.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:33.772Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-02",
+      "category": "move_in",
+      "question": "화성시 전입신고 하면 받을 수 있는 혜택 있어?",
+      "rep": 3,
+      "response": "화성시는 **전입신고만 하면 모든 전입자에게 자동 지급하는 현금성 전입축하금은 별도로 운영하지 않는 것으로 안내**하고 있습니다. 다만 전입 후 주민등록이 화성시로 되어 있으면 화성시민 대상 복지·청년·출산·다자녀·지역화폐·공공시설 감면 등 각종 사업의 신청 자격을 확인할 수 있습니다. 혜택은 대상과 시기별로 달라질 수 있으므로 화성시청 홈페이지의 **복지·인구정책** 메뉴 또는 주소지 읍·면·동 행정복지센터에 문의하세요.  \n- 화성시청: https://www.hscity.go.kr/  \n- 정부24 전입신고: https://www.gov.kr/portal/service/serviceInfo/13100000002",
+      "responseHash": "11db9362ef048101",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6013,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.gov.kr/portal/service/serviceInfo/13100000002"
+      ],
+      "timestamp": "2026-09-08T00:08:34.246Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-03",
+      "category": "waste",
+      "question": "화성시 대형폐기물 스티커 가격이랑 배출 신청 방법 알려줘",
+      "rep": 3,
+      "response": "화성시 대형폐기물 수수료는 품목·크기별로 다르므로 **화성시 대형폐기물 배출신고 사이트에서 품목을 선택해 금액을 확인**해야 합니다.  \n신청은 온라인에서 주소와 배출일·품목을 입력하고 결제한 뒤, 발급된 신고필증을 출력해 부착하거나 접수번호를 폐기물에 표시하면 됩니다.  \n인터넷 이용이 어려우면 가까운 **읍·면·동 행정복지센터 또는 지정 판매처**에서 스티커를 구입해 신청할 수 있으며, 배출은 신고한 장소와 날짜에 맞춰야 합니다.  \n신청·품목별 수수료 확인: [화성시 대형폐기물 배출신고](https://waste.hscity.go.kr/) / 냉장고·세탁기 등 일부 대형가전은 무료 방문수거(1599-0903)가 가능합니다.",
+      "responseHash": "9f1bf20841695ec0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7010,
+      "citedUrls": [
+        "https://waste.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:35.243Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-04",
+      "category": "waste_bag",
+      "question": "화성시 종량제봉투 종류별 가격 알려줘",
+      "rep": 3,
+      "response": "화성시 종량제봉투 가격은 다음과 같습니다(일반용 기준).\n\n- **일반용:** 5L 190원, 10L 360원, 20L 710원, 50L 1,760원, 75L 2,630원  \n- **재사용:** 10L 360원, 20L 710원  \n- **음식물용:** 1L 80원, 2L 140원, 3L 220원, 5L 360원, 10L 710원, 20L 1,410원  \n\n판매처·품목별 취급 여부가 다를 수 있으므로 구매 전 확인하시고, 최신 내용은 [화성시청 홈페이지](https://www.hscity.go.kr/)에서 ‘종량제봉투 가격’을 검색해 확인하세요.",
+      "responseHash": "29e76609e93e5fa0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5658,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:33.891Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-05",
+      "category": "civil",
+      "question": "화성시 청/군청 민원실 점심시간에도 되는지, 주차요금 얼마야?",
+      "rep": 3,
+      "response": "화성시청 본청 민원실은 평일 **09:00~18:00** 운영하며, **12:00~13:00 점심시간에도 교대근무로 민원 접수는 가능**하지만 담당자 부재로 처리 시간이 걸릴 수 있습니다.  \n시청 방문객 주차는 현재 **무료**로 안내되어 있으나, 행사·혼잡 시 주차가 제한될 수 있습니다.  \n읍·면·동 행정복지센터는 점심시간 운영 및 주차 기준이 다를 수 있으니 방문 전 해당 기관에 확인하세요.  \n공식 홈페이지: [화성시](https://www.hscity.go.kr) / 대표전화 **1577-4200**",
+      "responseHash": "8e0bea0fb39ba688",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5853,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:34.086Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-06",
+      "category": "senior_bus",
+      "question": "화성시 어르신 버스비 지원 대상 나이랑 금액 알려줘",
+      "rep": 3,
+      "response": "화성시 어르신 버스비 지원(무상교통)은 **화성시에 주민등록이 있는 만 65세 이상** 어르신이 대상입니다.  \n지원금은 **월 최대 10만 원**으로, 관내 시내버스·마을버스 이용요금을 환급받는 방식이며 광역버스·좌석버스 등은 제외될 수 있습니다.  \n무상교통 카드 발급과 신청은 화성시 무상교통 홈페이지에서 확인할 수 있습니다: https://savebus.hscity.go.kr/",
+      "responseHash": "48587524bd37daf4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6402,
+      "citedUrls": [
+        "https://savebus.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:42.459Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-07",
+      "category": "senior_bath",
+      "question": "화성시 어르신 목욕권이나 이미용 지원 있어?",
+      "rep": 3,
+      "response": "네. 화성시는 **만 75세 이상 어르신을 대상으로 목욕·이미용비를 지원하는 사업**을 운영하고 있으며, 지원금액·지급방식과 이용 가능한 업소는 거주지 읍·면·동 행정복지센터에서 확인할 수 있습니다.  \n신청 및 대상 여부는 신분증을 지참해 주소지 행정복지센터에 문의하거나 화성시 콜센터 **1577-4200**으로 확인하세요.  \n공식 홈페이지: [화성시청](https://www.hscity.go.kr/)",
+      "responseHash": "b6108514511d1d85",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6482,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:42.539Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-08",
+      "category": "youth_rent",
+      "question": "화성시 청년 월세 지원 대상 조건이랑 지원 금액 알려줘",
+      "rep": 3,
+      "response": "화성시 청년 월세 지원은 국토교통부 **청년월세 지원사업** 기준으로, 만 19~34세의 부모와 별도 거주하는 무주택 청년이 대상입니다. 소득·재산 기준은 청년가구 중위소득 60% 이하(원가구 100% 이하), 청년가구 재산 1억 2,200만 원 이하·원가구 4억 7,000만 원 이하이며, 보증금 5,000만 원 이하·월세 70만 원 이하 주택에 거주해야 합니다. 지원금은 실제 월세 범위에서 **월 최대 20만 원, 최대 24개월**이며, 주택 소유자·공공임대주택 거주자 등은 제외될 수 있습니다. 신청 및 올해 기준은 [복지로 청년월세 지원](https://www.bokjiro.go.kr) 또는 [화성시청](https://www.hscity.go.kr)에서 확인하세요.",
+      "responseHash": "0a577f4d398591fd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7041,
+      "citedUrls": [
+        "https://www.bokjiro.go.kr",
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:43.098Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-09",
+      "category": "startup",
+      "question": "화성시 청년 창업 지원금이나 창업 공간 지원 있어?",
+      "rep": 3,
+      "response": "네. 화성시는 매년 **청년창업 지원사업**을 통해 예비·초기 창업자에게 사업화 자금, 창업교육·멘토링 등을 지원하며, 세부 대상과 금액은 공고마다 달라집니다.  \n또한 **화성산업진흥원**에서 창업기업 보육·입주공간, 창업기업 육성 및 사업화 프로그램을 운영하는 경우가 있으니 모집공고를 확인해 보세요.  \n공고는 화성시 기업지원플랫폼(https://기업지원플랫폼.com)과 화성산업진흥원(https://www.hipa.or.kr)에서 `청년창업`, `창업공간`, `입주기업`으로 검색하고, 화성시 기업지원과(☎ 031-5189-2872)에 문의하면 현재 접수 가능한 사업을 안내받을 수 있습니다.",
+      "responseHash": "277e18b33ce0645a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4876,
+      "citedUrls": [
+        "https://기업지원플랫폼.com",
+        "https://www.hipa.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:40.933Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-10",
+      "category": "night_care",
+      "question": "화성시 밤에 아이가 아프면 갈 수 있는 소아과 어디야?",
+      "rep": 3,
+      "response": "화성시에서 밤에 아이가 아프면 **동탄성심병원 응급의료센터(화성시 큰재봉길 7, 031-8086-3000)** 또는 가까운 **응급실**로 가세요. 운영 중인 야간 소아진료·달빛어린이병원은 시간에 따라 바뀌므로 **응급의료포털 E-Gen(https://www.e-gen.or.kr)**에서 ‘소아청소년과·야간진료’로 확인한 뒤 방문 전 전화하는 것이 안전합니다. 호흡곤란, 의식저하, 경련, 심한 탈수·고열 등 위급한 증상이 있으면 **119**에 연락하세요.",
+      "responseHash": "896e1ffc24b4293d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5176,
+      "citedUrls": [
+        "https://www.e-gen.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:41.233Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-11",
+      "category": "child_care",
+      "question": "화성시 초등 방과후 돌봄교실이나 지역아동센터 정보 알려줘",
+      "rep": 3,
+      "response": "화성시 **초등학교 방과후·돌봄교실**은 재학 중인 학교에서 운영 여부와 신청 기간을 확인해야 하며, 학교 행정실 또는 담임교사에게 문의하는 것이 가장 정확합니다.  \n**지역아동센터**는 방과 후 돌봄, 급식, 학습·문화 프로그램을 제공하며, 센터별 이용 대상과 운영시간이 다르므로 지역아동센터 통합정보시스템에서 화성시 센터를 검색해 상담받으시면 됩니다: https://www.icareinfo.go.kr  \n화성시의 **다함께돌봄센터** 등 공공 돌봄시설은 화성시청 홈페이지에서 ‘돌봄센터’ 또는 ‘아동 돌봄’을 검색하거나 읍·면·동 행정복지센터에 문의하세요: https://www.hscity.go.kr  \n학교 돌봄·늘봄학교 관련 안내는 화성오산교육지원청 홈페이지에서도 확인할 수 있습니다: https://www.goehs.kr",
+      "responseHash": "80885f3f72c1e29f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4752,
+      "citedUrls": [
+        "https://www.icareinfo.go.kr",
+        "https://www.hscity.go.kr",
+        "https://www.goehs.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:48.657Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-12",
+      "category": "multicultural",
+      "question": "화성시 다문화가족지원센터 위치랑 프로그램 알려줘",
+      "rep": 3,
+      "response": "화성시 다문화가족지원 업무는 **화성시가족센터**에서 운영하며, 대표센터는 **경기도 화성시 병점3로 132-6**에 있습니다(방문 전 대표전화 **031-267-8788**로 위치와 운영시간을 확인하세요).  \n주요 프로그램은 **결혼이민자 한국어교육, 통번역·상담, 부모교육 및 가족상담, 방문교육, 자녀 언어·학습 지원, 다문화가족 문화·가족 프로그램** 등입니다.  \n프로그램별 대상·일정·신청 방법은 수시로 달라지므로 공식 홈페이지의 프로그램 안내를 확인하면 됩니다: **https://hsfc.familynet.or.kr/**",
+      "responseHash": "29685522dadcb415",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6354,
+      "citedUrls": [
+        "https://hsfc.familynet.or.kr/**"
+      ],
+      "timestamp": "2026-09-08T00:08:50.259Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-13",
+      "category": "loan",
+      "question": "화성시 소상공인 특례보증 대출 조건 알려줘",
+      "rep": 3,
+      "response": "화성시 소상공인 특례보증은 화성시에 사업장을 둔 소상공인이 경기신용보증재단의 보증을 받아 금융기관에서 대출받도록 지원하는 제도입니다. 일반적으로 업체당 최대 5,000만 원 범위에서 보증이 가능하며, 보증료·대출금리·이차보전 기간은 연도별 예산과 공고에 따라 달라집니다. 국세·지방세 체납, 휴·폐업, 보증제한 업종 등은 대상에서 제외될 수 있고, 최종 한도는 경기신보 심사로 결정됩니다. 신청 가능 여부와 올해 조건은 경기신용보증재단 화성지점(☎ 1577-5900) 또는 화성시 기업지원과 공고에서 확인하세요: https://www.ggsinbo.co.kr / https://www.hscity.go.kr",
+      "responseHash": "809638b7898d49ba",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5105,
+      "citedUrls": [
+        "https://www.ggsinbo.co.kr",
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:08:49.010Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-14",
+      "category": "tax",
+      "question": "화성시 소상공인 무료 세무 상담 받을 수 있는 곳 있어?",
+      "rep": 3,
+      "response": "네. 화성시 **마을세무사**를 통해 국세·지방세 관련 무료 세무 상담을 받을 수 있으며, 거주지 또는 사업장 관할 **읍·면·동 행정복지센터**에 신청하면 담당 세무사를 안내받을 수 있습니다.  \n부가가치세·종합소득세 신고 등 소상공인 세무상담은 **국세청 국세상담센터 126**에서도 안내받을 수 있습니다.  \n화성시 마을세무사 명단과 신청 방법은 [화성시청 홈페이지](https://www.hscity.go.kr/)에서 ‘마을세무사’를 검색하거나 화성시 콜센터 **1577-4200**으로 문의하세요.",
+      "responseHash": "120c934a536138bb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5994,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:49.899Z"
+    },
+    {
+      "tier": "T1",
+      "questionId": "B-15",
+      "category": "festival",
+      "question": "화성시 올해 열리는 대표 축제 일정이랑 장소 안내해줘",
+      "rep": 3,
+      "response": "2026년 화성시 대표 축제는 아래와 같으며, 세부 날짜는 기상·운영 여건에 따라 변동될 수 있습니다.  \n- **화성 뱃놀이축제**: 6월경, **서신면 전곡항 일원**  \n- **화성송산포도축제**: 9월경, **송산면 일원**  \n- **정조효문화제**: 10월경, **융릉·건릉 및 정조대왕 관련 유적지 일원**  \n정확한 2026년 일정과 장소는 화성시 공식 홈페이지 및 화성시 문화관광 홈페이지에서 확인해 주세요: https://www.hscity.go.kr/ , https://tour.hscity.go.kr/",
+      "responseHash": "2cce9fa7c358fd5f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6603,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:50.508Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B01-01",
+      "category": "birth",
+      "question": "화성시 둘째 출산지원금 정확한 금액은?",
+      "rep": 1,
+      "response": "화성시 **둘째아 출산지원금은 200만 원**입니다.  \n출생일 기준 부모 중 한 명이 화성시에 **180일 이상 계속 거주**하고, 출생신고 후 신청하는 등 요건을 충족해야 하며 보통 출생일로부터 1년 이내 신청합니다. 이는 국가 지원인 첫만남이용권·부모급여와 별도입니다.  \n최신 신청 요건과 구비서류는 화성시 공식 홈페이지에서 확인하세요: https://www.hscity.go.kr/",
+      "responseHash": "fe86b5422500456f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5650,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:56.158Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B01-02",
+      "category": "birth",
+      "question": "화성시 산후조리비 지원 금액은 얼마인가요?",
+      "rep": 1,
+      "response": "화성시는 **경기도 산후조리비로 출생아 1명당 50만 원**을 지역화폐로 지원합니다. 쌍둥이는 100만 원, 세쌍둥이는 150만 원처럼 출생아 수에 따라 지급됩니다. 신청 대상·기간은 출생일 기준 경기도 및 화성시 거주요건을 충족해야 하므로, 자세한 내용은 **경기민원24(https://gg24.gg.go.kr/)** 또는 화성시 읍·면·동 행정복지센터에서 확인하세요.",
+      "responseHash": "0f1735f72db23347",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4965,
+      "citedUrls": [
+        "https://gg24.gg.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:55.473Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B01-03",
+      "category": "birth",
+      "question": "화성시 첫째아 출산지원금(출산축하금)은 얼마인가요?",
+      "rep": 1,
+      "response": "화성시 첫째아 출산지원금(출산축하금)은 **100만 원**입니다.  \n출생일 기준 부모의 거주기간·출생신고 및 신청기한 등 지급 요건을 충족해야 하므로, 주소지 읍·면·동 행정복지센터에서 확인 후 신청하세요.  \n자세한 내용은 [화성시청 홈페이지](https://www.hscity.go.kr/)에서 ‘출산지원금’을 검색하거나 거주지 행정복지센터에 문의하시기 바랍니다.",
+      "responseHash": "2197ffa7d1720ea7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5367,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:55.875Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B04-01",
+      "category": "waste_bag",
+      "question": "화성시 일반종량제봉투 20리터 1장 가격은 얼마인가요?",
+      "rep": 1,
+      "response": "화성시 **일반용 종량제봉투 20리터 1장은 560원**입니다. 판매처에 따라 묶음 단위로 판매될 수 있으며, 가격은 화성시청의 종량제봉투 안내를 기준으로 합니다.  \n출처: [화성시청 생활폐기물 안내](https://www.hscity.go.kr/)",
+      "responseHash": "33863b938df62952",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5021,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:55.529Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B04-02",
+      "category": "waste_bag",
+      "question": "화성시 음식물 쓰레기 종량제봉투 2리터 가격은 얼마인가요?",
+      "rep": 1,
+      "response": "화성시 음식물류 폐기물 전용 종량제봉투 **2리터 가격은 100원**입니다. 판매처별 재고와 판매 여부가 다를 수 있으므로 구매 전 확인하시기 바랍니다. 자세한 내용은 [화성시청 홈페이지](https://www.hscity.go.kr/)에서 **분야별정보 → 환경·청소 → 종량제봉투**를 확인해 주세요.",
+      "responseHash": "b6f5b8b2584674d3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5343,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:08:55.851Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B04-03",
+      "category": "waste_bag",
+      "question": "화성시 종량제봉투는 어디에서 구매할 수 있나요?",
+      "rep": 1,
+      "response": "화성시 종량제봉투는 **화성시가 지정한 판매소인 편의점·슈퍼마켓·대형마트 등**에서 구매할 수 있습니다. 가까운 판매소는 화성시청 홈페이지에서 **‘종량제봉투 판매소’**를 검색하거나, 거주지 읍·면·동 행정복지센터에 문의하면 안내받을 수 있습니다.  \n화성시청: https://www.hscity.go.kr (검색어: 종량제봉투 판매소)",
+      "responseHash": "5de7d4ca6ccc0dd7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4607,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:01.576Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B06-01",
+      "category": "senior_bus",
+      "question": "화성시 어르신 버스요금 지원 대상 연령 기준은 몇 세 이상인가요?",
+      "rep": 1,
+      "response": "화성시 어르신 버스요금 지원(무상교통) 대상은 **화성시에 주민등록을 둔 만 65세 이상 어르신**입니다. 신청 및 지원 범위는 변동될 수 있으므로 자세한 내용은 화성시 무상교통 안내에서 확인해 주세요.  \n출처: [화성시청](https://www.hscity.go.kr) (검색어: ‘어르신 무상교통’)",
+      "responseHash": "f52cd948492b197a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3394,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:00.363Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B06-02",
+      "category": "senior_bus",
+      "question": "화성시 어르신 교통비(버스비) 지원 한도 금액은 월 얼마인가요?",
+      "rep": 1,
+      "response": "화성시 어르신 무상교통 지원 한도는 **월 최대 1만 5천 원**입니다.  \n만 65세 이상 화성시민이 대상이며, 관내 시내버스·마을버스 이용 후 실제 사용액을 환급받는 방식입니다(노선·지원 조건에 따라 제외될 수 있음).  \n자세한 신청 및 대상 확인은 [화성시 무상교통 홈페이지](https://freebus.hscity.go.kr/)에서 확인하세요.",
+      "responseHash": "63eeda1720198a13",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5450,
+      "citedUrls": [
+        "https://freebus.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:02.419Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B08-01",
+      "category": "youth_rent",
+      "question": "화성시 청년월세 지원 사업의 월 최대 지원 금액은 얼마인가요?",
+      "rep": 1,
+      "response": "화성시 청년월세 지원 사업의 월 최대 지원 금액은 **20만 원**입니다. 실제 월세가 20만 원보다 적으면 실제 납부액까지만 지원되며, 지원 기간은 공고에 따라 달라질 수 있습니다. 자세한 자격과 신청 일정은 [화성시청 청년정책 안내](https://www.hscity.go.kr/)에서 확인하세요.",
+      "responseHash": "12b37d4f723a3232",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6176,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:03.145Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B08-02",
+      "category": "youth_rent",
+      "question": "화성시 청년월세 지원 대상자의 연령 기준은 어떻게 되나요?",
+      "rep": 1,
+      "response": "화성시 자체 **청년월세 지원사업**의 연령 기준은 신청일 기준 **만 19세 이상 만 39세 이하**입니다.  \n다만 국토교통부의 **청년월세 한시 특별지원**은 별도 사업으로, 연령 기준이 **만 19세 이상 만 34세 이하**이므로 지원사업을 구분해 확인해야 합니다.  \n세부 자격과 모집 일정은 화성시청 청년정책 안내에서 확인하세요: https://www.hscity.go.kr/",
+      "responseHash": "3b49efd4cd1d0c1c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4534,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:01.503Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B08-03",
+      "category": "youth_rent",
+      "question": "화성시 청년월세 지원을 받기 위한 소득 기준(기준 중위소득 비율)은 얼마인가요?",
+      "rep": 1,
+      "response": "화성시에서 신청하는 **청년월세 지원(청년월세 한시 특별지원)**의 소득 기준은 **청년가구 기준 중위소득 60% 이하**, **원가구(청년가구+부모) 기준 중위소득 100% 이하**입니다. 다만 만 30세 이상, 혼인·이혼 등으로 원가구 소득을 보지 않는 예외가 있을 수 있습니다. 자세한 신청 자격과 해당 연도 금액은 [복지로 청년월세 지원 안내](https://www.bokjiro.go.kr/) 또는 화성시청 공고에서 확인하세요.",
+      "responseHash": "b5bb0c91a4527296",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5542,
+      "citedUrls": [
+        "https://www.bokjiro.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:09.497Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B10-01",
+      "category": "night_care",
+      "question": "화성시 야간·휴일 소아진료 의료안내 대표 전화번호는 어디인가요?",
+      "rep": 1,
+      "response": "화성시 야간·휴일 소아진료 의료안내 대표전화는 **031-5189-1200**입니다. 진료기관 운영 여부와 위치를 안내받을 수 있으며, 위급한 경우에는 **119**로 신고하세요. 자세한 내용은 [화성시청 홈페이지](https://www.hscity.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "e6125a681df75eef",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4658,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:08.613Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B10-02",
+      "category": "night_care",
+      "question": "화성시 야간 당번약국 안내 전화번호는 어디인가요?",
+      "rep": 1,
+      "response": "화성시 야간·휴일 당번약국 안내는 **화성시 민원콜센터 ☎ 1577-4200**으로 문의하시면 됩니다. 가까운 운영 약국은 **응급의료포털 E-Gen(https://www.e-gen.or.kr)** 또는 **휴일지킴이약국(https://www.pharm114.or.kr)**에서도 확인할 수 있습니다. 응급 상황이거나 상담이 어려우면 **119**로 문의하세요.",
+      "responseHash": "c618f3db616d111b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3913,
+      "citedUrls": [
+        "https://www.e-gen.or.kr",
+        "https://www.pharm114.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:07.868Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B15-01",
+      "category": "festival",
+      "question": "화성시 대표 축제인 동탄 호수공원 물빛축제는 매년 몇 월에 개최되나요?",
+      "rep": 1,
+      "response": "화성시 대표 축제인 **동탄호수공원 물빛축제는 매년 8월에 개최**됩니다. 다만 정확한 개최일과 행사 내용은 연도별로 달라질 수 있으므로, 화성시 공식 관광 안내를 확인해 주세요.  \n출처: [화성시 문화관광](https://tour.hscity.go.kr/)",
+      "responseHash": "5b0e89852a7e6e11",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3388,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:07.343Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B15-02",
+      "category": "festival",
+      "question": "화성시 제부도 해상 관광지 바다갈라짐(모세의 기적) 현상은 하루에 몇 회 발생하나요?",
+      "rep": 1,
+      "response": "화성시 제부도의 바다갈라짐 현상은 조석(밀물·썰물)에 따라 **일반적으로 하루 2회** 발생합니다. 다만 날짜와 조수 간만의 차이에 따라 발생 시각과 지속 시간이 달라지며, 일부 날에는 1회 또는 통행이 어려울 수 있으므로 방문 전 물때표를 확인해야 합니다. 자세한 시간은 화성시 관광포털의 **제부도 바닷길 통행시간**에서 확인하세요: https://tour.hscity.go.kr/",
+      "responseHash": "8eaf1f6d707874e5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3589,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:07.544Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B01-01",
+      "category": "birth",
+      "question": "화성시 둘째 출산지원금 정확한 금액은?",
+      "rep": 2,
+      "response": "화성시 **둘째아 출산지원금은 200만 원**입니다. 이는 화성시 자체 지원금이며, 별도로 국가의 **첫만남이용권(둘째 이상 300만 원)**도 신청할 수 있습니다. 다만 부모의 화성시 거주기간 등 지급요건이 있으므로 출생신고 시 읍·면·동 행정복지센터에서 확인하세요.  \n출처: [화성시청](https://www.hscity.go.kr/) (검색어: 출산지원금)",
+      "responseHash": "251b90094c2d5de8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5623,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:16.625Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B01-02",
+      "category": "birth",
+      "question": "화성시 산후조리비 지원 금액은 얼마인가요?",
+      "rep": 2,
+      "response": "화성시 산후조리비는 **출생아 1명당 50만 원**이며, 화성지역화폐로 지급됩니다. 다태아는 출생아 수에 따라 **쌍둥이 100만 원, 세쌍둥이 150만 원**을 지원받을 수 있습니다. 신청 자격과 기간은 경기도 산후조리비 기준을 따르므로, 자세한 내용은 **경기민원24(https://gg24.gg.go.kr)**에서 확인해 주세요.",
+      "responseHash": "f92ca2e09fdd3c9e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4487,
+      "citedUrls": [
+        "https://gg24.gg.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:15.490Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B01-03",
+      "category": "birth",
+      "question": "화성시 첫째아 출산지원금(출산축하금)은 얼마인가요?",
+      "rep": 2,
+      "response": "화성시 **첫째아 출산지원금(출산축하금)은 100만 원**입니다.  \n출생일 기준 거주기간 등 지급 요건과 신청기한이 있으므로, 출생신고 후 주소지 **읍·면·동 행정복지센터**에서 신청 가능 여부를 확인하시기 바랍니다.  \n자세한 내용은 [화성시청 홈페이지](https://www.hscity.go.kr/) 또는 정부24에서 확인할 수 있습니다.",
+      "responseHash": "da205b97a4747a56",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4327,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:15.329Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B04-01",
+      "category": "waste_bag",
+      "question": "화성시 일반종량제봉투 20리터 1장 가격은 얼마인가요?",
+      "rep": 2,
+      "response": "화성시 일반종량제봉투 **20리터 1장은 600원**입니다.  \n판매처에 따라 묶음 단위로 판매될 수 있으니 실제 구매 시 확인해 주세요.  \n출처: [화성특례시 홈페이지](https://www.hscity.go.kr/) → 생활폐기물·종량제봉투 안내",
+      "responseHash": "20f1c89ba209b6b2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5623,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:16.625Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B04-02",
+      "category": "waste_bag",
+      "question": "화성시 음식물 쓰레기 종량제봉투 2리터 가격은 얼마인가요?",
+      "rep": 2,
+      "response": "화성시 음식물류 폐기물 종량제봉투 **2리터 가격은 100원**입니다.  \n판매처에 따라 재고가 다를 수 있으니, 구입 전 가까운 지정 판매점에 확인해 주세요.  \n출처: [화성시청 홈페이지](https://www.hscity.go.kr/)",
+      "responseHash": "deed21405e154a22",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3170,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:14.172Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B04-03",
+      "category": "waste_bag",
+      "question": "화성시 종량제봉투는 어디에서 구매할 수 있나요?",
+      "rep": 2,
+      "response": "화성시 종량제봉투는 **화성시가 지정한 판매소**인 편의점, 슈퍼마켓, 대형마트 등에서 구매할 수 있습니다.  \n가까운 판매소는 화성시청 홈페이지에서 **「종량제봉투 판매소」**를 검색하거나 관할 읍·면·동 행정복지센터에 문의하면 확인할 수 있습니다.  \n화성시청: https://www.hscity.go.kr/",
+      "responseHash": "c62522073e94385b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3272,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:20.698Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B06-01",
+      "category": "senior_bus",
+      "question": "화성시 어르신 버스요금 지원 대상 연령 기준은 몇 세 이상인가요?",
+      "rep": 2,
+      "response": "화성시 어르신 버스요금 지원(무상교통) 대상 연령은 **만 65세 이상**입니다.  \n화성시에 주민등록을 둔 어르신이 대상이며, 지원 범위와 신청 방법은 화성시 무상교통 누리집에서 확인할 수 있습니다.  \n출처: [화성시 무상교통](https://freebus.hscity.go.kr/)",
+      "responseHash": "2663af88ede3b86a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3083,
+      "citedUrls": [
+        "https://freebus.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:20.509Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B06-02",
+      "category": "senior_bus",
+      "question": "화성시 어르신 교통비(버스비) 지원 한도 금액은 월 얼마인가요?",
+      "rep": 2,
+      "response": "화성시 어르신 무상교통 지원 한도는 **월 최대 8만 원**입니다.  \n만 65세 이상 화성시민이 이용한 화성시 관내 시내버스·마을버스 요금을 지원하며, 이용하지 않은 금액은 현금으로 지급되지 않습니다.  \n자세한 사항은 [화성시 무상교통 홈페이지](https://savebus.hscity.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "b76737f639f7fd59",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6400,
+      "citedUrls": [
+        "https://savebus.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:23.826Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B08-01",
+      "category": "youth_rent",
+      "question": "화성시 청년월세 지원 사업의 월 최대 지원 금액은 얼마인가요?",
+      "rep": 2,
+      "response": "화성시 청년월세 지원사업의 월 최대 지원 금액은 **20만 원**입니다. 지원 기간과 대상 요건은 사업 공고 시기에 따라 달라질 수 있으므로, 신청 전 화성시청 공고를 확인하세요. 자세한 내용은 [화성시청 청년정책 안내](https://www.hscity.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "0a9dadaf2d40e5df",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3560,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:20.986Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B08-02",
+      "category": "youth_rent",
+      "question": "화성시 청년월세 지원 대상자의 연령 기준은 어떻게 되나요?",
+      "rep": 2,
+      "response": "화성시 청년월세 지원의 연령 기준은 **신청일 기준 만 19세 이상 34세 이하**입니다. 부모와 별도로 거주하는 무주택 청년이어야 하며, 소득·재산 등 다른 요건도 충족해야 합니다. 자세한 기준과 신청 일정은 [복지로 청년월세 지원 안내](https://www.bokjiro.go.kr/) 또는 [화성시청](https://www.hscity.go.kr/)에서 확인해 주세요.",
+      "responseHash": "7ceb698ddf68e993",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3692,
+      "citedUrls": [
+        "https://www.bokjiro.go.kr/",
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:21.119Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B08-03",
+      "category": "youth_rent",
+      "question": "화성시 청년월세 지원을 받기 위한 소득 기준(기준 중위소득 비율)은 얼마인가요?",
+      "rep": 2,
+      "response": "화성시 청년월세 지원의 소득 기준은 **청년가구 기준 중위소득 60% 이하**이며, 부모를 포함한 **원가구는 기준 중위소득 100% 이하**입니다. 청년가구는 청년 본인과 배우자·자녀 등을, 원가구는 청년가구와 부모를 의미하며, 소득 외에 재산 기준도 함께 심사합니다. 세부 금액과 모집 일정은 화성시청 또는 복지로 공고에서 확인하세요: https://www.hscity.go.kr/ · https://www.bokjiro.go.kr/",
+      "responseHash": "7daef57d1832b832",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6858,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.bokjiro.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:31.490Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B10-01",
+      "category": "night_care",
+      "question": "화성시 야간·휴일 소아진료 의료안내 대표 전화번호는 어디인가요?",
+      "rep": 2,
+      "response": "화성시 야간·휴일 소아진료 의료안내 대표전화는 **031-5189-1200**입니다.  \n진료 가능한 의료기관과 운영시간은 변동될 수 있으므로 방문 전 전화로 확인하시기 바랍니다.  \n응급의료포털 E-Gen에서도 야간·휴일 진료기관을 확인할 수 있습니다: https://www.e-gen.or.kr/",
+      "responseHash": "056d0dd676b83121",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3767,
+      "citedUrls": [
+        "https://www.e-gen.or.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:28.399Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B10-02",
+      "category": "night_care",
+      "question": "화성시 야간 당번약국 안내 전화번호는 어디인가요?",
+      "rep": 2,
+      "response": "화성시 야간·휴일 당번약국은 **화성시 민원콜센터 1577-4200**으로 문의하시면 안내받을 수 있습니다. 현재 운영 중인 약국은 **응급의료포털 E-Gen**(https://www.e-gen.or.kr) 또는 **응급의료상담 119**에서도 확인할 수 있습니다. 방문 전 약국에 전화해 운영 여부를 확인하시기 바랍니다.",
+      "responseHash": "845b9c1703f8461e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4013,
+      "citedUrls": [
+        "https://www.e-gen.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:28.645Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B15-01",
+      "category": "festival",
+      "question": "화성시 대표 축제인 동탄 호수공원 물빛축제는 매년 몇 월에 개최되나요?",
+      "rep": 2,
+      "response": "화성시 대표 축제인 **동탄호수공원 물빛축제는 매년 8월경** 개최됩니다. 다만 개최일과 세부 일정은 해마다 달라질 수 있으므로, 정확한 일정은 화성시 축제·관광 안내를 확인하는 것이 좋습니다.  \n출처: [화성시청](https://www.hscity.go.kr/)",
+      "responseHash": "ca62a4c129a53c15",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4431,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:29.063Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B15-02",
+      "category": "festival",
+      "question": "화성시 제부도 해상 관광지 바다갈라짐(모세의 기적) 현상은 하루에 몇 회 발생하나요?",
+      "rep": 2,
+      "response": "화성시 제부도 바다갈라짐(모세의 기적)은 **보통 하루 2회**, 썰물 때 발생합니다. 다만 조석과 기상에 따라 바닷길이 열리는 시각과 지속 시간은 매일 달라지므로 방문 전 날짜별 통행 가능 시간을 확인해야 합니다. 자세한 예보는 국립해양조사원 바다갈라짐 정보에서 확인할 수 있습니다: https://www.khoa.go.kr/ ━",
+      "responseHash": "37dc72c17d3549df",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5429,
+      "citedUrls": [
+        "https://www.khoa.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:30.061Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B01-01",
+      "category": "birth",
+      "question": "화성시 둘째 출산지원금 정확한 금액은?",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6806,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:09:39.802Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B01-02",
+      "category": "birth",
+      "question": "화성시 산후조리비 지원 금액은 얼마인가요?",
+      "rep": 3,
+      "response": "화성시 산후조리비는 **출생아 1명당 50만 원**을 지역화폐로 지원합니다. 쌍둥이 등 다태아는 출생아 수에 따라 각각 지원되며, 신청 자격과 기간은 출생일·거주기간 요건을 충족해야 합니다. 자세한 신청 방법은 **경기민원24**(https://gg24.gg.go.kr) 또는 거주지 읍·면·동 행정복지센터에서 확인하세요.",
+      "responseHash": "682999188cfc5cfd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5390,
+      "citedUrls": [
+        "https://gg24.gg.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:38.386Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B01-03",
+      "category": "birth",
+      "question": "화성시 첫째아 출산지원금(출산축하금)은 얼마인가요?",
+      "rep": 3,
+      "response": "화성시 **첫째아 출산지원금(출산축하금)은 100만 원**입니다.  \n지원 대상·거주기간·신청기한 등 세부 조건이 적용될 수 있으므로, 출생신고 시 읍·면·동 행정복지센터에서 함께 확인·신청하시기 바랍니다.  \n출처: [화성시청](https://www.hscity.go.kr/) / [정부24 행복출산 원스톱서비스](https://www.gov.kr/portal/service/serviceInfo/17400000025)",
+      "responseHash": "8453810f7252f30e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5741,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.gov.kr/portal/service/serviceInfo/17400000025"
+      ],
+      "timestamp": "2026-09-08T00:09:38.737Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B04-01",
+      "category": "waste_bag",
+      "question": "화성시 일반종량제봉투 20리터 1장 가격은 얼마인가요?",
+      "rep": 3,
+      "response": "화성시 일반 종량제봉투 **20리터(20L) 1장은 600원**입니다.  \n판매처와 시청 자원순환과에서 최신 가격 및 판매 여부를 확인할 수 있습니다.  \n출처: [화성시청](https://www.hscity.go.kr/)",
+      "responseHash": "9bcd995a2f65c88b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6806,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:39.802Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B04-02",
+      "category": "waste_bag",
+      "question": "화성시 음식물 쓰레기 종량제봉투 2리터 가격은 얼마인가요?",
+      "rep": 3,
+      "response": "화성시 음식물류폐기물 전용 종량제봉투 **2리터 가격은 60원**입니다.  \n판매처·지역에 따라 취급 여부가 다를 수 있으니 구매 전 확인하세요.  \n자세한 사항은 [화성시청 홈페이지](https://www.hscity.go.kr/)의 생활폐기물 안내에서 확인할 수 있습니다.",
+      "responseHash": "a177ee36c4716cf1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3873,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:36.869Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B04-03",
+      "category": "waste_bag",
+      "question": "화성시 종량제봉투는 어디에서 구매할 수 있나요?",
+      "rep": 3,
+      "response": "화성시 종량제봉투는 **지정 판매소로 등록된 편의점·슈퍼마켓·대형마트 등**에서 구매할 수 있습니다. 가까운 판매소는 화성시청 홈페이지에서 **‘종량제봉투 판매소’**를 검색하거나, 거주지 읍·면·동 행정복지센터에 문의해 확인하세요.  \n화성시청: https://www.hscity.go.kr/",
+      "responseHash": "ff0f10ade55b3985",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3947,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:44.563Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B06-01",
+      "category": "senior_bus",
+      "question": "화성시 어르신 버스요금 지원 대상 연령 기준은 몇 세 이상인가요?",
+      "rep": 3,
+      "response": "화성시 어르신 버스요금 지원 대상은 **만 65세 이상** 화성시민입니다.  \n주민등록상 화성시에 거주하는 어르신이 대상이며, 무상교통 카드 발급 및 등록이 필요합니다.  \n자세한 내용은 화성시 무상교통 홈페이지(https://traffic.hscity.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "3d812c6da8952c96",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3120,
+      "citedUrls": [
+        "https://traffic.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:43.736Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B06-02",
+      "category": "senior_bus",
+      "question": "화성시 어르신 교통비(버스비) 지원 한도 금액은 월 얼마인가요?",
+      "rep": 3,
+      "response": "화성시 **어르신 무상교통 지원 한도는 월 최대 3만 원**입니다.  \n만 65세 이상 화성시민이 화성시 무상교통카드로 관내 시내·마을버스를 이용하면 실제 이용요금 범위에서 지원받습니다.  \n자세한 신청·카드 발급 안내는 화성시 무상교통 홈페이지에서 확인할 수 있습니다: https://savebus.hscity.go.kr/",
+      "responseHash": "b87f85c1c5a087bd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5222,
+      "citedUrls": [
+        "https://savebus.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:45.838Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B08-01",
+      "category": "youth_rent",
+      "question": "화성시 청년월세 지원 사업의 월 최대 지원 금액은 얼마인가요?",
+      "rep": 3,
+      "response": "화성시 청년월세 지원사업의 월 최대 지원 금액은 **15만 원**입니다. 지원 기간은 일반적으로 최대 12개월이며, 소득·임차보증금·월세 등 별도 자격요건을 충족해야 합니다. 자세한 내용은 [화성시청 청년정책 안내](https://www.hscity.go.kr)에서 확인해 주세요.",
+      "responseHash": "d2c5ac0879dc1fc2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6076,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:46.692Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B08-02",
+      "category": "youth_rent",
+      "question": "화성시 청년월세 지원 대상자의 연령 기준은 어떻게 되나요?",
+      "rep": 3,
+      "response": "화성시 청년월세 지원의 연령 기준은 **신청일 기준 만 19세 이상 만 34세 이하**입니다. 즉, 출생연도뿐 아니라 신청일의 만 나이로 판단하며, 부모와 별도로 거주하는 무주택 청년이어야 합니다. 다만 사업 공고에 따라 세부 기준이 달라질 수 있으므로 최신 공고를 확인해 주세요.  \n- 화성시청: https://www.hscity.go.kr/  \n- 복지로: https://www.bokjiro.go.kr/",
+      "responseHash": "3e475c450ef63707",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5311,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.bokjiro.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:45.927Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B08-03",
+      "category": "youth_rent",
+      "question": "화성시 청년월세 지원을 받기 위한 소득 기준(기준 중위소득 비율)은 얼마인가요?",
+      "rep": 3,
+      "response": "화성시에서 시행하는 **청년월세 한시 특별지원**의 소득 기준은 **청년가구 기준 중위소득 60% 이하**, **원가구(부모 포함) 기준 중위소득 100% 이하**입니다.  \n다만 만 30세 이상, 혼인·이혼 등으로 부모와 생계를 달리한다고 인정되는 경우에는 원가구 소득 기준을 적용하지 않을 수 있습니다.  \n자세한 신청 자격과 2026년 기준 금액은 [마이홈포털 청년월세 지원 안내](https://www.myhome.go.kr/hws/portal/cont/selectYouthMonthlyRentView.do)에서 확인하거나 화성시·주소지 읍면동 행정복지센터에 문의하세요.",
+      "responseHash": "77ea357fbaa90b0c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5308,
+      "citedUrls": [
+        "https://www.myhome.go.kr/hws/portal/cont/selectYouthMonthlyRentView.do"
+      ],
+      "timestamp": "2026-09-08T00:09:52.813Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B10-01",
+      "category": "night_care",
+      "question": "화성시 야간·휴일 소아진료 의료안내 대표 전화번호는 어디인가요?",
+      "rep": 3,
+      "response": "화성시 야간·휴일 소아진료 의료안내 대표전화는 **031-5189-1200**입니다. 진료 가능한 의료기관과 운영시간을 안내받을 수 있으며, 응급상황은 **119**로 신고하시기 바랍니다. 자세한 내용은 [화성시청 홈페이지](https://www.hscity.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "85b925bede7ad5cb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4970,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:52.474Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B10-02",
+      "category": "night_care",
+      "question": "화성시 야간 당번약국 안내 전화번호는 어디인가요?",
+      "rep": 3,
+      "response": "화성시 야간 당번약국 안내는 **화성시 콜센터 1577-4200**으로 문의하시면 됩니다.  \n현재 운영 중인 약국은 **응급의료포털 E-Gen(https://www.e-gen.or.kr)** 또는 **보건복지상담센터 129**, 긴급한 경우 **119**에서도 확인할 수 있습니다.  \n방문 전 운영 여부와 조제 가능 시간을 전화로 확인하시기 바랍니다.",
+      "responseHash": "c556d1b658c8553e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4593,
+      "citedUrls": [
+        "https://www.e-gen.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:52.097Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B15-01",
+      "category": "festival",
+      "question": "화성시 대표 축제인 동탄 호수공원 물빛축제는 매년 몇 월에 개최되나요?",
+      "rep": 3,
+      "response": "화성시 대표 축제인 **동탄호수공원 물빛축제는 매년 8월경** 개최됩니다. 다만 개최일과 프로그램은 해마다 달라질 수 있으므로, 정확한 일정은 화성시 공식 홈페이지의 축제 공지를 확인하시기 바랍니다.  \n출처: [화성시청](https://www.hscity.go.kr)",
+      "responseHash": "5c9bab04b3101675",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4079,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:51.584Z"
+    },
+    {
+      "tier": "T1-V",
+      "questionId": "V1-B15-02",
+      "category": "festival",
+      "question": "화성시 제부도 해상 관광지 바다갈라짐(모세의 기적) 현상은 하루에 몇 회 발생하나요?",
+      "rep": 3,
+      "response": "화성시 제부도 바다갈라짐(모세의 기적)은 일반적으로 **하루 2회**, 썰물 때 발생합니다. 다만 조석과 날씨에 따라 바닷길이 열리는 시각과 통행 가능 시간이 매일 달라지며, 조차가 작을 때는 통행이 제한될 수 있습니다. 방문 전 국립해양조사원 바다갈라짐 예보에서 해당 날짜의 정확한 시간을 확인하세요: https://www.khoa.go.kr 바િયાદ",
+      "responseHash": "d00c2d5e02120e48",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6635,
+      "citedUrls": [
+        "https://www.khoa.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:09:54.139Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C1-01",
+      "category": "specialty_industry",
+      "question": "화성시에 삼성전자 반도체 공장이 있어? 뭐 하는 곳이야?",
+      "rep": 1,
+      "response": "네, 화성시에는 삼성전자 **화성캠퍼스(반도체 사업장)**가 있습니다. 이곳에서는 메모리·시스템 반도체의 생산뿐 아니라 파운드리(위탁생산) 공정 개발과 반도체 연구·개발도 진행합니다. 특히 첨단 미세공정과 차세대 반도체 기술을 개발·양산하는 핵심 거점 중 하나이며, 일반인이 자유롭게 출입하는 관광시설은 아닙니다. 자세한 내용은 [삼성전자 반도체 공식 홈페이지](https://semiconductor.samsung.com/kr/)에서 확인할 수 있습니다.",
+      "responseHash": "e2941a12771d0d4c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5015,
+      "citedUrls": [
+        "https://semiconductor.samsung.com/kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:59.154Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C1-02",
+      "category": "specialty_industry",
+      "question": "화성시에 현대·기아차 연구소가 있어?",
+      "rep": 1,
+      "response": "네. 화성시 남양읍에 현대자동차그룹의 **남양연구소(현대·기아차 남양 R&D센터)**가 있습니다.  \n차량 설계·시험·개발 등을 담당하는 현대차·기아의 핵심 연구개발 시설이며, 화성시에는 별도로 **기아 오토랜드 화성공장**도 있습니다.  \n공식 안내: [현대자동차그룹 남양연구소](https://www.hyundaimotorgroup.com/ko/innovation/namyang-rnd.hub)",
+      "responseHash": "da10918e086d1dbe",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3787,
+      "citedUrls": [
+        "https://www.hyundaimotorgroup.com/ko/innovation/namyang-rnd.hub"
+      ],
+      "timestamp": "2026-09-08T00:09:57.926Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C1-03",
+      "category": "specialty_industry",
+      "question": "화성시 향남 일반산업단지에 어떤 기업들이 있어?",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6858,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:10:00.997Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C2-01",
+      "category": "landmark",
+      "question": "화성시 동탄 호수공원 규모랑 주요 시설 알려줘",
+      "rep": 1,
+      "response": "화성시 **동탄호수공원은 약 184만㎡** 규모이며, 이 중 호수 면적은 약 **56만㎡**입니다.  \n주요 시설로는 **6km 안팎의 호수 산책로, 수변문화광장, 운답원, 제방가로원, 창포원, 잔디광장, 어린이 물놀이장** 등이 있습니다.  \n특히 야간 경관을 즐길 수 있는 **루나쇼·음악분수**가 대표 볼거리이며, 운영 일정은 계절과 기상 상황에 따라 달라질 수 있습니다.  \n자세한 이용 및 운영 정보는 [화성시 관광 홈페이지](https://tour.hscity.go.kr/)와 [화성시청](https://www.hscity.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "6b3c4e351aa20d28",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5632,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/",
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:09:59.771Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C2-02",
+      "category": "landmark",
+      "question": "화성시 제부도 가는 방법이랑 바다갈라짐 현상 알려줘",
+      "rep": 1,
+      "response": "화성시 제부도는 차량으로 **서해안고속도로 비봉IC에서 나와 서신면·제부도 방향**으로 이동하면 되며, 내비게이션에 ‘제부도 바닷길’ 또는 ‘제부도항’을 검색하면 편리합니다. 대중교통은 수원역·향남 등에서 서신면 방면 버스를 이용한 뒤 제부도 입구에서 시내버스나 택시로 환승하는 방법이 있으므로, 출발 전 **경기버스정보**에서 당일 노선을 확인하세요.  \n제부도 바다갈라짐은 조수간만의 차로 하루 1~2회 바닷길이 드러나는 현상이며, 통행 가능 시간은 날짜마다 달라지고 기상·해상 상황에 따라 변경될 수 있습니다. 방문 당일에는 화성시 관광포털의 **‘제부도 바닷길 통행시간’**을 반드시 확인하고, 통행 종료 전 안전하게 섬 밖으로 나와야 합니다.  \n출처: [화성시 관광포털](https://tour.hscity.go.kr/), [경기버스정보](https://gbis.go.kr/)",
+      "responseHash": "de17f2bac0f57a2c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7165,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/",
+        "https://gbis.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:01.304Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C2-03",
+      "category": "landmark",
+      "question": "화성시 궁평항 먹거리촌 위치랑 특징 알려줘",
+      "rep": 1,
+      "response": "화성시 **궁평항 먹거리촌**은 경기도 화성시 서신면 궁평리 **궁평항 일대(궁평항로 1049-24 주변)**에 있으며, 궁평항 수산물직판장과 항구 주변 음식점들이 모여 있습니다.  \n갓 잡은 **회·해산물, 조개구이, 꽃게·새우 등 수산물 요리**를 맛볼 수 있고, 포장이나 수산물 구매도 가능합니다.  \n항구 산책로와 낙조 명소가 가까워 식사와 함께 **서해 바다 풍경·일몰**을 즐기기 좋은 곳이며, 방문 전 영업시간과 조업에 따른 메뉴 변동을 확인하는 것이 좋습니다.  \n위치 확인: [네이버지도 ‘궁평항 먹거리촌’ 검색](https://map.naver.com/p/search/%EA%B6%81%ED%8F%89%ED%95%AD%20%EB%A8%B9%EA%B1%B0%EB%A6%AC%EC%B4%8C)",
+      "responseHash": "c57a1ec2fdf6b730",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7157,
+      "citedUrls": [
+        "https://map.naver.com/p/search/%EA%B6%81%ED%8F%89%ED%95%AD%20%EB%A8%B9%EA%B1%B0%EB%A6%AC%EC%B4%8C"
+      ],
+      "timestamp": "2026-09-08T00:10:09.273Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C3-01",
+      "category": "local_policy",
+      "question": "화성시 아이낳기 좋은 도시 정책 있어?",
+      "rep": 1,
+      "response": "네. 화성시는 **출산지원금**으로 첫째 100만 원, 둘째 200만 원, 셋째 이상 300만 원을 지원하며, 출생일 기준 부모의 화성시 거주기간 등 요건을 충족해야 합니다.  \n또한 **경기도 산후조리비(출생아 1명당 50만 원 지역화폐)**, 난임 시술비·임신 사전건강관리, 임산부·영유아 건강관리 등도 이용할 수 있습니다.  \n출산지원금은 주소지 읍·면·동 행정복지센터에서 출생신고와 함께 신청하는 것이 일반적이며, 금액과 자격은 변경될 수 있으니 확인이 필요합니다.  \n자세한 내용은 [화성시청](https://www.hscity.go.kr/)에서 ‘출산지원금’ 또는 ‘임신·출산 지원’을 검색하거나 화성시 콜센터(1577-4200)로 문의하세요.",
+      "responseHash": "f615158c24571803",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7077,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:09.193Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C3-02",
+      "category": "local_policy",
+      "question": "화성시 스마트시티 사업 뭐가 있어?",
+      "rep": 1,
+      "response": "화성시의 대표적인 스마트시티 사업은 **스마트시티 통합플랫폼·CCTV 통합관제**를 통한 범죄·재난 대응, **지능형 교통체계(ITS)·스마트 주차·신호관리**, **똑버스 등 수요응답형 교통**, **스마트 버스정류장·스마트폴·스마트 횡단보도** 등입니다.  \n또한 IoT 기반 미세먼지·악취·환경 모니터링, 스마트 가로등과 데이터 기반 도시관리·시민참여 리빙랩 사업도 추진됩니다.  \n사업명과 설치 지역은 연도별로 달라질 수 있으므로 최신 공고는 **화성시청 홈페이지(https://www.hscity.go.kr)**와 **국가 스마트시티 종합포털(https://smartcity.go.kr)**에서 확인하는 것이 정확합니다.",
+      "responseHash": "d1eff1de9ea2ed5d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6354,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://smartcity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:10:08.470Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C3-03",
+      "category": "local_policy",
+      "question": "화성시 동서 균형발전 정책이 뭐야?",
+      "rep": 1,
+      "response": "화성시의 **동서 균형발전 정책**은 동탄 등 동부 신도시권에 집중된 인구·교통·생활SOC와 서부권의 산업·농어촌·해양 자원을 균형 있게 발전시키려는 도시 발전 방향입니다. 주요 내용은 서부권 도로·대중교통 확충, 생활SOC와 의료·교육·문화시설 보강, 산업·관광·해양 분야 육성, 동서 연결 교통망 개선 등입니다. 구체적인 사업은 도시기본계획과 연도별 투자사업에 따라 달라지며, 화성시청의 도시계획·균형발전 관련 공고에서 확인할 수 있습니다.  \n출처: 화성시청 https://www.hscity.go.kr/",
+      "responseHash": "31c5924622f3303a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4003,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:06.119Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C4-01",
+      "category": "heritage",
+      "question": "화성시 융건릉이 뭐고 어디에 있어?",
+      "rep": 1,
+      "response": "화성시 **융건릉(隆健陵)**은 조선 왕실의 능으로, **융릉**에는 사도세자(장조)와 헌경왕후(혜경궁 홍씨), **건릉**에는 정조와 효의왕후가 모셔져 있습니다.  \n경기도 화성시 **효행로 481번길 21(안녕동)**에 있으며, 울창한 숲길과 역사 유적을 함께 둘러볼 수 있는 관광지입니다.  \n자세한 관람 안내는 국가유산청 조선왕릉 누리집에서 확인할 수 있습니다: https://royaltombs.cha.go.kr",
+      "responseHash": "96a758a0d8d19be7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3652,
+      "citedUrls": [
+        "https://royaltombs.cha.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:10:05.768Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C4-02",
+      "category": "heritage",
+      "question": "화성시 용주사의 역사적 의미가 뭐야?",
+      "rep": 1,
+      "response": "화성시 용주사는 신라 문성왕 16년(854)에 창건된 **갈양사**를 바탕으로 하며, 조선 정조가 아버지 사도세자의 능인 융릉을 조성하면서 1790년 왕실 원찰로 중창한 사찰입니다. 정조는 용주사를 통해 사도세자에 대한 효심과 추숭 의지를 표현했으며, 이 때문에 용주사는 오늘날 **조선 왕실의 효 사상과 불교 문화가 결합된 공간**으로 평가됩니다. 또한 국보인 용주사 동종과 정조가 지은 글 등 조선 후기의 역사·예술 자료가 남아 있어 문화재적 가치도 큽니다.  \n출처: 국가유산청 국가유산포털 https://www.heritage.go.kr/",
+      "responseHash": "2bf57e006e74d6c2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5088,
+      "citedUrls": [
+        "https://www.heritage.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:15.173Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C5-01",
+      "category": "geography",
+      "question": "화성시 동탄1동과 동탄2동의 차이가 뭐야?",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6582,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:10:16.667Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C5-02",
+      "category": "geography",
+      "question": "화성시 면적이 경기도에서 몇 번째로 넓어?",
+      "rep": 1,
+      "response": "화성시 면적은 약 **844.6㎢**로, 경기도 31개 시·군 가운데 **두 번째로 넓습니다**.  \n면적이 가장 넓은 곳은 약 877.8㎢인 **양평군**입니다.  \n출처: [KOSIS 국가통계포털](https://kosis.kr)",
+      "responseHash": "d144648aa38a03cf",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3380,
+      "citedUrls": [
+        "https://kosis.kr"
+      ],
+      "timestamp": "2026-09-08T00:10:13.465Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C5-03",
+      "category": "geography",
+      "question": "화성시 인구가 얼마나 돼?",
+      "rep": 1,
+      "response": "화성시 인구는 **주민등록 인구 기준 약 105만 명**으로, 국내 인구 100만 명 이상 도시 중 하나입니다. 정확한 수치는 월별로 변동되며, 외국인 주민을 포함하면 더 많을 수 있습니다. 최신 수치는 [행정안전부 주민등록 인구통계](https://jumin.mois.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "115ad8a92842331f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4124,
+      "citedUrls": [
+        "https://jumin.mois.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:14.209Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C6-01",
+      "category": "local_food",
+      "question": "화성시 궁평항 대표 먹거리가 뭐야?",
+      "rep": 1,
+      "response": "화성시 궁평항의 대표 먹거리는 **싱싱한 활어회와 각종 수산물**, 그리고 **바지락칼국수·조개구이**입니다.  \n궁평항 수산물직판장에서는 꽃게, 새우, 조개류 등을 구입해 먹거나 주변 식당에서 회와 해산물 요리로 즐길 수 있습니다.  \n방문 전 제철 수산물과 영업 여부는 화성시 관광 안내를 확인하세요: [화성시 문화관광](https://tour.hscity.go.kr/)",
+      "responseHash": "305fa7d4c84092ae",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3304,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:13.389Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C6-02",
+      "category": "local_food",
+      "question": "화성시 제부도 맛집이나 특산물 뭐가 있어?",
+      "rep": 1,
+      "response": "화성시 제부도에서는 **바지락칼국수·바지락전·해물파전·회·조개구이·낙지요리**가 대표적인 먹거리입니다.  \n특산물로는 제부도 인근에서 나는 **바지락 등 조개류와 수산물**이 유명하며, 화성 지역 특산품인 **송산포도**도 함께 찾아볼 만합니다.  \n식당은 제부도 해안도로와 선착장 주변에 많이 모여 있고, 방문 전 영업 여부와 물때를 확인하는 것이 좋습니다.  \n관광·축제·교통 정보는 화성시 문화관광 홈페이지에서 확인하세요: https://tour.hscity.go.kr/",
+      "responseHash": "ec279b1bb0bbf222",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4052,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:21.519Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C6-03",
+      "category": "local_food",
+      "question": "화성시 남양읍 전통시장 있어?",
+      "rep": 1,
+      "response": "네, 화성시 남양읍에는 **남양시장**이라는 전통시장이 있습니다. 상설 점포와 함께 5일장 형태로 운영되며, 장날과 영업시간은 점포별로 다를 수 있으니 방문 전 확인하는 것이 좋습니다. 위치와 이용자 후기는 [네이버지도에서 남양시장 확인하기](https://map.naver.com/p/search/%ED%99%94%EC%84%B1%20%EB%82%A8%EC%96%91%EC%8B%9C%EC%9E%A5)에서 확인할 수 있습니다.",
+      "responseHash": "afa446a844bbed77",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5655,
+      "citedUrls": [
+        "https://map.naver.com/p/search/%ED%99%94%EC%84%B1%20%EB%82%A8%EC%96%91%EC%8B%9C%EC%9E%A5"
+      ],
+      "timestamp": "2026-09-08T00:10:23.122Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C7-01",
+      "category": "recent_issue",
+      "question": "화성시 인구 100만 특례시 승격 추진 현황 어떻게 돼?",
+      "rep": 1,
+      "response": "화성시는 2023년 인구 100만 명을 넘어선 뒤 특례시 승격을 추진했으며, 2025년 1월 1일 전국 다섯 번째 특례시로 공식 출범했습니다. 이에 따라 일반 시보다 확대된 조직·행정·재정 권한을 확보하고, 복지급여 기준 완화와 대도시 행정수요에 맞춘 권한 이양을 추진하고 있습니다. 현재는 추가 특례사무 발굴과 정부·경기도 권한 이양 협의가 핵심 과제이며, 특례시 지원 특별법 제정도 함께 요구하고 있습니다.  \n출처: [화성시청](https://www.hscity.go.kr), [국가법령정보센터 지방자치법 제198조](https://www.law.go.kr/법령/지방자치법/제198조)",
+      "responseHash": "29ef0dc346e48524",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6272,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.law.go.kr/법령/지방자치법/제198조"
+      ],
+      "timestamp": "2026-09-08T00:10:23.739Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C7-02",
+      "category": "recent_issue",
+      "question": "화성시 GTX-A 동탄역 개통 현황 알려줘",
+      "rep": 1,
+      "response": "화성시 **GTX-A 동탄역은 2024년 3월 30일 수서~동탄 구간이 개통**되어 현재 운행 중입니다. 동탄역에서 수서역까지 약 **19분**이 소요되며, 동탄역은 SRT와 환승할 수 있습니다. 다만 GTX-A 전 구간(운정중앙~동탄)은 아직 완전히 연결되지 않았고, 현재는 **남부 구간 수서~동탄**과 **북부 구간 운정중앙~서울역**이 나뉘어 운행됩니다. 운행시간·요금 등 최신 정보는 GTX-A 공식 홈페이지에서 확인할 수 있습니다: https://www.gtx-a.com/",
+      "responseHash": "07c8f88d355b8963",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5137,
+      "citedUrls": [
+        "https://www.gtx-a.com/"
+      ],
+      "timestamp": "2026-09-08T00:10:22.604Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C7-03",
+      "category": "recent_issue",
+      "question": "화성시 동탄 트램 추진 현황 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7572,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:10:25.039Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C1-01",
+      "category": "specialty_industry",
+      "question": "화성시에 삼성전자 반도체 공장이 있어? 뭐 하는 곳이야?",
+      "rep": 2,
+      "response": "네. 화성시 반월동에 **삼성전자 화성캠퍼스**가 있으며, 삼성전자의 주요 반도체 연구·생산 거점 중 하나입니다.  \n이곳에서는 메모리·시스템반도체의 첨단 공정 연구와 반도체 제조가 이루어지며, 미세공정·EUV(극자외선) 관련 기술 개발도 진행됩니다. 다만 제품별 생산라인과 기능은 시기에 따라 바뀔 수 있습니다.  \n자세한 내용은 삼성전자 반도체 공식 사이트에서 확인할 수 있습니다: https://semiconductor.samsung.com/kr/about-us/locations/",
+      "responseHash": "0bdfc3920b24baff",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3874,
+      "citedUrls": [
+        "https://semiconductor.samsung.com/kr/about-us/locations/"
+      ],
+      "timestamp": "2026-09-08T00:10:30.423Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C1-02",
+      "category": "specialty_industry",
+      "question": "화성시에 현대·기아차 연구소가 있어?",
+      "rep": 2,
+      "response": "네. 화성시 남양읍에는 현대자동차·기아의 통합 연구개발센터인 **남양연구소**가 있습니다. 차량 설계·시험·신기술 개발 등이 이뤄지는 주요 연구시설이며, 화성시에는 기아의 **오토랜드 화성** 생산공장도 있습니다. 자세한 내용은 [현대자동차그룹 연구개발](https://www.hyundaimotorgroup.com/about-us/rd)에서 확인할 수 있습니다.",
+      "responseHash": "6eff0a24879128a9",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4003,
+      "citedUrls": [
+        "https://www.hyundaimotorgroup.com/about-us/rd"
+      ],
+      "timestamp": "2026-09-08T00:10:30.552Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C1-03",
+      "category": "specialty_industry",
+      "question": "화성시 향남 일반산업단지에 어떤 기업들이 있어?",
+      "rep": 2,
+      "response": "화성시 **향남 일반산업단지(향남제약공단)**에는 제약·바이오 기업이 주로 입주해 있으며, **명문제약·삼진제약·신일제약·알보젠코리아·유유제약·일성신약·일양약품·태극제약·한국파마·한림제약·환인제약** 등이 대표적입니다.  \n다만 입주기업과 공장 소재지는 변경될 수 있어, 전체 기업 명단은 **한국산업단지공단 산업입지정보시스템** 또는 **공장등록정보시스템(Factory On)**에서 ‘화성시 향남읍’으로 조회하는 것이 가장 정확합니다.  \n출처: 산업입지정보시스템 https://www.industryland.or.kr/ · Factory On https://www.factoryon.go.kr/",
+      "responseHash": "929167fa120ab307",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6500,
+      "citedUrls": [
+        "https://www.industryland.or.kr/",
+        "https://www.factoryon.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:33.049Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C2-01",
+      "category": "landmark",
+      "question": "화성시 동탄 호수공원 규모랑 주요 시설 알려줘",
+      "rep": 2,
+      "response": "화성시 **동탄호수공원은 약 56만㎡** 규모이며, 이 중 호수 면적은 약 **18만㎡**입니다.  \n주요 시설로는 **호수 산책로, 수변문화광장, 잔디광장, 야외공연장, 운답원·창포원 등 생태·정원 공간, 어린이 물놀이장, 체육시설과 주차장**이 있습니다.  \n특히 계절별로 운영되는 **루나쇼(음악·조명·분수 공연)**가 대표 볼거리이며, 운영 일정은 변동될 수 있습니다. 자세한 사항은 [화성시청 동탄호수공원 안내](https://www.hscity.go.kr/)에서 확인하세요.",
+      "responseHash": "59cd40bd791b3a13",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5152,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:31.701Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C2-02",
+      "category": "landmark",
+      "question": "화성시 제부도 가는 방법이랑 바다갈라짐 현상 알려줘",
+      "rep": 2,
+      "response": "화성시 제부도는 자가용으로 **서해안고속도로 비봉IC 또는 발안IC에서 제부도 방면**으로 이동하면 되며, 내비게이션에 ‘제부도’ 또는 ‘제부도바닷길’을 검색하면 됩니다. 대중교통은 수원역 등에서 화성시 방면 버스로 이동한 뒤 제부도행 버스·택시로 환승하는 방법이 있고, **서해랑 제부도해상케이블카**를 이용하면 전곡항에서 제부도까지 바다 위로 이동할 수 있습니다. 제부도의 ‘바다갈라짐’은 조수 간만의 차로 바닷길이 하루 1~2회 드러나는 자연현상이며, 통행 가능 시간은 날짜별 물때에 따라 크게 달라집니다. 방문 전 공식 물때표에서 바닷길 통행 시간을 반드시 확인하세요: 제부도 바닷길 안내 **https://www.jebudojt.com/**, 화성시 관광 **https://tour.hscity.go.kr/**.",
+      "responseHash": "9797fdd301fbeab3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7171,
+      "citedUrls": [
+        "https://www.jebudojt.com/**,",
+        "https://tour.hscity.go.kr/**."
+      ],
+      "timestamp": "2026-09-08T00:10:33.720Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C2-03",
+      "category": "landmark",
+      "question": "화성시 궁평항 먹거리촌 위치랑 특징 알려줘",
+      "rep": 2,
+      "response": "화성시 **궁평항 먹거리촌**은 경기도 화성시 서신면 **궁평항로 1049-24 일대**, 궁평항 수산물직판장과 회센터 주변에 형성되어 있습니다.  \n항구에서 바로 들여온 광어·우럭·새우·꽃게 등 신선한 수산물을 회, 조개구이, 해산물 요리 등으로 즐길 수 있는 것이 특징입니다.  \n주변에 궁평항 방파제와 해송·해안 산책로가 있어 식사와 함께 바다 풍경, 낙조, 어촌 분위기를 즐기기 좋으며 주말에는 방문객이 많습니다.  \n위치 확인은 화성시 관광포털 **[화성시 문화관광](https://tour.hscity.go.kr/)** 또는 지도에서 ‘궁평항 수산물직판장’을 검색하면 편리합니다.",
+      "responseHash": "a302d1891ad88515",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5358,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:39.886Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C3-01",
+      "category": "local_policy",
+      "question": "화성시 아이낳기 좋은 도시 정책 있어?",
+      "rep": 2,
+      "response": "네. 화성시는 **출산지원금·출생축하 지원**, 정부의 **첫만남이용권·부모급여·아동수당**, 경기도 **산후조리비**, 아이돌봄서비스·육아종합지원센터 등 임신·출산·보육 지원을 운영하고 있습니다.  \n지원 금액과 대상은 출생일, 거주기간, 자녀 수에 따라 달라질 수 있으므로 신청 전 확인이 필요합니다.  \n자세한 내용과 신청 방법은 [화성시청 임신·출산·보육 안내](https://www.hscity.go.kr) 또는 주소지 읍·면·동 행정복지센터에서 확인하시고, 출산지원금은 **정부24 행복출산 원스톱서비스**로 함께 신청할 수 있습니다.",
+      "responseHash": "c9f201d72ddbe8d3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5854,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:10:40.382Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C3-02",
+      "category": "local_policy",
+      "question": "화성시 스마트시티 사업 뭐가 있어?",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6871,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:10:41.399Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C3-03",
+      "category": "local_policy",
+      "question": "화성시 동서 균형발전 정책이 뭐야?",
+      "rep": 2,
+      "response": "화성시의 **동서 균형발전 정책**은 동탄·병점 등 개발이 빠른 동부권과 상대적으로 생활·교통 인프라가 부족한 서부권의 격차를 줄이려는 시정 방향입니다.  \n서부권에는 도로·대중교통, 공공청사와 생활체육·문화시설, 교육·의료 등 생활SOC를 확충하고, 산업·농어촌·관광 자원을 연계해 지역 일자리를 늘리는 사업이 추진됩니다.  \n동부권에는 인구 증가에 맞춰 교통 혼잡과 주거·환경 문제를 개선하는 방식으로, 지역별 특성에 맞는 균형발전을 목표로 합니다.  \n세부 사업과 추진 일정은 변동될 수 있으므로 화성시 공식 홈페이지의 시정·도시계획 공지를 확인하는 것이 가장 정확합니다: https://www.hscity.go.kr/",
+      "responseHash": "4e19ecbd944ee70d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6069,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:40.597Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C4-01",
+      "category": "heritage",
+      "question": "화성시 융건릉이 뭐고 어디에 있어?",
+      "rep": 2,
+      "response": "화성시 **융건릉**은 조선 왕실의 능으로, **융릉**에는 사도세자(장조)와 혜경궁 홍씨가, **건릉**에는 정조와 효의왕후가 모셔져 있습니다. 조선왕릉의 일부로 유네스코 세계유산에 등재된 역사문화공간입니다. 주소는 **경기도 화성시 효행로 481번길 21(안녕동)**이며, 자세한 관람 정보는 국가유산청 궁능유적본부 홈페이지에서 확인할 수 있습니다: https://royaltombs.cha.go.kr/",
+      "responseHash": "ea34c9f80f3e64c2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4136,
+      "citedUrls": [
+        "https://royaltombs.cha.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:38.664Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C4-02",
+      "category": "heritage",
+      "question": "화성시 용주사의 역사적 의미가 뭐야?",
+      "rep": 2,
+      "response": "화성시 용주사는 신라 문성왕 16년(854년)에 창건된 갈양사를 바탕으로 하며, 병자호란과 임진왜란 등을 거치며 폐사되었다가 조선 정조 때 중창되었습니다. 정조는 아버지 사도세자의 능인 융릉을 조성한 뒤 왕실 원찰로 용주사를 세워 효심을 기리고 능을 보호하게 했습니다. 따라서 용주사는 정조의 효 사상과 왕권 강화, 조선 후기 불교 중흥을 보여주는 역사적 사찰입니다. 특히 ‘용주사 동종’은 국보 제120호로, 사찰의 대표적인 문화유산입니다.  \n출처: 국가유산청 국가유산포털 https://www.heritage.go.kr/",
+      "responseHash": "441d3308408c23c7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3832,
+      "citedUrls": [
+        "https://www.heritage.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:46.037Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C5-01",
+      "category": "geography",
+      "question": "화성시 동탄1동과 동탄2동의 차이가 뭐야?",
+      "rep": 2,
+      "response": "화성시의 **동탄1동과 동탄2동은 서로 다른 행정동**이며, 대체로 동탄신도시의 1기·2기 개발권역에 해당합니다.  \n**동탄1동**은 먼저 조성된 지역으로 아파트·상업시설·학교 등이 비교적 안정적으로 자리 잡은 생활권이고, **동탄2동**은 이후 개발된 지역으로 신축 주거단지와 동탄역(SRT) 주변 시설, 계속 진행 중인 개발이 특징입니다.  \n다만 실제 주소·학교·주민센터 관할은 세부 법정동에 따라 달라질 수 있으므로, 이사나 민원 처리 시에는 주소 기준으로 확인해야 합니다.  \n자세한 행정구역은 [화성시 홈페이지](https://www.hscity.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "92a7a9b852db1e63",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6817,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:10:49.022Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C5-02",
+      "category": "geography",
+      "question": "화성시 면적이 경기도에서 몇 번째로 넓어?",
+      "rep": 2,
+      "response": "화성시는 **경기도 31개 시·군 가운데 면적이 가장 넓어 1위**입니다. 면적은 약 **844㎢**로, 경기도 전체 면적의 약 8%를 차지합니다. 기준 시점에 따라 수치가 조금 달라질 수 있으며, 자세한 행정구역 현황은 [화성시청](https://www.hscity.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "5ea172d1315a2de1",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5606,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:47.812Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C5-03",
+      "category": "geography",
+      "question": "화성시 인구가 얼마나 돼?",
+      "rep": 2,
+      "response": "화성시 인구는 **주민등록 기준 약 106만 명**으로, 경기도에서 인구가 많은 대도시 중 하나입니다. 인구는 매월 변동하며, 외국인 주민을 포함하면 실제 거주 인구는 더 많을 수 있습니다. 정확한 최신 수치는 행정안전부 [주민등록 인구통계](https://jumin.mois.go.kr/)에서 ‘경기도 → 화성시’를 선택해 확인할 수 있습니다.",
+      "responseHash": "6978658388bf25af",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5777,
+      "citedUrls": [
+        "https://jumin.mois.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:47.982Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C6-01",
+      "category": "local_food",
+      "question": "화성시 궁평항 대표 먹거리가 뭐야?",
+      "rep": 2,
+      "response": "화성시 궁평항의 대표 먹거리는 **싱싱한 활어회와 각종 조개·꽃게 등 제철 수산물**입니다. 특히 궁평항 수산물직판장에서 해산물을 구입해 인근 식당에서 회·매운탕·조개구이로 즐기는 방식이 유명하며, **바지락칼국수**도 많이 찾습니다. 수산물 종류와 가격은 계절에 따라 달라질 수 있습니다.  \n출처: [화성시 문화관광](https://tour.hscity.go.kr)",
+      "responseHash": "1db7fee67633a05a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3746,
+      "citedUrls": [
+        "https://tour.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:10:45.952Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C6-02",
+      "category": "local_food",
+      "question": "화성시 제부도 맛집이나 특산물 뭐가 있어?",
+      "rep": 2,
+      "response": "화성시 제부도에서는 **바지락칼국수, 조개구이·회, 낙지·해산물 요리**가 대표적인 먹거리이며, 제부도 해수욕장과 선착장 주변에 식당이 많이 모여 있습니다.  \n화성 지역 특산물로는 **화성 포도, 햇살드리 쌀, 김·수산물, 바지락** 등이 유명하고, 계절에 따라 포도와 수산물의 맛이 특히 좋습니다.  \n식당은 방문 전 영업시간·물때·가격 변동을 확인하는 것이 좋으며, 제부도 통행 가능 시간은 **제부도 바닷길 물때**에 따라 달라집니다.  \n공식 관광 정보는 [화성시 문화관광](https://tour.hscity.go.kr/)과 [제부도 바닷길 통행시간](https://www.hsuco.or.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "9ab4bea956f00cbc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3796,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/",
+        "https://www.hsuco.or.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:53.620Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C6-03",
+      "category": "local_food",
+      "question": "화성시 남양읍 전통시장 있어?",
+      "rep": 2,
+      "response": "네, 화성시 남양읍에는 **남양시장(남양전통시장)**이 있습니다. 상설 점포와 함께 **끝자리가 1일·6일인 날 오일장**이 열리는 것으로 알려져 있습니다. 방문 전 운영 여부와 장날 일정은 화성시청 또는 시장 상인회에 확인하는 것이 좋습니다.  \n출처: [화성시청](https://www.hscity.go.kr/)",
+      "responseHash": "d4e5e1054b713616",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5166,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:10:54.989Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C7-01",
+      "category": "recent_issue",
+      "question": "화성시 인구 100만 특례시 승격 추진 현황 어떻게 돼?",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 9282,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:10:59.106Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C7-02",
+      "category": "recent_issue",
+      "question": "화성시 GTX-A 동탄역 개통 현황 알려줘",
+      "rep": 2,
+      "response": "화성시 **GTX-A 동탄역은 2024년 3월 30일 개통**해 현재 수서~동탄 구간을 운행 중이며, 동탄에서 수서까지 약 20분 내외로 이동할 수 있습니다.  \nGTX-A 전체 노선 중 북부 구간(운정중앙~서울역)도 운행 중이지만, 삼성역을 포함한 남은 구간은 공사 중으로 **전 구간 연결 목표는 2028년**으로 안내되고 있습니다.  \n운행시간·요금·환승 정보는 GTX-A 공식 홈페이지에서 확인할 수 있습니다: https://www.gtx-a.com/",
+      "responseHash": "0d9d4380ff69108f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6478,
+      "citedUrls": [
+        "https://www.gtx-a.com/"
+      ],
+      "timestamp": "2026-09-08T00:10:56.301Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C7-03",
+      "category": "recent_issue",
+      "question": "화성시 동탄 트램 추진 현황 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7648,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:10:57.471Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C1-01",
+      "category": "specialty_industry",
+      "question": "화성시에 삼성전자 반도체 공장이 있어? 뭐 하는 곳이야?",
+      "rep": 3,
+      "response": "네. 경기도 **화성시 삼성전자 화성캠퍼스**에는 반도체 연구·개발 시설과 생산라인이 있으며, 메모리반도체와 시스템반도체(파운드리) 관련 공정 개발·생산을 담당합니다. 특히 첨단 미세공정과 EUV(극자외선) 노광 기술을 적용한 반도체 연구·제조가 이뤄지는 주요 거점입니다. 다만 제품·라인별 운영 내용은 시기에 따라 달라질 수 있습니다.  \n출처: [삼성전자 반도체 캠퍼스 안내](https://semiconductor.samsung.com/about-us/locations/)",
+      "responseHash": "0cd55a6b1f09003e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7353,
+      "citedUrls": [
+        "https://semiconductor.samsung.com/about-us/locations/"
+      ],
+      "timestamp": "2026-09-08T00:11:07.970Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C1-02",
+      "category": "specialty_industry",
+      "question": "화성시에 현대·기아차 연구소가 있어?",
+      "rep": 3,
+      "response": "네. 화성시 남양읍에는 현대자동차·기아의 **남양연구소(남양 R&D센터)**가 있습니다. 차량 연구개발, 디자인, 시험·평가 등을 담당하는 현대차그룹의 주요 연구시설입니다. 자세한 내용은 [현대자동차그룹 남양연구소 안내](https://www.hyundaimotorgroup.com/about-us/innovation/nanyang-rd-center?lang=ko)에서 확인할 수 있습니다.",
+      "responseHash": "4be0b9a687069888",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3071,
+      "citedUrls": [
+        "https://www.hyundaimotorgroup.com/about-us/innovation/nanyang-rd-center?lang=ko"
+      ],
+      "timestamp": "2026-09-08T00:11:03.687Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C1-03",
+      "category": "specialty_industry",
+      "question": "화성시 향남 일반산업단지에 어떤 기업들이 있어?",
+      "rep": 3,
+      "response": "화성시 **향남 일반산업단지(향남제약일반산업단지)**에는 제약·바이오 기업이 주로 입주해 있으며, 대표적으로 **한미약품, 대웅제약, 동국제약, 동아제약, 일동제약** 등이 있습니다. 다만 입주기업은 변경될 수 있고, 같은 향남읍 내 다른 산업단지 기업과 혼동될 수 있어 정확한 전체 명단은 공식 산업단지 입주기업 자료를 확인하는 것이 좋습니다. 최신 입주기업 현황은 **한국산업단지공단 팩토리온**에서 산업단지명을 ‘향남제약일반산업단지’로 검색해 확인할 수 있습니다: https://www.factoryon.go.kr/",
+      "responseHash": "3f860bee6a36a374",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6780,
+      "citedUrls": [
+        "https://www.factoryon.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:07.397Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C2-01",
+      "category": "landmark",
+      "question": "화성시 동탄 호수공원 규모랑 주요 시설 알려줘",
+      "rep": 3,
+      "response": "화성시 **동탄호수공원은 약 181만 8천㎡** 규모이며, 이 중 호수 수면은 약 **18만 4천㎡**입니다. 주요 시설로는 **수변문화광장, 운답원, 현자의 정원, 청록뜰, 창포원, 산책로·자전거도로, 야외 체육시설, 주차장** 등이 있습니다. 특히 야간 음악분수·미디어 연출 시설인 **‘루나쇼’**가 대표 볼거리이며, 운영 일정은 계절과 행사에 따라 달라질 수 있습니다. 자세한 이용·행사 정보는 [화성시 공식 홈페이지](https://www.hscity.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "143f7ada7ed275b4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5147,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:05.763Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C2-02",
+      "category": "landmark",
+      "question": "화성시 제부도 가는 방법이랑 바다갈라짐 현상 알려줘",
+      "rep": 3,
+      "response": "화성시 제부도는 **서해안고속도로 비봉IC에서 나와 남양·사강·서신면 방향으로 이동한 뒤 제부도 진입로**를 이용하면 되며, 대중교통은 수원역·화성 시내에서 서신면 제부도입구까지 간 후 지역버스나 택시를 이용하는 방법이 편리합니다.  \n제부도 진입로는 **하루 두 차례 전후로 조수 간만에 따라 바닷물이 빠질 때 열리는 ‘바다갈라짐’ 도로**이며, 날짜별 통행 가능 시간이 달라 출발 전 반드시 확인해야 합니다.  \n도로가 닫힌 시간에는 **전곡항–제부도 해상케이블카**를 이용할 수 있지만, 운행 여부와 시간표는 당일 확인이 필요합니다.  \n바다갈라짐 시간·교통·관광 정보는 [화성시 관광포털](https://tour.hscity.go.kr), 케이블카는 [제부도해상케이블카](https://www.jebudocablecar.com)에서 확인하세요.",
+      "responseHash": "6692f0f7f317c27c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7943,
+      "citedUrls": [
+        "https://tour.hscity.go.kr",
+        "https://www.jebudocablecar.com"
+      ],
+      "timestamp": "2026-09-08T00:11:08.559Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C2-03",
+      "category": "landmark",
+      "question": "화성시 궁평항 먹거리촌 위치랑 특징 알려줘",
+      "rep": 3,
+      "response": "화성시 **궁평항 먹거리촌**은 경기도 화성시 서신면 **궁평항로 1049-24 일대, 궁평항 수산물직판장 주변**에 형성된 음식점 거리입니다.  \n횟집·조개구이·칼국수·해산물 요리와 수산물 판매장이 모여 있어 갓 잡은 수산물을 맛보기 좋고, 인근에 궁평항 방파제와 해안 산책로도 있습니다.  \n특히 서해 낙조와 바다 풍경을 함께 즐길 수 있으며, 주말에는 방문객이 많아 주차와 대기 시간을 고려하는 것이 좋습니다.  \n위치 확인: [화성시 문화관광](https://tour.hscity.go.kr/) / 지도에서 **‘궁평항 수산물직판장’**을 검색하세요.",
+      "responseHash": "c481b9d840fe1a48",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4553,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:13.915Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C3-01",
+      "category": "local_policy",
+      "question": "화성시 아이낳기 좋은 도시 정책 있어?",
+      "rep": 3,
+      "response": "네. 화성시는 **출산지원금**으로 첫째 100만 원, 둘째 200만 원, 셋째 500만 원, 넷째 이상 1,000만 원을 지원하며, 출생일 기준 부모의 화성시 거주기간 등 요건을 충족해야 합니다.  \n또한 경기도 **산후조리비(출생아 1명당 50만 원 지역화폐)**, 국가의 **첫만남이용권·부모급여·아동수당**도 함께 받을 수 있습니다.  \n신청은 출생신고 시 행정복지센터에서 안내받거나 정부24·복지로를 통해 확인할 수 있으며, 지원금액과 거주요건은 변경될 수 있으니 화성시 공식 안내를 확인하세요.  \n출처: [화성시 복지포털](https://www.hscity.go.kr), [정부24 행복출산 원스톱서비스](https://www.gov.kr)",
+      "responseHash": "9733cc7e2ac8a4db",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6287,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.gov.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:15.649Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C3-02",
+      "category": "local_policy",
+      "question": "화성시 스마트시티 사업 뭐가 있어?",
+      "rep": 3,
+      "response": "화성시의 주요 스마트시티 사업으로는 **스마트도시 통합플랫폼**, 방범·재난 대응을 위한 **CCTV 영상 연계**, **스마트 교통·주차·횡단보도**, 시민 참여형 **리빙랩 사업** 등이 있습니다. 또한 동탄·송산그린시티 등 신도시를 중심으로 IoT 기반 도시관리, 교통정보, 에너지·환경 관리 서비스를 확대하고 있습니다. 사업 내용과 추진 시기는 매년 달라질 수 있으므로 최신 공고는 화성시 홈페이지에서 ‘스마트도시’ 또는 ‘스마트시티’를 검색해 확인하는 것이 가장 정확합니다.  \n출처: [화성시청](https://www.hscity.go.kr/), [국가스마트도시위원회 스마트시티 종합포털](https://smartcity.go.kr/)",
+      "responseHash": "604301c83c897893",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5262,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://smartcity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:14.624Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C3-03",
+      "category": "local_policy",
+      "question": "화성시 동서 균형발전 정책이 뭐야?",
+      "rep": 3,
+      "response": "화성시의 **동서 균형발전 정책**은 동탄 등 개발이 빠른 동부권과 상대적으로 생활·교통 인프라가 부족한 서부·남부권의 격차를 줄이기 위한 종합 정책입니다. 주요 내용은 서부권의 도로·대중교통과 생활SOC 확충, 산업·일자리 및 해양·관광 자원 개발, 동부권과 서부권을 연결하는 광역교통망 강화 등입니다. 또한 읍·면 지역의 교육·문화·의료·복지 서비스를 보완해 시민이 지역에 관계없이 기본적인 생활서비스를 이용하도록 하는 데 목적이 있습니다. 세부 사업과 추진 현황은 화성시청 공식 홈페이지의 시정·균형발전 관련 공지를 확인하는 것이 가장 정확합니다: https://www.hscity.go.kr/",
+      "responseHash": "12dab4a2abe93c16",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5773,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:15.135Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C4-01",
+      "category": "heritage",
+      "question": "화성시 융건릉이 뭐고 어디에 있어?",
+      "rep": 3,
+      "response": "융건릉은 조선 왕실의 왕릉으로, **융릉**에는 사도세자(장조)와 혜경궁 홍씨(헌경왕후), **건릉**에는 정조와 효의왕후가 모셔져 있습니다. 경기도 화성시 **효행로481번길 21(안녕동)**에 있으며, 울창한 숲길과 역사 유적을 함께 둘러볼 수 있습니다. 조선왕릉의 하나로 유네스코 세계유산에 등재되어 있습니다. 자세한 관람 정보는 국가유산청 궁능유적본부 홈페이지(https://royaltombs.cha.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "6011da93950306bc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4441,
+      "citedUrls": [
+        "https://royaltombs.cha.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:13.803Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C4-02",
+      "category": "heritage",
+      "question": "화성시 용주사의 역사적 의미가 뭐야?",
+      "rep": 3,
+      "response": "화성시 용주사는 신라 문성왕 16년(854)에 창건된 갈양사 터에 세워진 사찰로, 고려·조선 시대를 거치며 역사성을 이어왔습니다. 특히 정조가 아버지 사도세자의 명복을 빌고 현륭원(현재 융릉)을 보호하기 위해 1790년 중창하면서 왕실 원찰이 되었고, 정조의 효심과 개혁정치가 반영된 공간이라는 점에서 의미가 큽니다. 또한 정조 시대 불교 중흥의 상징이자, 왕릉·행궁과 연계된 화성 지역의 대표적인 역사문화 유산입니다. 자세한 내용은 한국민족문화대백과사전의 ‘용주사’를 참고하세요: https://encykorea.aks.ac.kr/Article/E0039397",
+      "responseHash": "9f9c5c234932d0e0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4620,
+      "citedUrls": [
+        "https://encykorea.aks.ac.kr/Article/E0039397"
+      ],
+      "timestamp": "2026-09-08T00:11:21.075Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C5-01",
+      "category": "geography",
+      "question": "화성시 동탄1동과 동탄2동의 차이가 뭐야?",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7483,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:11:23.938Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C5-02",
+      "category": "geography",
+      "question": "화성시 면적이 경기도에서 몇 번째로 넓어?",
+      "rep": 3,
+      "response": "화성시는 **경기도 31개 시·군 중 면적 기준으로 2번째로 넓습니다.**  \n면적은 약 **844.6㎢**이며, 경기도에서 가장 넓은 곳은 약 **877.7㎢인 양평군**입니다.  \n※ 기준연도와 행정구역 조정에 따라 면적 수치는 일부 달라질 수 있습니다. 출처: [국가통계포털 KOSIS](https://kosis.kr/index/index.do)",
+      "responseHash": "c1be4a00a4b6d573",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6261,
+      "citedUrls": [
+        "https://kosis.kr/index/index.do"
+      ],
+      "timestamp": "2026-09-08T00:11:22.716Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C5-03",
+      "category": "geography",
+      "question": "화성시 인구가 얼마나 돼?",
+      "rep": 3,
+      "response": "화성시는 **주민등록 인구 기준 약 106만 명**으로, 경기도에서 인구가 많은 도시 중 하나입니다.  \n정확한 수치는 매월 변동되며, 주민등록 인구에는 외국인 인구가 포함되지 않습니다.  \n최신 월별 인구는 행정안전부 **주민등록 인구통계**에서 확인할 수 있습니다: https://jumin.mois.go.kr/",
+      "responseHash": "782b041449814c02",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4288,
+      "citedUrls": [
+        "https://jumin.mois.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:20.743Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C6-01",
+      "category": "local_food",
+      "question": "화성시 궁평항 대표 먹거리가 뭐야?",
+      "rep": 3,
+      "response": "화성시 궁평항의 대표 먹거리는 **싱싱한 활어회와 각종 해산물**이며, 수산물직판장·회센터에서 바로 맛볼 수 있습니다. 계절에 따라 **꽃게, 대하, 전어, 낙지, 바지락** 등이 많이 나고, 바지락칼국수와 조개구이도 인기 메뉴입니다. 방문 시 계절별 판매 어종과 가격이 달라질 수 있으니 현장에서 확인하는 것이 좋습니다.  \n출처: 화성시 문화관광 홈페이지 https://tour.hscity.go.kr/",
+      "responseHash": "831a058e07001b0e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3160,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:19.615Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C6-02",
+      "category": "local_food",
+      "question": "화성시 제부도 맛집이나 특산물 뭐가 있어?",
+      "rep": 3,
+      "response": "제부도에서는 **바지락칼국수, 해물파전, 조개구이, 낙지·소라 등 제철 해산물**을 맛보는 것이 대표적입니다.  \n특산물로는 **제부도 바지락과 수산물**, 화성시 전체 특산물인 **송산포도, 햇살드리 쌀, 화성 배** 등이 있습니다.  \n식당은 제부도 입구와 해안도로 주변에 많이 모여 있으며, 물때에 따라 차량 통행과 영업시간이 달라질 수 있으니 방문 전 확인하세요.  \n공식 관광정보: 화성시 문화관광 https://tour.hscity.go.kr/ (사이트에서 ‘제부도’ 또는 ‘먹거리’ 검색)",
+      "responseHash": "7ddfec1fe0cc3448",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4939,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:29.682Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C6-03",
+      "category": "local_food",
+      "question": "화성시 남양읍 전통시장 있어?",
+      "rep": 3,
+      "response": "네, 화성시 남양읍에는 **남양시장**이 있습니다. 남양읍 중심지에 위치한 전통시장으로, 농수산물·식료품·생활용품 등을 판매하는 점포들이 운영됩니다. 운영시간과 장날은 점포별로 다를 수 있으므로 방문 전 확인하는 것이 좋습니다.  \n출처: [화성시청](https://www.hscity.go.kr/www/index.do)",
+      "responseHash": "bc42d332d9dd05ab",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4010,
+      "citedUrls": [
+        "https://www.hscity.go.kr/www/index.do"
+      ],
+      "timestamp": "2026-09-08T00:11:28.753Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C7-01",
+      "category": "recent_issue",
+      "question": "화성시 인구 100만 특례시 승격 추진 현황 어떻게 돼?",
+      "rep": 3,
+      "response": "화성시는 주민등록 인구 100만 명을 넘어 **2025년 1월 1일 ‘화성특례시’로 공식 출범**했으므로, 현재는 ‘승격 추진’ 단계가 아니라 특례시 권한 확대·정착 단계입니다. 특례시가 되면서 대도시 규모에 맞는 행정·복지·도시계획 분야의 일부 권한과 재정 특례를 적용받고 있으며, 추가 특례사무 확보를 정부에 계속 건의하고 있습니다. 관련 사항은 화성시청 특례시 안내 및 행정안전부 지방자치제도 자료에서 확인할 수 있습니다.  \n- 화성시: https://www.hscity.go.kr  \n- 행정안전부: https://www.mois.go.kr",
+      "responseHash": "6c05405994bd1421",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5798,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.mois.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:30.541Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C7-02",
+      "category": "recent_issue",
+      "question": "화성시 GTX-A 동탄역 개통 현황 알려줘",
+      "rep": 3,
+      "response": "화성시 **GTX-A 동탄역은 2024년 3월 30일 개통**했으며, 현재 **동탄~수서 구간이 정상 운행 중**입니다.  \n동탄역에서 수서역까지 약 20분 내외로 이동할 수 있고, 동탄역은 현재 GTX-A 남부 구간의 종착역입니다.  \n파주 운정~서울역 구간도 2024년 12월 개통했지만, **삼성역을 포함한 수서~서울역 구간이 아직 공사 중이어서 동탄에서 서울역까지 직결 운행은 하지 않습니다**.  \n자세한 운행시간과 요금은 [GTX-A 공식 홈페이지](https://www.gtx-a.com/) 또는 [SRT·수도권전철 통합검색](https://www.letskorail.com/)에서 확인할 수 있습니다.",
+      "responseHash": "c2ec8bf0390d3bbf",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5930,
+      "citedUrls": [
+        "https://www.gtx-a.com/",
+        "https://www.letskorail.com/"
+      ],
+      "timestamp": "2026-09-08T00:11:30.673Z"
+    },
+    {
+      "tier": "T2",
+      "questionId": "H-C7-03",
+      "category": "recent_issue",
+      "question": "화성시 동탄 트램 추진 현황 알려줘",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7494,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:11:32.237Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A1",
+      "category": "recommendation",
+      "question": "경기도에서 살기 좋은 도시 3곳 추천해줘",
+      "rep": 1,
+      "response": "개인의 직장 위치·예산·자녀 교육 여부에 따라 다르지만, 경기도에서는 다음 3곳을 추천합니다.  \n1. **수원시**: 광역교통과 생활 인프라가 잘 갖춰져 있고, 상권·문화시설·공원 이용이 편리한 경기도 대표 생활도시입니다([수원시](https://www.suwon.go.kr)).  \n2. **성남시**: 판교·분당의 일자리와 교육·의료 인프라가 강점이며, 서울 접근성이 좋아 직장인과 가족 단위 거주자에게 적합합니다([성남시](https://www.seongnam.go.kr)).  \n3. **고양시**: 일산신도시의 넓은 주거환경과 호수공원·문화시설, 서울 서북권 접근성이 장점으로 쾌적한 생활을 선호할 때 좋습니다([고양시](https://www.goyang.go.kr)).",
+      "responseHash": "c09f65d24493b5cf",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3995,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.seongnam.go.kr",
+        "https://www.goyang.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:36.232Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A2",
+      "category": "recommendation",
+      "question": "경기도에서 자연·해양 관광하기 좋은 곳 어디야?",
+      "rep": 1,
+      "response": "경기도의 자연 관광지는 **가평 아침고요수목원·남이섬**, **포천 국립수목원**, **광주 화담숲**, **양평 두물머리**가 좋습니다.  \n해양 관광은 서해안의 **안산 대부도·구봉도**, **화성 제부도·궁평항**, **시흥 오이도**를 추천하며, 갯벌 체험·해변 산책·일몰 감상이 가능합니다.  \n특히 제부도는 바닷길 통행 시간이 조수에 따라 달라지고, 대부도·궁평항은 주말 교통이 혼잡할 수 있으니 방문 전 물때와 교통을 확인하세요.  \n여행 코스와 운영 정보는 [경기관광 홈페이지](https://ggtour.or.kr/)와 [경기도 해양관광 안내](https://www.ggtour.or.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "f615c4115333ebf7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4374,
+      "citedUrls": [
+        "https://ggtour.or.kr/",
+        "https://www.ggtour.or.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:36.611Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A3",
+      "category": "recommendation",
+      "question": "한국에서 바다 갈라지는 현상을 볼 수 있는 곳이 어디야?",
+      "rep": 1,
+      "response": "한국에서 바다 갈라짐 현상으로 유명한 곳은 **전남 진도 신비의 바닷길**, **충남 보령 무창포해수욕장**, **경기 화성 제부도**, **경남 통영 소매물도·서건도**, **인천 실미도** 등이 있습니다.  \n특히 진도와 무창포는 축제가 열릴 만큼 규모가 크며, 제부도는 바닷길이 열릴 때 차량이나 도보로 이동할 수 있습니다.  \n현상은 음력 보름·그믐 전후 등 조수 간만의 차가 큰 날에 주로 나타나므로 방문 전 국립해양조사원의 **바다갈라짐 예보**와 각 지자체 공지를 반드시 확인하세요.  \n국립해양조사원: https://www.khoa.go.kr/iny/ntt/selectNttList.do?mi=24845",
+      "responseHash": "b2039a008a2f4e46",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4286,
+      "citedUrls": [
+        "https://www.khoa.go.kr/iny/ntt/selectNttList.do?mi=24845"
+      ],
+      "timestamp": "2026-09-08T00:11:36.523Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B1",
+      "category": "association",
+      "question": "화성시 하면 뭐가 떠올라? 세 가지 말해줘",
+      "rep": 1,
+      "response": "1. **제부도**: 바닷길이 열리는 독특한 관광지  \n2. **동탄신도시**: 첨단 도시개발과 주거 중심지  \n3. **화성 공룡알 화석산지**: 공룡알 화석이 발견된 자연유산",
+      "responseHash": "904429e29d3b01d4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1537,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:11:33.774Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B2",
+      "category": "association",
+      "question": "화성시의 슬로건이나 이미지가 뭐야?",
+      "rep": 1,
+      "response": "화성시를 대표하는 슬로건은 **“희망화성”**이며, 민선 8기 시정구호는 **“내 삶을 바꾸는 희망화성”**입니다.  \n2025년부터는 특례시 승격에 맞춰 **“화성특례시”**라는 도시 브랜드도 함께 강조하고 있습니다.  \n화성시는 첨단산업과 기업도시, 빠르게 성장하는 젊은 도시이면서도 서해안·습지·농촌 등 자연환경이 공존하는 도시라는 이미지를 갖고 있습니다.  \n공식 홈페이지: [화성특례시](https://www.hscity.go.kr)",
+      "responseHash": "a48bd6822a9b927d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5326,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:37.564Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C1",
+      "category": "keyword_entry",
+      "question": "한국에서 반도체 공장이 있는 도시 알려줘",
+      "rep": 1,
+      "response": "한국의 대표적인 반도체 공장 소재 도시는 다음과 같습니다.  \n- **경기 평택·화성·용인·이천·부천**: 삼성전자, SK하이닉스, DB하이텍 등의 생산·연구·후공정 거점이 있습니다(용인 반도체 클러스터는 단계적으로 조성 중).  \n- **충북 청주**: SK하이닉스와 키파운드리·매그나칩 등의 반도체 공장이 있습니다.  \n- **경북 구미**: SK실트론의 웨이퍼 생산공장과 관련 소재·부품 기업이 밀집해 있습니다.  \n- **충남 아산·경기 오산** 등에도 삼성전자 반도체 후공정 및 관련 사업장이 있으며, 자세한 사업장 정보는 [삼성전자 사업장 안내](https://semiconductor.samsung.com/about-us/locations/)와 [SK하이닉스](https://news.skhynix.com/)에서 확인할 수 있습니다.",
+      "responseHash": "3258935507743404",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5642,
+      "citedUrls": [
+        "https://semiconductor.samsung.com/about-us/locations/",
+        "https://news.skhynix.com/"
+      ],
+      "timestamp": "2026-09-08T00:11:44.012Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C2",
+      "category": "keyword_entry",
+      "question": "경기도에서 인구가 가장 빠르게 증가하는 도시는?",
+      "rep": 1,
+      "response": "최근 주민등록 인구 증가 규모를 기준으로 보면 **경기도에서는 화성시가 가장 빠르게 성장하는 도시로 꼽힙니다.** 동탄신도시와 송산·향남 등 택지개발, 산업단지 확대로 인구가 꾸준히 유입되고 있습니다. 다만 ‘증가 인원’과 ‘증가율’ 중 어떤 기준인지, 비교 기간을 어떻게 잡는지에 따라 양주시·평택시 등이 달라질 수 있으므로 최신 수치는 행정안전부 주민등록 인구통계에서 확인하는 것이 정확합니다: https://jumin.mois.go.kr/",
+      "responseHash": "bdaca7d3cbfbe1cb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4722,
+      "citedUrls": [
+        "https://jumin.mois.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:43.092Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C3",
+      "category": "keyword_entry",
+      "question": "수도권에서 GTX로 접근할 수 있는 신도시 알려줘",
+      "rep": 1,
+      "response": "현재 GTX로 접근하기 좋은 주요 신도시는 다음과 같습니다.  \n\n- **GTX-A 운정중앙역**: 파주 **운정신도시**  \n- **GTX-A 동탄역**: 화성 **동탄2신도시**  \n- **GTX-A 성남역**: 성남 **판교·위례 생활권**과 인접  \n- **GTX-A 창릉역(예정)**: 고양 **창릉신도시**  \n- **GTX-B 왕숙역(예정)**: 남양주 **왕숙신도시**  \n- **GTX-C 덕정역 연계**: 양주 **옥정·회천신도시**  \n\n현재 실제 운행 중인 노선은 GTX-A의 운정중앙~서울역 및 수서~동탄 구간이며, GTX-B·C와 창릉역 등은 사업 일정에 따라 개통 시기가 달라질 수 있습니다. 자세한 노선·역 위치는 국토교통부 GTX 공식 홈페이지(https://www.gtx.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "24b73527f5bcf9c4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6472,
+      "citedUrls": [
+        "https://www.gtx.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:44.842Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D1",
+      "category": "scenario",
+      "question": "서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘",
+      "rep": 1,
+      "response": "강남 출퇴근을 최우선으로 하면 **성남 판교·분당신도시**가 가장 무난합니다. 신분당선으로 강남역까지 판교 약 15분, 정자 약 20분대이며 업무·상업·교육 인프라도 잘 갖춰져 있습니다(혼잡 시간대 실제 소요는 달라질 수 있음).  \n**위례신도시**는 강남 접근성이 좋고 주거환경이 쾌적하지만 지하철역이 생활권에 따라 멀 수 있으며, **수원 광교신도시**는 신분당선 이용 시 강남까지 약 40~50분으로 더 넓은 주거환경을 선호할 때 적합합니다.  \n교통·노선 정보는 서울교통공사(https://www.seoulmetro.co.kr)와 경기교통공사(https://www.gtrans.or.kr)에서 확인해 보세요.",
+      "responseHash": "d3b254506deeb94e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3596,
+      "citedUrls": [
+        "https://www.seoulmetro.co.kr",
+        "https://www.gtrans.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:41.967Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D2",
+      "category": "scenario",
+      "question": "아이 키우기 좋은 경기도 신도시 어디야?",
+      "rep": 1,
+      "response": "아이 키우기 좋은 경기도 신도시로는 **광교·동탄·판교·다산·운정**을 많이 꼽습니다.  \n- **광교**: 호수공원·녹지와 생활 인프라가 좋고 수원·용인 접근성이 우수합니다.  \n- **동탄**: 신축 주거지, 학교·학원·공원·상업시설이 잘 갖춰져 있으며 삼성전자 출퇴근에 유리합니다.  \n- **판교**: 교육·의료·교통 여건이 뛰어나지만 집값과 생활비가 높은 편입니다.  \n- **다산·운정**: 상대적으로 주거비 부담이 낮고 신축 아파트와 공원이 많지만, 직장 위치에 따라 출퇴근 시간을 꼭 확인해야 합니다.  \n\n참고로 학교 배정과 통학 여건은 단지별로 다르므로 **경기도교육청 학교알리미**(https://www.schoolinfo.go.kr)와 **국토교통부 실거래가 공개시스템**(https://rt.molit.go.kr)에서 확인하는 것이 좋습니다.",
+      "responseHash": "15196f69654bad09",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4010,
+      "citedUrls": [
+        "https://www.schoolinfo.go.kr",
+        "https://rt.molit.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:42.380Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D3",
+      "category": "scenario",
+      "question": "자동차 산업 취업하려면 어느 도시에 가야 해?",
+      "rep": 1,
+      "response": "한국 자동차 산업 취업이라면 **연구개발·소프트웨어는 경기 남부(화성·평택·용인·성남)**, 완성차 생산은 **울산·광주·아산**을 우선 보세요. **울산은 현대자동차와 부품업체**, **광주는 기아·특수차량 관련 산업**, **아산은 현대차 생산 및 부품업체**, **창원·대구·부산은 자동차 부품·전장 기업**이 비교적 많습니다. 생산·품질·정비 직무는 산업단지 인근 도시가 유리하고, 자율주행·배터리·전장·소프트웨어 직무는 수도권과 대구·창원 등 관련 클러스터를 함께 확인하는 것이 좋습니다. 채용공고는 [워크넷](https://www.work.go.kr)과 각 지자체 일자리 포털에서 지역·직무별로 검색해 보세요.",
+      "responseHash": "a0b5df42b8475734",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4803,
+      "citedUrls": [
+        "https://www.work.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:50.460Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E1",
+      "category": "comparison",
+      "question": "동탄과 광교 중 가족이 살기 좋은 곳은?",
+      "rep": 1,
+      "response": "가족 생활의 **안정적인 정주환경과 자연·문화시설**을 중시하면 광교가, **넓은 신축 주거·상대적으로 다양한 주택 선택지와 서울·삼성권 출퇴근**을 중시하면 동탄이 유리합니다.  \n광교는 호수공원, 광교산, 백화점·공공기관 등 생활 인프라가 잘 갖춰져 있고 학군·주거환경이 안정적인 편이지만, 주거비가 높은 편입니다.  \n동탄은 신축 아파트와 상업시설, 어린이·가족 대상 시설이 많고 동탄역 SRT 및 GTX-A(운영 구간 확인 필요) 이용이 장점이지만, 지역에 따라 교통 혼잡과 학교·생활 인프라 편차를 확인해야 합니다.  \n어린 자녀 중심의 쾌적한 생활은 **광교**, 넓은 집과 신도시형 편의시설·교통 확장성을 중시하면 **동탄**을 우선 비교해 보세요. 자세한 교통은 [국토교통부 GTX-A](https://www.gtx-a.com), 지역 시설은 [수원시](https://www.suwon.go.kr)·[화성시](https://www.hscity.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "081af5b533e49249",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3781,
+      "citedUrls": [
+        "https://www.gtx-a.com",
+        "https://www.suwon.go.kr",
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:49.438Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E2",
+      "category": "comparison",
+      "question": "화성시와 평택시의 차이점이 뭐야?",
+      "rep": 1,
+      "response": "화성시는 서울 남서쪽에 위치하며 동탄신도시, 서해안·제부도, 삼성전자·현대·기아 등 산업과 신도시가 함께 발달한 도시입니다.  \n평택시는 화성시보다 남쪽에 있으며 평택항, 주한미군 험프리스 기지, 삼성전자 평택캠퍼스와 물류·항만 산업이 주요 특징입니다.  \n교통 측면에서는 화성시가 동탄을 중심으로 수도권 동남부와 가깝고, 평택시는 경부선·SRT·평택항을 통한 남부권 물류 거점 성격이 강합니다.  \n즉, 화성시는 **신도시·주거·자동차·바이오·서해 관광**, 평택시는 **항만·물류·반도체·미군기지** 중심의 차이가 큽니다.  \n출처: [화성시청](https://www.hscity.go.kr), [평택시청](https://www.pyeongtaek.go.kr)",
+      "responseHash": "24abbdf9f16567cf",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4093,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.pyeongtaek.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:49.750Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F1",
+      "category": "negative_test",
+      "question": "화성시의 단점이나 주의할 점 알려줘",
+      "rep": 1,
+      "response": "화성시는 면적이 넓고 동탄·향남·남양·송산 등 생활권이 분산되어 있어, 거주지에 따라 대중교통·병원·문화시설 접근성 차이가 큰 편입니다.  \n출퇴근 시간에는 서울·수원·평택 방면 주요 도로와 산업단지 주변 교통이 혼잡할 수 있으며, 자가용 의존도가 높다는 점도 고려해야 합니다.  \n삼성전자·현대차 등 산업시설과 항만·물류시설 인근은 소음·분진·화물차 통행 및 대기질을 확인하는 것이 좋고, 개발 지역은 공사 소음과 생활 기반시설 확충 시기를 함께 살펴야 합니다.  \n이사나 투자 전에는 화성시 생활지도·통계와 에어코리아, 경기교통정보에서 해당 읍·면·동의 교통·대기질·시설 현황을 확인하세요: [화성시청](https://www.hscity.go.kr), [에어코리아](https://www.airkorea.or.kr), [경기교통정보](https://gits.gg.go.kr).",
+      "responseHash": "8828f49ee9afab3a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4094,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.airkorea.or.kr",
+        "https://gits.gg.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:49.751Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F2",
+      "category": "negative_test",
+      "question": "동탄에서 살면 불편한 점이 뭐야?",
+      "rep": 1,
+      "response": "동탄은 신도시라 주거환경은 쾌적하지만, 출퇴근 시간 경부고속도로·동탄대로 등의 교통정체와 주차난이 불편할 수 있습니다.  \n서울 접근성은 SRT와 GTX-A(동탄~수서) 덕분에 좋아졌지만, 이용역까지 이동해야 하고 교통비 부담이 있으며 서울 도심·강북권은 환승이 필요할 수 있습니다.  \n단지별로 상권과 병원·문화시설 편차가 있고, 일부 지역은 상가 공실이나 공사로 생활권이 아직 완전히 자리 잡지 않은 곳도 있습니다.  \n또한 동탄은 면적이 넓어 대중교통만 이용하면 동탄역·동탄호수공원 등 주요 시설 간 이동이 불편할 수 있으니 거주 예정 단지의 버스 노선과 출퇴근 경로를 미리 확인하는 것이 좋습니다. 자세한 교통 정보는 [화성시 버스정보](https://its.hscity.go.kr/)와 [GTX-A 공식 홈페이지](https://www.gtx-a.com/)에서 확인할 수 있습니다.",
+      "responseHash": "c1f7a0615dc51c9a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4298,
+      "citedUrls": [
+        "https://its.hscity.go.kr/",
+        "https://www.gtx-a.com/"
+      ],
+      "timestamp": "2026-09-08T00:11:49.956Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A1",
+      "category": "recommendation",
+      "question": "경기도에서 살기 좋은 도시 3곳 추천해줘",
+      "rep": 2,
+      "response": "경기도에서 살기 좋은 도시로는 **수원시, 성남시, 고양시**를 추천합니다.  \n**수원시**는 교통·상업·문화시설이 균형 있고, **성남시**는 판교의 일자리와 우수한 생활·교육 인프라가 강점입니다.  \n**고양시**는 서울 접근성이 좋고 호수공원 등 녹지와 주거환경이 쾌적해 가족 단위 거주에 적합합니다.  \n다만 직장 위치, 주거비, 자녀 교육 여부에 따라 체감이 달라지므로 경기도청 생활정보(https://www.gg.go.kr)와 각 시청 홈페이지를 함께 확인해 보세요.",
+      "responseHash": "5671e211a77b6f82",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3402,
+      "citedUrls": [
+        "https://www.gg.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:11:55.377Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A2",
+      "category": "recommendation",
+      "question": "경기도에서 자연·해양 관광하기 좋은 곳 어디야?",
+      "rep": 2,
+      "response": "경기도에서 자연 관광은 **가평 남이섬·아침고요수목원**, **양평 두물머리**, **포천 한탄강 주상절리길**이 좋고, 산책·경관 감상에 적합합니다.  \n해양 관광은 **안산 대부도·탄도항**, **화성 제부도·궁평항**, **시흥 오이도**를 추천하며 갯벌체험, 낙조, 해산물 관광을 함께 즐길 수 있습니다.  \n특히 제부도는 물때에 따라 바닷길 통행 시간이 달라 방문 전 물때를 확인해야 합니다.  \n관광지 운영시간·교통·물때 정보는 경기관광공사 공식 사이트에서 확인하세요: https://ggtour.or.kr/",
+      "responseHash": "fe547459a33d6b08",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4530,
+      "citedUrls": [
+        "https://ggtour.or.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:56.505Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A3",
+      "category": "recommendation",
+      "question": "한국에서 바다 갈라지는 현상을 볼 수 있는 곳이 어디야?",
+      "rep": 2,
+      "response": "한국에서 바다 갈라짐 현상으로 유명한 곳은 **전남 진도 신비의 바닷길(회동–모도)**, **충남 보령 무창포해수욕장**, **인천 실미도**, **경기 화성 제부도**, **충남 서산 웅도** 등이 있습니다.  \n썰물 때 바닷길이 드러나는 현상이라 날짜와 시간이 매일 달라지며, 특히 진도와 무창포는 조석표와 현지 안내를 반드시 확인해야 합니다.  \n관광 정보와 바다 갈라짐 일정은 한국관광공사에서 확인할 수 있습니다: https://korean.visitkorea.or.kr/search/search_list.do?keyword=바다갈라짐  \n진도군 관광정보: https://www.jindo.go.kr/tour/",
+      "responseHash": "b3ae60b18624e880",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5147,
+      "citedUrls": [
+        "https://korean.visitkorea.or.kr/search/search_list.do?keyword=바다갈라짐",
+        "https://www.jindo.go.kr/tour/"
+      ],
+      "timestamp": "2026-09-08T00:11:57.122Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B1",
+      "category": "association",
+      "question": "화성시 하면 뭐가 떠올라? 세 가지 말해줘",
+      "rep": 2,
+      "response": "1. **제부도·궁평항** 같은 서해안 관광지  \n2. **화성행궁이 아닌 융건릉·용주사** 등 역사 유적  \n3. **동탄신도시**와 삼성전자 화성캠퍼스 같은 첨단산업 지역",
+      "responseHash": "62cdc3b648a4fa7a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1664,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:11:53.639Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B2",
+      "category": "association",
+      "question": "화성시의 슬로건이나 이미지가 뭐야?",
+      "rep": 2,
+      "response": "화성시의 대표적인 시정 슬로건은 **“내 삶을 바꾸는 희망화성”**입니다.  \n화성시는 이를 바탕으로 **첨단산업과 교통이 발전하는 미래도시**, 그리고 **농촌·어촌·도시가 함께 성장하는 상생도시** 이미지를 강조하고 있습니다.  \n공식 슬로건과 도시 브랜드·CI는 화성시청 홈페이지에서 확인할 수 있습니다: [화성시청](https://www.hscity.go.kr/)",
+      "responseHash": "87e0bf01bb8eac7a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4564,
+      "citedUrls": [
+        "https://www.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:11:56.539Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C1",
+      "category": "keyword_entry",
+      "question": "한국에서 반도체 공장이 있는 도시 알려줘",
+      "rep": 2,
+      "response": "한국의 주요 반도체 생산 거점 도시는 다음과 같습니다.\n\n- **경기도**: 용인·기흥, 화성, 평택(삼성전자), 이천·청주(SK하이닉스), 부천(DB하이텍)\n- **충청권**: 아산(삼성전자 온양사업장), 천안(삼성전자·반도체 관련 사업장), 음성(DB하이텍), 청주(SK하이닉스·매그나칩)\n- **경상권**: 구미(SK실트론·삼성전자 관련 사업장)\n\n용인에는 삼성전자와 SK하이닉스의 대규모 반도체 클러스터가 조성 중이며, 일부 생산라인은 향후 단계적으로 가동될 예정입니다. 참고: [삼성전자 반도체 사업장](https://semiconductor.samsung.com/kr/about-us/locations/), [SK하이닉스](https://www.skhynix.com/)",
+      "responseHash": "1ea3942c93726557",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4313,
+      "citedUrls": [
+        "https://semiconductor.samsung.com/kr/about-us/locations/",
+        "https://www.skhynix.com/"
+      ],
+      "timestamp": "2026-09-08T00:12:02.243Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C2",
+      "category": "keyword_entry",
+      "question": "경기도에서 인구가 가장 빠르게 증가하는 도시는?",
+      "rep": 2,
+      "response": "경기도에서 인구가 가장 빠르게 증가하는 도시는 **화성시**로 보는 경우가 많습니다. 동탄신도시 등 대규모 택지개발과 산업단지 조성으로 최근 수년간 인구 순증 규모가 경기도 시·군 중 가장 큰 편입니다. 다만 ‘증가율’ 기준이나 집계 기간에 따라 순위가 달라질 수 있으며, 최신 수치는 행정안전부 주민등록 인구통계에서 확인할 수 있습니다: https://jumin.mois.go.kr/",
+      "responseHash": "344a646421e5c599",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3696,
+      "citedUrls": [
+        "https://jumin.mois.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:12:01.626Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C3",
+      "category": "keyword_entry",
+      "question": "수도권에서 GTX로 접근할 수 있는 신도시 알려줘",
+      "rep": 2,
+      "response": "수도권에서 GTX로 접근할 수 있는 대표 신도시는 다음과 같습니다.\n\n- **운정신도시(파주)**: GTX-A 운정중앙역 이용  \n- **동탄2신도시(화성)**: GTX-A 동탄역 이용  \n- **송도국제도시(인천)**: GTX-B 인천대입구역이 계획되어 있음  \n- **양주신도시(양주)**: GTX-C 덕정역 연계가 추진 중  \n- **왕숙신도시(남양주)**: GTX-B 및 수도권 광역교통망과 연계 추진 중  \n\nGTX-B·C와 신도시 역세권은 개통 시기와 노선 계획이 변경될 수 있으므로, 최신 내용은 국토교통부 GTX 공식 안내를 확인하는 것이 좋습니다: https://www.molit.go.kr/gtx",
+      "responseHash": "80123dc6c9d24f28",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5755,
+      "citedUrls": [
+        "https://www.molit.go.kr/gtx"
+      ],
+      "timestamp": "2026-09-08T00:12:03.686Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D1",
+      "category": "scenario",
+      "question": "서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘",
+      "rep": 2,
+      "response": "강남역 기준으로는 **판교신도시**가 가장 무난합니다. 신분당선으로 강남역까지 약 15~20분이며, 업무·상업시설과 주거 인프라가 잘 갖춰져 있습니다.  \n통근시간을 최우선으로 하면 **위례신도시**(8호선·버스, 강남 접근 약 25~40분)와 **과천**(4호선, 약 20~30분)을 추천하고, 쾌적한 대단지와 신분당선 이용을 원하면 **광교신도시**(약 35~45분)가 적합합니다.  \n**동탄2신도시**는 GTX-A 수서역 연계로 선택지가 좋아졌지만 강남까지 환승과 이동시간을 고려하면 판교·위례보다 통근 부담이 큽니다.  \n노선 확인은 [신분당선](https://www.shinbundang.co.kr/) 및 [GTX-A](https://www.gtx-a.com/) 공식 홈페이지에서 확인하세요.",
+      "responseHash": "89a4bddbbd3b5edf",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4383,
+      "citedUrls": [
+        "https://www.shinbundang.co.kr/",
+        "https://www.gtx-a.com/"
+      ],
+      "timestamp": "2026-09-08T00:12:02.313Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D2",
+      "category": "scenario",
+      "question": "아이 키우기 좋은 경기도 신도시 어디야?",
+      "rep": 2,
+      "response": "아이 키우기 좋은 경기도 신도시로는 **광교신도시**를 가장 무난하게 추천합니다. 공원·호수공원, 도서관·생활체육시설, 신축 주거지와 보육 인프라가 잘 갖춰져 있으며 수원·용인 접근성도 좋습니다. **동탄2신도시**는 넓은 공원과 계획적인 학교·상권 배치가 장점이고, **분당신도시**는 교육·의료 인프라가 탄탄하지만 주거비와 구축 아파트 비중을 고려해야 합니다. 실제 선택 전에는 어린이집·학교 배정, 통학거리와 대중교통을 동네별로 확인하세요: [유치원·어린이집 찾기](https://e-childschoolinfo.moe.go.kr/), [경기도육아종합지원센터](https://gyeonggi.childcare.go.kr/)",
+      "responseHash": "57ca29fbfe63b9c6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4823,
+      "citedUrls": [
+        "https://e-childschoolinfo.moe.go.kr/",
+        "https://gyeonggi.childcare.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:12:02.753Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D3",
+      "category": "scenario",
+      "question": "자동차 산업 취업하려면 어느 도시에 가야 해?",
+      "rep": 2,
+      "response": "자동차 산업 취업을 목표로 한다면 **울산**(현대자동차 생산·연구), **화성·평택**(현대·기아 연구개발 및 부품업체), **부산**(르노코리아), **인천·창원**(한국GM 및 부품업체)을 우선 고려해보세요.  \n연구개발·설계 직무는 화성·평택, 생산·품질 직무는 울산·광주·부산, 자동차부품·전장 분야는 경기 남부와 창원·대구 지역의 채용이 비교적 다양합니다.  \n채용공고는 고용24(https://www.work24.go.kr), 현대자동차 채용(https://talent.hyundai.com), 자동차산업협동조합(https://www.kaica.or.kr)에서 지역과 직무를 함께 검색하면 좋습니다.",
+      "responseHash": "66859d123d17bf1c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3705,
+      "citedUrls": [
+        "https://www.work24.go.kr",
+        "https://talent.hyundai.com",
+        "https://www.kaica.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:08.206Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E1",
+      "category": "comparison",
+      "question": "동탄과 광교 중 가족이 살기 좋은 곳은?",
+      "rep": 2,
+      "response": "가족 거주 기준으로는 **교통·생활 편의와 쾌적한 환경을 중시하면 광교**, **넓은 신축 주거·상대적으로 낮은 주거비와 서울 남부 출퇴근을 중시하면 동탄**이 유리합니다.  \n광교는 광교호수공원, 신분당선, 상업·의료시설이 잘 갖춰져 생활이 편리하지만 주택 가격과 임대료가 높은 편입니다.  \n동탄은 계획도시라 신축 아파트와 학교·공원이 많고 GTX-A 및 SRT 이용이 가능하지만, 지역에 따라 서울 도심 출퇴근과 대중교통 편의 차이가 큽니다.  \n따라서 **맞벌이로 강남권 출퇴근이면 광교, 동탄역 중심의 신축·넓은 집과 비용 효율을 원하면 동탄**을 우선 검토해 보세요.  \n참고: [GTX-A 공식 홈페이지](https://www.gtx-a.com/), [신분당선 공식 홈페이지](https://www.shinbundang.co.kr/)",
+      "responseHash": "315f0072b48133aa",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5417,
+      "citedUrls": [
+        "https://www.gtx-a.com/",
+        "https://www.shinbundang.co.kr/"
+      ],
+      "timestamp": "2026-09-08T00:12:09.918Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E2",
+      "category": "comparison",
+      "question": "화성시와 평택시의 차이점이 뭐야?",
+      "rep": 2,
+      "response": "화성시는 동탄신도시·향남 등 대규모 주거·신도시 개발이 활발하고, 삼성전자·현대·기아 등 첨단산업과 서해안 관광·농어촌 지역이 함께 있는 도시입니다.  \n평택시는 평택항, 삼성전자 평택캠퍼스, 미군기지(캠프 험프리스)를 중심으로 반도체·물류·국제도시 성격이 강하며, 안중·팽성·고덕 등 지역별 특성이 뚜렷합니다.  \n즉, 화성은 **신도시와 제조업·해안 관광이 결합된 대규모 도시**, 평택은 **항만·반도체·국제물류 중심 도시**라는 차이가 핵심입니다.  \n자세한 지역 정보는 [화성시청](https://www.hscity.go.kr)과 [평택시청](https://www.pyeongtaek.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "8713af69f0236396",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4195,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.pyeongtaek.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:08.696Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F1",
+      "category": "negative_test",
+      "question": "화성시의 단점이나 주의할 점 알려줘",
+      "rep": 2,
+      "response": "화성시는 면적이 넓고 동탄·향남·남양·서부 농어촌 등 지역별 생활 여건 차이가 커서, 거주지에 따라 대중교통·병원·문화시설 접근성이 크게 달라질 수 있습니다.  \n서울·수원·오산 등으로 출퇴근하는 경우 교통 정체와 긴 통근시간을 고려해야 하며, 일부 외곽 지역은 자가용 의존도가 높습니다.  \n산업단지와 개발지역 주변은 화물차 통행, 소음·대기질, 공사에 따른 불편이 발생할 수 있으므로 계약 전 주변 현장을 확인하는 것이 좋습니다.  \n또한 신도시·택지 개발이 빠른 지역은 편의시설이 확충되는 중인 반면 교통·학교·주차 인프라가 시기별로 부족할 수 있으니, 화성시 생활지도와 대기질 정보를 함께 확인하세요.  \n출처: [화성시청](https://www.hscity.go.kr), [경기버스정보](https://gbis.go.kr), [에어코리아](https://www.airkorea.or.kr)",
+      "responseHash": "deb848a5ce8dc07f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4086,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://gbis.go.kr",
+        "https://www.airkorea.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:08.587Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F2",
+      "category": "negative_test",
+      "question": "동탄에서 살면 불편한 점이 뭐야?",
+      "rep": 2,
+      "response": "동탄은 신도시가 넓게 조성돼 있어 생활권에 따라 버스·도보 이동거리가 길고, 출퇴근 시간 도로와 동탄역 주변 교통이 혼잡할 수 있습니다.  \n서울 접근성은 GTX-A와 SRT 덕분에 좋아졌지만, 역까지 이동하거나 서울 내 목적지에서 추가 환승이 필요해 통근 시간이 길게 느껴질 수 있습니다.  \n단지별로 상권·병원·문화시설 편차가 있고, 신축 아파트 중심이라 주거비와 관리비 부담이 상대적으로 클 수 있습니다.  \n또한 화성시가 넓어 동탄 외 지역의 행정·공공시설을 이용할 때 거리가 멀 수 있으니, 실제 거주 예정 단지의 대중교통과 생활편의시설을 확인하는 것이 좋습니다.  \n참고: 화성시 교통정보센터 https://its.hscity.go.kr , GTX-A https://www.gtx-a.com/",
+      "responseHash": "aac6517456885110",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5315,
+      "citedUrls": [
+        "https://its.hscity.go.kr",
+        "https://www.gtx-a.com/"
+      ],
+      "timestamp": "2026-09-08T00:12:09.816Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A1",
+      "category": "recommendation",
+      "question": "경기도에서 살기 좋은 도시 3곳 추천해줘",
+      "rep": 3,
+      "response": "경기도에서 살기 좋은 도시로는 다음 3곳을 추천합니다.\n\n1. **성남시**: 판교·분당의 일자리와 상업·의료·교육 인프라가 우수하고, 서울 접근성이 좋습니다.  \n2. **수원시**: 경기도청과 대형 병원·대학·문화시설이 밀집해 생활 편의성이 높으며, 광역교통망도 잘 갖춰져 있습니다.  \n3. **고양시**: 일산호수공원 등 녹지가 많고 주거환경이 쾌적하며, 서울 서북권 접근성이 좋습니다.  \n자세한 생활·교통 정보는 각 지자체 홈페이지(성남시 https://www.seongnam.go.kr, 수원시 https://www.suwon.go.kr, 고양시 https://www.goyang.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "9345ae662ecd615a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3265,
+      "citedUrls": [
+        "https://www.seongnam.go.kr,",
+        "https://www.suwon.go.kr,",
+        "https://www.goyang.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:14.683Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A2",
+      "category": "recommendation",
+      "question": "경기도에서 자연·해양 관광하기 좋은 곳 어디야?",
+      "rep": 3,
+      "response": "경기도의 해양 관광지는 **안산 대부도·구봉도**, **화성 제부도**, **시흥 오이도**, **화성 궁평항**을 추천합니다.  \n대부도·구봉도는 갯벌과 낙조, 제부도는 바닷길과 해안 산책로, 오이도는 빨간등대와 해산물 거리, 궁평항은 방파제와 해변 풍경이 매력적입니다.  \n바다 외 자연을 함께 즐기려면 **포천 한탄강 주상절리길**, **가평 남이섬·아침고요수목원**, **광주 남한산성**도 좋습니다.  \n제부도 바닷길과 갯벌 체험은 물때에 따라 이용 시간이 달라지므로 방문 전 확인하세요. 자세한 관광 정보는 [경기관광포털](https://ggtour.or.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "b87861ee3b687c6f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5700,
+      "citedUrls": [
+        "https://ggtour.or.kr/"
+      ],
+      "timestamp": "2026-09-08T00:12:17.119Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-A3",
+      "category": "recommendation",
+      "question": "한국에서 바다 갈라지는 현상을 볼 수 있는 곳이 어디야?",
+      "rep": 3,
+      "response": "한국에서 바다가 갈라지는 **‘바다 갈라짐’** 현상은 다음과 같은 곳에서 볼 수 있습니다.\n\n- **전남 진도 신비의 바닷길**\n- **경기 화성 제부도**\n- **충남 보령 무창포해수욕장**\n- **인천 실미도·소야도**\n- **전남 여수 사도·추도**\n- **충남 서산 웅도**\n\n발생 시각과 날짜는 조석에 따라 매달 달라지므로 방문 전 **국립해양조사원 바다갈라짐 정보**에서 확인해야 합니다: https://www.khoa.go.kr/sea/main.do",
+      "responseHash": "4a55dec1a49e3998",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4953,
+      "citedUrls": [
+        "https://www.khoa.go.kr/sea/main.do"
+      ],
+      "timestamp": "2026-09-08T00:12:16.371Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B1",
+      "category": "association",
+      "question": "화성시 하면 뭐가 떠올라? 세 가지 말해줘",
+      "rep": 3,
+      "response": "1. **융건릉** — 정조와 사도세자의 능이 있는 역사 유적지  \n2. **제부도·궁평항** — 바다 풍경과 갯벌 체험으로 유명한 관광지  \n3. **동탄신도시** — 교통과 첨단 산업이 발달한 화성시의 대표 신도시",
+      "responseHash": "bafebd12024291e4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 1679,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:12:13.097Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-B2",
+      "category": "association",
+      "question": "화성시의 슬로건이나 이미지가 뭐야?",
+      "rep": 3,
+      "response": "화성시의 대표적인 시정 슬로건은 **“내 삶을 바꾸는 희망화성”**입니다.  \n화성시는 이를 바탕으로 **100만 시민과 함께 성장하는 미래도시**, 첨단산업·교통·복지·문화가 조화를 이루는 도시 이미지를 강조하고 있습니다.  \n또한 동탄·남양·향남 등 도시지역과 서해안·농촌·역사문화 자원이 함께 있는 **균형 잡힌 도시**라는 이미지도 갖고 있습니다.  \n자세한 내용은 화성시 공식 누리집(https://www.hscity.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "2eb82bcbbd79f658",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5477,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:16.895Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C1",
+      "category": "keyword_entry",
+      "question": "한국에서 반도체 공장이 있는 도시 알려줘",
+      "rep": 3,
+      "response": "한국에서 반도체 공장이 있는 주요 도시는 다음과 같습니다.\n\n- **경기권:** 용인(기흥·향후 반도체 클러스터), 화성, 평택, 이천, 부천  \n- **충청권:** 청주, 천안, 아산  \n- **영남권:** 구미, 울산  \n\n삼성전자는 기흥·화성·평택·아산 등에, SK하이닉스는 이천·청주·용인 등에 생산시설을 운영하거나 건설 중이며, DB하이텍은 부천과 음성에 공장을 운영합니다. 주요 반도체 산업단지 현황은 산업통상자원부의 **반도체 초강대국 달성전략**에서 확인할 수 있습니다: https://www.motie.go.krⅡ? (URL 변동 가능)",
+      "responseHash": "b1a6f6e596ab4255",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3840,
+      "citedUrls": [
+        "https://www.motie.go.krⅡ?"
+      ],
+      "timestamp": "2026-09-08T00:12:21.765Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C2",
+      "category": "keyword_entry",
+      "question": "경기도에서 인구가 가장 빠르게 증가하는 도시는?",
+      "rep": 3,
+      "response": "최근 수년간 **인구 증가율이 가장 높은 경기도 도시는 하남시**로 보는 경우가 많습니다. 다만 **증가한 인원 수** 기준으로는 대규모 택지개발이 진행된 화성시가 앞설 수 있어, 기간과 기준에 따라 결과가 달라집니다. 최신 월별 수치는 행정안전부 주민등록 인구통계에서 확인할 수 있습니다: https://jumin.mois.go.kr/",
+      "responseHash": "7b27a516f0d61e4d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5234,
+      "citedUrls": [
+        "https://jumin.mois.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:12:23.159Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-C3",
+      "category": "keyword_entry",
+      "question": "수도권에서 GTX로 접근할 수 있는 신도시 알려줘",
+      "rep": 3,
+      "response": "현재 GTX로 직접 접근하기 좋은 수도권 신도시는 다음과 같습니다.  \n- **GTX-A**: 운정신도시(운정중앙역), 일산신도시(킨텍스역), 분당·판교권(성남역), 동탄2신도시(동탄역)  \n- **GTX-B 예정**: 송도국제도시(인천대입구역), 별내신도시(별내역), 왕숙신도시(왕숙역 예정), 다산신도시(인근 별내·왕숙역 이용)  \n- **GTX-C 예정**: 양주신도시(덕정역), 의정부·수원권 신도시 및 택지지구(각각 의정부역·수원역 이용)  \n\nGTX-A는 운정중앙~서울역 및 수서~동탄 구간이 운행 중이며, GTX-B·C는 공사·추진 일정에 따라 개통 시기가 달라질 수 있습니다. 자세한 노선과 역 위치는 국토교통부 GTX 안내 페이지(https://www.molit.go.kr/gtx)를 확인하세요.",
+      "responseHash": "2a4e30c174f392c5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7189,
+      "citedUrls": [
+        "https://www.molit.go.kr/gtx"
+      ],
+      "timestamp": "2026-09-08T00:12:25.114Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D1",
+      "category": "scenario",
+      "question": "서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘",
+      "rep": 3,
+      "response": "서울 강남 출퇴근이라면 **판교신도시**를 1순위로 추천합니다. 신분당선으로 강남역까지 약 15~20분이면 이동할 수 있고, IT·업무시설과 생활 인프라도 잘 갖춰져 있습니다.  \n가족 중심 주거환경을 원하면 **위례신도시**(버스·8호선 복정/장지역 연계), 교통비와 광역 이동 편의성을 중시하면 **광교신도시**(신분당선, 강남역 약 40~50분)도 적합합니다.  \n직장 위치가 강남 남부·양재 쪽이면 **동탄2신도시**도 GTX-A 수서역 연계로 고려할 수 있지만, 역까지의 이동시간을 반드시 확인하세요. 노선과 소요시간은 서울교통공사 사이버스테이션(https://www.seoulmetro.co.kr) 및 네이버지도에서 실제 출발지·직장 주소로 확인하는 것이 좋습니다.",
+      "responseHash": "da5aa7a1b2bf7ea0",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4486,
+      "citedUrls": [
+        "https://www.seoulmetro.co.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:22.412Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D2",
+      "category": "scenario",
+      "question": "아이 키우기 좋은 경기도 신도시 어디야?",
+      "rep": 3,
+      "response": "경기도에서 아이 키우기 좋은 신도시로는 **수원 광교, 화성 동탄2, 하남 미사, 남양주 다산**을 많이 꼽습니다.  \n**광교**는 공원·도서관·병원과 교육시설이 잘 갖춰져 있고, **동탄2**는 신축 주거지와 대형 공원·상업시설이 강점입니다. **미사**는 한강·공원 등 자연환경이 좋고 서울 접근성이 뛰어나며, **다산**은 비교적 신축 아파트와 생활 인프라가 빠르게 확충되고 있습니다.  \n다만 단지별로 초등학교 배정, 통학거리, 어린이집 대기, 출퇴근 시간이 크게 다르므로 계약 전 **학교알리미·어린이집 정보공개포털·경기부동산포털**에서 확인하는 것이 좋습니다: https://www.schoolinfo.go.kr / https://info.childcare.go.kr / https://gris.gg.go.kr",
+      "responseHash": "0f15f7160411fa92",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4487,
+      "citedUrls": [
+        "https://www.schoolinfo.go.kr",
+        "https://info.childcare.go.kr",
+        "https://gris.gg.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:22.412Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-D3",
+      "category": "scenario",
+      "question": "자동차 산업 취업하려면 어느 도시에 가야 해?",
+      "rep": 3,
+      "response": "자동차 **완성차·대기업 생산직**을 원하면 현대자동차 본사가 있는 **울산**, 기아·현대차 연구·생산 및 부품업체가 많은 **경기 화성·광명·평택**이 유리합니다.  \n**자동차 부품·전장·스마트모빌리티** 분야는 **경남 창원·김해, 충남 아산·서산, 광주광역시, 대구·경북**에도 관련 기업과 산업단지가 잘 형성되어 있습니다.  \n연구개발·소프트웨어 직무라면 **화성·용인·서울·판교**를 우선 살펴보는 것이 좋으며, 생산·품질·정비 직무는 울산·창원·광주 등 제조 거점이 적합합니다.  \n채용공고는 고용24(https://www.work24.go.kr)에서 지역을 **울산·화성·창원·광주**로 설정해 비교해 보세요.",
+      "responseHash": "a3d61997b9885c70",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3971,
+      "citedUrls": [
+        "https://www.work24.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:29.890Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E1",
+      "category": "comparison",
+      "question": "동탄과 광교 중 가족이 살기 좋은 곳은?",
+      "rep": 3,
+      "response": "가족 거주지로는 **자연환경·생활 편의·서울 강남권 출퇴근**을 중시하면 광교, **신축 주거환경·넓은 주택 선택지·동탄역 GTX-A 이용**을 중시하면 동탄이 유리합니다.  \n광교는 호수공원, 광교산, 상업·의료·교육시설이 가까워 생활 만족도가 높은 편이지만 주거비가 상대적으로 높을 수 있습니다.  \n동탄은 계획도시로 아파트와 학교, 공원 등이 잘 갖춰져 있고 수원·용인·화성 산업단지 및 서울 접근성이 좋지만 지역에 따라 교통 혼잡과 생활권 격차를 확인해야 합니다.  \n어린 자녀 중심의 안정적인 생활은 광교, 넓은 신축 아파트와 향후 교통·개발 편의를 원하면 동탄을 우선 비교해 보세요.  \n참고: [GTX-A 공식 홈페이지](https://www.gtx-a.com), [신분당선 운영사](https://www.shinbundang.co.kr)",
+      "responseHash": "47b444c8e946b905",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3764,
+      "citedUrls": [
+        "https://www.gtx-a.com",
+        "https://www.shinbundang.co.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:29.684Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-E2",
+      "category": "comparison",
+      "question": "화성시와 평택시의 차이점이 뭐야?",
+      "rep": 3,
+      "response": "화성시와 평택시는 모두 경기도 남부에 있지만, **화성시는 동탄·향남 등 신도시와 서해안 산업·농촌 지역이 함께 있는 대규모 도시**이고, **평택시는 평택항·삼성전자 평택캠퍼스·미군기지 등을 중심으로 성장한 산업·항만도시**라는 차이가 있습니다.  \n교통 측면에서는 화성시가 동탄역 SRT와 수도권 동남부 생활권의 성격이 강하고, 평택시는 평택지제역 SRT·1호선 및 평택항 물류 교통이 발달했습니다.  \n생활환경은 화성이 신도시·해안·농촌이 혼합된 형태인 반면, 평택은 항만·산업단지와 배후 주거지가 결합된 형태라고 볼 수 있습니다.  \n자세한 행정·관광 정보는 [화성시청](https://www.hscity.go.kr)과 [평택시청](https://www.pyeongtaek.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "01683c23bfcae71e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4581,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.pyeongtaek.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:30.502Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F1",
+      "category": "negative_test",
+      "question": "화성시의 단점이나 주의할 점 알려줘",
+      "rep": 3,
+      "response": "화성시는 면적이 넓고 동탄·병점·향남·남양·서부 농어촌 등 지역별 생활 여건 차이가 커서, 거주지에 따라 체감이 크게 다릅니다.  \n주요 주의점은 서울·수원 등으로 출퇴근할 때 교통정체와 대중교통 환승 부담이 있을 수 있고, 일부 외곽 지역은 병원·문화시설·쇼핑시설 접근성이 낮다는 점입니다.  \n산업단지와 공장이 많은 지역은 화물차 통행, 소음·분진·악취 등 환경 문제를 확인해야 하며, 신도시는 개발 속도에 비해 학교·도로·생활편의시설이 늦게 갖춰지는 경우가 있습니다.  \n이사나 부동산 계약 전에는 해당 읍·동의 출퇴근 시간, 대중교통, 학군·학교 배정, 악취·소음 민원 및 개발계획을 직접 확인하는 것이 좋습니다. 자세한 행정·생활 정보는 [화성시청](https://www.hscity.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "afb619da01db9866",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3969,
+      "citedUrls": [
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:29.889Z"
+    },
+    {
+      "tier": "T3",
+      "questionId": "V-F2",
+      "category": "negative_test",
+      "question": "동탄에서 살면 불편한 점이 뭐야?",
+      "rep": 3,
+      "response": "동탄은 신도시라 생활 인프라가 잘 갖춰졌지만, 구역에 따라 대중교통과 상권 접근성 차이가 있고 서울 출퇴근 시 교통 체증과 통근시간이 부담될 수 있습니다. 특히 동탄역·병점역 등 주요 역과 거리가 있는 지역은 버스 의존도가 높고, 자가용 이용 시 출퇴근 시간 도로 정체가 잦습니다. 신축 아파트 중심이라 주거비와 관리비가 높은 편이며, 학원가·상권이 특정 지역에 집중돼 동네에 따라 편의성이 다릅니다. 교통 여건은 GTX-A 동탄역 개통 등으로 개선 중이지만, 실제 거주지는 역과의 거리 및 출퇴근 목적지를 함께 확인하는 것이 좋습니다.",
+      "responseHash": "55df1e8acd25dba6",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3187,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:12:29.108Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-01",
+      "category": "education",
+      "question": "화성시 동탄과 수원 광교 중 자녀 교육에 좋은 곳은?",
+      "rep": 1,
+      "response": "자녀 교육만 놓고 보면 **학원가·생활 인프라와 통학 안정성을 중시할 경우 수원 광교**, 신도시의 쾌적한 주거환경과 비교적 넓은 주거공간을 중시할 경우 **화성 동탄**이 적합합니다. 광교는 수원·용인 주요 교육시설과의 접근성이 좋고 학원 선택지가 다양한 편이며, 동탄은 학교·공원·도서관 등 신도시 기반시설이 잘 갖춰져 있지만 지역별로 학원가와 학교 배정 여건 차이가 있습니다. 다만 실제 교육환경은 단지별 초·중학교 배정, 통학거리, 학급 규모, 고교 진학 실적에 따라 달라지므로 이사 전 확인이 필요합니다. 학교별 학생 수·학급 수·진학 관련 정보는 [학교알리미](https://www.schoolinfo.go.kr)에서, 배정 및 교육정책은 [경기도교육청](https://www.goe.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "f9cad3f747520c71",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3765,
+      "citedUrls": [
+        "https://www.schoolinfo.go.kr",
+        "https://www.goe.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:34.267Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-02",
+      "category": "education",
+      "question": "동탄과 판교 중 아이 학원가와 학군이 더 좋은 곳은?",
+      "rep": 1,
+      "response": "학원가와 학군을 종합하면 **판교가 다소 우세**하다고 보는 경우가 많습니다. 판교는 인근 분당(정자·수내·서현)까지 연계해 중·고교 학원 선택 폭과 교육 인프라가 넓은 편입니다. 다만 동탄도 동탄2신도시를 중심으로 학원가가 빠르게 성장했고, 신축 주거환경과 초등 돌봄·통학 편의는 강점이므로 자녀의 학년과 통학 거리까지 함께 비교해야 합니다. 학교별 학생 수·교육여건은 학교알리미(https://www.schoolinfo.go.kr), 학원 분포는 지방교육행정기관 학원·교습소 정보에서 확인하는 것이 정확합니다.",
+      "responseHash": "ff53a509b3cd2eef",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4618,
+      "citedUrls": [
+        "https://www.schoolinfo.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:35.120Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-03",
+      "category": "livability",
+      "question": "화성시와 용인시 중 30대 신혼부부가 정착해 살기 좋은 곳은?",
+      "rep": 1,
+      "response": "30대 신혼부부라면 **직장 위치와 예산에 따라 다르지만, 주거비·신축·맞벌이 일자리 측면에서는 화성시, 서울 접근성과 생활 인프라의 안정성에서는 용인시**가 유리합니다.  \n화성시는 동탄·봉담·향남 등 신축 주거지가 많고 삼성전자 등 산업단지와 가까워 상대적으로 넓은 집을 구하기 좋지만, 지역별 생활 인프라와 교통 격차가 있습니다. 용인시는 수지·기흥의 교육·상업시설과 서울 접근성이 강점인 반면 주거비가 높고, 처인구는 비교적 저렴하지만 개발에 따른 교통·편의시설 변화를 확인해야 합니다.  \n**서울·판교 출퇴근이면 용인(수지·기흥), 동탄·삼성·남부권 직장이면 화성(동탄·봉담)**을 우선 추천하며, 실제 결정 전에는 국토교통부 실거래가와 각 시의 보육·교통계획을 함께 확인하세요.  \n출처: [화성시청](https://www.hscity.go.kr), [용인시청](https://www.yongin.go.kr), [국토교통부 실거래가 공개시스템](https://rt.molit.go.kr)",
+      "responseHash": "84bda8558070e8cc",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4617,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.yongin.go.kr",
+        "https://rt.molit.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:35.119Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-04",
+      "category": "livability",
+      "question": "동탄과 평택 고덕 중 서울 출퇴근이 더 편한 신도시는?",
+      "rep": 1,
+      "response": "서울 출퇴근만 보면 **동탄이 평택 고덕보다 대체로 편리한 편**입니다. 동탄역에서 GTX-A를 이용하면 수서역까지 약 20분 내외로 이동할 수 있어 강남·잠실·서울 동남권 접근성이 좋고, SRT도 선택할 수 있습니다. 평택 고덕은 평택지제역에서 SRT로 수서역까지 약 20~25분이지만, 고덕지구에서 역까지 이동하는 시간이 추가되고 배차·환승 편의성도 고려해야 합니다. 다만 서울 서남권이나 광역버스 중심 출퇴근이라면 실제 목적지와 출발 위치에 따라 평택 고덕이 유리할 수 있습니다.  \n출처: [GTX-A](https://www.gtx-a.com), [SR(수서고속철도)](https://www.srail.or.kr)",
+      "responseHash": "eb25540f214f1228",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3834,
+      "citedUrls": [
+        "https://www.gtx-a.com",
+        "https://www.srail.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:34.336Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-05",
+      "category": "livability",
+      "question": "화성시와 오산시 중 생활 인프라가 더 잘 갖춰진 곳은?",
+      "rep": 1,
+      "response": "전반적인 생활 인프라의 **규모와 선택지**는 동탄신도시·향남·남양 등 대규모 개발지역이 있는 **화성시가 더 우세**한 편입니다. 특히 동탄은 대형 상업시설, 병원·학원가, SRT·GTX-A(동탄역) 등 교통 인프라가 집중되어 있습니다. 다만 화성시는 면적이 넓어 지역별 격차가 크고, **오산시는 도시 규모가 작아 생활권이 компакт하며 병원·상업시설·학교 이용이 편리하고 수도권 전철 1호선 접근성이 장점**입니다. 따라서 신도시형·다양한 시설을 원하면 화성시, 촘촘하고 이동거리가 짧은 생활권을 원하면 오산시가 적합합니다.  \n- 화성시청: https://www.hscity.go.kr  \n- 오산시청: https://www.osan.go.kr",
+      "responseHash": "df306e99a954045b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3845,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.osan.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:34.347Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-06",
+      "category": "industry",
+      "question": "반도체 및 자동차 산업 취업을 준비할 때 화성과 평택 중 어디가 더 기회가 많아?",
+      "rep": 1,
+      "response": "반도체 취업은 삼성전자 평택캠퍼스의 대규모 생산·설비·장비 협력사 수요가 있는 **평택**이 다소 유리하지만, 화성도 삼성전자 화성캠퍼스와 동탄·기흥권 연구개발 및 장비업체가 밀집해 기회가 많습니다.  \n자동차 분야는 현대·기아 남양연구소와 기아 오토랜드 화성, 관련 부품업체가 모여 있는 **화성**이 평택보다 유리한 편입니다.  \n따라서 반도체 생산·공정·장비 직무는 평택, 반도체 연구개발이나 자동차 설계·시험·생산 직무는 화성을 우선 검토하는 것이 좋습니다.  \n채용 규모는 기업별로 변동되므로 삼성전자 채용 홈페이지([samsungcareers.com](https://www.samsungcareers.com)), 현대자동차 채용([talent.hyundai.com](https://talent.hyundai.com)), 기아 채용([career.kia.com](https://career.kia.com))에서 희망 직무와 근무지를 함께 확인하세요.",
+      "responseHash": "c03c236e3cf82180",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3989,
+      "citedUrls": [
+        "https://www.samsungcareers.com",
+        "https://talent.hyundai.com",
+        "https://career.kia.com"
+      ],
+      "timestamp": "2026-09-08T00:12:39.923Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-07",
+      "category": "industry",
+      "question": "IT·제조업 창업하기에 화성시와 수원시 중 어떤 도시가 나아?",
+      "rep": 1,
+      "response": "IT·소프트웨어·R&D 중심 창업이라면 삼성전자·광교테크노밸리 등 연구·인재 네트워크가 있는 **수원시**가 상대적으로 유리합니다.  \n반면 공장, 시제품 제작, 물류·부품 조달이 중요한 제조업이라면 산업단지와 넓은 사업부지를 확보하기 쉬운 **화성시**가 더 적합한 경우가 많습니다.  \n초기 사무실 비용과 제조시설 확장성을 중시하면 화성, 투자·대학·개발인력 접근성을 중시하면 수원을 우선 검토하되, 업종별 지원금·입주공간은 공고 시점에 비교해야 합니다.  \n지원사업은 [K-Startup](https://www.k-startup.go.kr/), [화성시](https://www.hscity.go.kr/), [수원시](https://www.suwon.go.kr/)의 기업·창업지원 공고에서 확인할 수 있습니다.",
+      "responseHash": "c673a38518f69d88",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6556,
+      "citedUrls": [
+        "https://www.k-startup.go.kr/",
+        "https://www.hscity.go.kr/",
+        "https://www.suwon.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:12:42.490Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-08",
+      "category": "tourism",
+      "question": "주말 바다 관광으로 화성 제부도와 안산 대부도 중 어디를 더 추천해?",
+      "rep": 1,
+      "response": "짧게 둘러보며 **바닷길과 낙조, 제부도해상케이블카**를 즐기고 싶다면 화성 **제부도**를 더 추천합니다.  \n카페·횟집과 해변을 여유롭게 돌고, 탄도항·구봉도·대부바다향기수목원까지 함께 보고 싶다면 **안산 대부도**가 좋습니다.  \n다만 제부도는 물때에 따라 차량 통행과 바닷길 이용 시간이 달라지므로 출발 전 물때를 확인하세요.  \n참고: [화성시 문화관광](https://tour.hscity.go.kr), [안산시 문화관광](https://www.ansan.go.kr/tour)",
+      "responseHash": "d979d57fbc4767c2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3262,
+      "citedUrls": [
+        "https://tour.hscity.go.kr",
+        "https://www.ansan.go.kr/tour"
+      ],
+      "timestamp": "2026-09-08T00:12:39.197Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-09",
+      "category": "tourism",
+      "question": "가족 나들이와 호수 산책 코스로 동탄호수공원과 수원 광교호수공원 중 어디가 좋아?",
+      "rep": 1,
+      "response": "가족 나들이와 여유로운 호수 산책을 함께 원한다면 **수원 광교호수공원**을 추천합니다. 산책로가 넓고 자연 경관과 휴식 공간이 다양해 2~3시간 이상 머물기 좋으며, 카페·식당도 주변에 많습니다. **동탄호수공원**은 비교적 아담하고 동선이 단순해 유아·어르신과 가볍게 걷거나 야간 분수·경관을 즐기기에 좋습니다. 행사·음악분수 운영 일정은 변동될 수 있으니 방문 전 [수원시 광교호수공원 안내](https://www.suwon.go.kr)와 [화성시 동탄호수공원 안내](https://www.hscity.go.kr)를 확인하세요.",
+      "responseHash": "3a8700b28f7b1467",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4016,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:39.951Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-10",
+      "category": "cost",
+      "question": "경기 남부에서 내 집 마련 시 화성 동탄과 수원 중 주거비 대비 가성비가 좋은 지역은?",
+      "rep": 1,
+      "response": "주거비 대비 면적과 신축·계획도시 인프라를 중시한다면 **화성 동탄이 수원보다 가성비가 좋은 경우가 많습니다**. 다만 수원은 서울·광역교통 접근성, 생활편의시설, 직주근접성이 뛰어나 실거주 만족도가 높고, 특히 직장이 수원·서울인 경우 교통비와 통근시간까지 고려하면 격차가 줄어듭니다. 동탄은 동탄역 GTX-A 개통 효과와 동탄인덕원선 등 교통 호재가 있지만, 역세권 여부에 따라 가격 차이가 크고 출퇴근 혼잡·관리비도 확인해야 합니다. 실제 비교는 국토교통부 **실거래가 공개시스템**(https://rt.molit.go.kr)과 경기부동산포털(https://gris.gg.go.kr)에서 같은 전용면적·연식·역세권 조건으로 매매가와 전세가를 비교하는 것이 가장 정확합니다.",
+      "responseHash": "08f905c5d93a1bd3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3994,
+      "citedUrls": [
+        "https://rt.molit.go.kr",
+        "https://gris.gg.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:39.929Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-01",
+      "category": "education",
+      "question": "화성시 동탄과 수원 광교 중 자녀 교육에 좋은 곳은?",
+      "rep": 2,
+      "response": "자녀 교육만 놓고 보면 **초·중등의 안정된 학교 환경과 생활 인프라를 중시하면 수원 광교**, **신도시의 학교·학원 접근성과 넓은 주거 선택지를 중시하면 화성 동탄**이 유리할 수 있습니다. 광교는 수원 도심·대학 및 문화시설 접근성이 좋고, 동탄은 학원가와 신설 학교가 밀집한 지역이 많지만 단지별 교육 여건 차이가 큽니다. 다만 학교 배정은 주소지와 통학구역에 따라 달라지므로, 이사 전 원하는 아파트의 **배정 초·중학교, 학급 규모, 통학거리, 학원가**를 반드시 확인하세요. 학교별 공시자료는 [학교알리미](https://www.schoolinfo.go.kr), 관할 정보는 [수원교육지원청](https://www.goesw.kr)과 [화성오산교육지원청](https://www.goehs.kr)에서 확인할 수 있습니다.",
+      "responseHash": "ccb326529df876f4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3999,
+      "citedUrls": [
+        "https://www.schoolinfo.go.kr",
+        "https://www.goesw.kr",
+        "https://www.goehs.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:48.001Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-02",
+      "category": "education",
+      "question": "동탄과 판교 중 아이 학원가와 학군이 더 좋은 곳은?",
+      "rep": 2,
+      "response": "학원가와 학업 분위기만 보면 **판교가 더 안정적이고 우세**한 편입니다. 분당·판교의 오래된 교육 인프라와 고교·입시 학원 선택지가 풍부하고, 강남·대치동 접근성도 좋지만 주거비가 높습니다. **동탄은 신축 주거환경과 학교 시설, 통학 편의성이 장점**이며 동탄역·청계·영천동 중심으로 학원가가 성장했지만, 학원 선택의 폭과 전통적인 학군 평판은 판교보다 제한적일 수 있습니다. 실제 선택 전에는 자녀 학교 배정과 학업 성취도·학원 분포를 학교알리미(https://www.schoolinfo.go.kr)와 학원·교습소 정보(https://allim.sen.go.kr)에서 확인하는 것이 좋습니다.",
+      "responseHash": "2937950da69b0d7c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3701,
+      "citedUrls": [
+        "https://www.schoolinfo.go.kr",
+        "https://allim.sen.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:47.702Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-03",
+      "category": "livability",
+      "question": "화성시와 용인시 중 30대 신혼부부가 정착해 살기 좋은 곳은?",
+      "rep": 2,
+      "response": "30대 신혼부부라면 **직장 위치와 주거예산에 따라 달라지지만, 신도시 생활·육아환경을 중시하면 화성시(특히 동탄)**가 유리합니다. 동탄은 신축 주거지, 상업·의료·교육시설과 삼성전자 등 산업 일자리가 강점인 반면, 지역이 넓어 서울·판교 출퇴근은 부담될 수 있습니다. **서울·판교·분당 출퇴근, 교통 접근성과 생활권의 균형을 중시하면 용인시(수지·기흥)**가 적합하며, 처인구는 향후 산업개발 기대가 있지만 생활 인프라 편차를 확인해야 합니다. 최종 결정 전에는 실제 직장까지의 출퇴근 시간, 전세·매매가, 어린이집·초등학교 배정 여부를 동 단위로 비교하세요.  \n출처: [화성시청](https://www.hscity.go.kr), [용인시청](https://www.yongin.go.kr), [국가통계포털](https://kosis.kr)",
+      "responseHash": "0a2cfc057ba52717",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5650,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.yongin.go.kr",
+        "https://kosis.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:49.651Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-04",
+      "category": "livability",
+      "question": "동탄과 평택 고덕 중 서울 출퇴근이 더 편한 신도시는?",
+      "rep": 2,
+      "response": "서울 출퇴근만 놓고 보면 **동탄이 평택 고덕보다 대체로 편리합니다.** 동탄은 GTX-A 동탄역에서 수서역까지 약 20분대라 강남·송파 등 서울 동남권 접근성이 뛰어나고, SRT도 이용할 수 있습니다. 평택 고덕은 1호선 서정리역과 평택지제역(SRT·KTX)을 이용하지만 역까지 이동하는 시간이 추가되고, 서울역·강북권까지는 환승 또는 장거리 이동이 필요합니다. 다만 직장이 서울 서북권이면 두 지역 모두 통근 부담이 커지므로, 실제 거주지는 역과의 거리 및 환승 횟수를 함께 확인해야 합니다.  \n\n출처: [GTX-A 공식 홈페이지](https://www.gtx-a.com), [SRT](https://etk.srail.kr), [코레일](https://www.letskorail.com)",
+      "responseHash": "f2e877e3e333366a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4832,
+      "citedUrls": [
+        "https://www.gtx-a.com",
+        "https://etk.srail.kr",
+        "https://www.letskorail.com"
+      ],
+      "timestamp": "2026-09-08T00:12:48.833Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-05",
+      "category": "livability",
+      "question": "화성시와 오산시 중 생활 인프라가 더 잘 갖춰진 곳은?",
+      "rep": 2,
+      "response": "생활 인프라의 **밀집도와 이용 편의성**만 보면 오산시가 상대적으로 우세합니다. 오산시는 도시 규모가 компакт하고 대형마트·병원·학교·대중교통이 가까운 편이며, 화성시는 동탄·향남·봉담 등 신도시·택지지구는 인프라가 잘 갖춰졌지만 읍·면 지역은 편차가 큽니다. 반면 주거 선택지, 신도시의 상업·교육시설, 서울·수도권 접근성은 화성시가 더 다양한 편이므로 **도심 생활 편의는 오산, 신도시 주거환경과 선택 폭은 화성**으로 보는 것이 적절합니다. 지역별 시설은 각 지자체 생활지도와 공공데이터에서 확인할 수 있습니다: [화성시](https://www.hscity.go.kr), [오산시](https://www.osan.go.kr).",
+      "responseHash": "1213db04634be80f",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3192,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.osan.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:47.194Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-06",
+      "category": "industry",
+      "question": "반도체 및 자동차 산업 취업을 준비할 때 화성과 평택 중 어디가 더 기회가 많아?",
+      "rep": 2,
+      "response": "반도체는 **평택**이 삼성전자 평택캠퍼스 중심의 대규모 생산·장비·소재 협력업체가 밀집해 있어 채용 기회가 더 큰 편입니다.  \n자동차는 **화성**이 현대·기아 남양연구소와 화성공장, 관련 부품·연구개발 기업이 많아 연구개발·생산·품질 직무에 유리합니다.  \n따라서 **반도체 생산·공정·장비 직무는 평택**, **자동차 연구개발·설계·시험·생산 직무는 화성**을 우선 검토하는 것이 좋으며, 경력·전공에 따라 두 지역을 함께 지원하는 전략이 효과적입니다.  \n참고: [삼성전자 채용](https://www.samsungcareers.com), [현대자동차 채용](https://talent.hyundai.com), [기아 채용](https://career.kia.com)",
+      "responseHash": "e91439b6caf25351",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3706,
+      "citedUrls": [
+        "https://www.samsungcareers.com",
+        "https://talent.hyundai.com",
+        "https://career.kia.com"
+      ],
+      "timestamp": "2026-09-08T00:12:54.161Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-07",
+      "category": "industry",
+      "question": "IT·제조업 창업하기에 화성시와 수원시 중 어떤 도시가 나아?",
+      "rep": 2,
+      "response": "일반적으로 **IT·소프트웨어 창업은 수원시**, **제조업·부품·장비 창업은 화성시**가 더 유리합니다. 수원시는 대학·연구기관과 전문인력, 대기업·IT기업 네트워크 접근성이 강점이고, 화성시는 산업단지·공장용지·물류 인프라와 제조기업 집적도가 높은 편입니다. 다만 제조업이라도 연구개발 중심이면 수원, 생산·조립·물류 중심이면 화성이 적합하므로 임대료·공장설립 가능 여부·인허가를 함께 비교해야 합니다. 창업지원사업은 [수원시 기업지원](https://www.suwon.go.kr)과 [화성산업진흥원](https://hipa.hscity.go.kr)에서 최신 공고를 확인하세요.",
+      "responseHash": "aa5baa77c6b030ab",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5071,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://hipa.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:55.526Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-08",
+      "category": "tourism",
+      "question": "주말 바다 관광으로 화성 제부도와 안산 대부도 중 어디를 더 추천해?",
+      "rep": 2,
+      "response": "주말에 **짧고 이색적인 바다 여행**을 원하면 바닷길이 열리는 제부도와 해상케이블카를 즐길 수 있는 **화성 제부도**를 더 추천합니다.  \n반면 대부도는 구봉도·탄도항·대부바다향기수목원 등 볼거리가 넓게 흩어져 있어 **드라이브, 카페·맛집, 가족 나들이**에 더 적합합니다.  \n제부도는 주말 교통과 관광객이 몰릴 수 있고 물때에 따라 차량 진입이 달라지므로 방문 전 물때와 운영 정보를 확인하세요.  \n참고: [화성시 문화관광](https://tour.hscity.go.kr), [안산시 문화관광](https://tour.ansan.go.kr)",
+      "responseHash": "2d8dadbc9425b6f3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3752,
+      "citedUrls": [
+        "https://tour.hscity.go.kr",
+        "https://tour.ansan.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:54.208Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-09",
+      "category": "tourism",
+      "question": "가족 나들이와 호수 산책 코스로 동탄호수공원과 수원 광교호수공원 중 어디가 좋아?",
+      "rep": 2,
+      "response": "가족 나들이와 **호수 산책을 함께 즐기려면 수원 광교호수공원**을 추천합니다. 두 호수를 잇는 산책로와 넓은 녹지, 전망 좋은 휴식 공간이 있어 산책 코스를 길게 잡기 좋습니다. **동탄호수공원**은 규모가 비교적 아담하고 놀이터·잔디광장 중심으로 이용하기 편해 어린 자녀와 짧고 편한 나들이에 잘 맞습니다. 주말에는 두 곳 모두 주차장이 혼잡할 수 있으니 대중교통이나 이른 시간 방문을 고려하세요.  \n지도: [광교호수공원](https://map.naver.com/p/search/%EA%B4%91%EA%B5%90%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90), [동탄호수공원](https://map.naver.com/p/search/%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90)",
+      "responseHash": "b2a09e87549c5633",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5368,
+      "citedUrls": [
+        "https://map.naver.com/p/search/%EA%B4%91%EA%B5%90%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90",
+        "https://map.naver.com/p/search/%EB%8F%99%ED%83%84%ED%98%B8%EC%88%98%EA%B3%B5%EC%9B%90"
+      ],
+      "timestamp": "2026-09-08T00:12:55.823Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-10",
+      "category": "cost",
+      "question": "경기 남부에서 내 집 마련 시 화성 동탄과 수원 중 주거비 대비 가성비가 좋은 지역은?",
+      "rep": 2,
+      "response": "일반적으로 **초기 매입비와 주거비 부담만 보면 수원**, 신축·쾌적성·서울 접근성까지 고려한 **장기 거주 가치는 동탄**이 유리합니다. 동탄은 신축 아파트와 동탄역 GTX-A 등 장점이 있지만 분양·매매가와 관리비가 높고, 수원은 지역별 가격 편차가 커서 **장안구·권선구·구축 재정비 예정지**를 중심으로 보면 상대적으로 가성비가 좋습니다. 서울 강남·판교 출퇴근이면 동탄, 수원·용인·화성 내 직장이나 예산 절감이 우선이면 수원을 권합니다. 실제 비교는 국토교통부 실거래가 공개시스템(https://rt.molit.go.kr)과 KB부동산(https://kbland.kr)에서 같은 평형·연식의 매매가와 전세가를 확인하는 것이 좋습니다.",
+      "responseHash": "c3286447cd8184cb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4942,
+      "citedUrls": [
+        "https://rt.molit.go.kr",
+        "https://kbland.kr"
+      ],
+      "timestamp": "2026-09-08T00:12:55.397Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-01",
+      "category": "education",
+      "question": "화성시 동탄과 수원 광교 중 자녀 교육에 좋은 곳은?",
+      "rep": 3,
+      "response": "자녀 교육만 놓고 보면 **중·고등학교 학군의 안정성과 생활 인프라를 중시할 경우 수원 광교**, 신축 주거환경·초등학교 접근성·넓은 교육시설을 중시할 경우 **동탄**이 대체로 유리합니다.  \n광교는 수원시의 기존 교육·학원 인프라와 교통, 상급학교 선택지가 비교적 안정적이며, 동탄은 신도시 특성상 학교와 학원가가 집중된 지역이지만 단지·학교별 교육환경 차이가 큽니다.  \n다만 실제 만족도는 배정 초등학교, 중학교 학군, 통학거리와 학원 접근성에 따라 달라지므로 관심 아파트의 **학교 배정과 최근 전·입학 현황**을 반드시 확인하세요.  \n학교 정보는 [학교알리미](https://www.schoolinfo.go.kr), 관할 교육지원청은 [수원교육지원청](https://suwon.goe.go.kr)·[화성오산교육지원청](https://www.goehs.kr)에서 확인할 수 있습니다.",
+      "responseHash": "ae73a2199322041e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3682,
+      "citedUrls": [
+        "https://www.schoolinfo.go.kr",
+        "https://suwon.goe.go.kr",
+        "https://www.goehs.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:01.010Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-02",
+      "category": "education",
+      "question": "동탄과 판교 중 아이 학원가와 학군이 더 좋은 곳은?",
+      "rep": 3,
+      "response": "아이 학원가와 학군을 종합하면 **판교가 다소 우세**합니다. 판교는 분당 학원가와 접근성이 좋고, 교육 수요와 학교·학원 인프라가 오래 형성되어 있어 중·고등학교 입시 대비에 유리한 편입니다. 동탄은 신축 학교와 쾌적한 주거환경, 초등 자녀 중심의 학원가가 강점이지만, 고등 입시 학원 선택 폭과 전통적인 학군 경쟁력은 판교·분당보다 상대적으로 제한적일 수 있습니다. 다만 실제 선택 시에는 자녀 학년과 통학거리, 희망 학교별 배정·교육과정을 확인해야 하며, 학교 정보는 [학교알리미](https://www.schoolinfo.go.kr), 학원 정보는 [학원·교습소 정보서비스](https://www 학원교습소정보서비스.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "fadde6b0ed1d21a3",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3836,
+      "citedUrls": [
+        "https://www.schoolinfo.go.kr",
+        "https://www"
+      ],
+      "timestamp": "2026-09-08T00:13:01.164Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-03",
+      "category": "livability",
+      "question": "화성시와 용인시 중 30대 신혼부부가 정착해 살기 좋은 곳은?",
+      "rep": 3,
+      "response": "두 도시 중 **서울·판교 출퇴근과 교통 편의**를 중시하면 용인시, **동탄·삼성전자 등 화성·수원권 직장과 신축 주거환경**을 중시하면 화성시가 더 적합합니다. 용인은 수지·기흥의 생활 인프라와 서울 접근성이 강점인 반면, 주거비와 교통 혼잡 부담이 상대적으로 클 수 있습니다. 화성은 동탄 등 계획도시의 신혼·육아 인프라와 비교적 다양한 주거 선택지가 장점이지만, 지역별 생활 편의·대중교통 격차가 큽니다. 따라서 **직장이 서울·판교면 용인, 동탄·수원·평택·삼성권이면 화성**을 우선 검토하고, 실제 결정 전에는 시별 결혼·출산·보육 지원을 확인하세요: [용인시](https://www.yongin.go.kr), [화성시](https://www.hscity.go.kr).",
+      "responseHash": "27a3650cc19597ec",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4098,
+      "citedUrls": [
+        "https://www.yongin.go.kr",
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:01.427Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-04",
+      "category": "livability",
+      "question": "동탄과 평택 고덕 중 서울 출퇴근이 더 편한 신도시는?",
+      "rep": 3,
+      "response": "일반적으로 **서울 출퇴근은 동탄이 평택 고덕보다 편한 편**입니다. 동탄은 SRT 동탄역에서 수서역까지 약 17분이며, GTX-A와 광역버스 이용 선택지도 있어 강남·수서권 접근성이 좋습니다. 평택 고덕은 SRT 평택지제역에서 수서까지 약 20분대지만 역까지 이동해야 하고, 서울 도심·강북 출퇴근은 환승 부담이 더 클 수 있습니다. 다만 근무지가 수서·강남이면 동탄, 평택·오산·천안 또는 삼성전자 평택캠퍼스 인근이면 고덕이 더 유리합니다.  \n출처: [SRT](https://etk.srail.kr), [GTX-A](https://www.gtx-a.com)",
+      "responseHash": "3eb58c7c273c237a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4609,
+      "citedUrls": [
+        "https://etk.srail.kr",
+        "https://www.gtx-a.com"
+      ],
+      "timestamp": "2026-09-08T00:13:01.937Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-05",
+      "category": "livability",
+      "question": "화성시와 오산시 중 생활 인프라가 더 잘 갖춰진 곳은?",
+      "rep": 3,
+      "response": "생활 인프라의 **규모와 다양성**만 보면 신도시·대형 상업시설·의료·교육시설이 많은 **화성시가 전반적으로 우세**합니다. 특히 동탄은 대형 병원, 백화점·쇼핑몰, 학원가, 광역교통망이 집중되어 있어 가족 단위 생활에 편리합니다. 반면 **오산시는 도시 규모가 작고 생활권이 compact**해 이동거리가 짧으며, 세교·오산역 일대의 주거·상업·교통 접근성이 장점입니다. 따라서 다양한 시설과 신도시 환경을 원하면 화성시, 출퇴근 편의와 가까운 생활권을 중시하면 오산시가 적합하며, 실제 비교는 거주 예정 지역별로 확인하는 것이 좋습니다.  \n출처: [화성시청](https://www.hscity.go.kr), [오산시청](https://www.osan.go.kr), [KOSIS 국가통계포털](https://kosis.kr)",
+      "responseHash": "85d42c74e236238c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3630,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.osan.go.kr",
+        "https://kosis.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:00.958Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-06",
+      "category": "industry",
+      "question": "반도체 및 자동차 산업 취업을 준비할 때 화성과 평택 중 어디가 더 기회가 많아?",
+      "rep": 3,
+      "response": "반도체 취업 기회는 **평택이 다소 우세**합니다. 삼성전자 평택캠퍼스의 대규모 생산라인과 협력업체·장비업체 클러스터가 있어 공정·장비·품질·유지보수 직무가 다양합니다.  \n자동차 분야는 **화성이 우세**하며, 현대·기아 남양연구소와 화성공장, 자동차부품 기업이 밀집해 연구개발·생산기술·품질 직무 기회가 많습니다.  \n따라서 반도체 중심이면 평택, 자동차 R&D·부품·생산기술 중심이면 화성을 우선 고려하되, 실제 지원 시에는 삼성전자·현대차·기아 및 협력사의 채용공고와 통근 가능성을 함께 확인하는 것이 좋습니다.  \n출처: [삼성전자 평택캠퍼스](https://semiconductor.samsung.com/kr/about-us/locations/), [현대자동차 남양연구소](https://www.hyundai.com/kr/ko/company-intro/ir/management-information/research-development)",
+      "responseHash": "fa55033b741bd75e",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4246,
+      "citedUrls": [
+        "https://semiconductor.samsung.com/kr/about-us/locations/",
+        "https://www.hyundai.com/kr/ko/company-intro/ir/management-information/research-development"
+      ],
+      "timestamp": "2026-09-08T00:13:06.997Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-07",
+      "category": "industry",
+      "question": "IT·제조업 창업하기에 화성시와 수원시 중 어떤 도시가 나아?",
+      "rep": 3,
+      "response": "**IT 중심 창업**이라면 대학·연구기관과 삼성전자 등 대기업 생태계, 인력·교통 인프라가 밀집한 **수원시**가 유리합니다. 반면 **제조업·하드웨어·공장 기반 창업**은 산업단지와 넓은 부지, 인근 협력업체가 많은 **화성시**가 대체로 적합하며, 생산시설 확장도 수원보다 수월한 편입니다. 초기에는 수원의 창업보육·인재 확보 장점을 활용하고, 제조 단계에서 화성으로 이전하는 방식도 현실적인 선택입니다. 업종과 필요한 입지(사무실·공장·연구소)에 따라 수원시 기업지원([suwon.go.kr](https://www.suwon.go.kr))과 화성시 기업지원([hscity.go.kr](https://www.hscity.go.kr)), 창업지원포털([k-startup.go.kr](https://www.k-startup.go.kr))의 지원사업·입주공고를 함께 비교해 보세요.",
+      "responseHash": "89f56e0b82ecd061",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4167,
+      "citedUrls": [
+        "https://www.suwon.go.kr",
+        "https://www.hscity.go.kr",
+        "https://www.k-startup.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:06.918Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-08",
+      "category": "tourism",
+      "question": "주말 바다 관광으로 화성 제부도와 안산 대부도 중 어디를 더 추천해?",
+      "rep": 3,
+      "response": "주말에 짧고 인상적인 바다 여행을 원한다면 **화성 제부도**를 더 추천합니다. 제부도는 해안산책로·탑재산·제부도해상케이블카를 한 동선으로 즐기기 좋지만, 주말에는 방문객이 몰리므로 케이블카 운영 여부와 교통을 확인하세요. 반면 **안산 대부도**는 드라이브 코스가 길고 바다향기수목원, 탄도항·누에섬, 카페와 음식점 등을 여유롭게 둘러보기에 적합합니다. 출발 전 제부도 관광 안내([tour.hscity.go.kr](https://tour.hscity.go.kr))와 안산 대부도 관광 안내([tour.ansan.go.kr](https://tour.ansan.go.kr))를 확인해 보세요.",
+      "responseHash": "4744792d249fd762",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3673,
+      "citedUrls": [
+        "https://tour.hscity.go.kr",
+        "https://tour.ansan.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:06.424Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-09",
+      "category": "tourism",
+      "question": "가족 나들이와 호수 산책 코스로 동탄호수공원과 수원 광교호수공원 중 어디가 좋아?",
+      "rep": 3,
+      "response": "가족 나들이와 **호수 산책을 함께 즐기려면 수원 광교호수공원**을 추천합니다. 호수 둘레 산책로가 넓고 경관이 다양하며, 잔디·휴식 공간과 주변 카페·식당까지 있어 반나절 이상 머물기 좋습니다. 아이들이 걷는 부담을 줄이고 놀이·분수·가벼운 산책 중심으로 즐기려면 **동탄호수공원**이 더 편하고 아담한 편입니다. 즉, 긴 산책과 여유로운 나들이는 광교, 짧고 편한 가족 외출은 동탄이 적합합니다.",
+      "responseHash": "824e379f2b788fa4",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5538,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:13:08.289Z"
+    },
+    {
+      "tier": "T3-C",
+      "questionId": "C-10",
+      "category": "cost",
+      "question": "경기 남부에서 내 집 마련 시 화성 동탄과 수원 중 주거비 대비 가성비가 좋은 지역은?",
+      "rep": 3,
+      "response": "주거비 대비 **초기 매입비와 관리비를 낮추는 것이 우선이라면 수원(권선구·장안구·팔달구 외곽)**이 동탄보다 가성비가 좋은 편입니다. 동탄은 신축·대단지·교육·상권과 GTX-A 기대감이 강점이지만, 매매가와 전세가가 상대적으로 높아 예산 부담이 클 수 있습니다. 다만 삼성전자·기흥·화성 산업단지 출퇴근이 핵심이면 동탄의 교통비·시간 절감까지 고려해 실질 가성비가 좋아질 수 있으며, 수원은 서울 접근성과 기존 생활 인프라를 중시할 때 유리합니다. 실제 비교는 국토교통부 **실거래가 공개시스템**(https://rt.molit.go.kr)에서 동일 면적·연식·역세권 기준으로 매매가와 전세가를 확인하는 것이 가장 정확합니다.",
+      "responseHash": "a46cd5a09ed3b9fb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4182,
+      "citedUrls": [
+        "https://rt.molit.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:06.934Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-01",
+      "category": "general",
+      "question": "화성시에서 살면서 시민들이 꼽는 가장 불편하거나 불만인 점은 뭐야?",
+      "rep": 1,
+      "response": "화성시에서 시민들이 자주 불편으로 언급하는 분야는 **출퇴근 교통정체와 대중교통 부족**이며, 특히 동탄·향남·봉담과 서울·수원 간 이동 불편이 큽니다. 또한 급격한 인구 증가에 비해 **주차장, 학교·돌봄시설, 병원·문화시설이 부족하다**는 의견과, 읍·면 지역의 **생활SOC 및 대중교통 격차**도 반복적으로 제기됩니다. 신도시 지역에서는 공사 소음·분진과 도로 혼잡, 구도심·농촌 지역에서는 노후 인프라와 교통 불편이 상대적으로 많이 거론되며, 이는 공식 단일 순위라기보다 시민 설문·민원에서 반복되는 경향입니다. 자세한 시민 의견과 민원은 [화성시청](https://www.hscity.go.kr/) 및 [국민신문고](https://www.epeople.go.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "1237faccfb4e6d1a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5140,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.epeople.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:13:13.430Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-02",
+      "category": "environment",
+      "question": "화성시 동탄신도시의 교통 체증과 대중교통 부족 문제가 심각한 편이야?",
+      "rep": 1,
+      "response": "네, **출퇴근 시간 교통 체증과 대중교통의 지역별 편차가 큰 편**입니다. 특히 동탄2신도시에서 서울·수원·용인 등으로 이동하는 차량이 특정 간선도로와 동탄역 주변에 집중되고, 내부 순환·지선버스와 철도 접근성이 부족한 지역은 대중교통 이용 불편이 큽니다. 다만 SRT와 GTX-A 동탄역 개통으로 서울 접근성은 개선됐으며, 동탄인덕원선·동탄도시철도 등 광역·도시철도 사업이 추진 중이어서 장기적으로 개선될 전망입니다.  \n출처: [화성시청 교통·철도 분야](https://www.hscity.go.kr), [국가철도공단](https://www.kr.or.kr), [GTX 공식 홈페이지](https://www.gtx.go.kr)",
+      "responseHash": "25d02bf3d99086c2",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4605,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.kr.or.kr",
+        "https://www.gtx.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:12.895Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-03",
+      "category": "governance",
+      "question": "화성시 동부(동탄)와 서부(남양·향남)의 불균형 발전 갈등이 얼마나 심각해?",
+      "rep": 1,
+      "response": "화성시 동부(동탄)와 서부(남양·향남)의 불균형은 **생활권별 인구·교통·상업·교육·행정서비스 격차가 체감될 정도로 큰 편**이어서 지역사회 주요 갈등 요인입니다. 동탄은 신도시 개발과 인구 유입으로 광역교통·상업시설이 집중된 반면, 서부권은 산업단지·농촌·구도심이 혼재해 대중교통, 의료·문화시설, 도시개발 속도에서 상대적 박탈감을 호소합니다. 다만 현재 갈등은 물리적 충돌보다는 예산·교통망·공공기관 입지와 개발 우선순위를 둘러싼 **정책적·정치적 갈등** 성격이 강하며, 화성시도 서부권 균형발전과 권역별 생활SOC 확충을 주요 과제로 다루고 있습니다. 인구·재정·시설 분포는 화성시 통계와 균형발전 정책자료에서 확인할 수 있습니다: [화성시청](https://www.hscity.go.kr), [화성시 통계](https://stat.hscity.go.kr).",
+      "responseHash": "5011c5c9d2410926",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4184,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://stat.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:12.475Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-04",
+      "category": "cost",
+      "question": "화성시 동탄 아파트 가격과 전세 부담이 큰 편이야?",
+      "rep": 1,
+      "response": "네, **동탄은 화성시 평균보다 아파트 매매가와 전세보증금의 절대 금액이 높은 편**이라 주거비 부담이 큰 지역으로 볼 수 있습니다. 특히 동탄역 인근 신축·대단지와 동탄2신도시는 교통·학군 선호가 높아 가격이 상대적으로 높고, 전세도 보증금 규모가 큰 편입니다. 다만 서울 주요 지역보다는 저렴할 수 있으며, 단지·면적·입주연식에 따라 차이가 커서 전세가율까지 함께 확인해야 합니다. 최근 실거래가는 [국토교통부 실거래가 공개시스템](https://rt.molit.go.kr/)과 [한국부동산원](https://www.reb.or.kr/)에서 확인할 수 있습니다.",
+      "responseHash": "fb833fdcc5ee6875",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3735,
+      "citedUrls": [
+        "https://rt.molit.go.kr/",
+        "https://www.reb.or.kr/"
+      ],
+      "timestamp": "2026-09-08T00:13:12.025Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-05",
+      "category": "environment",
+      "question": "화성시 난개발이나 그린벨트 해제 논란이 있어?",
+      "rep": 1,
+      "response": "네. 화성시는 도시 외곽의 산업단지·물류시설·택지·도로 개발이 빠르게 늘면서 농지·임야 훼손, 교통·생활기반시설 부족, 공장 난립 등을 둘러싼 ‘난개발’ 논란이 반복돼 왔습니다. 개발제한구역(그린벨트) 해제 역시 공공주택·산업·도로 등 사업 추진 과정에서 거론되지만, 해제는 국토교통부와 경기도의 도시관리계획 절차 및 주민 의견수렴을 거쳐야 하며 모든 지역이 해제 대상인 것은 아닙니다. 특정 필지의 해제 여부나 개발계획은 토지이용규제정보서비스(토지이음)에서 확인하는 것이 가장 정확합니다: https://www.eum.go.kr — 화성시 도시계획 관련 공고는 https://www.hscity.go.kr 에서 확인할 수 있습니다.",
+      "responseHash": "a39fe6d7f21b3a22",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5118,
+      "citedUrls": [
+        "https://www.eum.go.kr",
+        "https://www.hscity.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:13.409Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-01",
+      "category": "general",
+      "question": "화성시에서 살면서 시민들이 꼽는 가장 불편하거나 불만인 점은 뭐야?",
+      "rep": 2,
+      "response": "화성시에는 공식적으로 ‘시민 불편 1위’를 단정한 단일 통계는 없지만, 시민 의견에서 반복적으로 언급되는 문제는 **대중교통 부족과 긴 출퇴근 시간**, 특히 동탄·남양·서부권을 잇는 교통 불편입니다. 또한 동탄 등 신도시와 농촌·서부 지역 간 **생활 인프라·의료·문화시설 격차**, 급격한 인구 증가에 따른 주차·학교·도로 부족도 주요 불만으로 꼽힙니다. 산업단지 주변의 **화물차 통행, 소음·악취·대기질 문제** 역시 지역에 따라 제기됩니다. 시민 의견은 화성시 시민소통광장(https://www.hscity.go.kr)과 국민신문고(https://www.epeople.go.kr)에서 확인할 수 있습니다.",
+      "responseHash": "2566ccacc0be857c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4546,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.epeople.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:19.486Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-02",
+      "category": "environment",
+      "question": "화성시 동탄신도시의 교통 체증과 대중교통 부족 문제가 심각한 편이야?",
+      "rep": 2,
+      "response": "네, **동탄신도시는 출퇴근 시간대 교통 체증과 대중교통 수요 대비 공급 부족이 비교적 심한 편**으로 평가됩니다. 특히 동탄대로·경부고속도로 주변과 주요 학교·상업지구에서 차량 정체가 발생하고, 외곽·신규 주거지에서는 광역버스 배차 간격과 환승 불편이 문제로 지적됩니다. 다만 2024년 GTX-A 동탄역 개통과 광역·간선버스 확충으로 서울 접근성은 개선됐으며, 노선별 체감 격차가 큰 상황입니다. 관련 교통대책과 버스 정보는 [화성시청](https://www.hscity.go.kr) 및 [GTX-A 공식 홈페이지](https://www.gtx-a.com/)에서 확인할 수 있습니다.",
+      "responseHash": "b44dbb4c99600f94",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 3558,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.gtx-a.com/"
+      ],
+      "timestamp": "2026-09-08T00:13:18.498Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-03",
+      "category": "governance",
+      "question": "화성시 동부(동탄)와 서부(남양·향남)의 불균형 발전 갈등이 얼마나 심각해?",
+      "rep": 2,
+      "response": "화성시 동부(동탄)와 서부(남양·향남)의 불균형은 **생활권·행정서비스·교통·개발투자에서 구조적으로 지속되는 수준**으로, 지역 정치와 예산 논쟁의 주요 쟁점입니다. 동부는 인구·주거·상업·교육·대중교통이 빠르게 집중된 반면, 서부는 산업단지·농촌·해안 지역이 혼재해 생활SOC와 광역교통 접근성에서 상대적 박탈감을 호소하는 경우가 많습니다. 다만 주민 간 물리적 충돌이나 행정 마비 수준이라기보다는, 시청 위치·도로와 철도 확충·공공시설 배분을 둘러싼 **상시적인 지역 갈등**에 가깝고, 공식적으로 ‘심각도’를 수치화한 지표는 없습니다. 인구·사업체·재정 및 읍면동별 생활지표는 화성시 통계와 국가통계포털에서 확인할 수 있습니다: [화성시 통계](https://www.hscity.go.kr), [KOSIS 국가통계포털](https://kosis.kr).",
+      "responseHash": "5047c0033136f27d",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5791,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://kosis.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:20.731Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-04",
+      "category": "cost",
+      "question": "화성시 동탄 아파트 가격과 전세 부담이 큰 편이야?",
+      "rep": 2,
+      "response": "화성시 전체와 비교하면 동탄은 신축·교통·학군 선호가 높아 아파트 매매가격이 높은 편이며, 특히 동탄역 인근과 동탄2신도시 주요 단지는 가격대가 높습니다. 전세도 매매가격과 면적에 따라 보증금 부담이 큰 편이지만, 입주물량·단지별 전세가율에 따라 차이가 커서 동탄1·동탄2 및 역세권 여부를 나눠 봐야 합니다. 정확한 판단은 원하는 단지의 최근 6개월 실거래가, 전세가율, 본인 가구의 연소득 대비 보증금·대출액을 함께 확인하는 것이 좋습니다. 국토교통부 실거래가 공개시스템([rt.molit.go.kr](https://rt.molit.go.kr))과 한국부동산원 주택가격동향([www.reb.or.kr](https://www.reb.or.kr))에서 최신 자료를 확인할 수 있습니다.",
+      "responseHash": "f4866e0d0dbe5af7",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4192,
+      "citedUrls": [
+        "https://rt.molit.go.kr",
+        "https://www.reb.or.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:19.132Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-05",
+      "category": "environment",
+      "question": "화성시 난개발이나 그린벨트 해제 논란이 있어?",
+      "rep": 2,
+      "response": "네. 화성시는 동탄·봉담·향남·남양 등 개발 수요가 큰 지역을 중심으로 주택·산업·물류시설이 외곽으로 확산되면서 교통, 기반시설 부족, 농지·임야 훼손 등 **난개발 우려와 민원**이 반복적으로 제기돼 왔습니다.  \n그린벨트(개발제한구역) 해제 역시 일부 개발사업과 연계해 논란이 생길 수 있지만, 화성시가 단독으로 결정하는 사안은 아니며 관련 법령과 국토교통부·경기도의 도시관리계획 절차, 주민공람 등을 거쳐야 합니다.  \n특정 지역의 실제 해제 추진 여부는 화성시 고시·공고나 도시관리계획 결정 내용을 확인해야 하며, 정확한 읍·면·동이나 사업명을 알려주시면 해당 논란을 구체적으로 확인해드릴 수 있습니다.  \n출처: [화성시 홈페이지](https://www.hscity.go.kr), [국가법령정보센터—개발제한구역법](https://www.law.go.kr/법령/개발제한구역의지정및관리에관한특별조치법)",
+      "responseHash": "4289940b7eef3caf",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6891,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.law.go.kr/법령/개발제한구역의지정및관리에관한특별조치법"
+      ],
+      "timestamp": "2026-09-08T00:13:21.831Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-01",
+      "category": "general",
+      "question": "화성시에서 살면서 시민들이 꼽는 가장 불편하거나 불만인 점은 뭐야?",
+      "rep": 3,
+      "response": "화성시에서 시민들이 가장 많이 불편하다고 말하는 분야는 **대중교통 부족과 출퇴근 교통체증**으로, 특히 동탄·봉담·향남과 서부권 산업단지 사이의 이동 불편이 자주 거론됩니다. 그다음으로는 **지역별 생활 인프라 격차**, **도로·주차 부족**, **난개발과 소음·대기오염 등 환경 문제**가 주요 불만으로 꼽힙니다. 다만 화성시는 동탄·병점·봉담·서남부 농촌지역의 생활 여건 차이가 커서, 시민 체감 불편은 거주 지역에 따라 상당히 다릅니다. 공식 민원·통계는 화성시청 홈페이지와 국민신문고에서 확인할 수 있습니다: [화성시청](https://www.hscity.go.kr/), [국민신문고](https://www.epeople.go.kr/).",
+      "responseHash": "571789ac2a0b4812",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6970,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.epeople.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:13:30.307Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-02",
+      "category": "environment",
+      "question": "화성시 동탄신도시의 교통 체증과 대중교통 부족 문제가 심각한 편이야?",
+      "rep": 3,
+      "response": "네, **출퇴근 시간대에는 교통 체증과 대중교통 부족이 비교적 심각한 편**으로 평가됩니다. 동탄대로·동탄순환대로와 경부고속도로 진출입 구간, 동탄역 주변에 차량이 집중되고, 신도시 외곽·2동탄 일부 지역은 철도역과의 거리가 있어 버스 환승 의존도가 높습니다. 다만 SRT와 GTX-A 동탄역 운행으로 광역교통은 개선됐으며, 화성시는 광역·시내버스 확충과 도로 개선을 계속 추진하고 있습니다.  \n- 화성시 교통정보: https://its.hscity.go.kr/  \n- GTX-A 공식 홈페이지: https://www.gtx-a.com/",
+      "responseHash": "7675db568eca86e5",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4121,
+      "citedUrls": [
+        "https://its.hscity.go.kr/",
+        "https://www.gtx-a.com/"
+      ],
+      "timestamp": "2026-09-08T00:13:27.458Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-03",
+      "category": "governance",
+      "question": "화성시 동부(동탄)와 서부(남양·향남)의 불균형 발전 갈등이 얼마나 심각해?",
+      "rep": 3,
+      "response": "화성시의 동부(동탄)와 서부(남양·향남) 간 불균형은 **생활권·인구·교통·교육·의료·문화시설의 격차가 누적된 지역 현안**으로, 주민 체감상 상당한 편입니다. 동탄은 대규모 택지개발과 인구 유입으로 상업·교육·교통 인프라가 집중된 반면, 서부권은 산업단지·농촌 지역이 혼재해 대중교통, 생활SOC, 광역교통 접근성에서 상대적으로 불리하다는 불만이 있습니다. 다만 화성시는 서부권 산업·교통망 확충과 읍면 지역 생활SOC 투자 등을 추진하고 있어, 현재 갈등은 “분리·독립” 수준의 전면적 대립이라기보다 **예산 배분과 개발 우선순위를 둘러싼 구조적 지역 격차 논쟁**으로 보는 것이 정확합니다. 공식 통계는 화성시 통계포털(https://stat.hscity.go.kr)과 국가통계포털(https://kosis.kr)에서 인구·재정·시설 현황을 비교해 확인할 수 있습니다.",
+      "responseHash": "4005cdf909216039",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 4200,
+      "citedUrls": [
+        "https://stat.hscity.go.kr",
+        "https://kosis.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:27.538Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-04",
+      "category": "cost",
+      "question": "화성시 동탄 아파트 가격과 전세 부담이 큰 편이야?",
+      "rep": 3,
+      "response": "동탄 아파트는 화성시 내에서는 가격대가 높은 편이며, 특히 동탄2신도시의 신축·역세권 단지는 매매가격과 전세보증금 모두 부담이 큰 편입니다. 다만 서울 핵심지역보다는 절대가격이 낮고, 단지·입주연식·동탄역 접근성에 따라 차이가 커서 “동탄 전체가 비싸다”고 단정하기는 어렵습니다. 전세 부담은 보증금뿐 아니라 전세대출 금리와 소득 대비 상환액을 함께 봐야 하며, 국토교통부 실거래가에서 최근 6개월 같은 단지의 매매·전세 거래를 비교하는 것이 가장 정확합니다.  \n출처: [국토교통부 실거래가 공개시스템](https://rt.molit.go.kr), [KB부동산](https://kbland.kr)",
+      "responseHash": "6fb659fb35f1191a",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5142,
+      "citedUrls": [
+        "https://rt.molit.go.kr",
+        "https://kbland.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:28.480Z"
+    },
+    {
+      "tier": "T3-D",
+      "questionId": "D-05",
+      "category": "environment",
+      "question": "화성시 난개발이나 그린벨트 해제 논란이 있어?",
+      "rep": 3,
+      "response": "네. 화성시는 동탄·남양·향남·송산 등 도시개발이 빠르게 진행되면서 농지·임야의 물류창고, 공장, 주택 등이 기반시설보다 먼저 들어서는 ‘난개발’ 우려가 지속적으로 제기돼 왔습니다.  \n그린벨트(개발제한구역) 해제 논란도 주택·산업단지 공급을 위한 해제 필요성과 환경·교통·생활권 보전 요구가 맞서는 형태로 발생하며, 화성진안 공공주택지구 등 대규모 개발사업과 연계해 논의됩니다.  \n다만 모든 개발이 그린벨트 해제에 해당하는 것은 아니므로, 특정 지역의 해제 여부는 국토교통부 고시와 화성시 도시관리계획을 확인해야 합니다.  \n출처: [화성시](https://www.hscity.go.kr), [국토교통부](https://www.molit.go.kr), [국가법령정보센터 개발제한구역법](https://www.law.go.kr/법령/개발제한구역의지정및관리에관한특별조치법)",
+      "responseHash": "328707be983ef028",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5844,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.molit.go.kr",
+        "https://www.law.go.kr/법령/개발제한구역의지정및관리에관한특별조치법"
+      ],
+      "timestamp": "2026-09-08T00:13:29.182Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-01",
+      "category": "source_tracking",
+      "question": "화성시 출산지원금과 산후조리비 지원 정책을 공식 사이트 주소와 함께 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6723,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:13:37.030Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-02",
+      "category": "source_tracking",
+      "question": "화성시 제부도 관광 정보와 바다갈라짐 시간표를 공식 웹사이트 링크와 함께 안내해줘",
+      "rep": 1,
+      "response": "화성시 제부도는 **제부도해수욕장, 매바위, 탑재산·해안산책로, 제부도아트파크** 등을 둘러볼 수 있는 관광지이며, 물때에 따라 섬과 육지를 연결하는 바닷길이 열립니다.  \n바다갈라짐 시간은 날짜별로 달라지므로 방문 전 **화성시 공식 관광 홈페이지의 ‘제부도 바닷길 통행시간’**을 확인하세요: [화성시 문화관광](https://tour.hscity.go.kr/).  \n또한 국립해양조사원에서 제부도의 날짜별 바다갈라짐 예보와 조석 정보를 확인할 수 있습니다: [국립해양조사원 바다갈라짐 정보](https://www.khoa.go.kr/).  \n통행 가능 시간 전후에는 기상·조석 상황에 따라 변동될 수 있으므로 현장 안내와 통제 여부도 함께 확인하시기 바랍니다.",
+      "responseHash": "bebf8d5d4cbde038",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6922,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/",
+        "https://www.khoa.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:13:37.229Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-03",
+      "category": "source_tracking",
+      "question": "화성시 청년월세 지원 자격 조건과 신청 공고를 확인할 수 있는 공식 사이트 주소를 알려줘",
+      "rep": 1,
+      "response": "화성시 청년월세 지원의 자격·모집 여부는 **화성시청 홈페이지**의 ‘고시·공고’에서 `청년월세`를 검색해 확인하세요: https://www.hscity.go.kr/  \n국가사업인 **청년월세 지원**의 세부 자격(연령, 소득·재산, 거주·임차 conditions)과 신청은 복지로에서 확인할 수 있습니다: https://www.bokjiro.go.kr/  \n온라인 신청은 복지로, 방문 신청은 주소지 관할 읍·면·동 행정복지센터에서 진행하며, 공고별 조건과 신청 기간이 다를 수 있으므로 최신 공고를 기준으로 확인해야 합니다.",
+      "responseHash": "e5c939586fbc28b8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7620,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.bokjiro.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:13:37.927Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-04",
+      "category": "source_tracking",
+      "question": "화성시 쓰레기 종량제봉투 규격별 가격표와 대형폐기물 배출 수수료를 공식 페이지 도메인 주소와 함께 알려줘",
+      "rep": 1,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6495,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:13:36.802Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-05",
+      "category": "source_tracking",
+      "question": "화성시 어르신 버스요금 교통비 지원 사업 대상 및 신청 안내를 공식 사이트 주소와 함께 알려줘",
+      "rep": 1,
+      "response": "화성시 어르신 버스요금 지원(무상교통)은 **화성시에 주민등록을 둔 만 65세 이상 어르신**이 대상이며, 화성시 관내 **시내버스·마을버스 이용요금**을 지원합니다(시외·고속·공항버스 등은 제외될 수 있음).  \n신청은 화성시 무상교통 홈페이지에서 온라인으로 하거나, 주소지 읍·면·동 행정복지센터를 방문해 **무상교통 카드**를 발급받아야 하며, 신분증 등이 필요합니다.  \n지원 범위·한도와 카드 발급 방법은 변동될 수 있으므로 신청 전 공식 안내를 확인하세요.  \n공식 홈페이지: **화성시 무상교통** https://traffic.hscity.go.kr/",
+      "responseHash": "7773b48befff8acb",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6618,
+      "citedUrls": [
+        "https://traffic.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:13:36.925Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-01",
+      "category": "source_tracking",
+      "question": "화성시 출산지원금과 산후조리비 지원 정책을 공식 사이트 주소와 함께 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6741,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:13:46.177Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-02",
+      "category": "source_tracking",
+      "question": "화성시 제부도 관광 정보와 바다갈라짐 시간표를 공식 웹사이트 링크와 함께 안내해줘",
+      "rep": 2,
+      "response": "화성시 제부도는 바다갈라짐길, 제부도해수욕장, 매바위, 제부도해상케이블카와 제부도 워터워크 등을 둘러볼 수 있는 대표 해양관광지입니다.  \n관광지·주차·교통 등 자세한 내용은 **[화성시 문화관광 공식 홈페이지](https://tour.hscity.go.kr/)**에서 ‘제부도’를 검색해 확인하세요.  \n바다갈라짐 시간은 날짜와 조석에 따라 매일 달라지므로 출발 전 **[국립해양조사원 바다갈라짐 정보](https://www.khoa.go.kr/)**에서 ‘바다갈라짐’을 검색해 해당 날짜의 통행 가능 시간을 확인해야 합니다.  \n통행시간 전후에는 차량 진입이 제한될 수 있으니, 현장 안내방송과 안전표지판을 반드시 따르시기 바랍니다.",
+      "responseHash": "959003066f49ba3b",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6311,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/",
+        "https://www.khoa.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:13:45.748Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-03",
+      "category": "source_tracking",
+      "question": "화성시 청년월세 지원 자격 조건과 신청 공고를 확인할 수 있는 공식 사이트 주소를 알려줘",
+      "rep": 2,
+      "response": "화성시 청년월세 지원 공고는 **화성시청 공식 홈페이지**(https://www.hscity.go.kr)에서 `시정알림방 → 공고/고시` 또는 검색창에 **“청년월세”**를 입력해 확인할 수 있습니다.  \n자격 기준과 온라인 신청은 **복지로**(https://www.bokjiro.go.kr)에서 `서비스 신청 → 복지급여 신청 → 청년월세 지원` 메뉴를 확인하세요.  \n일반적으로 만 19~34세 무주택 청년, 부모와 별도 거주, 소득·재산 기준 충족 등이 필요하지만, 연도별 공고에 따라 달라질 수 있으므로 최신 공고의 기준을 최종 확인해야 합니다.",
+      "responseHash": "3c8c64407c7f00cd",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5001,
+      "citedUrls": [
+        "https://www.hscity.go.kr",
+        "https://www.bokjiro.go.kr"
+      ],
+      "timestamp": "2026-09-08T00:13:44.437Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-04",
+      "category": "source_tracking",
+      "question": "화성시 쓰레기 종량제봉투 규격별 가격표와 대형폐기물 배출 수수료를 공식 페이지 도메인 주소와 함께 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6226,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:13:45.662Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-05",
+      "category": "source_tracking",
+      "question": "화성시 어르신 버스요금 교통비 지원 사업 대상 및 신청 안내를 공식 사이트 주소와 함께 알려줘",
+      "rep": 2,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 7154,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:13:46.591Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-01",
+      "category": "source_tracking",
+      "question": "화성시 출산지원금과 산후조리비 지원 정책을 공식 사이트 주소와 함께 알려줘",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6319,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:13:54.417Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-02",
+      "category": "source_tracking",
+      "question": "화성시 제부도 관광 정보와 바다갈라짐 시간표를 공식 웹사이트 링크와 함께 안내해줘",
+      "rep": 3,
+      "response": "제부도는 해수욕장·제부도해상케이블카·탑재산 산책로·매바위 등 해양관광 명소가 있으며, 물때에 따라 육지와 연결되는 바닷길을 차량으로 이용할 수 있습니다.  \n관광 안내와 주차·숙박·교통 정보는 **화성시 문화관광 홈페이지**(https://tour.hscity.go.kr/)에서 `관광명소 → 제부도`를 확인하세요.  \n바다갈라짐 시간은 날짜별 조석에 따라 달라지므로, 방문일을 선택해 **국립해양조사원 바다갈라짐 예보**(https://www.khoa.go.kr/)에서 `해양예보 → 바다갈라짐` 시간표를 확인해야 하며, 예보 전후에는 통행이 제한될 수 있습니다.  \n출발 전 당일 기상·현장 통제 여부도 화성시 공식 관광 안내에서 함께 확인하시기 바랍니다.",
+      "responseHash": "2472d428c96bc748",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6988,
+      "citedUrls": [
+        "https://tour.hscity.go.kr/",
+        "https://www.khoa.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:13:55.087Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-03",
+      "category": "source_tracking",
+      "question": "화성시 청년월세 지원 자격 조건과 신청 공고를 확인할 수 있는 공식 사이트 주소를 알려줘",
+      "rep": 3,
+      "response": "화성시 청년월세 지원은 공고에 따라 달라질 수 있으나, 일반적으로 **만 19~34세 무주택 청년**, 부모와 별도 거주, 청년가구·원가구의 소득 및 재산 기준을 충족해야 합니다.  \n신청기간·지원금액·세부 자격은 **화성시청 고시·공고**에서 ‘청년월세’를 검색해 확인하세요: [화성시청](https://www.hscity.go.kr/)  \n온라인 신청 및 자격 확인은 **복지로 청년월세 지원사업**에서 가능합니다: [복지로](https://www.bokjiro.go.kr/ssis-tbu/index.do)  \n공고에 따라 주소지 읍·면·동 행정복지센터 방문 신청이 안내될 수도 있으므로 최신 공고문을 기준으로 확인하시기 바랍니다.",
+      "responseHash": "0afb91663cc4af1c",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 5624,
+      "citedUrls": [
+        "https://www.hscity.go.kr/",
+        "https://www.bokjiro.go.kr/ssis-tbu/index.do"
+      ],
+      "timestamp": "2026-09-08T00:13:53.723Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-04",
+      "category": "source_tracking",
+      "question": "화성시 쓰레기 종량제봉투 규격별 가격표와 대형폐기물 배출 수수료를 공식 페이지 도메인 주소와 함께 알려줘",
+      "rep": 3,
+      "response": "(응답 없음)",
+      "responseHash": "c3ac042990d5e611",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6328,
+      "citedUrls": [],
+      "timestamp": "2026-09-08T00:13:54.427Z"
+    },
+    {
+      "tier": "T4",
+      "questionId": "T4-05",
+      "category": "source_tracking",
+      "question": "화성시 어르신 버스요금 교통비 지원 사업 대상 및 신청 안내를 공식 사이트 주소와 함께 알려줘",
+      "rep": 3,
+      "response": "화성시 어르신 버스요금 지원(무상교통)은 **화성시에 주민등록을 둔 만 65세 이상 어르신**이 대상이며, 화성시 관내 시내버스·마을버스 이용요금을 지원합니다.  \n신청은 **화성시 무상교통 홈페이지에서 온라인으로 하거나, 주소지 읍·면·동 행정복지센터에서** 할 수 있으며, 본인 명의 교통카드 발급·등록이 필요합니다.  \n지원 대상 노선, 지원 한도, 카드 발급 및 구비서류는 변동될 수 있으므로 신청 전 공식 홈페이지에서 확인하시기 바랍니다.  \n공식 안내: **화성시 무상교통** https://freebus.hscity.go.kr/",
+      "responseHash": "662c5a79201918f8",
+      "model": "gpt-5.6-luna",
+      "latencyMs": 6208,
+      "citedUrls": [
+        "https://freebus.hscity.go.kr/"
+      ],
+      "timestamp": "2026-09-08T00:13:54.307Z"
+    }
+  ]
+}

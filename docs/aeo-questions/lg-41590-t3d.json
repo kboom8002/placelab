@@ -1,0 +1,42 @@
+[
+  {
+    "id": "D-01",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "화성시에서 살면서 시민들이 꼽는 가장 불편하거나 불만인 점은 뭐야?",
+    "riskCategory": "general",
+    "targetKeywords": ["화성", "동탄"]
+  },
+  {
+    "id": "D-02",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "화성시 동탄신도시의 교통 체증과 대중교통 부족 문제가 심각한 편이야?",
+    "riskCategory": "environment",
+    "targetKeywords": ["동탄", "교통"]
+  },
+  {
+    "id": "D-03",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "화성시 동부(동탄)와 서부(남양·향남)의 불균형 발전 갈등이 얼마나 심각해?",
+    "riskCategory": "governance",
+    "targetKeywords": ["화성", "동탄", "남양"]
+  },
+  {
+    "id": "D-04",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "화성시 동탄 아파트 가격과 전세 부담이 큰 편이야?",
+    "riskCategory": "cost",
+    "targetKeywords": ["동탄", "화성"]
+  },
+  {
+    "id": "D-05",
+    "tier": "T3-D",
+    "type": "reputation",
+    "body": "화성시 난개발이나 그린벨트 해제 논란이 있어?",
+    "riskCategory": "environment",
+    "targetKeywords": ["화성", "난개발"]
+  }
+]

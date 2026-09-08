@@ -1,0 +1,172 @@
+[
+  {
+    "id": "V1-B01-01",
+    "parentId": "B-01",
+    "tier": "T1-V",
+    "category": "birth",
+    "body": "화성시 둘째 출산지원금 정확한 금액은?",
+    "groundTruth": "200만원",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["200만", "2000000", "이백만", "200만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B01-02",
+    "parentId": "B-01",
+    "tier": "T1-V",
+    "category": "birth",
+    "body": "화성시 산후조리비 지원 금액은 얼마인가요?",
+    "groundTruth": "100만원",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["100만", "1000000", "백만", "100만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B01-03",
+    "parentId": "B-01",
+    "tier": "T1-V",
+    "category": "birth",
+    "body": "화성시 첫째아 출산지원금(출산축하금)은 얼마인가요?",
+    "groundTruth": "100만원",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["100만", "1000000", "백만", "100만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B04-01",
+    "parentId": "B-04",
+    "tier": "T1-V",
+    "category": "waste_bag",
+    "body": "화성시 일반종량제봉투 20리터 1장 가격은 얼마인가요?",
+    "groundTruth": "600원",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["600", "600원", "육백원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B04-02",
+    "parentId": "B-04",
+    "tier": "T1-V",
+    "category": "waste_bag",
+    "body": "화성시 음식물 쓰레기 종량제봉투 2리터 가격은 얼마인가요?",
+    "groundTruth": "120원",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["120", "120원", "백이십원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B04-03",
+    "parentId": "B-04",
+    "tier": "T1-V",
+    "category": "waste_bag",
+    "body": "화성시 종량제봉투는 어디에서 구매할 수 있나요?",
+    "groundTruth": "편의점, 마트, 읍면동 행정복지센터",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": [
+      "편의점·마트·주민센터",
+      "편의점, 마트, 주민센터",
+      "행정복지센터, 마트, 편의점",
+      "편의점, 마트"
+    ],
+    "errorType": "name"
+  },
+  {
+    "id": "V1-B06-01",
+    "parentId": "B-06",
+    "tier": "T1-V",
+    "category": "senior_bus",
+    "body": "화성시 어르신 버스요금 지원 대상 연령 기준은 몇 세 이상인가요?",
+    "groundTruth": "만 65세 이상",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["만 65세", "만65세", "65세", "65세 이상", "만 65세 이상"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B06-02",
+    "parentId": "B-06",
+    "tier": "T1-V",
+    "category": "senior_bus",
+    "body": "화성시 어르신 교통비(버스비) 지원 한도 금액은 월 얼마인가요?",
+    "groundTruth": "월 2만원",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["월 2만원", "월 2만", "2만원", "월2만원", "연 24만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B08-01",
+    "parentId": "B-08",
+    "tier": "T1-V",
+    "category": "youth_rent",
+    "body": "화성시 청년월세 지원 사업의 월 최대 지원 금액은 얼마인가요?",
+    "groundTruth": "월 20만원",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["월 20만원", "월20만원", "20만원", "200000원", "월 최대 20만원"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B08-02",
+    "parentId": "B-08",
+    "tier": "T1-V",
+    "category": "youth_rent",
+    "body": "화성시 청년월세 지원 대상자의 연령 기준은 어떻게 되나요?",
+    "groundTruth": "만 19세~39세",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["만19~39세", "19세~39세", "만 19세 이상 39세 이하", "19-39세", "만 19세~39세"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B08-03",
+    "parentId": "B-08",
+    "tier": "T1-V",
+    "category": "youth_rent",
+    "body": "화성시 청년월세 지원을 받기 위한 소득 기준(기준 중위소득 비율)은 얼마인가요?",
+    "groundTruth": "기준 중위소득 150% 이하",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["중위소득 150%", "중위소득 150% 이하", "150% 이하", "150%"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B10-01",
+    "parentId": "B-10",
+    "tier": "T1-V",
+    "category": "night_care",
+    "body": "화성시 야간·휴일 소아진료 의료안내 대표 전화번호는 어디인가요?",
+    "groundTruth": "031-5189-6114",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["031-5189-6114", "03151896114"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B10-02",
+    "parentId": "B-10",
+    "tier": "T1-V",
+    "category": "night_care",
+    "body": "화성시 야간 당번약국 안내 전화번호는 어디인가요?",
+    "groundTruth": "1644-0723",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["1644-0723", "16440723"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "V1-B15-01",
+    "parentId": "B-15",
+    "tier": "T1-V",
+    "category": "festival",
+    "body": "화성시 대표 축제인 동탄 호수공원 물빛축제는 매년 몇 월에 개최되나요?",
+    "groundTruth": "9월",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["9월", "매년 9월", "9월경"],
+    "errorType": "date"
+  },
+  {
+    "id": "V1-B15-02",
+    "parentId": "B-15",
+    "tier": "T1-V",
+    "category": "festival",
+    "body": "화성시 제부도 해상 관광지 바다갈라짐(모세의 기적) 현상은 하루에 몇 회 발생하나요?",
+    "groundTruth": "하루 2회",
+    "groundTruthSource": "https://www.hscity.go.kr",
+    "acceptableVariants": ["2회", "하루 2회", "하루2회", "하루에 두 번", "매일 2회"],
+    "errorType": "numeric"
+  }
+]

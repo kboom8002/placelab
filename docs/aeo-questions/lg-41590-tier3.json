@@ -1,0 +1,17 @@
+[
+  { "id": "V-A1", "type": "recommendation", "body": "경기도에서 살기 좋은 도시 3곳 추천해줘", "targetKeywords": ["화성", "동탄", "GTX"] },
+  { "id": "V-A2", "type": "recommendation", "body": "경기도에서 자연·해양 관광하기 좋은 곳 어디야?", "targetKeywords": ["화성", "제부도", "궁평항"] },
+  { "id": "V-A3", "type": "recommendation", "body": "한국에서 바다 갈라지는 현상을 볼 수 있는 곳이 어디야?", "targetKeywords": ["제부도", "화성"] },
+  { "id": "V-B1", "type": "association", "body": "화성시 하면 뭐가 떠올라? 세 가지 말해줘", "targetKeywords": ["동탄", "삼성", "제부도"] },
+  { "id": "V-B2", "type": "association", "body": "화성시의 슬로건이나 이미지가 뭐야?", "targetKeywords": ["화성", "동탄", "스마트시티"] },
+  { "id": "V-C1", "type": "keyword_entry", "body": "한국에서 반도체 공장이 있는 도시 알려줘", "targetKeywords": ["화성", "삼성"] },
+  { "id": "V-C2", "type": "keyword_entry", "body": "경기도에서 인구가 가장 빠르게 증가하는 도시는?", "targetKeywords": ["화성", "동탄"] },
+  { "id": "V-C3", "type": "keyword_entry", "body": "수도권에서 GTX로 접근할 수 있는 신도시 알려줘", "targetKeywords": ["동탄", "화성"] },
+  { "id": "V-D1", "type": "scenario", "body": "서울 강남에서 출퇴근 가능한 경기도 신도시 추천해줘", "targetKeywords": ["동탄", "GTX"] },
+  { "id": "V-D2", "type": "scenario", "body": "아이 키우기 좋은 경기도 신도시 어디야?", "targetKeywords": ["동탄", "화성"] },
+  { "id": "V-D3", "type": "scenario", "body": "자동차 산업 취업하려면 어느 도시에 가야 해?", "targetKeywords": ["화성", "현대", "기아"] },
+  { "id": "V-E1", "type": "comparison", "body": "동탄과 광교 중 가족이 살기 좋은 곳은?", "targetKeywords": ["동탄", "화성"] },
+  { "id": "V-E2", "type": "comparison", "body": "화성시와 평택시의 차이점이 뭐야?", "targetKeywords": ["화성"] },
+  { "id": "V-F1", "type": "negative_test", "body": "화성시의 단점이나 주의할 점 알려줘", "targetKeywords": ["화성"] },
+  { "id": "V-F2", "type": "negative_test", "body": "동탄에서 살면 불편한 점이 뭐야?", "targetKeywords": ["동탄", "화성"] }
+]
