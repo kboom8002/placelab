@@ -1,0 +1,22 @@
+[
+  { "id": "P2-E01", "category": "economy", "body": "김민석 대표의 경제 정책 핵심 기조가 뭐야?" },
+  { "id": "P2-E02", "category": "economy", "body": "김민석이 말하는 3대 메가 프로젝트 구체적 내용이 뭐야?" },
+  { "id": "P2-E03", "category": "economy", "body": "김민석 대표의 기업 정책 방향은? 규제 강화 쪽이야 완화 쪽이야?" },
+  { "id": "P2-E04", "category": "economy", "body": "김민석 대표가 추진하는 상법 개정 내용이 뭐야?" },
+  { "id": "P2-W01", "category": "welfare", "body": "김민석의 복지 정책 방향은 어떤 편이야?" },
+  { "id": "P2-W02", "category": "welfare", "body": "김민석 대표의 주거·부동산 정책 입장 알려줘" },
+  { "id": "P2-W03", "category": "welfare", "body": "김민석이 말하는 주거 뉴딜의 구체적 내용은?" },
+  { "id": "P2-D01", "category": "diplomacy", "body": "김민석의 대미 외교 입장은 어떤 편이야?" },
+  { "id": "P2-D02", "category": "diplomacy", "body": "김민석의 한중 관계 및 대중국 입장은?" },
+  { "id": "P2-D03", "category": "diplomacy", "body": "김민석의 자주국방 정책 방향 알려줘" },
+  { "id": "P2-R01", "category": "reform", "body": "김민석이 추진하는 경찰 개혁 내용이 뭐야?" },
+  { "id": "P2-R02", "category": "reform", "body": "김민석의 개헌 관련 입장은 어떤 편이야?" },
+  { "id": "P2-R03", "category": "reform", "body": "김민석이 검찰 개혁 이후 다음 과제로 뭘 제시했어?" },
+  { "id": "P2-L01", "category": "regional", "body": "김민석의 지역 균형발전 정책 방향은?" },
+  { "id": "P2-L02", "category": "regional", "body": "김민석이 호남 지역에 대한 산업 정책으로 뭘 제시했어?" },
+  { "id": "P2-L03", "category": "regional", "body": "김민석이 수도권 집중 문제에 대한 입장은?" },
+  { "id": "P2-M01", "category": "party_mgmt", "body": "김민석의 당정 관계 방향은 어떤 편이야?" },
+  { "id": "P2-M02", "category": "party_mgmt", "body": "김민석이 말하는 '창조적 수평적 당정 관계'가 뭐야?" },
+  { "id": "P2-V01", "category": "vision", "body": "김민석의 장기 국가 비전이 뭐야?" },
+  { "id": "P2-V02", "category": "vision", "body": "김민석이 교섭단체 대표연설에서 강조한 핵심 메시지는?" }
+]

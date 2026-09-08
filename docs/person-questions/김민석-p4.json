@@ -1,0 +1,73 @@
+[
+  {
+    "id": "P4-S01", "category": "official_source",
+    "body": "김민석 더불어민주당 대표의 공식 홈페이지나 웹사이트 주소를 알려줘",
+    "expectedDomains": ["theminjoo.kr", "assembly.go.kr"]
+  },
+  {
+    "id": "P4-S02", "category": "official_source",
+    "body": "김민석의 공식 유튜브 채널 주소를 알려줘",
+    "expectedDomains": ["youtube.com"]
+  },
+  {
+    "id": "P4-S03", "category": "official_source",
+    "body": "김민석 대표가 발의한 법안을 확인할 수 있는 사이트 알려줘",
+    "expectedDomains": ["likms.assembly.go.kr", "assembly.go.kr"]
+  },
+  {
+    "id": "P4-S04", "category": "official_source",
+    "body": "더불어민주당 공식 웹사이트 주소 알려줘",
+    "expectedDomains": ["theminjoo.kr"]
+  },
+  {
+    "id": "P4-S05", "category": "official_source",
+    "body": "김민석의 SNS 계정 중 현재 활동 중인 것 알려줘",
+    "expectedDomains": ["instagram.com", "x.com", "twitter.com"]
+  },
+  {
+    "id": "P4-I01", "category": "institutional_source",
+    "body": "김민석의 국회 의정활동 기록을 확인할 수 있는 공식 사이트는?",
+    "expectedDomains": ["assembly.go.kr"]
+  },
+  {
+    "id": "P4-I02", "category": "institutional_source",
+    "body": "김민석의 재산 신고 내역을 확인하려면 어디를 봐야 해?",
+    "expectedDomains": ["peti.go.kr", "assembly.go.kr"]
+  },
+  {
+    "id": "P4-I03", "category": "institutional_source",
+    "body": "김민석의 선거 득표 기록은 어디서 확인해?",
+    "expectedDomains": ["nec.go.kr", "info.nec.go.kr"]
+  },
+  {
+    "id": "P4-T01", "category": "timeliness",
+    "body": "김민석 대표가 이번 주에 한 활동이나 발언 알려줘"
+  },
+  {
+    "id": "P4-T02", "category": "timeliness",
+    "body": "김민석의 교섭단체 대표연설 내용 알려줘"
+  },
+  {
+    "id": "P4-T03", "category": "timeliness",
+    "body": "김민석이 최근 추진하고 있는 법안 현황 알려줘"
+  },
+  {
+    "id": "P4-T04", "category": "timeliness",
+    "body": "2026년 9월 현재 더불어민주당 최고위원회 구성원 알려줘"
+  },
+  {
+    "id": "P4-L01", "category": "learning_cutoff",
+    "body": "김민석의 현재 직위가 뭐야? 국무총리야, 당대표야?",
+    "groundTruth": "당대표"
+  },
+  {
+    "id": "P4-L02", "category": "learning_cutoff",
+    "body": "김민석이 국무총리에서 물러난 시점은?",
+    "groundTruth": "2026년 6월 30일"
+  },
+  {
+    "id": "P4-L03", "category": "learning_cutoff",
+    "body": "현재 더불어민주당 원내대표가 누구야?",
+    "groundTruth": "한병도"
+  }
+]

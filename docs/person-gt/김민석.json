@@ -1,0 +1,35 @@
+{
+  "subject": {
+    "name": "김민석",
+    "title": "더불어민주당 대표",
+    "type": "politician",
+    "snapshotDate": "2026-09-08"
+  },
+  "facts": [
+    { "id": "GT-KMS-01", "category": "birth", "field": "출생연도", "value": "1964년 5월 29일", "source": "국회 의원 프로필", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-02", "category": "birth", "field": "출생지", "value": "서울특별시 종로구 창신동", "source": "국회 의원 프로필", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-03", "category": "career", "field": "국회의원 선수", "value": "4선 (15·16·21·22대)", "source": "국회 의안정보시스템", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-04", "category": "career", "field": "초선 당선", "value": "1996년 제15대 총선, 서울 영등포구 을, 만 32세 최연소", "source": "중앙선관위", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-05", "category": "education", "field": "학부", "value": "서울대학교 사회학과", "source": "국회 의원 프로필", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-06", "category": "education", "field": "대학원", "value": "하버드 케네디스쿨 행정학 석사(MPA), 럿거스대 법무박사(JD), 칭화대 법학 석사(LLM)", "source": "국회 의원 프로필", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-07", "category": "education", "field": "변호사 자격", "value": "미국 뉴저지주 변호사", "source": "국회 의원 프로필", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-08", "category": "party", "field": "당대표 선출", "value": "2026년 8월 17일, 득표율 54.08%", "source": "더불어민주당 공식 발표", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-09", "category": "party", "field": "당대표 경선 상대", "value": "정청래 (45.92%)", "source": "더불어민주당 공식 발표", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-10", "category": "career", "field": "국무총리", "value": "제49대 국무총리, 2025.7.4~2026.6.30, 이재명 정부 초대", "source": "관보", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-11", "category": "career", "field": "학생 활동", "value": "1985년 서울대학교 총학생회장, 전국학생총연합(전학련) 의장", "source": "언론 보도", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-12", "category": "career", "field": "정계 입문", "value": "1990년 김대중 전 대통령의 발탁", "source": "언론 보도", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-13", "category": "party_roles", "field": "역대 당직", "value": "새천년민주당 대변인, 총재비서실장, 민주연구원 원장, 정책위의장, 수석최고위원", "source": "더불어민주당", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-14", "category": "legislation", "field": "대표 법안", "value": "수술실 CCTV 설치 의무화법, 간호법 제정안, 메가특구 특별법(2026 추진)", "source": "국회 의안정보시스템", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-15", "category": "committee", "field": "상임위", "value": "21대 보건복지위원회 위원장, 22대 국방위원회 위원", "source": "국회", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-16", "category": "policy", "field": "3대 메가 프로젝트", "value": "반도체, AI, 에너지", "source": "교섭단체 대표연설 2026.9.7", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-17", "category": "policy", "field": "부동산 정책", "value": "주거 뉴딜, 3기 신도시 2030년 조기 완성", "source": "당 정책 발표", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-18", "category": "policy", "field": "개혁 과제", "value": "경찰 개혁(검찰 개혁 이후), 교섭단체 정수 완화, 원포인트 개헌", "source": "교섭단체 대표연설", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-19", "category": "brand", "field": "별칭", "value": "DJ 키즈, 새벽 총리/새벽 대표, 정치적 풍운아/오뚝이, 86세대 전략통", "source": "언론 종합", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-20", "category": "controversy", "field": "정치자금법 위반", "value": "2002년 SK 불법자금 2억원 수수(징역8월 집유2년), 2007년 7.2억원 수수(벌금600만원), 추징금 전액 완납", "source": "대법원 판결, 언론 보도", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-21", "category": "competitors", "field": "야당 대표", "value": "국민의힘 장동혁 대표, 정점식 원내대표", "source": "국회", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-22", "category": "competitors", "field": "당내 구도", "value": "한병도 원내대표, 최민희 수석최고위원, 정청래(경선 상대)", "source": "더불어민주당", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-23", "category": "media", "field": "공식 채널", "value": "유튜브 김민석TV, 인스타그램, X(트위터), 페이스북 중단(2026.6)", "source": "SNS 확인", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-24", "category": "election", "field": "22대 총선", "value": "서울 영등포구 을, 50.18%, 1,136표차 승리(vs 박용찬 49.03%)", "source": "중앙선관위", "verifiedBy": "ai-generated" },
+    { "id": "GT-KMS-25", "category": "party", "field": "당대표 서수", "value": "제9대 더불어민주당 당대표", "source": "더불어민주당", "verifiedBy": "ai-generated" }
+  ]
+}

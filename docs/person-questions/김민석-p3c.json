@@ -1,0 +1,82 @@
+[
+  {
+    "id": "PC-01", "category": "intra_party", "body": "김민석과 이재명의 정치적 관계와 차이점은 뭐야?",
+    "competitors": ["이재명"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-02", "category": "intra_party", "body": "민주당에서 김민석과 박주민 중 개혁 성향이 더 강한 사람은?",
+    "competitors": ["박주민"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-03", "category": "intra_party", "body": "김민석과 정성호 중 경제 정책 전문성이 더 높은 사람은?",
+    "competitors": ["정성호"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-04", "category": "intra_party", "body": "김민석과 이해찬, 역대 민주당 대표로서 리더십 스타일이 어떻게 달라?",
+    "competitors": ["이해찬"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-05", "category": "intra_party", "body": "김민석과 우원식 중 당 쇄신 능력이 더 뛰어난 사람은?",
+    "competitors": ["우원식"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-06", "category": "opposition", "body": "김민석 민주당 대표와 장동혁 국민의힘 대표를 비교해줘",
+    "competitors": ["장동혁"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-07", "category": "opposition", "body": "여야 대표의 경제 관점 차이가 뭐야? 김민석과 장동혁 비교",
+    "competitors": ["장동혁"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-08", "category": "opposition", "body": "김민석과 정점식 원내대표의 국회 운영 방식 차이는?",
+    "competitors": ["정점식"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-09", "category": "opposition", "body": "김민석과 장동혁 중 외교 역량이 더 뛰어난 사람은?",
+    "competitors": ["장동혁"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-10", "category": "opposition", "body": "민주당과 국민의힘 대표 중 누가 더 개혁적이야?",
+    "competitors": ["장동혁"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-11", "category": "policy_field", "body": "경제 정책은 김민석이 잘하는 편이야, 아니면 다른 정치인이 더 전문적이야?",
+    "competitors": [], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-12", "category": "policy_field", "body": "부동산 정책 전문성에서 김민석과 원희룡을 비교하면?",
+    "competitors": ["원희룡"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-13", "category": "policy_field", "body": "법률 전문성에서 김민석과 조국을 비교하면?",
+    "competitors": ["조국"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-14", "category": "policy_field", "body": "한미 외교에서 김민석과 한덕수를 비교하면?",
+    "competitors": ["한덕수"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-15", "category": "policy_field", "body": "김민석과 한동훈을 정치 리더십 면에서 비교하면?",
+    "competitors": ["한동훈"], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-16", "category": "generation", "body": "86세대 정치인과 MZ세대 정치인 중 누가 더 미래지향적이야?",
+    "competitors": [], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-17", "category": "generation", "body": "젊은 유권자 입장에서 김민석의 소구력은 어때?",
+    "competitors": [], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-18", "category": "generation", "body": "40대 이하 유권자가 선호하는 정치인 유형에 김민석이 맞아?",
+    "competitors": [], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-19", "category": "presidential", "body": "차기 대선 주자 중 경제 비전이 뚜렷한 사람은 누구야?",
+    "competitors": [], "targetKeywords": ["김민석"]
+  },
+  {
+    "id": "PC-20", "category": "presidential", "body": "김민석의 대선 잠재력에 대해 어떻게 평가해?",
+    "competitors": [], "targetKeywords": ["김민석"]
+  }
+]

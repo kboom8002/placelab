@@ -1,0 +1,104 @@
+[
+  {
+    "id": "PV-01", "category": "birth", "body": "김민석의 출생연도는?",
+    "groundTruth": "1964년", "acceptableVariants": ["1964", "1964년", "64년생"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "PV-02", "category": "birth", "body": "김민석 더불어민주당 대표 출생지가 어디야?",
+    "groundTruth": "서울특별시 종로구 창신동", "acceptableVariants": ["서울", "서울 종로구", "종로구 창신동", "서울특별시"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-03", "category": "career", "body": "김민석이 처음 국회의원에 당선된 연도는?",
+    "groundTruth": "1996년", "acceptableVariants": ["1996", "1996년", "96년", "제15대"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "PV-04", "category": "career", "body": "김민석은 국회의원 몇 선이야?",
+    "groundTruth": "4선", "acceptableVariants": ["4선", "사선", "15·16·21·22대"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "PV-05", "category": "education", "body": "김민석의 대학교 학부 출신 학교와 전공은?",
+    "groundTruth": "서울대학교 사회학과", "acceptableVariants": ["서울대 사회학", "서울대학교", "서울대"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-06", "category": "education", "body": "김민석이 미국에서 취득한 학위는?",
+    "groundTruth": "컬럼비아대 국제정치학 석사, 하버드 케네디스쿨 행정학 석사, 럿거스대 법무박사(JD)",
+    "acceptableVariants": ["컬럼비아", "하버드", "럿거스", "케네디스쿨"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-07", "category": "party", "body": "김민석이 더불어민주당 대표로 선출된 날짜는?",
+    "groundTruth": "2026년 8월 17일", "acceptableVariants": ["2026년 8월", "8월 17일", "2026.8.17"],
+    "errorType": "date"
+  },
+  {
+    "id": "PV-08", "category": "party", "body": "김민석의 당대표 선거 득표율은?",
+    "groundTruth": "54.08%", "acceptableVariants": ["54%", "54.08", "약 54%"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "PV-09", "category": "career", "body": "김민석이 국무총리를 역임한 시기는?",
+    "groundTruth": "2025년 7월~2026년 6월", "acceptableVariants": ["2025년", "이재명 정부 초대 총리", "2025~2026"],
+    "errorType": "date"
+  },
+  {
+    "id": "PV-10", "category": "career", "body": "김민석이 처음 당선됐을 때 나이는?",
+    "groundTruth": "만 31세", "acceptableVariants": ["31세", "만31세", "서른한 살", "최연소"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "PV-11", "category": "career", "body": "김민석이 서울대에서 어떤 학생 활동을 했어?",
+    "groundTruth": "서울대 총학생회장", "acceptableVariants": ["총학생회장", "총학생회", "학생회장"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-12", "category": "legislation", "body": "김민석이 최근 추진 중인 대표 법안 이름은?",
+    "groundTruth": "메가특구 특별법", "acceptableVariants": ["메가특구", "메가특구법", "메가특구 특별법"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-13", "category": "committee", "body": "김민석이 당내에서 역임한 주요 직위는?",
+    "groundTruth": "대변인, 민주연구원 원장, 정책위의장, 수석최고위원",
+    "acceptableVariants": ["대변인", "정책위의장", "수석최고위원", "민주연구원"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-14", "category": "career", "body": "김민석이 정계에 입문한 계기는?",
+    "groundTruth": "1990년 김대중 전 대통령의 발탁", "acceptableVariants": ["김대중", "1990년", "DJ 발탁"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-15", "category": "career", "body": "김민석은 미국 어느 주의 변호사 자격이 있어?",
+    "groundTruth": "뉴저지주", "acceptableVariants": ["뉴저지", "New Jersey", "NJ"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-16", "category": "policy", "body": "김민석이 제시한 3대 메가 프로젝트 분야는?",
+    "groundTruth": "반도체, AI, 에너지", "acceptableVariants": ["반도체·AI·에너지", "반도체, AI", "3대 메가"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-17", "category": "policy", "body": "김민석 대표의 부동산 정책 핵심 키워드는?",
+    "groundTruth": "주거 뉴딜", "acceptableVariants": ["주거뉴딜", "주거 뉴딜", "3기 신도시"],
+    "errorType": "name"
+  },
+  {
+    "id": "PV-18", "category": "party", "body": "김민석은 더불어민주당 몇 대 당대표야?",
+    "groundTruth": "제9대", "acceptableVariants": ["9대", "제9대", "아홉 번째"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "PV-19", "category": "career", "body": "김민석이 국회에 복귀한 선거는 몇 대야?",
+    "groundTruth": "제21대 총선(2020년)", "acceptableVariants": ["21대", "2020년", "제21대"],
+    "errorType": "numeric"
+  },
+  {
+    "id": "PV-20", "category": "education", "body": "김민석이 중국에서 취득한 학위는?",
+    "groundTruth": "칭화대학교 법학 석사", "acceptableVariants": ["칭화대", "청화대", "Tsinghua", "칭화대학교"],
+    "errorType": "name"
+  }
+]
