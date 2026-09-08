@@ -1,0 +1,182 @@
+[
+  {
+    "id": "JJ-A1-01",
+    "tier": "T1",
+    "category": "waste_system",
+    "body": "제주도 생활폐기물 재활용품 요일별 배출제 시간과 버리는 방법 알려줘",
+    "targetKeywords": ["제주도", "요일별 배출제", "클린하우스", "15시", "오후 3시"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A1-02",
+    "tier": "T1",
+    "category": "waste_system",
+    "body": "제주시에서 플라스틱이랑 비닐류는 무슨 요일에 클린하우스에 배출해야 해?",
+    "targetKeywords": ["제주시", "플라스틱", "비닐", "요일", "배출"],
+    "unit_scope": "jejusi",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A1-03",
+    "tier": "T1",
+    "category": "waste_system",
+    "body": "서귀포시 재활용도움센터는 요일과 상관없이 재활용품을 상시 배출할 수 있어?",
+    "targetKeywords": ["서귀포시", "재활용도움센터", "상시 배출"],
+    "unit_scope": "seogwipo",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A1-04",
+    "tier": "T1",
+    "category": "waste_bag",
+    "body": "제주도 종량제봉투 20리터 가격이랑 규격별 가격 알려줘",
+    "targetKeywords": ["제주도", "종량제봉투", "가격", "20L"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A1-05",
+    "tier": "T1",
+    "category": "waste_bulky",
+    "body": "제주시 대형폐기물 스티커 온라인 신청 방법과 수수료는 어디서 확인해?",
+    "targetKeywords": ["제주시", "대형폐기물", "온라인 신청", "스티커"],
+    "unit_scope": "jejusi",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A1-06",
+    "tier": "T1",
+    "category": "currency",
+    "body": "제주 지역화폐 탐나는전 할인 혜택이나 적립 포인트 비율 얼마야?",
+    "targetKeywords": ["제주", "탐나는전", "할인율", "적립"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A1-07",
+    "tier": "T1",
+    "category": "currency",
+    "body": "제주도 여행 온 관광객도 탐나는전 카드 발급받아서 가맹점 할인받을 수 있어?",
+    "targetKeywords": ["탐나는전", "관광객", "발급", "할인"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A1-08",
+    "tier": "T1",
+    "category": "birth",
+    "body": "제주도에서 첫째 아이 낳으면 지원되는 출산지원금 총액과 지급 방식 알려줘",
+    "targetKeywords": ["제주도", "첫째", "출산지원금", "500만원", "5년"],
+    "unit_scope": "province_wide",
+    "persona": "parent"
+  },
+  {
+    "id": "JJ-A1-09",
+    "tier": "T1",
+    "category": "birth",
+    "body": "제주도 둘째 아이 이상 출산 육아지원금 지급 기간과 금액 기준은 어떻게 돼?",
+    "targetKeywords": ["제주도", "둘째", "출산육아지원금", "분할 지급"],
+    "unit_scope": "province_wide",
+    "persona": "parent"
+  },
+  {
+    "id": "JJ-A1-10",
+    "tier": "T1",
+    "category": "night_care",
+    "body": "제주도 야간이나 공휴일에 아이 진료 볼 수 있는 달빛어린이병원이나 소아과 어디야?",
+    "targetKeywords": ["제주", "달빛어린이병원", "야간 소아과", "연동365", "탑동365"],
+    "unit_scope": "province_wide",
+    "persona": "parent"
+  },
+  {
+    "id": "JJ-A1-11",
+    "tier": "T1",
+    "category": "senior_transport",
+    "body": "제주도 70세 이상 어르신 버스 무료 이용 조건이랑 행복택시 지원 금액 얼마야?",
+    "targetKeywords": ["제주도", "어르신 버스 무료", "행복택시", "70세"],
+    "unit_scope": "province_wide",
+    "persona": "senior"
+  },
+  {
+    "id": "JJ-A1-12",
+    "tier": "T1",
+    "category": "senior_welfare",
+    "body": "서귀포시 어르신 목욕 및 이·미용 지원 바우처 제도 신청 대상과 지원 내용 알려줘",
+    "targetKeywords": ["서귀포시", "목욕권", "이미용", "어르신 지원"],
+    "unit_scope": "seogwipo",
+    "persona": "senior"
+  },
+  {
+    "id": "JJ-A1-13",
+    "tier": "T1",
+    "category": "youth_rent",
+    "body": "제주도 청년 월세 한시 특별지원 신청 자격 조건과 월 최대 지원금 얼마야?",
+    "targetKeywords": ["제주도", "청년 월세 지원", "자격", "20만원"],
+    "unit_scope": "province_wide",
+    "persona": "youth"
+  },
+  {
+    "id": "JJ-A1-14",
+    "tier": "T1",
+    "category": "youth_startup",
+    "body": "제주 청년 창업 지원금이나 창업보육센터 입주 지원 프로그램 어디서 신청해?",
+    "targetKeywords": ["제주", "청년 창업", "제주창조경제혁신센터", "지원금"],
+    "unit_scope": "province_wide",
+    "persona": "youth"
+  },
+  {
+    "id": "JJ-A1-15",
+    "tier": "T1",
+    "category": "move_in",
+    "body": "제주도로 전입신고 하면 받을 수 있는 정주 지원 혜택이나 축하 꾸러미 있어?",
+    "targetKeywords": ["제주도", "전입 혜택", "정주 지원", "전입신고"],
+    "unit_scope": "province_wide",
+    "persona": "settler"
+  },
+  {
+    "id": "JJ-A1-16",
+    "tier": "T1",
+    "category": "loan",
+    "body": "제주도 소상공인 경영안정자금 특례보증 조건과 이자 차액 보전 지원 비율은?",
+    "targetKeywords": ["제주도", "소상공인", "특례보증", "제주신용보증재단"],
+    "unit_scope": "province_wide",
+    "persona": "small_business"
+  },
+  {
+    "id": "JJ-A1-17",
+    "tier": "T1",
+    "category": "civil_hall",
+    "body": "제주시청 종합민원실 점심시간 휴무제 시행하는지, 주차장 요금 무료 시간은 얼마야?",
+    "targetKeywords": ["제주시청", "민원실 점심시간", "주차요금"],
+    "unit_scope": "jejusi",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A1-18",
+    "tier": "T1",
+    "category": "civil_hall",
+    "body": "서귀포시청 제1청사와 제2청사 위치와 민원실 업무 분담 어떻게 되어 있어?",
+    "targetKeywords": ["서귀포시청", "제1청사", "제2청사", "민원실"],
+    "unit_scope": "seogwipo",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A1-19",
+    "tier": "T1",
+    "category": "multicultural",
+    "body": "제주도 다문화가족지원센터 한국어 교육 프로그램과 통번역 서비스 이용 방법 알려줘",
+    "targetKeywords": ["제주", "다문화가족지원센터", "가족센터", "통번역"],
+    "unit_scope": "province_wide",
+    "persona": "multicultural"
+  },
+  {
+    "id": "JJ-A1-20",
+    "tier": "T1",
+    "category": "tax",
+    "body": "제주도 마을세무사 무료 세무 상담 신청 방법과 운영 요일은?",
+    "targetKeywords": ["제주도", "마을세무사", "무료 상담", "세무 상담"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  }
+]

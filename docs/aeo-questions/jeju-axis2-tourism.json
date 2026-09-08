@@ -1,0 +1,227 @@
+[
+  {
+    "id": "JJ-A2-01",
+    "tier": "T2",
+    "category": "tourism_season",
+    "body": "제주도 봄(3~4월)에 유채꽃과 벚꽃을 동시에 볼 수 있는 대표 드라이브 코스 추천해줘",
+    "targetKeywords": ["녹산로", "가시리", "전농로", "제주 봄 여행"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-02",
+    "tier": "T2",
+    "category": "tourism_season",
+    "body": "제주도 여름철 물놀이하기 좋은 에메랄드빛 해수욕장 3곳과 야간 개장 여부 알려줘",
+    "targetKeywords": ["협재해수욕장", "함덕해수욕장", "이호테우", "야간 개장"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-03",
+    "tier": "T2",
+    "category": "tourism_season",
+    "body": "제주도 가을(10~11월) 억새 명소로 가볼 만한 오름 3곳 추천해줘",
+    "targetKeywords": ["새별오름", "산굼부리", "따라비오름", "억새"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-04",
+    "tier": "T2",
+    "category": "tourism_season",
+    "body": "제주도 겨울철 동백꽃 군락지와 사진 찍기 좋은 명소 어디야?",
+    "targetKeywords": ["카멜리아힐", "위미리 동백군락지", "제주동백수목원", "휴애리"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-05",
+    "tier": "T2",
+    "category": "unesco_heritage",
+    "body": "한라산 백록담 성판악 코스와 관음사 코스 탐방예약 방법 및 예약 사이트 어디야?",
+    "targetKeywords": ["한라산 탐방예약", "성판악", "관음사", "백록담"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-06",
+    "tier": "T2",
+    "category": "unesco_heritage",
+    "body": "유네스코 세계자연유산 제주 화산섬과 용암동굴 핵심 명소 3곳 입장료와 운영시간 알려줘",
+    "targetKeywords": ["성산일출봉", "거문오름", "만장굴", "세계자연유산"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-07",
+    "tier": "T2",
+    "category": "olle_trail",
+    "body": "제주 올레길 처음 걷는 초보자에게 추천하는 평탄하고 바다 뷰 예쁜 코스는 몇 코스야?",
+    "targetKeywords": ["제주 올레길", "올레 7코스", "올레 10코스", "올레 패스포트"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-08",
+    "tier": "T2",
+    "category": "olle_trail",
+    "body": "제주 올레길 완주 인증 방식과 스탬프 패스포트 구입처 어디서 확인해?",
+    "targetKeywords": ["올레길 완주", "올레 여행자센터", "스탬프", "패스포트"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-09",
+    "tier": "T2",
+    "category": "festival",
+    "body": "새별오름에서 열리는 제주 들불축제 최근 진행 방식이랑 오름 불놓기 진행 여부 알려줘",
+    "targetKeywords": ["제주 들불축제", "새별오름", "불놓기 폐지", "미디어아트"],
+    "unit_scope": "jejusi",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-10",
+    "tier": "T2",
+    "category": "festival",
+    "body": "서귀포 유채꽃축제와 제주 왕벚꽃축제 개최 시기랑 주 행사장 위치 알려줘",
+    "targetKeywords": ["서귀포 유채꽃축제", "표선면 가시리", "전농로 벚꽃"],
+    "unit_scope": "seogwipo",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-11",
+    "tier": "T2",
+    "category": "festival",
+    "body": "서귀포 국제감귤박람회 일정과 장소, 주요 체험 프로그램은?",
+    "targetKeywords": ["서귀포 농업기술센터", "감귤박람회", "서귀포 축제"],
+    "unit_scope": "seogwipo",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-12",
+    "tier": "T2",
+    "category": "night_tourism",
+    "body": "제주시와 서귀포시 밤에 가볼 만한 야경 명소와 야간 플리마켓 어디야?",
+    "targetKeywords": ["용연다리", "동문야시장", "새연교", "서귀포 야경"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-13",
+    "tier": "T2",
+    "category": "public_transit",
+    "body": "뚜벅이 여행자를 위한 제주 급행버스와 관광지 순환버스 노선 및 배차간격 알려줘",
+    "targetKeywords": ["급행버스", "관광지 순환버스", "810번", "820번"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-14",
+    "tier": "T2",
+    "category": "public_transit",
+    "body": "제주공항에서 서귀포 칼호텔이나 중문관광단지까지 가는 600번 공항리무진 요금과 타는 곳은?",
+    "targetKeywords": ["600번 공항리무진", "중문관광단지", "서귀포", "요금"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-15",
+    "tier": "T2",
+    "category": "island_tour",
+    "body": "우도, 가파도, 마라도 들어가는 여객선 선착장 위치와 사전 예매 방법 알려줘",
+    "targetKeywords": ["성산항 우도", "운진항 가파도 마라도", "여객선"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-16",
+    "tier": "T2",
+    "category": "food_heritage",
+    "body": "제주 향토음식 중에서 도민들이 주로 찾는 몸국과 고기국수 대표 거리 어디야?",
+    "targetKeywords": ["제주 고기국수 거리", "신설로", "몸국", "향토음식"],
+    "unit_scope": "jejusi",
+    "persona": "food_explorer"
+  },
+  {
+    "id": "JJ-A2-17",
+    "tier": "T2",
+    "category": "food_heritage",
+    "body": "서귀포 매일올레시장과 제주 동문시장의 대표 간식거리와 영업시간 비교해줘",
+    "targetKeywords": ["동문시장", "서귀포 매일올레시장", "오메기떡", "야시장"],
+    "unit_scope": "province_wide",
+    "persona": "food_explorer"
+  },
+  {
+    "id": "JJ-A2-18",
+    "tier": "T2",
+    "category": "culture_history",
+    "body": "제주 4·3 평화공원과 기념관 관람 안내 및 역사적 의의를 알려줘",
+    "targetKeywords": ["제주 4·3 평화공원", "평화기념관", "봉개동", "4·3 사건"],
+    "unit_scope": "jejusi",
+    "persona": "cultural_tourist"
+  },
+  {
+    "id": "JJ-A2-19",
+    "tier": "T2",
+    "category": "culture_history",
+    "body": "서귀포 이중섭미술관과 이중섭거리 둘러보는 관람 코스 추천해줘",
+    "targetKeywords": ["이중섭미술관", "이중섭거리", "서귀포 구도심"],
+    "unit_scope": "seogwipo",
+    "persona": "cultural_tourist"
+  },
+  {
+    "id": "JJ-A2-20",
+    "tier": "T2",
+    "category": "eco_healing",
+    "body": "제주 사려니숲길과 절물자연휴양림 무장애 덱길 코스와 주차 안내해줘",
+    "targetKeywords": ["사려니숲길", "절물자연휴양림", "삼나무숲", "무장애나눔길"],
+    "unit_scope": "jejusi",
+    "persona": "family_tourist"
+  },
+  {
+    "id": "JJ-A2-21",
+    "tier": "T2",
+    "category": "family_spot",
+    "body": "아이와 함께 가기 좋은 서귀포 실내 관광지나 박물관 3곳 추천해줘",
+    "targetKeywords": ["항공우주박물관", "아쿠아플라넷 제주", "본태박물관"],
+    "unit_scope": "seogwipo",
+    "persona": "family_tourist"
+  },
+  {
+    "id": "JJ-A2-22",
+    "tier": "T2",
+    "category": "marine_leisure",
+    "body": "제주도 서핑과 스노클링으로 유명한 해변 포인트 3곳 알려줘",
+    "targetKeywords": ["중문색달해변", "이호테우 서핑", "판포포구", "월령포구"],
+    "unit_scope": "province_wide",
+    "persona": "leisure_sports"
+  },
+  {
+    "id": "JJ-A2-23",
+    "tier": "T2",
+    "category": "workation",
+    "body": "제주도 공공 워케이션 거점센터 위치와 기업/개인 신청 자격 조건은?",
+    "targetKeywords": ["제주 워케이션", "공공 워케이션 센터", "신청 자격"],
+    "unit_scope": "province_wide",
+    "persona": "digital_nomad"
+  },
+  {
+    "id": "JJ-A2-24",
+    "tier": "T2",
+    "category": "official_portal",
+    "body": "제주도 공식 관광정보 포털인 비짓제주(VisitJeju)에서 제공하는 여행 코스 추천 서비스는 뭐야?",
+    "targetKeywords": ["비짓제주", "VisitJeju", "제주관광공사", "공식 포털"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A2-25",
+    "tier": "T2",
+    "category": "duty_free",
+    "body": "제주 내국인 면세점(제주공항, 중문 JDC/JTO) 1회 구매한도와 연간 이용 횟수 얼마야?",
+    "targetKeywords": ["내국인 면세점", "JDC 면세점", "구매한도 800달러", "연 6회"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  }
+]

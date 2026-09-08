@@ -1,0 +1,137 @@
+[
+  {
+    "id": "JJ-A4-01",
+    "tier": "T2",
+    "category": "migration_settlement",
+    "body": "제주도 귀농귀촌 지원센터에서 지원하는 초기 정착 지원금과 영농 정착 교육 과정은?",
+    "targetKeywords": ["제주 귀농귀촌", "정착지원금", "귀농농업창업자금"],
+    "unit_scope": "province_wide",
+    "persona": "settler"
+  },
+  {
+    "id": "JJ-A4-02",
+    "tier": "T2",
+    "category": "empty_houses",
+    "body": "제주도 농어촌 빈집 정비 사업이나 제주형 빈집 리모델링 임대 지원 정책 있어?",
+    "targetKeywords": ["제주 빈집 정비", "농어촌 빈집", "빈집 리모델링"],
+    "unit_scope": "province_wide",
+    "persona": "settler"
+  },
+  {
+    "id": "JJ-A4-03",
+    "tier": "T2",
+    "category": "rental_car_cap",
+    "body": "제주도 렌터카 총량제 제도가 뭐야? 관광객 렌터카 대수 제한하는 이유 알려줘",
+    "targetKeywords": ["렌터카 총량제", "차량 수급조절", "교통혼잡 완화"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A4-04",
+    "tier": "T2",
+    "category": "brt_system",
+    "body": "제주시 중앙양방향 버스전용차로(BRT) 운영 구간과 일반 차량 단속 기준은?",
+    "targetKeywords": ["제주 중앙버스전용차로", "BRT", "가로변 버스전용차로"],
+    "unit_scope": "jejusi",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A4-05",
+    "tier": "T2",
+    "category": "edu_city",
+    "body": "서귀포 대정읍 제주영어교육도시 내 국제학교 종류와 학생 충원율 현황은?",
+    "targetKeywords": ["제주영어교육도시", "NLCS", "BHA", "KIS", "SJA"],
+    "unit_scope": "seogwipo",
+    "persona": "parent"
+  },
+  {
+    "id": "JJ-A4-06",
+    "tier": "T2",
+    "category": "innovation_city",
+    "body": "서귀포 혁신도시로 이전한 주요 공공기관 목록과 지역인재 채용 비율은?",
+    "targetKeywords": ["서귀포 혁신도시", "공무원연금공단", "국립기상과학원", "한국국제교류재단"],
+    "unit_scope": "seogwipo",
+    "persona": "youth"
+  },
+  {
+    "id": "JJ-A4-07",
+    "tier": "T2",
+    "category": "public_housing",
+    "body": "제주도개발공사(JPDC)가 공급하는 제주형 공공임대주택이나 토지임대부 분양주택 입주 자격은?",
+    "targetKeywords": ["제주개발공사", "JPDC", "행복주택", "토지임대부"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A4-08",
+    "tier": "T2",
+    "category": "tax_real_estate",
+    "body": "제주도로 주택을 구입해 이주할 때 1가구 2주택 양도세 비과세 특례나 취득세 감면 기준은?",
+    "targetKeywords": ["제주 주택 구입", "농어촌주택 특례", "1가구 2주택"],
+    "unit_scope": "province_wide",
+    "persona": "settler"
+  },
+  {
+    "id": "JJ-A4-09",
+    "tier": "T2",
+    "category": "medical_infra",
+    "body": "제주도 상급종합병원 유치 추진 현황과 중증질환 도외 원정진료 지원 제도는?",
+    "targetKeywords": ["제주 상급종합병원", "제주대병원", "도외 진료 지원"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A4-10",
+    "tier": "T2",
+    "category": "emergency_heli",
+    "body": "제주 닥터헬기(응급의료 전용헬기) 배치 병원과 도서지역 긴급 이송 체계 알려줘",
+    "targetKeywords": ["제주 닥터헬기", "한라병원", "응급환자 이송"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A4-11",
+    "tier": "T2",
+    "category": "island_support",
+    "body": "추자도, 우도 등 제주 부속섬 주민들을 위한 해상 물류비 및 택배비 추가배송비 지원 내용은?",
+    "targetKeywords": ["제주 택배비 추가배송비", "부속섬 물류비", "추자도", "우도"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A4-12",
+    "tier": "T2",
+    "category": "groundwater",
+    "body": "제주 삼다수로 대표되는 제주 지하수 공공관리 제도와 지하수 원수대금 부과 기준은?",
+    "targetKeywords": ["제주 지하수 공공관리", "제주삼다수", "원수대금"],
+    "unit_scope": "province_wide",
+    "persona": "industry_analyst"
+  },
+  {
+    "id": "JJ-A4-13",
+    "tier": "T2",
+    "category": "pet_welfare",
+    "body": "제주도 동물위생시험소 및 반려동물복지문화센터 유기동물 입양 절차와 지원 혜택은?",
+    "targetKeywords": ["제주도 유기동물", "반려동물복지문화센터", "입양 지원"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A4-14",
+    "tier": "T2",
+    "category": "youth_talent",
+    "body": "제주더큰내일센터 '탐나는인재' 청년 취·창업 지원 프로그램 월 훈련수당과 선발 기준은?",
+    "targetKeywords": ["제주더큰내일센터", "탐나는인재", "훈련수당", "청년 취업"],
+    "unit_scope": "province_wide",
+    "persona": "youth"
+  },
+  {
+    "id": "JJ-A4-15",
+    "tier": "T2",
+    "category": "citizen_insurance",
+    "body": "제주도민이면 자동 가입되는 '제주도민 안전보험' 보장 항목과 청구 방법 알려줘",
+    "targetKeywords": ["제주도민 안전보험", "시민안전보험", "자동 가입", "보장항목"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  }
+]

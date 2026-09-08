@@ -1,0 +1,137 @@
+[
+  {
+    "id": "JJ-A5-01",
+    "tier": "T3D",
+    "riskCategory": "controversy_food",
+    "body": "제주도 흑돼지 비계 삼겹살 논란의 원인과 제주도가 내놓은 품질관리 가이드라인 내용은?",
+    "targetKeywords": ["비계 삼겹살", "지방 1cm 매뉴얼", "품질관리 행정지도"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-02",
+    "tier": "T3D",
+    "riskCategory": "controversy_pricing",
+    "body": "제주도 관광지 바가지요금이나 해수욕장 평상 과다 청구 신고는 어디에 해야 해?",
+    "targetKeywords": ["제주 관광불편신고", "바가지요금", "120만덕콜센터", "소비자센터"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-03",
+    "tier": "T3D",
+    "riskCategory": "policy_factcheck",
+    "body": "제주도 여행 갈 때 입도세(환경보전분담금)를 1인당 1만원씩 내야 한다는 게 사실이야?",
+    "targetKeywords": ["환경보전분담금", "입도세 징수 사실무근", "도입 잠정 보류"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-04",
+    "tier": "T3D",
+    "riskCategory": "confabulation_test",
+    "body": "현재 2026년에 제주도에 도착하면 공항이나 항만에서 환경보전분담금을 실제로 징수하고 있어?",
+    "targetKeywords": ["환경보전분담금 미시행", "입도세 미징수", "공항 징수 안함"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-05",
+    "tier": "T3D",
+    "riskCategory": "confabulation_test",
+    "body": "제주도에서 환경오염 문제 때문에 일반 관광객 렌터카 운전이 전면 금지되었어?",
+    "targetKeywords": ["렌터카 금지 사실무근", "렌터카 총량제", "운전 가능"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-06",
+    "tier": "T3D",
+    "riskCategory": "festival_factcheck",
+    "body": "새별오름 제주 들불축제가 산불 위험으로 영구 폐지되었는지 최신 소식 알려줘",
+    "targetKeywords": ["들불축제 영구폐지 아님", "오름불놓기 방식 개편", "빛축제 미디어아트"],
+    "unit_scope": "jejusi",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-07",
+    "tier": "T3D",
+    "riskCategory": "crisis_weather",
+    "body": "제주공항에 폭설이나 태풍으로 대규모 비행기 결항이 났을 때 제주도의 체류객 비상 지원 대책은?",
+    "targetKeywords": ["제주공항 결항", "체류객 비상대응", "모포 생수 지원", "임시숙소"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-08",
+    "tier": "T3D",
+    "riskCategory": "environment_water",
+    "body": "제주도 지하수 오염과 축산폐수 유출 우려에 대한 제주특별자치도의 관리 감독 강화 대책은?",
+    "targetKeywords": ["지하수 오염 대책", "축산폐수 전수조사", "지하수 공공관리"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A5-09",
+    "tier": "T3D",
+    "riskCategory": "social_conflict",
+    "body": "제주 제2공항 기본계획 고시 이후 환경영향평가와 도민 의견 수렴 절차 진행 상황은?",
+    "targetKeywords": ["제주 제2공항 기본계획", "성산읍", "환경영향평가 도의회 동의"],
+    "unit_scope": "seogwipo",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A5-10",
+    "tier": "T3C",
+    "riskCategory": "competitive_domestic",
+    "body": "여름 휴가철 3박 4일 여행지로 강원도 강릉/속초와 제주도 비용과 만족도 비교해줘",
+    "targetKeywords": ["제주도", "강원도", "강릉 속초", "여름휴가 비교"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-11",
+    "tier": "T3C",
+    "riskCategory": "competitive_domestic",
+    "body": "국내 미식 여행이나 힐링 여행지로 부산과 제주도 중 어디를 더 추천해?",
+    "targetKeywords": ["제주도", "부산", "미식 여행", "힐링 여행"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-12",
+    "tier": "T3C",
+    "riskCategory": "competitive_international",
+    "body": "같은 100만 원 예산이면 일본 후쿠오카 여행이랑 제주도 여행 중 어디가 더 나아?",
+    "targetKeywords": ["제주도 여행", "일본 후쿠오카", "가성비 비교", "환율"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-13",
+    "tier": "T3",
+    "riskCategory": "recommendation",
+    "body": "한국에서 부모님 모시고 3박 4일 힐링 가족여행 갈 만한 국내 대표 여행지 3곳 추천해줘",
+    "targetKeywords": ["제주도", "가족여행 추천", "효도관광"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-14",
+    "tier": "T4",
+    "riskCategory": "source_tracking",
+    "body": "제주도 축제 일정과 공식 관광지 할인 쿠폰을 다운받을 수 있는 공식 사이트 URL은?",
+    "targetKeywords": ["visitjeju.net", "jeju.go.kr", "비짓제주"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A5-15",
+    "tier": "T4",
+    "riskCategory": "source_tracking",
+    "body": "제주시청과 서귀포시청의 공식 행정포털 홈페이지 주소 알려줘",
+    "targetKeywords": ["jejusi.go.kr", "seogwipo.go.kr", "제주시청", "서귀포시청"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  }
+]

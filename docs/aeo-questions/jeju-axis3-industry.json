@@ -1,0 +1,137 @@
+[
+  {
+    "id": "JJ-A3-01",
+    "tier": "T2",
+    "category": "energy_cfi",
+    "body": "제주특별자치도가 추진하는 '2035 탄소중립'과 에너지 대전환 시나리오 핵심 목표가 뭐야?",
+    "targetKeywords": ["2035 탄소중립", "CFI 2030", "재생에너지 100%", "기후경제수도"],
+    "unit_scope": "province_wide",
+    "persona": "industry_analyst"
+  },
+  {
+    "id": "JJ-A3-02",
+    "tier": "T2",
+    "category": "green_hydrogen",
+    "body": "제주 함덕 그린수소 충전소와 수소버스 운행 노선 및 수소 생산 실증 규모 알려줘",
+    "targetKeywords": ["함덕 그린수소 충전소", "행원 3.3MW", "수소버스", "조천읍"],
+    "unit_scope": "jejusi",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A3-03",
+    "tier": "T2",
+    "category": "green_hydrogen",
+    "body": "제주도에서 열리는 그린수소 글로벌 포럼의 주요 의제와 제주도의 역할은?",
+    "targetKeywords": ["그린수소 글로벌 포럼", "ICC JEJU", "수소경제 허브"],
+    "unit_scope": "province_wide",
+    "persona": "industry_analyst"
+  },
+  {
+    "id": "JJ-A3-04",
+    "tier": "T2",
+    "category": "distributed_energy",
+    "body": "제주도 분산에너지 특구 지정이 갖는 의미와 재생에너지 출력제어 문제 해결 방안은?",
+    "targetKeywords": ["분산에너지 활성화 특별법", "분산에너지 특구", "출력제어", "전력시장 개편"],
+    "unit_scope": "province_wide",
+    "persona": "industry_analyst"
+  },
+  {
+    "id": "JJ-A3-05",
+    "tier": "T2",
+    "category": "uam_mobility",
+    "body": "제주도 도심항공교통(UAM) 상용화 노선 계획과 주요 버티포트 입지 어디야?",
+    "targetKeywords": ["제주 UAM", "버티포트", "제주공항 성산", "관광형 UAM"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A3-06",
+    "tier": "T2",
+    "category": "space_industry",
+    "body": "서귀포 하원테크노캠퍼스 도시첨단산업단지에 입주하는 우주산업 기업과 개발 방향은?",
+    "targetKeywords": ["하원테크노캠퍼스", "한화우주센터", "민간우주산업", "옛 탐라대 부지"],
+    "unit_scope": "seogwipo",
+    "persona": "investor"
+  },
+  {
+    "id": "JJ-A3-07",
+    "tier": "T2",
+    "category": "space_industry",
+    "body": "제주도 해상 및 지상 민간 소형 우주발사체 시험 발사 현황과 우주클러스터 조성 계획은?",
+    "targetKeywords": ["민간 우주발사체", "페리지에어로스페이스", "제주 우주클러스터"],
+    "unit_scope": "province_wide",
+    "persona": "industry_analyst"
+  },
+  {
+    "id": "JJ-A3-08",
+    "tier": "T2",
+    "category": "hydrogen_tram",
+    "body": "제주형 수소트램 도입 타당성 조사 노선(제주공항~도심)과 사업 추진 일정 알려줘",
+    "targetKeywords": ["제주 수소트램", "도시철도망 구축계획", "제주공항 노형 도남"],
+    "unit_scope": "jejusi",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A3-09",
+    "tier": "T2",
+    "category": "autonomous_driving",
+    "body": "제주도 첨단과학기술단지나 관광지 일대에서 운행 중인 자율주행 셔틀버스 이용 방법은?",
+    "targetKeywords": ["제주 자율주행차", "자율주행 시범운행지구", "탐라자율차"],
+    "unit_scope": "province_wide",
+    "persona": "tourist"
+  },
+  {
+    "id": "JJ-A3-10",
+    "tier": "T2",
+    "category": "wind_power",
+    "body": "제주도 공공주도 해상풍력발전 개발 사업과 풍력자원 공유화기금 조성 목적은?",
+    "targetKeywords": ["공공주도 해상풍력", "한림해상풍력", "풍력자원공유화기금", "에너지공사"],
+    "unit_scope": "province_wide",
+    "persona": "resident"
+  },
+  {
+    "id": "JJ-A3-11",
+    "tier": "T2",
+    "category": "bio_cosmetic",
+    "body": "제주산 천연 원료를 사용하는 화장품에 부여되는 '제주화장품인증제(JCC)' 기준은?",
+    "targetKeywords": ["제주화장품인증", "JCC", "제주산 원료 10%", "제주테크노파크"],
+    "unit_scope": "province_wide",
+    "persona": "small_business"
+  },
+  {
+    "id": "JJ-A3-12",
+    "tier": "T2",
+    "category": "science_park",
+    "body": "제주첨단과학기술단지(제주혁신도시 포함) 입주 기업 지원 혜택과 세제 감면 조건은?",
+    "targetKeywords": ["제주첨단과학기술단지", "JDC", "제주혁신도시", "입주혜택"],
+    "unit_scope": "province_wide",
+    "persona": "investor"
+  },
+  {
+    "id": "JJ-A3-13",
+    "tier": "T2",
+    "category": "agritech",
+    "body": "제주 감귤 스마트팜 보급 지원 사업과 농업 디지털전환 정책 어디서 지원해?",
+    "targetKeywords": ["제주농업기술원", "스마트팜 보급", "감귤 스마트팜"],
+    "unit_scope": "province_wide",
+    "persona": "farmer"
+  },
+  {
+    "id": "JJ-A3-14",
+    "tier": "T2",
+    "category": "marine_bio",
+    "body": "제주 용암해수(염지하수)를 활용한 식품·바이오 산업단지 입주 현황과 특성은?",
+    "targetKeywords": ["제주 용암해수일반산업단지", "염지하수", "구좌읍 한동리"],
+    "unit_scope": "jejusi",
+    "persona": "investor"
+  },
+  {
+    "id": "JJ-A3-15",
+    "tier": "T2",
+    "category": "esg_investment",
+    "body": "제주특별자치도에 친환경 ESG 기업이 본사를 이전하거나 투자할 때 받는 보조금은?",
+    "targetKeywords": ["기업이전 보조금", "제주 투자유치", "수도권 기업 이전"],
+    "unit_scope": "province_wide",
+    "persona": "investor"
+  }
+]

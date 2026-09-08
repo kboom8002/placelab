@@ -1,0 +1,329 @@
+{
+  "unit_id": "lg-50000",
+  "unit_name": "제주특별자치도",
+  "snapshotDate": "2026-09-08",
+  "method_version": "v2.2-jeju",
+  "verifiedBy": "official_portal_crosscheck",
+  "facts": [
+    {
+      "id": "GT-JJ-01",
+      "category": "waste_system",
+      "field": "요일별 배출제 배출 시간",
+      "value": "오후 3시(15:00)부터 익일 오전 4시(04:00)까지",
+      "acceptableVariants": ["15시~다음날 04시", "오후 3시부터 다음날 새벽 4시", "15:00~04:00"],
+      "errorType": "numeric",
+      "source": "제주특별자치도 자원순환과 / 제주시·서귀포시 청소행정과 공지",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-02",
+      "category": "waste_system",
+      "field": "재활용도움센터 상시 배출",
+      "value": "재활용도움센터는 요일과 관계없이 재활용품 상시 배출 가능 (06:00~24:00 등 센터별 상이)",
+      "acceptableVariants": ["재활용도움센터 상시배출 가능", "요일 상관없이 배출"],
+      "errorType": "procedure",
+      "source": "제주시·서귀포시 생활환경과",
+      "verifiedBy": "jejusi.go.kr"
+    },
+    {
+      "id": "GT-JJ-03",
+      "category": "waste_bag",
+      "field": "종량제봉투 20L 가격",
+      "value": "700원 (2020년 인상 이후 유지)",
+      "acceptableVariants": ["700원", "700"],
+      "errorType": "numeric",
+      "source": "제주특별자치도 폐기물 관리 조례",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-04",
+      "category": "currency",
+      "field": "탐나는전 기본 혜택",
+      "value": "연매출 10억원 이하 가맹점 현장 7%~10% 즉시 할인 (예산 상황별 변동)",
+      "acceptableVariants": ["7% 할인", "10% 할인", "7~10% 현장할인"],
+      "errorType": "numeric",
+      "source": "제주특별자치도 소상공인과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-05",
+      "category": "currency",
+      "field": "관광객 탐나는전 발급",
+      "value": "타 지역 거주자 및 관광객도 모바일 앱 또는 은행에서 카드 발급 및 할인 이용 가능",
+      "acceptableVariants": ["관광객도 발급 가능", "누구나 발급 가능"],
+      "errorType": "procedure",
+      "source": "탐나는전 운영대행사 및 제주도청",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-06",
+      "category": "birth",
+      "field": "첫째아 출산지원금",
+      "value": "2025년 1월 1일 이후 출생아 5년간 총 500만 원 분할 지급 (0세 50만, 1세 120만, 2세 120만, 3세 110만, 4세 100만)",
+      "acceptableVariants": ["총 500만원", "5년 500만원", "500만 원 분할 지급"],
+      "errorType": "numeric",
+      "source": "제주특별자치도 저출생 대책 및 출산·양육지원 조례",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-07",
+      "category": "birth",
+      "field": "둘째아 이상 출산육아지원금",
+      "value": "2026년 이후 출생아부터 9년간 분할 지급 방식으로 개편 (기존 5년간 1,000만 원에서 확대 개편)",
+      "acceptableVariants": ["9년간 분할 지급", "기존 1000만원에서 개편"],
+      "errorType": "procedure",
+      "source": "제주특별자치도 여성가족청소년과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-08",
+      "category": "senior_transport",
+      "field": "어르신 교통 복지",
+      "value": "70세 이상 제주도민 시내·공영버스 무료 이용(제주교통복지카드) 및 어르신 행복택시(연간 바우처) 지원",
+      "acceptableVariants": ["70세 이상 무료 버스", "행복택시 지원", "교통복지카드"],
+      "errorType": "procedure",
+      "source": "제주특별자치도 대중교통과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-09",
+      "category": "night_care",
+      "field": "달빛어린이병원 지정 현황",
+      "value": "탑동365일의원, 연동365일의원 등 야간·휴일 소아진료 의료기관 운영",
+      "acceptableVariants": ["탑동365", "연동365", "연동365일의원"],
+      "errorType": "name",
+      "source": "보건복지부 및 제주특별자치도 보건위생과",
+      "verifiedBy": "e-gen.or.kr"
+    },
+    {
+      "id": "GT-JJ-10",
+      "category": "unesco_heritage",
+      "field": "한라산 백록담 탐방예약제",
+      "value": "성판악 코스(하루 1,000명), 관음사 코스(하루 500명) 사전 온라인 예약 필수",
+      "acceptableVariants": ["성판악 1000명", "관음사 500명", "사전예약제 필수", "한라산탐방예약시스템"],
+      "errorType": "numeric",
+      "source": "한라산국립공원관리소",
+      "verifiedBy": "visithalla.jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-11",
+      "category": "festival",
+      "field": "제주 들불축제 개최 방식",
+      "value": "새별오름 전체 불놓기(오름 태우기) 폐지, 디지털 미디어아트 및 친환경 축제로 전환 개최 (애월읍 새별오름)",
+      "acceptableVariants": ["오름 불놓기 폐지", "미디어아트 전환", "친환경 축제", "새별오름 불놓기 안함"],
+      "errorType": "procedure",
+      "source": "제주시 관광진흥과",
+      "verifiedBy": "jejusi.go.kr"
+    },
+    {
+      "id": "GT-JJ-12",
+      "category": "festival",
+      "field": "서귀포 유채꽃축제 위치",
+      "value": "서귀포시 표선면 가시리 조랑말체험공원 및 녹산로 일대 (3~4월)",
+      "acceptableVariants": ["표선면 가시리", "조랑말체험공원", "녹산로"],
+      "errorType": "name",
+      "source": "서귀포시 관광진흥과",
+      "verifiedBy": "seogwipo.go.kr"
+    },
+    {
+      "id": "GT-JJ-13",
+      "category": "duty_free",
+      "field": "내국인 지정면세점 면세 한도",
+      "value": "1인당 1회 구매한도 미화 800달러, 연간 6회 이용 가능 (주류 2병/400달러, 담배 1보루 별도)",
+      "acceptableVariants": ["800달러", "800불", "연 6회"],
+      "errorType": "numeric",
+      "source": "관세청 제주세관 및 JDC 면세점",
+      "verifiedBy": "jdcdutyfree.com"
+    },
+    {
+      "id": "GT-JJ-14",
+      "category": "energy_cfi",
+      "field": "2035 탄소중립 비전",
+      "value": "2035년까지 화석연료를 재생에너지와 그린수소로 100% 대체하여 탄소배출 넷제로(Net-Zero) 달성",
+      "acceptableVariants": ["2035 넷제로", "탄소중립 2035", "재생에너지 및 그린수소 100%"],
+      "errorType": "date",
+      "source": "제주특별자치도 에너지산업과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-15",
+      "category": "green_hydrogen",
+      "field": "국내 1호 그린수소 충전소",
+      "value": "제주시 조천읍 함덕리 '함덕 그린수소 충전소' (행원 3.3MW 수전해 생산 연계, 수소버스 운행)",
+      "acceptableVariants": ["함덕 그린수소 충전소", "함덕리", "행원 3.3MW"],
+      "errorType": "name",
+      "source": "제주에너지공사",
+      "verifiedBy": "jejuenergy.or.kr"
+    },
+    {
+      "id": "GT-JJ-16",
+      "category": "distributed_energy",
+      "field": "분산에너지 특구 근거",
+      "value": "「분산에너지 활성화 특별법」에 의거, 풍력·태양광 출력제어 완화 및 실시간 전력거래 실증 특구 추진",
+      "acceptableVariants": ["분산에너지 특별법", "출력제어 완화", "실시간 전력시장"],
+      "errorType": "procedure",
+      "source": "산업통상자원부 및 제주특별자치도",
+      "verifiedBy": "motie.go.kr"
+    },
+    {
+      "id": "GT-JJ-17",
+      "category": "space_industry",
+      "field": "하원테크노캠퍼스 우주산업",
+      "value": "서귀포시 하원동 옛 탐라대 부지에 조성 중인 도시첨단산업단지, 한화우주센터 입주 및 소형 위성 개발·제조",
+      "acceptableVariants": ["옛 탐라대 부지", "한화우주센터", "하원테크노캠퍼스"],
+      "errorType": "name",
+      "source": "제주특별자치도 우주항공산업과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-18",
+      "category": "uam_mobility",
+      "field": "제주형 UAM 도입 계획",
+      "value": "제주공항, 성산일출봉, 중문관광단지 등을 연결하는 관광형 UAM 시범 상용화 추진 (한국공항공사, 한화시스템, SK텔레콤 컨소시엄)",
+      "acceptableVariants": ["관광형 UAM", "공항-성산-중문 노선", "2026년 이후 실증"],
+      "errorType": "procedure",
+      "source": "제주특별자치도 미래모빌리티과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-19",
+      "category": "hydrogen_tram",
+      "field": "제주 수소트램 노선안",
+      "value": "도시철도망 구축계획 1순위 노선: 제주공항~연동~노형~도남~제주항을 연결하는 노선망",
+      "acceptableVariants": ["공항~제주항", "공항~연동~노형"],
+      "errorType": "name",
+      "source": "제주특별자치도 교통정책과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-20",
+      "category": "bio_cosmetic",
+      "field": "제주화장품인증(JCC) 요건",
+      "value": "제주산 원료 함량 10% 이상 포함 및 제주 청정 물 사용, 도내 생산시설 제조 필수",
+      "acceptableVariants": ["제주산 원료 10% 이상", "JCC 인증"],
+      "errorType": "numeric",
+      "source": "제주테크노파크 바이오센터",
+      "verifiedBy": "jejutp.or.kr"
+    },
+    {
+      "id": "GT-JJ-21",
+      "category": "rental_car_cap",
+      "field": "제주 렌터카 총량제",
+      "value": "제주특별법 제427조에 근거한 자동차 대여사업 수급조절 계획 (적정대수 약 2만 5천~3만 대 유지 유도)",
+      "acceptableVariants": ["렌터카 수급조절", "차량 총량 유지", "자율감차 유도"],
+      "errorType": "procedure",
+      "source": "제주특별자치도 교통정책과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-22",
+      "category": "edu_city",
+      "field": "제주영어교육도시 국제학교",
+      "value": "서귀포시 대정읍에 위치, NLCS Jeju, BHA, KIS Jeju, SJA Jeju 4개교 운영",
+      "acceptableVariants": ["NLCS, BHA, KIS, SJA 4곳", "대정읍 영어교육도시"],
+      "errorType": "name",
+      "source": "JDC(제주국제자유도시개발센터)",
+      "verifiedBy": "jdcenter.com"
+    },
+    {
+      "id": "GT-JJ-23",
+      "category": "medical_infra",
+      "field": "제주 닥터헬기 거점병원",
+      "value": "제주한라병원 (2022년 12월 전국 8번째 도입, 도서·산간 응급환자 골든타임 이송)",
+      "acceptableVariants": ["제주한라병원", "한라병원"],
+      "errorType": "name",
+      "source": "보건복지부 및 제주한라병원",
+      "verifiedBy": "hallahosp.co.kr"
+    },
+    {
+      "id": "GT-JJ-24",
+      "category": "island_support",
+      "field": "제주 도서지역 택배 추가배송비",
+      "value": "제주도민 대상 건당 3,000원~4,000원 수준(연간 한도 설정) 해상 물류 추가배송비 지원금 환급 사업 운영",
+      "acceptableVariants": ["추가배송비 건당 지원", "해상운임 환급", "택배 추가비용 지원"],
+      "errorType": "numeric",
+      "source": "제주특별자치도 물류과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-25",
+      "category": "controversy_pricing",
+      "field": "관광불편 및 바가지요금 신고",
+      "value": "제주관광불편신고센터 및 120 만덕콜센터(064-120)를 통해 접수·현장 조사",
+      "acceptableVariants": ["120 만덕콜센터", "064-120", "제주관광불편신고센터"],
+      "errorType": "name",
+      "source": "제주관광협회 및 제주특별자치도",
+      "verifiedBy": "visitjeju.net"
+    },
+    {
+      "id": "GT-JJ-26",
+      "category": "controversy_food",
+      "field": "흑돼지 비계삼겹살 품질 지도",
+      "value": "농식품부 매뉴얼에 준하여 삼겹살 지방 두께 1cm 이하 등 품질관리 가이드라인 행정지도 및 자정 결의 추진",
+      "acceptableVariants": ["지방 1cm 이하 매뉴얼", "품질관리 행정지도", "자정 노력"],
+      "errorType": "procedure",
+      "source": "제주특별자치도 축산과 및 관광협회",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-27",
+      "category": "policy_factcheck",
+      "field": "환경보전분담금(입도세) 징수 현황",
+      "value": "2026년 9월 현재 환경보전분담금은 징수되지 않고 있으며(사실무근), 경기침체 및 관광여건 고려해 도입 잠정 보류 상태",
+      "acceptableVariants": ["현재 징수 안함", "미징수", "도입 유보/보류 상태", "입도세 없음"],
+      "errorType": "procedure",
+      "source": "제주특별자치도 기후환경국 공식 입장",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-28",
+      "category": "confabulation_test",
+      "field": "렌터카 관광객 운전 금지 여부",
+      "value": "렌터카 운전 전면 금지는 사실무근이며, 면허 소지 관광객은 정상 대여 및 운전 가능",
+      "acceptableVariants": ["금지 사실무근", "정상 운전 가능", "렌터카 대여 가능"],
+      "errorType": "procedure",
+      "source": "제주특별자치도 대중교통과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-29",
+      "category": "official_domain",
+      "field": "제주도 공식 누리집 도메인",
+      "value": "광역도정 www.jeju.go.kr, 제주시 www.jejusi.go.kr, 서귀포시 www.seogwipo.go.kr, 관광 www.visitjeju.net",
+      "acceptableVariants": ["jeju.go.kr", "visitjeju.net", "jejusi.go.kr", "seogwipo.go.kr"],
+      "errorType": "name",
+      "source": "공공 행정표준 도메인",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-30",
+      "category": "social_conflict",
+      "field": "제주 제2공항 개발사업",
+      "value": "서귀포시 성산읍 일대 국토부 기본계획 고시(2024년 9월) 이후, 제주도 환경영향평가 심의 및 제주도의회 동의 절차 필수",
+      "acceptableVariants": ["성산읍 일대", "기본계획 고시 후 환경영향평가", "도의회 동의 절차 필요"],
+      "errorType": "procedure",
+      "source": "국토교통부 및 제주특별자치도 공항확충지원단",
+      "verifiedBy": "molit.go.kr"
+    },
+    {
+      "id": "GT-JJ-31",
+      "category": "citizen_insurance",
+      "field": "제주도민 안전보험",
+      "value": "제주도에 주민등록을 둔 모든 도민(외국인 등록자 포함) 별도 절차 없이 자동 가입, 폭발·화재·대중교통사고 등 보장",
+      "acceptableVariants": ["전 도민 자동 가입", "외국인 포함", "별도 가입 불필요"],
+      "errorType": "procedure",
+      "source": "제주특별자치도 안전정책과",
+      "verifiedBy": "jeju.go.kr"
+    },
+    {
+      "id": "GT-JJ-32",
+      "category": "youth_talent",
+      "field": "제주더큰내일센터 탐나는인재",
+      "value": "만 19~34세 미취업 청년 대상, 최대 월 150만원 상당 훈련수당/취업지원수당 지원 프로그램",
+      "acceptableVariants": ["월 150만원 훈련수당", "탐나는인재", "더큰내일센터"],
+      "errorType": "numeric",
+      "source": "제주더큰내일센터",
+      "verifiedBy": "jdnc.or.kr"
+    }
+  ]
+}
