@@ -2,6 +2,8 @@
 // K-Brand Lab PRD v3.0 종합 검증 스위트
 
 import { testMetricsCalculator } from './metrics.test';
+import { testQuestionEngines } from './questions.test';
+import { testMeasurementEngines } from './measurement.test';
 
 async function runAllKBrandLabTests() {
   console.log('====================================================');
@@ -10,7 +12,9 @@ async function runAllKBrandLabTests() {
 
   try {
     await testMetricsCalculator();
-    console.log('🎉 K-Brand Lab 핵심 기능 검수를 완벽하게 통과했습니다.\n');
+    await testQuestionEngines();
+    await testMeasurementEngines();
+    console.log('🎉 K-Brand Lab 전체 기능 검수를 완벽하게 통과했습니다.\n');
     process.exit(0);
   } catch (err: any) {
     console.error(`❌ [FAIL] K-Brand Lab 검수 실패: ${err.message}`);
