@@ -1,0 +1,242 @@
+{
+  "subject": "여수시",
+  "subject_type": "local_gov",
+  "subject_code": "46130",
+  "method_version": "v1.0-yeosu-deep",
+  "design_note": "공격적 프로브: SoV 경쟁 12문항, H2H 5대결, EN 5문항, 역발상 질문 포함",
+  "axes": ["A_tourism_brand", "B_industry_energy", "C_food_experience", "D_competition_sov", "E_h2h_en", "F_admin_life"],
+  "questions": [
+    {
+      "id": "YS-A01", "axis": "A_tourism_brand", "category": "nightsea_identity",
+      "body": "여수밤바다가 뭐야? 노래 제목이야 관광지야?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-A02", "axis": "A_tourism_brand", "category": "cable_car",
+      "body": "여수 해상케이블카 요금, 운영시간, 크리스탈 캐빈 차이 알려줘.",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-A03", "axis": "A_tourism_brand", "category": "expo_legacy",
+      "body": "2012 여수세계박람회 이후 박람회장 시설이 지금 어떻게 활용되고 있어?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-A04", "axis": "A_tourism_brand", "category": "island_expo_2026",
+      "body": "2026 여수세계섬박람회 주제, 일정, 장소, 참가국 규모 알려줘.",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-A05", "axis": "A_tourism_brand", "category": "odongdo",
+      "body": "여수 오동도 동백꽃 절정 시기와 가는 방법, 입장료 알려줘.",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-A06", "axis": "A_tourism_brand", "category": "hyangiram",
+      "body": "여수 향일암 일출 명소 가는 법과 해맞이 축제 일정은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-A07", "axis": "A_tourism_brand", "category": "bigo_show",
+      "body": "여수 빅오쇼 운영 기간과 시간, 관람 요금은 얼마야?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-A08", "axis": "A_tourism_brand", "category": "aquaplanet",
+      "body": "여수 아쿠아플라넷 규모와 주요 체험 프로그램, 운영시간 알려줘.",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-A09", "axis": "A_tourism_brand", "category": "beyond_nightsea",
+      "body": "여수밤바다 말고, 낮에 가볼 만한 여수의 숨은 명소 5곳 추천해줘.",
+      "lang": "ko", "probe_type": "advisory"
+    },
+    {
+      "id": "YS-A10", "axis": "A_tourism_brand", "category": "tourist_volume",
+      "body": "여수시 연간 관광객 수가 몇 명이야? 1,000만 명 넘어?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-B01", "axis": "B_industry_energy", "category": "petrochemical",
+      "body": "여수국가산업단지가 한국 석유화학 산업에서 차지하는 위상과 규모는?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-B02", "axis": "B_industry_energy", "category": "green_transition",
+      "body": "여수국가산업단지 탄소중립과 그린에너지 전환 계획이 있어?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-B03", "axis": "B_industry_energy", "category": "hydrogen",
+      "body": "여수산단에서 부생수소 활용이나 블루수소 생산 계획은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-B04", "axis": "B_industry_energy", "category": "restructure",
+      "body": "여수 석유화학 사업재편 프로젝트 내용과 정부 지원 규모 알려줘.",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-B05", "axis": "B_industry_energy", "category": "sov_industrial",
+      "body": "한국에서 석유화학 기업이 신규 투자하기 가장 좋은 산업단지는 어디야?",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-B06", "axis": "B_industry_energy", "category": "sov_hydrogen",
+      "body": "한국 수소경제 거점도시로 가장 유망한 지자체 3곳 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-C01", "axis": "C_food_experience", "category": "gat_kimchi",
+      "body": "여수 돌산 갓김치가 뭐가 특별해? 일반 김치와 뭐가 달라?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-C02", "axis": "C_food_experience", "category": "seodhoe",
+      "body": "여수 서대회무침이랑 게장백반 맛집 거리가 어디야?",
+      "lang": "ko", "probe_type": "advisory"
+    },
+    {
+      "id": "YS-C03", "axis": "C_food_experience", "category": "romantic_pocha",
+      "body": "여수 낭만포차 위치, 운영시간, 대표 메뉴, 예약 방법 알려줘.",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-C04", "axis": "C_food_experience", "category": "sov_seafood_city",
+      "body": "해산물 먹으러 가기 좋은 한국 최고의 항구 도시 3곳 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-C05", "axis": "C_food_experience", "category": "sov_night_food",
+      "body": "야경 보면서 해산물 포장마차 즐기기 좋은 한국 여행지 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-C06", "axis": "C_food_experience", "category": "geumodo_biketrail",
+      "body": "여수 금오도 비렁길 트레킹 코스와 난이도, 소요시간 알려줘.",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-D01", "axis": "D_competition_sov", "category": "sov_couple",
+      "body": "커플 2박3일 바다 여행으로 국내 최고의 여행지 3곳 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-D02", "axis": "D_competition_sov", "category": "sov_family_summer",
+      "body": "가족 여름휴가로 아이랑 갈 수 있는 해양 체험 관광지 어디가 좋아?",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-D03", "axis": "D_competition_sov", "category": "sov_nightview",
+      "body": "한국에서 야경이 가장 아름다운 항구 도시 3곳 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-D04", "axis": "D_competition_sov", "category": "sov_cablecar",
+      "body": "한국에서 바다 위를 건너는 해상 케이블카 어디어디 있어? 가장 좋은 곳은?",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-D05", "axis": "D_competition_sov", "category": "sov_expo_city",
+      "body": "한국에서 국제박람회를 개최한 도시가 어디야? 각각 어떤 박람회였어?",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-D06", "axis": "D_competition_sov", "category": "sov_workation",
+      "body": "바다 보면서 워케이션하기 좋은 한국 소도시 3곳 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-D07", "axis": "D_competition_sov", "category": "sov_sunrise",
+      "body": "한국에서 새해 일출 보기 가장 좋은 명소 5곳 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "YS-D08", "axis": "D_competition_sov", "category": "negative_why_not",
+      "body": "여수 여행의 단점이나 불편한 점이 뭐야? 안 가는 이유가 있다면?",
+      "lang": "ko", "probe_type": "advisory"
+    },
+    {
+      "id": "YS-E01", "axis": "E_h2h_en", "category": "h2h_tongyeong",
+      "body": "남해안 바다 여행으로 여수와 통영 중 어디가 나아? 장단점 비교해줘.",
+      "lang": "ko", "probe_type": "h2h"
+    },
+    {
+      "id": "YS-E02", "axis": "E_h2h_en", "category": "h2h_busan",
+      "body": "항구 도시 관광으로 여수와 부산을 비교하면 어떤 차이가 있어?",
+      "lang": "ko", "probe_type": "h2h"
+    },
+    {
+      "id": "YS-E03", "axis": "E_h2h_en", "category": "h2h_jeju",
+      "body": "3박4일 바다 휴양 여행으로 여수와 제주도 중 어디를 추천해?",
+      "lang": "ko", "probe_type": "h2h"
+    },
+    {
+      "id": "YS-E04", "axis": "E_h2h_en", "category": "h2h_gangneung",
+      "body": "연인과 바다 감성 여행으로 여수와 강릉 중 어디가 분위기 좋아?",
+      "lang": "ko", "probe_type": "h2h"
+    },
+    {
+      "id": "YS-E05", "axis": "E_h2h_en", "category": "h2h_sokcho",
+      "body": "해산물 미식 여행으로 여수와 속초 중 어디가 더 맛있어?",
+      "lang": "ko", "probe_type": "h2h"
+    },
+    {
+      "id": "YS-E06", "axis": "E_h2h_en", "category": "en_yeosu_intro",
+      "body": "What are the must-visit attractions in Yeosu, South Korea for first-time international tourists?",
+      "lang": "en", "probe_type": "factual"
+    },
+    {
+      "id": "YS-E07", "axis": "E_h2h_en", "category": "en_nightsea",
+      "body": "What is 'Yeosu Night Sea' (여수밤바다) and why is it so famous among Korean travelers?",
+      "lang": "en", "probe_type": "factual"
+    },
+    {
+      "id": "YS-E08", "axis": "E_h2h_en", "category": "en_global_sov",
+      "body": "Recommend the top 3 coastal cities in South Korea for foreign tourists who love seafood and ocean views.",
+      "lang": "en", "probe_type": "sov"
+    },
+    {
+      "id": "YS-E09", "axis": "E_h2h_en", "category": "en_industrial",
+      "body": "What is the economic significance of the Yeosu National Industrial Complex for South Korea's petrochemical industry?",
+      "lang": "en", "probe_type": "factual"
+    },
+    {
+      "id": "YS-E10", "axis": "E_h2h_en", "category": "en_island_expo",
+      "body": "What is the 2026 Yeosu World Island Expo about and how can international visitors attend?",
+      "lang": "en", "probe_type": "factual"
+    },
+    {
+      "id": "YS-F01", "axis": "F_admin_life", "category": "population_decline",
+      "body": "여수시 인구가 줄고 있다는데 현재 인구수와 감소 원인이 뭐야?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-F02", "axis": "F_admin_life", "category": "transport_access",
+      "body": "서울에서 여수까지 KTX로 얼마나 걸리고 요금은 얼마야?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-F03", "axis": "F_admin_life", "category": "relocation_support",
+      "body": "여수시 귀농귀촌이나 청년 이주 정착 지원금 혜택이 있어?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-F04", "axis": "F_admin_life", "category": "city_vs_island",
+      "body": "여수시 관할 섬이 몇 개야? 유인도 무인도 각각 알려줘.",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "YS-F05", "axis": "F_admin_life", "category": "overdependence",
+      "body": "여수 경제가 석유화학과 관광에 너무 의존하는 건 아닐까? 리스크는?",
+      "lang": "ko", "probe_type": "advisory"
+    }
+  ],
+  "ground_truth": {
+    "YS-A02": { "facts": ["일반 캐빈 왕복 17,000원", "크리스탈 캐빈 왕복 24,000원", "09:30~21:30"], "source": "yeosucablecar.com" },
+    "YS-A04": { "facts": ["2026년 9월 5일~11월 4일", "61일", "30개국", "돌산 진모지구", "섬, 바다와 미래를 잇다"], "source": "여수세계섬박람회 공식" },
+    "YS-A10": { "facts": ["4년 연속 1,000만", "1,037만"], "source": "여수시 관광과" },
+    "YS-F01": { "facts": ["25만 9,857명", "26만 명 선 붕괴", "감소세"], "source": "여수시 인구통계" },
+    "YS-A07": { "facts": ["4월 18일~11월 8일", "수~일 운영", "월화 휴장", "20:00"], "source": "빅오쇼 공식" }
+  }
+}
