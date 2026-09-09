@@ -1,0 +1,216 @@
+{
+  "subject": "완도군",
+  "subject_type": "local_gov",
+  "subject_code": "46890",
+  "method_version": "v1.0-wando-deep",
+  "axes": ["A_healing", "B_bio", "C_eco_tourism", "D_admin", "E_h2h_en"],
+  "questions": [
+    {
+      "id": "WD-A01", "axis": "A_healing", "category": "center_fact",
+      "body": "완도해양치유센터의 위치, 개관일, 주요 테라피 프로그램 알려줘.",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-A02", "axis": "A_healing", "category": "pricing",
+      "body": "완도해양치유센터 베이식, 디럭스, 프리미엄 프로그램 이용 요금과 예약 방법은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-A03", "axis": "A_healing", "category": "therapy_target",
+      "body": "완도해양치유센터는 관절염 환자나 만성 피로 직장인에게 어떤 테라피를 추천해?",
+      "lang": "ko", "probe_type": "advisory"
+    },
+    {
+      "id": "WD-A04", "axis": "A_healing", "category": "blue_flag",
+      "body": "완도해양치유센터 바로 앞에 있는 신지명사십리 해수욕장의 블루플래그 인증이 뭐야?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-A05", "axis": "A_healing", "category": "sov_open",
+      "body": "부모님 모시고 2박 3일 조용히 쉴 수 있는 국내 최고의 해양 스파/치유 웰니스 여행지 3곳 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "WD-A06", "axis": "A_healing", "category": "sov_skin",
+      "body": "피부 질환이나 아토피 완화에 좋은 해양 테라피나 머드 체험 시설 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "WD-A07", "axis": "A_healing", "category": "sov_thalasso",
+      "body": "바다를 보면서 전문 수중 운동(딸라소테라피)을 받을 수 있는 국내 공공 치유 시설 어디 있어?",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "WD-A08", "axis": "A_healing", "category": "accommodation",
+      "body": "완도해양치유센터 이용객이 머물기 좋은 인근 리조트나 펜션 시설은?",
+      "lang": "ko", "probe_type": "advisory"
+    },
+    {
+      "id": "WD-A09", "axis": "A_healing", "category": "transport",
+      "body": "서울이나 광주에서 대중교통으로 완도해양치유센터까지 가는 가장 빠른 경로는?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-A10", "axis": "A_healing", "category": "discount",
+      "body": "완도해양치유센터 군민 할인이나 전남도민, 다자녀 감면 혜택 기준이 어떻게 돼?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-B01", "axis": "B_bio", "category": "bio_cluster",
+      "body": "완도군이 추진하는 해양바이오 클러스터와 해조류 활성소재 인증생산시설이 뭐야?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-B02", "axis": "B_bio", "category": "research_lab",
+      "body": "완도 해양바이오 공동협력연구소에 입주하거나 협력할 수 있는 기업 조건은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-B03", "axis": "B_bio", "category": "blue_carbon",
+      "body": "완도군 해조류 양식장이 탄소흡수원(블루카본)으로서 가지는 경제적 가치는?",
+      "lang": "ko", "probe_type": "advisory"
+    },
+    {
+      "id": "WD-B04", "axis": "B_bio", "category": "sov_invest",
+      "body": "해양 생물자원이나 해조류를 활용한 기능성 화장품·의약품 공장을 짓기에 가장 좋은 지자체는?",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "WD-B05", "axis": "B_bio", "category": "smart_aqua",
+      "body": "완도군 전복과 광어 양식장에 적용되는 AI 스마트 수산양식 지원 사업 있어?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-B06", "axis": "B_bio", "category": "export",
+      "body": "완도 전복과 김을 미국이나 유럽으로 수출하려는 어가에 대한 군의 지원책은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-B07", "axis": "B_bio", "category": "startup",
+      "body": "완도에서 해양바이오나 수산물 가공 분야 청년 창업 시 지원금이나 융자 혜택은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-B08", "axis": "B_bio", "category": "production_fact",
+      "body": "완도군 해조류와 전복 생산량이 전국에서 차지하는 실제 비율은 얼마야?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-C01", "axis": "C_eco_tourism", "category": "national_arboretum",
+      "body": "완도에 조성 중인 국립난대수목원의 개원 목표 연도와 규모, 주요 시설은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-C02", "axis": "C_eco_tourism", "category": "current_arboretum",
+      "body": "현재 운영 중인 완도수목원의 난대림 숲길 코스와 입장료, 휴원일은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-C03", "axis": "C_eco_tourism", "category": "slowcity",
+      "body": "아시아 최초 슬로시티 청산도 슬로길 11개 코스 중 가장 대표적인 코스 추천해줘.",
+      "lang": "ko", "probe_type": "advisory"
+    },
+    {
+      "id": "WD-C04", "axis": "C_eco_tourism", "category": "ferry",
+      "body": "완도항에서 청산도 들어가는 여객선 배편 시간표와 차량 선적 요금, 예약 방법은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-C05", "axis": "C_eco_tourism", "category": "bogildo",
+      "body": "완도 보길도 세연정과 고산 윤선도 원림 관람 포인트와 가는 방법 안내해줘.",
+      "lang": "ko", "probe_type": "advisory"
+    },
+    {
+      "id": "WD-C06", "axis": "C_eco_tourism", "category": "sov_spring",
+      "body": "4월 봄꽃 시즌에 유채꽃과 돌담길을 걸으며 힐링할 수 있는 남해안 섬 여행지 추천해줘.",
+      "lang": "ko", "probe_type": "sov"
+    },
+    {
+      "id": "WD-C07", "axis": "C_eco_tourism", "category": "food",
+      "body": "완도읍에서 현지인이 추천하는 전복 코스 요리와 물회 맛집 거리 어디야?",
+      "lang": "ko", "probe_type": "advisory"
+    },
+    {
+      "id": "WD-C08", "axis": "C_eco_tourism", "category": "tower",
+      "body": "다도해일출공원 완도타워 모노레일 탑승 요금과 짚라인 운영해?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-D01", "axis": "D_admin", "category": "ferry_subsidy",
+      "body": "완도군 섬 주민을 위한 여객선 '천원 요금제' 지원 대상과 적용 범위는?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-D02", "axis": "D_admin", "category": "fishing_settlement",
+      "body": "완도군으로 귀어하려는 도시민을 위한 정착 지원금이나 주거 지원 혜택 있어?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-D03", "axis": "D_admin", "category": "local_voucher",
+      "body": "완도사랑상품권 할인율과 월 구매 한도, 가맹점 찾는 방법은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-D04", "axis": "D_admin", "category": "birth_support",
+      "body": "완도군에서 아이를 낳으면 지원되는 첫째·둘째 출산장려금과 양육 수당은?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-D05", "axis": "D_admin", "category": "senior_welfare",
+      "body": "완도군 65세 이상 어르신을 위한 목욕권이나 이미용 바우처 지원 제도 있어?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-D06", "axis": "D_admin", "category": "gov_office",
+      "body": "완도군청 민원실 점심시간 휴무제 시행하는지, 주차요금 얼마야?",
+      "lang": "ko", "probe_type": "factual"
+    },
+    {
+      "id": "WD-E01", "axis": "E_h2h_en", "category": "h2h_taean",
+      "body": "해양치유와 웰니스 힐링 여행으로 완도와 충남 태안 중 어디를 추천해? 각각의 장단점은?",
+      "lang": "ko", "probe_type": "h2h"
+    },
+    {
+      "id": "WD-E02", "axis": "E_h2h_en", "category": "h2h_geoje",
+      "body": "남해안 섬 여행과 해양 휴양지로 완도와 거제도를 비교하면 자연환경과 인프라 차이는?",
+      "lang": "ko", "probe_type": "h2h"
+    },
+    {
+      "id": "WD-E03", "axis": "E_h2h_en", "category": "h2h_jeju",
+      "body": "조용한 힐링과 슬로라이프 여행을 원할 때 제주도와 완도 청산도 중 어디가 나아?",
+      "lang": "ko", "probe_type": "h2h"
+    },
+    {
+      "id": "WD-E04", "axis": "E_h2h_en", "category": "h2h_jindo",
+      "body": "전남 서남해안 전통 문화와 수산물 여행으로 완도와 진도 중 어느 지역이 특색 있어?",
+      "lang": "ko", "probe_type": "h2h"
+    },
+    {
+      "id": "WD-E05", "axis": "E_h2h_en", "category": "en_center",
+      "body": "What are the therapeutic programs and booking procedures at Wando Marine Healing Center in Korea?",
+      "lang": "en", "probe_type": "factual"
+    },
+    {
+      "id": "WD-E06", "axis": "E_h2h_en", "category": "en_global_sov",
+      "body": "Recommend the best thalassotherapy and marine wellness destinations in South Korea for foreign tourists.",
+      "lang": "en", "probe_type": "sov"
+    },
+    {
+      "id": "WD-E07", "axis": "E_h2h_en", "category": "en_slowcity",
+      "body": "How can international travelers visit Cheongsando Island, the first Cittaslow in Asia, from Seoul?",
+      "lang": "en", "probe_type": "factual"
+    },
+    {
+      "id": "WD-E08", "axis": "E_h2h_en", "category": "en_bio_invest",
+      "body": "What are the investment incentives and marine bio infrastructure for foreign companies in Wando, Korea?",
+      "lang": "en", "probe_type": "factual"
+    }
+  ],
+  "ground_truth": {
+    "WD-A01": { "facts": ["2023.11.24 개관", "신지면 명사십리61번길 94"], "source": "wandohealing.or.kr" },
+    "WD-A02": { "facts": ["베이식 36,000원", "디럭스 100,000원", "프리미엄 125,000원"], "source": "wandohealing.or.kr" },
+    "WD-B08": { "facts": ["전복 전국 70% 이상", "해조류 약 52%"], "source": "완도군 통계연보" },
+    "WD-C01": { "facts": ["2031년 개원 목표", "사업비 약 1,815억 원", "381ha 부지"], "source": "산림청·완도군 보도자료" },
+    "WD-D01": { "facts": ["섬 주민 대상 여객선 운임 1,000원 정액 지원", "차량 제외"], "source": "완도군 조례" }
+  }
+}
