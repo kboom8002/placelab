@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:invariants": "tsx tests/invariants/run-all.ts"
+    "test:invariants": "tsx tests/invariants/run-all.ts",
+    "test:kbrandlab": "tsx tests/kbrandlab/run-all.ts"
   },
   "dependencies": {
     "@google/genai": "^2.21.0",
