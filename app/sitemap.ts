@@ -1,6 +1,7 @@
 // app/sitemap.ts
 import { MetadataRoute } from 'next';
 import { createClient as createSupabaseClient } from '@supabase/supabase-js';
+import { DIAGNOSTIC_REPORTS } from '@/lib/reports/diagnostic-reports';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const siteUrl = process.env.SITE_URL || 'https://kplacelab.kr';
@@ -8,6 +9,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const routes = [
     '',
     '/units',
+    '/reports',
+    ...DIAGNOSTIC_REPORTS.map((r) => `/reports/${r.slug}`),
     '/selfcheck',
     '/submit',
     '/method',
@@ -27,7 +30,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     url: `${siteUrl}${route}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1.0 : 0.8,
+    priority: route === '' ? 1.0 : route.startsWith('/reports') ? 0.9 : 0.8,
   }));
 
   try {

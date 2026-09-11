@@ -35,3 +35,8 @@ next-env.d.ts
 supabase/.temp
 
 .vercel
+
+# Agent logs and temp
+.agents/
+ORIGINAL_REQUEST.md
+PROJECT.md

@@ -30,6 +30,7 @@ export const Navbar: React.FC = () => {
   const navLinks = [
     { href: '/', label: '전국 현황', icon: Activity },
     { href: '/units', label: '단위 목록' },
+    { href: '/reports', label: '진단 보고서', icon: FileText },
     { href: '/selfcheck', label: '셀프체크' },
     { href: '/measure', label: 'AI 측정' },
     { href: '/theme-lab', label: '정책테마랩', icon: Compass },

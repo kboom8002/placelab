@@ -5,8 +5,9 @@ import { getUnitById } from '@/lib/db/units';
 import { createClient } from '@/lib/supabase/server';
 import { VerdictBadge } from '@/components/ui/VerdictBadge';
 import { B_FORM_DISCLAIMER, MEASUREMENT_LIMITATION_NOTE, CURRENT_METHOD_VERSION } from '@/lib/constants/measurement';
+import { getReportByUnitId } from '@/lib/reports/diagnostic-reports';
 import Link from 'next/link';
-import { ArrowLeft, ExternalLink, AlertTriangle, ShieldCheck, Share2, HelpCircle } from 'lucide-react';
+import { ArrowLeft, ExternalLink, AlertTriangle, ShieldCheck, Share2, HelpCircle, Sparkles, ArrowRight } from 'lucide-react';
 
 export const revalidate = 3600;
 
@@ -23,6 +24,7 @@ export default async function UnitDetailPage({ params }: UnitDetailPageProps) {
     notFound();
   }
 
+  const l2Report = getReportByUnitId(unit.unit_id);
   const supabase = createClient();
 
   let scans: any[] = [];
@@ -150,6 +152,57 @@ export default async function UnitDetailPage({ params }: UnitDetailPageProps) {
           <span>{MEASUREMENT_LIMITATION_NOTE} 자세한 원인 규명은 기관 맞춤 진단(Layer 4)이 요구됩니다.</span>
         </div>
       </div>
+
+      {/* Layer 2 심화 진단 보고서 연동 배너 */}
+      {l2Report && (
+        <div className="p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-navy-950 via-navy-900 to-slate-900 text-white border border-gold-400/30 shadow-lg space-y-5">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-400/20 border border-gold-400/30 text-gold-300 text-xs font-bold">
+              <Sparkles className="w-3.5 h-3.5 text-gold-400" />
+              Layer 2 AI 가시성 심화 진단 완료
+            </div>
+            <span className="text-xs text-slate-400 font-mono">{l2Report.date} 측정</span>
+          </div>
+
+          <div className="space-y-1.5">
+            <h3 className="text-xl font-black text-white tracking-tight">
+              {l2Report.title}
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
+              {l2Report.subtitle}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-3 gap-2.5 pt-1">
+            <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
+              <div className="text-[11px] text-slate-400 font-medium">비브랜드 SoV</div>
+              <div className="text-base sm:text-lg font-black text-gold-400 font-mono mt-0.5">{l2Report.sovRate}</div>
+            </div>
+            <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
+              <div className="text-[11px] text-slate-400 font-medium">공식 출처 통제율</div>
+              <div className="text-base sm:text-lg font-black text-white font-mono mt-0.5">{l2Report.controllabilityRate}</div>
+            </div>
+            <div className="p-3 rounded-xl bg-white/5 border border-white/10 text-center">
+              <div className="text-[11px] text-slate-400 font-medium">실측 슬롯</div>
+              <div className="text-base sm:text-lg font-black text-emerald-400 font-mono mt-0.5">{l2Report.slots}슬롯 전수</div>
+            </div>
+          </div>
+
+          <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-t border-white/10">
+            <div className="text-xs text-slate-300 flex items-center gap-1.5">
+              <span className="text-rose-400 font-bold shrink-0">AI 지적 위험:</span>
+              <span className="line-clamp-1 text-slate-200">{l2Report.negativeAlert}</span>
+            </div>
+            <Link
+              href={`/reports/${l2Report.slug}`}
+              className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-gradient-to-r from-gold-400 to-gold-500 hover:from-gold-300 hover:to-gold-400 text-navy-950 font-bold text-xs transition-all shadow-md shrink-0"
+            >
+              <span>진단 보고서 전문 보기</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
+        </div>
+      )}
 
       {/* 주간 스캔 이력 (FR-3) */}
       <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 shadow-sm space-y-4">
