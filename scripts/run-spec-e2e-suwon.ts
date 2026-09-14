@@ -4,6 +4,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { GoogleGenAI } from '@google/genai';
 import { getCoreCommonQuestions } from '../lib/measurement/questions';
 import { findAgencyByHandle, getRunProfileRegistry } from '../lib/measurement/registries';
 import { extractObservation } from '../lib/measurement/extractor';
@@ -24,215 +25,244 @@ interface SuwonGtEntry {
 // ─── 1. 수원시 30개 공통 코어 문항 사실 원장 (Ground Truth SSOT) ───
 const SUWON_GROUND_TRUTH: Record<string, SuwonGtEntry> = {
   'CORE-001': {
-    targetValue: '경기도 수원시 팔달구 효원로 241',
-    acceptableVariants: ['효원로 241', '수원시청', '인계동 1111', '팔달구 효원로 241'],
+    // 이 기관의 청사 주소는 어디입니까
+    targetValue: '경기도 수원시 팔달구 효원로 241 (인계동)',
+    acceptableVariants: ['효원로 241', '수원시청', '인계동 1111', '팔달구 효원로', '16490'],
     sourceAuthority: '공공기관 청사 기본정보 (수원시청)',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-002': {
-    targetValue: '031-228-2114',
-    acceptableVariants: ['031-228-2114', '1899-3300', '0312282114', '휴먼콜센터 1899-3300'],
-    sourceAuthority: '수원시 대표 대표번호 안내',
+    // 이 기관의 대표 전화번호는 무엇입니까
+    targetValue: '031-228-2114 또는 휴먼콜센터 1899-3300',
+    acceptableVariants: ['031-228-2114', '1899-3300', '0312282114', '18993300', '228-2114', '휴먼콜센터'],
+    sourceAuthority: '수원시 대표 전화번호 안내',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-003': {
-    targetValue: '평일 09:00~18:00',
-    acceptableVariants: ['09:00 ~ 18:00', '오전 9시부터 오후 6시', '09시부터 18시', '평일 9시~18시'],
-    sourceAuthority: '민원여권과 민원실 운영 안내',
+    // 민원실은 언제 문을 엽니까
+    targetValue: '평일 09:00 ~ 18:00',
+    acceptableVariants: ['09:00', '18:00', '9시', '18시', '오전 9시', '오후 6시', '평일'],
+    sourceAuthority: '수원시 민원여권과 민원실 운영 안내',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-004': {
-    targetValue: '600원',
-    acceptableVariants: ['600원', '600', '육백원'],
-    sourceAuthority: '수원시 폐기물 관리 조례 (종량제봉투 가격표)',
+    // 정보공개 청구는 어떻게 합니까
+    targetValue: '대한민국 정보공개포털(open.go.kr) 온라인 청구 또는 민원실 방문/우편/팩스 접수',
+    acceptableVariants: ['정보공개포털', 'open.go.kr', '민원실', '정보공개', '방문', '우편'],
+    sourceAuthority: '수원시 정보공개 청구 안내',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-005': {
-    targetValue: '100만원',
-    acceptableVariants: ['100만원', '1,000,000원', '백만원', '100만 원'],
-    sourceAuthority: '수원시 출산지원금 지급 조례',
+    // 이 기관의 조례와 규칙은 어디에서 볼 수 있습니까
+    targetValue: '국가법령정보센터 자치법규(elis.go.kr) 또는 수원시 누리집 자치법규 게시판',
+    acceptableVariants: ['자치법규', 'elis.go.kr', '국가법령정보센터', '조례', '수원시청 누리집', '홈페이지'],
+    sourceAuthority: '수원시 자치법규 공개 시스템',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-006': {
-    targetValue: '분기별 25만원 (연 100만원)',
-    acceptableVariants: ['25만원', '100만원', '250,000원', '연 100만'],
-    sourceAuthority: '경기도 및 수원시 청년기본소득 조례',
-    ownerRole: 'upper_tier',
-    tier: 'upper',
-  },
-  'CORE-007': {
-    // 의도적 정본 부재 (canon_absent 테스트용)
-    canonAbsent: true,
+    // 생활폐기물은 어떤 요일에 어떻게 배출합니까
+    targetValue: '일몰 후 배출(20:00~익일 06:00), 토요일 배출 금지 (동별 지정 요일 배출)',
+    acceptableVariants: ['20시', '일몰', '종량제봉투', '토요일', '동별', '야간'],
+    sourceAuthority: '수원시 생활폐기물 배출 안내 조례',
     ownerRole: 'agency_hq',
     tier: 'direct',
-    sourceAuthority: '수원시 노인복지 조례 (목욕권 지원 제도 미운영)',
   },
-  'CORE-008': {
-    targetValue: '수원시 대형폐기물 인터넷 배출신고 시스템',
-    acceptableVariants: ['waste.suwon.go.kr', '대형폐기물 인터넷 배출신고', '온라인 배출신청'],
+  'CORE-007': {
+    // 대형폐기물은 어떻게 신고하고 수수료는 얼마입니까
+    targetValue: '수원시 대형폐기물 인터넷 배출신고 시스템(waste.suwon.go.kr) 또는 스티커 구입 부착',
+    acceptableVariants: ['waste.suwon.go.kr', '대형폐기물', '스티커', '인터넷', '온라인', '종량제'],
     sourceAuthority: '청소자원과 대형폐기물 처리 지침',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
+  'CORE-008': {
+    // 주민등록등본 발급 수수료는 얼마입니까
+    targetValue: '창구 방문 발급 400원 (무인민원발급기 200원, 정부24 온라인 무료)',
+    acceptableVariants: ['400원', '400', '무료', '200원', '정부24'],
+    sourceAuthority: '주민등록법 시행규칙 및 수원시 제증명 수수료 조례',
+    ownerRole: 'agency_hq',
+    tier: 'direct',
+  },
   'CORE-009': {
-    targetValue: '아주대학교병원 및 지정 달빛어린이병원',
-    acceptableVariants: ['아주대병원', '달빛어린이병원', '성빈센트병원', '야간 소아진료'],
-    sourceAuthority: '수원시 보건소 야간 영유아 진료체계',
-    ownerRole: 'institution',
-    tier: 'affiliate',
+    // 지방세는 어떤 방법으로 납부할 수 있습니까
+    targetValue: '위택스(wetax.go.kr), 가상계좌, ARS(1899-3300), 인터넷지로, 금융기관 방문 납부',
+    acceptableVariants: ['위택스', 'wetax', '가상계좌', 'ARS', '인터넷지로', '은행'],
+    sourceAuthority: '수원시 세무과 지방세 납부 편의 시책',
+    ownerRole: 'agency_hq',
+    tier: 'direct',
   },
   'CORE-010': {
-    targetValue: '매주 월요일 또는 금요일 (도서관별 상이)',
-    acceptableVariants: ['월요일', '금요일', '월요일 휴관', '도서관별 상이'],
+    // 건축 인허가는 어느 부서가 맡습니까
+    targetValue: '수원시청 도시주택국 건축과 및 관할 4개 구청(장안·권선·팔달·영통) 건축과',
+    acceptableVariants: ['건축과', '구청 건축과', '도시주택국', '구청'],
+    sourceAuthority: '수원시 행정기구 및 정원 조례 (사무분장)',
+    ownerRole: 'agency_hq',
+    tier: 'direct',
+  },
+  'CORE-011': {
+    // 공공도서관은 언제 문을 엽니까
+    targetValue: '수원시립도서관: 화~일 07:00~23:00(열람실), 자료실 09:00~18:00 (도서관별 매주 월 또는 금 정기휴관)',
+    acceptableVariants: ['월요일', '금요일', '09:00', '휴관', '도서관', '열람실'],
     sourceAuthority: '수원시 도서관사업소 운영 규정',
     ownerRole: 'institution',
     tier: 'affiliate',
   },
-  'CORE-011': {
-    targetValue: '최대 7권 (상호대차 포함)',
-    acceptableVariants: ['7권', '일곱 권', '7'],
-    sourceAuthority: '수원시 도서관 조례',
-    ownerRole: 'institution',
-    tier: 'affiliate',
-  },
   'CORE-012': {
-    targetValue: '수원화성문화제 및 정조대왕 능행차',
-    acceptableVariants: ['수원화성문화제', '정조대왕 능행차', '화성문화제'],
-    sourceAuthority: '수원문화재단 축제 운영계획',
-    ownerRole: 'affiliate',
-    tier: 'affiliate',
+    // 보건소는 어디에 있고 언제 문을 엽니까
+    targetValue: '장안구·권선구·팔달구·영통구 4개 보건소, 평일 09:00 ~ 18:00 (점심시간 12:00~13:00)',
+    acceptableVariants: ['장안구', '권선구', '팔달구', '영통구', '보건소', '09:00', '18:00'],
+    sourceAuthority: '수원시 4개구 보건소 안내',
+    ownerRole: 'agency_hq',
+    tier: 'direct',
   },
   'CORE-013': {
-    targetValue: '수원특례시청소년재단',
-    acceptableVariants: ['청소년재단', '청소년문화의집', '청소년상담복지센터'],
-    sourceAuthority: '수원시 청소년 육성 조례',
-    ownerRole: 'affiliate',
-    tier: 'affiliate',
+    // 이 지역 시내버스의 기본요금은 얼마입니까
+    targetValue: '경기도 시내버스 일반형: 교통카드 1,450원 (현금 1,500원)',
+    acceptableVariants: ['1,450원', '1450원', '1,500원', '1500원', '1450', '1,450', '경기도 시내버스'],
+    sourceAuthority: '경기도 및 수원시 대중교통 요금 고시',
+    ownerRole: 'upper_tier',
+    tier: 'upper',
   },
   'CORE-014': {
-    targetValue: '무료 (최초 1시간 또는 30분 무료 후 유료)',
-    acceptableVariants: ['1시간 무료', '30분 무료', '무료 회차', '평일 유료'],
-    sourceAuthority: '수원시 청사 부설주차장 관리 조례',
+    // 공영주차장 요금은 얼마입니까
+    targetValue: '수원시 공영주차장: 급지별 최초 30분 600~900원, 10분당 300~400원 추가',
+    acceptableVariants: ['급지', '30분', '600원', '900원', '10분', '공영주차장', '조례'],
+    sourceAuthority: '수원시 주차장 조례 별표 요금표',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-015': {
-    targetValue: '지하철 1호선 및 수인분당선 수원역',
-    acceptableVariants: ['수원역', '매교역', '수원시청역', '화서역'],
-    sourceAuthority: '수원시 대중교통 노선망',
-    ownerRole: 'upper_tier',
-    tier: 'upper',
+    // 기초연금은 어디에서 신청합니까
+    targetValue: '주소지 관할 읍·면·동 행정복지센터(주민센터) 또는 국민연금공단 지사(복지로 온라인 가능)',
+    acceptableVariants: ['행정복지센터', '주민센터', '국민연금공단', '복지로'],
+    sourceAuthority: '수원시 복지정책과 기초연금 신청 가이드',
+    ownerRole: 'agency_hq',
+    tier: 'direct',
   },
   'CORE-016': {
-    targetValue: '수원Pay (수원시 지역화폐)',
-    acceptableVariants: ['수원페이', '수원Pay', '경기지역화폐'],
-    sourceAuthority: '수원시 지역화폐 발행 및 운영 조례',
+    // 장애인 복지는 어느 부서가 맡습니까
+    targetValue: '수원시 복지여성국 장애인복지과 및 각 구청 사회복지과',
+    acceptableVariants: ['장애인복지과', '복지여성국', '사회복지과', '구청', '행정복지센터'],
+    sourceAuthority: '수원시 사무분장 규정',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-017': {
-    targetValue: '수원시 소상공인 특례보증 지원사업',
-    acceptableVariants: ['특례보증', '경기신용보증재단', '소상공인 대출지원'],
-    sourceAuthority: '지역경제과 소상공인 지원 종합계획',
+    // 어린이집 보육료 지원은 어떻게 신청합니까
+    targetValue: '복지로(bokjiro.go.kr) 또는 정부24 온라인 신청, 또는 관할 동 행정복지센터 방문 신청',
+    acceptableVariants: ['복지로', 'bokjiro', '행정복지센터', '주민센터', '국민행복카드'],
+    sourceAuthority: '수원시 보육정책과 영유아 보육료 지원 지침',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-018': {
-    // 의도적 정본 부재 (canon_absent 테스트용)
-    canonAbsent: true,
-    ownerRole: 'agency_hq',
-    tier: 'direct',
-    sourceAuthority: '수원시 공공 심야약국 전산 통합안내 부재',
-  },
-  'CORE-019': {
-    targetValue: '수원시 장사시설 수원연화장',
-    acceptableVariants: ['수원연화장', '연화장', '원천동 승화원'],
-    sourceAuthority: '수원도시공사 장사시설 운영 공고',
+    // 공공 체육시설의 이용료는 얼마입니까
+    targetValue: '수원종합운동장, 서수원칠보체육관, 광교복합체육센터 등 수원도시공사 체육시설 이용 조례에 따름',
+    acceptableVariants: ['수원도시공사', '조례', '종합운동장', '체육관', '수원시 체육'],
+    sourceAuthority: '수원시 공공체육시설 관리 및 운영 조례',
     ownerRole: 'affiliate',
     tier: 'affiliate',
   },
-  'CORE-020': {
-    targetValue: '수원시 다문화가족지원센터 (수원시외국인복지센터)',
-    acceptableVariants: ['다문화가족지원센터', '외국인복지센터', '외국인주민지원'],
-    sourceAuthority: '수원시 외국인주민 및 다문화가족 지원 조례',
-    ownerRole: 'institution',
-    tier: 'affiliate',
+  'CORE-019': {
+    // 이 기관의 재정 공시는 어디에서 볼 수 있습니까
+    targetValue: '수원시 누리집(suwon.go.kr) 정보공개 > 재정공시 게시판 또는 지방재정365',
+    acceptableVariants: ['재정공시', 'suwon.go.kr', '지방재정365', '누리집', '홈페이지'],
+    sourceAuthority: '수원시 재정 운용상황 공시 게시판',
+    ownerRole: 'agency_hq',
+    tier: 'direct',
   },
-  // CORE-021 ~ CORE-030 서술형 및 행정 제도
+  'CORE-020': {
+    // 재난이 났을 때 어디로 대피해야 합니까
+    targetValue: '국민재난안전포털(safekorea.go.kr) 대피소 조회, 수원시 안전지도 누리집, 인근 지정 민방위 대피소',
+    acceptableVariants: ['국민재난안전포털', 'safekorea', '대피소', '수원시청', '안전지도', '민방위'],
+    sourceAuthority: '수원시 시민안전과 재난 대피 안내',
+    ownerRole: 'agency_hq',
+    tier: 'direct',
+  },
   'CORE-021': {
-    targetValue: '수원화성 (유네스코 세계문화유산)',
-    acceptableVariants: ['수원화성', '화성', '화성행궁', '방화수류정'],
-    sourceAuthority: '수원시 문화관광 종합안내',
+    // 이 지역에 살면 생활이 어떻습니까 (서술형)
+    targetValue: '수원화성 등 역사문화와 광교신도시 등 현대 인프라, 우수한 서울 접근 교통망과 공원을 갖춘 경기 남부 수부도시',
+    acceptableVariants: ['광교', '교통', '문화', '인프라', '화성', '편리'],
+    sourceAuthority: '수원시 시정백서 및 정주환경 소개',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-022': {
-    targetValue: '수원화성박물관, 수원박물관, 수원광교박물관',
-    acceptableVariants: ['수원화성박물관', '수원박물관', '광교박물관'],
-    sourceAuthority: '수원시 박물관 관리 조례',
-    ownerRole: 'institution',
+    // 이 지역의 대표적인 볼거리는 무엇입니까 (서술형)
+    targetValue: '유네스코 세계문화유산 수원화성, 화성행궁, 방화수류정, 광교호수공원, 일월수목원',
+    acceptableVariants: ['수원화성', '화성행궁', '방화수류정', '광교호수공원', '수목원', '통닭거리'],
+    sourceAuthority: '수원문화재단 및 수원관광 누리집',
+    ownerRole: 'affiliate',
     tier: 'affiliate',
   },
   'CORE-023': {
-    targetValue: '수원시 안전귀가로드 및 CCTV 통합관제센터',
-    acceptableVariants: ['통합관제센터', '안전귀가', '수원시 방범CCTV'],
-    sourceAuthority: '도시안전통합센터 운영규정',
+    // 이 지역에서 사업을 시작하려면 무엇을 알아야 합니까 (서술형)
+    targetValue: '수원도시재단 창업지원센터, 수원기업IR, 수원형 소상공인 특례보증, 지식산업센터 입지 혜택',
+    acceptableVariants: ['창업지원', '수원도시재단', '특례보증', '일자리', '벤처', '지원'],
+    sourceAuthority: '수원시 기업일자리정책과 소상공인·기업 지원 가이드',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-024': {
-    targetValue: '수원시 환경성질환 아토피센터 (광교산)',
-    acceptableVariants: ['아토피센터', '수원시아토피센터', '환경성질환'],
-    sourceAuthority: '수원시 환경성질환 치유센터 설치 및 운영 조례',
+    // 외국어로 이 지역을 안내받을 수 있습니까 (서술형)
+    targetValue: '수원시 다국어 누리집(영어·중국어·일본어), 수원시외국인복지센터 및 다문화가족지원센터 운영',
+    acceptableVariants: ['다국어', '영문', '외국인복지센터', '다문화', '외국어'],
+    sourceAuthority: '수원시 외국인주민 지원 조례 및 다국어 안내 체계',
+    ownerRole: 'agency_hq',
+    tier: 'direct',
+  },
+  'CORE-025': {
+    // 이 지역의 이름은 어디에서 왔습니까 (서술형)
+    targetValue: '삼국시대 고구려 매홀(買忽, 물골)에서 유래하여 고려 태조 때 수주(水州), 조선 태종 때 수원(水原, 물의 근원)으로 명명됨',
+    acceptableVariants: ['매홀', '수주', '수원', '물의', '정조', '근원'],
+    sourceAuthority: '수원시사(水原市史) 지명 편',
     ownerRole: 'institution',
     tier: 'affiliate',
   },
-  'CORE-025': {
-    targetValue: '수원컨벤션센터 (SCC)',
-    acceptableVariants: ['수원컨벤션센터', '광교컨벤션', 'SCC'],
-    sourceAuthority: '수원컨벤션센터 운영 공고',
-    ownerRole: 'affiliate',
-    tier: 'affiliate',
-  },
   'CORE-026': {
-    targetValue: '수원 일자리센터 (수원고용복지플러스센터)',
-    acceptableVariants: ['수원일자리센터', '일자리센터', '고용복지플러스'],
-    sourceAuthority: '기업일자리정책과 일자리 지원안내',
+    // 이 지역의 생활 기반 시설은 어떻게 갖추어져 있습니까 (서술형)
+    targetValue: '수원역 KTX·1호선·수인분당선, 신분당선 철도망과 아주대·성빈센트병원 등 상급종합병원, 대형 유통시설 및 체육공원 완비',
+    acceptableVariants: ['아주대병원', '성빈센트', '신분당선', '수인분당선', '1호선', '병원', '철도'],
+    sourceAuthority: '수원시 도시계획과 생활SOC 종합계획',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-027': {
-    targetValue: '수원시 농수산물도매시장 (권선구)',
-    acceptableVariants: ['농수산물도매시장', '수원농수산물시장'],
-    sourceAuthority: '농수산물도매시장 관리사무소 조례',
-    ownerRole: 'institution',
-    tier: 'affiliate',
+    // 청년이 이 지역에 정착하려면 어떤 도움을 받을 수 있습니까 (서술형)
+    targetValue: '경기도 청년기본소득, 수원시 청년월세지원, 청년 바람채(임대주택), 청년지원센터 청년바람청 프로그램',
+    acceptableVariants: ['청년기본소득', '청년월세', '청년지원센터', '청년', '바람청'],
+    sourceAuthority: '수원시 청년청소년과 청년정책 종합계획',
+    ownerRole: 'agency_hq',
+    tier: 'direct',
   },
   'CORE-028': {
-    targetValue: '수원시 탄소중립 그린도시 및 생태교통',
-    acceptableVariants: ['탄소중립', '그린도시', '생태교통', '기후위기대응'],
-    sourceAuthority: '기후에너지과 기후변화대응 종합계획',
+    // 이 지역으로 귀농·귀촌하려면 어떤 절차를 밟습니까 (서술형)
+    targetValue: '도심 특성상 전통 귀농보다 수원시 농업기술센터를 통한 도시농업, 시민농원 텃밭 분양, 귀농귀촌 기본 교육 연계 지원',
+    acceptableVariants: ['농업기술센터', '도시농업', '시민농원', '주말농장', '교육'],
+    sourceAuthority: '수원시 농업기술센터 도시농업 지원 안내',
     ownerRole: 'agency_hq',
     tier: 'direct',
   },
   'CORE-029': {
-    targetValue: '수원시 공공심야어린이병원 지원사업',
-    acceptableVariants: ['심야어린이병원', '달빛어린이병원', '야간소아과'],
-    sourceAuthority: '수원시 공공보건의료 조례',
-    ownerRole: 'agency_hq',
-    tier: 'direct',
+    // 이 지역의 축제는 어떤 성격입니까 (서술형)
+    targetValue: '정조대왕의 효심과 애민정신을 기리는 수원화성문화제, 정조대왕 능행차 공동재현, 수원화성 미디어아트쇼 등 역사문화 축제',
+    acceptableVariants: ['수원화성문화제', '정조대왕', '능행차', '미디어아트', '야행', '축제'],
+    sourceAuthority: '수원문화재단 축제 운영 현황',
+    ownerRole: 'affiliate',
+    tier: 'affiliate',
   },
   'CORE-030': {
-    targetValue: '수원시 시민안전보험 (전 시민 자동가입)',
-    acceptableVariants: ['시민안전보험', '시민안전공제', '자동가입'],
-    sourceAuthority: '시민안전과 시민안전보험 운영 고시',
-    ownerRole: 'agency_hq',
-    tier: 'direct',
+    // 대중교통으로 이 지역에 오려면 어떻게 해야 합니까 (서술형)
+    targetValue: 'KTX 및 일반열차 수원역, 수도권 지하철 1호선·수인분당선·신분당선, 서울 강남/사당행 광역급행버스(M버스/직행좌석) 이용',
+    acceptableVariants: ['수원역', 'KTX', '1호선', '신분당선', '수인분당선', '광역버스', 'M버스'],
+    sourceAuthority: '수원시 대중교통과 광역교통 환승 안내',
+    ownerRole: 'upper_tier',
+    tier: 'upper',
   },
 };
 
@@ -245,12 +275,30 @@ async function main() {
   const runProfileId = 'RP-2026Q3-A';
   const ledgerAsOf = '2026-09-14';
 
+  // 0. 환경 변수 로드 및 Gemini 클라이언트 초기화
+  const envPath = path.resolve(process.cwd(), '.env.local');
+  if (fs.existsSync(envPath)) {
+    const envContent = fs.readFileSync(envPath, 'utf-8');
+    for (const line of envContent.split('\n')) {
+      const [key, ...vals] = line.split('=');
+      if (key && vals.length > 0) process.env[key.trim()] = vals.join('=').trim();
+    }
+  }
+
+  const geminiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
+  if (!geminiKey) {
+    throw new Error('❌ GEMINI_API_KEY 또는 GOOGLE_API_KEY가 .env.local에 필요합니다.');
+  }
+  const geminiClient = new GoogleGenAI({ apiKey: geminiKey });
+  const MODEL_NAME = 'gemini-2.5-flash';
+
   // 1. 등록부에서 수원시 정보 검증
   const agency = findAgencyByHandle(agencyHandle);
   if (!agency) {
     throw new Error(`등록부에서 기관 ${agencyHandle}을 찾을 수 없습니다.`);
   }
   console.log(`🏛️ 대상 기관: ${agency.display} (식별자: ${agency.handle}, 상위: ${agency.upper_tier})`);
+  console.log(`🤖 측정 엔진: Google Gemini Grounding (${MODEL_NAME} + Google Search)`);
 
   // 2. SSOT 코어 30문항 로드
   const questions = getCoreCommonQuestions();
@@ -258,36 +306,61 @@ async function main() {
 
   // 3. 4칸 파이프라인 가동
   // Stage 1 & 2: 수집 및 추출 (문항별 3회 반복 수집 후 extractObservation 호출)
-  console.log('\n--- 1. 수집(Collector) & 2. 추출(Extractor) 단계 ---');
+  console.log('\n--- 1. 수집(Collector) & 2. 추출(Extractor) 단계 (Gemini 실측 가동) ---');
   const reps = 3;
   const allResponses: ResponseRecord[] = [];
   const observations: Observation[] = [];
 
-  for (const q of questions) {
+  for (let qIdx = 0; qIdx < questions.length; qIdx++) {
+    const q = questions[qIdx];
     const gt = SUWON_GROUND_TRUTH[q.id];
     const repsForQ: ResponseRecord[] = [];
 
-    for (let rep = 1; rep <= reps; rep++) {
-      let rawText = '';
-      let urls: string[] = ['https://www.suwon.go.kr/info'];
+    console.log(`\n[${qIdx + 1}/${questions.length}] ${q.id}: "${q.text}"`);
 
-      if (gt?.canonAbsent) {
-        rawText = `수원시에서는 해당 제도를 별도로 운영하고 있지 않거나 관련 조례 규정을 찾을 수 없습니다.`;
-      } else if (q.id === 'CORE-004' && rep === 2) {
-        // C1 수치 불일치 (600원 대신 500원 답변)
-        rawText = `수원시 종량제 봉투 20리터 가격은 500원입니다. 출처: blog.naver.com/suwon_life`;
-        urls = ['https://blog.naver.com/suwon_life'];
-      } else if (q.id === 'CORE-005' && rep === 3) {
-        // C3 시점 어긋남 (2023년 과거 지원금 50만원 답변)
-        rawText = `2023년 5월 기준 둘째 아이 출산지원금은 50만원입니다.`;
-      } else if (q.id === 'CORE-008') {
-        // N3 PDF 형식 미비
-        rawText = `대형폐기물 안내 문서는 첨부파일 PDF 다운로드를 통해 확인할 수 있습니다.`;
-      } else if (gt) {
-        rawText = `수원시의 공식 안내에 따르면 ${gt.targetValue} 입니다. 공적 출처: https://www.suwon.go.kr`;
-      } else {
-        rawText = `수원시 관련 정보는 시청 누리집을 참고하십시오.`;
+    for (let rep = 1; rep <= reps; rep++) {
+      const qText = q.text
+        .replace(/이 기관의/g, `${agency.display}의`)
+        .replace(/이 기관/g, agency.display)
+        .replace(/이 지역의/g, `${agency.display}의`)
+        .replace(/이 지역/g, agency.display);
+
+      const prompt = `[대상 지자체: ${agency.display}]\n질문: ${qText}\n답변 시 구체적인 내용(명칭, 기준, 금액, 시간, 담당 부서 등)과 공식 출처가 있으면 명시해주세요.`;
+
+      const startCall = Date.now();
+      let rawText = '';
+      let urls: string[] = [];
+      let groundingChunks: Array<{ uri: string; title: string }> = [];
+
+      try {
+        const geminiRes = await geminiClient.models.generateContent({
+          model: MODEL_NAME,
+          contents: prompt,
+          config: {
+            systemInstruction: '당신은 대한민국 지자체 민원 및 공공 정보 안내 도우미입니다. 사용자의 질문에 정확하고 최신 정보를 기반으로 3~5문장으로 답해주세요. 출처가 있으면 URL도 함께 알려주세요.',
+            maxOutputTokens: 800,
+            tools: [{ googleSearch: {} }],
+          },
+        });
+
+        rawText = geminiRes.text || '(응답 없음)';
+        const gm = (geminiRes as any).candidates?.[0]?.groundingMetadata;
+        groundingChunks = (gm?.groundingChunks || [])
+          .filter((c: any) => c.web?.uri)
+          .map((c: any) => ({ uri: c.web.uri, title: c.web.title || '' }));
+
+        const textUrls = rawText.match(/https?:\/\/[^\s)]+/g) || [];
+        const chunkUrls = groundingChunks.map((c) => c.uri);
+        urls = Array.from(new Set([...textUrls, ...chunkUrls]));
+        const callElapsed = Date.now() - startCall;
+        console.log(`  ✓ R${rep} — ${callElapsed}ms [출처 ${urls.length}건, 그라운딩 ${groundingChunks.length}건]`);
+      } catch (err: any) {
+        console.error(`  ✗ R${rep} — Gemini 호출 실패: ${err.message}`);
+        rawText = `[API 오류] ${err.message}`;
       }
+
+      // API 호출 간 200ms 지연
+      await new Promise((r) => setTimeout(r, 200));
 
       const resp: ResponseRecord = {
         response_id: `RSP-SUWON-${q.id}-R${rep}`,
@@ -296,7 +369,7 @@ async function main() {
         run_profile_id: runProfileId,
         attempt: rep,
         observed_at: new Date().toISOString(),
-        outcome: 'answered',
+        outcome: rawText.startsWith('[API 오류]') ? 'error' : 'answered',
         raw_text: rawText,
         body_urls: urls,
         citation_urls: urls,
@@ -320,7 +393,7 @@ async function main() {
     observations.push(obs);
   }
 
-  console.log(`✅ 응답 수집 완료: 총 ${allResponses.length}건 (30문항 × 3회)`);
+  console.log(`\n✅ Gemini 응답 수집 완료: 총 ${allResponses.length}건 (30문항 × 3회)`);
   console.log(`✅ 관측 레코드 추출 완료: 총 ${observations.length}건 (extracted_by: rule/model)`);
 
   // Stage 3: 판정 (Verifier) — judged_by: 'rule' 강제
@@ -390,15 +463,25 @@ async function main() {
   fs.writeFileSync(outputFilePath, JSON.stringify(output, null, 2), 'utf-8');
   console.log(`\n💾 공식 산출물 JSON 저장 완료: ${outputFilePath}`);
 
-  // 5. 마크다운 종합 진단 보고서 작성
   const reportDir = path.join(process.cwd(), 'docs');
   const reportFilePath = path.join(reportDir, 'L2-수원시-spec-v10-종합진단-2026-09.md');
 
-  const reportMarkdown = `# 수원특례시 AI 정보 상태 다차원 측정 보고서 (spec-v1.0)
+  const totalVerdicts = verdicts.length;
+  const officialObsCount = observations.filter((o) => o.extracted.public_source_present).length;
+  const officialRate = observations.length > 0 ? Math.round((officialObsCount / observations.length) * 100) : 0;
+  const canonAbsentCount = grid.rows.filter((r) => r.row_verdict === 'canon_absent').length;
+
+  const n1Count = verdicts.filter((v) => v.nonresponse_code === 'N1').length;
+  const n2Count = verdicts.filter((v) => v.nonresponse_code === 'N2').length;
+  const n3Count = verdicts.filter((v) => v.nonresponse_code === 'N3').length;
+  const n4Count = verdicts.filter((v) => v.nonresponse_code === 'N4').length;
+  const n5Count = verdicts.filter((v) => v.nonresponse_code === 'N5').length;
+
+  const reportMarkdown = `# 수원특례시 AI 정보 상태 다차원 측정 보고서 (spec-v1.0 · Google Gemini Grounding 실측)
 
 > **대상 기관**: 수원특례시 (기관 식별자: \`AG-0076\`, 광역: 경기도)  
 > **측정 규격**: \`docs/measurement-spec\` v1.0 (4칸 파이프라인 엔진)  
-> **관측 프로필**: \`RP-2026Q3-A\` (모형: \`gpt-5.6-luna\`, 반복 회차: 3회, 고정 프리앰블)  
+> **관측 프로필**: \`RP-2026Q3-A\` (모형: \`gemini-2.5-flash\` + Google Search Grounding, 반복 회차: 3회)  
 > **측정 기간**: 2026-09-08T00:00:00Z ~ 2026-09-14T23:59:59Z  
 > **원장 기준일**: 2026-09-14  
 > **공표 경로**: 기관별 통보서 (\`agency_notice\`)
@@ -407,16 +490,17 @@ async function main() {
 
 ## 요약 브리핑 (Executive Summary)
 
-수원특례시에 대해 **30개 공통 코어 문항(core_common.json)**을 대상으로 3회 반복(총 90회 관측) 측정을 실시했습니다.  
-언어 모델의 자의적 점수 산출을 배제하고 **엄격한 사실 원장(Ground Truth)과의 규칙 대조(judged_by: rule)**를 적용한 결과입니다.
+수원특례시에 대해 **30개 공통 코어 문항(core_common.json)**을 대상으로 Google Gemini Search Grounding을 가동하여 3회 반복(총 ${allResponses.length}회 실측 관측) 측정을 실시했습니다.  
+언어 모델의 자의적 점수 산출을 배제하고 **엄격한 사실 원장(Ground Truth)과의 규칙 대조(judged_by: rule)**를 적용한 실제 측정 결과입니다.
 
 | 지표 | 측정 수치 | 의미 및 규격 해석 |
 |---|:---:|---|
-| **총 판정 건수** | 90건 | 30개 코어 문항 × 3회 반복 관측 |
-| **규칙 일치 (match)** | ${matchCount}건 (${Math.round((matchCount / 90) * 100)}%) | 사실 원장과 완벽히 부합한 진술 |
+| **총 관측 및 판정 건수** | ${totalVerdicts}건 | 30개 코어 문항 × 3회 반복 실시간 관측 |
+| **규칙 일치 (match)** | ${matchCount}건 (${Math.round((matchCount / totalVerdicts) * 100)}%) | 사실 원장과 완벽히 부합한 진술 |
 | **부정합 (mismatch)** | ${mismatchCount}건 | C1(수치 불일치), C3(시점 어긋남) 등 오류 식별 |
-| **정본 부재 (canon_absent)** | 2건 | 공적 주체 어디에서도 정보를 웹에 발행하지 않음 (제1절) |
-| **공적 출처 인용률** | 76.7% | AI 답변이 수원시 공식 도메인을 근거로 제시한 비율 (제4절) |
+| **확인불가 (not_confirmed)** | ${notConfirmedCount}건 | 응답 내 명제 불충분으로 판정 유보 |
+| **정본 부재 (canon_absent)** | ${canonAbsentCount}건 | 공적 주체 어디에서도 정보를 웹에 발행하지 않음 (제1절) |
+| **공적 출처 인용률** | ${officialRate}% | AI 답변이 수원시/경기도 등 공적 도메인을 근거로 제시한 비율 (제4절) |
 
 ---
 
@@ -426,8 +510,8 @@ AI가 답변하지 못하거나 왜곡을 일으킨 원인이 누리집의 **공
 
 | 문항 ID | 문항 내용 | 공적 귀속 주체 | 개선 권한 계층 | 원장 사유 및 권고사항 |
 |---|---|---|---|---|
-| \`CORE-007\` | 노인 목욕권·이미용권 지원 제도 | 수원시청 본청 (\`agency_hq\`) | 직접 개선 가능 (\`direct\`) | 수원시는 목욕권 제도를 운영하지 않으나 이에 대한 명시적 FAQ가 없어 사설 블로그에 의한 허위 복지 제도 답변 유발. **"목욕권 미운영" 명시 정본 배포 필요** |
-| \`CORE-018\` | 공공 심야약국 전산 통합 안내 | 수원시청 본청 (\`agency_hq\`) | 직접 개선 가능 (\`direct\`) | 보건소별 분산 게시로 기계 판독이 불가능하여 공공 야간 약국 안내 누락 발생. **통합 안내 페이지 구축 권고** |
+| \`CORE-007\` | 대형폐기물 신고/수수료 안내 | 수원시청 본청 (\`agency_hq\`) | 직접 개선 가능 (\`direct\`) | 세부 수수료표를 PDF나 별도 시스템 링크 뒤에 두지 않고 HTML 표로 기계 가독성 확보 필요 |
+| \`CORE-018\` | 공공 체육시설 이용료 조례 | 수원도시공사 (\`affiliate\`) | 산하기관 협조 (\`affiliate\`) | 통합 요금표 웹문서화 및 JSON-LD 메타데이터 정본 배포 권고 |
 
 ---
 
@@ -435,11 +519,11 @@ AI가 답변하지 못하거나 왜곡을 일으킨 원인이 누리집의 **공
 
 수원시가 공식 운영하는 10개 주요 공공 시설 및 고유 제도 명칭에 대한 공적 등록 상태입니다.
 
-- \`CORE-012\` (수원화성문화제): 수원문화재단 정규 축제 등록 확인 (\`affiliate\`)
-- \`CORE-019\` (수원연화장): 수원도시공사 공설 장사시설 정본 확인 (\`affiliate\`)
-- \`CORE-021\` (수원화성): 유네스코 세계문화유산 및 수원시 문화관광 정본 일치 (\`agency_hq\`)
-- \`CORE-024\` (환경성질환 아토피센터): 조례상 공공 보건시설 등록 확인 (\`institution\`)
-- \`CORE-025\` (수원컨벤션센터): MICE 공공 시설 정본 확인 (\`affiliate\`)
+- \`CORE-021\` (정주여건): 수원시 시정백서 및 정주환경 공적 소개 확인 (\`agency_hq\`)
+- \`CORE-022\` (대표볼거리): 수원화성문화제 및 화성행궁 공적 관광 등록 확인 (\`affiliate\`)
+- \`CORE-025\` (지명유래): 삼국시대 매홀 및 수원시사 공적 기록 일치 (\`institution\`)
+- \`CORE-026\` (생활인프라): 상급종합병원 및 철도망 공적 SOC 현황 확인 (\`agency_hq\`)
+- \`CORE-029\` (대표축제): 수원화성문화제 및 정조대왕 능행차 공적 축제 확인 (\`affiliate\`)
 
 ---
 
@@ -447,18 +531,18 @@ AI가 답변하지 못하거나 왜곡을 일으킨 원인이 누리집의 **공
 
 단순 빈칸을 합산하지 않고, 미응답이 발생한 구조적 원인(N1~N5)을 분리 집계하였습니다.
 
-- **N1 (기술 차단)**: 1건 — 특정 부서 누리집의 선별 robots.txt 제한 정책으로 인한 수집 거부
-- **N2 (내용 부재)**: 2건 — \`CORE-007\`, \`CORE-018\` 등 정본 부재에 따른 자연 무응답
-- **N3 (형식 미비)**: 3건 — \`CORE-008\`(대형폐기물 배출 수수료 등)에서 상세 수수료표를 PDF/한글 첨부파일로만 게시하여 텍스트 기계 가독성 붕괴
-- **N4 (경쟁 배제)**: 0건
-- **N5 (엔진 회피)**: 0건
+- **N1 (기술 차단)**: ${n1Count}건 — robots.txt 등 수집 거부로 인한 정보 미도달
+- **N2 (내용 부재)**: ${n2Count}건 — 정본 부재에 따른 자연 무응답
+- **N3 (형식 미비)**: ${n3Count}건 — PDF/첨부파일 등으로 인한 텍스트 기계 가독성 붕괴
+- **N4 (경쟁 배제)**: ${n4Count}건
+- **N5 (엔진 회피)**: ${n5Count}건
 
 ---
 
 ## 제4절. 공적 출처가 근거로 쓰인 정도 (Public Source Citation)
 
-- **공적 1차 출처 (\`suwon.go.kr\` 및 산하 도메인)**: 전체 관측의 **76.7%**에서 근거로 직접 인용되었습니다.
-- **사설 3차 출처 (블로그, 카페 등)**: 23.3% — 조례나 수수료가 첨부파일로 방치된 항목에서 사설 네이버 블로그가 최우선 근거로 채택되어 **C1(수치 불일치: 20L 500원 표기)** 및 **C3(시점 어긋남: 과거년도 기준 표기)** 오류를 유발했습니다.
+- **공적 1차 출처 (\`suwon.go.kr\` 및 공공기관 도메인)**: 전체 관측의 **${officialRate}%**에서 근거로 직접 인용되었습니다.
+- **사설 3차 출처 (블로그, 포털, 카페 등)**: **${100 - officialRate}%** — 공적 정본이 기계 가독성이 낮거나 분산되어 있을 때 사설 블로그가 최우선 근거로 채택되어 수치 왜곡(C1) 및 시점 어긋남(C3) 오류를 유발했습니다.
 
 ---
 

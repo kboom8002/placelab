@@ -1,5 +1,5 @@
 {
-  "output_id": "OUT-20260914-AGE-u4eeje",
+  "output_id": "OUT-20260914-AGE-accvc7",
   "channel": "agency_notice",
   "proxy_notice": "조회 응답은 사용자가 실제로 보는 답과 같지 않습니다. 접속 경로, 개인화, 지역, 시점이 다릅니다 (spec/03 §1).",
   "run_profile_id": "RP-2026Q3-A",
@@ -272,183 +272,183 @@
       "items": [
         {
           "question_id": "CORE-001",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 12,
+          "citation_url_count": 12
         },
         {
           "question_id": "CORE-002",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 13,
+          "citation_url_count": 13
         },
         {
           "question_id": "CORE-003",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 4,
+          "citation_url_count": 4
         },
         {
           "question_id": "CORE-004",
           "public_source_present": true,
-          "body_url_count": 2,
-          "citation_url_count": 2
+          "body_url_count": 27,
+          "citation_url_count": 27
         },
         {
           "question_id": "CORE-005",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 14,
+          "citation_url_count": 14
         },
         {
           "question_id": "CORE-006",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 10,
+          "citation_url_count": 10
         },
         {
           "question_id": "CORE-007",
           "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "body_url_count": 18,
+          "citation_url_count": 18
         },
         {
           "question_id": "CORE-008",
           "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "body_url_count": 28,
+          "citation_url_count": 28
         },
         {
           "question_id": "CORE-009",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 11,
+          "citation_url_count": 11
         },
         {
           "question_id": "CORE-010",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 13,
+          "citation_url_count": 13
         },
         {
           "question_id": "CORE-011",
           "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "body_url_count": 16,
+          "citation_url_count": 16
         },
         {
           "question_id": "CORE-012",
           "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "body_url_count": 23,
+          "citation_url_count": 23
         },
         {
           "question_id": "CORE-013",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 16,
+          "citation_url_count": 16
         },
         {
           "question_id": "CORE-014",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 8,
+          "citation_url_count": 8
         },
         {
           "question_id": "CORE-015",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 4,
+          "citation_url_count": 4
         },
         {
           "question_id": "CORE-016",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 13,
+          "citation_url_count": 13
         },
         {
           "question_id": "CORE-017",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 11,
+          "citation_url_count": 11
         },
         {
           "question_id": "CORE-018",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 4,
+          "citation_url_count": 4
         },
         {
           "question_id": "CORE-019",
           "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "body_url_count": 14,
+          "citation_url_count": 14
         },
         {
           "question_id": "CORE-020",
           "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "body_url_count": 18,
+          "citation_url_count": 18
         },
         {
           "question_id": "CORE-021",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 16,
+          "citation_url_count": 16
         },
         {
           "question_id": "CORE-022",
           "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "body_url_count": 24,
+          "citation_url_count": 24
         },
         {
           "question_id": "CORE-023",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 0,
+          "citation_url_count": 0
         },
         {
           "question_id": "CORE-024",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 17,
+          "citation_url_count": 17
         },
         {
           "question_id": "CORE-025",
           "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "body_url_count": 17,
+          "citation_url_count": 17
         },
         {
           "question_id": "CORE-026",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 39,
+          "citation_url_count": 39
         },
         {
           "question_id": "CORE-027",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 3,
+          "citation_url_count": 3
         },
         {
           "question_id": "CORE-028",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 2,
+          "citation_url_count": 2
         },
         {
           "question_id": "CORE-029",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 26,
+          "citation_url_count": 26
         },
         {
           "question_id": "CORE-030",
-          "public_source_present": true,
-          "body_url_count": 1,
-          "citation_url_count": 1
+          "public_source_present": false,
+          "body_url_count": 26,
+          "citation_url_count": 26
         }
       ]
     },
