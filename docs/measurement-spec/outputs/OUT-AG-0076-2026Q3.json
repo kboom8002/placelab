@@ -1,0 +1,463 @@
+{
+  "output_id": "OUT-20260914-AGE-u4eeje",
+  "channel": "agency_notice",
+  "proxy_notice": "조회 응답은 사용자가 실제로 보는 답과 같지 않습니다. 접속 경로, 개인화, 지역, 시점이 다릅니다 (spec/03 §1).",
+  "run_profile_id": "RP-2026Q3-A",
+  "observed_at": {
+    "start": "2026-09-08T00:00:00Z",
+    "end": "2026-09-14T23:59:59Z"
+  },
+  "ledger_as_of": "2026-09-14",
+  "band_of": "PG-POP-특례시-A",
+  "sections": [
+    {
+      "order": 1,
+      "kind": "canon_absence_and_ownership",
+      "items": [
+        {
+          "question_id": "CORE-001",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-002",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-003",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-004",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-005",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-006",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-007",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-008",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-009",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-010",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-011",
+          "ownership": {
+            "owner_role": "affiliate",
+            "tier": "affiliate",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (affiliate)"
+          }
+        },
+        {
+          "question_id": "CORE-012",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-013",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "CORE-014",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-015",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-016",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-017",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-018",
+          "ownership": {
+            "owner_role": "affiliate",
+            "tier": "affiliate",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (affiliate)"
+          }
+        },
+        {
+          "question_id": "CORE-019",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-020",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-021",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-022",
+          "ownership": {
+            "owner_role": "affiliate",
+            "tier": "affiliate",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (affiliate)"
+          }
+        },
+        {
+          "question_id": "CORE-023",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-024",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-025",
+          "ownership": {
+            "owner_role": "institution",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (institution)"
+          }
+        },
+        {
+          "question_id": "CORE-026",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-027",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-028",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "CORE-029",
+          "ownership": {
+            "owner_role": "affiliate",
+            "tier": "affiliate",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (affiliate)"
+          }
+        },
+        {
+          "question_id": "CORE-030",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "entity_existence",
+      "items": []
+    },
+    {
+      "order": 3,
+      "kind": "nonresponse_distribution",
+      "items": []
+    },
+    {
+      "order": 4,
+      "kind": "public_source_citation",
+      "items": [
+        {
+          "question_id": "CORE-001",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-002",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-003",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-004",
+          "public_source_present": true,
+          "body_url_count": 2,
+          "citation_url_count": 2
+        },
+        {
+          "question_id": "CORE-005",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-006",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-007",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-008",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-009",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-010",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-011",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-012",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-013",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-014",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-015",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-016",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-017",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-018",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-019",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-020",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-021",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-022",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-023",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-024",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-025",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-026",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-027",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-028",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-029",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "CORE-030",
+          "public_source_present": true,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "residual_spread",
+      "items": [
+        "0.088"
+      ]
+    }
+  ]
+}

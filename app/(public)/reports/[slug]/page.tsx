@@ -67,6 +67,16 @@ export default async function ReportDetailPage({ params }: ReportDetailPageProps
   const rawMarkdown = fs.readFileSync(fullPath, 'utf-8');
   const htmlContent = marked.parse(rawMarkdown) as string;
 
+  let specOutputData: Output | null = null;
+  if (report.specOutputPath) {
+    const specFullPath = path.resolve(process.cwd(), report.specOutputPath);
+    if (fs.existsSync(specFullPath)) {
+      try {
+        specOutputData = JSON.parse(fs.readFileSync(specFullPath, 'utf-8'));
+      } catch {}
+    }
+  }
+
   const relatedReports = DIAGNOSTIC_REPORTS.filter(r => r.slug !== report.slug).slice(0, 3);
 
   return (
@@ -212,7 +222,7 @@ export default async function ReportDetailPage({ params }: ReportDetailPageProps
               이 보고서는 measurement-spec 규격에 의해 생성된 5대 절 공식 산출물을 포함합니다. (순위·총점 배제, 무응답 N코드 분리, 정본 부재 귀속)
             </div>
             <SpecOutputViewer
-              output={{
+              output={specOutputData || {
                 output_id: `OUT-${report.slug}`,
                 channel: 'national_report',
                 proxy_notice: '본 보고서는 공공 웹 텍스트 관측에 한정되며 행정 내부망 유효성을 보증하지 않습니다 (INV-7).',
