@@ -1,0 +1,548 @@
+{
+  "unitId": "nonsan",
+  "unitName": "논산시",
+  "upperTier": "충청남도",
+  "asOf": "2026-09-14",
+  "entries": {
+    "IND-001": {
+      "targetValue": "논산 국방국가산업단지(연무읍 동산리·죽본리 일원, 약 87만㎡) 및 논산일반산업단지, 강경·가야곡2·노성농공단지",
+      "acceptableVariants": [
+        "국방국가산업단지",
+        "연무읍",
+        "동산리",
+        "죽본리",
+        "87만",
+        "일반산업단지",
+        "농공단지"
+      ],
+      "sourceAuthority": "국토교통부 산업단지계획 승인 고시 및 논산시 산업단지 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "IND-002": {
+      "targetValue": "논산시청 투자유치과 (041-746-5602) 및 한국산업단지공단",
+      "acceptableVariants": [
+        "투자유치과",
+        "논산시청",
+        "041-746",
+        "한국산업단지공단"
+      ],
+      "sourceAuthority": "논산시 행정기구 및 사무분장 규칙",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "IND-003": {
+      "targetValue": "논산시청 미래전략실 및 투자유치과 기업지원팀",
+      "acceptableVariants": [
+        "투자유치과",
+        "미래전략실",
+        "기업지원",
+        "논산시청"
+      ],
+      "sourceAuthority": "논산시 행정기구 조례",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "IND-004": {
+      "targetValue": "비무기 전력지원체계(군수물자·장비) 국방산업, K-딸기 및 스마트팜 첨단농업, 강경 발효식품산업",
+      "acceptableVariants": [
+        "전력지원체계",
+        "국방",
+        "딸기",
+        "스마트팜",
+        "농업",
+        "발효",
+        "젓갈"
+      ],
+      "sourceAuthority": "논산시 시정백서 및 통계연보",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "IND-005": {
+      "targetValue": "기회발전특구 지정에 따른 법인세 5년간 100% 감면(이후 2년 50%), 취득세·재산세 감면, 지방투자촉진보조금 우대, 원스톱 인허가 지원",
+      "acceptableVariants": [
+        "기회발전특구",
+        "법인세",
+        "감면",
+        "재산세",
+        "보조금",
+        "인센티브",
+        "원스톱"
+      ],
+      "sourceAuthority": "산업통상자원부 기회발전특구 지정 고시 및 논산시 기업유치 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "DEP-001": {
+      "targetValue": "행정안전부 지정 인구감소지역 (충남 9개 시·군 중 하나, 전국 89개 지자체 포함)",
+      "acceptableVariants": [
+        "인구감소지역",
+        "행정안전부",
+        "지정",
+        "89개"
+      ],
+      "sourceAuthority": "인구감소지역 지원 특별법 및 행정안전부 고시",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "DEP-002": {
+      "targetValue": "청년결혼축하금 최대 700만원, 귀농 농업창업 및 주택구입 융자(임시거주시설 귀농인의 집), 청년 전세보증금반환보증료 지원",
+      "acceptableVariants": [
+        "700만원",
+        "결혼축하금",
+        "귀농",
+        "청년",
+        "보증금",
+        "정착"
+      ],
+      "sourceAuthority": "논산시 인구증가시책 지원 조례 및 농촌활력과 공고",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "DEP-003": {
+      "targetValue": "농어촌 빈집정보 플랫폼(그린마루) 및 논산시청 도시재생과 빈집정비사업 창구",
+      "acceptableVariants": [
+        "그린마루",
+        "도시재생",
+        "논산시청",
+        "빈집",
+        "농어촌정비"
+      ],
+      "sourceAuthority": "농림축산식품부 빈집정보망 및 논산시 도시재생과",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "DEP-004": {
+      "targetValue": "논산형 24시간 돌봄 어린이집, 공공산후조리원 이용 지원, 첫만남이용권 및 임산부 맞춤돌봄",
+      "acceptableVariants": [
+        "24시간",
+        "돌봄",
+        "어린이집",
+        "산후조리",
+        "첫만남이용권",
+        "아이돌봄"
+      ],
+      "sourceAuthority": "논산시 주민생활지원과 및 모자보건 종합안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "DEP-005": {
+      "targetValue": "행복택시(대중교통 소외지역 100원~1,000원 택시), 백제종합병원 24시간 지역응급의료센터, 논산열린도서관 및 문화예술회관",
+      "acceptableVariants": [
+        "행복택시",
+        "백제종합병원",
+        "응급실",
+        "도서관",
+        "교통복지"
+      ],
+      "sourceAuthority": "논산시 교통행정과 및 보건소 공공의료 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-01-existence": {
+      "targetValue": "대한민국 최초 전력지원체계(비무기 군수물자) 특화 국방국가산업단지 및 2026 방산혁신클러스터(AI 국방로봇) 공모 선정 공식 추진",
+      "acceptableVariants": [
+        "국방국가산업단지",
+        "방산혁신클러스터",
+        "전력지원체계",
+        "비무기",
+        "추진",
+        "존재"
+      ],
+      "sourceAuthority": "국토교통부 산업단지계획 승인 고시 및 방위사업청 공표",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-01-location": {
+      "targetValue": "충청남도 논산시 연무읍 동산리·죽본리 일원 약 87만㎡(26만평)",
+      "acceptableVariants": [
+        "연무읍",
+        "동산리",
+        "죽본리",
+        "87만",
+        "26만평"
+      ],
+      "sourceAuthority": "국방산단 지정 승인 고시문",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-01-stage": {
+      "targetValue": "2024년 1월 국가산단 최종 승인 고시, 2024년 11월 기회발전특구 지정, 2026년 착공 및 2029년 준공 추진 단계",
+      "acceptableVariants": [
+        "승인",
+        "기회발전특구",
+        "2026",
+        "착공",
+        "준공"
+      ],
+      "sourceAuthority": "논산시 국방산업과 사업 진도 공표",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-01-fiscal_scale": {
+      "targetValue": "국방산단 조성 총사업비 약 2,000억원(LH 공공개발) 및 방산혁신클러스터 총 499억원(국비 245억, 지방비 254억)",
+      "acceptableVariants": [
+        "2,000억",
+        "2000억",
+        "499억",
+        "국비",
+        "사업비"
+      ],
+      "sourceAuthority": "방위사업청 방산혁신클러스터 사업계획 및 투자심사",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-NS-01-owner_dept": {
+      "targetValue": "논산시청 국방산업과 및 충청남도 산업육성과",
+      "acceptableVariants": [
+        "국방산업과",
+        "산업육성과",
+        "논산시청",
+        "충청남도"
+      ],
+      "sourceAuthority": "논산시 사무분장 규칙",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-01-citizen_benefit": {
+      "targetValue": "AI 국방로봇 및 군수 중소벤처기업 입주로 1,500명 이상 청년 일자리 창출, 건양대 군사·국방 특성화 취업 연계, 연간 2,000억원 이상 경제효과",
+      "acceptableVariants": [
+        "일자리",
+        "청년",
+        "건양대",
+        "경제효과",
+        "고용",
+        "소득"
+      ],
+      "sourceAuthority": "국방산단 지역발전 타당성 조사 보고서",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-02-existence": {
+      "targetValue": "2027 논산세계딸기산업엑스포 (기획재정부 승인 국제행사, 2027년 2월 26일~3월 21일 24일간 논산시민가족공원 개최)",
+      "acceptableVariants": [
+        "2027",
+        "세계딸기산업엑스포",
+        "딸기엑스포",
+        "국제행사",
+        "논산시민가족공원"
+      ],
+      "sourceAuthority": "기획재정부 국제행사 승인 고시 및 논산시 조례",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-02-location": {
+      "targetValue": "논산시민가족공원 및 시민운동장 일원, 부적면 마구평리 스마트팜 복합단지",
+      "acceptableVariants": [
+        "논산시민가족공원",
+        "시민운동장",
+        "부적면",
+        "마구평리",
+        "스마트팜"
+      ],
+      "sourceAuthority": "엑스포 기본계획서",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-02-stage": {
+      "targetValue": "기재부 국제행사 승인 완료(2024년 7월), 엑스포 조직위원회 및 범시민지원협의회 출범, 스마트팜 복합단지 가동 단계",
+      "acceptableVariants": [
+        "승인",
+        "조직위원회",
+        "출범",
+        "준비",
+        "스마트팜"
+      ],
+      "sourceAuthority": "논산시 딸기엑스포추진단 정례 브리핑",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-02-fiscal_scale": {
+      "targetValue": "엑스포 총사업비 약 150억원 (국비 45억, 도비 30억, 시비 75억) 및 스마트팜 복합단지 수백억원대 연계 투자",
+      "acceptableVariants": [
+        "150억",
+        "국비",
+        "도비",
+        "시비",
+        "사업비",
+        "투자"
+      ],
+      "sourceAuthority": "지방재정 중앙투자심사 결과 보고",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-02-owner_dept": {
+      "targetValue": "논산시청 딸기엑스포추진단 및 논산시 농업기술센터",
+      "acceptableVariants": [
+        "딸기엑스포추진단",
+        "엑스포추진단",
+        "농업기술센터",
+        "논산시청"
+      ],
+      "sourceAuthority": "논산시 행정기구 설치 조례",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-02-citizen_benefit": {
+      "targetValue": "K-베리 해외 수출길 확대(동남아 등), 딸기 농가 소득 극대화, 스마트팜 청년농 육성, 150만명 국내외 관광객 유치",
+      "acceptableVariants": [
+        "수출",
+        "소득",
+        "청년농",
+        "관광객",
+        "일자리",
+        "브랜드"
+      ],
+      "sourceAuthority": "엑스포 경제유발효과 용역 보고서",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-03-existence": {
+      "targetValue": "탑정호 복합문화 휴양단지 조성 사업 (3,400억원 규모 민자유치 리조트·워터파크 개발 및 출렁다리 무료화)",
+      "acceptableVariants": [
+        "탑정호",
+        "복합문화",
+        "휴양단지",
+        "리조트",
+        "3,400억",
+        "3400억",
+        "출렁다리"
+      ],
+      "sourceAuthority": "논산시 탑정호 종합개발계획",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-03-location": {
+      "targetValue": "충남 논산시 부적면 및 양촌면 일원 탑정호 (길이 약 600m 출렁다리 및 수변생태공원)",
+      "acceptableVariants": [
+        "부적면",
+        "양촌면",
+        "탑정호",
+        "출렁다리",
+        "600m"
+      ],
+      "sourceAuthority": "탑정호 관광지 지정 및 조성계획 고시",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-03-stage": {
+      "targetValue": "민간투자협약(MOU) 체결 완료, 관광지 지정 변경 및 인허가 환경평가 진행 중, 2027년 착공 및 2029년 준공 목표",
+      "acceptableVariants": [
+        "협약",
+        "MOU",
+        "인허가",
+        "2027",
+        "착공",
+        "준공"
+      ],
+      "sourceAuthority": "논산시 관광과 정례 보고",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-03-fiscal_scale": {
+      "targetValue": "민간투자 유치 총 3,400억원 규모 (호텔·콘도 250실, 워터파크, 인피니티풀 등)",
+      "acceptableVariants": [
+        "3,400억",
+        "3400억",
+        "민간투자",
+        "민자",
+        "호텔"
+      ],
+      "sourceAuthority": "논산시-민간투자사 투자협약 공표",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-03-owner_dept": {
+      "targetValue": "논산시청 관광과(관광개발팀)",
+      "acceptableVariants": [
+        "관광과",
+        "관광개발",
+        "논산시청"
+      ],
+      "sourceAuthority": "사무분장 규칙",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-NS-03-citizen_benefit": {
+      "targetValue": "스쳐가는 관광에서 1박2일 체류형 관광으로 대전환, 면회객 및 관광객 소비 유입으로 지역 상권 활성화, 2,000명 고용 창출",
+      "acceptableVariants": [
+        "체류형",
+        "상권",
+        "소비",
+        "고용",
+        "일자리",
+        "면회객"
+      ],
+      "sourceAuthority": "탑정호 투자유치 파급효과 분석",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-01": {
+      "targetValue": "경남 창원(전통 기계/화력), 대전(R&D/드론/로봇), 충남 논산(비무기 전력지원체계/방산혁신클러스터/기회발전특구)",
+      "acceptableVariants": [
+        "논산",
+        "창원",
+        "대전",
+        "구미",
+        "국방산단"
+      ],
+      "sourceAuthority": "방위산업 클러스터 정책 비교",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-02": {
+      "targetValue": "논산 탑정호 출렁다리·선샤인랜드, 공주 공산성, 부여 백제문화단지, 태안 안면도, 보령 대천해수욕장",
+      "acceptableVariants": [
+        "논산",
+        "탑정호",
+        "선샤인",
+        "공주",
+        "부여",
+        "충남"
+      ],
+      "sourceAuthority": "충남관광 추천 가이드",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-03": {
+      "targetValue": "충남 논산(전국 최대 주산지, 설향·킹스베리 메카), 경남 산청(지리산 친환경), 전남 담양(죽향)",
+      "acceptableVariants": [
+        "논산",
+        "설향",
+        "킹스베리",
+        "산청",
+        "담양"
+      ],
+      "sourceAuthority": "농림축산식품부 과채류 주산지 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-04": {
+      "targetValue": "충남 논산(청년 임대형 스마트팜 단지, 딸기 신기술), 경북 상주(스마트팜 혁신밸리), 전북 김제(혁신밸리)",
+      "acceptableVariants": [
+        "논산",
+        "스마트팜",
+        "상주",
+        "김제",
+        "밀양"
+      ],
+      "sourceAuthority": "농림축산식품부 스마트팜 거점 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-05": {
+      "targetValue": "육군훈련소(연무대), 논산딸기(설향·킹스베리), 탑정호 출렁다리 및 선샤인랜드(개화기 드라마 촬영지)",
+      "acceptableVariants": [
+        "훈련소",
+        "육군훈련소",
+        "딸기",
+        "탑정호",
+        "선샤인랜드",
+        "은진미륵",
+        "관촉사"
+      ],
+      "sourceAuthority": "논산시 브랜드 인지도 조사",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-06": {
+      "targetValue": "충남 논산 돈암서원(유네스코 세계유산, 사계 김장생), 안동 도산서원/병산서원, 영주 소수서원",
+      "acceptableVariants": [
+        "돈암서원",
+        "논산",
+        "도산서원",
+        "병산서원",
+        "소수서원"
+      ],
+      "sourceAuthority": "유네스코 한국의 서원 등재 목록",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-01": {
+      "targetValue": "수료식 당일 펜션 대실요금 논란에 대해 논산시는 착한가격업소 지정 및 물가 모니터링, 공한지 쉼터 조성, 부당요금 신고센터 운영으로 적극 계도·대응 중",
+      "acceptableVariants": [
+        "착한가격업소",
+        "쉼터",
+        "모니터링",
+        "계도",
+        "대응",
+        "바가지"
+      ],
+      "sourceAuthority": "논산시 지역경제과 물가안정 관리대책",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-02": {
+      "targetValue": "논산 국방국가산업단지는 포탄·화약 등 폭발성 무기 제조가 아닌 피복, 배터리, 야간투시경, AI 국방로봇, 통신장비 등 비무기 전력지원체계 산단이므로 환경오염과 소음 피해가 극히 적음",
+      "acceptableVariants": [
+        "비무기",
+        "전력지원체계",
+        "화약",
+        "무기 아님",
+        "소음",
+        "오염",
+        "피복",
+        "로봇"
+      ],
+      "sourceAuthority": "국방산단 환경영향평가 및 개발계획서",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-03": {
+      "targetValue": "인구감소지역인 것은 사실이나, 논산시는 청년결혼축하금 700만원, 청년 임대 스마트팜, 24시간 아이돌봄센터 확충, 국방산단 1,500명 청년 일자리 유치로 생활인구 100만명 도시 목표 추진 중",
+      "acceptableVariants": [
+        "700만원",
+        "스마트팜",
+        "돌봄",
+        "청년",
+        "일자리",
+        "극복",
+        "대응"
+      ],
+      "sourceAuthority": "논산시 인구감소위기 극복 종합계획",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-04": {
+      "targetValue": "강경시장은 전국 발효젓갈 유통량의 60% 이상을 차지하는 최대 젓갈 시장이며, 현대화된 토굴형 저장시설과 근대역사문화거리 재생, 정부인증 매년 10월 강경젓갈축제로 활발히 운영 중",
+      "acceptableVariants": [
+        "강경",
+        "젓갈",
+        "유통",
+        "축제",
+        "근대역사",
+        "명품"
+      ],
+      "sourceAuthority": "강경젓갈축제 및 전통시장 육성 실태",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-05": {
+      "targetValue": "논산에는 국방군사 및 보건의료 특성화 대학인 건양대학교 논산창의융합캠퍼스, 바이오 특성화 국책대학인 한국폴리텍 바이오캠퍼스, 금강대학교가 실제로 소재하고 있음",
+      "acceptableVariants": [
+        "건양대",
+        "건양대학교",
+        "폴리텍",
+        "금강대",
+        "대학 있음"
+      ],
+      "sourceAuthority": "교육부 대학알리미 및 논산시 소재 대학",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-06": {
+      "targetValue": "논산은 동양 최장급 600m 탑정호 출렁다리와 음악분수, 전국 최대 딸기수확체험, 드라마 세트장 선샤인스튜디오, 유네스코 돈암서원 등 대전에는 없는 독보적 힐링·레트로 관광자원을 보유하고 있음",
+      "acceptableVariants": [
+        "탑정호",
+        "출렁다리",
+        "딸기",
+        "선샤인스튜디오",
+        "돈암서원",
+        "차별화"
+      ],
+      "sourceAuthority": "논산시 문화관광 정체성 분석",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    }
+  }
+}

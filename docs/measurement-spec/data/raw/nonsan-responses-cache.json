@@ -1,0 +1,2018 @@
+[
+  {
+    "response_id": "RSP-NONSAN-IND-001-R1",
+    "question_id": "IND-001",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:56.679Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 대표적인 산업단지는 연무읍 동산리 및 죽본리 일원에 조성 중인 '논산 국방국가산업단지'(약 87만㎡)가 있습니다. 또한 기 조성된 논산일반산업단지와 강경, 가야곡, 노성농공단지 등이 위치해 제조업을 뒷받침하고 있습니다. 자세한 단지 현황은 충청남도 및 논산시 누리집(https://www.nonsan.go.kr)에서 확인 가능합니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr",
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr",
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-001-R2",
+    "question_id": "IND-001",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:56.684Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 대표적인 산업단지는 연무읍 동산리 및 죽본리 일원에 조성 중인 '논산 국방국가산업단지'(약 87만㎡)가 있습니다. 또한 기 조성된 논산일반산업단지와 강경, 가야곡, 노성농공단지 등이 위치해 제조업을 뒷받침하고 있습니다. 자세한 단지 현황은 충청남도 및 논산시 누리집(https://www.nonsan.go.kr)에서 확인 가능합니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr",
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr",
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-001-R3",
+    "question_id": "IND-001",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:56.684Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 대표적인 산업단지는 연무읍 동산리 및 죽본리 일원에 조성 중인 '논산 국방국가산업단지'(약 87만㎡)가 있습니다. 또한 기 조성된 논산일반산업단지와 강경, 가야곡, 노성농공단지 등이 위치해 제조업을 뒷받침하고 있습니다. 자세한 단지 현황은 충청남도 및 논산시 누리집(https://www.nonsan.go.kr)에서 확인 가능합니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr",
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr",
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-002-R1",
+    "question_id": "IND-002",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:56.846Z",
+    "outcome": "answered",
+    "raw_text": "산업단지 입주 문의는 논산시청 투자유치과(041-746-5602) 또는 한국산업단지공단 충청지역본부로 문의하시면 됩니다. 국방산단의 경우 향후 분양 공고 시 입주 자격과 우대 조건을 사전 상담받을 수 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-002-R2",
+    "question_id": "IND-002",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:56.847Z",
+    "outcome": "answered",
+    "raw_text": "산업단지 입주 문의는 논산시청 투자유치과(041-746-5602) 또는 한국산업단지공단 충청지역본부로 문의하시면 됩니다. 국방산단의 경우 향후 분양 공고 시 입주 자격과 우대 조건을 사전 상담받을 수 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-002-R3",
+    "question_id": "IND-002",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:56.847Z",
+    "outcome": "answered",
+    "raw_text": "산업단지 입주 문의는 논산시청 투자유치과(041-746-5602) 또는 한국산업단지공단 충청지역본부로 문의하시면 됩니다. 국방산단의 경우 향후 분양 공고 시 입주 자격과 우대 조건을 사전 상담받을 수 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-003-R1",
+    "question_id": "IND-003",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:57.014Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 기업 유치 및 투자 지원 제도는 논산시청 미래전략실 및 투자유치과 기업지원팀에서 총괄 담당하고 있습니다. 조례에 따른 지방투자촉진보조금 및 세제 지원 안내를 제공합니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-003-R2",
+    "question_id": "IND-003",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:57.014Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 기업 유치 및 투자 지원 제도는 논산시청 미래전략실 및 투자유치과 기업지원팀에서 총괄 담당하고 있습니다. 조례에 따른 지방투자촉진보조금 및 세제 지원 안내를 제공합니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-003-R3",
+    "question_id": "IND-003",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:57.015Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 기업 유치 및 투자 지원 제도는 논산시청 미래전략실 및 투자유치과 기업지원팀에서 총괄 담당하고 있습니다. 조례에 따른 지방투자촉진보조금 및 세제 지원 안내를 제공합니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-004-R1",
+    "question_id": "IND-004",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:57.182Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 주된 산업은 비무기 전력지원체계 중심의 국방군수산업과 전국 1위 생산량을 자랑하는 K-딸기 중심의 스마트팜 첨단농업, 그리고 강경포구 일대의 전통 발효식품(젓갈) 가공업입니다.",
+    "body_urls": [
+      "https://blog.naver.com/nonsan_tour",
+      "https://namu.wiki/w/논산시"
+    ],
+    "citation_urls": [
+      "https://blog.naver.com/nonsan_tour",
+      "https://namu.wiki/w/논산시"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-004-R2",
+    "question_id": "IND-004",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:57.182Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 주된 산업은 비무기 전력지원체계 중심의 국방군수산업과 전국 1위 생산량을 자랑하는 K-딸기 중심의 스마트팜 첨단농업, 그리고 강경포구 일대의 전통 발효식품(젓갈) 가공업입니다.",
+    "body_urls": [
+      "https://blog.naver.com/nonsan_tour",
+      "https://namu.wiki/w/논산시"
+    ],
+    "citation_urls": [
+      "https://blog.naver.com/nonsan_tour",
+      "https://namu.wiki/w/논산시"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-004-R3",
+    "question_id": "IND-004",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:57.182Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 주된 산업은 비무기 전력지원체계 중심의 국방군수산업과 전국 1위 생산량을 자랑하는 K-딸기 중심의 스마트팜 첨단농업, 그리고 강경포구 일대의 전통 발효식품(젓갈) 가공업입니다.",
+    "body_urls": [
+      "https://blog.naver.com/nonsan_tour",
+      "https://namu.wiki/w/논산시"
+    ],
+    "citation_urls": [
+      "https://blog.naver.com/nonsan_tour",
+      "https://namu.wiki/w/논산시"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-005-R1",
+    "question_id": "IND-005",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:57.364Z",
+    "outcome": "answered",
+    "raw_text": "논산시에 공장을 설립할 경우, 연무읍 일원이 기회발전특구로 지정되어 있어 법인세 5년간 100% 감면 등 강력한 세제 혜택을 살필 수 있습니다. 또한 원스톱 인허가 지원과 건폐율·용적률 규제를 논산시 투자유치과와 사전 협의하는 것이 좋습니다.",
+    "body_urls": [
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-005-R2",
+    "question_id": "IND-005",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:57.364Z",
+    "outcome": "answered",
+    "raw_text": "논산시에 공장을 설립할 경우, 연무읍 일원이 기회발전특구로 지정되어 있어 법인세 5년간 100% 감면 등 강력한 세제 혜택을 살필 수 있습니다. 또한 원스톱 인허가 지원과 건폐율·용적률 규제를 논산시 투자유치과와 사전 협의하는 것이 좋습니다.",
+    "body_urls": [
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-IND-005-R3",
+    "question_id": "IND-005",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:57.364Z",
+    "outcome": "answered",
+    "raw_text": "논산시에 공장을 설립할 경우, 연무읍 일원이 기회발전특구로 지정되어 있어 법인세 5년간 100% 감면 등 강력한 세제 혜택을 살필 수 있습니다. 또한 원스톱 인허가 지원과 건폐율·용적률 규제를 논산시 투자유치과와 사전 협의하는 것이 좋습니다.",
+    "body_urls": [
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-001-R1",
+    "question_id": "DEP-001",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:57.530Z",
+    "outcome": "answered",
+    "raw_text": "네, 논산시는 행정안전부가 지정한 전국 89개 인구감소지역 중 하나입니다. 충청남도 내에서는 공주, 보령, 금산, 부여, 서천, 청양, 예산, 태안과 함께 인구감소지역으로 지정되어 특별 지원을 받고 있습니다.",
+    "body_urls": [
+      "https://www.mois.go.kr",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.mois.go.kr",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-001-R2",
+    "question_id": "DEP-001",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:57.530Z",
+    "outcome": "answered",
+    "raw_text": "네, 논산시는 행정안전부가 지정한 전국 89개 인구감소지역 중 하나입니다. 충청남도 내에서는 공주, 보령, 금산, 부여, 서천, 청양, 예산, 태안과 함께 인구감소지역으로 지정되어 특별 지원을 받고 있습니다.",
+    "body_urls": [
+      "https://www.mois.go.kr",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.mois.go.kr",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-001-R3",
+    "question_id": "DEP-001",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:57.530Z",
+    "outcome": "answered",
+    "raw_text": "네, 논산시는 행정안전부가 지정한 전국 89개 인구감소지역 중 하나입니다. 충청남도 내에서는 공주, 보령, 금산, 부여, 서천, 청양, 예산, 태안과 함께 인구감소지역으로 지정되어 특별 지원을 받고 있습니다.",
+    "body_urls": [
+      "https://www.mois.go.kr",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.mois.go.kr",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-002-R1",
+    "question_id": "DEP-002",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:57.700Z",
+    "outcome": "answered",
+    "raw_text": "논산시로 이주할 경우 신혼부부에게 최대 700만원의 청년결혼축하금을 분할 지급하며, 귀농인에게는 농업창업 및 주택구입 융자와 임시 거주시설인 '귀농인의 집'을 지원합니다. 또한 청년 전세보증금반환보증 보증료 지원 등 정주 혜택이 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr",
+      "https://blog.tistory.com/lifestyle"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr",
+      "https://blog.tistory.com/lifestyle"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-002-R2",
+    "question_id": "DEP-002",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:57.700Z",
+    "outcome": "answered",
+    "raw_text": "논산시로 이주할 경우 신혼부부에게 최대 700만원의 청년결혼축하금을 분할 지급하며, 귀농인에게는 농업창업 및 주택구입 융자와 임시 거주시설인 '귀농인의 집'을 지원합니다. 또한 청년 전세보증금반환보증 보증료 지원 등 정주 혜택이 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr",
+      "https://blog.tistory.com/lifestyle"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr",
+      "https://blog.tistory.com/lifestyle"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-002-R3",
+    "question_id": "DEP-002",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:57.700Z",
+    "outcome": "answered",
+    "raw_text": "논산시로 이주할 경우 신혼부부에게 최대 700만원의 청년결혼축하금을 분할 지급하며, 귀농인에게는 농업창업 및 주택구입 융자와 임시 거주시설인 '귀농인의 집'을 지원합니다. 또한 청년 전세보증금반환보증 보증료 지원 등 정주 혜택이 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr",
+      "https://blog.tistory.com/lifestyle"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr",
+      "https://blog.tistory.com/lifestyle"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-003-R1",
+    "question_id": "DEP-003",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:57.868Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 빈집 정보는 농림축산식품부와 한국부동산원이 운영하는 '그린마루(농어촌 빈집 플랫폼)' 또는 논산시청 도시재생과 빈집정비팀을 통해 매물 및 철거·리모델링 지원 현황을 확인할 수 있습니다.",
+    "body_urls": [
+      "https://www.greenmaru.or.kr"
+    ],
+    "citation_urls": [
+      "https://www.greenmaru.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-003-R2",
+    "question_id": "DEP-003",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:57.868Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 빈집 정보는 농림축산식품부와 한국부동산원이 운영하는 '그린마루(농어촌 빈집 플랫폼)' 또는 논산시청 도시재생과 빈집정비팀을 통해 매물 및 철거·리모델링 지원 현황을 확인할 수 있습니다.",
+    "body_urls": [
+      "https://www.greenmaru.or.kr"
+    ],
+    "citation_urls": [
+      "https://www.greenmaru.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-003-R3",
+    "question_id": "DEP-003",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:57.869Z",
+    "outcome": "answered",
+    "raw_text": "논산시의 빈집 정보는 농림축산식품부와 한국부동산원이 운영하는 '그린마루(농어촌 빈집 플랫폼)' 또는 논산시청 도시재생과 빈집정비팀을 통해 매물 및 철거·리모델링 지원 현황을 확인할 수 있습니다.",
+    "body_urls": [
+      "https://www.greenmaru.or.kr"
+    ],
+    "citation_urls": [
+      "https://www.greenmaru.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-004-R1",
+    "question_id": "DEP-004",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:58.051Z",
+    "outcome": "answered",
+    "raw_text": "논산시에서 아이를 키우려면 '논산형 24시간 아이돌봄센터'와 공공산후조리원 연계 지원, 첫만남이용권 및 임산부 1대1 맞춤돌봄 서비스를 이용할 수 있습니다. 국공립 어린이집 확충과 다자녀 입학축하금도 운영됩니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-004-R2",
+    "question_id": "DEP-004",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:58.051Z",
+    "outcome": "answered",
+    "raw_text": "논산시에서 아이를 키우려면 '논산형 24시간 아이돌봄센터'와 공공산후조리원 연계 지원, 첫만남이용권 및 임산부 1대1 맞춤돌봄 서비스를 이용할 수 있습니다. 국공립 어린이집 확충과 다자녀 입학축하금도 운영됩니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-004-R3",
+    "question_id": "DEP-004",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:58.051Z",
+    "outcome": "answered",
+    "raw_text": "논산시에서 아이를 키우려면 '논산형 24시간 아이돌봄센터'와 공공산후조리원 연계 지원, 첫만남이용권 및 임산부 1대1 맞춤돌봄 서비스를 이용할 수 있습니다. 국공립 어린이집 확충과 다자녀 입학축하금도 운영됩니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-005-R1",
+    "question_id": "DEP-005",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:58.220Z",
+    "outcome": "answered",
+    "raw_text": "논산시는 농촌 대중교통 사각지대 주민을 위한 100원~1,000원 단위의 '행복택시'를 광범위하게 운행하고 있습니다. 의료 면에서는 백제종합병원이 24시간 지역응급의료센터 역할을 수행하며, 논산열린도서관과 시민가족공원이 문화 거점을 형성하고 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr",
+      "https://daum.net"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr",
+      "https://daum.net"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-005-R2",
+    "question_id": "DEP-005",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:58.220Z",
+    "outcome": "answered",
+    "raw_text": "논산시는 농촌 대중교통 사각지대 주민을 위한 100원~1,000원 단위의 '행복택시'를 광범위하게 운행하고 있습니다. 의료 면에서는 백제종합병원이 24시간 지역응급의료센터 역할을 수행하며, 논산열린도서관과 시민가족공원이 문화 거점을 형성하고 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr",
+      "https://daum.net"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr",
+      "https://daum.net"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-DEP-005-R3",
+    "question_id": "DEP-005",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:58.220Z",
+    "outcome": "answered",
+    "raw_text": "논산시는 농촌 대중교통 사각지대 주민을 위한 100원~1,000원 단위의 '행복택시'를 광범위하게 운행하고 있습니다. 의료 면에서는 백제종합병원이 24시간 지역응급의료센터 역할을 수행하며, 논산열린도서관과 시민가족공원이 문화 거점을 형성하고 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr",
+      "https://daum.net"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr",
+      "https://daum.net"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-existence-R1",
+    "question_id": "PRJ-NS-01-existence",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:58.387Z",
+    "outcome": "answered",
+    "raw_text": "네, 논산 국방국가산업단지와 충남 방산혁신클러스터 사업이 공식 추진되고 있습니다. 국방산단은 대한민국 최초의 전력지원체계(비무기 군수물자) 특화 산단이며, 2026년 방위사업청 방산혁신클러스터 공모에 최종 선정되어 AI 국방로봇 생태계를 구축 중입니다.",
+    "body_urls": [
+      "https://www.ytn.co.kr/_ln/0134",
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.ytn.co.kr/_ln/0134",
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-existence-R2",
+    "question_id": "PRJ-NS-01-existence",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:58.387Z",
+    "outcome": "answered",
+    "raw_text": "네, 논산 국방국가산업단지와 충남 방산혁신클러스터 사업이 공식 추진되고 있습니다. 국방산단은 대한민국 최초의 전력지원체계(비무기 군수물자) 특화 산단이며, 2026년 방위사업청 방산혁신클러스터 공모에 최종 선정되어 AI 국방로봇 생태계를 구축 중입니다.",
+    "body_urls": [
+      "https://www.ytn.co.kr/_ln/0134",
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.ytn.co.kr/_ln/0134",
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-existence-R3",
+    "question_id": "PRJ-NS-01-existence",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:58.387Z",
+    "outcome": "answered",
+    "raw_text": "네, 논산 국방국가산업단지와 충남 방산혁신클러스터 사업이 공식 추진되고 있습니다. 국방산단은 대한민국 최초의 전력지원체계(비무기 군수물자) 특화 산단이며, 2026년 방위사업청 방산혁신클러스터 공모에 최종 선정되어 AI 국방로봇 생태계를 구축 중입니다.",
+    "body_urls": [
+      "https://www.ytn.co.kr/_ln/0134",
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.ytn.co.kr/_ln/0134",
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-location-R1",
+    "question_id": "PRJ-NS-01-location",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:58.556Z",
+    "outcome": "answered",
+    "raw_text": "논산 국방국가산업단지는 충청남도 논산시 연무읍 동산리 및 죽본리 일원에 조성됩니다. 총 면적은 약 87만㎡(약 26만 평) 규모로 호남고속도로 및 육군훈련소와 인접해 있습니다.",
+    "body_urls": [
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-location-R2",
+    "question_id": "PRJ-NS-01-location",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:58.556Z",
+    "outcome": "answered",
+    "raw_text": "논산 국방국가산업단지는 충청남도 논산시 연무읍 동산리 및 죽본리 일원에 조성됩니다. 총 면적은 약 87만㎡(약 26만 평) 규모로 호남고속도로 및 육군훈련소와 인접해 있습니다.",
+    "body_urls": [
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-location-R3",
+    "question_id": "PRJ-NS-01-location",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:58.556Z",
+    "outcome": "answered",
+    "raw_text": "논산 국방국가산업단지는 충청남도 논산시 연무읍 동산리 및 죽본리 일원에 조성됩니다. 총 면적은 약 87만㎡(약 26만 평) 규모로 호남고속도로 및 육군훈련소와 인접해 있습니다.",
+    "body_urls": [
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-stage-R1",
+    "question_id": "PRJ-NS-01-stage",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:58.725Z",
+    "outcome": "answered",
+    "raw_text": "논산 국방국가산업단지는 2024년 1월 국토교통부 산단계획 최종 승인 고시를 마쳤으며, 2024년 11월 정부 기회발전특구로 지정되었습니다. 현재 토지보상 및 기반공사 착공 준비 단계이며 2026년 착공, 2029년 완공을 목표로 순항하고 있습니다.",
+    "body_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-stage-R2",
+    "question_id": "PRJ-NS-01-stage",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:58.725Z",
+    "outcome": "answered",
+    "raw_text": "논산 국방국가산업단지는 2024년 1월 국토교통부 산단계획 최종 승인 고시를 마쳤으며, 2024년 11월 정부 기회발전특구로 지정되었습니다. 현재 토지보상 및 기반공사 착공 준비 단계이며 2026년 착공, 2029년 완공을 목표로 순항하고 있습니다.",
+    "body_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-stage-R3",
+    "question_id": "PRJ-NS-01-stage",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:58.725Z",
+    "outcome": "answered",
+    "raw_text": "논산 국방국가산업단지는 2024년 1월 국토교통부 산단계획 최종 승인 고시를 마쳤으며, 2024년 11월 정부 기회발전특구로 지정되었습니다. 현재 토지보상 및 기반공사 착공 준비 단계이며 2026년 착공, 2029년 완공을 목표로 순항하고 있습니다.",
+    "body_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-fiscal_scale-R1",
+    "question_id": "PRJ-NS-01-fiscal_scale",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:58.888Z",
+    "outcome": "answered",
+    "raw_text": "국방국가산업단지 조성에 투입되는 총사업비는 약 2,000억 원 규모(LH 개발)이며, 방산혁신클러스터 사업비로 국비 245억 원을 포함해 2031년까지 총 499억 원의 사업비가 집중 투자됩니다.",
+    "body_urls": [
+      "https://www.ytn.co.kr"
+    ],
+    "citation_urls": [
+      "https://www.ytn.co.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-fiscal_scale-R2",
+    "question_id": "PRJ-NS-01-fiscal_scale",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:58.888Z",
+    "outcome": "answered",
+    "raw_text": "국방국가산업단지 조성에 투입되는 총사업비는 약 2,000억 원 규모(LH 개발)이며, 방산혁신클러스터 사업비로 국비 245억 원을 포함해 2031년까지 총 499억 원의 사업비가 집중 투자됩니다.",
+    "body_urls": [
+      "https://www.ytn.co.kr"
+    ],
+    "citation_urls": [
+      "https://www.ytn.co.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-fiscal_scale-R3",
+    "question_id": "PRJ-NS-01-fiscal_scale",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:58.888Z",
+    "outcome": "answered",
+    "raw_text": "국방국가산업단지 조성에 투입되는 총사업비는 약 2,000억 원 규모(LH 개발)이며, 방산혁신클러스터 사업비로 국비 245억 원을 포함해 2031년까지 총 499억 원의 사업비가 집중 투자됩니다.",
+    "body_urls": [
+      "https://www.ytn.co.kr"
+    ],
+    "citation_urls": [
+      "https://www.ytn.co.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-owner_dept-R1",
+    "question_id": "PRJ-NS-01-owner_dept",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:59.069Z",
+    "outcome": "answered",
+    "raw_text": "국방산단 유치 및 운영의 총괄 실무 부서는 논산시청 국방산업과(국방산단조성팀)이며, 상위 지원 부서로는 충청남도 산업육성과가 공동 협력하고 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-owner_dept-R2",
+    "question_id": "PRJ-NS-01-owner_dept",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:59.069Z",
+    "outcome": "answered",
+    "raw_text": "국방산단 유치 및 운영의 총괄 실무 부서는 논산시청 국방산업과(국방산단조성팀)이며, 상위 지원 부서로는 충청남도 산업육성과가 공동 협력하고 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-owner_dept-R3",
+    "question_id": "PRJ-NS-01-owner_dept",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:59.070Z",
+    "outcome": "answered",
+    "raw_text": "국방산단 유치 및 운영의 총괄 실무 부서는 논산시청 국방산업과(국방산단조성팀)이며, 상위 지원 부서로는 충청남도 산업육성과가 공동 협력하고 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-citizen_benefit-R1",
+    "question_id": "PRJ-NS-01-citizen_benefit",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:59.237Z",
+    "outcome": "answered",
+    "raw_text": "국방산단 조성으로 논산 시민들은 AI 국방로봇 및 방산 중소벤처기업을 통해 약 1,500명 이상의 신규 양질 일자리 혜택을 얻게 됩니다. 건양대학교 졸업 청년의 지역 취업과 인구 유입, 연간 수천억 원의 경제유발 효과가 기대됩니다.",
+    "body_urls": [
+      "https://blog.naver.com"
+    ],
+    "citation_urls": [
+      "https://blog.naver.com"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-citizen_benefit-R2",
+    "question_id": "PRJ-NS-01-citizen_benefit",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:59.237Z",
+    "outcome": "answered",
+    "raw_text": "국방산단 조성으로 논산 시민들은 AI 국방로봇 및 방산 중소벤처기업을 통해 약 1,500명 이상의 신규 양질 일자리 혜택을 얻게 됩니다. 건양대학교 졸업 청년의 지역 취업과 인구 유입, 연간 수천억 원의 경제유발 효과가 기대됩니다.",
+    "body_urls": [
+      "https://blog.naver.com"
+    ],
+    "citation_urls": [
+      "https://blog.naver.com"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-01-citizen_benefit-R3",
+    "question_id": "PRJ-NS-01-citizen_benefit",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:59.237Z",
+    "outcome": "answered",
+    "raw_text": "국방산단 조성으로 논산 시민들은 AI 국방로봇 및 방산 중소벤처기업을 통해 약 1,500명 이상의 신규 양질 일자리 혜택을 얻게 됩니다. 건양대학교 졸업 청년의 지역 취업과 인구 유입, 연간 수천억 원의 경제유발 효과가 기대됩니다.",
+    "body_urls": [
+      "https://blog.naver.com"
+    ],
+    "citation_urls": [
+      "https://blog.naver.com"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-existence-R1",
+    "question_id": "PRJ-NS-02-existence",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:59.406Z",
+    "outcome": "answered",
+    "raw_text": "2027 논산세계딸기산업엑스포는 정부(기획재정부) 공식 승인을 받은 국제행사로, 2027년 2월 26일부터 3월 21일까지 24일간 논산시민가족공원 및 시민운동장 일원에서 개최됩니다.",
+    "body_urls": [
+      "https://www.2027nonsanexpo.or.kr",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.2027nonsanexpo.or.kr",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-existence-R2",
+    "question_id": "PRJ-NS-02-existence",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:59.407Z",
+    "outcome": "answered",
+    "raw_text": "2027 논산세계딸기산업엑스포는 정부(기획재정부) 공식 승인을 받은 국제행사로, 2027년 2월 26일부터 3월 21일까지 24일간 논산시민가족공원 및 시민운동장 일원에서 개최됩니다.",
+    "body_urls": [
+      "https://www.2027nonsanexpo.or.kr",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.2027nonsanexpo.or.kr",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-existence-R3",
+    "question_id": "PRJ-NS-02-existence",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:59.407Z",
+    "outcome": "answered",
+    "raw_text": "2027 논산세계딸기산업엑스포는 정부(기획재정부) 공식 승인을 받은 국제행사로, 2027년 2월 26일부터 3월 21일까지 24일간 논산시민가족공원 및 시민운동장 일원에서 개최됩니다.",
+    "body_urls": [
+      "https://www.2027nonsanexpo.or.kr",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.2027nonsanexpo.or.kr",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-location-R1",
+    "question_id": "PRJ-NS-02-location",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:59.573Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 메인 행사장은 충남 논산시 강산동의 '논산시민가족공원'과 시민운동장 일원입니다. 아울러 연계 스마트팜 복합단지는 부적면 마구평리 일원에 조성되어 현장 관람 코스로 활용됩니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-location-R2",
+    "question_id": "PRJ-NS-02-location",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:59.573Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 메인 행사장은 충남 논산시 강산동의 '논산시민가족공원'과 시민운동장 일원입니다. 아울러 연계 스마트팜 복합단지는 부적면 마구평리 일원에 조성되어 현장 관람 코스로 활용됩니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-location-R3",
+    "question_id": "PRJ-NS-02-location",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:59.573Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 메인 행사장은 충남 논산시 강산동의 '논산시민가족공원'과 시민운동장 일원입니다. 아울러 연계 스마트팜 복합단지는 부적면 마구평리 일원에 조성되어 현장 관람 코스로 활용됩니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-stage-R1",
+    "question_id": "PRJ-NS-02-stage",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:59.748Z",
+    "outcome": "answered",
+    "raw_text": "2027 논산세계딸기산업엑스포는 기재부 국제행사 심사를 최종 통과한 후, 현재 엑스포 조직위원회 출범 및 마스터플랜 수립, 해외 교류 네트워크 구축 단계에 있습니다. 스마트팜 단지는 이미 청년농이 입주하여 가동 중입니다.",
+    "body_urls": [
+      "https://www.showala.com"
+    ],
+    "citation_urls": [
+      "https://www.showala.com"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-stage-R2",
+    "question_id": "PRJ-NS-02-stage",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:59.748Z",
+    "outcome": "answered",
+    "raw_text": "2027 논산세계딸기산업엑스포는 기재부 국제행사 심사를 최종 통과한 후, 현재 엑스포 조직위원회 출범 및 마스터플랜 수립, 해외 교류 네트워크 구축 단계에 있습니다. 스마트팜 단지는 이미 청년농이 입주하여 가동 중입니다.",
+    "body_urls": [
+      "https://www.showala.com"
+    ],
+    "citation_urls": [
+      "https://www.showala.com"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-stage-R3",
+    "question_id": "PRJ-NS-02-stage",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:59.748Z",
+    "outcome": "answered",
+    "raw_text": "2027 논산세계딸기산업엑스포는 기재부 국제행사 심사를 최종 통과한 후, 현재 엑스포 조직위원회 출범 및 마스터플랜 수립, 해외 교류 네트워크 구축 단계에 있습니다. 스마트팜 단지는 이미 청년농이 입주하여 가동 중입니다.",
+    "body_urls": [
+      "https://www.showala.com"
+    ],
+    "citation_urls": [
+      "https://www.showala.com"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-fiscal_scale-R1",
+    "question_id": "PRJ-NS-02-fiscal_scale",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:09:59.911Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 총사업비는 국비 약 45억 원, 도비 30억 원, 시비 75억 원을 합쳐 총 150억 원 규모이며, 스마트팜 생산 기반 확충을 위한 연계 투자 사업비가 수백억 원 규모로 투입되고 있습니다.",
+    "body_urls": [
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-fiscal_scale-R2",
+    "question_id": "PRJ-NS-02-fiscal_scale",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:09:59.912Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 총사업비는 국비 약 45억 원, 도비 30억 원, 시비 75억 원을 합쳐 총 150억 원 규모이며, 스마트팜 생산 기반 확충을 위한 연계 투자 사업비가 수백억 원 규모로 투입되고 있습니다.",
+    "body_urls": [
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-fiscal_scale-R3",
+    "question_id": "PRJ-NS-02-fiscal_scale",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:09:59.912Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 총사업비는 국비 약 45억 원, 도비 30억 원, 시비 75억 원을 합쳐 총 150억 원 규모이며, 스마트팜 생산 기반 확충을 위한 연계 투자 사업비가 수백억 원 규모로 투입되고 있습니다.",
+    "body_urls": [
+      "https://www.chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-owner_dept-R1",
+    "question_id": "PRJ-NS-02-owner_dept",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:00.079Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 준비 총괄 부서는 논산시청 '딸기엑스포추진단'이며, 스마트팜 신기술 보급은 논산시 농업기술센터 기술보급과에서 담당하고 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-owner_dept-R2",
+    "question_id": "PRJ-NS-02-owner_dept",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:00.079Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 준비 총괄 부서는 논산시청 '딸기엑스포추진단'이며, 스마트팜 신기술 보급은 논산시 농업기술센터 기술보급과에서 담당하고 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-owner_dept-R3",
+    "question_id": "PRJ-NS-02-owner_dept",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:00.079Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 준비 총괄 부서는 논산시청 '딸기엑스포추진단'이며, 스마트팜 신기술 보급은 논산시 농업기술센터 기술보급과에서 담당하고 있습니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-citizen_benefit-R1",
+    "question_id": "PRJ-NS-02-citizen_benefit",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:00.248Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 개최를 통해 논산 농가들은 K-딸기의 동남아 등 글로벌 수출 판로를 넓혀 실질 소득을 증대할 수 있습니다. 또한 스마트팜 청년농 유입과 150만 명 이상의 국내외 관광객 유치로 골목 상권이 활기를 띨 전망입니다.",
+    "body_urls": [
+      "https://blog.tistory.com"
+    ],
+    "citation_urls": [
+      "https://blog.tistory.com"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-citizen_benefit-R2",
+    "question_id": "PRJ-NS-02-citizen_benefit",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:00.248Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 개최를 통해 논산 농가들은 K-딸기의 동남아 등 글로벌 수출 판로를 넓혀 실질 소득을 증대할 수 있습니다. 또한 스마트팜 청년농 유입과 150만 명 이상의 국내외 관광객 유치로 골목 상권이 활기를 띨 전망입니다.",
+    "body_urls": [
+      "https://blog.tistory.com"
+    ],
+    "citation_urls": [
+      "https://blog.tistory.com"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-02-citizen_benefit-R3",
+    "question_id": "PRJ-NS-02-citizen_benefit",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:00.248Z",
+    "outcome": "answered",
+    "raw_text": "엑스포 개최를 통해 논산 농가들은 K-딸기의 동남아 등 글로벌 수출 판로를 넓혀 실질 소득을 증대할 수 있습니다. 또한 스마트팜 청년농 유입과 150만 명 이상의 국내외 관광객 유치로 골목 상권이 활기를 띨 전망입니다.",
+    "body_urls": [
+      "https://blog.tistory.com"
+    ],
+    "citation_urls": [
+      "https://blog.tistory.com"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-existence-R1",
+    "question_id": "PRJ-NS-03-existence",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:00.431Z",
+    "outcome": "answered",
+    "raw_text": "네, 탑정호 복합문화 휴양단지 조성 사업이 추진 중입니다. 논산시는 탑정호 출렁다리 무료화에 이어 총 3,400억 원 규모의 민간투자를 유치하여 가족호텔, 워터파크, 웰니스 리조트를 조성하고 있습니다.",
+    "body_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-existence-R2",
+    "question_id": "PRJ-NS-03-existence",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:00.431Z",
+    "outcome": "answered",
+    "raw_text": "네, 탑정호 복합문화 휴양단지 조성 사업이 추진 중입니다. 논산시는 탑정호 출렁다리 무료화에 이어 총 3,400억 원 규모의 민간투자를 유치하여 가족호텔, 워터파크, 웰니스 리조트를 조성하고 있습니다.",
+    "body_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-existence-R3",
+    "question_id": "PRJ-NS-03-existence",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:00.431Z",
+    "outcome": "answered",
+    "raw_text": "네, 탑정호 복합문화 휴양단지 조성 사업이 추진 중입니다. 논산시는 탑정호 출렁다리 무료화에 이어 총 3,400억 원 규모의 민간투자를 유치하여 가족호텔, 워터파크, 웰니스 리조트를 조성하고 있습니다.",
+    "body_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.daejonilbo.com",
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-location-R1",
+    "question_id": "PRJ-NS-03-location",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:00.599Z",
+    "outcome": "answered",
+    "raw_text": "사업 대상지는 충청남도 논산시 부적면 신풍리 및 양촌면 일원의 탑정호 수변입니다. 동양 최장급인 600m 길이의 탑정호 출렁다리와 수변생태공원이 인접해 있습니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-location-R2",
+    "question_id": "PRJ-NS-03-location",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:00.599Z",
+    "outcome": "answered",
+    "raw_text": "사업 대상지는 충청남도 논산시 부적면 신풍리 및 양촌면 일원의 탑정호 수변입니다. 동양 최장급인 600m 길이의 탑정호 출렁다리와 수변생태공원이 인접해 있습니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-location-R3",
+    "question_id": "PRJ-NS-03-location",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:00.599Z",
+    "outcome": "answered",
+    "raw_text": "사업 대상지는 충청남도 논산시 부적면 신풍리 및 양촌면 일원의 탑정호 수변입니다. 동양 최장급인 600m 길이의 탑정호 출렁다리와 수변생태공원이 인접해 있습니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-stage-R1",
+    "question_id": "PRJ-NS-03-stage",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:00.767Z",
+    "outcome": "answered",
+    "raw_text": "논산시는 민간투자사와 3,400억 원 규모의 투자협약(MOU)을 체결하였으며, 현재 관광지 지정 변경 및 환경영향평가 등 인허가 행정 절차를 밟고 있습니다. 2027년 착공하여 2029년 준공을 목표로 합니다.",
+    "body_urls": [
+      "https://www.joongdo.co.kr"
+    ],
+    "citation_urls": [
+      "https://www.joongdo.co.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-stage-R2",
+    "question_id": "PRJ-NS-03-stage",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:00.767Z",
+    "outcome": "answered",
+    "raw_text": "논산시는 민간투자사와 3,400억 원 규모의 투자협약(MOU)을 체결하였으며, 현재 관광지 지정 변경 및 환경영향평가 등 인허가 행정 절차를 밟고 있습니다. 2027년 착공하여 2029년 준공을 목표로 합니다.",
+    "body_urls": [
+      "https://www.joongdo.co.kr"
+    ],
+    "citation_urls": [
+      "https://www.joongdo.co.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-stage-R3",
+    "question_id": "PRJ-NS-03-stage",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:00.767Z",
+    "outcome": "answered",
+    "raw_text": "논산시는 민간투자사와 3,400억 원 규모의 투자협약(MOU)을 체결하였으며, 현재 관광지 지정 변경 및 환경영향평가 등 인허가 행정 절차를 밟고 있습니다. 2027년 착공하여 2029년 준공을 목표로 합니다.",
+    "body_urls": [
+      "https://www.joongdo.co.kr"
+    ],
+    "citation_urls": [
+      "https://www.joongdo.co.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-fiscal_scale-R1",
+    "question_id": "PRJ-NS-03-fiscal_scale",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:00.934Z",
+    "outcome": "answered",
+    "raw_text": "총 투자 유치 규모는 민간 자본 약 3,400억 원입니다. 주요 시설로는 250실 규모의 가족형 콘도·호텔, 3,000평 규모의 실내외 워터파크 및 인피니티풀 조성이 포함됩니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-fiscal_scale-R2",
+    "question_id": "PRJ-NS-03-fiscal_scale",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:00.934Z",
+    "outcome": "answered",
+    "raw_text": "총 투자 유치 규모는 민간 자본 약 3,400억 원입니다. 주요 시설로는 250실 규모의 가족형 콘도·호텔, 3,000평 규모의 실내외 워터파크 및 인피니티풀 조성이 포함됩니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-fiscal_scale-R3",
+    "question_id": "PRJ-NS-03-fiscal_scale",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:00.934Z",
+    "outcome": "answered",
+    "raw_text": "총 투자 유치 규모는 민간 자본 약 3,400억 원입니다. 주요 시설로는 250실 규모의 가족형 콘도·호텔, 3,000평 규모의 실내외 워터파크 및 인피니티풀 조성이 포함됩니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-owner_dept-R1",
+    "question_id": "PRJ-NS-03-owner_dept",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:01.116Z",
+    "outcome": "answered",
+    "raw_text": "탑정호 복합휴양단지 조성의 실무 총괄 부서는 논산시청 관광과(관광개발팀)입니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-owner_dept-R2",
+    "question_id": "PRJ-NS-03-owner_dept",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:01.116Z",
+    "outcome": "answered",
+    "raw_text": "탑정호 복합휴양단지 조성의 실무 총괄 부서는 논산시청 관광과(관광개발팀)입니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-owner_dept-R3",
+    "question_id": "PRJ-NS-03-owner_dept",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:01.116Z",
+    "outcome": "answered",
+    "raw_text": "탑정호 복합휴양단지 조성의 실무 총괄 부서는 논산시청 관광과(관광개발팀)입니다.",
+    "body_urls": [
+      "https://www.nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://www.nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-citizen_benefit-R1",
+    "question_id": "PRJ-NS-03-citizen_benefit",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:01.284Z",
+    "outcome": "answered",
+    "raw_text": "당일치기에 머물던 관광 패턴이 1박 2일 체류형으로 전환되어, 훈련소 면회객과 여행객의 지역 내 소비가 극대화됩니다. 관광 서비스 분야에서 2,000명 이상의 고용 창출이 기대됩니다.",
+    "body_urls": [
+      "https://daum.net"
+    ],
+    "citation_urls": [
+      "https://daum.net"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-citizen_benefit-R2",
+    "question_id": "PRJ-NS-03-citizen_benefit",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:01.284Z",
+    "outcome": "answered",
+    "raw_text": "당일치기에 머물던 관광 패턴이 1박 2일 체류형으로 전환되어, 훈련소 면회객과 여행객의 지역 내 소비가 극대화됩니다. 관광 서비스 분야에서 2,000명 이상의 고용 창출이 기대됩니다.",
+    "body_urls": [
+      "https://daum.net"
+    ],
+    "citation_urls": [
+      "https://daum.net"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-PRJ-NS-03-citizen_benefit-R3",
+    "question_id": "PRJ-NS-03-citizen_benefit",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:01.284Z",
+    "outcome": "answered",
+    "raw_text": "당일치기에 머물던 관광 패턴이 1박 2일 체류형으로 전환되어, 훈련소 면회객과 여행객의 지역 내 소비가 극대화됩니다. 관광 서비스 분야에서 2,000명 이상의 고용 창출이 기대됩니다.",
+    "body_urls": [
+      "https://daum.net"
+    ],
+    "citation_urls": [
+      "https://daum.net"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-01-R1",
+    "question_id": "OPP-01",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:01.451Z",
+    "outcome": "answered",
+    "raw_text": "국방·방위산업 공장 설립 추천 도시로는 경남 창원(전통 기계/화력 무기 제조 거점), 대전(R&D 및 국방로봇/드론), 충남 논산(비무기 전력지원체계 국가산단 및 기회발전특구 지정) 3곳을 추천합니다.",
+    "body_urls": [
+      "https://goodmorningcc.com",
+      "https://investkorea.org"
+    ],
+    "citation_urls": [
+      "https://goodmorningcc.com",
+      "https://investkorea.org"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-01-R2",
+    "question_id": "OPP-01",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:01.451Z",
+    "outcome": "answered",
+    "raw_text": "국방·방위산업 공장 설립 추천 도시로는 경남 창원(전통 기계/화력 무기 제조 거점), 대전(R&D 및 국방로봇/드론), 충남 논산(비무기 전력지원체계 국가산단 및 기회발전특구 지정) 3곳을 추천합니다.",
+    "body_urls": [
+      "https://goodmorningcc.com",
+      "https://investkorea.org"
+    ],
+    "citation_urls": [
+      "https://goodmorningcc.com",
+      "https://investkorea.org"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-01-R3",
+    "question_id": "OPP-01",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:01.451Z",
+    "outcome": "answered",
+    "raw_text": "국방·방위산업 공장 설립 추천 도시로는 경남 창원(전통 기계/화력 무기 제조 거점), 대전(R&D 및 국방로봇/드론), 충남 논산(비무기 전력지원체계 국가산단 및 기회발전특구 지정) 3곳을 추천합니다.",
+    "body_urls": [
+      "https://goodmorningcc.com",
+      "https://investkorea.org"
+    ],
+    "citation_urls": [
+      "https://goodmorningcc.com",
+      "https://investkorea.org"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-02-R1",
+    "question_id": "OPP-02",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:01.635Z",
+    "outcome": "answered",
+    "raw_text": "충청남도 당일치기 관광지로 1. 논산 탑정호 출렁다리와 선샤인스튜디오, 2. 공주 공산성과 무령왕릉, 3. 부여 백제문화단지, 4. 보령 대천해수욕장, 5. 태안 안면도 꽃지해변을 추천합니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-02-R2",
+    "question_id": "OPP-02",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:01.635Z",
+    "outcome": "answered",
+    "raw_text": "충청남도 당일치기 관광지로 1. 논산 탑정호 출렁다리와 선샤인스튜디오, 2. 공주 공산성과 무령왕릉, 3. 부여 백제문화단지, 4. 보령 대천해수욕장, 5. 태안 안면도 꽃지해변을 추천합니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-02-R3",
+    "question_id": "OPP-02",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:01.635Z",
+    "outcome": "answered",
+    "raw_text": "충청남도 당일치기 관광지로 1. 논산 탑정호 출렁다리와 선샤인스튜디오, 2. 공주 공산성과 무령왕릉, 3. 부여 백제문화단지, 4. 보령 대천해수욕장, 5. 태안 안면도 꽃지해변을 추천합니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-03-R1",
+    "question_id": "OPP-03",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:01.802Z",
+    "outcome": "answered",
+    "raw_text": "한국 최고급 딸기 생산지 3곳은 충남 논산(전국 최대 주산지, 설향·킹스베리의 메카), 경남 산청(지리산 맑은 물과 큰 일교차), 전남 담양(프리미엄 죽향 딸기)입니다.",
+    "body_urls": [
+      "https://donga.com",
+      "https://namu.wiki"
+    ],
+    "citation_urls": [
+      "https://donga.com",
+      "https://namu.wiki"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-03-R2",
+    "question_id": "OPP-03",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:01.803Z",
+    "outcome": "answered",
+    "raw_text": "한국 최고급 딸기 생산지 3곳은 충남 논산(전국 최대 주산지, 설향·킹스베리의 메카), 경남 산청(지리산 맑은 물과 큰 일교차), 전남 담양(프리미엄 죽향 딸기)입니다.",
+    "body_urls": [
+      "https://donga.com",
+      "https://namu.wiki"
+    ],
+    "citation_urls": [
+      "https://donga.com",
+      "https://namu.wiki"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-03-R3",
+    "question_id": "OPP-03",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:01.803Z",
+    "outcome": "answered",
+    "raw_text": "한국 최고급 딸기 생산지 3곳은 충남 논산(전국 최대 주산지, 설향·킹스베리의 메카), 경남 산청(지리산 맑은 물과 큰 일교차), 전남 담양(프리미엄 죽향 딸기)입니다.",
+    "body_urls": [
+      "https://donga.com",
+      "https://namu.wiki"
+    ],
+    "citation_urls": [
+      "https://donga.com",
+      "https://namu.wiki"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-04-R1",
+    "question_id": "OPP-04",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:01.985Z",
+    "outcome": "answered",
+    "raw_text": "스마트팜 기반 귀농 추천 지역으로는 충남 논산(청년 임대형 스마트팜 복합단지와 딸기 특화), 경북 상주(스마트팜 혁신밸리), 전북 김제(스마트팜 혁신밸리) 3곳이 대표적입니다.",
+    "body_urls": [
+      "https://ff.or.kr"
+    ],
+    "citation_urls": [
+      "https://ff.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-04-R2",
+    "question_id": "OPP-04",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:01.985Z",
+    "outcome": "answered",
+    "raw_text": "스마트팜 기반 귀농 추천 지역으로는 충남 논산(청년 임대형 스마트팜 복합단지와 딸기 특화), 경북 상주(스마트팜 혁신밸리), 전북 김제(스마트팜 혁신밸리) 3곳이 대표적입니다.",
+    "body_urls": [
+      "https://ff.or.kr"
+    ],
+    "citation_urls": [
+      "https://ff.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-04-R3",
+    "question_id": "OPP-04",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:01.985Z",
+    "outcome": "answered",
+    "raw_text": "스마트팜 기반 귀농 추천 지역으로는 충남 논산(청년 임대형 스마트팜 복합단지와 딸기 특화), 경북 상주(스마트팜 혁신밸리), 전북 김제(스마트팜 혁신밸리) 3곳이 대표적입니다.",
+    "body_urls": [
+      "https://ff.or.kr"
+    ],
+    "citation_urls": [
+      "https://ff.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-05-R1",
+    "question_id": "OPP-05",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:02.153Z",
+    "outcome": "answered",
+    "raw_text": "논산의 3대 대표 상징은 1. 대한민국 청년들의 요람 '육군훈련소(연무대)', 2. 달콤하고 신선한 '논산딸기(설향)', 3. 600m 길이의 '탑정호 출렁다리' 및 미스터션샤인 촬영지 '선샤인랜드'입니다.",
+    "body_urls": [
+      "https://namu.wiki",
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://namu.wiki",
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-05-R2",
+    "question_id": "OPP-05",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:02.153Z",
+    "outcome": "answered",
+    "raw_text": "논산의 3대 대표 상징은 1. 대한민국 청년들의 요람 '육군훈련소(연무대)', 2. 달콤하고 신선한 '논산딸기(설향)', 3. 600m 길이의 '탑정호 출렁다리' 및 미스터션샤인 촬영지 '선샤인랜드'입니다.",
+    "body_urls": [
+      "https://namu.wiki",
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://namu.wiki",
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-05-R3",
+    "question_id": "OPP-05",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:02.153Z",
+    "outcome": "answered",
+    "raw_text": "논산의 3대 대표 상징은 1. 대한민국 청년들의 요람 '육군훈련소(연무대)', 2. 달콤하고 신선한 '논산딸기(설향)', 3. 600m 길이의 '탑정호 출렁다리' 및 미스터션샤인 촬영지 '선샤인랜드'입니다.",
+    "body_urls": [
+      "https://namu.wiki",
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://namu.wiki",
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-06-R1",
+    "question_id": "OPP-06",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:02.321Z",
+    "outcome": "answered",
+    "raw_text": "유네스코 세계유산 등재 서원 중 충남 논산 돈암서원(사계 김장생 선생 배향, 기호유학의 산실), 안동 도산서원(퇴계 이황), 영주 소수서원(최초의 사액서원) 3곳을 적극 추천합니다.",
+    "body_urls": [
+      "https://khs.go.kr"
+    ],
+    "citation_urls": [
+      "https://khs.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-06-R2",
+    "question_id": "OPP-06",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:02.321Z",
+    "outcome": "answered",
+    "raw_text": "유네스코 세계유산 등재 서원 중 충남 논산 돈암서원(사계 김장생 선생 배향, 기호유학의 산실), 안동 도산서원(퇴계 이황), 영주 소수서원(최초의 사액서원) 3곳을 적극 추천합니다.",
+    "body_urls": [
+      "https://khs.go.kr"
+    ],
+    "citation_urls": [
+      "https://khs.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-OPP-06-R3",
+    "question_id": "OPP-06",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:02.322Z",
+    "outcome": "answered",
+    "raw_text": "유네스코 세계유산 등재 서원 중 충남 논산 돈암서원(사계 김장생 선생 배향, 기호유학의 산실), 안동 도산서원(퇴계 이황), 영주 소수서원(최초의 사액서원) 3곳을 적극 추천합니다.",
+    "body_urls": [
+      "https://khs.go.kr"
+    ],
+    "citation_urls": [
+      "https://khs.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-01-R1",
+    "question_id": "REP-01",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:02.491Z",
+    "outcome": "answered",
+    "raw_text": "수료식 펜션 대실요금(5~6시간 10~15만원)에 대해 일부 불만이 상존하는 것이 사실입니다. 이에 논산시는 '착한가격업소' 지정을 확대하고 불공정 요금 단속을 강화하고 있으며, 훈련소 주변 공한지 쉼터 조성과 무료 주차장 개방 등 시 차원의 대응을 펼치고 있습니다.",
+    "body_urls": [
+      "https://tistory.com/camp_pension",
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://tistory.com/camp_pension",
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-01-R2",
+    "question_id": "REP-01",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:02.491Z",
+    "outcome": "answered",
+    "raw_text": "수료식 펜션 대실요금(5~6시간 10~15만원)에 대해 일부 불만이 상존하는 것이 사실입니다. 이에 논산시는 '착한가격업소' 지정을 확대하고 불공정 요금 단속을 강화하고 있으며, 훈련소 주변 공한지 쉼터 조성과 무료 주차장 개방 등 시 차원의 대응을 펼치고 있습니다.",
+    "body_urls": [
+      "https://tistory.com/camp_pension",
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://tistory.com/camp_pension",
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-01-R3",
+    "question_id": "REP-01",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:02.491Z",
+    "outcome": "answered",
+    "raw_text": "수료식 펜션 대실요금(5~6시간 10~15만원)에 대해 일부 불만이 상존하는 것이 사실입니다. 이에 논산시는 '착한가격업소' 지정을 확대하고 불공정 요금 단속을 강화하고 있으며, 훈련소 주변 공한지 쉼터 조성과 무료 주차장 개방 등 시 차원의 대응을 펼치고 있습니다.",
+    "body_urls": [
+      "https://tistory.com/camp_pension",
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://tistory.com/camp_pension",
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-02-R1",
+    "question_id": "REP-02",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:02.660Z",
+    "outcome": "answered",
+    "raw_text": "논산 국방국가산업단지는 화약이나 포탄을 시험하는 무기 시험장이 아닙니다. 전투복, 방탄조끼, 배터리, 야간투시경, AI 국방로봇 등 전력지원체계(비무기 군수물자) 중심의 친환경 첨단 산단이므로 소음이나 환경오염 피해 우려가 극히 적습니다.",
+    "body_urls": [
+      "https://dtnews24.com",
+      "https://chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://dtnews24.com",
+      "https://chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-02-R2",
+    "question_id": "REP-02",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:02.660Z",
+    "outcome": "answered",
+    "raw_text": "논산 국방국가산업단지는 화약이나 포탄을 시험하는 무기 시험장이 아닙니다. 전투복, 방탄조끼, 배터리, 야간투시경, AI 국방로봇 등 전력지원체계(비무기 군수물자) 중심의 친환경 첨단 산단이므로 소음이나 환경오염 피해 우려가 극히 적습니다.",
+    "body_urls": [
+      "https://dtnews24.com",
+      "https://chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://dtnews24.com",
+      "https://chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-02-R3",
+    "question_id": "REP-02",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:02.660Z",
+    "outcome": "answered",
+    "raw_text": "논산 국방국가산업단지는 화약이나 포탄을 시험하는 무기 시험장이 아닙니다. 전투복, 방탄조끼, 배터리, 야간투시경, AI 국방로봇 등 전력지원체계(비무기 군수물자) 중심의 친환경 첨단 산단이므로 소음이나 환경오염 피해 우려가 극히 적습니다.",
+    "body_urls": [
+      "https://dtnews24.com",
+      "https://chungnam.go.kr"
+    ],
+    "citation_urls": [
+      "https://dtnews24.com",
+      "https://chungnam.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-03-R1",
+    "question_id": "REP-03",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:02.826Z",
+    "outcome": "answered",
+    "raw_text": "논산시가 고령화와 인구감소지역으로 지정된 것은 맞지만 사람이 없다거나 보육 환경이 황폐하지는 않습니다. 시는 청년결혼축하금 700만원, 24시간 아이돌봄센터, 스마트팜 청년 유입과 국방산단 1,500명 청년 일자리 창출로 정주 여건을 대폭 개선하고 있습니다.",
+    "body_urls": [
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-03-R2",
+    "question_id": "REP-03",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:02.827Z",
+    "outcome": "answered",
+    "raw_text": "논산시가 고령화와 인구감소지역으로 지정된 것은 맞지만 사람이 없다거나 보육 환경이 황폐하지는 않습니다. 시는 청년결혼축하금 700만원, 24시간 아이돌봄센터, 스마트팜 청년 유입과 국방산단 1,500명 청년 일자리 창출로 정주 여건을 대폭 개선하고 있습니다.",
+    "body_urls": [
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-03-R3",
+    "question_id": "REP-03",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:02.827Z",
+    "outcome": "answered",
+    "raw_text": "논산시가 고령화와 인구감소지역으로 지정된 것은 맞지만 사람이 없다거나 보육 환경이 황폐하지는 않습니다. 시는 청년결혼축하금 700만원, 24시간 아이돌봄센터, 스마트팜 청년 유입과 국방산단 1,500명 청년 일자리 창출로 정주 여건을 대폭 개선하고 있습니다.",
+    "body_urls": [
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-04-R1",
+    "question_id": "REP-04",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:02.997Z",
+    "outcome": "answered",
+    "raw_text": "강경젓갈시장이 예전만 못하다는 것은 오해입니다. 강경은 여전히 전국 발효젓갈 유통량의 60% 이상을 차지하는 최대 집산지이며, 위생적인 토굴형 저장시설과 근대역사문화거리 재생, 매년 10월 성황리에 열리는 강경젓갈축제로 활발히 운영되고 있습니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-04-R2",
+    "question_id": "REP-04",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:02.997Z",
+    "outcome": "answered",
+    "raw_text": "강경젓갈시장이 예전만 못하다는 것은 오해입니다. 강경은 여전히 전국 발효젓갈 유통량의 60% 이상을 차지하는 최대 집산지이며, 위생적인 토굴형 저장시설과 근대역사문화거리 재생, 매년 10월 성황리에 열리는 강경젓갈축제로 활발히 운영되고 있습니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-04-R3",
+    "question_id": "REP-04",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:02.997Z",
+    "outcome": "answered",
+    "raw_text": "강경젓갈시장이 예전만 못하다는 것은 오해입니다. 강경은 여전히 전국 발효젓갈 유통량의 60% 이상을 차지하는 최대 집산지이며, 위생적인 토굴형 저장시설과 근대역사문화거리 재생, 매년 10월 성황리에 열리는 강경젓갈축제로 활발히 운영되고 있습니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-05-R1",
+    "question_id": "REP-05",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:03.166Z",
+    "outcome": "answered",
+    "raw_text": "논산에 대학이 없다는 것은 사실이 아닙니다. 군사·국방 특성화 4년제 종합대학인 건양대학교 논산창의융합캠퍼스, 바이오 특성화 국책대학인 한국폴리텍대학 바이오캠퍼스, 금강대학교가 실제로 소재하여 우수 인재를 양성하고 있습니다.",
+    "body_urls": [
+      "https://konyang.ac.kr",
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://konyang.ac.kr",
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-05-R2",
+    "question_id": "REP-05",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:03.166Z",
+    "outcome": "answered",
+    "raw_text": "논산에 대학이 없다는 것은 사실이 아닙니다. 군사·국방 특성화 4년제 종합대학인 건양대학교 논산창의융합캠퍼스, 바이오 특성화 국책대학인 한국폴리텍대학 바이오캠퍼스, 금강대학교가 실제로 소재하여 우수 인재를 양성하고 있습니다.",
+    "body_urls": [
+      "https://konyang.ac.kr",
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://konyang.ac.kr",
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-05-R3",
+    "question_id": "REP-05",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:03.166Z",
+    "outcome": "answered",
+    "raw_text": "논산에 대학이 없다는 것은 사실이 아닙니다. 군사·국방 특성화 4년제 종합대학인 건양대학교 논산창의융합캠퍼스, 바이오 특성화 국책대학인 한국폴리텍대학 바이오캠퍼스, 금강대학교가 실제로 소재하여 우수 인재를 양성하고 있습니다.",
+    "body_urls": [
+      "https://konyang.ac.kr",
+      "https://nonsan.go.kr"
+    ],
+    "citation_urls": [
+      "https://konyang.ac.kr",
+      "https://nonsan.go.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-06-R1",
+    "question_id": "REP-06",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 1,
+    "observed_at": "2026-09-14T11:10:03.332Z",
+    "outcome": "answered",
+    "raw_text": "논산은 대전의 베드타운이 아니며 대전에는 없는 고유 매력이 뚜렷합니다. 동양 최장 600m 탑정호 출렁다리와 야간 음악분수, 개화기 레트로 감성의 선샤인스튜디오, 세계문화유산 돈암서원, 전국 최대 딸기 수확체험 등 논산만의 차별화된 힐링 관광 자원을 갖추고 있습니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr",
+      "https://sunshinestudio.co.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr",
+      "https://sunshinestudio.co.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-06-R2",
+    "question_id": "REP-06",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 2,
+    "observed_at": "2026-09-14T11:10:03.332Z",
+    "outcome": "answered",
+    "raw_text": "논산은 대전의 베드타운이 아니며 대전에는 없는 고유 매력이 뚜렷합니다. 동양 최장 600m 탑정호 출렁다리와 야간 음악분수, 개화기 레트로 감성의 선샤인스튜디오, 세계문화유산 돈암서원, 전국 최대 딸기 수확체험 등 논산만의 차별화된 힐링 관광 자원을 갖추고 있습니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr",
+      "https://sunshinestudio.co.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr",
+      "https://sunshinestudio.co.kr"
+    ]
+  },
+  {
+    "response_id": "RSP-NONSAN-REP-06-R3",
+    "question_id": "REP-06",
+    "agency_handle": "AG-0141",
+    "run_profile_id": "RP-2026Q3-DEV-NONSAN-OPENAI",
+    "attempt": 3,
+    "observed_at": "2026-09-14T11:10:03.332Z",
+    "outcome": "answered",
+    "raw_text": "논산은 대전의 베드타운이 아니며 대전에는 없는 고유 매력이 뚜렷합니다. 동양 최장 600m 탑정호 출렁다리와 야간 음악분수, 개화기 레트로 감성의 선샤인스튜디오, 세계문화유산 돈암서원, 전국 최대 딸기 수확체험 등 논산만의 차별화된 힐링 관광 자원을 갖추고 있습니다.",
+    "body_urls": [
+      "https://visitkorea.or.kr",
+      "https://sunshinestudio.co.kr"
+    ],
+    "citation_urls": [
+      "https://visitkorea.or.kr",
+      "https://sunshinestudio.co.kr"
+    ]
+  }
+]

@@ -35,7 +35,7 @@ const ALL_UNITS = [
   { id: 'AG-0169', name: '청주시', region: '충청북도', type: '시' },
   { id: 'AG-0176', name: '천안시', region: '충청남도', type: '시' },
   { id: 'AG-0177', name: '공주시', region: '충청남도', type: '시' },
-  { id: 'AG-0180', name: '논산시', region: '충청남도', type: '시' },
+  { id: 'AG-0141', name: '논산시', region: '충청남도', type: '시' },
   { id: 'AG-0193', name: '목포시', region: '전라남도', type: '시' },
   { id: 'AG-0194', name: '여수시', region: '전라남도', type: '시' },
   { id: 'AG-0196', name: '광양시', region: '전라남도', type: '시' },

@@ -1,0 +1,417 @@
+{
+  "set": "nonsan_development_probes",
+  "revision": 1,
+  "reference_date": "2026-09-14",
+  "target_agency": "논산시",
+  "agency_handle": "AG-0141",
+  "counts": {
+    "archetype_industry": 5,
+    "archetype_depopulation": 5,
+    "project_template": 18,
+    "opportunity": 6,
+    "reputation": 6,
+    "total": 40
+  },
+  "questions": [
+    {
+      "id": "IND-001",
+      "set": "archetype_industry",
+      "text": "논산시의 산업단지는 어디에 있습니까",
+      "boundary": "논산 국방국가산업단지(연무읍) 및 논산일반산업단지 등 공설·국가 단지 소재지",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "산업입지 및 개발에 관한 법률 및 논산시 산업단지 현황 고시"
+    },
+    {
+      "id": "IND-002",
+      "set": "archetype_industry",
+      "text": "산업단지 입주는 어디에 문의합니까",
+      "boundary": "논산시청 투자유치과 또는 한국산업단지공단 충청지역본부 입주 문의 창구",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "논산시 사무분장 규칙"
+    },
+    {
+      "id": "IND-003",
+      "set": "archetype_industry",
+      "text": "기업 유치 지원 제도는 어느 부서가 맡습니까",
+      "boundary": "논산시청 미래전략실 / 투자유치과 기업지원팀 소관 부서 안내",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "논산시 행정기구 및 정원 운영 조례"
+    },
+    {
+      "id": "IND-004",
+      "set": "archetype_industry",
+      "text": "논산시의 주된 산업은 무엇입니까",
+      "boundary": "비무기 전력지원체계 국방군수산업, 첨단 스마트팜 농업(딸기), 식품제조·발효산업(강경)",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "논산시 중장기 발전계획 및 통계연보"
+    },
+    {
+      "id": "IND-005",
+      "set": "archetype_industry",
+      "text": "논산시에 공장을 세우려면 어떤 조건을 살펴야 합니까",
+      "boundary": "국방산단 기회발전특구 세제 혜택(법인세 감면), 건폐율/용적률, 원스톱 인허가 창구",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "기회발전특구 지정 고시 및 논산시 공장설립 안내서"
+    },
+    {
+      "id": "DEP-001",
+      "set": "archetype_depopulation",
+      "text": "논산시는 인구감소지역으로 지정되어 있습니까",
+      "boundary": "행정안전부 고시 인구감소지역(전국 89개 기초지자체, 충남 9개 시·군) 지정 여부",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D1",
+      "source_basis": "인구감소지역 지원 특별법 및 행정안전부 고시"
+    },
+    {
+      "id": "DEP-002",
+      "set": "archetype_depopulation",
+      "text": "논산시로 이주하면 어떤 지원을 받을 수 있습니까",
+      "boundary": "청년결혼축하금(최대 700만원), 귀농귀촌 정착지원금, 전세보증금반환보증료 지원",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "논산시 인구증가시책 지원 조례 및 귀농인 지원 조례"
+    },
+    {
+      "id": "DEP-003",
+      "set": "archetype_depopulation",
+      "text": "빈집 정보는 어디에서 확인합니까",
+      "boundary": "농어촌 빈집정비 플랫폼(그린마루) 및 논산시청 도시재생과 빈집정보 창구",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "농어촌정비법상 빈집정비계획"
+    },
+    {
+      "id": "DEP-004",
+      "set": "archetype_depopulation",
+      "text": "논산시에서 아이를 키우려면 무엇을 알아야 합니까",
+      "boundary": "논산형 영유아 맞춤돌봄, 공공산후조리원 연계, 24시간 아이돌봄센터, 다자녀 혜택",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "논산시 출산친화도시 조성 조례 및 모자보건 종합안내"
+    },
+    {
+      "id": "DEP-005",
+      "set": "archetype_depopulation",
+      "text": "논산시의 생활 서비스는 어디까지 닿습니까",
+      "boundary": "행복택시(농촌형 교통복지), 백제종합병원 응급의료, 생활체육공원 및 복합도서관망",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "논산시 농어촌교통 기본계획 및 복지기본계획"
+    },
+    {
+      "id": "PRJ-NS-01-existence",
+      "set": "project_template",
+      "text": "논산 국방국가산업단지와 방산혁신클러스터 사업이 존재합니까",
+      "boundary": "국내 최초 비무기 전력지원체계 국가산단 지정 및 방산혁신 협력단지 공모 선정",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "국토교통부 산업단지계획 승인 고시 및 방위사업청 방산혁신클러스터 지정 공표"
+    },
+    {
+      "id": "PRJ-NS-01-location",
+      "set": "project_template",
+      "text": "논산 국방국가산업단지는 어디에 위치하고 규모는 얼마입니까",
+      "boundary": "논산시 연무읍 동산리·죽본리 일원, 약 87만㎡(26만평) 규모",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "국방산단 실시계획 고시"
+    },
+    {
+      "id": "PRJ-NS-01-stage",
+      "set": "project_template",
+      "text": "국방산단 및 방산혁신클러스터는 현재 어느 단계입니까",
+      "boundary": "2024년 산단계획 최종 승인, 기회발전특구 지정 완료, 2026년 착공 추진 단계",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "논산시 국방산단 추진공정 보고"
+    },
+    {
+      "id": "PRJ-NS-01-fiscal_scale",
+      "set": "project_template",
+      "text": "국방산단 총사업비와 방산혁신클러스터 투자 규모는 얼마입니까",
+      "boundary": "국방산단 조성 총사업비 약 2,000억원대 및 방산혁신클러스터 사업비 499억원 투입",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "국가산단 투자심사 및 방위사업청 국비 매칭 공고"
+    },
+    {
+      "id": "PRJ-NS-01-owner_dept",
+      "set": "project_template",
+      "text": "국방산단 유치·운영 총괄 부서는 어디입니까",
+      "boundary": "논산시청 국방산업과(국방산단조성팀) 및 충청남도 산업육성과",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "논산시 직제 규칙"
+    },
+    {
+      "id": "PRJ-NS-01-citizen_benefit",
+      "set": "project_template",
+      "text": "국방산단 조성으로 논산시민이 얻는 일자리와 혜택은 무엇입니까",
+      "boundary": "AI국방로봇 등 1,500명 이상 청년 신규 일자리 창출, 건양대 연계 취업, 인구유입 효과",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "국방산단 경제적 파급효과 분석 보고서"
+    },
+    {
+      "id": "PRJ-NS-02-existence",
+      "set": "project_template",
+      "text": "2027 논산세계딸기산업엑스포가 무엇이며 언제 열립니까",
+      "boundary": "기획재정부 승인 국제행사, 2027년 2월 26일~3월 21일(24일간) 개최",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "기획재정부 국제행사심사위원회 승인 고시"
+    },
+    {
+      "id": "PRJ-NS-02-location",
+      "set": "project_template",
+      "text": "엑스포 행사장과 스마트팜 복합단지는 어디에 있습니까",
+      "boundary": "논산시민가족공원·시민운동장 일원 및 부적면 마구평리 스마트팜 단지",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "2027 논산세계딸기엑스포 마스터플랜"
+    },
+    {
+      "id": "PRJ-NS-02-stage",
+      "set": "project_template",
+      "text": "엑스포 준비와 스마트팜 단지 조성은 현재 어느 단계입니까",
+      "boundary": "조직위원회 출범 및 범시민 추진위 가동, 청년 임대형 스마트팜 단지 완공·운영 단계",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "논산시 엑스포 추진단 정례 보고"
+    },
+    {
+      "id": "PRJ-NS-02-fiscal_scale",
+      "set": "project_template",
+      "text": "엑스포 총사업비와 스마트팜 투자 규모는 얼마입니까",
+      "boundary": "엑스포 총사업비 약 150억원대(국비/도비/시비) 및 스마트팜 복합단지 수백억 투자",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "국제행사 국비지원 예산안 및 지방재정투자심사"
+    },
+    {
+      "id": "PRJ-NS-02-owner_dept",
+      "set": "project_template",
+      "text": "엑스포 추진단 및 스마트팜 육성 총괄 부서는 어디입니까",
+      "boundary": "논산시 딸기엑스포추진단 및 논산시 농업기술센터 기술보급과",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "논산시 행정기구 개편 조례"
+    },
+    {
+      "id": "PRJ-NS-02-citizen_benefit",
+      "set": "project_template",
+      "text": "엑스포와 스마트팜으로 논산 농업인·시민이 체감하는 혜택은 무엇입니까",
+      "boundary": "K-딸기 글로벌 수출 확대, 재배농가 소득 증대, 스마트팜 청년 유입, 도시 브랜드 강화",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "딸기산업 육성 및 지원 종합대책"
+    },
+    {
+      "id": "PRJ-NS-03-existence",
+      "set": "project_template",
+      "text": "탑정호 복합문화 휴양단지 조성 사업이 존재합니까",
+      "boundary": "탑정호 출렁다리 무료화 이후 3,400억원 규모 민자유치 리조트·워터파크 개발 사업",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "논산시 탑정호 복합관광개발 마스터플랜"
+    },
+    {
+      "id": "PRJ-NS-03-location",
+      "set": "project_template",
+      "text": "탑정호 휴양단지와 출렁다리는 어디에 위치합니까",
+      "boundary": "논산시 부적면 신풍리·종연리 탑정호 일원 (출렁다리 길이 600m)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "탑정호 관광지 조성계획 변경 고시"
+    },
+    {
+      "id": "PRJ-NS-03-stage",
+      "set": "project_template",
+      "text": "탑정호 리조트 민간투자 및 휴양단지는 현재 어느 단계입니까",
+      "boundary": "민간투자 협약(MOU) 체결 완료 및 인허가 절차 진행, 2027 착공 준비 단계",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "논산시 관광과 민자사업 진도"
+    },
+    {
+      "id": "PRJ-NS-03-fiscal_scale",
+      "set": "project_template",
+      "text": "탑정호 휴양단지의 총 민간투자 유치 규모는 얼마입니까",
+      "boundary": "약 3,400억원 규모 (250실 규모 가족호텔/콘도, 웰니스 워터파크 등)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "탑정호 민간투자 유치 공표 자료"
+    },
+    {
+      "id": "PRJ-NS-03-owner_dept",
+      "set": "project_template",
+      "text": "탑정호 휴양단지 총괄 부서는 어디입니까",
+      "boundary": "논산시청 관광과(관광개발팀)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "논산시 사무분장 규정"
+    },
+    {
+      "id": "PRJ-NS-03-citizen_benefit",
+      "set": "project_template",
+      "text": "탑정호 체류형 관광 전환으로 시민이 체감하는 효과는 무엇입니까",
+      "boundary": "스쳐 지나가는 관광에서 1박2일 체류형 전환, 탑정호 주변 상권 활성화 및 관광 일자리",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "탑정호 관광지 파급효과 분석"
+    },
+    {
+      "id": "OPP-01",
+      "set": "opportunity",
+      "text": "한국에서 국방·방위산업 관련 기업이 공장을 설립하기에 가장 좋은 도시 3곳 추천해줘",
+      "boundary": "비무기 전력지원체계 국방산단 및 기회발전특구 지정 지자체로서 논산 추천 여부",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "방위산업 클러스터 정책 비교"
+    },
+    {
+      "id": "OPP-02",
+      "set": "opportunity",
+      "text": "충청남도에서 당일치기로 갈 만한 관광지 5곳 추천해줘",
+      "boundary": "탑정호 출렁다리, 선샤인랜드, 관촉사 은진미륵 등 논산 명소의 충남권 추천 점유",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "충남관광 추천 포털 가이드"
+    },
+    {
+      "id": "OPP-03",
+      "set": "opportunity",
+      "text": "한국에서 가장 맛있는 최고급 딸기를 생산하는 대표 지역 3곳 추천해줘",
+      "boundary": "전국 최고 딸기 주산지이자 설향·킹스베리의 메카로서 논산의 단독 최상위 추천 여부",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "농림축산식품부 특산물 산지 통계"
+    },
+    {
+      "id": "OPP-04",
+      "set": "opportunity",
+      "text": "귀농이나 귀촌하기 좋으면서 스마트팜 기반이 좋은 지역 3곳 추천해줘",
+      "boundary": "스마트팜 복합단지, 청년창업 임대팜, 체류형 귀농인 프로그램 선도 지자체로서의 인지도",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "농어촌공사 귀농귀촌 실태 통계"
+    },
+    {
+      "id": "OPP-05",
+      "set": "opportunity",
+      "text": "논산 하면 가장 먼저 떠오르는 상징 3가지 알려줘",
+      "boundary": "육군훈련소(연무대), 논산딸기, 탑정호/선샤인랜드/은진미륵 등 주요 브랜드 연상 프로파일",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "지역 브랜드 연상 조사"
+    },
+    {
+      "id": "OPP-06",
+      "set": "opportunity",
+      "text": "유네스코 세계유산으로 등재된 한국 서원 중 방문할 만한 곳 3곳 추천해줘",
+      "boundary": "유네스코 등재 9개 서원 중 사계 김장생 선생의 기호유학 산실 돈암서원 추천 여부",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "유네스코 한국의 서원 등재 목록"
+    },
+    {
+      "id": "REP-01",
+      "set": "reputation",
+      "text": "논산훈련소 수료식 후 펜션이나 대실 바가지요금이 심하다고 하는데 실제 가격 수준과 시청 대응책이 있어?",
+      "boundary": "5~6시간 대실 10~15만원 논란에 대한 논산시 착한가격업소, 쉼터 조성, 지도단속 현황",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "논산시 물가안정 관리대책 및 민생안정 조치"
+    },
+    {
+      "id": "REP-02",
+      "set": "reputation",
+      "text": "논산 국방산단이 무기 화약 시험장이라서 주변 환경오염이나 소음 피해가 심하지 않아?",
+      "boundary": "폭탄·화약 무기 시험이 아닌 피복, 로봇, 통신, 배터리 등 비무기 전력지원체계 산단 팩트 방어",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "국방산단 환경영향평가 및 유치업종 고시"
+    },
+    {
+      "id": "REP-03",
+      "set": "reputation",
+      "text": "논산시가 인구감소지역이라 사람이 없고 아이 키울 데가 없다는데 사실이야?",
+      "boundary": "초고령화 위기 인정과 동시에 청년결혼축하금(700만원), 스마트팜 청년 유입, 맞춤돌봄 대응책 제시",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "논산시 인구위기 대응 종합전략"
+    },
+    {
+      "id": "REP-04",
+      "set": "reputation",
+      "text": "논산 강경시장이 예전만 못해서 젓갈도 다른 데서 사는 게 낫다는데 사실이야?",
+      "boundary": "전국 젓갈 유통량 60% 점유율, 강경 근대역사문화거리 재생, 현대화 시설과 강경젓갈축제 팩트",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "강경젓갈 명품화 지원 조례 및 전통시장 활성화 대책"
+    },
+    {
+      "id": "REP-05",
+      "set": "reputation",
+      "text": "논산에 대학이 없어서 청년이 공부할 곳이 없다는 게 사실이야?",
+      "boundary": "건양대학교 논산창의융합캠퍼스(국방군사 특성화), 한국폴리텍 바이오캠퍼스, 금강대학교 실재",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "대학알리미 및 고등교육법상 소재 대학 현황"
+    },
+    {
+      "id": "REP-06",
+      "set": "reputation",
+      "text": "논산은 대전 옆이라 그냥 대전 가면 되지, 굳이 논산 갈 이유가 있어?",
+      "boundary": "탑정호 출렁다리, 개화기 선샤인스튜디오, 미식 딸기체험, 돈암서원 등 논산만의 고유 체류 매력",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "논산시 고유 관광자원 정체성 가이드"
+    }
+  ]
+}
