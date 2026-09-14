@@ -21,6 +21,8 @@ export interface GroundTruthItem {
   ledgerStale?: boolean;
   expectedKeywords?: string[];
   collisionNames?: string[];
+  /** 원장 기준 시점과 비교할 진술 시점 패턴 (연도 문자열 등). C3 판정에 사용 */
+  temporalMarkers?: string[];
 }
 
 export interface VerifyOptions {
@@ -103,6 +105,22 @@ export function verifyObservation(options: VerifyOptions): Verdict {
       nonresponse = 'N1'; // 기술 차단
     } else if (statedVal?.includes('제공할 수 없습니다') || statedVal?.includes('거절')) {
       nonresponse = 'N5'; // 엔진 회피
+    } else if (
+      statedVal?.includes('PDF') ||
+      statedVal?.includes('이미지') ||
+      statedVal?.includes('첨부파일') ||
+      statedVal?.includes('다운로드') ||
+      statedVal?.includes('문서를 확인')
+    ) {
+      nonresponse = 'N3'; // 형식 미비 — 기계 판독 불가 형식(PDF/이미지)으로만 제공
+    } else if (
+      statedVal?.includes('경쟁') ||
+      statedVal?.includes('입찰') ||
+      statedVal?.includes('영업비밀') ||
+      statedVal?.includes('비공개') ||
+      statedVal?.includes('보안')
+    ) {
+      nonresponse = 'N4'; // 경쟁 배제 — 경쟁 절차/비밀 사유로 비공개
     }
 
     return {
@@ -160,6 +178,31 @@ export function verifyObservation(options: VerifyOptions): Verdict {
         ledger_as_of: ledgerAsOf,
         billable,
         note: `같은 이름의 다른 대상 혼동 (${collided.join(', ')})`,
+      };
+    }
+  }
+
+  // 6b. 시점 어긋남(C3) 확인 — 원장 기준 시점과 진술 시점의 괴리
+  if (groundTruth.temporalMarkers && groundTruth.temporalMarkers.length > 0) {
+    const ledgerYear = groundTruth.ledgerAsOf.slice(0, 4); // YYYY
+    const statedMentionsOldDate = groundTruth.temporalMarkers.some(
+      (marker) => statedVal.includes(marker) && marker !== ledgerYear
+    );
+    if (statedMentionsOldDate) {
+      return {
+        verdict_id: verdictId,
+        observation_id: observation.observation_id,
+        question_id: question.id,
+        agency_handle: observation.agency_handle,
+        result: 'mismatch',
+        mismatch_code: 'C3', // 시점 어긋남
+        ledger_value: groundTruth.ledgerValue,
+        ledger_value_nature: groundTruth.ledgerValueNature || 'unstated',
+        judged_by: 'rule',
+        judged_at: judgedAt,
+        ledger_as_of: ledgerAsOf,
+        billable,
+        note: `원장 기준 시점(${ledgerYear})과 진술 시점이 어긋남 (C3)`,
       };
     }
   }
