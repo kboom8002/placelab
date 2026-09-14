@@ -266,6 +266,25 @@ export const DIAGNOSTIC_REPORTS: DiagnosticReportMeta[] = [
     category: 'spec_output',
     tags: ['능동적탐색', '서귀포시', '하원테크노', '우주산업', '치유의숲', '택배비지원', '5대절산출물'],
   },
+  {
+    slug: 'vip-seogwipo-dev-2026-09',
+    title: '서귀포시 AI 정보 접근성 진단 보고 — 도지사 보고용 VIP 요약본',
+    subtitle: '시민·관광객이 AI에게 서귀포시를 물었을 때 정확한 답을 받고 있는지에 대한 진단 결과와 대응 방안',
+    unitId: 'lg-50130',
+    unitName: '서귀포시',
+    region: '제주특별자치도',
+    date: '2026-09-14',
+    slots: 40,
+    sovRate: 'VIP 요약',
+    controllabilityRate: '공적 출처 13%',
+    groundingRate: '100.0%',
+    keyStrengths: '평판 방어(입도세·바가지) 정확 팩트체크 · 웰니스 분야 AI 추천 선도 · 도서접경 80% 정확',
+    negativeAlert: '공적출처 인용 13% · 역점사업 전용 안내 페이지 부재 · 도-시 정보 이원화',
+    reportPath: 'docs/L2-서귀포시-VIP-도지사보고서-2026-09.md',
+    specOutputPath: 'docs/measurement-spec/outputs/OUT-SEOGWIPO-DEV-2026Q3.json',
+    category: 'spec_output',
+    tags: ['VIP보고', '도지사', '서귀포시', '경영진요약', '대응방안'],
+  },
 ];
 
 export function getReportBySlug(slug: string): DiagnosticReportMeta | undefined {
