@@ -19,6 +19,7 @@ interface Claim {
   evidence: string;
   falsification: string;
   nextStep: string;
+  specLink?: string;
 }
 
 const claims: Claim[] = [
@@ -37,6 +38,7 @@ const claims: Claim[] = [
     evidence: '없음',
     falsification: '오답률 상위 주제와 민원 발생 상위 주제 사이에 관련이 확인되지 않음',
     nextStep: '민원 통계를 대조할 지자체 1곳 확보 (FR-41)',
+    specLink: 'measurement-spec 판정 엔진(C1~C4 코드)으로 실증 검증 연동',
   },
   {
     id: 'C-3',
@@ -45,6 +47,7 @@ const claims: Claim[] = [
     evidence: '없음. v1.0 문항 20종은 강건성 검사를 받은 적이 없다',
     falsification: '20문항 중 절반 이상이 민감 문항',
     nextStep: '사전 등록 후 파일럿 (ADR-0009)',
+    specLink: 'question.schema.json 8블록 강건성 검사(INV-10) 연동',
   },
   {
     id: 'C-4',
@@ -53,6 +56,7 @@ const claims: Claim[] = [
     evidence: '없음',
     falsification: '조치 단위의 변화가 대조군 평균 변화와 구분되지 않음',
     nextStep: 'P1 계약 1건에서 개입 전후 측정',
+    specLink: 'spec grid 정본 부재(canon_absent) 개입 전후 추적 연동',
   },
   {
     id: 'C-5',
@@ -85,6 +89,7 @@ const claims: Claim[] = [
     evidence: '없음',
     falsification: '두 값 사이에 관련이 확인되지 않음',
     nextStep: '참여 단위 50곳 확보 후',
+    specLink: '4칸 파이프라인 수집(collector)과 판정(verifier) 교차 통계 분석 연동',
   },
   {
     id: 'C-9',
@@ -220,6 +225,13 @@ export default function EvidencePage() {
                 </span>
                 <p className="text-navy-900 font-semibold">{claim.nextStep}</p>
               </div>
+
+              {claim.specLink && (
+                <div className="pt-2 border-t border-slate-100 flex items-center gap-1.5 text-xs text-navy-950 font-semibold bg-gold-50/50 p-2.5 rounded-lg border border-gold-200/60">
+                  <FileCheck2 className="w-3.5 h-3.5 text-gold-600 shrink-0" />
+                  <span>{claim.specLink}</span>
+                </div>
+              )}
             </div>
           </div>
         ))}

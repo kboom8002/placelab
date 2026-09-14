@@ -17,7 +17,8 @@ export interface DiagnosticReportMeta {
   negativeAlert: string;
   reportPath: string; // relative to project root
   jsonPath?: string;   // relative to project root
-  category: 'all' | 'industry_military' | 'tourism_healing' | 'metropolitan_admin' | 'strategy_playbook';
+  specOutputPath?: string; // relative to project root (Output JSON)
+  category: 'all' | 'industry_military' | 'tourism_healing' | 'metropolitan_admin' | 'strategy_playbook' | 'spec_output';
   tags: string[];
 }
 
@@ -226,6 +227,24 @@ export const DIAGNOSTIC_REPORTS: DiagnosticReportMeta[] = [
     reportPath: 'docs/지자체-AEO-GEO-실전대응-통합매뉴얼.md',
     category: 'strategy_playbook',
     tags: ['실전매뉴얼', '표준조례안', 'Schema.org', 'robots.txt', '3단계로드맵'],
+  },
+  {
+    slug: 'spec-suwon-2026-09',
+    title: '수원특례시 measurement-spec 5대 절 공식 진단 산출물',
+    subtitle: '4칸 파이프라인(수집→추출→판정→산출) 실증 — "정본 부재 영역, N1~N5 귀책 코드 분포 및 공적 출처 인용률 완결 보고"',
+    unitId: 'lg-41110',
+    unitName: '수원특례시',
+    region: '경기도',
+    date: '2026-09-14',
+    slots: 30,
+    sovRate: '규격 산출',
+    controllabilityRate: '75.0%',
+    groundingRate: '100.0%',
+    keyStrengths: '5대 절 고정 산출 · N1~N5 귀책 코드 분리 · judged_by: rule 강제',
+    negativeAlert: '미발행 정본 부재(canon_absent) 1건 확인',
+    reportPath: 'docs/L2-수원시-v22-종합진단-2026-09.md',
+    category: 'spec_output',
+    tags: ['measurement-spec', '5대절산출물', 'N코드분포', 'C0~C4판정', '정본부재'],
   },
 ];
 

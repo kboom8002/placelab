@@ -6,7 +6,7 @@ import { CURRENT_METHOD_VERSION } from '@/lib/constants/measurement';
 import { DashboardClient } from '@/components/dashboard/DashboardClient';
 import { SourceNote } from '@/components/ui/SourceNote';
 import Link from 'next/link';
-import { BookOpen, Send, Sparkles, AlertCircle, ArrowRight, ShieldCheck, FileText, ChevronRight } from 'lucide-react';
+import { BookOpen, Send, Sparkles, AlertCircle, ArrowRight, ShieldCheck, FileText, ChevronRight, FileCheck2 } from 'lucide-react';
 import { DIAGNOSTIC_REPORTS } from '@/lib/reports/diagnostic-reports';
 
 export const revalidate = 3600; // SDD 6.1 ISR: 1시간 주기 갱신
@@ -154,6 +154,35 @@ export default async function HomePage() {
                 </div>
               </Link>
             ))}
+          </div>
+        </section>
+
+        {/* measurement-spec 규격 진단 소개 카드 */}
+        <section className="rounded-2xl border border-gold-500/30 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-950 p-6 sm:p-8 text-white shadow-lg relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-80 h-80 bg-gold-500/10 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div>
+          <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div className="space-y-2 max-w-2xl">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 text-xs font-bold tracking-wider uppercase border border-gold-500/30">
+                <FileCheck2 className="w-3.5 h-3.5" />
+                <span>MEASUREMENT SPEC · v1.0 신규 공식 엔진</span>
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-white leading-snug">
+                지자체 AI 정보 상태 다차원 측정 규격 가동
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                4칸 파이프라인(수집→추출→판정→산출)과 30개 공통 코어 문항을 바탕으로,
+                언어 모형의 자의적 평가를 배제하고 <strong>5대 절 공식 산출물(N1~N5 귀책 코드, 정본 부재 귀속)</strong>을 즉시 진단합니다.
+              </p>
+            </div>
+            <div className="shrink-0">
+              <Link
+                href="/measure"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-gradient-to-r from-gold-400 to-gold-500 text-navy-950 font-black text-sm hover:from-gold-300 hover:to-gold-400 shadow-md transition-all hover:scale-105"
+              >
+                <span>규격 진단 실행하기</span>
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
           </div>
         </section>
 

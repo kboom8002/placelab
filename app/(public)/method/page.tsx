@@ -10,7 +10,7 @@ import {
   PROMOTION_REQUIRED_WEEKS,
 } from '@/lib/constants/scanner';
 import { SourceNote } from '@/components/ui/SourceNote';
-import { BookOpen, CheckCircle2, ShieldCheck, Scale, AlertOctagon, Terminal, FileCode2 } from 'lucide-react';
+import { BookOpen, CheckCircle2, ShieldCheck, Scale, AlertOctagon, Terminal, FileCode2, FileCheck2, Database, ShieldAlert, Cpu } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: '측정 방법론 명세서 — kplacelab',
@@ -275,6 +275,99 @@ export default function MethodPage() {
           <p className="text-sm text-amber-900 leading-relaxed">
             kplacelab은 부재(모른다고 답함)와 작화(거짓을 꾸며냄)를 결코 같은 무게로 평균 내지 않습니다.
             작화가 1회라도 발견되면 <strong>Floor Risk: Critical</strong>로 단독 표기하여 위험을 알립니다 (INV-9).
+          </p>
+        </div>
+      </section>
+
+      {/* 5. measurement-spec AI 프로빙 측정 규격 명세 */}
+      <section className="space-y-6">
+        <div className="space-y-1.5">
+          <div className="text-xs font-bold uppercase tracking-wider text-gold-600">05 / MEASUREMENT SPEC</div>
+          <h2 className="text-2xl font-bold text-navy-950 flex items-center gap-2.5">
+            <FileCheck2 className="w-6 h-6 text-navy-900" />
+            AI 프로빙 다차원 측정 규격 (spec-v1.0)
+          </h2>
+          <p className="text-slate-600 text-sm">
+            언어 모형의 자의적 점수 산출을 금지하고, 4칸 파이프라인과 규칙 원장 대조로 공표 산출물을 통제합니다.
+          </p>
+        </div>
+
+        {/* 4칸 파이프라인 */}
+        <div className="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 space-y-4">
+          <h3 className="font-bold text-navy-950 text-base flex items-center gap-2">
+            <Cpu className="w-5 h-5 text-gold-600" />
+            4칸 파이프라인 (The 4-Stage Engine)
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-4 gap-3 text-xs">
+            <div className="p-3.5 bg-white rounded-xl border border-slate-200 space-y-1">
+              <span className="font-bold text-navy-900 block">1. 수집 (Collector)</span>
+              <p className="text-slate-600">robots.txt 확인 필수, SCANNER_UA 고정, 응답 원문 무손실 보존</p>
+            </div>
+            <div className="p-3.5 bg-white rounded-xl border border-slate-200 space-y-1">
+              <span className="font-bold text-navy-900 block">2. 추출 (Extractor)</span>
+              <p className="text-slate-600">진술값 및 사실관계 분리 (extracted_by: model, 판정 금지)</p>
+            </div>
+            <div className="p-3.5 bg-white rounded-xl border border-slate-200 space-y-1">
+              <span className="font-bold text-emerald-800 block">3. 판정 (Verifier)</span>
+              <p className="text-slate-600">규칙 기반 원장 대조만 허용 (judged_by: rule 강제, LLM 개입 금지)</p>
+            </div>
+            <div className="p-3.5 bg-white rounded-xl border border-slate-200 space-y-1">
+              <span className="font-bold text-blue-800 block">4. 산출 (Output)</span>
+              <p className="text-slate-600">5대 절 고정 순서 조립, 익명 손잡이 치환, 프록시 고지 필수</p>
+            </div>
+          </div>
+        </div>
+
+        {/* 5대 절 고정 산출물 */}
+        <div className="bg-white border border-slate-200/80 rounded-2xl p-6 space-y-3">
+          <h3 className="font-bold text-navy-950 text-base flex items-center gap-2">
+            <Database className="w-5 h-5 text-gold-600" />
+            5대 절 산출물 고정 순서 (순서 임의 변경 불가)
+          </h3>
+          <ol className="list-decimal list-inside space-y-2 text-xs sm:text-sm text-slate-700">
+            <li><strong>제1절 정본 부재 영역과 그 귀속:</strong> 공적 주체 어디에서도 발행하지 않은 정보 및 개선 권한 주체(ownership)</li>
+            <li><strong>제2절 서술형 개체의 실재·등록 상태:</strong> 고유 시설·제도 명칭의 공적 발행 및 등록 여부</li>
+            <li><strong>제3절 무응답 귀책 분포 (N1~N5):</strong> 단순 빈칸 합산 금지, 미응답의 구조적 원인 분류</li>
+            <li><strong>제4절 공적 출처가 근거로 쓰인 정도:</strong> AI 답변이 공적 1차·2차 출처를 인용한 비율(%) 및 분포</li>
+            <li><strong>제5절 여건 고정 후 잔여 폭:</strong> 인구·지역 등 불가항력 여건을 동류 집단(peer group)으로 고정한 뒤 남는 차이</li>
+          </ol>
+        </div>
+
+        {/* N코드 & C코드 대조표 */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+          <div className="p-4 rounded-xl bg-rose-50/70 border border-rose-200 space-y-2">
+            <h4 className="font-bold text-rose-950 flex items-center gap-1.5">
+              <ShieldAlert className="w-4 h-4 text-rose-600" /> 무응답 귀책 분류 (Nonresponse Codes)
+            </h4>
+            <ul className="space-y-1 text-rose-900/90">
+              <li>• <strong>N1 (기술 차단):</strong> robots.txt 또는 WAF 방화벽에 의한 기계 접근 차단</li>
+              <li>• <strong>N2 (내용 부재):</strong> 조례·공고 등 공적 정보 자체가 웹에 존재하지 않음</li>
+              <li>• <strong>N3 (형식 미비):</strong> PDF/이미지 등 비기계독식 첨부파일로 방치</li>
+              <li>• <strong>N4 (경쟁 배제):</strong> 입찰·영업비밀·보안 등 법령상 비공개 사유</li>
+              <li>• <strong>N5 (엔진 회피):</strong> AI 서비스 자체 정책 또는 회피로 인한 미응답</li>
+            </ul>
+          </div>
+          <div className="p-4 rounded-xl bg-blue-50/70 border border-blue-200 space-y-2">
+            <h4 className="font-bold text-blue-950 flex items-center gap-1.5">
+              <CheckCircle2 className="w-4 h-4 text-blue-600" /> 부정합 판정 분류 (Mismatch Codes)
+            </h4>
+            <ul className="space-y-1 text-blue-900/90">
+              <li>• <strong>C0 (대조 불가):</strong> 사실 원장 데이터 미등록 상태</li>
+              <li>• <strong>C1 (수치 불일치):</strong> 금액·인원 등 구체적 수치 오답</li>
+              <li>• <strong>C2 (출처 부적절):</strong> 사설 광고·블로그 등 비공인 출처 왜곡</li>
+              <li>• <strong>C3 (시점 어긋남):</strong> 원장 기준년과 진술 시점의 괴리 (과거 정보 진술)</li>
+              <li>• <strong>C4 (대상 혼동):</strong> 타 지자체 제도 또는 광역 정책과의 혼동</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* 3대 공표 경로 보호 */}
+        <div className="p-4 rounded-xl bg-slate-900 text-white space-y-1.5 text-xs">
+          <span className="font-bold text-gold-400 block">3대 공표 경로 보호 원칙 (INV-3 & INV-4)</span>
+          <p className="text-slate-300">
+            <strong>전국 공표문:</strong> 익명 손잡이(A군, B시) 자동 치환 및 사전 통지 게이트 통과 후 공표 · 
+            <strong>기관별 통보서:</strong> 소관 기관만 실명 통보 · 
+            <strong>익명 원자료:</strong> 동류 집단 표본 수 min_cell_size ≥ 5 미만 시 발행 거부(역추적 방지).
           </p>
         </div>
       </section>

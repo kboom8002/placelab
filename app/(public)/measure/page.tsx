@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { Search, Zap, Microscope, Check, Users, Settings } from 'lucide-react';
+import { Search, Zap, Microscope, Check, Users, Settings, FileCheck2, ShieldCheck } from 'lucide-react';
 import clsx from 'clsx';
 
 const EXAMPLE_UNITS = [
@@ -33,7 +33,7 @@ export default function MeasurePage() {
   const router = useRouter();
   const [search, setSearch] = useState('');
   const [selectedUnit, setSelectedUnit] = useState<typeof EXAMPLE_UNITS[0] | null>(null);
-  const [mode, setMode] = useState<'quick' | 'complete'>('quick');
+  const [mode, setMode] = useState<'quick' | 'complete' | 'spec'>('spec');
   const [compare, setCompare] = useState(false);
   const [selectedPersonas, setSelectedPersonas] = useState<Set<string>>(new Set(PERSONAS.map(p => p.id)));
   const [showDropdown, setShowDropdown] = useState(false);
@@ -55,7 +55,12 @@ export default function MeasurePage() {
 
   const handleStart = () => {
     if (!selectedUnit) return;
-    router.push(`/measure/demo-${selectedUnit.id}`);
+    if (mode === 'spec') {
+      // 신규 measurement-spec 4칸 엔진 전용 실행 페이지로 라우팅
+      router.push(`/measure/spec-${encodeURIComponent(selectedUnit.name)}`);
+    } else {
+      router.push(`/measure/demo-${selectedUnit.id}`);
+    }
   };
 
   return (
@@ -138,7 +143,31 @@ export default function MeasurePage() {
               <h2 className="text-2xl font-bold">측정 모드</h2>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-3 gap-4">
+              <button
+                onClick={() => { setMode('spec'); setCompare(false); }}
+                className={clsx(
+                  "p-6 rounded-xl border-2 text-left transition-all relative overflow-hidden",
+                  mode === 'spec' ? "border-[#c9a84c] bg-[#c9a84c]/10 shadow-sm" : "border-gray-200 hover:border-gray-300"
+                )}
+              >
+                <div className="absolute top-3 right-3">
+                  <span className="text-[11px] bg-[#0a1628] text-[#c9a84c] px-2 py-0.5 rounded-full font-bold">
+                    권장 규격
+                  </span>
+                </div>
+                <div className="flex items-center gap-3 mb-2">
+                  <FileCheck2 className={clsx("w-6 h-6", mode === 'spec' ? "text-[#c9a84c]" : "text-gray-400")} />
+                  <h3 className="text-lg font-bold">규격 진단</h3>
+                </div>
+                <p className="text-gray-600 text-xs mb-3">measurement-spec 4칸 엔진 기반 공식 진단</p>
+                <ul className="text-xs space-y-1 text-gray-500">
+                  <li>• 프로필: RP-2026Q3-A</li>
+                  <li>• 4칸 파이프라인 (수집·추출·판정·산출)</li>
+                  <li>• 5대 절 고정 산출물 (N/C 코드)</li>
+                </ul>
+              </button>
+
               <button
                 onClick={() => { setMode('quick'); setCompare(false); }}
                 className={clsx(
@@ -148,10 +177,10 @@ export default function MeasurePage() {
               >
                 <div className="flex items-center gap-3 mb-2">
                   <Zap className={clsx("w-6 h-6", mode === 'quick' ? "text-[#c9a84c]" : "text-gray-400")} />
-                  <h3 className="text-xl font-bold">퀵 모드</h3>
+                  <h3 className="text-lg font-bold">퀵 모드</h3>
                 </div>
-                <p className="text-gray-600 text-sm mb-4">빠른 현황 파악을 위한 기본 측정</p>
-                <ul className="text-sm space-y-1 text-gray-500">
+                <p className="text-gray-600 text-xs mb-3">빠른 현황 파악을 위한 기본 측정</p>
+                <ul className="text-xs space-y-1 text-gray-500">
                   <li>• OpenAI 단일 모델</li>
                   <li>• 35문항 × 1회 측정</li>
                   <li>• 소요시간: ~2분</li>
@@ -167,11 +196,11 @@ export default function MeasurePage() {
               >
                 <div className="flex items-center gap-3 mb-2">
                   <Microscope className={clsx("w-6 h-6", mode === 'complete' ? "text-[#c9a84c]" : "text-gray-400")} />
-                  <h3 className="text-xl font-bold">완전 모드</h3>
-                  <span className="text-xs bg-[#0a1628] text-white px-2 py-1 rounded-full">탐색적</span>
+                  <h3 className="text-lg font-bold">완전 모드</h3>
+                  <span className="text-[10px] bg-[#0a1628] text-white px-2 py-0.5 rounded-full">탐색적</span>
                 </div>
-                <p className="text-gray-600 text-sm mb-4">심층 분석 및 교차 검증을 위한 정밀 측정</p>
-                <ul className="text-sm space-y-1 text-gray-500">
+                <p className="text-gray-600 text-xs mb-3">심층 분석 및 교차 검증을 위한 정밀 측정</p>
+                <ul className="text-xs space-y-1 text-gray-500">
                   <li>• ChatGPT + Gemini + Perplexity</li>
                   <li>• 35문항 × 5회 반복 (Robustness)</li>
                   <li>• 소요시간: ~10분</li>
@@ -187,61 +216,96 @@ export default function MeasurePage() {
               <h2 className="text-2xl font-bold">상세 옵션</h2>
             </div>
 
-            <div className="space-y-8">
-              <div>
-                <div className="flex items-center justify-between mb-2">
-                  <div className="flex items-center gap-2">
-                    <Users className="w-5 h-5 text-gray-600" />
-                    <h3 className="font-bold text-lg">경쟁지역 비교</h3>
+            {mode === 'spec' ? (
+              <div className="space-y-6 bg-[#f8f7f4] p-5 rounded-xl border border-gray-200">
+                <div className="flex items-start gap-3">
+                  <ShieldCheck className="w-6 h-6 text-[#c9a84c] shrink-0 mt-0.5" />
+                  <div>
+                    <h3 className="font-bold text-gray-900 mb-1">measurement-spec v1.0 정규 측정 규격 적용</h3>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      이 모드는 등록부 기반 단일 출처(SSOT)에 따라 동작하며, 
+                      <strong> 언어 모형의 판정 개입을 금지(judged_by: rule)</strong>하고 
+                      <strong> 5대 절 고정 산출물</strong>을 도출합니다.
+                    </p>
                   </div>
-                  <label className="relative inline-flex items-center cursor-pointer">
-                    <input 
-                      type="checkbox" 
-                      className="sr-only peer" 
-                      checked={compare}
-                      disabled={mode === 'quick'}
-                      onChange={(e) => setCompare(e.target.checked)}
-                    />
-                    <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#0a1628] peer-disabled:opacity-50"></div>
-                  </label>
                 </div>
-                <p className="text-sm text-gray-500 ml-7">
-                  {mode === 'quick' 
-                    ? "완전 모드에서만 사용할 수 있습니다." 
-                    : (compare ? "인구 유사 3곳이 익명으로 함께 측정됩니다." : "단일 지자체만 측정합니다.")}
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs">
+                  <div className="bg-white p-3 rounded-lg border border-gray-200">
+                    <span className="text-gray-400 block mb-1">관측 프로필</span>
+                    <span className="font-semibold text-gray-800">RP-2026Q3-A (고정)</span>
+                  </div>
+                  <div className="bg-white p-3 rounded-lg border border-gray-200">
+                    <span className="text-gray-400 block mb-1">공표 경로</span>
+                    <span className="font-semibold text-gray-800">기관별 통보서 (agency_notice)</span>
+                  </div>
+                  <div className="bg-white p-3 rounded-lg border border-gray-200">
+                    <span className="text-gray-400 block mb-1">대상 코어 문항</span>
+                    <span className="font-semibold text-gray-800">공통 30문항 (SSOT)</span>
+                  </div>
+                </div>
+
+                <p className="text-xs text-gray-500">
+                  * 규격 측정 모드는 특정 지자체 서열화 및 점수 정렬을 엄격히 금지합니다 (INV-3).
                 </p>
               </div>
-
-              <div>
-                <div className="flex items-center gap-2 mb-4">
-                  <Settings className="w-5 h-5 text-gray-600" />
-                  <h3 className="font-bold text-lg">페르소나 필터</h3>
+            ) : (
+              <div className="space-y-8">
+                <div>
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="flex items-center gap-2">
+                      <Users className="w-5 h-5 text-gray-600" />
+                      <h3 className="font-bold text-lg">경쟁지역 비교</h3>
+                    </div>
+                    <label className="relative inline-flex items-center cursor-pointer">
+                      <input 
+                        type="checkbox" 
+                        className="sr-only peer" 
+                        checked={compare}
+                        disabled={mode === 'quick'}
+                        onChange={(e) => setCompare(e.target.checked)}
+                      />
+                      <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#0a1628] peer-disabled:opacity-50"></div>
+                    </label>
+                  </div>
+                  <p className="text-sm text-gray-500 ml-7">
+                    {mode === 'quick' 
+                      ? "완전 모드에서만 사용할 수 있습니다." 
+                      : (compare ? "인구 유사 3곳이 익명으로 함께 측정됩니다." : "단일 지자체만 측정합니다.")}
+                  </p>
                 </div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 ml-7">
-                  {PERSONAS.map(p => {
-                    const isSelected = selectedPersonas.has(p.id);
-                    return (
-                      <button
-                        key={p.id}
-                        onClick={() => togglePersona(p.id)}
-                        className={clsx(
-                          "flex items-center gap-2 px-4 py-2 border rounded-lg text-sm transition-all",
-                          isSelected ? "bg-[#0a1628] text-white border-[#0a1628]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
-                        )}
-                      >
-                        <div className={clsx(
-                          "w-4 h-4 rounded-full flex items-center justify-center border",
-                          isSelected ? "border-white bg-[#c9a84c]" : "border-gray-300"
-                        )}>
-                          {isSelected && <Check className="w-3 h-3 text-[#0a1628]" />}
-                        </div>
-                        {p.id} {p.label}
-                      </button>
-                    )
-                  })}
+
+                <div>
+                  <div className="flex items-center gap-2 mb-4">
+                    <Settings className="w-5 h-5 text-gray-600" />
+                    <h3 className="font-bold text-lg">페르소나 필터</h3>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 ml-7">
+                    {PERSONAS.map(p => {
+                      const isSelected = selectedPersonas.has(p.id);
+                      return (
+                        <button
+                          key={p.id}
+                          onClick={() => togglePersona(p.id)}
+                          className={clsx(
+                            "flex items-center gap-2 px-4 py-2 border rounded-lg text-sm transition-all",
+                            isSelected ? "bg-[#0a1628] text-white border-[#0a1628]" : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50"
+                          )}
+                        >
+                          <div className={clsx(
+                            "w-4 h-4 rounded-full flex items-center justify-center border",
+                            isSelected ? "border-white bg-[#c9a84c]" : "border-gray-300"
+                          )}>
+                            {isSelected && <Check className="w-3 h-3 text-[#0a1628]" />}
+                          </div>
+                          {p.id} {p.label}
+                        </button>
+                      )
+                    })}
+                  </div>
                 </div>
               </div>
-            </div>
+            )}
           </section>
 
           {/* Step 4 */}
@@ -251,10 +315,12 @@ export default function MeasurePage() {
               disabled={!selectedUnit}
               className="bg-[#c9a84c] text-[#0a1628] hover:bg-[#b59539] disabled:opacity-50 disabled:cursor-not-allowed font-bold text-xl px-12 py-4 rounded-xl shadow-md transition-all flex items-center gap-2"
             >
-              측정 시작
+              {mode === 'spec' ? '규격 진단 실행' : '측정 시작'}
             </button>
             <p className="text-gray-500 text-sm mt-4">
-              예상 소요시간: {mode === 'quick' ? '~2분' : '~10분'} (총 {mode === 'quick' ? '35' : '175'}회 쿼리 발생)
+              {mode === 'spec' 
+                ? '예상 소요시간: ~3초 (시뮬레이션 모드) · 5대 절 산출물 파이프라인 즉시 가동' 
+                : `예상 소요시간: ${mode === 'quick' ? '~2분' : '~10분'} (총 ${mode === 'quick' ? '35' : '175'}회 쿼리 발생)`}
             </p>
           </div>
 

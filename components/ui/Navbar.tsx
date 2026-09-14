@@ -32,7 +32,7 @@ export const Navbar: React.FC = () => {
     { href: '/units', label: '단위 목록' },
     { href: '/reports', label: '진단 보고서', icon: FileText },
     { href: '/selfcheck', label: '셀프체크' },
-    { href: '/measure', label: 'AI 측정' },
+    { href: '/measure', label: 'AI 측정', badge: 'spec' },
     { href: '/theme-lab', label: '정책테마랩', icon: Compass },
     { href: '/equity', label: '형평성 측정', icon: Scale },
   ];
@@ -82,6 +82,11 @@ export const Navbar: React.FC = () => {
                 >
                   {Icon && <Icon className="w-4 h-4" />}
                   {link.label}
+                  {link.badge && (
+                    <span className="text-[10px] bg-gold-500/20 text-gold-300 px-1.5 py-0.5 rounded-full font-bold uppercase tracking-wider">
+                      {link.badge}
+                    </span>
+                  )}
                 </Link>
               );
             })}
@@ -160,13 +165,18 @@ export const Navbar: React.FC = () => {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`block px-3 py-2 rounded-lg text-sm ${
+                className={`flex items-center justify-between px-3 py-2 rounded-lg text-sm ${
                   isActive(link.href)
                     ? 'bg-white/15 text-gold-400 font-semibold'
                     : 'text-slate-200 hover:bg-white/5'
                 }`}
               >
-                {link.label}
+                <span>{link.label}</span>
+                {link.badge && (
+                  <span className="text-[10px] bg-gold-500/20 text-gold-300 px-1.5 py-0.5 rounded-full font-bold uppercase">
+                    {link.badge}
+                  </span>
+                )}
               </Link>
             ))}
           </div>

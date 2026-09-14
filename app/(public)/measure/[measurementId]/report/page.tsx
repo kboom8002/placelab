@@ -27,7 +27,8 @@ import {
   PieChart,
   HelpCircle,
   Tag,
-  AlertCircle
+  AlertCircle,
+  FileCheck2,
 } from 'lucide-react';
 import type {
   AEODiagnosisReport,
@@ -37,6 +38,8 @@ import type {
   Tier3QuestionType,
   FloorRisk
 } from '@/lib/types/source-analysis';
+import type { Output } from '@/lib/types/measurement-spec';
+import { SpecOutputViewer } from '@/components/reports/SpecOutputViewer';
 
 // ─── K04 v2.1 실측 기반 Mock 보고서 데이터 (증평군 3-Tier 진단) ───
 const MOCK_REPORT: AEODiagnosisReport & {
@@ -387,13 +390,91 @@ const MOCK_REPORT: AEODiagnosisReport & {
   ]
 };
 
+const SPEC_MOCK_OUTPUT: Output = {
+  output_id: 'OUT-SPEC-2026Q3-001',
+  channel: 'agency_notice',
+  proxy_notice: '본 통보서는 공공 웹 기반 텍스트 관측에 한정되며 행정 내부망의 유효성을 보증하지 않습니다 (INV-7).',
+  run_profile_id: 'RP-2026Q3-A',
+  observed_at: {
+    start: '2026-09-14T00:00:00Z',
+    end: '2026-09-14T12:00:00Z',
+  },
+  ledger_as_of: '2026-09-14',
+  sections: [
+    {
+      order: 1,
+      kind: 'canon_absence_and_ownership',
+      items: [
+        {
+          question_id: 'COR-0007',
+          ownership: {
+            owner_role: 'agency_hq',
+            tier: 'direct',
+          },
+        },
+      ],
+    },
+    {
+      order: 2,
+      kind: 'entity_existence',
+      items: [
+        {
+          question_id: 'COR-0001',
+          published_roles: ['agency_hq', 'institution'],
+        },
+        {
+          question_id: 'COR-0002',
+          published_roles: ['agency_hq'],
+        },
+      ],
+    },
+    {
+      order: 3,
+      kind: 'nonresponse_distribution',
+      items: [
+        {
+          question_id: 'COR-0003',
+          nonresponse_code: 'N3',
+          note: 'PDF 첨부파일 형식으로 게시되어 텍스트 추출 미흡',
+        },
+        {
+          question_id: 'COR-0008',
+          nonresponse_code: 'N2',
+          note: '조례상 공고 규정 부재',
+        },
+      ],
+    },
+    {
+      order: 4,
+      kind: 'public_source_citation',
+      items: [
+        { question_id: 'COR-0001', public_source_present: true },
+        { question_id: 'COR-0002', public_source_present: true },
+        { question_id: 'COR-0004', public_source_present: true },
+        { question_id: 'COR-0005', public_source_present: false },
+      ],
+    },
+    {
+      order: 5,
+      kind: 'residual_spread',
+      items: [
+        {
+          spreadIndex: '0.142',
+          peerGroupId: 'PG-POP-군지역-B',
+        },
+      ],
+    },
+  ],
+};
+
 const TABS = [
   { id: 'dashboard', label: '대시보드' },
   { id: 't1', label: 'T1 점검표' },
   { id: 't2', label: 'T2 진단서' },
   { id: 't3', label: 'T3 홍보력' },
   { id: 'prescriptions', label: '처방전' },
-  { id: 'tracking', label: '추적' }
+  { id: 'tracking', label: '추적' },
+  { id: 'spec', label: '규격 산출물 (5대 절)' },
 ];
 
 export default function MeasurementReportPage({ params }: { params: { measurementId: string } }) {
@@ -1069,6 +1150,22 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
                 </div>
               </div>
             </div>
+          </div>
+        )}
+
+        {/* TAB 7: 규격 산출물 (5대 절) */}
+        {activeTab === 'spec' && (
+          <div className="space-y-6">
+            <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 flex items-start gap-3 text-amber-900">
+              <FileCheck2 className="w-5 h-5 shrink-0 mt-0.5 text-amber-600" />
+              <div className="text-xs sm:text-sm space-y-1">
+                <p className="font-bold">measurement-spec 규격 산출물 (5대 절 고정 렌더링)</p>
+                <p className="text-amber-800/90">
+                  이 탭은 docs/measurement-spec 규격에 따라 자동 도출된 5대 절(정본 부재, 개체 실재, 무응답 귀책 N1~N5, 공적 출처 인용률, 여건 고정 잔여 폭)을 고정 순서로 표출합니다.
+                </p>
+              </div>
+            </div>
+            <SpecOutputViewer output={SPEC_MOCK_OUTPUT} />
           </div>
         )}
 

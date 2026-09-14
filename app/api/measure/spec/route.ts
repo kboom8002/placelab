@@ -11,6 +11,7 @@ import { z } from 'zod';
 import { getCoreCommonQuestions } from '@/lib/measurement/questions';
 import {
   findAgencyByHandle,
+  findAgencyByDisplay,
   getRunProfileRegistry,
 } from '@/lib/measurement/registries';
 import { collectSingleResponse, extractBodyUrls } from '@/lib/measurement/collector';
@@ -38,7 +39,10 @@ export async function POST(request: NextRequest) {
     const parsed = SpecMeasureSchema.parse(body);
 
     // 1. 등록부에서 기관 및 프로필 확인
-    const agency = findAgencyByHandle(parsed.agency_handle);
+    let agency = findAgencyByHandle(parsed.agency_handle);
+    if (!agency) {
+      agency = findAgencyByDisplay(parsed.agency_handle);
+    }
     if (!agency) {
       return NextResponse.json(
         { error: '등록부에 없는 기관 손잡이입니다', agency_handle: parsed.agency_handle },

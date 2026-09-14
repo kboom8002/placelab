@@ -1,8 +1,9 @@
 import React from 'react';
 import { Metadata } from 'next';
 import { createClient } from '@/lib/supabase/server';
-import { AlertCircle, Calendar, CheckCircle2, Clock, PlayCircle } from 'lucide-react';
+import { AlertCircle, Calendar, CheckCircle2, Clock, PlayCircle, Database, FileCheck2, ShieldCheck, Layers } from 'lucide-react';
 import { format } from 'date-fns';
+import { getPopulationFrame, getRunProfileRegistry } from '@/lib/measurement/registries';
 
 export const revalidate = 3600;
 
@@ -189,6 +190,93 @@ export default async function PreregistrationsPage() {
           </div>
         ))}
       </div>
+
+      {/* measurement-spec 등록부 (SSOT Registries) 섹션 */}
+      {(() => {
+        let frameData: any = null;
+        let profilesData: any = null;
+        try {
+          frameData = getPopulationFrame();
+          profilesData = getRunProfileRegistry();
+        } catch {}
+
+        if (!frameData) return null;
+
+        return (
+          <section className="pt-8 border-t border-slate-200 space-y-6">
+            <div className="space-y-1">
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-gold-100 text-gold-800 text-xs font-bold uppercase">
+                <Database className="w-3.5 h-3.5" />
+                <span>SSOT Registries (INV-11 선행 등록부)</span>
+              </div>
+              <h2 className="text-2xl font-bold text-navy-950">
+                측정 규격 등록부 (모집단 및 관측 프로필)
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-600">
+                측정 시작 전 사전에 고정된 전수 모집단 틀(Population Frame) 및 표준 관측 환경 정의입니다.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+              {/* 모집단 틀 */}
+              <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
+                <div className="flex items-center justify-between">
+                  <h3 className="font-bold text-sm text-navy-950 flex items-center gap-1.5">
+                    <FileCheck2 className="w-4 h-4 text-emerald-600" />
+                    기초자치단체 전수 모집단 (spec/01)
+                  </h3>
+                  <span className="font-mono bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded font-bold">
+                    rev.{frameData.revision}
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-2 text-slate-600 pt-1">
+                  <div>
+                    <span className="text-slate-400 block">등록 대상 기관</span>
+                    <span className="font-bold text-slate-800 text-sm">{frameData.agency_count}개소 (전수)</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-400 block">원장 기준일</span>
+                    <span className="font-bold text-slate-800 text-sm font-mono">{frameData.reference_date}</span>
+                  </div>
+                  <div className="col-span-2 pt-1 border-t border-slate-100 text-[11px] text-slate-500">
+                    근거: {frameData.source_authority} ({frameData.source_document})
+                  </div>
+                </div>
+              </div>
+
+              {/* 관측 프로필 */}
+              <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
+                <div className="flex items-center justify-between">
+                  <h3 className="font-bold text-sm text-navy-950 flex items-center gap-1.5">
+                    <Layers className="w-4 h-4 text-[#c9a84c]" />
+                    표준 관측 프로필 (spec/02)
+                  </h3>
+                  <span className="font-mono bg-[#c9a84c]/20 text-[#0a1628] px-2 py-0.5 rounded font-bold">
+                    RP-2026Q3-A
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-2 text-slate-600 pt-1">
+                  <div>
+                    <span className="text-slate-400 block">수집 엔진/모형</span>
+                    <span className="font-bold text-slate-800 text-sm font-mono">
+                      {profilesData?.profiles?.[0]?.model_identifier || 'gpt-5.6-luna'}
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-slate-400 block">반복 측정 회차</span>
+                    <span className="font-bold text-slate-800 text-sm">
+                      {profilesData?.profiles?.[0]?.repeat_count || 3}회 반복 (rep)
+                    </span>
+                  </div>
+                  <div className="col-span-2 pt-1 border-t border-slate-100 text-[11px] text-slate-500">
+                    원문 보존: 무손실 전량 저장 (INV-6/INV-7 충족) · 판정: rule 원장 강제
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        );
+      })()}
     </div>
   );
 }

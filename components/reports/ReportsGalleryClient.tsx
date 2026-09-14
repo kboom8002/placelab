@@ -14,6 +14,7 @@ import {
   Building2,
   Compass,
   Zap,
+  FileCheck2,
 } from 'lucide-react';
 import type { DiagnosticReportMeta } from '@/lib/reports/diagnostic-reports';
 
@@ -27,6 +28,11 @@ export const ReportsGalleryClient: React.FC<ReportsGalleryClientProps> = ({ repo
 
   const categories = [
     { id: 'all', label: '전체 보기', count: reports.length },
+    {
+      id: 'spec_output',
+      label: '규격 산출물 (5대 절)',
+      count: reports.filter(r => r.category === 'spec_output').length,
+    },
     {
       id: 'industry_military',
       label: '국방·산업도시',
@@ -128,10 +134,15 @@ export const ReportsGalleryClient: React.FC<ReportsGalleryClientProps> = ({ repo
                     <span className="font-bold text-navy-900 px-2.5 py-0.5 rounded-md bg-slate-100">
                       {r.region}
                     </span>
+                    {r.category === 'spec_output' && (
+                      <span className="font-bold text-[#0a1628] bg-[#c9a84c]/20 border border-[#c9a84c]/40 text-[10px] px-2 py-0.5 rounded-md flex items-center gap-1">
+                        <FileCheck2 className="w-3 h-3 text-[#c9a84c]" /> 규격 산출물
+                      </span>
+                    )}
                     <span className="text-slate-400 font-mono text-[11px]">{r.date}</span>
                   </div>
                   <span className="text-slate-500 text-[11px] font-medium bg-slate-50 border border-slate-100 px-2 py-0.5 rounded">
-                    {r.slots}슬롯 측정
+                    {r.category === 'spec_output' ? '공통 30문항' : `${r.slots}슬롯 측정`}
                   </span>
                 </div>
 
@@ -147,7 +158,9 @@ export const ReportsGalleryClient: React.FC<ReportsGalleryClientProps> = ({ repo
                 {/* 핵심 지표 배지 바 */}
                 <div className="grid grid-cols-3 gap-2 pt-2 border-t border-slate-100">
                   <div className="p-2.5 rounded-xl bg-slate-50/80 text-center">
-                    <div className="text-[10px] text-slate-400 font-medium">비브랜드 SoV</div>
+                    <div className="text-[10px] text-slate-400 font-medium">
+                      {r.category === 'spec_output' ? '산출 규격' : '비브랜드 SoV'}
+                    </div>
                     <div className="text-sm font-black text-navy-900 mt-0.5">{r.sovRate}</div>
                   </div>
                   <div className="p-2.5 rounded-xl bg-slate-50/80 text-center">

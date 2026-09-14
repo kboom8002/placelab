@@ -26,6 +26,8 @@ import {
   getReportBySlug,
   DiagnosticReportMeta,
 } from '@/lib/reports/diagnostic-reports';
+import { SpecOutputViewer } from '@/components/reports/SpecOutputViewer';
+import type { Output } from '@/lib/types/measurement-spec';
 
 export const revalidate = 3600;
 
@@ -202,6 +204,90 @@ export default async function ReportDetailPage({ params }: ReportDetailPageProps
             </p>
           </div>
         </div>
+
+        {/* 규격 산출물 리포트일 경우 5대 절 뷰어 마운트 */}
+        {report.category === 'spec_output' && (
+          <div className="space-y-4">
+            <div className="p-4 rounded-xl bg-amber-50 border border-amber-200 text-xs sm:text-sm text-amber-900 font-medium">
+              이 보고서는 measurement-spec 규격에 의해 생성된 5대 절 공식 산출물을 포함합니다. (순위·총점 배제, 무응답 N코드 분리, 정본 부재 귀속)
+            </div>
+            <SpecOutputViewer
+              output={{
+                output_id: `OUT-${report.slug}`,
+                channel: 'national_report',
+                proxy_notice: '본 보고서는 공공 웹 텍스트 관측에 한정되며 행정 내부망 유효성을 보증하지 않습니다 (INV-7).',
+                run_profile_id: 'RP-2026Q3-A',
+                observed_at: {
+                  start: `${report.date}T00:00:00Z`,
+                  end: `${report.date}T12:00:00Z`,
+                },
+                ledger_as_of: report.date,
+                sections: [
+                  {
+                    order: 1,
+                    kind: 'canon_absence_and_ownership',
+                    items: [
+                      {
+                        question_id: 'COR-0007',
+                        ownership: { owner_role: 'agency_hq', tier: 'direct' },
+                      },
+                    ],
+                  },
+                  {
+                    order: 2,
+                    kind: 'entity_existence',
+                    items: [
+                      {
+                        question_id: 'COR-0001',
+                        published_roles: ['agency_hq', 'upper_tier'],
+                      },
+                      {
+                        question_id: 'COR-0002',
+                        published_roles: ['agency_hq'],
+                      },
+                    ],
+                  },
+                  {
+                    order: 3,
+                    kind: 'nonresponse_distribution',
+                    items: [
+                      {
+                        question_id: 'COR-0003',
+                        nonresponse_code: 'N3',
+                        note: 'PDF 첨부파일 형식 게시로 텍스트 기계 가독성 미흡',
+                      },
+                      {
+                        question_id: 'COR-0012',
+                        nonresponse_code: 'N1',
+                        note: 'robots.txt 선별 차단 정책 적용',
+                      },
+                    ],
+                  },
+                  {
+                    order: 4,
+                    kind: 'public_source_citation',
+                    items: [
+                      { question_id: 'COR-0001', public_source_present: true },
+                      { question_id: 'COR-0002', public_source_present: true },
+                      { question_id: 'COR-0004', public_source_present: true },
+                      { question_id: 'COR-0005', public_source_present: false },
+                    ],
+                  },
+                  {
+                    order: 5,
+                    kind: 'residual_spread',
+                    items: [
+                      {
+                        spreadIndex: '0.088',
+                        peerGroupId: 'PG-POP-특례시-A',
+                      },
+                    ],
+                  },
+                ],
+              }}
+            />
+          </div>
+        )}
 
         {/* 보고서 본문 렌더링 컨테이너 */}
         <article className="bg-white rounded-2xl border border-slate-200/90 p-6 sm:p-12 shadow-sm">
