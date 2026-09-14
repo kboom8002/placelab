@@ -1,0 +1,218 @@
+{
+  "unitId": "lg-41110",
+  "agencyHandle": "AG-0076",
+  "agencyName": "수원시",
+  "ledgerAsOf": "2026-09-14",
+  "entries": {
+    "CORE-001": {
+      "targetValue": "경기도 수원시 팔달구 효원로 241 (인계동, 우편번호 16490)",
+      "acceptableVariants": ["효원로 241", "수원시청", "인계동 1111", "팔달구 효원로", "16490"],
+      "sourceAuthority": "공공기관 청사 기본정보 (수원시청)",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-002": {
+      "targetValue": "031-228-2114 또는 휴먼콜센터 1899-3300",
+      "acceptableVariants": ["031-228-2114", "1899-3300", "0312282114", "18993300", "228-2114", "휴먼콜센터"],
+      "sourceAuthority": "수원시 대표 전화번호 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-003": {
+      "targetValue": "평일 09:00 ~ 18:00",
+      "acceptableVariants": ["09:00", "18:00", "9시", "18시", "오전 9시", "오후 6시", "평일"],
+      "sourceAuthority": "수원시 민원여권과 민원실 운영 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-004": {
+      "targetValue": "대한민국 정보공개포털(open.go.kr) 온라인 청구 또는 민원실 방문/우편/팩스 접수",
+      "acceptableVariants": ["정보공개포털", "open.go.kr", "민원실", "정보공개", "방문", "우편"],
+      "sourceAuthority": "수원시 정보공개 청구 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-005": {
+      "targetValue": "국가법령정보센터 자치법규(elis.go.kr) 또는 수원시 누리집 자치법규 게시판",
+      "acceptableVariants": ["자치법규", "elis.go.kr", "국가법령정보센터", "조례", "수원시청 누리집", "홈페이지"],
+      "sourceAuthority": "수원시 자치법규 공개 시스템",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-006": {
+      "targetValue": "일몰 후 배출(20:00~익일 06:00), 토요일 배출 금지 (동별 지정 요일 배출)",
+      "acceptableVariants": ["20시", "일몰", "종량제봉투", "토요일", "동별", "야간"],
+      "sourceAuthority": "수원시 생활폐기물 배출 안내 조례",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-007": {
+      "targetValue": "수원시 대형폐기물 인터넷 배출신고 시스템(waste.suwon.go.kr) 또는 스티커 구입 부착",
+      "acceptableVariants": ["waste.suwon.go.kr", "대형폐기물", "스티커", "인터넷", "온라인", "종량제"],
+      "sourceAuthority": "청소자원과 대형폐기물 처리 지침",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-008": {
+      "targetValue": "창구 방문 발급 400원 (무인민원발급기 200원, 정부24 온라인 무료)",
+      "acceptableVariants": ["400원", "400", "무료", "200원", "정부24"],
+      "sourceAuthority": "주민등록법 시행규칙 및 수원시 제증명 수수료 조례",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-009": {
+      "targetValue": "위택스(wetax.go.kr), 가상계좌, ARS(1899-3300), 인터넷지로, 금융기관 방문 납부",
+      "acceptableVariants": ["위택스", "wetax", "가상계좌", "ARS", "인터넷지로", "은행"],
+      "sourceAuthority": "수원시 세무과 지방세 납부 편의 시책",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-010": {
+      "targetValue": "수원시청 도시주택국 건축과 및 관할 4개 구청(장안·권선·팔달·영통) 건축과",
+      "acceptableVariants": ["건축과", "구청 건축과", "도시주택국", "구청"],
+      "sourceAuthority": "수원시 행정기구 및 정원 조례 (사무분장)",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-011": {
+      "targetValue": "수원시립도서관: 화~일 07:00~23:00(열람실), 자료실 09:00~18:00 (도서관별 매주 월 또는 금 정기휴관)",
+      "acceptableVariants": ["월요일", "금요일", "09:00", "휴관", "도서관", "열람실"],
+      "sourceAuthority": "수원시 도서관사업소 운영 규정",
+      "ownerRole": "institution",
+      "tier": "affiliate"
+    },
+    "CORE-012": {
+      "targetValue": "장안구·권선구·팔달구·영통구 4개 보건소, 평일 09:00 ~ 18:00 (점심시간 12:00~13:00)",
+      "acceptableVariants": ["장안구", "권선구", "팔달구", "영통구", "보건소", "09:00", "18:00"],
+      "sourceAuthority": "수원시 4개구 보건소 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-013": {
+      "targetValue": "경기도 시내버스 일반형: 교통카드 1,450원 (현금 1,500원)",
+      "acceptableVariants": ["1,450원", "1450원", "1,500원", "1500원", "1450", "1,450", "경기도 시내버스"],
+      "sourceAuthority": "경기도 및 수원시 대중교통 요금 고시",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "CORE-014": {
+      "targetValue": "수원시 공영주차장: 급지별 최초 30분 600~900원, 10분당 300~400원 추가",
+      "acceptableVariants": ["급지", "30분", "600원", "900원", "10분", "공영주차장", "조례"],
+      "sourceAuthority": "수원시 주차장 조례 별표 요금표",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-015": {
+      "targetValue": "주소지 관할 읍·면·동 행정복지센터(주민센터) 또는 국민연금공단 지사(복지로 온라인 가능)",
+      "acceptableVariants": ["행정복지센터", "주민센터", "국민연금공단", "복지로"],
+      "sourceAuthority": "수원시 복지정책과 기초연금 신청 가이드",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-016": {
+      "targetValue": "수원시 복지여성국 장애인복지과 및 각 구청 사회복지과",
+      "acceptableVariants": ["장애인복지과", "복지여성국", "사회복지과", "구청", "행정복지센터"],
+      "sourceAuthority": "수원시 사무분장 규정",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-017": {
+      "targetValue": "복지로(bokjiro.go.kr) 또는 정부24 온라인 신청, 또는 관할 동 행정복지센터 방문 신청",
+      "acceptableVariants": ["복지로", "bokjiro", "행정복지센터", "주민센터", "국민행복카드"],
+      "sourceAuthority": "수원시 보육정책과 영유아 보육료 지원 지침",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-018": {
+      "targetValue": "수원종합운동장, 서수원칠보체육관, 광교복합체육센터 등 수원도시공사 체육시설 이용 조례에 따름",
+      "acceptableVariants": ["수원도시공사", "조례", "종합운동장", "체육관", "수원시 체육"],
+      "sourceAuthority": "수원시 공공체육시설 관리 및 운영 조례",
+      "ownerRole": "affiliate",
+      "tier": "affiliate"
+    },
+    "CORE-019": {
+      "targetValue": "수원시 누리집(suwon.go.kr) 정보공개 > 재정공시 게시판 또는 지방재정365",
+      "acceptableVariants": ["재정공시", "suwon.go.kr", "지방재정365", "누리집", "홈페이지"],
+      "sourceAuthority": "수원시 재정 운용상황 공시 게시판",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-020": {
+      "targetValue": "국민재난안전포털(safekorea.go.kr) 대피소 조회, 수원시 안전지도 누리집, 인근 지정 민방위 대피소",
+      "acceptableVariants": ["국민재난안전포털", "safekorea", "대피소", "수원시청", "안전지도", "민방위"],
+      "sourceAuthority": "수원시 시민안전과 재난 대피 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-021": {
+      "targetValue": "수원화성 등 역사문화와 광교신도시 등 현대 인프라, 우수한 서울 접근 교통망과 공원을 갖춘 경기 남부 수부도시",
+      "acceptableVariants": ["광교", "교통", "문화", "인프라", "화성", "편리"],
+      "sourceAuthority": "수원시 시정백서 및 정주환경 소개",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-022": {
+      "targetValue": "유네스코 세계문화유산 수원화성, 화성행궁, 방화수류정, 광교호수공원, 일월수목원",
+      "acceptableVariants": ["수원화성", "화성행궁", "방화수류정", "광교호수공원", "수목원", "통닭거리"],
+      "sourceAuthority": "수원문화재단 및 수원관광 누리집",
+      "ownerRole": "affiliate",
+      "tier": "affiliate"
+    },
+    "CORE-023": {
+      "targetValue": "수원도시재단 창업지원센터, 수원기업IR, 수원형 소상공인 특례보증, 지식산업센터 입지 혜택",
+      "acceptableVariants": ["창업지원", "수원도시재단", "특례보증", "일자리", "벤처", "지원"],
+      "sourceAuthority": "수원시 기업일자리정책과 소상공인·기업 지원 가이드",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-024": {
+      "targetValue": "수원시 다국어 누리집(영어·중국어·일본어), 수원시외국인복지센터 및 다문화가족지원센터 운영",
+      "acceptableVariants": ["다국어", "영문", "외국인복지센터", "다문화", "외국어"],
+      "sourceAuthority": "수원시 외국인주민 지원 조례 및 다국어 안내 체계",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-025": {
+      "targetValue": "삼국시대 고구려 매홀(買忽, 물골)에서 유래하여 고려 태조 때 수주(水州), 조선 태종 때 수원(水原, 물의 근원)으로 명명됨",
+      "acceptableVariants": ["매홀", "수주", "수원", "물의", "정조", "근원"],
+      "sourceAuthority": "수원시사(水原市史) 지명 편",
+      "ownerRole": "institution",
+      "tier": "affiliate"
+    },
+    "CORE-026": {
+      "targetValue": "수원역 KTX·1호선·수인분당선, 신분당선 철도망과 아주대·성빈센트병원 등 상급종합병원, 대형 유통시설 및 체육공원 완비",
+      "acceptableVariants": ["아주대병원", "성빈센트", "신분당선", "수인분당선", "1호선", "병원", "철도"],
+      "sourceAuthority": "수원시 도시계획과 생활SOC 종합계획",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-027": {
+      "targetValue": "경기도 청년기본소득, 수원시 청년월세지원, 청년 바람채(임대주택), 청년지원센터 청년바람청 프로그램",
+      "acceptableVariants": ["청년기본소득", "청년월세", "청년지원센터", "청년", "바람청"],
+      "sourceAuthority": "수원시 청년청소년과 청년정책 종합계획",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-028": {
+      "targetValue": "도심 특성상 전통 귀농보다 수원시 농업기술센터를 통한 도시농업, 시민농원 텃밭 분양, 귀농귀촌 기본 교육 연계 지원",
+      "acceptableVariants": ["농업기술센터", "도시농업", "시민농원", "주말농장", "교육"],
+      "sourceAuthority": "수원시 농업기술센터 도시농업 지원 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "CORE-029": {
+      "targetValue": "정조대왕의 효심과 애민정신을 기리는 수원화성문화제, 정조대왕 능행차 공동재현, 수원화성 미디어아트쇼 등 역사문화 축제",
+      "acceptableVariants": ["수원화성문화제", "정조대왕", "능행차", "미디어아트", "야행", "축제"],
+      "sourceAuthority": "수원문화재단 축제 운영 현황",
+      "ownerRole": "affiliate",
+      "tier": "affiliate"
+    },
+    "CORE-030": {
+      "targetValue": "KTX 및 일반열차 수원역, 수도권 지하철 1호선·수인분당선·신분당선, 서울 강남/사당행 광역급행버스(M버스/직행좌석) 이용",
+      "acceptableVariants": ["수원역", "KTX", "1호선", "신분당선", "수인분당선", "광역버스", "M버스"],
+      "sourceAuthority": "수원시 대중교통과 광역교통 환승 안내",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    }
+  }
+}

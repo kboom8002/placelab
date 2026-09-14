@@ -20,6 +20,7 @@ import { verifyObservation, type GroundTruthItem } from '@/lib/measurement/verif
 import { buildGrid } from '@/lib/measurement/grid-analyzer';
 import { buildOutput, type BuildOutputOptions } from '@/lib/measurement/output-generator';
 import { populationBand, peerGroup, bandOf } from '@/lib/measurement/sealed-bridge';
+import { createMeasureJob } from '@/lib/measurement/job-manager';
 import type { ResponseRecord, Question, Observation, Verdict } from '@/lib/types/measurement-spec';
 
 const SpecMeasureSchema = z.object({
@@ -153,11 +154,29 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // 4. 실측 모드 (API 키 필요 — 추후 활성화)
+    // 4. 실측 모드 (실제 API 키 및 큐 연동 활성화)
+    const provider: 'gemini' | 'openai' = profile.model_identifier.includes('gemini') ? 'gemini' : 'openai';
+
+    const job = await createMeasureJob({
+      agencyHandle: agency.handle,
+      agencyName: agency.display,
+      providers: [provider],
+      models: { [provider]: profile.model_identifier },
+      questionSet: 'core',
+      repetitions: profile.repeat_count || 3,
+      channel: parsed.channel,
+      simulation: false,
+    });
+
     return NextResponse.json({
-      error: '실측 모드는 API 키 설정 후 활성화됩니다. simulation: true로 규격 검증을 먼저 수행하세요.',
-      required_env: ['OPENAI_API_KEY'],
-    }, { status: 501 });
+      ok: true,
+      simulation: false,
+      job_id: job.id,
+      agency: { handle: agency.handle, display: agency.display, type: agency.type },
+      profile: { id: profile.run_profile_id, model: profile.model_identifier },
+      stream_url: `/api/measure/stream/${job.id}`,
+      message: '실측 작업이 큐에 등록되었습니다. stream_url을 통해 실시간 진행 상황을 확인하세요.',
+    });
 
   } catch (error) {
     if (error instanceof z.ZodError) {

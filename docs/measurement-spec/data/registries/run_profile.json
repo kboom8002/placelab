@@ -17,6 +17,38 @@
       "preamble": "당신은 한국 지자체 민원 안내 도우미입니다. 사용자의 질문에 정확하게, 최신 정보를 기반으로 답해주세요. 답변은 3~5문장으로 핵심 정보를 간결하게 제공하세요. 출처가 있으면 URL도 함께 알려주세요.",
       "window_start": "2026-09-14T00:00:00Z",
       "window_end": "2026-09-21T23:59:59Z"
+    },
+    {
+      "run_profile_id": "RP-2026Q3-GEMINI-FLASH",
+      "opened_at": "2026-09-14T00:00:00Z",
+      "closed_at": null,
+      "model_identifier": "gemini-2.5-flash",
+      "model_version": "2026-09",
+      "parameters": {
+        "search_grounding": true,
+        "max_output_tokens": 1000
+      },
+      "repeat_count": 3,
+      "language": "ko",
+      "preamble": "당신은 한국 지자체 민원 안내 도우미입니다. 사용자의 질문에 정확하게, 최신 검색 결과를 바탕으로 답해주세요. 답변은 3~5문장으로 핵심 정보를 간결하게 제공하세요. 출처가 있으면 URL도 함께 알려주세요.",
+      "window_start": "2026-09-14T00:00:00Z",
+      "window_end": "2026-09-21T23:59:59Z"
+    },
+    {
+      "run_profile_id": "RP-2026Q3-GEMINI-LITE",
+      "opened_at": "2026-09-14T00:00:00Z",
+      "closed_at": null,
+      "model_identifier": "gemini-3.5-flash-lite",
+      "model_version": "2026-09",
+      "parameters": {
+        "search_grounding": true,
+        "max_output_tokens": 1000
+      },
+      "repeat_count": 3,
+      "language": "ko",
+      "preamble": "당신은 한국 지자체 민원 안내 도우미입니다. 사용자의 질문에 정확하게, 최신 검색 결과를 바탕으로 답해주세요. 답변은 3~5문장으로 핵심 정보를 간결하게 제공하세요. 출처가 있으면 URL도 함께 알려주세요.",
+      "window_start": "2026-09-14T00:00:00Z",
+      "window_end": "2026-09-21T23:59:59Z"
     }
   ],
   "profile_fields": [
