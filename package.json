@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:spec": "python docs/measurement-spec/tools/validate.py",
+    "sync:questions": "tsx scripts/sync-spec-questions.ts --verify-only",
+    "verify:types": "tsx scripts/generate-spec-types.ts",
     "test:invariants": "tsx tests/invariants/run-all.ts",
     "test:kbrandlab": "tsx tests/kbrandlab/run-all.ts"
   },
