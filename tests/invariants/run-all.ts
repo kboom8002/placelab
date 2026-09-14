@@ -16,6 +16,7 @@ import { testInv12EvidenceLedger } from './inv-12-evidence-ledger.test';
 import { testSelfCompliance } from './self-compliance.test';
 import { testSpecValidation } from './spec-validation.test';
 import { testMeasurementSpecPipeline } from '../measurement/measurement-spec-pipeline.test';
+import { testInv4CitizenReportSeparation } from './inv-4-citizen-report-separation.test';
 
 async function runAllInvariantTests() {
   console.log('====================================================');
@@ -30,6 +31,7 @@ async function runAllInvariantTests() {
     { name: 'INV-2: 판정 4분 및 undetermined 분리', fn: testInv2FourWayVerdict },
     { name: 'INV-3: 점수로 정렬하지 않는다', fn: testInv3NoRanking },
     { name: 'INV-4: 레이어별 데이터 타입 수준 분리', fn: testInv4LayerSeparation },
+    { name: 'INV-4/L2: 시민 제보 및 승격 파이프라인 불변식 검증', fn: testInv4CitizenReportSeparation },
     { name: 'INV-5: 차단 우회 금지 (SCANNER_UA)', fn: testInv5NoBypass },
     { name: 'INV-6: AI 응답 원문 비공개', fn: testInv6NoRawAi },
     { name: 'INV-7: 측정 조건 없는 관측 불가', fn: testInv7MeasurementConditions },

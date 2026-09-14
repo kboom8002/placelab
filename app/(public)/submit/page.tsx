@@ -3,6 +3,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { Send, CheckCircle, AlertCircle, Sparkles, HelpCircle } from 'lucide-react';
 
 export default function SubmitPage() {
@@ -98,6 +99,15 @@ export default function SubmitPage() {
           AI 서비스에 12개 표준 질문을 직접 테스트하고 확인하신 결과를 정직하게 기록해 주세요.
           연구 데이터베이스에 안전하게 집계되며, 익명 제출을 보장합니다.
         </p>
+        <div className="p-3 bg-rose-50 border border-rose-200/80 rounded-xl text-xs text-rose-900 flex items-center justify-between gap-2">
+          <span>💡 12개 문항 전체가 아닌, <strong>특정 질문에 대한 심각한 AI 환각/작화 1건</strong>을 신속히 제보하시려면?</span>
+          <Link
+            href="/report"
+            className="px-3 py-1 bg-rose-600 hover:bg-rose-700 text-white font-bold rounded-lg shrink-0 transition-all"
+          >
+            Floor Hunter 바로가기 →
+          </Link>
+        </div>
       </div>
 
       {resultMessage && (

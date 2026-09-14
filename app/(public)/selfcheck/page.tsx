@@ -272,14 +272,23 @@ export default function SelfCheckPage() {
             AI 답변의 정확 여부와 작화 발생 여부를 제출하시면 전국 지자체 AI 접근성 연구 지표로 안전하게 집계됩니다.
           </p>
         </div>
-        <Link
-          href="/submit"
-          className="inline-flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-gold-400 to-gold-500 hover:from-gold-300 hover:to-gold-400 text-navy-950 font-bold text-xs rounded-xl shadow-md transition-all shrink-0 hover:scale-105"
-        >
-          <Send className="w-4 h-4" />
-          관측 결과 제출하기
-          <ArrowRight className="w-3.5 h-3.5" />
-        </Link>
+        <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+          <Link
+            href="/report"
+            className="inline-flex items-center justify-center gap-2 px-4 py-3 bg-rose-600 hover:bg-rose-500 text-white font-bold text-xs rounded-xl shadow-md transition-all hover:scale-105"
+          >
+            <Sparkles className="w-4 h-4 text-gold-300" />
+            오답 제보 (Floor Hunter)
+          </Link>
+          <Link
+            href="/submit"
+            className="inline-flex items-center justify-center gap-2 px-5 py-3 bg-gradient-to-r from-gold-400 to-gold-500 hover:from-gold-300 hover:to-gold-400 text-navy-950 font-bold text-xs rounded-xl shadow-md transition-all hover:scale-105"
+          >
+            <Send className="w-4 h-4" />
+            12문항 결과 제출하기
+            <ArrowRight className="w-3.5 h-3.5" />
+          </Link>
+        </div>
       </div>
     </div>
   );

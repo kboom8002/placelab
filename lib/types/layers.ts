@@ -24,6 +24,8 @@ export type FloorRisk = 'low' | 'moderate' | 'high' | 'critical';
 
 export type Accuracy = 'accurate' | 'partial' | 'inaccurate' | 'absent';
 
+export type SubmitterType = 'resident' | 'official' | 'researcher' | 'press' | 'unknown';
+
 export type Layer1Stat = {
   [brand]: 'layer1';
   population: Population; // 필수 — 기본값 없음 (INV-1)
@@ -39,6 +41,17 @@ export type Layer2Stat = {
   [brand]: 'layer2';
   participatingUnits: number; // 분모는 '참여한 단위 수' (INV-4)
   observationCount: number;
+  methodVersion: string;
+};
+
+export type Layer2ReportStat = {
+  [brand]: 'layer2_report';
+  population: Population; // 필수 — 기본값 없음 (INV-1)
+  participatingUnits: number; // 분모는 '참여한 단위 수' (INV-4)
+  totalReports: number;
+  confabulationCount: number;
+  syndromeDistribution: Record<string, number>;
+  promotedCount: number;
   methodVersion: string;
 };
 
