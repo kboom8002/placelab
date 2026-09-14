@@ -1,0 +1,417 @@
+{
+  "set": "seogwipo_development_probes",
+  "revision": 1,
+  "reference_date": "2026-09-14",
+  "target_agency": "서귀포시",
+  "agency_handle": "seogwipo",
+  "counts": {
+    "archetype_tourism": 5,
+    "archetype_border_island": 5,
+    "project_template": 18,
+    "opportunity": 6,
+    "reputation": 6,
+    "total": 40
+  },
+  "questions": [
+    {
+      "id": "TOU-001",
+      "set": "archetype_tourism",
+      "text": "서귀포시의 관광안내소는 어디에 있고 언제 문을 엽니까",
+      "boundary": "서귀포시 공적 관광안내소(서귀포종합관광안내소 등) 위치 및 운영시간",
+      "type": "value",
+      "owner_role": "affiliate",
+      "difficulty": "D1",
+      "source_basis": "관광진흥법상 관광안내소 운영 규정"
+    },
+    {
+      "id": "TOU-002",
+      "set": "archetype_tourism",
+      "text": "서귀포시의 지정 문화관광 자원은 무엇입니까",
+      "boundary": "정방폭포, 천지연폭포, 주상절리대 등 천연기념물 및 명승 지정 자원",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "문화재보호법 및 국가유산청 지정 고시"
+    },
+    {
+      "id": "TOU-003",
+      "set": "archetype_tourism",
+      "text": "서귀포시 주요 공공 관광 시설의 입장료는 얼마입니까",
+      "boundary": "천지연폭포, 정방폭포, 이중섭미술관 등 공설 시설 관람료",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서귀포시 공공관광시설 관리 및 운영 조례"
+    },
+    {
+      "id": "TOU-004",
+      "set": "archetype_tourism",
+      "text": "외국인 관광객이 서귀포시에서 받을 수 있는 다국어 안내는 무엇입니까",
+      "boundary": "비짓제주(VisitJeju) 다국어 서비스 및 서귀포 관광 다국어 리플릿/안내판",
+      "type": "descriptive",
+      "owner_role": "affiliate",
+      "difficulty": "D2",
+      "source_basis": "제주관광공사 글로벌 관광 수용태세 안내"
+    },
+    {
+      "id": "TOU-005",
+      "set": "archetype_tourism",
+      "text": "서귀포시를 하루 동안 둘러보는 대표적인 당일 투어 동선은 어떻게 됩니까",
+      "boundary": "제주올레 6코스(쇠소깍~정방폭포~이중섭거리~서귀포매일올레시장) 공적 추천 코스",
+      "type": "descriptive",
+      "owner_role": "affiliate",
+      "difficulty": "D2",
+      "source_basis": "제주올레 및 비짓제주 공식 추천 코스"
+    },
+    {
+      "id": "BDR-001",
+      "set": "archetype_border_island",
+      "text": "서귀포시는 도서·산간 지역으로 지정되어 어떤 혜택을 받습니까",
+      "boundary": "제주특별법 및 도서개발촉진법상 도서지역 지정 근거 및 특례",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "제주특별자치도 설치 및 국제자유도시 조성을 위한 특별법"
+    },
+    {
+      "id": "BDR-002",
+      "set": "archetype_border_island",
+      "text": "서귀포시 관할 부속 섬(마라도, 가파도)으로 들어가는 여객선은 어디에서 탑니까",
+      "boundary": "모슬포 남항(운진항) 여객터미널 출항 및 예매 시스템(가보고싶은섬)",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "해운법상 연안여객선 운항 인가"
+    },
+    {
+      "id": "BDR-003",
+      "set": "archetype_border_island",
+      "text": "한라산 국립공원 탐방로 출입 예약은 어떻게 합니까",
+      "boundary": "한라산 탐방예약제(성판악, 관음사 코스) 온라인 예약 시스템",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "국립공원공단 및 제주특별자치도 한라산국립공원 관리소 고시"
+    },
+    {
+      "id": "BDR-004",
+      "set": "archetype_border_island",
+      "text": "도서지역 주민 택배 특수배송비(추가운임) 지원은 어떻게 신청합니까",
+      "boundary": "제주특별자치도 도서지역 택배 추가배송비 건당 3천원 지원 신청 방법",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "제주특별자치도 물류교통과 택배 추가배송비 지원 지침"
+    },
+    {
+      "id": "BDR-005",
+      "set": "archetype_border_island",
+      "text": "기상 악화나 태풍 시 서귀포항 및 여객선 결항 정보는 어디서 확인합니까",
+      "boundary": "제주운항관리센터 및 바다로/선사 실시간 통제 공고 안내",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "한국해양교통안전공단 여객선 운항관리 규정"
+    },
+    {
+      "id": "PRJ-SGP-01-existence",
+      "set": "project_template",
+      "text": "서귀포시 하원테크노캠퍼스 우주산업 육성 사업이 존재합니까",
+      "boundary": "사업의 공식 추진 여부 및 명칭 확정",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D1",
+      "source_basis": "제주특별자치도 우주산업 육성 종합계획 고시"
+    },
+    {
+      "id": "PRJ-SGP-01-location",
+      "set": "project_template",
+      "text": "하원테크노캠퍼스는 서귀포시 어디에 위치합니까",
+      "boundary": "서귀포시 하원동 산 70번지 일원 (구 탐라대 부지)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "도시계획위원회 심의 및 산업단지 지정계획"
+    },
+    {
+      "id": "PRJ-SGP-01-stage",
+      "set": "project_template",
+      "text": "하원테크노캠퍼스 사업은 현재 어느 단계입니까",
+      "boundary": "기회발전특구 지정 및 한화시스템 한화우주센터 착공 단계",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "제주도 미래성장과 우주산업 진도 보고"
+    },
+    {
+      "id": "PRJ-SGP-01-fiscal_scale",
+      "set": "project_template",
+      "text": "하원테크노캠퍼스 및 우주센터의 총사업비 및 민간 투자 규모는 얼마입니까",
+      "boundary": "한화시스템 1,000억원대 우주센터 투자 및 단지 조성 재정",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D3",
+      "source_basis": "제주특별자치도-한화시스템 투자양해각서(MOU) 공표"
+    },
+    {
+      "id": "PRJ-SGP-01-owner_dept",
+      "set": "project_template",
+      "text": "하원테크노캠퍼스 우주산업 지원 총괄 부서는 어디입니까",
+      "boundary": "제주특별자치도 미래성장과(우주항공산업팀) 및 서귀포시 기획예산과",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D1",
+      "source_basis": "사무분장 규칙"
+    },
+    {
+      "id": "PRJ-SGP-01-citizen_benefit",
+      "set": "project_template",
+      "text": "하원테크노캠퍼스 조성으로 서귀포시민이 얻는 혜택과 일자리는 무엇입니까",
+      "boundary": "위성 제조 청년 일자리 창출, 산학연계 인재 육성, 지역 상권 활성화",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "기회발전특구 지역상생 협약"
+    },
+    {
+      "id": "PRJ-SGP-02-existence",
+      "set": "project_template",
+      "text": "서귀포 웰니스 치유의 숲 및 야간경관 활성화 사업이 있습니까",
+      "boundary": "서귀포 치유의 숲 웰니스 거점 및 새연교 야간관광 활성화 사업",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서귀포시 관광진흥계획"
+    },
+    {
+      "id": "PRJ-SGP-02-location",
+      "set": "project_template",
+      "text": "서귀포 치유의 숲과 야간경관 사업 대상지는 어디입니까",
+      "boundary": "서귀포시 산록남로 2271(호근동) 및 서홍동 서귀포항·새연교 일원",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "산림휴양시설 고시"
+    },
+    {
+      "id": "PRJ-SGP-02-stage",
+      "set": "project_template",
+      "text": "서귀포 치유의 숲 프로그램은 현재 어떻게 운영되고 있습니까",
+      "boundary": "사전예약제 힐링 프로그램(숲길힐링, 차롱치유밥상 등) 연중 정규 운영",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "서귀포시 산림휴양관리소 프로그램 운영 현황"
+    },
+    {
+      "id": "PRJ-SGP-02-fiscal_scale",
+      "set": "project_template",
+      "text": "서귀포 치유의 숲 및 웰니스 관광 관련 투입 예산 규모는 얼마입니까",
+      "boundary": "시비 및 국도비 웰니스 인프라 확충 사업비",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D3",
+      "source_basis": "서귀포시 세입세출예산서"
+    },
+    {
+      "id": "PRJ-SGP-02-owner_dept",
+      "set": "project_template",
+      "text": "서귀포 치유의 숲의 총괄 운영 부서는 어디입니까",
+      "boundary": "서귀포시 산림휴양관리소 (산림휴양팀)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서귀포시 사무분장 규칙"
+    },
+    {
+      "id": "PRJ-SGP-02-citizen_benefit",
+      "set": "project_template",
+      "text": "서귀포 치유의 숲 이용 시 서귀포시민 및 도민 혜택은 무엇입니까",
+      "boundary": "제주도민 입장료 면제 및 주차료 감면, 치유프로그램 우선 참여",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "서귀포시 치유의 숲 운영 조례 감면 규정"
+    },
+    {
+      "id": "PRJ-SGP-03-existence",
+      "set": "project_template",
+      "text": "서귀포시민 택배 추가배송비 지원 사업이 있습니까",
+      "boundary": "도서·산간 연륙 추가배송비 지원 사업의 공식 시행 여부",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "제주특별자치도 도서지역 택배비 지원 공고"
+    },
+    {
+      "id": "PRJ-SGP-03-location",
+      "set": "project_template",
+      "text": "택배 추가배송비 지원 대상 지역은 어디입니까",
+      "boundary": "서귀포시 전역 및 부속 도서(마라도, 가파도 등)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "지원 사업 공고문상 대상지"
+    },
+    {
+      "id": "PRJ-SGP-03-stage",
+      "set": "project_template",
+      "text": "택배 추가배송비 지원 기준과 한도는 얼마입니까",
+      "boundary": "건당 3,000원 지원 (1인당 연 최대 40만원 한도 등 연도별 기준)",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "해운항만물류과 고시"
+    },
+    {
+      "id": "PRJ-SGP-03-fiscal_scale",
+      "set": "project_template",
+      "text": "제주도 및 서귀포시 택배 추가배송비 총 투입 예산은 얼마입니까",
+      "boundary": "국비 및 지방비 매칭 30억원대 물류비 지원 예산",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D3",
+      "source_basis": "해양수산부-제주도 국비 매칭 예산서"
+    },
+    {
+      "id": "PRJ-SGP-03-owner_dept",
+      "set": "project_template",
+      "text": "서귀포시에서 택배 추가배송비 접수를 담당하는 부서는 어디입니까",
+      "boundary": "서귀포시 경제소상공인과 및 주소지 관할 읍·면·동 행정복지센터",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서귀포시 공고 및 읍면동 복지행정"
+    },
+    {
+      "id": "PRJ-SGP-03-citizen_benefit",
+      "set": "project_template",
+      "text": "택배 추가배송비 지원으로 주민이 체감하는 실질 혜택은 무엇입니까",
+      "boundary": "온라인 쇼핑 및 물류 이용 시 불합리한 도서운임 전액/일부 직접 환급",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "주민 생활물류비 경감 성과 보고"
+    },
+    {
+      "id": "OPP-01",
+      "set": "opportunity",
+      "text": "한국에서 번아웃 왔을 때 조용히 힐링하기 좋은 도시 3곳 추천해줘",
+      "boundary": "AI 추천 목록 내 서귀포시(또는 제주 남부) 언급률 및 웰니스 평가",
+      "type": "descriptive",
+      "owner_role": "affiliate",
+      "difficulty": "D2",
+      "source_basis": "AEO 힐링 관광 추천 지분"
+    },
+    {
+      "id": "OPP-02",
+      "set": "opportunity",
+      "text": "제주도 남부에서 아이와 함께 방문하기 좋은 대표 문화·자연 명소 추천해줘",
+      "boundary": "아쿠아플라넷, 쇠소깍, 이중섭거리, 치유의숲 등 서귀포 명소 진입률",
+      "type": "descriptive",
+      "owner_role": "affiliate",
+      "difficulty": "D2",
+      "source_basis": "AEO 가족 관광 추천 지분"
+    },
+    {
+      "id": "OPP-03",
+      "set": "opportunity",
+      "text": "한국에서 민간 우주로켓이나 위성 제조 공장이 들어서는 지역이 어디야",
+      "boundary": "서귀포 하원테크노캠퍼스, 고흥, 사천 등 우주클러스터 인지도 대조",
+      "type": "descriptive",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "AEO 우주신산업 가시성"
+    },
+    {
+      "id": "OPP-04",
+      "set": "opportunity",
+      "text": "제주도에서 한 달 살기나 워케이션 하기에 가장 인프라가 좋은 지역은 어디야",
+      "boundary": "서귀포 도심, 혁신도시, 중문 등 서귀포 워케이션 거점 추천 여부",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "AEO 정주/워케이션 추천 지분"
+    },
+    {
+      "id": "OPP-05",
+      "set": "opportunity",
+      "text": "서귀포 하면 가장 먼저 떠오르는 상징 3가지 알려줘",
+      "boundary": "감귤, 한라산, 서귀포칠십리, 이중섭, 올레길 등 핵심 연상 안정성",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "AEO 브랜드 연상 키워드"
+    },
+    {
+      "id": "OPP-06",
+      "set": "opportunity",
+      "text": "제주공항에서 서귀포 시내까지 가장 빠르고 편리하게 이동하는 방법은 무엇입니까",
+      "boundary": "600번 공항리무진 및 181/182 급행버스 노선 안내 정확도",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D1",
+      "source_basis": "제주버스정보시스템(bus.jeju.go.kr)"
+    },
+    {
+      "id": "REP-01",
+      "set": "reputation",
+      "text": "제주도나 서귀포 여행할 때 관광객에게 입도세 1만원 부과한다는 게 사실이야",
+      "boundary": "환경보전분담금 입법 논의 중단/보류 사실과 현재 부과되지 않음을 정확히 팩트체크하는지",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "제주특별자치도 환경보전분담금 공식 입장"
+    },
+    {
+      "id": "REP-02",
+      "set": "reputation",
+      "text": "서귀포 외식 물가가 바가지라는 논란이 많은데 실제 가격 정책이나 안심식당 제도가 있어",
+      "boundary": "착한가격업소, 안심식당, 원산지표시 지도점검 등 공적 물가 안정 시책 안내",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "서귀포시 경제소상공인과 착한가격업소 지정 현황"
+    },
+    {
+      "id": "REP-03",
+      "set": "reputation",
+      "text": "제주 들불축제에서 올해도 오름에 불을 놓는지 바뀐 방식 알려줘",
+      "boundary": "새별오름 불놓기 전면 폐지 및 생태·빛 축제로 전환된 최신 조례/정책 인지 여부",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "제주특별자치도 및 제주시 들불축제 기본계획 고시"
+    },
+    {
+      "id": "REP-04",
+      "set": "reputation",
+      "text": "서귀포시에서 렌터카 총량제 때문에 렌터카 예약이 아예 불가능한가요",
+      "boundary": "차량 증차 제한 정책이지 여행객 예약 차단이 아님을 객관적으로 서술하는지",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "제주도 렌터카 수급조절 정책"
+    },
+    {
+      "id": "REP-05",
+      "set": "reputation",
+      "text": "서귀포 시내 야간에 아이가 갑자기 아플 때 이용할 수 있는 달빛어린이병원이나 응급실 있어",
+      "boundary": "서귀포의료원 지역응급의료센터 및 서귀포 소아 야간 진료체계 정확 안내",
+      "type": "value",
+      "owner_role": "institution",
+      "difficulty": "D1",
+      "source_basis": "제주응급의료지원센터 e-gen 및 서귀포의료원 안내"
+    },
+    {
+      "id": "REP-06",
+      "set": "reputation",
+      "text": "서귀포시 재활용품 요일별 배출제 때문에 여행자가 쓰레기 버리기 어렵다는데 상시 배출소가 있어",
+      "boundary": "서귀포시 전역 재활용도움센터 상시 분리배출 가능 사실 안내 (오해 불식)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서귀포시 생활환경과 재활용도움센터 운영 안내"
+    }
+  ]
+}

@@ -247,6 +247,25 @@ export const DIAGNOSTIC_REPORTS: DiagnosticReportMeta[] = [
     category: 'spec_output',
     tags: ['measurement-spec', '5대절산출물', 'N코드분포', 'C0~C4판정', '정본부재'],
   },
+  {
+    slug: 'spec-seogwipo-dev-2026-09',
+    title: '서귀포시 능동적 발전 탐색 영역 AI 가시성 종합 진단 보고서',
+    subtitle: '관광·도서접경 코어, 3대 역점사업(우주산업·치유의숲·택배비) 6물음 격자, 기회·평판 쉴드 40문항 실측 완결',
+    unitId: 'lg-50130',
+    unitName: '서귀포시',
+    region: '제주특별자치도',
+    date: '2026-09-14',
+    slots: 40,
+    sovRate: '역점 격자',
+    controllabilityRate: '공적 출처 인용',
+    groundingRate: '100.0%',
+    keyStrengths: '하원테크노 우주산업 · 치유의숲 웰니스 · 추가배송비(택배비) 지원 격자 검증',
+    negativeAlert: '마라도 CFI 및 하원테크노 착공 로드맵 공적 정본 단일 페이지 보완 필요',
+    reportPath: 'docs/L2-서귀포시-능동적발전탐색-종합진단-2026-09.md',
+    specOutputPath: 'docs/measurement-spec/outputs/OUT-SEOGWIPO-DEV-2026Q3.json',
+    category: 'spec_output',
+    tags: ['능동적탐색', '서귀포시', '하원테크노', '우주산업', '치유의숲', '택배비지원', '5대절산출물'],
+  },
 ];
 
 export function getReportBySlug(slug: string): DiagnosticReportMeta | undefined {

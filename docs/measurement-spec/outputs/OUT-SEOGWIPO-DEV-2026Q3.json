@@ -1,0 +1,614 @@
+{
+  "output_id": "OUT-20260914-AGE-lbo44y",
+  "channel": "agency_notice",
+  "proxy_notice": "조회 응답은 사용자가 실제로 보는 답과 같지 않습니다. 접속 경로, 개인화, 지역, 시점이 다릅니다 (spec/03 §1).",
+  "run_profile_id": "RP-2026Q3-DEV-SGP",
+  "observed_at": {
+    "start": "2026-09-08T00:00:00Z",
+    "end": "2026-09-14T23:59:59Z"
+  },
+  "ledger_as_of": "2026-09-14",
+  "band_of": "PG-ISLAND-TOURISM-SGP",
+  "sections": [
+    {
+      "order": 1,
+      "kind": "canon_absence_and_ownership",
+      "items": [
+        {
+          "question_id": "TOU-001",
+          "ownership": {
+            "owner_role": "affiliate",
+            "tier": "affiliate",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (affiliate)"
+          }
+        },
+        {
+          "question_id": "TOU-002",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "TOU-003",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "TOU-004",
+          "ownership": {
+            "owner_role": "affiliate",
+            "tier": "affiliate",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (affiliate)"
+          }
+        },
+        {
+          "question_id": "TOU-005",
+          "ownership": {
+            "owner_role": "affiliate",
+            "tier": "affiliate",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (affiliate)"
+          }
+        },
+        {
+          "question_id": "BDR-001",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "BDR-002",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "BDR-003",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "BDR-004",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "BDR-005",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-01-existence",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-01-location",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-01-stage",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-01-fiscal_scale",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-01-owner_dept",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-01-citizen_benefit",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-02-existence",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-02-location",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-02-stage",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-02-fiscal_scale",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-02-owner_dept",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-02-citizen_benefit",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-03-existence",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-03-location",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-03-stage",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-03-fiscal_scale",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-03-owner_dept",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "PRJ-SGP-03-citizen_benefit",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "OPP-01",
+          "ownership": {
+            "owner_role": "affiliate",
+            "tier": "affiliate",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (affiliate)"
+          }
+        },
+        {
+          "question_id": "OPP-02",
+          "ownership": {
+            "owner_role": "affiliate",
+            "tier": "affiliate",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (affiliate)"
+          }
+        },
+        {
+          "question_id": "OPP-03",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "OPP-04",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "OPP-05",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "OPP-06",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "REP-01",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "REP-02",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        },
+        {
+          "question_id": "REP-03",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "REP-04",
+          "ownership": {
+            "owner_role": "upper_tier",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (upper_tier)"
+          }
+        },
+        {
+          "question_id": "REP-05",
+          "ownership": {
+            "owner_role": "institution",
+            "tier": "partner",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (institution)"
+          }
+        },
+        {
+          "question_id": "REP-06",
+          "ownership": {
+            "owner_role": "agency_hq",
+            "tier": "direct",
+            "rationale": "질문 필지 요건상 정본 관리 주체 (agency_hq)"
+          }
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "entity_existence",
+      "items": []
+    },
+    {
+      "order": 3,
+      "kind": "nonresponse_distribution",
+      "items": [
+        {
+          "question_id": "PRJ-SGP-02-location",
+          "nonresponse_code": "N2",
+          "note": "답이 나오지 않음 (귀책 코드: N2)"
+        },
+        {
+          "question_id": "REP-01",
+          "nonresponse_code": "N2",
+          "note": "답이 나오지 않음 (귀책 코드: N2)"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "public_source_citation",
+      "items": [
+        {
+          "question_id": "TOU-001",
+          "public_source_present": false,
+          "body_url_count": 5,
+          "citation_url_count": 5
+        },
+        {
+          "question_id": "TOU-002",
+          "public_source_present": false,
+          "body_url_count": 14,
+          "citation_url_count": 14
+        },
+        {
+          "question_id": "TOU-003",
+          "public_source_present": false,
+          "body_url_count": 32,
+          "citation_url_count": 32
+        },
+        {
+          "question_id": "TOU-004",
+          "public_source_present": false,
+          "body_url_count": 5,
+          "citation_url_count": 5
+        },
+        {
+          "question_id": "TOU-005",
+          "public_source_present": false,
+          "body_url_count": 3,
+          "citation_url_count": 3
+        },
+        {
+          "question_id": "BDR-001",
+          "public_source_present": false,
+          "body_url_count": 10,
+          "citation_url_count": 10
+        },
+        {
+          "question_id": "BDR-002",
+          "public_source_present": false,
+          "body_url_count": 37,
+          "citation_url_count": 37
+        },
+        {
+          "question_id": "BDR-003",
+          "public_source_present": true,
+          "body_url_count": 17,
+          "citation_url_count": 17
+        },
+        {
+          "question_id": "BDR-004",
+          "public_source_present": false,
+          "body_url_count": 2,
+          "citation_url_count": 2
+        },
+        {
+          "question_id": "BDR-005",
+          "public_source_present": false,
+          "body_url_count": 15,
+          "citation_url_count": 15
+        },
+        {
+          "question_id": "PRJ-SGP-01-existence",
+          "public_source_present": false,
+          "body_url_count": 22,
+          "citation_url_count": 22
+        },
+        {
+          "question_id": "PRJ-SGP-01-location",
+          "public_source_present": false,
+          "body_url_count": 19,
+          "citation_url_count": 19
+        },
+        {
+          "question_id": "PRJ-SGP-01-stage",
+          "public_source_present": false,
+          "body_url_count": 19,
+          "citation_url_count": 19
+        },
+        {
+          "question_id": "PRJ-SGP-01-fiscal_scale",
+          "public_source_present": false,
+          "body_url_count": 35,
+          "citation_url_count": 35
+        },
+        {
+          "question_id": "PRJ-SGP-01-owner_dept",
+          "public_source_present": false,
+          "body_url_count": 15,
+          "citation_url_count": 15
+        },
+        {
+          "question_id": "PRJ-SGP-01-citizen_benefit",
+          "public_source_present": false,
+          "body_url_count": 0,
+          "citation_url_count": 0
+        },
+        {
+          "question_id": "PRJ-SGP-02-existence",
+          "public_source_present": false,
+          "body_url_count": 20,
+          "citation_url_count": 20
+        },
+        {
+          "question_id": "PRJ-SGP-02-location",
+          "public_source_present": false,
+          "body_url_count": 10,
+          "citation_url_count": 10
+        },
+        {
+          "question_id": "PRJ-SGP-02-stage",
+          "public_source_present": true,
+          "body_url_count": 17,
+          "citation_url_count": 17
+        },
+        {
+          "question_id": "PRJ-SGP-02-fiscal_scale",
+          "public_source_present": false,
+          "body_url_count": 22,
+          "citation_url_count": 22
+        },
+        {
+          "question_id": "PRJ-SGP-02-owner_dept",
+          "public_source_present": true,
+          "body_url_count": 26,
+          "citation_url_count": 26
+        },
+        {
+          "question_id": "PRJ-SGP-02-citizen_benefit",
+          "public_source_present": true,
+          "body_url_count": 12,
+          "citation_url_count": 12
+        },
+        {
+          "question_id": "PRJ-SGP-03-existence",
+          "public_source_present": false,
+          "body_url_count": 5,
+          "citation_url_count": 5
+        },
+        {
+          "question_id": "PRJ-SGP-03-location",
+          "public_source_present": true,
+          "body_url_count": 20,
+          "citation_url_count": 20
+        },
+        {
+          "question_id": "PRJ-SGP-03-stage",
+          "public_source_present": false,
+          "body_url_count": 12,
+          "citation_url_count": 12
+        },
+        {
+          "question_id": "PRJ-SGP-03-fiscal_scale",
+          "public_source_present": false,
+          "body_url_count": 9,
+          "citation_url_count": 9
+        },
+        {
+          "question_id": "PRJ-SGP-03-owner_dept",
+          "public_source_present": false,
+          "body_url_count": 12,
+          "citation_url_count": 12
+        },
+        {
+          "question_id": "PRJ-SGP-03-citizen_benefit",
+          "public_source_present": false,
+          "body_url_count": 0,
+          "citation_url_count": 0
+        },
+        {
+          "question_id": "OPP-01",
+          "public_source_present": false,
+          "body_url_count": 8,
+          "citation_url_count": 8
+        },
+        {
+          "question_id": "OPP-02",
+          "public_source_present": false,
+          "body_url_count": 1,
+          "citation_url_count": 1
+        },
+        {
+          "question_id": "OPP-03",
+          "public_source_present": false,
+          "body_url_count": 22,
+          "citation_url_count": 22
+        },
+        {
+          "question_id": "OPP-04",
+          "public_source_present": false,
+          "body_url_count": 0,
+          "citation_url_count": 0
+        },
+        {
+          "question_id": "OPP-05",
+          "public_source_present": false,
+          "body_url_count": 6,
+          "citation_url_count": 6
+        },
+        {
+          "question_id": "OPP-06",
+          "public_source_present": false,
+          "body_url_count": 9,
+          "citation_url_count": 9
+        },
+        {
+          "question_id": "REP-01",
+          "public_source_present": false,
+          "body_url_count": 3,
+          "citation_url_count": 3
+        },
+        {
+          "question_id": "REP-02",
+          "public_source_present": false,
+          "body_url_count": 8,
+          "citation_url_count": 8
+        },
+        {
+          "question_id": "REP-03",
+          "public_source_present": false,
+          "body_url_count": 20,
+          "citation_url_count": 20
+        },
+        {
+          "question_id": "REP-04",
+          "public_source_present": false,
+          "body_url_count": 26,
+          "citation_url_count": 26
+        },
+        {
+          "question_id": "REP-05",
+          "public_source_present": false,
+          "body_url_count": 28,
+          "citation_url_count": 28
+        },
+        {
+          "question_id": "REP-06",
+          "public_source_present": false,
+          "body_url_count": 15,
+          "citation_url_count": 15
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "residual_spread",
+      "items": [
+        "0.074"
+      ]
+    }
+  ]
+}
