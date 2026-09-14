@@ -1,0 +1,17 @@
+{
+  "response_id": "RSP-2026Q3-000001",
+  "question_id": "CORE-003",
+  "agency_handle": "AG-0042",
+  "run_profile_id": "RP-2026Q3-A",
+  "attempt": 1,
+  "observed_at": "2026-09-02T04:11:07Z",
+  "outcome": "answered",
+  "raw_text": "(관측된 응답 전량이 그대로 들어갑니다. 요약하지 않습니다. 이 표본에서는 지면상 이 문장으로 대신합니다.)",
+  "body_urls": [
+    "https://example.go.kr/civil/hours"
+  ],
+  "citation_urls": [
+    "https://example.go.kr/civil/hours",
+    "https://blog.example.com/post/1"
+  ]
+}

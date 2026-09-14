@@ -1,0 +1,70 @@
+{
+  "$comment": "문서·코드·커밋 메시지에 쓰지 않는 표현. tools/validate.py 가 검사한다",
+  "revision": 1,
+  "terms": [
+    {
+      "term": "환각",
+      "reason": "검증 불가능한 표현",
+      "use_instead": "어긋남 · 부정합"
+    },
+    {
+      "term": "국가 표준",
+      "reason": "우리가 붙일 수 있는 지위가 아니다",
+      "use_instead": null
+    },
+    {
+      "term": "세계 최초",
+      "reason": "검증 불가능한 주장",
+      "use_instead": null
+    },
+    {
+      "term": "정합도 100",
+      "reason": "수치 목표를 약속하지 않는다",
+      "use_instead": null
+    },
+    {
+      "term": "오류 0%",
+      "reason": "수치 목표를 약속하지 않는다",
+      "use_instead": null
+    },
+    {
+      "term": "부존재",
+      "reason": "확인하지 못한 것을 없다고 단정한다",
+      "use_instead": "확인되지 않음"
+    },
+    {
+      "term": "공약 이행률",
+      "reason": "공약은 자치사무가 아니며 이미 평가하는 곳이 있다",
+      "use_instead": null
+    },
+    {
+      "term": "순위표",
+      "reason": "만들지 않는 산출",
+      "use_instead": "분위 밴드"
+    },
+    {
+      "term": "종합 점수",
+      "reason": "만들지 않는 산출",
+      "use_instead": "상태"
+    },
+    {
+      "term": "우수 지자체",
+      "reason": "등급은 순위의 다른 이름",
+      "use_instead": null
+    }
+  ],
+  "context_sensitive": [
+    {
+      "term": "통계",
+      "note": "영리 사업자는 국가승인통계를 낼 수 없다. 우리 산출물을 가리킬 때 쓰지 않는다. 타 기관의 공표 통계를 가리킬 때는 허용"
+    },
+    {
+      "term": "평가",
+      "note": "우리 산출물을 가리킬 때 쓰지 않는다. 타 기관의 평가 제도를 가리킬 때는 허용"
+    },
+    {
+      "term": "인증",
+      "note": "우리가 부여하는 것처럼 읽히는 자리에 쓰지 않는다"
+    }
+  ]
+}

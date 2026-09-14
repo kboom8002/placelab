@@ -1,0 +1,26 @@
+{
+  "$comment": "네 층위. '가시성'이라는 단일 용어를 쓰지 않는다. spec/00 §3",
+  "revision": 1,
+  "layers": [
+    {
+      "code": "access",
+      "name": "접근성",
+      "question": "기계가 그 자료에 닿을 수 있는가"
+    },
+    {
+      "code": "readability",
+      "name": "판독성",
+      "question": "닿은 자료를 기계가 읽어낼 형태인가"
+    },
+    {
+      "code": "citation",
+      "name": "인용",
+      "question": "답을 만들 때 무엇이 근거로 쓰였는가"
+    },
+    {
+      "code": "accuracy",
+      "name": "정확",
+      "question": "답의 값이 원장과 맞는가"
+    }
+  ]
+}

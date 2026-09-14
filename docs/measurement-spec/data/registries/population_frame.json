@@ -1,0 +1,1374 @@
+{
+  "$comment": "조사 기준일의 기관 목록. 판본을 여는 첫 작업은 이 파일의 갱신이다. spec/01 §1",
+  "revision": 1,
+  "status": "active",
+  "reference_date": "2026-09-14",
+  "source_document": "행정안전부 주민등록 인구현황 및 행정구역 편람",
+  "source_authority": "행정안전부",
+  "agency_count": 226,
+  "note": "위키 문서나 과거 판본의 목록을 그대로 쓰지 않는다. 통합·분리로 기관 수가 바뀐다. 기준일의 행정안전부 자료로 고정한 뒤 revision 을 1 로 올린다",
+  "agency_fields": [
+    "handle",
+    "display",
+    "type",
+    "upper_tier"
+  ],
+  "agencies": [
+    {
+      "handle": "AG-0001",
+      "display": "종로구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0002",
+      "display": "중구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0003",
+      "display": "용산구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0004",
+      "display": "성동구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0005",
+      "display": "광진구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0006",
+      "display": "동대문구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0007",
+      "display": "중랑구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0008",
+      "display": "성북구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0009",
+      "display": "강북구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0010",
+      "display": "도봉구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0011",
+      "display": "노원구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0012",
+      "display": "은평구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0013",
+      "display": "서대문구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0014",
+      "display": "마포구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0015",
+      "display": "양천구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0016",
+      "display": "강서구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0017",
+      "display": "구로구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0018",
+      "display": "금천구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0019",
+      "display": "영등포구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0020",
+      "display": "동작구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0021",
+      "display": "관악구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0022",
+      "display": "서초구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0023",
+      "display": "강남구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0024",
+      "display": "송파구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0025",
+      "display": "강동구",
+      "type": "자치구",
+      "upper_tier": "서울특별시"
+    },
+    {
+      "handle": "AG-0026",
+      "display": "중구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0027",
+      "display": "서구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0028",
+      "display": "동구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0029",
+      "display": "영도구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0030",
+      "display": "부산진구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0031",
+      "display": "동래구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0032",
+      "display": "남구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0033",
+      "display": "북구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0034",
+      "display": "해운대구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0035",
+      "display": "사하구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0036",
+      "display": "금정구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0037",
+      "display": "강서구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0038",
+      "display": "연제구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0039",
+      "display": "수영구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0040",
+      "display": "사상구",
+      "type": "자치구",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0041",
+      "display": "기장군",
+      "type": "군",
+      "upper_tier": "부산광역시"
+    },
+    {
+      "handle": "AG-0042",
+      "display": "중구",
+      "type": "자치구",
+      "upper_tier": "대구광역시"
+    },
+    {
+      "handle": "AG-0043",
+      "display": "동구",
+      "type": "자치구",
+      "upper_tier": "대구광역시"
+    },
+    {
+      "handle": "AG-0044",
+      "display": "서구",
+      "type": "자치구",
+      "upper_tier": "대구광역시"
+    },
+    {
+      "handle": "AG-0045",
+      "display": "남구",
+      "type": "자치구",
+      "upper_tier": "대구광역시"
+    },
+    {
+      "handle": "AG-0046",
+      "display": "북구",
+      "type": "자치구",
+      "upper_tier": "대구광역시"
+    },
+    {
+      "handle": "AG-0047",
+      "display": "수성구",
+      "type": "자치구",
+      "upper_tier": "대구광역시"
+    },
+    {
+      "handle": "AG-0048",
+      "display": "달서구",
+      "type": "자치구",
+      "upper_tier": "대구광역시"
+    },
+    {
+      "handle": "AG-0049",
+      "display": "달성군",
+      "type": "군",
+      "upper_tier": "대구광역시"
+    },
+    {
+      "handle": "AG-0050",
+      "display": "군위군",
+      "type": "군",
+      "upper_tier": "대구광역시"
+    },
+    {
+      "handle": "AG-0051",
+      "display": "중구",
+      "type": "자치구",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0052",
+      "display": "동구",
+      "type": "자치구",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0053",
+      "display": "미추홀구",
+      "type": "자치구",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0054",
+      "display": "연수구",
+      "type": "자치구",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0055",
+      "display": "남동구",
+      "type": "자치구",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0056",
+      "display": "부평구",
+      "type": "자치구",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0057",
+      "display": "계양구",
+      "type": "자치구",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0058",
+      "display": "서구",
+      "type": "자치구",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0059",
+      "display": "강화군",
+      "type": "군",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0060",
+      "display": "옹진군",
+      "type": "군",
+      "upper_tier": "인천광역시"
+    },
+    {
+      "handle": "AG-0061",
+      "display": "동구",
+      "type": "자치구",
+      "upper_tier": "광주광역시"
+    },
+    {
+      "handle": "AG-0062",
+      "display": "서구",
+      "type": "자치구",
+      "upper_tier": "광주광역시"
+    },
+    {
+      "handle": "AG-0063",
+      "display": "남구",
+      "type": "자치구",
+      "upper_tier": "광주광역시"
+    },
+    {
+      "handle": "AG-0064",
+      "display": "북구",
+      "type": "자치구",
+      "upper_tier": "광주광역시"
+    },
+    {
+      "handle": "AG-0065",
+      "display": "광산구",
+      "type": "자치구",
+      "upper_tier": "광주광역시"
+    },
+    {
+      "handle": "AG-0066",
+      "display": "동구",
+      "type": "자치구",
+      "upper_tier": "대전광역시"
+    },
+    {
+      "handle": "AG-0067",
+      "display": "중구",
+      "type": "자치구",
+      "upper_tier": "대전광역시"
+    },
+    {
+      "handle": "AG-0068",
+      "display": "서구",
+      "type": "자치구",
+      "upper_tier": "대전광역시"
+    },
+    {
+      "handle": "AG-0069",
+      "display": "유성구",
+      "type": "자치구",
+      "upper_tier": "대전광역시"
+    },
+    {
+      "handle": "AG-0070",
+      "display": "대덕구",
+      "type": "자치구",
+      "upper_tier": "대전광역시"
+    },
+    {
+      "handle": "AG-0071",
+      "display": "중구",
+      "type": "자치구",
+      "upper_tier": "울산광역시"
+    },
+    {
+      "handle": "AG-0072",
+      "display": "남구",
+      "type": "자치구",
+      "upper_tier": "울산광역시"
+    },
+    {
+      "handle": "AG-0073",
+      "display": "동구",
+      "type": "자치구",
+      "upper_tier": "울산광역시"
+    },
+    {
+      "handle": "AG-0074",
+      "display": "북구",
+      "type": "자치구",
+      "upper_tier": "울산광역시"
+    },
+    {
+      "handle": "AG-0075",
+      "display": "울주군",
+      "type": "군",
+      "upper_tier": "울산광역시"
+    },
+    {
+      "handle": "AG-0076",
+      "display": "수원시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0077",
+      "display": "용인시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0078",
+      "display": "고양시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0079",
+      "display": "성남시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0080",
+      "display": "화성시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0081",
+      "display": "부천시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0082",
+      "display": "남양주시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0083",
+      "display": "안산시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0084",
+      "display": "평택시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0085",
+      "display": "안양시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0086",
+      "display": "시흥시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0087",
+      "display": "파주시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0088",
+      "display": "김포시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0089",
+      "display": "의정부시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0090",
+      "display": "광주시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0091",
+      "display": "하남시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0092",
+      "display": "광명시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0093",
+      "display": "군포시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0094",
+      "display": "양주시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0095",
+      "display": "오산시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0096",
+      "display": "이천시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0097",
+      "display": "안성시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0098",
+      "display": "구리시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0099",
+      "display": "의왕시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0100",
+      "display": "포천시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0101",
+      "display": "양평군",
+      "type": "군",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0102",
+      "display": "여주시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0103",
+      "display": "동두천시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0104",
+      "display": "과천시",
+      "type": "시",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0105",
+      "display": "가평군",
+      "type": "군",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0106",
+      "display": "연천군",
+      "type": "군",
+      "upper_tier": "경기도"
+    },
+    {
+      "handle": "AG-0107",
+      "display": "춘천시",
+      "type": "시",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0108",
+      "display": "원주시",
+      "type": "시",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0109",
+      "display": "강릉시",
+      "type": "시",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0110",
+      "display": "동해시",
+      "type": "시",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0111",
+      "display": "태백시",
+      "type": "시",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0112",
+      "display": "속초시",
+      "type": "시",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0113",
+      "display": "삼척시",
+      "type": "시",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0114",
+      "display": "홍천군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0115",
+      "display": "횡성군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0116",
+      "display": "영월군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0117",
+      "display": "평창군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0118",
+      "display": "정선군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0119",
+      "display": "철원군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0120",
+      "display": "화천군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0121",
+      "display": "양구군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0122",
+      "display": "인제군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0123",
+      "display": "고성군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0124",
+      "display": "양양군",
+      "type": "군",
+      "upper_tier": "강원특별자치도"
+    },
+    {
+      "handle": "AG-0125",
+      "display": "청주시",
+      "type": "시",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0126",
+      "display": "충주시",
+      "type": "시",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0127",
+      "display": "제천시",
+      "type": "시",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0128",
+      "display": "보은군",
+      "type": "군",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0129",
+      "display": "옥천군",
+      "type": "군",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0130",
+      "display": "영동군",
+      "type": "군",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0131",
+      "display": "증평군",
+      "type": "군",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0132",
+      "display": "진천군",
+      "type": "군",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0133",
+      "display": "괴산군",
+      "type": "군",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0134",
+      "display": "음성군",
+      "type": "군",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0135",
+      "display": "단양군",
+      "type": "군",
+      "upper_tier": "충청북도"
+    },
+    {
+      "handle": "AG-0136",
+      "display": "천안시",
+      "type": "시",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0137",
+      "display": "공주시",
+      "type": "시",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0138",
+      "display": "보령시",
+      "type": "시",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0139",
+      "display": "아산시",
+      "type": "시",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0140",
+      "display": "서산시",
+      "type": "시",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0141",
+      "display": "논산시",
+      "type": "시",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0142",
+      "display": "계룡시",
+      "type": "시",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0143",
+      "display": "당진시",
+      "type": "시",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0144",
+      "display": "금산군",
+      "type": "군",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0145",
+      "display": "부여군",
+      "type": "군",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0146",
+      "display": "서천군",
+      "type": "군",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0147",
+      "display": "청양군",
+      "type": "군",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0148",
+      "display": "홍성군",
+      "type": "군",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0149",
+      "display": "예산군",
+      "type": "군",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0150",
+      "display": "태안군",
+      "type": "군",
+      "upper_tier": "충청남도"
+    },
+    {
+      "handle": "AG-0151",
+      "display": "전주시",
+      "type": "시",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0152",
+      "display": "군산시",
+      "type": "시",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0153",
+      "display": "익산시",
+      "type": "시",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0154",
+      "display": "정읍시",
+      "type": "시",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0155",
+      "display": "남원시",
+      "type": "시",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0156",
+      "display": "김제시",
+      "type": "시",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0157",
+      "display": "완주군",
+      "type": "군",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0158",
+      "display": "진안군",
+      "type": "군",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0159",
+      "display": "무주군",
+      "type": "군",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0160",
+      "display": "장수군",
+      "type": "군",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0161",
+      "display": "임실군",
+      "type": "군",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0162",
+      "display": "순창군",
+      "type": "군",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0163",
+      "display": "고창군",
+      "type": "군",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0164",
+      "display": "부안군",
+      "type": "군",
+      "upper_tier": "전북특별자치도"
+    },
+    {
+      "handle": "AG-0165",
+      "display": "목포시",
+      "type": "시",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0166",
+      "display": "여수시",
+      "type": "시",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0167",
+      "display": "순천시",
+      "type": "시",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0168",
+      "display": "나주시",
+      "type": "시",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0169",
+      "display": "광양시",
+      "type": "시",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0170",
+      "display": "담양군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0171",
+      "display": "곡성군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0172",
+      "display": "구례군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0173",
+      "display": "고흥군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0174",
+      "display": "보성군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0175",
+      "display": "화순군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0176",
+      "display": "장흥군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0177",
+      "display": "강진군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0178",
+      "display": "해남군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0179",
+      "display": "영암군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0180",
+      "display": "무안군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0181",
+      "display": "함평군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0182",
+      "display": "영광군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0183",
+      "display": "장성군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0184",
+      "display": "완도군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0185",
+      "display": "진도군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0186",
+      "display": "신안군",
+      "type": "군",
+      "upper_tier": "전라남도"
+    },
+    {
+      "handle": "AG-0187",
+      "display": "포항시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0188",
+      "display": "경주시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0189",
+      "display": "김천시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0190",
+      "display": "안동시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0191",
+      "display": "구미시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0192",
+      "display": "영주시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0193",
+      "display": "영천시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0194",
+      "display": "상주시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0195",
+      "display": "문경시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0196",
+      "display": "경산시",
+      "type": "시",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0197",
+      "display": "의성군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0198",
+      "display": "청송군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0199",
+      "display": "영양군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0200",
+      "display": "영덕군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0201",
+      "display": "청도군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0202",
+      "display": "고령군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0203",
+      "display": "성주군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0204",
+      "display": "칠곡군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0205",
+      "display": "예천군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0206",
+      "display": "봉화군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0207",
+      "display": "울진군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0208",
+      "display": "울릉군",
+      "type": "군",
+      "upper_tier": "경상북도"
+    },
+    {
+      "handle": "AG-0209",
+      "display": "창원시",
+      "type": "시",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0210",
+      "display": "진주시",
+      "type": "시",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0211",
+      "display": "통영시",
+      "type": "시",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0212",
+      "display": "사천시",
+      "type": "시",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0213",
+      "display": "김해시",
+      "type": "시",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0214",
+      "display": "밀양시",
+      "type": "시",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0215",
+      "display": "거제시",
+      "type": "시",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0216",
+      "display": "양산시",
+      "type": "시",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0217",
+      "display": "의령군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0218",
+      "display": "함안군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0219",
+      "display": "창녕군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0220",
+      "display": "고성군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0221",
+      "display": "남해군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0222",
+      "display": "하동군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0223",
+      "display": "산청군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0224",
+      "display": "함양군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0225",
+      "display": "거창군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    },
+    {
+      "handle": "AG-0226",
+      "display": "합천군",
+      "type": "군",
+      "upper_tier": "경상남도"
+    }
+  ]
+}

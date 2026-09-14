@@ -1,0 +1,603 @@
+{
+  "$comment": "공통 코어. 모든 기관에 같은 형태로 던진다. spec/02 참조",
+  "set": "core_common",
+  "revision": 1,
+  "reference_date": "2026-09-14",
+  "counts": {
+    "value": 20,
+    "descriptive": 10
+  },
+  "note": "basis_verification 이 to_verify 인 문항은 근거 문서의 자구를 대조한 뒤 판본에 싣는다",
+  "questions": [
+    {
+      "id": "CORE-001",
+      "revision": 1,
+      "status": "active",
+      "text": "이 기관의 청사 주소는 어디입니까",
+      "boundary": "본청 청사만. 산하 기관·별관·민원 분소는 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 공식 안내의 청사 소재지",
+      "owner_role": "agency_hq",
+      "difficulty": "D0",
+      "sensitivity": "public",
+      "source_basis": "기관 기본 정보 의무 공개",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-002",
+      "revision": 1,
+      "status": "active",
+      "text": "이 기관의 대표 전화번호는 무엇입니까",
+      "boundary": "대표 번호만. 부서별 직통 번호는 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 공식 안내의 대표 번호",
+      "owner_role": "agency_hq",
+      "difficulty": "D0",
+      "sensitivity": "public",
+      "source_basis": "기관 기본 정보 의무 공개",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-003",
+      "revision": 1,
+      "status": "active",
+      "text": "민원실은 언제 문을 엽니까",
+      "boundary": "본청 민원실의 평일 운영 시간만. 야간·주말 연장 운영은 별도 문항",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 공식 안내의 민원실 운영 시간",
+      "owner_role": "agency_hq",
+      "difficulty": "D0",
+      "sensitivity": "public",
+      "source_basis": "민원 처리에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-004",
+      "revision": 1,
+      "status": "active",
+      "text": "정보공개 청구는 어떻게 합니까",
+      "boundary": "청구 경로와 접수처까지. 처리 기간과 수수료는 별도 문항",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "정보공개 제도 안내 문서",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "정보공개에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-005",
+      "revision": 1,
+      "status": "active",
+      "text": "이 기관의 조례와 규칙은 어디에서 볼 수 있습니까",
+      "boundary": "열람 경로만. 개별 조례의 내용은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "자치법규 공개 시스템의 해당 기관 페이지",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "자치법규 공개 의무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-006",
+      "revision": 1,
+      "status": "active",
+      "text": "생활폐기물은 어떤 요일에 어떻게 배출합니까",
+      "boundary": "일반 생활폐기물의 배출 요일과 방식. 재활용 분리 기준은 별도 문항",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 고시 또는 조례상 배출 기준",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "폐기물 관리에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-007",
+      "revision": 1,
+      "status": "active",
+      "text": "대형폐기물은 어떻게 신고하고 수수료는 얼마입니까",
+      "boundary": "신고 경로와 대표 품목의 수수료. 전체 품목표는 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 조례의 수수료 표",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "폐기물 관리에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-008",
+      "revision": 1,
+      "status": "active",
+      "text": "주민등록등본 발급 수수료는 얼마입니까",
+      "boundary": "창구 발급 기준. 무인 발급기·온라인 감면은 별도 문항",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "수수료 관련 법령 및 기관 조례",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "주민등록에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-009",
+      "revision": 1,
+      "status": "active",
+      "text": "지방세는 어떤 방법으로 납부할 수 있습니까",
+      "boundary": "납부 경로의 종류까지. 세목별 세율은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 세정 안내 문서",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "지방세에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-010",
+      "revision": 1,
+      "status": "active",
+      "text": "건축 인허가는 어느 부서가 맡습니까",
+      "boundary": "부서명까지. 담당자 이름과 직통 번호는 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 사무 분장 규칙",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "사무 분장 규칙 공개",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-011",
+      "revision": 1,
+      "status": "active",
+      "text": "공공도서관은 언제 문을 엽니까",
+      "boundary": "기관이 운영하는 공공도서관의 운영 시간과 휴관일. 작은도서관은 제외",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 또는 운영 주체의 공식 안내",
+      "owner_role": "affiliate",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "도서관에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-012",
+      "revision": 1,
+      "status": "active",
+      "text": "보건소는 어디에 있고 언제 문을 엽니까",
+      "boundary": "본 보건소만. 보건지소·진료소는 별도 문항",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 공식 안내의 보건소 정보",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "지역보건에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-013",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역 시내버스의 기본요금은 얼마입니까",
+      "boundary": "성인 현금 기준 기본요금. 환승 할인과 구간 요금은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "요금 관련 공고 또는 광역의 고시",
+      "owner_role": "upper_tier",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "여객자동차 운수에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-014",
+      "revision": 1,
+      "status": "active",
+      "text": "공영주차장 요금은 얼마입니까",
+      "boundary": "대표 공영주차장의 시간당 요금. 전체 주차장 목록은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 조례의 주차장 사용료",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "주차장에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-015",
+      "revision": 1,
+      "status": "active",
+      "text": "기초연금은 어디에서 신청합니까",
+      "boundary": "신청 창구의 종류까지. 지급액과 선정 기준은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 복지 안내 문서",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "기초연금에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-016",
+      "revision": 1,
+      "status": "active",
+      "text": "장애인 복지는 어느 부서가 맡습니까",
+      "boundary": "부서명까지. 개별 급여의 신청 방법은 별도 문항",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 사무 분장 규칙",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "사무 분장 규칙 공개",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-017",
+      "revision": 1,
+      "status": "active",
+      "text": "어린이집 보육료 지원은 어떻게 신청합니까",
+      "boundary": "신청 경로까지. 지원 금액과 소득 기준은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 보육 안내 문서",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "영유아보육에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-018",
+      "revision": 1,
+      "status": "active",
+      "text": "공공 체육시설의 이용료는 얼마입니까",
+      "boundary": "대표 체육시설의 일반 이용료. 전체 시설의 요금표는 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 조례의 사용료",
+      "owner_role": "affiliate",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "체육시설에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-019",
+      "revision": 1,
+      "status": "active",
+      "text": "이 기관의 재정 공시는 어디에서 볼 수 있습니까",
+      "boundary": "공시 열람 위치까지. 공시된 수치는 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "재정 운용 상황 공시 문서",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "지방재정법상 재정 운용 상황 공시",
+      "basis_verification": "confirmed"
+    },
+    {
+      "id": "CORE-020",
+      "revision": 1,
+      "status": "active",
+      "text": "재난이 났을 때 어디로 대피해야 합니까",
+      "boundary": "대피 안내가 공개되어 있는 위치까지. 개별 대피소의 수용 인원은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 재난 안내 문서",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "restricted",
+      "source_basis": "재난 및 안전관리에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "CORE-021",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역에 살면 생활이 어떻습니까",
+      "boundary": "정주 여건을 이루는 사실의 서술. 삶의 질에 대한 평가는 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "CORE-022",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 대표적인 볼거리는 무엇입니까",
+      "boundary": "공적 주체가 발행한 관광 자산 개요. 특정 업소 추천은 대상이 아니다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "affiliate",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "CORE-023",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역에서 사업을 시작하려면 무엇을 알아야 합니까",
+      "boundary": "창업·입지 조건의 서술. 개별 업종의 인허가 절차는 별도 문항",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "CORE-024",
+      "revision": 1,
+      "status": "active",
+      "text": "외국어로 이 지역을 안내받을 수 있습니까",
+      "boundary": "공적 주체가 발행한 외국어 안내의 존재. 번역 품질은 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "CORE-025",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 이름은 어디에서 왔습니까",
+      "boundary": "지역 역사와 유래의 서술. 사실 관계의 학술적 다툼은 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "institution",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "CORE-026",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 생활 기반 시설은 어떻게 갖추어져 있습니까",
+      "boundary": "공적 주체가 발행한 생활 인프라 현황. 충분한지 여부는 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "CORE-027",
+      "revision": 1,
+      "status": "active",
+      "text": "청년이 이 지역에 정착하려면 어떤 도움을 받을 수 있습니까",
+      "boundary": "지원 제도의 얼개. 개별 사업의 예산 규모는 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "CORE-028",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역으로 귀농·귀촌하려면 어떤 절차를 밟습니까",
+      "boundary": "절차의 얼개. 개인의 적합성 판단은 대상이 아니다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "CORE-029",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 축제는 어떤 성격입니까",
+      "boundary": "공적 주체가 발행한 축제 개요. 재미나 만족도는 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "affiliate",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "CORE-030",
+      "revision": 1,
+      "status": "active",
+      "text": "대중교통으로 이 지역에 오려면 어떻게 해야 합니까",
+      "boundary": "접근 경로의 서술. 실시간 시각표는 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    }
+  ]
+}

@@ -14,6 +14,8 @@ import { testInv10RobustnessGate } from './inv-10-robustness-gate.test';
 import { testInv11Preregistration } from './inv-11-preregistration.test';
 import { testInv12EvidenceLedger } from './inv-12-evidence-ledger.test';
 import { testSelfCompliance } from './self-compliance.test';
+import { testSpecValidation } from './spec-validation.test';
+import { testMeasurementSpecPipeline } from '../measurement/measurement-spec-pipeline.test';
 
 async function runAllInvariantTests() {
   console.log('====================================================');
@@ -37,6 +39,8 @@ async function runAllInvariantTests() {
     { name: 'INV-11: 사전 등록 없는 측정 공표 금지', fn: testInv11Preregistration },
     { name: 'INV-12: 대장에 없는 주장 사용 금지', fn: testInv12EvidenceLedger },
     { name: 'FR-5.4: 자체 사이트 자가 준수 (robots.txt)', fn: testSelfCompliance },
+    { name: 'SPEC: measurement-spec 규격 저장소 린트 무결성', fn: testSpecValidation },
+    { name: 'SPEC-PIPE: 신규 측정 파이프라인 4단계 완결 검증', fn: testMeasurementSpecPipeline },
   ];
 
   for (const t of tests) {

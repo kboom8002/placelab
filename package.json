@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:spec": "python docs/measurement-spec/tools/validate.py",
     "test:invariants": "tsx tests/invariants/run-all.ts",
     "test:kbrandlab": "tsx tests/kbrandlab/run-all.ts"
   },

@@ -1,0 +1,108 @@
+{
+  "$comment": "계열 코어. 같은 계열 안에서만 비교한다. 계열 사이를 비교하거나 합산하지 않는다",
+  "set": "archetype_depopulation",
+  "archetype": "depopulation",
+  "archetype_name": "인구감소형",
+  "revision": 1,
+  "reference_date": "2026-09-14",
+  "questions": [
+    {
+      "id": "DEP-001",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역은 인구감소지역으로 지정되어 있습니까",
+      "boundary": "지정 여부와 지정 주체까지. 지정 사유의 타당성은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "행정안전부 인구감소지역 지정 고시",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "인구감소지역 지원에 관한 법령상 지정",
+      "basis_verification": "confirmed"
+    },
+    {
+      "id": "DEP-002",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역으로 이주하면 어떤 지원을 받을 수 있습니까",
+      "boundary": "제도의 종류와 신청 창구까지. 지원 금액은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 조례 및 공고",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "이주 지원 관련 조례",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "DEP-003",
+      "revision": 1,
+      "status": "active",
+      "text": "빈집 정보는 어디에서 확인합니까",
+      "boundary": "공적 정보 제공 경로까지. 개별 매물의 조건은 대상이 아니다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 또는 상위 기관의 공식 안내",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "빈집 정비에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "DEP-004",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역에서 아이를 키우려면 무엇을 알아야 합니까",
+      "boundary": "보육·교육 기반의 서술. 수준에 대한 평가는 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "DEP-005",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 생활 서비스는 어디까지 닿습니까",
+      "boundary": "의료·교통·상업 기반의 서술. 충분한지 여부는 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    }
+  ]
+}

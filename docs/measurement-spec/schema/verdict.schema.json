@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "verdict.schema.json",
+  "title": "판정",
+  "description": "규칙과 원장 대조로만 내린다. 점수·등급 필드가 없는 것이 의도된 설계",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "verdict_id",
+    "observation_id",
+    "question_id",
+    "agency_handle",
+    "result",
+    "judged_by",
+    "judged_at",
+    "ledger_as_of"
+  ],
+  "properties": {
+    "verdict_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observation_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agency_handle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "result": {
+      "enum": [
+        "match",
+        "mismatch",
+        "not_confirmed"
+      ],
+      "description": "맞음 · 어긋남 · 확인되지 않음. 확인하지 못한 것을 없다고 단정하는 표현을 쓰지 않는다"
+    },
+    "nonresponse_code": {
+      "enum": [
+        "N1",
+        "N2",
+        "N3",
+        "N4",
+        "N5"
+      ]
+    },
+    "mismatch_code": {
+      "enum": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    },
+    "ledger_value": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ledger_value_nature": {
+      "enum": [
+        "measured",
+        "estimated",
+        "planned",
+        "unstated"
+      ]
+    },
+    "ledger_stale": {
+      "type": "boolean",
+      "description": "원장 자체가 낡은 경우 true. 이때는 판정하지 않는다"
+    },
+    "name_collision": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "같은 이름의 다른 대상이 답을 가져간 경우 관측된 대상"
+    },
+    "judged_by": {
+      "const": "rule",
+      "description": "언어 모형을 판정에 쓰지 않는다. 이 필드는 rule 만 허용한다"
+    },
+    "judged_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ledger_as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "billable": {
+      "type": "boolean",
+      "description": "난도 D0 항목은 false. 기관이 스스로 확인할 수 있는 것은 청구하지 않는다"
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "result": {
+            "const": "mismatch"
+          }
+        },
+        "required": [
+          "result"
+        ]
+      },
+      "then": {
+        "required": [
+          "mismatch_code"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "ledger_stale": {
+            "const": true
+          }
+        },
+        "required": [
+          "ledger_stale"
+        ]
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "const": "not_confirmed"
+          }
+        }
+      },
+      "$comment": "원장이 낡았으면 판정하지 않는다"
+    }
+  ]
+}

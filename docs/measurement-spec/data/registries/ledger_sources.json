@@ -1,0 +1,72 @@
+{
+  "$comment": "값형 문항의 대조 기준. 원장이 없으면 그 문항은 서술형이어야 한다. spec/02 관문 2",
+  "revision": 1,
+  "sources": [
+    {
+      "code": "agency_notice",
+      "name": "기관 공식 안내",
+      "kind": "self_published",
+      "staleness_risk": "medium",
+      "note": "기관이 스스로 낸 것. 낡아 있는 경우가 있다"
+    },
+    {
+      "code": "local_ordinance",
+      "name": "기관 조례·규칙",
+      "kind": "mandatory_disclosure",
+      "staleness_risk": "low"
+    },
+    {
+      "code": "duty_assignment",
+      "name": "사무 분장 규칙",
+      "kind": "mandatory_disclosure",
+      "staleness_risk": "low"
+    },
+    {
+      "code": "fiscal_disclosure",
+      "name": "재정 운용 상황 공시",
+      "kind": "mandatory_disclosure",
+      "staleness_risk": "medium",
+      "legal_basis": "지방재정법상 재정 운용 상황 공시",
+      "basis_verification": "confirmed",
+      "note": "주요 투자사업 추진현황이 공시 항목에 포함된다. 역점사업 원장의 뿌리"
+    },
+    {
+      "code": "investment_review",
+      "name": "투자심사 결과",
+      "kind": "administrative_record",
+      "staleness_risk": "low",
+      "legal_basis": "지방재정법상 투자심사",
+      "basis_verification": "confirmed",
+      "note": "심사 대상 금액 기준과 결과 공개 의무 조항은 아직 확인되지 않았다"
+    },
+    {
+      "code": "implementation_notice",
+      "name": "실시계획 고시",
+      "kind": "administrative_record",
+      "staleness_risk": "low",
+      "note": "위치와 공기의 원장. 변경 고시를 함께 확인해야 한다"
+    },
+    {
+      "code": "completion_record",
+      "name": "준공검사조서",
+      "kind": "administrative_record",
+      "staleness_risk": "low",
+      "note": "단계 판정의 마지막 원장. 열람에 기관 협조가 필요하다"
+    },
+    {
+      "code": "designation_notice",
+      "name": "지정 고시",
+      "kind": "administrative_record",
+      "staleness_risk": "low",
+      "note": "계열 배정과 지정형 문항의 원장"
+    },
+    {
+      "code": "budget_document",
+      "name": "예산서",
+      "kind": "mandatory_disclosure",
+      "staleness_risk": "low",
+      "note": "사업명과 사업비의 원장. 추경을 함께 확인해야 한다"
+    }
+  ],
+  "stale_handling": "원장 자체가 낡아 있으면 ledger_stale 을 표시하고 판정하지 않는다. 원장이 틀린 것을 대신 판단해 고쳐 쓰지 않는다"
+}

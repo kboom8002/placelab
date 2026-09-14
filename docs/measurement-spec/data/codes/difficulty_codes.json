@@ -1,0 +1,30 @@
+{
+  "$comment": "확인에 드는 품. spec/04 §4",
+  "revision": 1,
+  "codes": [
+    {
+      "code": "D0",
+      "name": "무료 도구 확인 가능",
+      "billable": false,
+      "note": "기관이 스스로 확인할 수 있음. 청구하지 않음"
+    },
+    {
+      "code": "D1",
+      "name": "공개 자료 대조",
+      "billable": true,
+      "note": null
+    },
+    {
+      "code": "D2",
+      "name": "반복 관측 필요",
+      "billable": true,
+      "note": null
+    },
+    {
+      "code": "D3",
+      "name": "원장 열람 필요",
+      "billable": true,
+      "note": "기관 협조가 필요함"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "grid_id": "GRD-2026Q3-AG0042",
+  "agency_handle": "AG-0042",
+  "observed_window": {
+    "start": "2026-09-01T00:00:00Z",
+    "end": "2026-09-07T23:59:59Z"
+  },
+  "rows": [
+    {
+      "question_id": "CORE-021",
+      "cells": [
+        {
+          "actor_role": "agency_hq",
+          "value": "published",
+          "evidence_url": "https://example.go.kr/life"
+        },
+        {
+          "actor_role": "affiliate",
+          "value": "not_applicable"
+        },
+        {
+          "actor_role": "upper_tier",
+          "value": "partial"
+        },
+        {
+          "actor_role": "institution",
+          "value": "not_applicable"
+        },
+        {
+          "actor_role": "private",
+          "value": "blank"
+        }
+      ],
+      "row_verdict": "canon_present"
+    },
+    {
+      "question_id": "CORE-024",
+      "cells": [
+        {
+          "actor_role": "agency_hq",
+          "value": "blank"
+        },
+        {
+          "actor_role": "affiliate",
+          "value": "blank"
+        },
+        {
+          "actor_role": "upper_tier",
+          "value": "blank"
+        },
+        {
+          "actor_role": "institution",
+          "value": "not_applicable"
+        },
+        {
+          "actor_role": "private",
+          "value": "blank"
+        }
+      ],
+      "row_verdict": "canon_absent",
+      "ownership": {
+        "owner_role": "agency_hq",
+        "tier": "direct",
+        "rationale": "외국어 안내를 발행할 수 있는 주체가 본청이다"
+      }
+    }
+  ],
+  "note": "빈칸의 개수를 세지 않는다. 목록으로만 산출한다"
+}

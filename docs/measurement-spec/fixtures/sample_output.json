@@ -1,0 +1,41 @@
+{
+  "output_id": "OUT-2026Q3-NATIONAL",
+  "channel": "national_report",
+  "proxy_notice": "이 자료는 조회 응답을 관측한 것입니다. 조회 응답은 이용자가 실제로 보는 답과 같지 않습니다.",
+  "run_profile_id": "RP-2026Q3-A",
+  "observed_at": {
+    "start": "2026-09-01T00:00:00Z",
+    "end": "2026-09-07T23:59:59Z"
+  },
+  "ledger_as_of": "2026-08-31",
+  "notified_at": "2026-09-10T00:00:00Z",
+  "review_closed_at": "2026-09-24T00:00:00Z",
+  "sections": [
+    {
+      "order": 1,
+      "kind": "canon_absence_and_ownership",
+      "items": []
+    },
+    {
+      "order": 2,
+      "kind": "entity_existence",
+      "items": []
+    },
+    {
+      "order": 3,
+      "kind": "nonresponse_distribution",
+      "items": []
+    },
+    {
+      "order": 4,
+      "kind": "public_source_citation",
+      "items": []
+    },
+    {
+      "order": 5,
+      "kind": "residual_spread",
+      "items": []
+    }
+  ],
+  "note": "순서를 바꾸지 않는다. 4번을 앞에 놓으면 상용 도구의 복제품이 된다"
+}

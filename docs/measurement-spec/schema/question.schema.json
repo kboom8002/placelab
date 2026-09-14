@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "question.schema.json",
+  "title": "문항",
+  "description": "질문 필지 하나. 지번은 영속이며 폐기한 지번을 다시 쓰지 않는다",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "revision",
+    "status",
+    "text",
+    "boundary",
+    "type",
+    "layers",
+    "owner_role",
+    "difficulty",
+    "sensitivity",
+    "source_basis",
+    "basis_verification"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z]{3,4}-[A-Za-z0-9_-]+$",
+      "description": "지번. 한 번 부여하면 바꾸지 않는다"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "enum": [
+        "active",
+        "retired"
+      ],
+      "description": "retired 지번을 재사용하지 않는다"
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "boundary": {
+      "type": "string",
+      "minLength": 1,
+      "description": "무엇은 묻지 않는지를 반드시 적는다 (여섯 요건 중 경계 선언)"
+    },
+    "type": {
+      "enum": [
+        "value",
+        "descriptive"
+      ]
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "access",
+          "readability",
+          "citation",
+          "accuracy"
+        ]
+      }
+    },
+    "ledger": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "값형이면 필수. 없으면 서술형이어야 한다"
+    },
+    "owner_role": {
+      "enum": [
+        "agency_hq",
+        "affiliate",
+        "upper_tier",
+        "institution",
+        "private",
+        "none"
+      ],
+      "description": "기관 실명이 아니라 역할명"
+    },
+    "difficulty": {
+      "enum": [
+        "D0",
+        "D1",
+        "D2",
+        "D3"
+      ]
+    },
+    "sensitivity": {
+      "enum": [
+        "public",
+        "agency_only",
+        "restricted"
+      ]
+    },
+    "source_basis": {
+      "type": "string",
+      "minLength": 1
+    },
+    "basis_verification": {
+      "enum": [
+        "confirmed",
+        "to_verify",
+        "n/a"
+      ]
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "value"
+          }
+        },
+        "required": [
+          "type"
+        ]
+      },
+      "then": {
+        "required": [
+          "ledger"
+        ],
+        "properties": {
+          "ledger": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "$comment": "원장 관문 — 값형에는 대조할 문서가 반드시 있어야 한다"
+    },
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "const": "descriptive"
+          }
+        },
+        "required": [
+          "type"
+        ]
+      },
+      "then": {
+        "properties": {
+          "ledger": {
+            "type": "null"
+          },
+          "layers": {
+            "not": {
+              "contains": {
+                "const": "accuracy"
+              }
+            }
+          }
+        }
+      },
+      "$comment": "서술형에는 값 판정을 하지 않으므로 정확 층을 붙이지 않는다"
+    }
+  ]
+}

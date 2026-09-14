@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "response_record.schema.json",
+  "title": "응답 원문",
+  "description": "조회로 받은 응답 전량. 요약해 저장하지 않는다. 요약 필드가 없는 것이 의도된 설계",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "response_id",
+    "question_id",
+    "agency_handle",
+    "run_profile_id",
+    "attempt",
+    "observed_at",
+    "outcome",
+    "raw_text"
+  ],
+  "properties": {
+    "response_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agency_handle": {
+      "type": "string",
+      "minLength": 1,
+      "description": "실명 문자열을 넣지 않는다. 공표 경로에서 치환할 수 있어야 한다"
+    },
+    "run_profile_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "회차. 회차별 응답을 모두 보존한다. 대표값 하나만 남기지 않는다"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "outcome": {
+      "enum": [
+        "answered",
+        "refused",
+        "error"
+      ],
+      "description": "refused 는 결측이 아니라 관측값(N5)이다"
+    },
+    "raw_text": {
+      "type": "string",
+      "description": "원문 전량. 빈 문자열은 거절·오류인 경우에만 허용"
+    },
+    "body_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "응답 본문 안의 주소. 근거 목록과 합산하지 않는다"
+    },
+    "citation_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "응답이 별도로 제시한 근거 목록. 본문 주소와 합산하지 않는다"
+    },
+    "error_detail": {
+      "type": "string"
+    }
+  }
+}

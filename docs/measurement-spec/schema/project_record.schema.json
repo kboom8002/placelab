@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project_record.schema.json",
+  "title": "역점사업 레코드",
+  "description": "기관별 통보서 경로로만 나간다. 성과·이행률·단체장 관련 필드가 없는 것이 의도된 설계",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "project_id",
+    "agency_handle",
+    "official_name",
+    "eligibility",
+    "owning_department",
+    "stage",
+    "stage_as_of",
+    "stage_ledger",
+    "sensitivity"
+  ],
+  "properties": {
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agency_handle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "official_name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "확정된 공식 사업명. 가칭 단계의 사업은 대상이 아니다"
+    },
+    "eligibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "budgeted",
+        "owned",
+        "named"
+      ],
+      "properties": {
+        "budgeted": {
+          "const": true
+        },
+        "owned": {
+          "const": true
+        },
+        "named": {
+          "const": true
+        }
+      },
+      "$comment": "셋을 모두 채우지 못하면 레코드를 만들 수 없다"
+    },
+    "owning_department": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stage": {
+      "enum": [
+        "planned",
+        "reviewed",
+        "noticed",
+        "started",
+        "changed",
+        "completed",
+        "operating"
+      ]
+    },
+    "stage_as_of": {
+      "type": "string",
+      "format": "date",
+      "description": "관측과 같은 날짜로 맞춘다"
+    },
+    "stage_ledger": {
+      "type": "string",
+      "minLength": 1,
+      "description": "단계를 확인한 원장"
+    },
+    "ledger_stale": {
+      "type": "boolean",
+      "description": "원장이 낡은 경우. 답이 아니라 원장을 고쳐야 한다"
+    },
+    "canonical_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "사업 정본 한 장의 주소. 단계가 바뀌어도 바꾸지 않는다"
+    },
+    "press_release_urls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "보도자료 주소들. 정본과 구분해 기록한다"
+    },
+    "value_facts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/value_fact"
+      }
+    },
+    "withheld": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/withheld"
+      },
+      "description": "기관이 아직 공개할 수 없는 사항. 결손이 아니다"
+    },
+    "sensitivity": {
+      "const": "agency_only"
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "value_fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slot",
+        "stated",
+        "nature"
+      ],
+      "properties": {
+        "slot": {
+          "enum": [
+            "existence",
+            "location",
+            "stage",
+            "scale_schedule",
+            "use",
+            "owner"
+          ]
+        },
+        "stated": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "nature": {
+          "enum": [
+            "measured",
+            "estimated",
+            "planned",
+            "unstated"
+          ],
+          "description": "성격이 밝혀지지 않았으면 판정은 C0"
+        },
+        "ledger_source": {
+          "type": "string"
+        }
+      }
+    },
+    "withheld": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slot",
+        "reason"
+      ],
+      "properties": {
+        "slot": {
+          "enum": [
+            "existence",
+            "location",
+            "stage",
+            "scale_schedule",
+            "use",
+            "owner"
+          ]
+        },
+        "reason": {
+          "enum": [
+            "negotiation_ongoing",
+            "site_undecided",
+            "selection_pending",
+            "other"
+          ]
+        },
+        "detail": {
+          "type": "string"
+        }
+      },
+      "$comment": "적지 않음은 정당한 선택이다. 산출물에서 결손과 구분해 표기한다"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "$comment": "계열 코어. 같은 계열 안에서만 비교한다. 계열 사이를 비교하거나 합산하지 않는다",
+  "set": "archetype_urban_rural",
+  "archetype": "urban_rural",
+  "archetype_name": "도농복합형",
+  "revision": 1,
+  "reference_date": "2026-09-14",
+  "questions": [
+    {
+      "id": "URB-001",
+      "revision": 1,
+      "status": "active",
+      "text": "이 기관은 도농복합형태의 시입니까",
+      "boundary": "지위 여부까지. 행정 구역 개편 논의는 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "지방자치법상 시 설치 근거",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "지방자치법상 도농복합형태의 시",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "URB-002",
+      "revision": 1,
+      "status": "active",
+      "text": "농업 관련 민원은 어느 부서가 맡습니까",
+      "boundary": "부서명까지. 개별 보조금 절차는 별도 문항",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 사무 분장 규칙",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "사무 분장 규칙 공개",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "URB-003",
+      "revision": 1,
+      "status": "active",
+      "text": "읍·면 지역의 행정 창구는 어디에 있습니까",
+      "boundary": "창구의 소재까지. 창구별 처리 가능 업무는 별도 문항",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 조직 및 청사 안내",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "행정 기구 설치 조례",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "URB-004",
+      "revision": 1,
+      "status": "active",
+      "text": "도심과 농촌 지역의 생활 여건은 어떻게 다릅니까",
+      "boundary": "공적 주체가 발행한 사실의 서술. 우열 판단은 대상이 아니다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "URB-005",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 농산물은 어디에서 살 수 있습니까",
+      "boundary": "공영 유통 경로까지. 특정 판매처 추천은 대상이 아니다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "affiliate",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$comment": "스키마와 애플리케이션 코드 어디에도 만들지 않는 필드. tools/validate.py 가 검사한다",
+  "revision": 1,
+  "keys": [
+    {
+      "key": "total",
+      "reason": "기관별 총점"
+    },
+    {
+      "key": "total_score",
+      "reason": "기관별 총점"
+    },
+    {
+      "key": "score",
+      "reason": "점수"
+    },
+    {
+      "key": "weight",
+      "reason": "가중치는 총점을 만드는 장치"
+    },
+    {
+      "key": "weights",
+      "reason": "가중치"
+    },
+    {
+      "key": "rank",
+      "reason": "순위"
+    },
+    {
+      "key": "ranking",
+      "reason": "순위"
+    },
+    {
+      "key": "top_n",
+      "reason": "순위의 다른 형태"
+    },
+    {
+      "key": "grade",
+      "reason": "등급은 순위의 다른 이름"
+    },
+    {
+      "key": "tier",
+      "reason": "등급. ownership 의 tier 는 예외로 허용"
+    },
+    {
+      "key": "empty_count",
+      "reason": "빈칸 수는 부재의 양으로 만든 서열표가 된다"
+    },
+    {
+      "key": "blank_count",
+      "reason": "빈칸 수"
+    },
+    {
+      "key": "absence_count",
+      "reason": "빈칸 수"
+    },
+    {
+      "key": "target",
+      "reason": "미래 목표치를 약속하지 않는다"
+    },
+    {
+      "key": "forecast",
+      "reason": "개선 예측치"
+    },
+    {
+      "key": "projected_value",
+      "reason": "개선 예측치"
+    },
+    {
+      "key": "summary",
+      "reason": "응답 원문을 요약해 저장하지 않는다"
+    },
+    {
+      "key": "summarized_text",
+      "reason": "응답 원문 요약"
+    }
+  ],
+  "allowed_exceptions": [
+    {
+      "key": "tier",
+      "path_contains": "ownership",
+      "reason": "부재의 귀속 계층. 등급이 아니다"
+    }
+  ]
+}

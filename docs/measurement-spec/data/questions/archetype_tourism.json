@@ -1,0 +1,108 @@
+{
+  "$comment": "계열 코어. 같은 계열 안에서만 비교한다. 계열 사이를 비교하거나 합산하지 않는다",
+  "set": "archetype_tourism",
+  "archetype": "tourism",
+  "archetype_name": "관광형",
+  "revision": 1,
+  "reference_date": "2026-09-14",
+  "questions": [
+    {
+      "id": "TOU-001",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 관광안내소는 어디에 있고 언제 문을 엽니까",
+      "boundary": "공적 관광안내소만. 민간 안내 창구는 제외",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 또는 관광 소관 기관의 공식 안내",
+      "owner_role": "affiliate",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "관광 진흥에 관한 법령상 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "TOU-002",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 지정 관광 자원은 무엇입니까",
+      "boundary": "공식 지정을 받은 자원만. 인기나 추천 여부는 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "지정 고시 문서",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "관광 진흥에 관한 법령상 지정",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "TOU-003",
+      "revision": 1,
+      "status": "active",
+      "text": "주요 관광 시설의 입장료는 얼마입니까",
+      "boundary": "기관이 운영하는 시설만. 민간 시설은 제외",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 조례의 사용료",
+      "owner_role": "affiliate",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "공공시설 사용료 조례",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "TOU-004",
+      "revision": 1,
+      "status": "active",
+      "text": "외국인 관광객이 이 지역에서 받을 수 있는 안내는 무엇입니까",
+      "boundary": "공적 주체가 발행한 외국어 안내의 범위",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "affiliate",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "TOU-005",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역을 하루 동안 둘러보려면 어떻게 움직입니까",
+      "boundary": "공적 주체가 발행한 동선 안내. 특정 업소 추천은 대상이 아니다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "affiliate",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    }
+  ]
+}

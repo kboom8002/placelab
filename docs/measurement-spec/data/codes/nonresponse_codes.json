@@ -1,0 +1,41 @@
+{
+  "$comment": "답이 나오지 않은 이유. spec/04 §2",
+  "revision": 1,
+  "codes": [
+    {
+      "code": "N1",
+      "name": "기술 차단",
+      "description": "기계가 자산에 닿지 못함. 로봇 규칙·인증·차단 설정 등",
+      "remediable_by_agency": true,
+      "remediation_kind": "structural"
+    },
+    {
+      "code": "N2",
+      "name": "내용 부재",
+      "description": "닿을 자산은 있으나 그 사실을 담은 내용이 없음",
+      "remediable_by_agency": true,
+      "remediation_kind": "work"
+    },
+    {
+      "code": "N3",
+      "name": "형식 미비",
+      "description": "내용은 있으나 기계가 읽어낼 형태가 아님",
+      "remediable_by_agency": true,
+      "remediation_kind": "structural"
+    },
+    {
+      "code": "N4",
+      "name": "경쟁 배제",
+      "description": "다른 출처가 그 자리를 차지해 우리 대상이 밀려남",
+      "remediable_by_agency": false,
+      "remediation_kind": null
+    },
+    {
+      "code": "N5",
+      "name": "엔진 회피",
+      "description": "모형이 답을 거절하거나 회피함. 결측이 아니라 관측값",
+      "remediable_by_agency": false,
+      "remediation_kind": null
+    }
+  ]
+}

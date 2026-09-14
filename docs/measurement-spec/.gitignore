@@ -1,0 +1,14 @@
+# 산식 구현은 버전 관리에 포함하지 않습니다. README §0.1
+sealed/*
+!sealed/README.md
+!sealed/interface.md
+
+# 관측 결과물은 이 저장소에 두지 않습니다
+runs/
+out/
+*.parquet
+*.sqlite
+
+__pycache__/
+*.pyc
+.venv/

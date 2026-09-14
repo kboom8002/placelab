@@ -1,0 +1,108 @@
+{
+  "$comment": "계열 코어. 같은 계열 안에서만 비교한다. 계열 사이를 비교하거나 합산하지 않는다",
+  "set": "archetype_industry",
+  "archetype": "industry",
+  "archetype_name": "산업형",
+  "revision": 1,
+  "reference_date": "2026-09-14",
+  "questions": [
+    {
+      "id": "IND-001",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 산업단지는 어디에 있습니까",
+      "boundary": "지정된 단지의 소재까지. 입주 업체 목록은 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "산업단지 지정 고시",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "산업입지에 관한 법령상 지정",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "IND-002",
+      "revision": 1,
+      "status": "active",
+      "text": "산업단지 입주는 어디에 문의합니까",
+      "boundary": "문의 창구까지. 입주 자격 심사 기준은 별도 문항",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "관리 기관의 공식 안내",
+      "owner_role": "affiliate",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "산업단지 관리 사무",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "IND-003",
+      "revision": 1,
+      "status": "active",
+      "text": "기업 유치 지원 제도는 어느 부서가 맡습니까",
+      "boundary": "부서명까지. 개별 지원금의 액수는 묻지 않는다",
+      "type": "value",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "ledger": "기관 사무 분장 규칙",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "sensitivity": "public",
+      "source_basis": "사무 분장 규칙 공개",
+      "basis_verification": "to_verify"
+    },
+    {
+      "id": "IND-004",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역의 주된 산업은 무엇입니까",
+      "boundary": "공표 통계와 공적 주체의 서술. 전망이나 평가는 묻지 않는다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    },
+    {
+      "id": "IND-005",
+      "revision": 1,
+      "status": "active",
+      "text": "이 지역에 공장을 세우려면 어떤 조건을 살펴야 합니까",
+      "boundary": "입지 조건의 얼개. 개별 부지의 적합성 판단은 대상이 아니다",
+      "type": "descriptive",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "ledger": null,
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "sensitivity": "public",
+      "source_basis": "해당 없음 — 서술형",
+      "basis_verification": "n/a"
+    }
+  ]
+}

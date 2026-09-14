@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "grid.schema.json",
+  "title": "질문과 주체의 격자",
+  "description": "세로에 문항, 가로에 지역 안 공적 주체. 빈칸의 개수를 세는 필드가 없는 것이 의도된 설계",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "grid_id",
+    "agency_handle",
+    "observed_window",
+    "rows"
+  ],
+  "properties": {
+    "grid_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agency_handle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observed_window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "start",
+        "end"
+      ],
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "end": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/row"
+      }
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "row": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "question_id",
+        "cells",
+        "row_verdict"
+      ],
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cells": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/cell"
+          }
+        },
+        "row_verdict": {
+          "enum": [
+            "canon_absent",
+            "canon_present"
+          ]
+        },
+        "ownership": {
+          "$ref": "#/$defs/ownership",
+          "description": "canon_absent 인 행에만 부여한다"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "row_verdict": {
+                "const": "canon_absent"
+              }
+            },
+            "required": [
+              "row_verdict"
+            ]
+          },
+          "then": {
+            "required": [
+              "ownership"
+            ]
+          }
+        }
+      ]
+    },
+    "cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "actor_role",
+        "value"
+      ],
+      "properties": {
+        "actor_role": {
+          "enum": [
+            "agency_hq",
+            "affiliate",
+            "upper_tier",
+            "institution",
+            "private",
+            "none"
+          ]
+        },
+        "value": {
+          "enum": [
+            "published",
+            "partial",
+            "not_applicable",
+            "blank"
+          ],
+          "description": "not_applicable 과 blank 를 반드시 구분한다. 소관이 아닌 주체가 발행하지 않은 것은 결손이 아니다"
+        },
+        "evidence_url": {
+          "type": "string"
+        }
+      }
+    },
+    "ownership": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "owner_role",
+        "tier"
+      ],
+      "properties": {
+        "owner_role": {
+          "enum": [
+            "agency_hq",
+            "affiliate",
+            "upper_tier",
+            "institution",
+            "private"
+          ]
+        },
+        "tier": {
+          "enum": [
+            "direct",
+            "affiliate",
+            "partner",
+            "out_of_reach"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "description": "그 사실을 실제로 바꿀 수 있는 주체가 정본을 가진다"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "$comment": "역점사업 지번 템플릿. 사업 하나마다 이 여섯을 생성한다. spec/02 §4",
+  "set": "project_template",
+  "revision": 1,
+  "id_pattern": "PRJ-{agency_handle}-{project_seq}-{slot}",
+  "sensitivity": "agency_only",
+  "note": "개별 확장에 속한다. 기관 사이 비교에 쓰지 않는다. 전국 공표문과 익명 원자료에 넣지 않는다",
+  "eligibility": [
+    {
+      "code": "budgeted",
+      "name": "예산이 편성되어 있을 것",
+      "check": "예산서 또는 재정 공시에 사업명이 있는가"
+    },
+    {
+      "code": "owned",
+      "name": "소관 부서가 지정되어 있을 것",
+      "check": "사무 분장 규칙에서 소관을 지목할 수 있는가"
+    },
+    {
+      "code": "named",
+      "name": "공식 사업명이 확정되어 있을 것",
+      "check": "가칭이 아닌가. 가칭 단계의 사업은 대상이 아니다"
+    }
+  ],
+  "slots": [
+    {
+      "slot": "existence",
+      "name": "존재",
+      "type": "value",
+      "text": "{project_name} 사업이 있습니까",
+      "boundary": "사업의 존재와 공식 명칭까지. 사업의 타당성은 묻지 않는다",
+      "ledger": "예산서 사업명",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "difficulty": "D1"
+    },
+    {
+      "slot": "location",
+      "name": "소재",
+      "type": "value",
+      "text": "{project_name}은 어디에서 이루어집니까",
+      "boundary": "고시된 위치까지. 확정되지 않은 대안 입지는 묻지 않는다",
+      "ledger": "실시계획 고시의 위치",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "difficulty": "D3"
+    },
+    {
+      "slot": "stage",
+      "name": "단계",
+      "type": "value",
+      "text": "{project_name}은 지금 어느 단계입니까",
+      "boundary": "관측 기준일의 단계까지. 앞으로의 일정 전망은 묻지 않는다",
+      "ledger": "실시계획 고시 · 착공 관련 서류 · 준공검사조서",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "difficulty": "D3",
+      "note": "이 제품의 중심. 단계가 바뀌면 재관측한다. C3 시점 어긋남이 지배적으로 나타난다"
+    },
+    {
+      "slot": "scale_schedule",
+      "name": "규모·일정",
+      "type": "value",
+      "text": "{project_name}의 사업비와 기간은 어떻게 됩니까",
+      "boundary": "고시·심사 문서에 적힌 값까지. 값의 성격(계획·확정·실적)을 함께 확인한다",
+      "ledger": "투자심사 결과 · 예산서 · 실시계획상 공기",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "difficulty": "D3",
+      "note": "value_nature 를 반드시 기록한다. 성격이 밝혀지지 않았으면 C0"
+    },
+    {
+      "slot": "use",
+      "name": "이용",
+      "type": "descriptive",
+      "text": "{project_name}을 주민이 언제부터 어떻게 이용할 수 있습니까",
+      "boundary": "공적 주체가 발행한 이용 안내. 이용 편의에 대한 평가는 묻지 않는다",
+      "ledger": null,
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "difficulty": "D2"
+    },
+    {
+      "slot": "owner",
+      "name": "주체",
+      "type": "value",
+      "text": "{project_name}은 어느 부서가 맡고 어디에 물어야 합니까",
+      "boundary": "소관 부서명과 문의 창구까지. 담당자 이름은 묻지 않는다",
+      "ledger": "기관 사무 분장 규칙",
+      "layers": [
+        "access",
+        "readability",
+        "citation",
+        "accuracy"
+      ],
+      "difficulty": "D1"
+    }
+  ],
+  "forbidden_slots": [
+    {
+      "name": "성과",
+      "reason": "사업이 잘한 것인지 판단하는 일은 하지 않는다. 타당성은 심사 제도의 영역"
+    },
+    {
+      "name": "이행률",
+      "reason": "공약 이행 평가는 하지 않는다. 공약은 자치사무가 아니다"
+    },
+    {
+      "name": "단체장 관련",
+      "reason": "성명·사진·업적을 담으면 홍보물로 읽혀 기관이 위법 소지를 안는다"
+    },
+    {
+      "name": "여론",
+      "reason": "불리한 내용이 덜 나오게 하는 일은 하지 않는다"
+    }
+  ]
+}

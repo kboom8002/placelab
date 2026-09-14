@@ -1,0 +1,42 @@
+{
+  "project_id": "PRJ-AG0042-003",
+  "agency_handle": "AG-0042",
+  "official_name": "(확정된 공식 사업명이 들어갑니다)",
+  "eligibility": {
+    "budgeted": true,
+    "owned": true,
+    "named": true
+  },
+  "owning_department": "(소관 부서명)",
+  "stage": "completed",
+  "stage_as_of": "2026-08-31",
+  "stage_ledger": "준공검사조서",
+  "ledger_stale": false,
+  "canonical_url": "https://example.go.kr/project/0003",
+  "press_release_urls": [
+    "https://example.go.kr/news/2026/0712",
+    "https://example.go.kr/news/2027/0304"
+  ],
+  "value_facts": [
+    {
+      "slot": "stage",
+      "stated": "준공",
+      "nature": "measured",
+      "ledger_source": "completion_record"
+    },
+    {
+      "slot": "scale_schedule",
+      "stated": "(사업비)",
+      "nature": "planned",
+      "ledger_source": "investment_review"
+    }
+  ],
+  "withheld": [
+    {
+      "slot": "location",
+      "reason": "negotiation_ongoing",
+      "detail": "보상 협의가 진행 중이어서 기관이 공개하지 않기로 함. 결손이 아니다"
+    }
+  ],
+  "sensitivity": "agency_only"
+}

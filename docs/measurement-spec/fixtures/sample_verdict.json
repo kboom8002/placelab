@@ -1,0 +1,15 @@
+{
+  "verdict_id": "VDT-2026Q3-000001",
+  "observation_id": "OBS-2026Q3-000001",
+  "question_id": "CORE-003",
+  "agency_handle": "AG-0042",
+  "result": "match",
+  "ledger_value": "평일 09:00-18:00",
+  "ledger_value_nature": "measured",
+  "ledger_stale": false,
+  "judged_by": "rule",
+  "judged_at": "2026-09-05T02:00:00Z",
+  "ledger_as_of": "2026-08-31",
+  "billable": false,
+  "note": "난도 D0 이므로 청구하지 않는다"
+}

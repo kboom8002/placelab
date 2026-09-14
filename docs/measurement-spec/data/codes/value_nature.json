@@ -1,0 +1,26 @@
+{
+  "$comment": "값의 성격. 원장과 답 양쪽에서 확인. spec/04 §5",
+  "revision": 1,
+  "codes": [
+    {
+      "code": "measured",
+      "name": "실측",
+      "description": "이미 확정되어 기록된 값"
+    },
+    {
+      "code": "estimated",
+      "name": "추정",
+      "description": "산정 방법이 있는 추정값"
+    },
+    {
+      "code": "planned",
+      "name": "계획",
+      "description": "아직 이루어지지 않은 계획값"
+    },
+    {
+      "code": "unstated",
+      "name": "밝히지 않음",
+      "description": "성격이 표시되지 않음. 이 경우 판정은 C0"
+    }
+  ]
+}

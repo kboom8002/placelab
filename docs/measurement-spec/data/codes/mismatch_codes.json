@@ -1,0 +1,31 @@
+{
+  "$comment": "답이 원장과 어긋난 형태. spec/04 §3",
+  "revision": 1,
+  "codes": [
+    {
+      "code": "C0",
+      "name": "대조 불가",
+      "description": "원장이 없거나 값의 성격이 밝혀지지 않아 판정할 수 없음"
+    },
+    {
+      "code": "C1",
+      "name": "값 불일치",
+      "description": "원장과 다른 값을 말함"
+    },
+    {
+      "code": "C2",
+      "name": "출처 부적절",
+      "description": "근거로 쓰인 출처가 그 사실의 정본이 아님"
+    },
+    {
+      "code": "C3",
+      "name": "시점 어긋남",
+      "description": "원장의 현재 상태가 아니라 지난 상태를 말함"
+    },
+    {
+      "code": "C4",
+      "name": "대상 혼동",
+      "description": "같거나 비슷한 이름의 다른 대상을 말함"
+    }
+  ]
+}

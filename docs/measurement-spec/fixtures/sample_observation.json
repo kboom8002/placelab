@@ -1,0 +1,30 @@
+{
+  "observation_id": "OBS-2026Q3-000001",
+  "question_id": "CORE-003",
+  "agency_handle": "AG-0042",
+  "run_profile_id": "RP-2026Q3-A",
+  "observed_window": {
+    "start": "2026-09-02T00:00:00Z",
+    "end": "2026-09-02T23:59:59Z"
+  },
+  "response_ids": [
+    "RSP-2026Q3-000001",
+    "RSP-2026Q3-000002",
+    "RSP-2026Q3-000003"
+  ],
+  "extracted": {
+    "stated_value": "평일 09:00-18:00",
+    "stated_value_nature": "measured",
+    "body_url_count": 1,
+    "citation_url_count": 2,
+    "public_source_present": true,
+    "named_entities": []
+  },
+  "extracted_by": "model",
+  "unstable": false,
+  "access_state": {
+    "robots_checked": true,
+    "robots_allows": true,
+    "canonical_page_found": true
+  }
+}

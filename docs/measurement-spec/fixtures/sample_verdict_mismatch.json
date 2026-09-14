@@ -1,0 +1,16 @@
+{
+  "verdict_id": "VDT-2026Q3-000117",
+  "observation_id": "OBS-2026Q3-000117",
+  "question_id": "PRJ-AG0042-003-stage",
+  "agency_handle": "AG-0042",
+  "result": "mismatch",
+  "mismatch_code": "C3",
+  "ledger_value": "준공",
+  "ledger_value_nature": "measured",
+  "ledger_stale": false,
+  "judged_by": "rule",
+  "judged_at": "2026-09-05T02:00:00Z",
+  "ledger_as_of": "2026-08-31",
+  "billable": true,
+  "note": "원장은 준공이나 답은 추진 중이라고 말함. 시점 어긋남"
+}

@@ -1,0 +1,31 @@
+{
+  "$comment": "격자의 가로축. 지역 안 공적 주체의 역할. spec/04 §8",
+  "revision": 1,
+  "roles": [
+    {
+      "code": "agency_hq",
+      "name": "기초 본청"
+    },
+    {
+      "code": "affiliate",
+      "name": "산하 공사·재단"
+    },
+    {
+      "code": "upper_tier",
+      "name": "광역"
+    },
+    {
+      "code": "institution",
+      "name": "대학·의료기관"
+    },
+    {
+      "code": "private",
+      "name": "민간"
+    },
+    {
+      "code": "none",
+      "name": "비어 있음",
+      "note": "어느 주체도 발행하고 있지 않은 상태를 표시하는 자리"
+    }
+  ]
+}

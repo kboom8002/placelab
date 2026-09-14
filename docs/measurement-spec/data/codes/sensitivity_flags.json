@@ -1,0 +1,23 @@
+{
+  "$comment": "공표 가능 여부. restricted는 설정으로 켤 수 없음. spec/05 §4.2",
+  "revision": 1,
+  "flags": [
+    {
+      "code": "public",
+      "name": "공표 가능",
+      "publishable": true
+    },
+    {
+      "code": "agency_only",
+      "name": "기관 통보 전용",
+      "publishable": false,
+      "note": "개별 확장·역점사업 지번이 여기에 속한다"
+    },
+    {
+      "code": "restricted",
+      "name": "공표 제외",
+      "publishable": false,
+      "note": "재난·안전 등. 측정하되 해당 기관에만 비공개로 통보한다"
+    }
+  ]
+}

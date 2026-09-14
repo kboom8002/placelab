@@ -1,0 +1,58 @@
+{
+  "$comment": "격자 칸의 값. '해당 없음'과 '공란'을 반드시 구분. spec/04 §8",
+  "revision": 1,
+  "values": [
+    {
+      "code": "published",
+      "name": "정본 발행",
+      "counts_as_absence": false
+    },
+    {
+      "code": "partial",
+      "name": "부분 발행",
+      "counts_as_absence": false
+    },
+    {
+      "code": "not_applicable",
+      "name": "해당 없음",
+      "counts_as_absence": false,
+      "note": "그 주체의 소관이 아님. 결손이 아니다"
+    },
+    {
+      "code": "blank",
+      "name": "공란",
+      "counts_as_absence": true,
+      "note": "소관이나 발행하지 않음"
+    }
+  ],
+  "row_verdicts": [
+    {
+      "code": "canon_absent",
+      "name": "정본 부재",
+      "rule": "모든 칸이 blank 또는 not_applicable"
+    },
+    {
+      "code": "canon_present",
+      "name": "발행됨",
+      "rule": "published가 하나 이상"
+    }
+  ],
+  "ownership_tiers": [
+    {
+      "code": "direct",
+      "name": "직접"
+    },
+    {
+      "code": "affiliate",
+      "name": "산하"
+    },
+    {
+      "code": "partner",
+      "name": "협력"
+    },
+    {
+      "code": "out_of_reach",
+      "name": "통제 불가"
+    }
+  ]
+}
