@@ -1,0 +1,574 @@
+{
+  "unitId": "dongjak",
+  "unitName": "동작구",
+  "upperTier": "서울특별시",
+  "asOf": "2026-09-15",
+  "entries": {
+    "GAP-001": {
+      "targetValue": "총 8개 구역(1~8구역) 약 9,000~10,000세대. 착공 3구역(6구역 라클라체자이드파인, 8구역 아크로리버스카이, 2구역 드파인아르티아), 이주/철거 3구역(4구역 디에이치씨엘스타, 5구역 써밋더트레시아, 7구역 드파인동작), 관리처분 2구역(1구역 오티에르동작 3,000세대급, 3구역)",
+      "acceptableVariants": [
+        "뉴타운",
+        "재정비촉진",
+        "노량진",
+        "8구역",
+        "10000세대",
+        "10,000세대",
+        "9,000세대",
+        "오티에르",
+        "드파인",
+        "아크로",
+        "라클라체"
+      ],
+      "sourceAuthority": "동작구청 도시정비과 노량진재정비촉진지구 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "GAP-002": {
+      "targetValue": "전통 공무원 시험 고시원 수 2017년 대비 80% 이상 감소. IT 부트캠프, 전문자격증(경찰·소방) 학원, 청년 복합상권(카페·코워킹스페이스)으로 전환 중",
+      "acceptableVariants": [
+        "고시원",
+        "감소",
+        "부트캠프",
+        "전환",
+        "학원가",
+        "청년",
+        "IT"
+      ],
+      "sourceAuthority": "동작구 노량진 학원가 활성화 대책",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "GAP-003": {
+      "targetValue": "지하7층~지상49층 초고층 랜드마크 복합시설. IMM인베스트먼트 등 협약, 유니콘기업 유치, 1조원대 경제파급효과. 2028 착공 2033 준공 목표",
+      "acceptableVariants": [
+        "49층",
+        "IMM",
+        "유니콘",
+        "랜드마크",
+        "옛 구청사",
+        "노량진",
+        "초고층",
+        "복합"
+      ],
+      "sourceAuthority": "동작구-IMM인베스트먼트 민간 개발 협약",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "GAP-004": {
+      "targetValue": "대방동 6번지 노후 군관사 철거 후 뉴:홈 민간참여 공공분양·공공임대 대단지 공급. 수방사 부지(노량진동)는 별도 사업으로 한강조망 공공분양 사전청약 전국 최고 경쟁률",
+      "acceptableVariants": [
+        "대방동",
+        "군부지",
+        "뉴홈",
+        "뉴:홈",
+        "공공분양",
+        "공공임대",
+        "수방사",
+        "군관사"
+      ],
+      "sourceAuthority": "국토교통부 뉴:홈 공공분양 사업",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "GAP-005": {
+      "targetValue": "보라매병원(서울대학교병원 운영), 보라매공원(36만㎡), 서울대입구역 접근성. 서부선 경전철: 새절역~신촌~여의도~노량진~장승배기~서울대입구역 노선",
+      "acceptableVariants": [
+        "보라매",
+        "서부선",
+        "경전철",
+        "서울대입구역",
+        "노량진",
+        "장승배기"
+      ],
+      "sourceAuthority": "서울시 도시철도 기본계획(서부선) 및 보라매병원 안내",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "EUL-001": {
+      "targetValue": "9구역 디에이치켄트로나인(현대건설, 1,561세대, 2029 준공 목표 공사중). 11구역 써밋더힐(대우건설, 1,515세대, 2030 입주 목표 공사중). 2구역 SH공공재개발(최고49층, 1,045세대, 통합심의 통과). 1구역 조합정상화 후 시공사 선정",
+      "acceptableVariants": [
+        "디에이치",
+        "켄트로나인",
+        "써밋",
+        "더힐",
+        "공공재개발",
+        "SH",
+        "흑석",
+        "9구역",
+        "11구역",
+        "2구역",
+        "1구역"
+      ],
+      "sourceAuthority": "동작구청 흑석재정비촉진지구 추진 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "EUL-002": {
+      "targetValue": "서울교통공사 사당주차장 부지 17,777㎡에 업무·상업·주거·환승시설 입체 결합. 2025년 기본구상 용역 착수, 2028년 착공, 2034년 완공 목표",
+      "acceptableVariants": [
+        "사당역",
+        "복합환승",
+        "17,777",
+        "사당주차장",
+        "2028",
+        "2034",
+        "용역"
+      ],
+      "sourceAuthority": "서울시 사당역 복합환승센터 기본구상 용역",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "EUL-003": {
+      "targetValue": "이수교차로~과천 남태령IC 간 왕복4차로 지하도로 + 저류용량 42만톤 대심도 빗물배수터널 결합(국내 최초). 2025 착공~2030 준공. 사당·이수 상습침수 방지 및 동작대로 정체 해소",
+      "acceptableVariants": [
+        "이수",
+        "과천",
+        "복합터널",
+        "42만톤",
+        "빗물",
+        "배수",
+        "지하도로",
+        "2030",
+        "침수"
+      ],
+      "sourceAuthority": "서울시 이수~과천 복합터널 사업 고시",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "EUL-004": {
+      "targetValue": "우성2·3차, 극동, 신동아4차 등 통합 리모델링 및 재건축 추진. 안전진단 및 조합 설립 단계 혼재",
+      "acceptableVariants": [
+        "우극신",
+        "우성",
+        "극동",
+        "신동아",
+        "리모델링",
+        "재건축",
+        "사당"
+      ],
+      "sourceAuthority": "동작구 정비사업 추진 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "EUL-005": {
+      "targetValue": "중앙대(흑석), 숭실대(상도), 총신대(사당) 3대 대학 캠퍼스타운 산학협력. 청년안심주택(역세권), 청년전세임대, 만원주택(청년 주거사다리) 등 1인가구 40% 대응 정책",
+      "acceptableVariants": [
+        "중앙대",
+        "숭실대",
+        "총신대",
+        "캠퍼스타운",
+        "청년안심주택",
+        "만원주택",
+        "1인가구"
+      ],
+      "sourceAuthority": "동작구 청년정책과 사업 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-DJ-01-existence": {
+      "targetValue": "노량진 옛 구청사 부지: 지하7~지상49층 랜드마크 복합시설 IMM인베스트먼트 협약 추진. 수협 옛 수산시장 유휴부지: 한강철교 남단 지구단위계획 특별계획구역 지정, 수변복합업무·MICE 추진",
+      "acceptableVariants": [
+        "49층",
+        "IMM",
+        "수협",
+        "수산시장",
+        "특별계획구역",
+        "랜드마크"
+      ],
+      "sourceAuthority": "동작구 보도자료 및 서울시 지구단위계획 고시",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-DJ-01-location": {
+      "targetValue": "옛 구청사: 노량진동(장승배기 이전 전 소재지). 수협 부지: 노량진동 옛 수산시장 잔여 유휴부지 약 48,000㎡(축구장 7개 규모), 한강철교 남단",
+      "acceptableVariants": [
+        "노량진",
+        "48,000",
+        "한강철교",
+        "수협",
+        "옛 구청사"
+      ],
+      "sourceAuthority": "동작구 재산관리과 및 서울시 특별계획구역 도면",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-DJ-01-stage": {
+      "targetValue": "옛 구청사: IMM인베스트먼트 협약 체결, 2028 착공 2033 준공 목표. 수협부지: 특별계획구역 지정 완료, 지구단위계획 수립 및 사업자 공모 단계",
+      "acceptableVariants": [
+        "2028",
+        "2033",
+        "협약",
+        "특별계획구역",
+        "사업자 공모"
+      ],
+      "sourceAuthority": "동작구청 도시계획과 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-DJ-01-fiscal_scale": {
+      "targetValue": "수협 부지: 일반상업지역 종상향, 최고 200m 이하, 용적률 800%. 수변복합업무·MICE·수산클러스터(수협중앙회 본사 이전) 용도",
+      "acceptableVariants": [
+        "200m",
+        "800%",
+        "일반상업",
+        "종상향",
+        "수산클러스터",
+        "MICE"
+      ],
+      "sourceAuthority": "서울시 한강철교 남단 지구단위계획 특별계획구역 지침",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-DJ-01-owner_dept": {
+      "targetValue": "옛 구청사: 동작구청 도시계획과(민간 협약 관리). 수협부지: 서울시 도시계획국 및 동작구청 도시정비과",
+      "acceptableVariants": [
+        "도시계획과",
+        "도시정비과",
+        "동작구청",
+        "서울시"
+      ],
+      "sourceAuthority": "동작구 사무분장 규칙",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-DJ-01-citizen_benefit": {
+      "targetValue": "유니콘기업 유치 1조원대 경제파급효과, 노량진~여의도 보행교(650m)로 도보 8분 연결, 여의도 배후 업무·MICE 거점화, 수산클러스터 일자리 창출",
+      "acceptableVariants": [
+        "유니콘",
+        "1조",
+        "보행교",
+        "여의도",
+        "MICE",
+        "경제파급"
+      ],
+      "sourceAuthority": "동작구 경제파급효과 분석",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-DJ-02-existence": {
+      "targetValue": "이수~과천 복합터널 2025 착공 확인. 사당역 복합환승센터 2025 기본구상 용역 착수 확인. GTX-D 사당역 경유안 기본계획 반영",
+      "acceptableVariants": [
+        "복합터널",
+        "복합환승",
+        "GTX-D",
+        "GTX",
+        "사당역",
+        "이수",
+        "과천"
+      ],
+      "sourceAuthority": "서울시 도시기반시설본부 및 국토교통부 GTX 기본계획",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-DJ-02-location": {
+      "targetValue": "복합터널: 이수교차로~과천 남태령IC. 복합환승센터: 사당주차장 부지 17,777㎡. GTX-D: 인천공항~부천~신림~사당~강남~삼성~수서/잠실",
+      "acceptableVariants": [
+        "이수교차로",
+        "남태령",
+        "사당주차장",
+        "17,777",
+        "GTX-D"
+      ],
+      "sourceAuthority": "서울시 복합터널 사업계획 고시",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-DJ-02-stage": {
+      "targetValue": "복합터널: 2025 착공~2030 준공(지하도로+빗물터널 굴착 중). 복합환승센터: 2025 기본구상 용역~2028 착공~2034 완공 목표",
+      "acceptableVariants": [
+        "2025",
+        "2030",
+        "2028",
+        "2034",
+        "착공",
+        "굴착",
+        "기본구상"
+      ],
+      "sourceAuthority": "서울시설공단 공사 현황",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-DJ-02-fiscal_scale": {
+      "targetValue": "복합터널: 왕복 4차로 지하도로 + 저류용량 42만톤 대심도 빗물배수터널(국내 최초 도로+배수 결합). 복합환승센터 사업비 미확정",
+      "acceptableVariants": [
+        "42만톤",
+        "4차로",
+        "대심도",
+        "국내 최초",
+        "빗물"
+      ],
+      "sourceAuthority": "서울시 이수~과천 복합터널 실시설계",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-DJ-02-owner_dept": {
+      "targetValue": "복합터널: 서울시 도시기반시설본부(도로건설과). 복합환승센터: 서울시 도시교통실 및 서울교통공사. GTX-D: 국토교통부 광역교통위원회",
+      "acceptableVariants": [
+        "도시기반시설본부",
+        "도시교통실",
+        "서울교통공사",
+        "광역교통위원회",
+        "국토교통부"
+      ],
+      "sourceAuthority": "서울시 및 국토교통부 조직도",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-DJ-02-citizen_benefit": {
+      "targetValue": "대심도 빗물터널로 사당·이수 상습침수 근본 해소. 지하도로로 과천~사당 출퇴근 단축 및 동작대로 정체 완화. GTX-D로 강남·삼성·잠실 30분 이내 도달",
+      "acceptableVariants": [
+        "침수",
+        "해소",
+        "출퇴근",
+        "GTX",
+        "강남",
+        "30분"
+      ],
+      "sourceAuthority": "서울시 방재 안전 대책 보고",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-DJ-03-existence": {
+      "targetValue": "서울현충원: 2024년 7월 국가보훈부 이관(70년 만), 열린 호국문화·치유 명소 재창조 추진. 장승배기 행정타운: 2025년 7월 동작구청 45년 만에 상도동 장승배기역 신청사 이전 완료",
+      "acceptableVariants": [
+        "현충원",
+        "재창조",
+        "국가보훈부",
+        "장승배기",
+        "신청사",
+        "이전"
+      ],
+      "sourceAuthority": "국가보훈부 및 동작구 보도자료",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-DJ-03-location": {
+      "targetValue": "신청사: 상도동 장승배기로 161, 지하3~지상10층 관상복합청사. 서울현충원: 동작구 현충로 210, 43만 평 규모",
+      "acceptableVariants": [
+        "장승배기로",
+        "161",
+        "현충로",
+        "210",
+        "43만 평",
+        "관상복합"
+      ],
+      "sourceAuthority": "동작구청 이전 안내 및 국립서울현충원 기본정보",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-DJ-03-stage": {
+      "targetValue": "현충원 재창조: 2024년 7월 이관 완료, 마스터플랜 수립 단계. 수경시설, 꺼지지 않는 불꽃, 원형 야외극장, 수목정원, 한강변 보행로·통문 확대 개방 계획",
+      "acceptableVariants": [
+        "마스터플랜",
+        "수경시설",
+        "야외극장",
+        "보행로",
+        "이관"
+      ],
+      "sourceAuthority": "국가보훈부 재창조 마스터플랜 발표",
+      "ownerRole": "central_gov",
+      "tier": "central"
+    },
+    "PRJ-DJ-03-fiscal_scale": {
+      "targetValue": "장승배기 행정타운: 지하3층~지상10층, 국내 최초 관상복합청사(구청·구의회·보건소 + 동작행정타운플라자 상업시설)",
+      "acceptableVariants": [
+        "관상복합",
+        "행정타운플라자",
+        "지하3층",
+        "지상10층",
+        "구의회",
+        "보건소"
+      ],
+      "sourceAuthority": "동작구 종합행정타운 건립 사업 개요",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-DJ-03-owner_dept": {
+      "targetValue": "서울현충원: 국가보훈부(2024년 7월 국방부에서 이관). 장승배기 행정타운: 동작구청 총무과 및 도시계획과",
+      "acceptableVariants": [
+        "국가보훈부",
+        "총무과",
+        "도시계획과",
+        "국방부",
+        "이관"
+      ],
+      "sourceAuthority": "국가보훈부 조직도 및 동작구 사무분장 규칙",
+      "ownerRole": "central_gov",
+      "tier": "central"
+    },
+    "PRJ-DJ-03-citizen_benefit": {
+      "targetValue": "365일 개방 시민 녹지·치유 공간, 수경시설·야외극장 문화 향유, 한강변 보행로 연결, 동작구 관광·문화 인프라 확대, 지역 자긍심 및 상권 활성화",
+      "acceptableVariants": [
+        "365일",
+        "개방",
+        "녹지",
+        "치유",
+        "야외극장",
+        "자긍심"
+      ],
+      "sourceAuthority": "국가보훈부 재창조 사업 기대효과",
+      "ownerRole": "central_gov",
+      "tier": "central"
+    },
+    "BLIND-001": {
+      "targetValue": "수협부지~여의도공원 650m 입체 보행교(올림픽대로·철도 단절 극복), 노량진역→여의도 도보 8분. 서울시 구상 단계, 세부 설계·착공 일정 미확정",
+      "acceptableVariants": [
+        "보행교",
+        "650m",
+        "여의도",
+        "노량진"
+      ],
+      "sourceAuthority": "서울시 한강철교 남단 지구단위계획 구상안",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "canonAbsent": true
+    },
+    "BLIND-002": {
+      "targetValue": "약 48,000㎡ 유휴부지, 특별계획구역 지정·일반상업 종상향 완료(용적률 800%, 최고 200m). 구체적 사업자·착공 일정 미확정",
+      "acceptableVariants": [
+        "48,000",
+        "특별계획구역",
+        "800%",
+        "200m"
+      ],
+      "sourceAuthority": "서울시 특별계획구역 고시",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "canonAbsent": true
+    },
+    "BLIND-003": {
+      "targetValue": "서부선 경전철: 새절역~신촌~여의도~노량진~장승배기~서울대입구역. 기본계획 수립 중, 정확한 정거장 위치·착공 시점 미확정",
+      "acceptableVariants": [
+        "서부선",
+        "경전철",
+        "노량진",
+        "장승배기"
+      ],
+      "sourceAuthority": "서울시 도시철도 기본계획(서부선)",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "canonAbsent": true
+    },
+    "BLIND-004": {
+      "targetValue": "2026년 류삼영 구청장 취임 후 AI행정추진단 신설. 구체적 사업 내용·로드맵 공개 자료 미비",
+      "acceptableVariants": [
+        "AI행정추진단",
+        "AI",
+        "류삼영"
+      ],
+      "sourceAuthority": "동작구청 조직도 및 보도",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "canonAbsent": true
+    },
+    "BLIND-005": {
+      "targetValue": "사당역 복합환승센터: 2025년 기본구상 용역 착수 단계. 사업방식(BTO/BTL/재정)·총사업비 규모 미확정",
+      "acceptableVariants": [
+        "기본구상",
+        "용역",
+        "BTO",
+        "BTL"
+      ],
+      "sourceAuthority": "서울시 사당역 복합환승센터 기본구상 용역",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "canonAbsent": true
+    },
+    "BLIND-006": {
+      "targetValue": "청년안심주택, 만원주택, 전세임대 등 개별 사업 산재. 통합 원스톱 포털·앱 부재 가능성 높음",
+      "acceptableVariants": [
+        "청년안심주택",
+        "만원주택",
+        "원스톱",
+        "통합"
+      ],
+      "sourceAuthority": "동작구 청년정책과 사업 목록",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "canonAbsent": true
+    },
+    "STIGMA-001": {
+      "targetValue": "사실무근. 8개 구역 약 1만 가구 하이엔드 뉴타운(오티에르·드파인·써밋·아크로) 본격 착공/이주. 옛 구청사 49층 유니콘타워 개발. 여의도 배후 프리미엄 주거·업무지 재편 중",
+      "acceptableVariants": [
+        "뉴타운",
+        "착공",
+        "오티에르",
+        "드파인",
+        "49층",
+        "여의도"
+      ],
+      "sourceAuthority": "동작구 노량진재정비촉진지구 추진 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "STIGMA-002": {
+      "targetValue": "사실무근. 3~8구역 입주 완료(아크로리버하임, 센트레빌, 흑석자이 등 준강남급). 9구역(디에이치)·11구역(써밋) 공사중. 2구역 공공재개발 통합심의 통과",
+      "acceptableVariants": [
+        "입주 완료",
+        "아크로리버하임",
+        "센트레빌",
+        "흑석자이",
+        "디에이치",
+        "써밋",
+        "공사"
+      ],
+      "sourceAuthority": "동작구 흑석재정비촉진지구 공사 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "STIGMA-003": {
+      "targetValue": "사실무근. 캠프그레이→스페이스살림(여성가족복합문화플랫폼) 완공. 대방동 6번지 군관사 철거 후 뉴:홈 공공주택 대단지 착공 중",
+      "acceptableVariants": [
+        "스페이스 살림",
+        "캠프그레이",
+        "뉴홈",
+        "뉴:홈",
+        "공공주택",
+        "완공"
+      ],
+      "sourceAuthority": "국토교통부 및 스페이스 살림 운영 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "STIGMA-004": {
+      "targetValue": "사실무근. 사당역·이수역 2·4·7호선 환승 중심, 서리풀터널 강남 10분. 남성사계시장 현대화, 우극신 리모델링/재건축 추진, 복합터널 착공으로 인프라 고도화 중",
+      "acceptableVariants": [
+        "서리풀터널",
+        "남성사계시장",
+        "환승",
+        "복합터널",
+        "리모델링"
+      ],
+      "sourceAuthority": "서울시 서리풀터널 개통 효과 분석",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "STIGMA-005": {
+      "targetValue": "오류. 2025년 7월 장승배기 신청사(상도동 장승배기로 161)로 45년 만에 이전 완료. 지하3~지상10층 관상복합청사",
+      "acceptableVariants": [
+        "장승배기",
+        "2025",
+        "이전",
+        "신청사",
+        "상도동"
+      ],
+      "sourceAuthority": "동작구청 이전 공지 및 신청사 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "STIGMA-006": {
+      "targetValue": "과거 상습 침수 사실이나, 이수~과천 복합터널(42만톤 빗물터널, 국내 최초) 2025 착공~2030 준공 추진 중. 서울시 침수대응 핵심 대상지",
+      "acceptableVariants": [
+        "42만톤",
+        "복합터널",
+        "2030",
+        "침수",
+        "빗물",
+        "대심도"
+      ],
+      "sourceAuthority": "서울시 이수~과천 복합터널 사업 고시",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    }
+  }
+}
