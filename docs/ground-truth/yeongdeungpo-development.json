@@ -1,0 +1,545 @@
+{
+  "unitId": "yeongdeungpo",
+  "unitName": "영등포구",
+  "upperTier": "서울특별시",
+  "asOf": "2026-09-15",
+  "entries": {
+    "IND-001": {
+      "targetValue": "서울핀테크랩(여의도 위워크 및 O2타워 10개 층, 100개사 입주) 및 서울국제금융오피스(One IFC 16층)",
+      "acceptableVariants": [
+        "서울핀테크랩",
+        "핀테크랩",
+        "국제금융오피스",
+        "One IFC",
+        "O2타워",
+        "위워크"
+      ],
+      "sourceAuthority": "서울특별시 금융투자과 및 서울핀테크랩 운영 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "IND-002": {
+      "targetValue": "일반상업지역에서 중심상업지역으로의 용도지역 종상향, 기준용적률 1,000%, 친환경·디자인 혁신 시 최대 1,200% 이상",
+      "acceptableVariants": [
+        "중심상업",
+        "종상향",
+        "1,000%",
+        "1000%",
+        "1,200%",
+        "1200%",
+        "용적률"
+      ],
+      "sourceAuthority": "서울시 여의도 금융중심 지구단위계획 결정 고시",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "IND-003": {
+      "targetValue": "영등포구청 일자리경제과(기업지원팀) 및 미래도시국 미래공간과",
+      "acceptableVariants": [
+        "일자리경제과",
+        "기업지원팀",
+        "미래공간과",
+        "영등포구청"
+      ],
+      "sourceAuthority": "영등포구 사무분장 규칙",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "IND-004": {
+      "targetValue": "영등포구청 일자리경제과(공장등록 및 입주확인) 및 세무부서/재산세과(취득세 35~50% 감면, 재산세 35% 감면 안내)",
+      "acceptableVariants": [
+        "일자리경제과",
+        "재산세과",
+        "세무",
+        "감면",
+        "취득세",
+        "재산세"
+      ],
+      "sourceAuthority": "산업집적법 및 지방세특례제한법",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "IND-005": {
+      "targetValue": "여의도 금융·보험·핀테크 산업, 문래동 기계금속 뿌리제조업, 양평·문래동 지식산업센터 중심 첨단 IT·지식서비스업",
+      "acceptableVariants": [
+        "금융",
+        "기계금속",
+        "뿌리",
+        "지식산업센터",
+        "핀테크",
+        "IT"
+      ],
+      "sourceAuthority": "영등포구 통계연보 및 지역산업백서",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "MULTI-001": {
+      "targetValue": "다드림문화복합센터(영등포구립, 대림동) 및 서울시 서남권글로벌센터(서울시립, 대림동)",
+      "acceptableVariants": [
+        "다드림문화복합센터",
+        "다드림",
+        "서남권글로벌센터",
+        "글로벌센터",
+        "대림동"
+      ],
+      "sourceAuthority": "영등포구 외국인주민 종합안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "MULTI-002": {
+      "targetValue": "다드림문화복합센터(02-2670-1636), 서울시 서남권글로벌센터(02-2229-4900), 영등포구가족센터",
+      "acceptableVariants": [
+        "다드림",
+        "서남권글로벌센터",
+        "가족센터",
+        "한국어",
+        "체류"
+      ],
+      "sourceAuthority": "영등포구 자치행정과 외국인주민지원팀",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "MULTI-003": {
+      "targetValue": "2010년 결성된 대림동 외국인 자율방범대 및 영등포경찰서 대림지구대 정례 합동 야간 순찰",
+      "acceptableVariants": [
+        "외국인 자율방범대",
+        "자율방범대",
+        "대림지구대",
+        "순찰",
+        "합동"
+      ],
+      "sourceAuthority": "영등포경찰서 및 영등포구청 생활안전과",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "MULTI-004": {
+      "targetValue": "영등포구 미래교육재단 과학문화이용권 지원, 가족센터 이중언어 부모코칭 및 다문화자녀 기초학습 지원",
+      "acceptableVariants": [
+        "미래교육재단",
+        "과학이용권",
+        "가족센터",
+        "이중언어",
+        "학습"
+      ],
+      "sourceAuthority": "영등포구 미래교육재단 사업계획",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "MULTI-005": {
+      "targetValue": "영등포구청 행정국 자치행정과(외국인주민지원팀) 및 복지국 복지정책과",
+      "acceptableVariants": [
+        "자치행정과",
+        "외국인주민지원팀",
+        "복지정책과",
+        "영등포구청"
+      ],
+      "sourceAuthority": "영등포구 행정기구 및 사무분장 규칙",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-01-existence": {
+      "targetValue": "여의도 금융중심 지구단위계획 결정 고시 및 아파트지구 폐지에 따른 16개 단지 신속통합기획 재건축 공식 추진 중",
+      "acceptableVariants": [
+        "금융중심",
+        "지구단위계획",
+        "신속통합기획",
+        "신통기획",
+        "재건축",
+        "추진"
+      ],
+      "sourceAuthority": "서울시 도시계획위원회 심의의결 및 고시",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-YD-01-location": {
+      "targetValue": "여의도동 일원, 시범아파트 최고 65층(약 2,500가구), 한양아파트 최고 57층(992가구), 대교·공작 49층",
+      "acceptableVariants": [
+        "65층",
+        "57층",
+        "시범",
+        "한양",
+        "여의도동",
+        "49층"
+      ],
+      "sourceAuthority": "서울시 신속통합기획 확정 공고",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-01-stage": {
+      "targetValue": "정비구역 지정 완료, 사업시행자(신탁사) 지정, 시공사 선정(한양: 현대건설 등) 및 건축심의·사업시행인가 단계",
+      "acceptableVariants": [
+        "정비구역",
+        "신탁사",
+        "시공사",
+        "현대건설",
+        "사업시행",
+        "인가"
+      ],
+      "sourceAuthority": "영등포구 재건축사업과 정비사업 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-01-fiscal_scale": {
+      "targetValue": "중심상업지역 기준 용적률 1,000%, 친환경·디자인 혁신 시 최대 1,200% 이상 허용",
+      "acceptableVariants": [
+        "1,000%",
+        "1000%",
+        "1,200%",
+        "1200%",
+        "용적률"
+      ],
+      "sourceAuthority": "여의도 금융중심 지구단위계획 수립 지침",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-YD-01-owner_dept": {
+      "targetValue": "영등포구청 도시공간국 재건축사업과 및 서울시 도시계획국 신속통합기획과",
+      "acceptableVariants": [
+        "재건축사업과",
+        "신속통합기획과",
+        "영등포구청",
+        "서울시"
+      ],
+      "sourceAuthority": "영등포구 직제 규칙",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-01-citizen_benefit": {
+      "targetValue": "한강 연결 공공보행통로 개방, 문화·체육시설 및 데이케어센터 공공기여, 글로벌 핀테크 일자리 창출",
+      "acceptableVariants": [
+        "공공보행통로",
+        "공공기여",
+        "기부채납",
+        "일자리",
+        "문화시설",
+        "데이케어"
+      ],
+      "sourceAuthority": "재건축 신통기획 공공기여 계획서",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-02-existence": {
+      "targetValue": "서울시립 제2세종문화회관은 여의도공원 시유지에 한강 수변 랜드마크로 건립 확정, 문래동 부지에는 임시 문래동 꽃밭정원 개장 및 구립 영등포 문래 예술의전당 추진",
+      "acceptableVariants": [
+        "제2세종문화회관",
+        "여의도공원",
+        "꽃밭정원",
+        "예술의전당",
+        "문래동"
+      ],
+      "sourceAuthority": "서울시 및 영등포구 문화복합시설 정책 발표",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-02-location": {
+      "targetValue": "문래동3가 55-2(구 방림방적 기부채납 부지, 잔디광장, 맨발 황톳길, 정원문화센터)",
+      "acceptableVariants": [
+        "문래동3가",
+        "방림방적",
+        "황톳길",
+        "정원문화센터",
+        "잔디광장"
+      ],
+      "sourceAuthority": "영등포구 문래동 꽃밭정원 개장 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-02-stage": {
+      "targetValue": "제2세종문화회관(2026년 착공~2030년 준공 목표), 영등포 예술의전당(2027년 착공~2030년 준공 목표), 꽃밭정원은 2024년 5월 개장 운영 중",
+      "acceptableVariants": [
+        "2026",
+        "2030",
+        "2027",
+        "개장",
+        "착공",
+        "준공"
+      ],
+      "sourceAuthority": "서울시 중기지방재정계획 및 영등포구 사업공정",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-02-fiscal_scale": {
+      "targetValue": "여의도 제2세종문화회관 서울시 재정 약 3,000억~4,000억원대 투입 계획",
+      "acceptableVariants": [
+        "3,000억",
+        "3000억",
+        "4,000억",
+        "4000억",
+        "시 재정"
+      ],
+      "sourceAuthority": "서울시 대규모 문화인프라 투자심사",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-YD-02-owner_dept": {
+      "targetValue": "영등포구청 미래도시국 정원도시과(꽃밭정원 관리) 및 교육문화국 문화예술과(예술의전당 추진)",
+      "acceptableVariants": [
+        "정원도시과",
+        "문화예술과",
+        "영등포구청"
+      ],
+      "sourceAuthority": "영등포구 사무분장 규칙",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-02-citizen_benefit": {
+      "targetValue": "20여 년간 방치된 쓰레기 나대지의 도심 힐링 정원화, 맨발 걷기 황톳길, 사계절 꽃밭 및 구민 전용 문화공간 확보",
+      "acceptableVariants": [
+        "정원",
+        "황톳길",
+        "나대지",
+        "힐링",
+        "문화공간",
+        "맨발"
+      ],
+      "sourceAuthority": "정원도시 영등포 추진 성과보고서",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-03-existence": {
+      "targetValue": "영등포 쪽방촌 공공주택정비사업 및 2024년 10월 영등포로터리 고가 철거 착수, 2025년 철거 완료 후 평면화 교차로 공사 공식 진행 중",
+      "acceptableVariants": [
+        "쪽방촌",
+        "영등포로터리",
+        "고가 철거",
+        "공공주택",
+        "평면화",
+        "진행"
+      ],
+      "sourceAuthority": "국토교통부 공공주택지구 고시 및 서울시 영등포로터리 공고",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-03-location": {
+      "targetValue": "영등포동 423-44번지 일원(약 1만㎡), 총 782가구(영구임대 370, 행복주택 220, 공공분양 182)",
+      "acceptableVariants": [
+        "영등포동",
+        "782",
+        "영구임대",
+        "행복주택",
+        "공공분양",
+        "370"
+      ],
+      "sourceAuthority": "영등포 쪽방촌 공공주택사업계획 승인 고시",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-03-stage": {
+      "targetValue": "선(先)이주 임시이주시설(96실) 입주 후 철거·착공 순차 진행, 영등포로터리 고가 철거 완료 및 2026년 6월 평면화 완공 예정",
+      "acceptableVariants": [
+        "선이주",
+        "임시이주",
+        "96실",
+        "철거",
+        "2026",
+        "평면화"
+      ],
+      "sourceAuthority": "영등포구청 주택과 및 도로과 공정 보고",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-03-fiscal_scale": {
+      "targetValue": "한국토지주택공사(LH), 서울주택도시공사(SH), 영등포구 공동 시행",
+      "acceptableVariants": [
+        "LH",
+        "SH",
+        "한국토지주택공사",
+        "서울주택도시공사",
+        "영등포구"
+      ],
+      "sourceAuthority": "국토부 쪽방촌 정비사업 공동시행 협약",
+      "ownerRole": "upper_tier",
+      "tier": "upper"
+    },
+    "PRJ-YD-03-owner_dept": {
+      "targetValue": "영등포구청 도시공간국 주택과/재개발사업과 및 안전교통국 도로과",
+      "acceptableVariants": [
+        "주택과",
+        "재개발사업과",
+        "도로과",
+        "영등포구청"
+      ],
+      "sourceAuthority": "영등포구 직제 규정",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "PRJ-YD-03-citizen_benefit": {
+      "targetValue": "강제 퇴거 및 쫓겨남 없는 원주민 100% 영구임대 재정착 보장, 주거 취약계층의 인간다운 주거권 실현, 로터리 병목 해소",
+      "acceptableVariants": [
+        "재정착",
+        "내몰림 방지",
+        "영구임대",
+        "주거권",
+        "병목",
+        "교통개선"
+      ],
+      "sourceAuthority": "포용적 주거복지 정책 보고서",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-01": {
+      "targetValue": "서울 영등포구 여의도(서울핀테크랩, 국제금융오피스, 디지털금융특구), 강남 테헤란로, 마포 공덕(프론트원)",
+      "acceptableVariants": [
+        "여의도",
+        "핀테크랩",
+        "영등포",
+        "강남",
+        "마포"
+      ],
+      "sourceAuthority": "서울시 핀테크 생태계 활성화 정책",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-02": {
+      "targetValue": "더현대 서울(영등포구 여의도, 사운즈 포레스트 1,000평 실내정원), 영등포 타임스퀘어, 잠실 롯데월드몰",
+      "acceptableVariants": [
+        "더현대",
+        "더현대 서울",
+        "타임스퀘어",
+        "영등포",
+        "여의도"
+      ],
+      "sourceAuthority": "비짓서울 대표 쇼핑몰 가이드",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-03": {
+      "targetValue": "영등포구 여의도 한강공원(서울세계불꽃축제) 및 여의서로 벚꽃길(영등포 여의도 봄꽃축제)",
+      "acceptableVariants": [
+        "여의도",
+        "한강공원",
+        "불꽃축제",
+        "벚꽃",
+        "봄꽃축제",
+        "여의서로"
+      ],
+      "sourceAuthority": "서울시 대표 문화축제 현황",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-04": {
+      "targetValue": "영등포구 신길뉴타운(약 1만 가구 신축 브랜드 대단지, 신안산선·신림선 역세권, 여의도·강남 직주근접)",
+      "acceptableVariants": [
+        "신길뉴타운",
+        "신길",
+        "영등포",
+        "신안산선",
+        "신림선"
+      ],
+      "sourceAuthority": "서울 서남권 주거단지 입지 분석",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-05": {
+      "targetValue": "영등포구 문래창작촌(철공소 골목과 예술공방·카페의 공존), 중구 을지로 인쇄골목(힙지로), 성동구 성수동 카페거리",
+      "acceptableVariants": [
+        "문래창작촌",
+        "문래",
+        "을지로",
+        "성수동",
+        "철공소"
+      ],
+      "sourceAuthority": "서울시 골목상권 및 문화예술마을 안내",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "OPP-06": {
+      "targetValue": "영등포구 문래동 꽃밭정원(맨발 황톳길, 정원문화센터) 및 안양천 수변활력거점 황톳길 산책로",
+      "acceptableVariants": [
+        "꽃밭정원",
+        "문래동",
+        "황톳길",
+        "안양천",
+        "맨발"
+      ],
+      "sourceAuthority": "정원도시 서울 및 맨발길 명소 가이드",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-01": {
+      "targetValue": "대림동은 강력범죄율이 서울 시내 평균 수준이며, 대림지구대 승격 및 2010년 결성된 외국인 자율방범대와 경찰의 정례 야간 순찰 등으로 안정적인 치안을 유지하고 있어 영화 미디어의 과장된 묘사는 사실과 다름",
+      "acceptableVariants": [
+        "자율방범대",
+        "대림지구대",
+        "평균 수준",
+        "과장",
+        "편견",
+        "순찰",
+        "치안 안정"
+      ],
+      "sourceAuthority": "영등포경찰서 5대 범죄 통계 및 대림동 치안 실태 보고",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-02": {
+      "targetValue": "대림중앙시장은 인근 주민과 직장인들이 주로 찾는 생활 밀착형 전통시장으로 조직적 바가지 상행위는 사실무근이며, 구청의 황색선 지키기와 위생 정비로 쾌적한 보행 환경을 갖추고 있음",
+      "acceptableVariants": [
+        "바가지 아님",
+        "사실무근",
+        "황색선",
+        "위생",
+        "전통시장",
+        "로컬"
+      ],
+      "sourceAuthority": "대림중앙시장 상인회 및 전통시장 활성화 실태",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-03": {
+      "targetValue": "서울시립 제2세종문화회관은 여의도공원에 한강 수변 대형 공연장으로 2030년 준공 목표로 정상 추진 중이며, 문래동 부지에는 임시 문래동 꽃밭정원 개장 및 구립 영등포 문래 예술의전당(약 1,200석)이 건립되므로 문화시설 취소가 아님",
+      "acceptableVariants": [
+        "여의도공원",
+        "제2세종문화회관",
+        "꽃밭정원",
+        "예술의전당",
+        "취소 아님",
+        "정상 추진"
+      ],
+      "sourceAuthority": "서울시 및 영등포구 문화시설 정책 공식 발표문",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-04": {
+      "targetValue": "영등포구는 문래동 기계금속 철공소를 강제 철거하거나 내쫓지 않으며, 뿌리산업 생태계 보전을 위해 외곽 산단 이전 타당성 검토 용역을 진행했으나 대체부지 확보와 소공인 협의 지연으로 현지 유지 및 지원책을 병행 중임",
+      "acceptableVariants": [
+        "강제 철거 아님",
+        "쫓아내지 않음",
+        "뿌리산업",
+        "생태계 보전",
+        "현지 유지",
+        "지원"
+      ],
+      "sourceAuthority": "문래동 기계금속 집적지 이전 타당성 검토 보고서",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-05": {
+      "targetValue": "영등포 쪽방촌 정비사업은 전국 최초로 선(先)이주 임시이주시설(96실)을 먼저 지어 거주민을 입주시킨 뒤 철거를 진행하여 원주민 100% 영구임대 재정착을 보장하며, 갈등의 실체는 일부 토지주의 보상 방식 이견임",
+      "acceptableVariants": [
+        "선이주",
+        "임시이주",
+        "쫓겨나지 않음",
+        "100% 재정착",
+        "영구임대",
+        "보장"
+      ],
+      "sourceAuthority": "국토교통부 영등포 쪽방촌 정비사업 공식 설명자료",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    },
+    "REP-06": {
+      "targetValue": "동여의도(시범·한양 등)는 최고 65층 등 초고층 재건축이 허용되지만, 서여의도(국회의사당 주변)는 국회사무처의 보안·방호 요구로 고도지구 완화가 제외되어 현재도 최고 51m 이하 높이 제한이 엄격히 유지되고 있음",
+      "acceptableVariants": [
+        "서여의도",
+        "51m",
+        "국회의사당",
+        "고도제한",
+        "유지",
+        "동여의도만 초고층"
+      ],
+      "sourceAuthority": "서울시 고도지구 개편안 및 국회사무처 협의 결과",
+      "ownerRole": "agency_hq",
+      "tier": "direct"
+    }
+  }
+}

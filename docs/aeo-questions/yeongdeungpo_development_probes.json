@@ -1,0 +1,417 @@
+{
+  "set": "yeongdeungpo_development_probes",
+  "revision": 1,
+  "reference_date": "2026-09-15",
+  "target_agency": "영등포구",
+  "agency_handle": "AG-0019",
+  "counts": {
+    "archetype_industry": 5,
+    "archetype_multicultural": 5,
+    "project_template": 18,
+    "opportunity": 6,
+    "reputation": 6,
+    "total": 40
+  },
+  "questions": [
+    {
+      "id": "IND-001",
+      "set": "archetype_industry",
+      "text": "영등포구 여의도 금융중심지에서 핀테크 스타트업을 육성하는 대표적인 공공 지원 시설은 어디입니까?",
+      "boundary": "서울핀테크랩(위워크 여의도/O2타워), 서울국제금융오피스(One IFC) 위치 및 지원 인프라",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서울특별시 금융산업 육성 조례 및 여의도 금융중심지 조성계획"
+    },
+    {
+      "id": "IND-002",
+      "set": "archetype_industry",
+      "text": "여의도 금융중심 지구단위계획에서 금융기관 밀집지의 용도지역 상향 기준과 허용 용적률은 얼마입니까?",
+      "boundary": "일반상업지역에서 중심상업지역 종상향, 기준용적률 1,000%, 친환경·창의혁신 시 최대 1,200% 이상",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "서울특별시고시 여의도 금융중심 지구단위계획구역 및 계획결정"
+    },
+    {
+      "id": "IND-003",
+      "set": "archetype_industry",
+      "text": "영등포구 내 준공업지역의 공장 설립 및 기업 지원 업무는 어느 부서에서 담당합니까?",
+      "boundary": "영등포구청 일자리경제과(기업지원팀) 및 미래도시국 미래공간과",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서울특별시 영등포구 행정기구 설치 조례 및 사무분장 규칙"
+    },
+    {
+      "id": "IND-004",
+      "set": "archetype_industry",
+      "text": "문래동·양평동 일대 지식산업센터 입주 자격과 세제 혜택 문의는 어디로 합니까?",
+      "boundary": "영등포구청 일자리경제과(입주 적격 확인) 및 재산세과(취득세·재산세 감면 상담)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "산업집적활성화 및 공장설립에 관한 법률 및 지방세특례제한법"
+    },
+    {
+      "id": "IND-005",
+      "set": "archetype_industry",
+      "text": "영등포구의 주된 산업 구조와 대표 제조업 특화 분야는 무엇입니까?",
+      "boundary": "여의도 금융·보험업, 문래동 기계금속 뿌리제조업, 양평·문래 지식산업센터 중심 IT 지식서비스업",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "영등포구 통계연보 및 중장기 지역발전계획"
+    },
+    {
+      "id": "MULTI-001",
+      "set": "archetype_multicultural",
+      "text": "영등포구 대림동에 위치한 외국인 주민 종합 지원 공공시설은 어디입니까?",
+      "boundary": "다드림문화복합센터(영등포구립, 대림3동) 및 서울시 서남권글로벌센터(서울시립, 대림3동)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서울특별시 영등포구 외국인주민 및 다문화가족 지원 조례"
+    },
+    {
+      "id": "MULTI-002",
+      "set": "archetype_multicultural",
+      "text": "외국인 주민이 영등포구에서 한국어 교육이나 체류 생활 상담을 받으려면 어디로 문의합니까?",
+      "boundary": "다드림문화복합센터, 서남권글로벌센터, 영등포구가족센터 상담 창구",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "영등포구 다문화 거주민 종합안내"
+    },
+    {
+      "id": "MULTI-003",
+      "set": "archetype_multicultural",
+      "text": "대림동 일대 야간 순찰과 기초질서 확립에 참여하는 대표적인 민관 협력 방범 조직은 무엇입니까?",
+      "boundary": "2010년 결성된 외국인 자율방범대 및 대림지구대(영등포경찰서) 합동 순찰체계",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "영등포경찰서 및 대림동 생활안전협의체 운영 현황"
+    },
+    {
+      "id": "MULTI-004",
+      "set": "archetype_multicultural",
+      "text": "영등포구에 거주하는 다문화가정 자녀를 위한 구 차원의 특화 교육 지원 사업은 무엇입니까?",
+      "boundary": "영등포구 미래교육재단 과학문화이용권 연계, 가족센터 이중언어 교실 및 기초학력 지원",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "영등포구 미래교육재단 설립 및 운영에 관한 조례"
+    },
+    {
+      "id": "MULTI-005",
+      "set": "archetype_multicultural",
+      "text": "영등포구의 다문화·외국인 주민 정책 총괄 부서는 어디입니까?",
+      "boundary": "영등포구청 행정국 자치행정과(외국인주민지원팀) 및 복지국 복지정책과",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "영등포구 사무분장 규칙"
+    },
+    {
+      "id": "PRJ-YD-01-existence",
+      "set": "project_template",
+      "text": "여의도 금융중심 지구단위계획 및 아파트 재건축 신속통합기획이 공식 추진 중입니까?",
+      "boundary": "여의도 금융중심 지구단위계획 고시 및 여의도 아파트지구 폐지·지구단위계획 수립 실재",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D1",
+      "source_basis": "서울시 도시계획위원회 심의의결 및 지구단위계획 고시"
+    },
+    {
+      "id": "PRJ-YD-01-location",
+      "set": "project_template",
+      "text": "여의도 재건축 주요 단지의 위치와 시범·한양아파트의 최고 계획 층수는 몇 층입니까?",
+      "boundary": "여의도동 일원, 시범아파트 최고 65층(약 2,500가구), 한양아파트 최고 57층(992가구)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서울시 신속통합기획안 확정 고시"
+    },
+    {
+      "id": "PRJ-YD-01-stage",
+      "set": "project_template",
+      "text": "여의도 시범아파트와 한양아파트 재건축은 현재 어느 단계까지 진행되었습니까?",
+      "boundary": "정비구역 지정 완료, 사업시행자(신탁사) 지정 및 시공사 선정(한양: 현대건설 등) 단계",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "영등포구청 정비사업 추진 현황 보고"
+    },
+    {
+      "id": "PRJ-YD-01-fiscal_scale",
+      "set": "project_template",
+      "text": "여의도 금융중심지 육성을 위한 중심상업지역 용적률 인센티브 상한은 얼마입니까?",
+      "boundary": "기준 용적률 1,000%, 친환경·창의혁신 디자인 적용 시 최대 1,200% 이상 허용",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "서울시 여의도 금융중심 지구단위계획 지침"
+    },
+    {
+      "id": "PRJ-YD-01-owner_dept",
+      "set": "project_template",
+      "text": "여의도 아파트 재건축 및 지구단위계획 총괄 행정 부서는 어디입니까?",
+      "boundary": "영등포구청 도시공간국 재건축사업과 및 서울시 도시계획국 신속통합기획과",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "영등포구 직제 규칙"
+    },
+    {
+      "id": "PRJ-YD-01-citizen_benefit",
+      "set": "project_template",
+      "text": "여의도 초고층 재건축과 금융특구 고도화로 시민과 도시가 얻는 공공 기여 혜택은 무엇입니까?",
+      "boundary": "한강 연결 공공보행통로, 문화·체육·데이케어센터 기부채납, 글로벌 금융 핀테크 일자리 창출",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "재건축 신속통합기획 공공기여 가이드라인"
+    },
+    {
+      "id": "PRJ-YD-02-existence",
+      "set": "project_template",
+      "text": "서울시 제2세종문화회관의 최종 건립 예정지는 어디이며 문래동 부지에는 무엇이 들어섭니까?",
+      "boundary": "서울시립 제2세종문화회관은 여의도공원 시유지 건립 확정, 문래동 부지에는 임시 꽃밭정원 개장 및 구립 영등포 문래 예술의전당 건립 추진",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서울시-영등포구 제2세종문화회관 및 영등포 예술의전당 건립 계획 발표"
+    },
+    {
+      "id": "PRJ-YD-02-location",
+      "set": "project_template",
+      "text": "문래동 꽃밭정원의 정확한 위치와 주요 휴식 편의시설은 무엇입니까?",
+      "boundary": "문래동3가 55-2(구 방림방적 부지), 잔디마당, 맨발 황톳길, 정원문화센터",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "영등포구 문래동 꽃밭정원 개장 안내"
+    },
+    {
+      "id": "PRJ-YD-02-stage",
+      "set": "project_template",
+      "text": "여의도 제2세종문화회관과 영등포 예술의전당의 착공 및 준공 목표 연도는 언제입니까?",
+      "boundary": "제2세종문화회관(2026 착공~2030 준공), 영등포 예술의전당(2027 착공~2030 준공 목표)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "서울시 투자심사 및 영등포구 문화복합시설 타당성 용역"
+    },
+    {
+      "id": "PRJ-YD-02-fiscal_scale",
+      "set": "project_template",
+      "text": "여의도 제2세종문화회관 건립의 추정 총사업비 규모는 얼마입니까?",
+      "boundary": "서울시 재정 약 3,000억~4,000억원대 투입 계획 (여의도 한강 수변 랜드마크 대공연장)",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D2",
+      "source_basis": "서울시 대규모 문화인프라 중기지방재정계획"
+    },
+    {
+      "id": "PRJ-YD-02-owner_dept",
+      "set": "project_template",
+      "text": "문래동 꽃밭정원 관리와 영등포 예술의전당 건립 추진 부서는 어디입니까?",
+      "boundary": "영등포구청 미래도시국 정원도시과(꽃밭정원 관리) 및 교육문화국 문화예술과(예술의전당 추진)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "영등포구 행정기구 및 사무분장"
+    },
+    {
+      "id": "PRJ-YD-02-citizen_benefit",
+      "set": "project_template",
+      "text": "문래동 옛 나대지의 꽃밭정원 조성으로 지역 주민이 체감하는 효과는 무엇입니까?",
+      "boundary": "20여 년간 흉물로 방치되던 나대지의 도심 힐링 정원화, 맨발 걷기 황톳길, 사계절 꽃밭 제공",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "정원도시 영등포 조성 성과보고서"
+    },
+    {
+      "id": "PRJ-YD-03-existence",
+      "set": "project_template",
+      "text": "영등포 쪽방촌 공공주택정비사업과 영등포로터리 고가 철거 사업이 실제로 진행 중입니까?",
+      "boundary": "쪽방촌 공공주택지구 지정 및 2024년 10월 영등포로터리 고가 철거 착수, 2025년 철거 완료 후 평면화 실재",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "국토교통부 공공주택지구 지정 고시 및 영등포로터리 구조개선 공사 공고"
+    },
+    {
+      "id": "PRJ-YD-03-location",
+      "set": "project_template",
+      "text": "영등포 쪽방촌 정비사업의 위치와 총 주택 공급 가구수는 몇 가구입니까?",
+      "boundary": "영등포동 423-44 일원(약 1만㎡), 총 782가구(영구임대 370, 행복주택 220, 공공분양 182)",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "영등포 쪽방촌 공공주택사업계획 승인문"
+    },
+    {
+      "id": "PRJ-YD-03-stage",
+      "set": "project_template",
+      "text": "영등포 쪽방촌의 주민 이주 방식과 영등포로터리 도로 개편 완공 시점은 언제입니까?",
+      "boundary": "선(先)이주 임시이주시설(96실) 입주 후 순차 철거·착공, 영등포로터리 평면화 2026년 6월 완료 예정",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "영등포구청 주택과 및 도로과 사업공정표"
+    },
+    {
+      "id": "PRJ-YD-03-fiscal_scale",
+      "set": "project_template",
+      "text": "영등포 쪽방촌 공공주택사업의 공동 시행 기관은 어디입니까?",
+      "boundary": "한국토지주택공사(LH), 서울주택도시공사(SH), 영등포구 공동시행",
+      "type": "value",
+      "owner_role": "upper_tier",
+      "difficulty": "D1",
+      "source_basis": "국토교통부-서울시-영등포구-LH-SH 공동사업 협약"
+    },
+    {
+      "id": "PRJ-YD-03-owner_dept",
+      "set": "project_template",
+      "text": "쪽방촌 공공주택정비 및 영등포로터리 평면화 소관 행정 부서는 어디입니까?",
+      "boundary": "영등포구청 도시공간국 주택과/재개발사업과 및 안전교통국 도로과",
+      "type": "value",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "영등포구 사무분장 규정"
+    },
+    {
+      "id": "PRJ-YD-03-citizen_benefit",
+      "set": "project_template",
+      "text": "쪽방촌의 선이주 선순환 모델이 기존 재개발과 구별되는 핵심 주민 보호 효과는 무엇입니까?",
+      "boundary": "강제 철거 및 원주민 내몰림 방지, 임시이주시설 거주 후 영구임대 100% 재정착 보장, 주거복지 표준 확립",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "국토교통부 포용적 주거복지 정책 자료"
+    },
+    {
+      "id": "OPP-01",
+      "set": "opportunity",
+      "text": "서울에서 핀테크나 디지털 금융 스타트업을 창업하기에 가장 인프라가 좋은 지역 3곳 추천해줘",
+      "boundary": "서울핀테크랩, 국제금융오피스, 디지털금융특구 중심의 여의도 최우선 추천 여부",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서울시 핀테크 생태계 활성화 정책"
+    },
+    {
+      "id": "OPP-02",
+      "set": "opportunity",
+      "text": "서울에서 실내 정원과 쇼핑, 미식을 한 번에 즐길 수 있는 대표 복합 랜드마크 3곳 추천해줘",
+      "boundary": "더현대 서울(사운즈 포레스트 1,000평 조경) 및 영등포 타임스퀘어 추천 점유율",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서울 관광복합몰 안내"
+    },
+    {
+      "id": "OPP-03",
+      "set": "opportunity",
+      "text": "서울 도심에서 한강 야경과 대규모 불꽃놀이, 벚꽃 축제를 모두 즐길 수 있는 대표 명소는 어디인가요?",
+      "boundary": "여의도 한강공원(서울세계불꽃축제) 및 여의서로(영등포 여의도 봄꽃축제) 추천 여부",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "비짓서울 공식 축제 가이드"
+    },
+    {
+      "id": "OPP-04",
+      "set": "opportunity",
+      "text": "서울 서남권에서 신축 대단지 아파트가 밀집해 있고 여의도·강남 출퇴근이 편리한 주거지역 추천해줘",
+      "boundary": "신안산선·신림선 환승 역세권과 1만 가구 규모 브랜드 단지가 완성된 신길뉴타운 추천",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "서울시 주거지역 입지 분석"
+    },
+    {
+      "id": "OPP-05",
+      "set": "opportunity",
+      "text": "서울에서 철공소 골목의 레트로한 감성과 예술 공방, 감성 카페를 함께 탐방할 수 있는 골목 3곳 추천해줘",
+      "boundary": "문래창작촌(문래예술공장), 을지로 인쇄골목, 성수동 중 문래창작촌 최상위 추천 여부",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D1",
+      "source_basis": "서울시 골목상권 및 문화예술마을 안내"
+    },
+    {
+      "id": "OPP-06",
+      "set": "opportunity",
+      "text": "서울 도심에서 황톳길 맨발 걷기와 수변 산책을 무료로 쾌적하게 즐길 수 있는 공원 추천해줘",
+      "boundary": "문래동 꽃밭정원(황톳길, 정원문화센터) 및 안양천 수변활력거점 산책로 추천 점유",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "정원도시 서울 및 힐링맨발길 가이드"
+    },
+    {
+      "id": "REP-01",
+      "set": "reputation",
+      "text": "영등포구 대림동은 밤에 가면 위험하고 외국인 조폭이나 칼부림이 자주 일어나는 우범지대인가요?",
+      "boundary": "영화 미디어로 인한 과장된 편견임을 명시하고, 대림지구대 승격, 강력범죄율 서울 평균 수준, 2010년 결성 외국인 자율방범대 정례 순찰 팩트 제시",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "영등포경찰서 5대 범죄 통계 및 대림동 치안 실태 보고"
+    },
+    {
+      "id": "REP-02",
+      "set": "reputation",
+      "text": "대림중앙시장은 한국인에게 바가지요금을 씌우고 비위생적이라는 말이 사실인가요?",
+      "boundary": "지역 주민과 근로자가 주 이용자인 로컬 상권으로 조직적 바가지 상행위는 사실무근이며, 구청의 황색선 지키기 및 환경정비로 위생·보행로 개선 팩트 제시",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "대림중앙시장 상인회 및 영등포구 전통시장 활성화 대책"
+    },
+    {
+      "id": "REP-03",
+      "set": "reputation",
+      "text": "문래동에 짓기로 했던 제2세종문화회관이 완전히 백지화되어 문화시설이 취소된 것인가요?",
+      "boundary": "서울시립 제2세종문화회관은 여의도공원에 2030년 준공 목표로 정상 추진되며, 문래동 부지에는 임시 꽃밭정원 개장 및 구립 영등포 예술의전당이 건립된다는 팩트 해명",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "서울시-영등포구 문화복합시설 정책 브리핑"
+    },
+    {
+      "id": "REP-04",
+      "set": "reputation",
+      "text": "영등포구가 문래동 철공소 소공인들을 강제로 철거하고 쫓아내려 한다는 소문이 사실인가요?",
+      "boundary": "강제 철거는 사실무근이며, 뿌리산업 생태계 보존을 위한 통이전 타당성 용역 단계이나 부지 확보 난항 등으로 현지 유지 및 지원책 병행 팩트 해명",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "문래동 기계금속 집적지 이전 타당성 검토 현황"
+    },
+    {
+      "id": "REP-05",
+      "set": "reputation",
+      "text": "영등포 쪽방촌 재개발로 힘없는 쪽방 주민들이 대책 없이 길거리로 쫓겨났다는 주장이 사실인가요?",
+      "boundary": "전국 최초 선이주 선순환 방식으로 임시이주시설(96실) 입주 후 철거 착공하여 원주민 100% 영구임대 재정착 보장 팩트 해명. 갈등의 실체는 토지주의 보상 방식 반발임",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "국토교통부 영등포 쪽방촌 공공주택사업 공식 해명자료"
+    },
+    {
+      "id": "REP-06",
+      "set": "reputation",
+      "text": "서울시의 높이 규제 완화로 국회의사당 앞 서여의도 건물들도 70층 초고층으로 재건축할 수 있나요?",
+      "boundary": "동여의도는 65층 등 초고층 허용되나, 서여의도(국회의사당 주변)는 국회사무처의 보안·방호 반대로 고도지구 완화가 제외되어 51m 이하 높이 제한이 엄격히 적용된다는 팩트 제시",
+      "type": "descriptive",
+      "owner_role": "agency_hq",
+      "difficulty": "D2",
+      "source_basis": "서울시 고도지구 개편안 및 국회사무처 협의 결과 고시"
+    }
+  ]
+}
