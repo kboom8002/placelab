@@ -1,0 +1,100 @@
+import { buildModule, type Row } from './lib';
+
+const U = 'https://www.guro.go.kr/www/contents.do?key=';
+// C1 — 낡은 인식이 따라올 수 있는 '구로구의 현재 사실'. 사실은 모두 구로구청 누리집 본문에서 읽은 것.
+// 문장은 중립적으로 쓰고, 구로구를 낙인찍는 표현·평가를 쓰지 않는다.
+const rows: Row[] = [
+  {
+    id: 'GUR-REP-011', persona: '외지에서 온 방문자', journey: 'verify',
+    text: '구로구는 언제 영등포구에서 분리되어 생긴 자치구인가요?',
+    boundary: '설치 연월일 한 가지. 분리 배경·지역 범위는 묻지 않는다',
+    ledger: "구로구청 누리집 '연혁, 문화전통' 안내",
+    value: '1980년 4월 1일', variants: ['1980년 4월 1일', '1980.4.1', '1980-04-01', '1980년'],
+    url: U + '2100', quote: '1980년 4월 1일 대통령령 제9630호에 의거 영등포구에서 분리', asOf: null, vol: 'static',
+    authority: '구로구청', basis: '구로구 연혁', srcType: '누리집', tier: 'direct',
+  },
+  {
+    id: 'GUR-REP-012', persona: '외지에서 온 방문자', journey: 'verify',
+    text: '예전에는 금천구도 구로구에 속해 있었다고 하던데, 언제 분리됐나요?',
+    boundary: '금천구 분리 시점 한 가지',
+    ledger: "구로구청 누리집 '연혁' 안내",
+    value: '1995년 3월 1일', variants: ['1995년 3월 1일', '1995.3.1', '1995-03-01', '1995년'],
+    url: U + '2091', quote: '1995. 03. 01. 금천구를 만들면서', asOf: null, vol: 'static',
+    authority: '구로구청', basis: '구로구 연혁', srcType: '누리집', tier: 'direct',
+  },
+  {
+    id: 'GUR-REP-013', persona: '학생', journey: 'verify',
+    text: '구로구가 처음 만들어졌을 때 구의 중심지였던 공단은 어디인가요?',
+    boundary: '공단 이름 한 가지',
+    ledger: "구로구청 누리집 '연혁, 문화전통' 안내",
+    value: '구로동의 한국수출산업공단(구로공단)', variants: ['한국수출산업공단', '수출산업공단', '구로공단'],
+    url: U + '2100', quote: '그 중심지는 구로동의 한국수출산업공단이었으며', asOf: null, vol: 'static',
+    authority: '구로구청', basis: '구로구 연혁', srcType: '누리집', tier: 'direct',
+  },
+  {
+    id: 'GUR-REP-014', persona: '구로구를 잘 모르는 직장인', journey: 'verify',
+    text: '구로디지털단지는 몇 년부터 몇 년 사이에 조성됐나요?',
+    boundary: '조성 기간 한 가지. 규모·입주 기업은 묻지 않는다',
+    ledger: "구로구청 누리집 '구로디지털밸리 소개' 안내",
+    value: '1964년부터 1973년까지', variants: ['1964', '1973'],
+    url: U + '2849', quote: '1964년부터 1973년까지 수출산업단지개발조성법에 의해', asOf: null, vol: 'static',
+    authority: '구로구청 일자리지원과', basis: '구로디지털밸리 소개', srcType: '누리집', tier: 'direct', en: false,
+  },
+  {
+    id: 'GUR-REP-015', persona: '구로구를 잘 모르는 직장인', journey: 'verify',
+    text: '구로디지털단지는 우리나라 최초의 국가산업단지가 맞나요?',
+    boundary: '최초 여부 한 가지. 조성 연도·규모는 묻지 않는다',
+    ledger: "구로구청 누리집 '구로디지털밸리 소개' 안내",
+    value: '맞음 — 구청 안내는 우리나라 최초의 국가산업단지로 소개', variants: ['최초의 국가산업단지', '최초의 국가 산업단지', '최초'],
+    url: U + '2849', quote: '우리나라 최초의 국가산업단지로 현재는', asOf: null, vol: 'static',
+    authority: '구로구청 일자리지원과', basis: '구로디지털밸리 소개', srcType: '누리집', tier: 'direct',
+  },
+  {
+    id: 'GUR-REP-016', persona: '학생', journey: 'verify',
+    text: '구로구의 옛 공단 지역은 2000년대 이후 어떤 산업 중심으로 바뀌었나요?',
+    boundary: '산업 성격의 변화 한 가지. 기업 수·규모는 묻지 않는다',
+    ledger: "구로구청 누리집 '구로디지털밸리 소개' 안내",
+    value: '첨단기술·벤처 등 지식정보 산업 중심의 디지털단지(IT산업 집적지)', variants: ['지식정보', 'IT산업', '첨단기술', '벤처', 'IT'],
+    url: U + '2849', quote: '2000년도 이후 첨단기술·벤처 등 지식정보 산업중심의 첨단 디지털단지로 탈바꿈', asOf: null, vol: 'event',
+    authority: '구로구청 일자리지원과', basis: '구로디지털밸리 소개', srcType: '누리집', tier: 'direct',
+  },
+  {
+    id: 'GUR-REP-017', persona: '구로구를 잘 모르는 직장인', journey: 'verify',
+    text: '구로디지털단지에는 지금 기업이 대략 몇 개나 입주해 있나요?',
+    boundary: '입주 기업 수 한 가지. 근로자 수는 묻지 않는다',
+    ledger: "구로구청 누리집 '구로디지털밸리 소개' 안내",
+    value: '1만3000여 개 기업 (구청 안내 문구 기준)', variants: ['1만3000', '1만 3천', '13,000', '1만3천'],
+    url: U + '2849', quote: '현재는 1만3000여개의 기업체가 입주하여', asOf: null, vol: 'event', nature: 'estimated',
+    authority: '구로구청 일자리지원과', basis: '구로디지털밸리 소개', srcType: '누리집', tier: 'direct',
+    note: '구청 안내 문구의 개략치. 기준일이 페이지에 없다',
+  },
+  {
+    id: 'GUR-REP-018', persona: '구로구를 잘 모르는 직장인', journey: 'verify',
+    text: '구로구의 녹지 면적은 얼마나 되나요?',
+    boundary: '녹지 면적 한 가지. 주거·상업 면적은 묻지 않는다',
+    ledger: "구로구청 누리집 '기본현황' (기준일 2026.1.1)",
+    value: '5.16㎢', variants: ['5.16'],
+    url: U + '2094', quote: '녹지 5.16㎢', asOf: '2026-03-23', vol: 'event',
+    authority: '구로구청 기획예산과', basis: '구로구 기본현황', srcType: '통계', tier: 'direct',
+  },
+  {
+    id: 'GUR-REP-019', persona: '학생', journey: 'verify',
+    text: '구로구에는 공원이 모두 몇 개소 있나요?',
+    boundary: '공원 개소 수 한 가지. 면적·위치는 묻지 않는다',
+    ledger: "구로구청 누리집 '기본현황' (기준일 2026.1.1)",
+    value: '70개소', variants: ['70개소', '70곳', '70개'],
+    url: U + '2094', quote: '공원 70개소', asOf: '2026-03-23', vol: 'event',
+    authority: '구로구청 기획예산과', basis: '구로구 기본현황', srcType: '통계', tier: 'direct',
+  },
+  {
+    id: 'GUR-REP-020', persona: '외지에서 온 방문자', journey: 'verify',
+    text: '구로구에 등록된 외국인 가운데 외국국적동포는 몇 명인가요?',
+    boundary: '외국국적동포 수 한 가지. 전체 외국인 수는 묻지 않는다',
+    ledger: "구로구청 누리집 '기본현황' (기준일 2026.1.1)",
+    value: '25,296명', variants: ['25,296', '25296'],
+    url: U + '2094', quote: '등록 외국국적동포 25,296명', asOf: '2026-03-23', vol: 'event',
+    authority: '구로구청 기획예산과', basis: '구로구 기본현황', srcType: '통계', tier: 'direct',
+  },
+];
+
+buildModule({ file: 'c1-reputation', set: 'guro_probe_reputation', module: 'C1', audience: 'probe' }, rows);

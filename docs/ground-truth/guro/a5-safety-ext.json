@@ -1,0 +1,255 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-SAF-101": {
+      "targetValue": "1F",
+      "acceptableVariants": [
+        "1F",
+        "1층"
+      ],
+      "sourceAuthority": "구로구청 안내데스크",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2087",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-20",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1F 안내데스크, 민원서비스팀, 결핵실"
+    },
+    "GUR-SAF-102": {
+      "targetValue": "구로보건소 정류장",
+      "acceptableVariants": [
+        "구로보건소 정류장",
+        "보건소 정류장"
+      ],
+      "sourceAuthority": "구로구청 안내데스크",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2088",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-10-30",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "5619 / 6411: 구로보건소 정류장에서 하차 후"
+    },
+    "GUR-SAF-103": {
+      "targetValue": "02-860-2188",
+      "acceptableVariants": [
+        "02-860-2188",
+        "028602188"
+      ],
+      "sourceAuthority": "구로구청 도시안전과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2521",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-09-12",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "여성안심귀가스카우트 - 복지정책과 이현주(02-860-2188)"
+    },
+    "GUR-SAF-104": {
+      "targetValue": "02-860-3353",
+      "acceptableVariants": [
+        "02-860-3353",
+        "028603353"
+      ],
+      "sourceAuthority": "구로구청 도시안전과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2521",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-09-12",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "자율방범대 - 자치행정과 이상헌(02-860-3353)"
+    },
+    "GUR-SAF-105": {
+      "targetValue": "서울시 안심이 앱을 통한 사전예약제",
+      "acceptableVariants": [
+        "서울시 안심이 앱",
+        "안심이 앱",
+        "사전예약제"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2526",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-01-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "서울시 안심이 앱을 통한 사전예약제"
+    },
+    "GUR-SAF-106": {
+      "targetValue": "매년 6월 1일 ～ 9월 30일 (4개월간)",
+      "acceptableVariants": [
+        "6월 1일",
+        "9월 30일",
+        "4개월간",
+        "6월1일"
+      ],
+      "sourceAuthority": "구로구청 도시안전과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2546",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-08-12",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "매년 6월 1일 ～ 9월 30일 (4개월간)"
+    },
+    "GUR-SAF-107": {
+      "targetValue": "119 (해상 122) 또는 1588-3650",
+      "acceptableVariants": [
+        "119",
+        "122",
+        "1588-3650",
+        "해상 122"
+      ],
+      "sourceAuthority": "구로구청 체육진흥과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2565",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-21",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "즉시 119 (해상 122) 또는 1588-3650으로 신고"
+    },
+    "GUR-SAF-108": {
+      "targetValue": "고척로45길 39",
+      "acceptableVariants": [
+        "고척로45길 39",
+        "고척로45길39",
+        "구로구민체육센터"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2568",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "고척로45길 39"
+    },
+    "GUR-SAF-109": {
+      "targetValue": "개봉로16가길17(4층 다목적강당)",
+      "acceptableVariants": [
+        "개봉로16가길17",
+        "개봉로16가길 17",
+        "4층 다목적강당"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2568",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "개봉로16가길17(4층 다목적강당)"
+    },
+    "GUR-SAF-110": {
+      "targetValue": "신도림로 26",
+      "acceptableVariants": [
+        "신도림로 26",
+        "신도림로26"
+      ],
+      "sourceAuthority": "구로구청 도시안전과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2569",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-18",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1 신도림동 신도림로 26 신미림초등학교(운동장)"
+    },
+    "GUR-SAF-111": {
+      "targetValue": "구로2동",
+      "acceptableVariants": [
+        "구로2동"
+      ],
+      "sourceAuthority": "구로구청 도시안전과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2569",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-18",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "8 구로2동 벚꽃로 490 화원어린이공원"
+    },
+    "GUR-SAF-112": {
+      "targetValue": "860-2415",
+      "acceptableVariants": [
+        "860-2415",
+        "8602415"
+      ],
+      "sourceAuthority": "구로구청 치수과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2573",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-07-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 재난안전대책본부 860-2415"
+    },
+    "GUR-SAF-113": {
+      "targetValue": "860-2405～7",
+      "acceptableVariants": [
+        "860-2405~7",
+        "860-2405～7",
+        "2405~7"
+      ],
+      "sourceAuthority": "구로구청 도로과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2574",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "도로과 : 860-2405～7 / FAX:860-2645"
+    },
+    "GUR-SAF-114": {
+      "targetValue": "02-860-3136",
+      "acceptableVariants": [
+        "02-860-3136",
+        "028603136",
+        "이도현"
+      ],
+      "sourceAuthority": "구로구청 도로과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2575",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-27",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1 가마산 지하보차도 2 도로과 이도현 02-860-3136"
+    }
+  }
+}

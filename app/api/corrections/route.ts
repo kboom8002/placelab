@@ -26,9 +26,8 @@ export async function POST(req: NextRequest) {
     // In a real app this would insert into the db
     const { error } = await supabase.from('corrections').insert({
       unit_id: result.data.unit_id,
-      description: result.data.description,
-      contact_email: result.data.contact_email || null,
-      evidence_url: result.data.evidence_url || null,
+      claim: result.data.description + (result.data.evidence_url ? `\n\nEvidence URL: ${result.data.evidence_url}` : ''),
+      contact: result.data.contact_email || null,
       status: 'received',
     });
 

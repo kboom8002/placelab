@@ -1,0 +1,259 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-ENV-101": {
+      "targetValue": "30일 이내",
+      "acceptableVariants": [
+        "30일 이내",
+        "30일",
+        "삼십일 이내"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2650",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-08",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "결제일로부터 30일 이내 신청해주시기 바랍니다."
+    },
+    "GUR-ENV-102": {
+      "targetValue": "02-2615-3203",
+      "acceptableVariants": [
+        "02-2615-3203",
+        "0226153203",
+        "2615-3203"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2650",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-08",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "콜센터 신고분 수수료 환불 문의 : 02-2615-3203"
+    },
+    "GUR-ENV-103": {
+      "targetValue": "02-2615-3203",
+      "acceptableVariants": [
+        "02-2615-3203",
+        "02126153203",
+        "2615-3203"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2662",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-08",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "☎ 02-2615-3203"
+    },
+    "GUR-ENV-104": {
+      "targetValue": "월~금, 09:00~18:00",
+      "acceptableVariants": [
+        "월~금",
+        "09:00~18:00",
+        "9:00~18:00",
+        "09시~18시"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2662",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-08",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "이용시간 : 월~금, 09:00~18:00"
+    },
+    "GUR-ENV-105": {
+      "targetValue": "1,000원",
+      "acceptableVariants": [
+        "1,000원",
+        "1000원"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2694",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-28",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "10ℓ 250원 250원 1,000원"
+    },
+    "GUR-ENV-106": {
+      "targetValue": "압착하여 봉투에 넣거나, 한군데로 묶음",
+      "acceptableVariants": [
+        "압착하여 봉투에 넣거나",
+        "한군데로 묶음",
+        "봉투에 넣거나",
+        "묶음"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2697",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-08",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "압착하여 봉투에 넣거나, 한군데로 묶음"
+    },
+    "GUR-ENV-107": {
+      "targetValue": "740",
+      "acceptableVariants": [
+        "740",
+        "７４０"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2728",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "일반생활쓰레기 (흰색) - - 130 250 490 740"
+    },
+    "GUR-ENV-108": {
+      "targetValue": "300",
+      "acceptableVariants": [
+        "300",
+        "３００"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2728",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "음식물쓰레기 (황색) 100 190 300 500 1,000"
+    },
+    "GUR-ENV-109": {
+      "targetValue": "40,000원",
+      "acceptableVariants": [
+        "40,000원",
+        "40000원"
+      ],
+      "sourceAuthority": "구로구청 주차관리과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2921",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "승용차,화물차 (4t 이하) 일반지역 40,000원"
+    },
+    "GUR-ENV-110": {
+      "targetValue": "120,000원",
+      "acceptableVariants": [
+        "120,000원",
+        "120000원"
+      ],
+      "sourceAuthority": "구로구청 주차관리과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2921",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "어린이보호구역 120,000원"
+    },
+    "GUR-ENV-111": {
+      "targetValue": "동 주민센터나 구청 청소행정과",
+      "acceptableVariants": [
+        "동 주민센터",
+        "구청 청소행정과",
+        "청소행정과"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=3766",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-09-05",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "동 주민센터나 구청 청소행정과로 제출"
+    },
+    "GUR-ENV-112": {
+      "targetValue": "구로구 거주자 또는 구로구 소재 직장 근무자",
+      "acceptableVariants": [
+        "구로구 거주자",
+        "구로구 소재 직장 근무자",
+        "거주자",
+        "직장 근무자"
+      ],
+      "sourceAuthority": "구로구청 스마트도시과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4112",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 거주자 또는 구로구 소재 직장 근무자"
+    },
+    "GUR-ENV-113": {
+      "targetValue": "콜센터(☎02-2615-3203)",
+      "acceptableVariants": [
+        "02-2615-3203",
+        "0216153203",
+        "콜센터"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4207",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-04-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "콜센터(☎02-2615-3203)로 전화주시면 알려드리겠습니다."
+    },
+    "GUR-ENV-114": {
+      "targetValue": "각 동주민센터 16개소",
+      "acceptableVariants": [
+        "각 동주민센터 16개소",
+        "동주민센터 16개소",
+        "16개소"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4419",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-08",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "교환장소 : 각 동주민센터 16개소"
+    }
+  }
+}

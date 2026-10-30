@@ -3,7 +3,10 @@
 
 declare const brand: unique symbol;
 
-export type Population = 'local_gov' | 'special_zone';
+export type UnitKind = 'national' | 'metro' | 'basic' | 'emd' | 'special_zone';
+
+export type Population = 'local_gov' | 'special_zone' | 'metro' | 'basic';
+
 
 export type RobotsVerdict =
   | 'open'

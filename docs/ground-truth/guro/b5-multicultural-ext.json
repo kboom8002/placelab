@@ -1,0 +1,190 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-MUL-101": {
+      "targetValue": "02-869-0317",
+      "acceptableVariants": [
+        "02-869-0317",
+        "028690317",
+        "한국어교육"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2217",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "한국어교육 02-869-0317"
+    },
+    "GUR-MUL-102": {
+      "targetValue": "070-4066-0097",
+      "acceptableVariants": [
+        "070-4066-0097",
+        "07040660097",
+        "방문교육"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2217",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "방문교육 070-4066-0097"
+    },
+    "GUR-MUL-103": {
+      "targetValue": "주2회, 회당 2시간",
+      "acceptableVariants": [
+        "주2회",
+        "회당 2시간",
+        "주 2회",
+        "2시간"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2369",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "방문교육 주2회, 회당 2시간 1:1 방문수업"
+    },
+    "GUR-MUL-104": {
+      "targetValue": "월, 수, 목",
+      "acceptableVariants": [
+        "월, 수, 목",
+        "월수목"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2369",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "수준별 한국어 수업(월, 수, 목)"
+    },
+    "GUR-MUL-105": {
+      "targetValue": "1회 5개월",
+      "acceptableVariants": [
+        "1회 5개월",
+        "5개월"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2369",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "③방문 부모교육 (1회 5개월)"
+    },
+    "GUR-MUL-106": {
+      "targetValue": "중국어, 베트남어, 캄보디아어",
+      "acceptableVariants": [
+        "중국어",
+        "베트남어",
+        "캄보디아어",
+        "중국어, 베트남어, 캄보디아어"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2369",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "중국어, 베트남어, 캄보디아어 이중언어교육"
+    },
+    "GUR-MUL-107": {
+      "targetValue": "02-869-0317",
+      "acceptableVariants": [
+        "02-869-0317",
+        "028690317",
+        "869-0317"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2370",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-01-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "전화 02-869-0317"
+    },
+    "GUR-MUL-108": {
+      "targetValue": "서울시 구로구 우마2길 35",
+      "acceptableVariants": [
+        "서울시 구로구 우마2길 35",
+        "구로구 우마2길 35",
+        "우마2길 35"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2370",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-01-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "주소 서울시 구로구 우마2길 35,"
+    },
+    "GUR-MUL-109": {
+      "targetValue": "7호선 남구로역 2번출구",
+      "acceptableVariants": [
+        "7호선",
+        "남구로역",
+        "2번출구",
+        "남구로역 2번출구"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2370",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-01-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "지하철 7호선 남구로역 2번출구(도보 10분)"
+    },
+    "GUR-MUL-110": {
+      "targetValue": "5분당 100원",
+      "acceptableVariants": [
+        "5분당 100원",
+        "100원",
+        "5분당100원"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2370",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-01-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "지하주차장(30분 무료, 이후 5분당 100원)"
+    }
+  }
+}

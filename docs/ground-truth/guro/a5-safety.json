@@ -1,0 +1,255 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-SAF-001": {
+      "targetValue": "1F",
+      "acceptableVariants": [
+        "1F",
+        "1층"
+      ],
+      "sourceAuthority": "구로구청 안내데스크",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2087",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-20",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1F 안내데스크, 민원서비스팀, 결핵실 건강관리센터(내과, 대사증후군, 예방접종실)"
+    },
+    "GUR-SAF-002": {
+      "targetValue": "2F",
+      "acceptableVariants": [
+        "2F",
+        "2층"
+      ],
+      "sourceAuthority": "구로구청 안내데스크",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2087",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-20",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "2F 구로5동주민센터, 감염병예방팀, 금연클리닉"
+    },
+    "GUR-SAF-003": {
+      "targetValue": "4F",
+      "acceptableVariants": [
+        "4F",
+        "4층"
+      ],
+      "sourceAuthority": "구로구청 안내데스크",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2087",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-20",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "4F 치과, 장애인치과, 물리치료실, 수유실, 하늘정원, 장애인화장실(남자)"
+    },
+    "GUR-SAF-004": {
+      "targetValue": "6613 / 구로09",
+      "acceptableVariants": [
+        "6613",
+        "구로09",
+        "6613 / 구로09",
+        "6613/구로09"
+      ],
+      "sourceAuthority": "구로구청 안내데스크",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2088",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-10-30",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "6613 / 구로09 : 보건소 바로 앞 정류장에서 하차"
+    },
+    "GUR-SAF-005": {
+      "targetValue": "도보 3분 소요",
+      "acceptableVariants": [
+        "3분",
+        "도보 3분",
+        "3분 소요"
+      ],
+      "sourceAuthority": "구로구청 안내데스크",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2088",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-10-30",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "5619 / 6411: 구로보건소 정류장에서 하차 후 도보 3분 소요"
+    },
+    "GUR-SAF-006": {
+      "targetValue": "1번출구",
+      "acceptableVariants": [
+        "1번출구",
+        "1번 출구"
+      ],
+      "sourceAuthority": "구로구청 안내데스크",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2088",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-10-30",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로역 하차 1번출구로 나와"
+    },
+    "GUR-SAF-007": {
+      "targetValue": "22:00~24:00(2시간)",
+      "acceptableVariants": [
+        "22:00~24:00",
+        "22시~24시",
+        "2시간"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2526",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-01-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "월요일: 22:00~24:00(2시간)"
+    },
+    "GUR-SAF-008": {
+      "targetValue": "22:00~01:00(3시간)",
+      "acceptableVariants": [
+        "22:00~01:00",
+        "22시~01시",
+        "3시간",
+        "오후 10시부터 다음 날 오전 1시",
+        "밤 10시부터 다음 날 새벽 1시",
+        "22시부터 01시"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2526",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-01-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "화~금요일: 22:00~01:00(3시간)"
+    },
+    "GUR-SAF-009": {
+      "targetValue": "서울시 안심이 앱을 통한 사전예약제",
+      "acceptableVariants": [
+        "서울시 안심이 앱",
+        "안심이 앱",
+        "사전예약제"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2526",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-01-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "이용방법 서울시 안심이 앱을 통한 사전예약제"
+    },
+    "GUR-SAF-010": {
+      "targetValue": "119",
+      "acceptableVariants": [
+        "119"
+      ],
+      "sourceAuthority": "구로구청 의약과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2536",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "119에 신고합시다."
+    },
+    "GUR-SAF-011": {
+      "targetValue": "구로동로26길 54",
+      "acceptableVariants": [
+        "구로동로26길 54",
+        "구로동로 26길 54"
+      ],
+      "sourceAuthority": "구로구청 도시안전과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2569",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-18",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로4동 구로동로26길 54 구로구시설관리공단 (주차장)"
+    },
+    "GUR-SAF-012": {
+      "targetValue": "고척동 산9-14",
+      "acceptableVariants": [
+        "고척동 산9-14",
+        "산9-14"
+      ],
+      "sourceAuthority": "구로구청 도시안전과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2569",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-18",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "고척2동 고척동 산9-14 고척근린공원(축구장)"
+    },
+    "GUR-SAF-013": {
+      "targetValue": "경인로 8",
+      "acceptableVariants": [
+        "경인로 8",
+        "경인로8"
+      ],
+      "sourceAuthority": "구로구청 도시안전과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2569",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-18",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "항동 경인로 8 유한공업고등학교(운동장)"
+    },
+    "GUR-SAF-014": {
+      "targetValue": "국민안전24(http://www.safekorea.go.kr)",
+      "acceptableVariants": [
+        "국민안전24",
+        "safekorea.go.kr"
+      ],
+      "sourceAuthority": "구로구청 도시안전과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2583",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-04-20",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "국민안전24(http://www.safekorea.go.kr)에서는"
+    }
+  }
+}

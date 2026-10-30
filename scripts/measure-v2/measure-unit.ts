@@ -142,7 +142,7 @@ async function main() {
   fs.writeFileSync(outFile, JSON.stringify({
     measurement: {
       unit: UNIT, model: MODEL, method_version: 'v2.0',
-      web_search: 'on (model default)', mode: REPS === 1 ? 'quick' : `quick-${REPS}rep`,
+      web_search: 'unverified', /* ADR-0012: 검색 도구 미전달. 'model default' 는 확인된 사실이 아니다 */ mode: REPS === 1 ? 'quick' : `quick-${REPS}rep`,
       reps: REPS, measured_on: new Date().toISOString().slice(0, 10),
       total_questions: questions.length, total_observations: results.length,
     },

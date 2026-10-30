@@ -1,0 +1,259 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-WEL-101": {
+      "targetValue": "1식 당 10,000원",
+      "acceptableVariants": [
+        "1식 당 10,000원",
+        "1식당 10,000원",
+        "10,000원",
+        "10000원"
+      ],
+      "sourceAuthority": "구로구청 아동청소년과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2210",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-11",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1식 당 10,000원"
+    },
+    "GUR-WEL-102": {
+      "targetValue": "거주지 동 주민센터",
+      "acceptableVariants": [
+        "거주지 동 주민센터",
+        "동 주민센터"
+      ],
+      "sourceAuthority": "구로구청 아동청소년과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2211",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "신청장소 거주지 동 주민센터"
+    },
+    "GUR-WEL-103": {
+      "targetValue": "9세 이상 18세 이하의 청소년",
+      "acceptableVariants": [
+        "9세 이상",
+        "18세 이하",
+        "9세 이상 18세 이하",
+        "9세~18세"
+      ],
+      "sourceAuthority": "구로구청 아동청소년과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2212",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-03",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "발급대상 9세 이상 18세 이하의 청소년"
+    },
+    "GUR-WEL-104": {
+      "targetValue": "월 20만원",
+      "acceptableVariants": [
+        "월 20만원",
+        "20만원"
+      ],
+      "sourceAuthority": "구로구청 아동청소년과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2213",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-03",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "서비스 가격 월 20만원"
+    },
+    "GUR-WEL-105": {
+      "targetValue": "7일(공휴일 제외) 이내",
+      "acceptableVariants": [
+        "7일",
+        "7일 이내",
+        "공휴일 제외"
+      ],
+      "sourceAuthority": "구로구청 생활보장과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2229",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "발급받은 날부터 7일(공휴일 제외) 이내"
+    },
+    "GUR-WEL-106": {
+      "targetValue": "동주민센터",
+      "acceptableVariants": [
+        "동주민센터",
+        "동 주민센터"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2230",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-04",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "동주민센터에 신청 후"
+    },
+    "GUR-WEL-107": {
+      "targetValue": "기초생활보장수급자 및 차상위계층(소득재산기준충족시)",
+      "acceptableVariants": [
+        "기초생활보장수급자",
+        "차상위계층",
+        "소득재산기준충족시"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2231",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "기초생활보장수급자 및 차상위계층(소득재산기준충족시)"
+    },
+    "GUR-WEL-108": {
+      "targetValue": "15-39세",
+      "acceptableVariants": [
+        "15-39세",
+        "15~39세",
+        "39세"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2233",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-05",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "청년 (15-39세)"
+    },
+    "GUR-WEL-109": {
+      "targetValue": "사회복지서비스 및 급여제공(변경)신청서",
+      "acceptableVariants": [
+        "사회복지서비스 및 급여제공(변경)신청서",
+        "급여제공(변경)신청서",
+        "사회복지서비스 신청서"
+      ],
+      "sourceAuthority": "구로구청 생활보장과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2235",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-01-15",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "사회복지서비스 및 급여제공(변경)신청서"
+    },
+    "GUR-WEL-110": {
+      "targetValue": "건강증진과(모자보건팀) 최수진 860-3274",
+      "acceptableVariants": [
+        "건강증진과",
+        "모자보건팀",
+        "860-3274",
+        "최수진"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2240",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "15 산모신생아건강관리사지원 건강증진과(모자보건팀) 최수진 860-3274"
+    },
+    "GUR-WEL-111": {
+      "targetValue": "5~12월",
+      "acceptableVariants": [
+        "5~12월",
+        "5-12월",
+        "5월~12월",
+        "5월~12 월"
+      ],
+      "sourceAuthority": "구로구청 스마트도시과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2242",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-31",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "중고 PC 보급(5~12월)"
+    },
+    "GUR-WEL-112": {
+      "targetValue": "장애인",
+      "acceptableVariants": [
+        "장애인"
+      ],
+      "sourceAuthority": "구로구청 스마트도시과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2245",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-05-29",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "접근과 활용이 어려운 장애인을 대상으로"
+    },
+    "GUR-WEL-113": {
+      "targetValue": "주민등록 주소지 동주민센터",
+      "acceptableVariants": [
+        "주민등록 주소지 동주민센터",
+        "동주민센터",
+        "주민센터"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2263",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-01-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "신청장소 주민등록 주소지 동주민센터"
+    },
+    "GUR-WEL-114": {
+      "targetValue": "관내 장애인 및 일시적 장애인",
+      "acceptableVariants": [
+        "관내 장애인",
+        "일시적 장애인"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2265",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "관내 장애인 및 일시적 장애인"
+    }
+  }
+}

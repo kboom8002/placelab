@@ -402,7 +402,7 @@ export function generateReport(input: ReportInput): AEODiagnosisReport {
     population: input.population,
     method_version: 'v2.1',
     ai_service: normalizeAiService(input.aiService),
-    web_search: 'on',
+    web_search: 'unverified', // ADR-0012: measure-engine 은 검색 도구를 전달하지 않는다. 검증 수집기(collector-websearch) 도입 전까지 'on' 금지
     measured_on: input.measuredOn,
 
     tier1: {

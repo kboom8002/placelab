@@ -132,7 +132,6 @@
       "lang": "ko",
       "question": "여수밤바다가 뭐야? 노래 제목이야 관광지야?",
       "rep": 1,
-      "response": "'여수밤바다'는 원래 2012년에 발표된 **밴드 버스커 버스커(장범준 작사·작곡)의 히트 노래 제목**입니다. \n\n하지만 이 노래가 초대박을 터뜨리면서 전라남도 여수시의 아름다운 야경을 상징하는 **대표적인 관광 브랜드이자 명칭**으로 자리 잡았습니다. 현재는 종포해양공원, 낭만포차 거리 등 여수의 야간 관광지를 통칭하는 대명사로 쓰이고 있습니다.",
       "responseHash": "a456389e8d9ac100",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2470,
@@ -168,7 +167,8 @@
       "webSearchQueries": [
         "여수밤바다 노래 관광지"
       ],
-      "timestamp": "2026-09-09T11:10:20.144Z"
+      "timestamp": "2026-09-09T11:10:20.144Z",
+      "raw_hash": "f7de909456cce371"
     },
     {
       "questionId": "YS-A02",
@@ -178,7 +178,6 @@
       "lang": "ko",
       "question": "여수 해상케이블카 요금, 운영시간, 크리스탈 캐빈 차이 알려줘.",
       "rep": 1,
-      "response": "여수 해상케이블카의 요금, 운영시간, 크리스탈 캐빈의 차이는 다음과 같습니다.\n\n* **운영시간:** 매일 오전 9시 30분부터 오후 9시 30분까지 운영되며, 발권은 보통 오후 9시에 마감됩니다 (토요일 및 성수기에는 연장 운행하기도 함).\n* **요금 (왕복 기준):** \n  * **일반 캐빈:** 대인 17,000원 / 소인 12,000원\n  * **크리스탈 캐빈:** 대인 24,000원 / 소인 19,000원\n* **일반 캐빈과 크리스탈 캐빈의 차이:** 일반 캐빈은 바닥이 불투명한 일반형으로 최대 8인까지 탑승하며, **크리스탈 캐빈은 바닥이 투명한 강화유리**로 되어 있어 발아래 펼쳐지는 바다 조망과 아찔한 스릴감을 즐길 수 있는 최대 6인승 캐빈입니다.\n\n자세한 정보는 [여수해상케이블카 공식 홈페이지](http://www.yeosucablecar.com/)에서 확인하실 수 있습니다.",
       "responseHash": "d1a4b7af13e2a482",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2889,
@@ -210,7 +209,8 @@
       "webSearchQueries": [
         "여수 해상케이블카 요금 운영시간 크리스탈 캐빈 차이"
       ],
-      "timestamp": "2026-09-09T11:10:20.562Z"
+      "timestamp": "2026-09-09T11:10:20.562Z",
+      "raw_hash": "39420a065bae583d"
     },
     {
       "questionId": "YS-A03",
@@ -220,7 +220,6 @@
       "lang": "ko",
       "question": "2012 여수세계박람회 이후 박람회장 시설이 지금 어떻게 활용되고 있어?",
       "rep": 1,
-      "response": "2012 여수세계박람회장 부지와 일부 시설은 현재 '여수엑스포해양공원'으로 재개장하여 아쿠아플라넷, 스카이타워, 빅오쇼 등 주요 관광 시설과 박람회 기념관, 컨벤션센터 등으로 활용되고 있습니다. \n\n다만, 민간투자 유치가 여러 차례 난항을 겪으면서 거대한 규모의 국제관 내부 등에 일부 공실이 남는 등 완전한 상업화와 활성화에는 한계가 있었습니다. 이에 따라 사후 활용 주체가 여수광양항만공사로 전환되었으며, 공공성을 강화하고 지속 가능한 글로벌 해양관광·MICE 거점 및 복합 아레나 등으로 탈바꿈하기 위한 새로운 마스터플랜과 개발 방안이 계속 모색되고 있습니다.",
       "responseHash": "8f406c60d1ff699f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2869,
@@ -262,7 +261,8 @@
         "2012 여수세계박람회장 사후 활용 현재",
         "여수엑스포장 현재 활용 방안"
       ],
-      "timestamp": "2026-09-09T11:10:20.543Z"
+      "timestamp": "2026-09-09T11:10:20.543Z",
+      "raw_hash": "f9ef1fae7682e5df"
     },
     {
       "questionId": "YS-A04",
@@ -272,7 +272,6 @@
       "lang": "ko",
       "question": "2026 여수세계섬박람회 주제, 일정, 장소, 참가국 규모 알려줘.",
       "rep": 1,
-      "response": "2026 여수세계섬박람회의 주제는 **\"섬, 바다와 미래를 잇다\"**이며, 세계 최초로 '섬'을 주제로 개최되는 국제 행사입니다. \n\n행사 일정은 **2026년 9월 5일부터 11월 4일까지** 총 61일간 진행되며, 장소는 주행사장인 여수시 돌산 진모지구를 비롯해 여수세계박람회장, 개도 및 금오도 일원 등에서 열립니다. \n\n참가 규모는 세계 **30개국**이 참여하여 섬의 생태적 가치와 지속 가능한 미래 비전을 조명하고 있습니다.",
       "responseHash": "30ed4d5e5f507242",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2373,
@@ -303,7 +302,8 @@
       "webSearchQueries": [
         "2026 여수세계섬박람회 주제 일정 장소 참가국 규모"
       ],
-      "timestamp": "2026-09-09T11:10:24.136Z"
+      "timestamp": "2026-09-09T11:10:24.136Z",
+      "raw_hash": "25f381de6576d4e5"
     },
     {
       "questionId": "YS-A05",
@@ -313,7 +313,6 @@
       "lang": "ko",
       "question": "여수 오동도 동백꽃 절정 시기와 가는 방법, 입장료 알려줘.",
       "rep": 1,
-      "response": "여수 오동도의 동백꽃 절정 시기는 **3월 중순부터 3월 말**까지로, 이 시기에 방문하면 섬 전체가 붉은 동백꽃으로 물드는 장관을 볼 수 있습니다. \n\n오동도에 가는 방법은 육지에서 섬까지 이어지는 768m의 방파제 길을 따라 **도보(약 15~20분 소요)**로 걸어가거나, 입구 선착장에서 운행하는 유료 **동백열차(편도 성인 1,000원)**를 이용하면 됩니다. \n\n오동도의 **입장료는 무료**이며, 연중무휴 24시간 개방되어 부담 없이 방문할 수 있습니다.\n\n출처: [여수시 문화관광](http://tour.yeosu.go.kr/tour/travel/10tour/odongdo)",
       "responseHash": "67ee6d2b2931a0e3",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2568,
@@ -335,7 +334,8 @@
       "webSearchQueries": [
         "여수 오동도 동백꽃 절정 시기 입장료 가는 방법"
       ],
-      "timestamp": "2026-09-09T11:10:24.332Z"
+      "timestamp": "2026-09-09T11:10:24.332Z",
+      "raw_hash": "3729a7b3d01b23de"
     },
     {
       "questionId": "YS-A06",
@@ -345,7 +345,6 @@
       "lang": "ko",
       "question": "여수 향일암 일출 명소 가는 법과 해맞이 축제 일정은?",
       "rep": 1,
-      "response": "여수 향일암은 여수엑스포역이나 시내에서 돌산읍 방향으로 남쪽 끝까지 이동한 뒤, 임포마을 매표소에서 내려 도보(약 15~20분)나 거북바위 등산로를 통해 갈 수 있습니다. 대중교통을 이용할 경우 여수 시내에서 향일암 종점까지 가는 시내버스(예: 111번 등)를 이용하면 편리합니다. \n\n매년 개최되는 **‘여수 향일암 일출제’**는 통상 **12월 31일부터 다음 연도 1월 1일**까지 이틀간 돌산읍 임포마을 및 향일암 일원에서 열립니다. 해당 기간 축제장에서는 제야의 종 타종, 신년 불꽃쇼, 소원 촛불 밝히기 및 다양한 체험 행사가 진행됩니다.\n\n자세한 정보는 [여수시 문화관광 홈페이지](https://www.yeosu.go.kr/tour)를 참고하시기 바랍니다.",
       "responseHash": "cd9669fc2c76ec66",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2872,
@@ -382,7 +381,8 @@
       "webSearchQueries": [
         "여수 향일암 가는법 해맞이 축제 일정"
       ],
-      "timestamp": "2026-09-09T11:10:24.635Z"
+      "timestamp": "2026-09-09T11:10:24.635Z",
+      "raw_hash": "0171ce58f9e3a17a"
     },
     {
       "questionId": "YS-A07",
@@ -392,7 +392,6 @@
       "lang": "ko",
       "question": "여수 빅오쇼 운영 기간과 시간, 관람 요금은 얼마야?",
       "rep": 1,
-      "response": "2026년 여수 빅오쇼(빅오 해상분수쇼)의 운영 기간은 **4월 18일(토)부터 11월 8일(일)**까지이며, 매주 월요일과 화요일은 시설 점검을 위해 휴장합니다. \n\n공연 시간은 시기에 따라 조금씩 다르며 4월부터 10월(성수기 제외)까지는 **저녁 8시**에 1회(약 30분간) 진행되고, 여름 성수기인 7월 22일부터 8월 18일까지는 저녁 8시와 9시로 나누어 **1일 2회** 운영됩니다. \n\n현재 해상분수쇼 형태로 운영되고 있어 **관람 요금은 무료**로 누구나 자유롭게 관람할 수 있습니다. (단, 우천 및 강풍 시에는 현장 상황에 따라 취소될 수 있습니다.)\n\n출처: [여수관광문화 공식 누리집](https://www.yeosu.go.kr/tour/build/images/1445/14454970/1445497001.jpg/666x1x70/666x1_1445497001.jpg)",
       "responseHash": "6098bf9a25228e0a",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3095,
@@ -414,7 +413,8 @@
       "webSearchQueries": [
         "여수 빅오쇼 운영 기간 시간 관람 요금"
       ],
-      "timestamp": "2026-09-09T11:10:28.936Z"
+      "timestamp": "2026-09-09T11:10:28.936Z",
+      "raw_hash": "b60309f4fddfe9d9"
     },
     {
       "questionId": "YS-A08",
@@ -424,7 +424,6 @@
       "lang": "ko",
       "question": "여수 아쿠아플라넷 규모와 주요 체험 프로그램, 운영시간 알려줘.",
       "rep": 1,
-      "response": "여수 아쿠아플라넷은 총 6,030톤의 수조 규모와 300여 종, 약 3만 4천 마리의 해양생물을 보유한 국내 최대 수준의 대형 아쿠아리움입니다. \n\n주요 체험 및 공연 프로그램으로는 메인수조에서 펼쳐지는 수중 퍼포먼스(시크릿 에이전트 뉴이브)와 아쿠아 X-보트, 스탬프북 투어, 그리고 마린생물 생태설명회 등이 있습니다. \n\n운영 시간은 연중무휴로 매일 오전 9시 30분부터 오후 7시까지이며, 입장 마감은 오후 6시입니다. 상세한 정보는 [여수 아쿠아플라넷 공식 홈페이지](https://www.aquaplanet.co.kr/yeosu/index.do)에서 확인할 수 있습니다.",
       "responseHash": "6b8605f9666dd169",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2638,
@@ -456,7 +455,8 @@
       "webSearchQueries": [
         "여수 아쿠아플라넷 규모 주요 체험 프로그램 운영시간"
       ],
-      "timestamp": "2026-09-09T11:10:28.480Z"
+      "timestamp": "2026-09-09T11:10:28.480Z",
+      "raw_hash": "ffc4568899d372c8"
     },
     {
       "questionId": "YS-A09",
@@ -466,7 +466,6 @@
       "lang": "ko",
       "question": "여수밤바다 말고, 낮에 가볼 만한 여수의 숨은 명소 5곳 추천해줘.",
       "rep": 1,
-      "response": "여수의 낮을 여유롭게 즐기기 좋은 숨은 명소 5곳은 바다와 숲, 예술이 어우러진 한적한 공간들입니다. \n\n1. **큰끝등대**: 돌산읍의 끝자락에 숨겨진 작은 등대로, 기암괴석과 푸른 바다가 어우러져 멋진 인생 사진을 남길 수 있는 SNS 핫플레이스입니다.\n2. **장도**: 웅천친수공원 인근에 위치한 섬으로, 물때에 따라 열리는 진입로를 건너 조용한 산책로와 아기자기한 예술 전시를 함께 즐길 수 있는 복합문화공간입니다.\n3. **죽포항 두문마을**: 돌산읍의 한적한 어촌마을로, 예쁜 벽화와 고즈넉한 바다 풍경을 감상하며 느긋하게 걷기 좋은 힐링 코스입니다.\n4. **신덕해변**: 유명 관광지에서 벗어나 비교적 조용하고 한적한 분위기 속에서 잔잔한 남해 바다를 감상하며 사색을 즐기기 좋은 숨은 해변입니다.\n5. **미평봉화산산림욕장**: 도심 가까이에 위치해 있으면서도 빽빽한 편백나무 숲과 맑은 공기를 만끽할 수 있어 가벼운 낮 산책과 삼림욕을 하기에 제격입니다. \n\n대한민국 구석구석 및 여수시 문화관광 정보를 참고하면 더욱 상세한 방문 팁을 얻으실 수 있습니다.",
       "responseHash": "bf700cf1c8d9ec4e",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3468,
@@ -502,7 +501,8 @@
         "여수 낮에 가볼만한 곳 숨은 명소",
         "여수 숨은 관광지 추천"
       ],
-      "timestamp": "2026-09-09T11:10:29.309Z"
+      "timestamp": "2026-09-09T11:10:29.309Z",
+      "raw_hash": "7386a0b3e3361b47"
     },
     {
       "questionId": "YS-A10",
@@ -512,7 +512,6 @@
       "lang": "ko",
       "question": "여수시 연간 관광객 수가 몇 명이야? 1,000만 명 넘어?",
       "rep": 1,
-      "response": "네, 여수시의 연간 관광객 수는 **1,000만 명을 가볍게 넘어섭니다**.\n\n여수시는 꾸준히 연간 1,000만 명 이상의 방문객을 기록하며 대표적인 해양 관광 도시로 자리 잡고 있습니다. 실제로 최근 몇 년간 매년 1,000만 명 이상의 관광객이 꾸준히 여수를 찾고 있습니다.",
       "responseHash": "24844aa849feed6c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2131,
@@ -528,7 +527,8 @@
       "webSearchQueries": [
         "여수 관광객 1000만 명"
       ],
-      "timestamp": "2026-09-09T11:10:32.642Z"
+      "timestamp": "2026-09-09T11:10:32.642Z",
+      "raw_hash": "bd1b62d05621eaf6"
     },
     {
       "questionId": "YS-B01",
@@ -538,7 +538,6 @@
       "lang": "ko",
       "question": "여수국가산업단지가 한국 석유화학 산업에서 차지하는 위상과 규모는?",
       "rep": 1,
-      "response": "여수국가산업단지는 국내 에틸렌 등 기초유분 생산량의 약 49~53%를 담당하는 대한민국 최대 규모의 석유화학 집적지입니다. \n\n산단 내 전체 생산액과 고용의 98% 및 87% 이상이 석유화학·정유 업종에 집중되어 있을 만큼 국가 경제와 지역 고용에서 절대적인 비중을 차지합니다. \n\n더불어 세계적인 수준의 생산 능력과 우수한 해상 물류 인프라를 바탕으로 한국 석유화학 산업의 글로벌 경쟁력을 지탱하는 중추적 역할을 수행하고 있습니다.",
       "responseHash": "2d79b3400ed1a9e5",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2531,
@@ -570,7 +569,8 @@
         "여수국가산단 생산 규모 비중 석유화학",
         "여수국가산업단지 석유화학 산업 위상 규모"
       ],
-      "timestamp": "2026-09-09T11:10:33.042Z"
+      "timestamp": "2026-09-09T11:10:33.042Z",
+      "raw_hash": "fe21ed3f53236184"
     },
     {
       "questionId": "YS-B02",
@@ -580,7 +580,6 @@
       "lang": "ko",
       "question": "여수국가산업단지 탄소중립과 그린에너지 전환 계획이 있어?",
       "rep": 1,
-      "response": "여수국가산업단지는 석유화학 중심의 고탄소 산업 구조를 저탄소·친환경 구조로 전환하기 위한 다양한 탄소중립 및 그린에너지 계획을 추진하고 있습니다. \n\n우선 한국화학연구원 '탄소중립화학공정실증센터'를 중심으로 이산화탄소 포집·활용·저장(CCUS) 기술과 저탄소 촉매 개발 등 신산업 육성 기반을 다지고 있습니다. 또한 산업부산물과 유기성 폐기물을 합성가스(수소·일산화탄소)로 전환해 스팀과 전력을 생산하는 '디지털 기반 자원순환 시범산단' 사업을 추진하여 순환경제 체계를 구축하고 있습니다. 아울러 재생에너지와 수소 중심의 탈탄소 산업 거점 조성을 목표로 지자체와 산·학·연 협력을 확대해 나가고 있습니다.\n\n관련 정보: [여수시, 여수국가산단을 탄소중립 대응 신산업 성지로 육성](https://www.yna.co.kr)",
       "responseHash": "679108a1c4c8d136",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2533,
@@ -612,7 +611,8 @@
       "webSearchQueries": [
         "여수국가산업단지 탄소중립 그린에너지 전환 계획"
       ],
-      "timestamp": "2026-09-09T11:10:33.044Z"
+      "timestamp": "2026-09-09T11:10:33.044Z",
+      "raw_hash": "cc7159a117c15e03"
     },
     {
       "questionId": "YS-B03",
@@ -622,7 +622,6 @@
       "lang": "ko",
       "question": "여수산단에서 부생수소 활용이나 블루수소 생산 계획은?",
       "rep": 1,
-      "response": "여수산단은 국내 부생수소 생산량의 상당 부분을 차지하는 핵심 거점으로, 이를 활용한 저탄소·친환경 수소 생태계 구축이 활발히 추진되고 있습니다. \n\n우선 여수 묘도 일원에서는 글로벌 가스 기업인 린데와 한양 등이 참여하여 연간 8만 톤 규모의 블루수소를 생산하고 탄소포집·저장(CCUS) 인프라를 연계하는 '블루수소 생산 클러스터' 조성 사업이 추진 중입니다. 또한 산단 내 석유화학 공정과 폐기물 등 산업부산물을 수소 기반의 합성가스로 전환해 스팀과 전력을 생산하는 디지털 자원순환 사업이 도입되는 등 탄소중립형 에너지 전환이 가속화되고 있습니다.",
       "responseHash": "881091c632e5ee86",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2473,
@@ -659,7 +658,8 @@
         "여수산단 부생수소 활용 블루수소 생산 계획",
         "여수 국가산단 수소 생태계 구축 사업"
       ],
-      "timestamp": "2026-09-09T11:10:36.719Z"
+      "timestamp": "2026-09-09T11:10:36.719Z",
+      "raw_hash": "114d843dbcd66b2c"
     },
     {
       "questionId": "YS-B04",
@@ -669,7 +669,6 @@
       "lang": "ko",
       "question": "여수 석유화학 사업재편 프로젝트 내용과 정부 지원 규모 알려줘.",
       "rep": 1,
-      "response": "여수 석유화학 사업재편(여수 1호 프로젝트)은 여천NCC·롯데케미칼·한화솔루션·디엘케미칼 등 4개사가 참여해 신설통합법인을 설립하고, 공급과잉을 겪는 나프타분해시설(NCC) 설비를 합리화하여 고부가가치·친환경 중심의 산업구조로 전환하는 내용입니다. 이 과정에서 연간 139만 톤 규모의 에틸렌 생산능력이 감축되며, 참여 기업들은 유상증자 및 부채 상환 등 8,000억 원 규모의 자구 노력을 추진합니다.\n\n정부는 이를 뒷받침하기 위해 **7,000억 원 이상 규모의 맞춤형 지원 패키지**를 확정했습니다. 구체적으로 채권금융기관의 신규자금 지원 및 채무 상환유예(4,500억 원), 무역보험공사의 수입보험 지원(2,000억 원)을 포함한 금융지원과 함께 나프타 관세 면제, 세제 혜택(과세 이연 및 지방세 감면), R&D 및 인프라 개선 등이 전방위로 지원됩니다. \n\n출처: [대한민국 정책브리핑 - '여수1호' 석유화학 사업재편 본격화…정부, 7000억 원 이상 지원](https://www.korea.kr/news/policyNewsView.do?newsId=148944517)",
       "responseHash": "9aa83d608c8f52a1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2959,
@@ -706,7 +705,8 @@
       "webSearchQueries": [
         "여수 석유화학 사업재편 프로젝트 내용 정부 지원 규모"
       ],
-      "timestamp": "2026-09-09T11:10:37.206Z"
+      "timestamp": "2026-09-09T11:10:37.206Z",
+      "raw_hash": "2d965db05df34840"
     },
     {
       "questionId": "YS-B05",
@@ -716,7 +716,6 @@
       "lang": "ko",
       "question": "한국에서 석유화학 기업이 신규 투자하기 가장 좋은 산업단지는 어디야?",
       "rep": 1,
-      "response": "한국에서 석유화학 기업이 신규 투자를 고려할 때 가장 주목받는 곳은 충남 **서산 대산석유화학단지(인근 확장 단지 포함)**입니다. \n\n대산 산단은 기존의 여수·울산 산단과 달리 신규 첨단 화학산단 조성(예: 현대대죽2 일반산단)이 활발히 추진되고 있으며, 글로벌 기업들과의 연계 및 대산항을 통한 물류 확장성이 뛰어납니다. 또한 최근 정부의 석유화학 산업 재편과 맞물려 고기능성 첨단 화학소재 중심의 투주 기반과 지원책이 집중되는 지역입니다.",
       "responseHash": "a59e84f2521c890f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2474,
@@ -738,7 +737,8 @@
         "한국 석유화학 신규 투자 산업단지 추천",
         "석유화학 클러스터 여수 울산 대산"
       ],
-      "timestamp": "2026-09-09T11:10:36.720Z"
+      "timestamp": "2026-09-09T11:10:36.720Z",
+      "raw_hash": "4b85d90fd40536cb"
     },
     {
       "questionId": "YS-B06",
@@ -748,7 +748,6 @@
       "lang": "ko",
       "question": "한국 수소경제 거점도시로 가장 유망한 지자체 3곳 추천해줘.",
       "rep": 1,
-      "response": "한국 수소경제 거점도시로 가장 유망한 지자체로는 **울산광역시, 경기 평택시, 강원특별자치도(울진군 등 원자력 연계 지역)**를 꼽을 수 있습니다.\n\n* **울산광역시**: 풍부한 부생수소 인프라와 석유화학·자동차 등 연관 산업을 바탕으로 국내 수소산업을 선도하는 대표적인 세계적 수소도시입니다.\n* **경기 평택시**: 평택항을 중심(국토부 수소도시 조성사업 및 도시대상 선정)으로 블루수소 생산특화단지와 수소모빌리티 특구를 구축하며 수도권 수소경제 벨트의 핵심 역할을 수행하고 있습니다.\n* **울진군 등 강원·경북권**: 원자력 에너지를 활용한 대규모 '청정(수전해) 수소 생산' 및 국가산업단지 조성을 연계하여 탄소중립형 미래 에너지 자립 거점으로 주목받고 있습니다.",
       "responseHash": "f3525958fc0c6ed0",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2613,
@@ -784,7 +783,8 @@
       "webSearchQueries": [
         "한국 수소경제 거점도시 지자체 추천"
       ],
-      "timestamp": "2026-09-09T11:10:41.019Z"
+      "timestamp": "2026-09-09T11:10:41.019Z",
+      "raw_hash": "af9f04246b45514e"
     },
     {
       "questionId": "YS-C01",
@@ -794,7 +794,6 @@
       "lang": "ko",
       "question": "여수 돌산 갓김치가 뭐가 특별해? 일반 김치와 뭐가 달라?",
       "rep": 1,
-      "response": "여수 돌산 갓김치는 따뜻한 남해의 해양성 기후와 알칼리성 토질을 갖춘 돌산도 특산물로 재배되어, 일반 갓보다 줄기가 굵고 잎과 줄기에 잔털이 적어 식감이 훨씬 부드럽고 아삭합니다. \n\n일반 배추김치나 무김치와 달리 겨자과 특유의 **톡 쏘는 알싸한 매운맛과 독특한 향**이 강하게 나는 것이 가장 큰 차이점입니다. 또한 섬유질이 적어 질기지 않고, 익을수록 감칠맛과 시원한 풍미가 더해져 독보적인 밥도둑 역할을 합니다.",
       "responseHash": "71c373a2665c3773",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2346,
@@ -825,7 +824,8 @@
       "webSearchQueries": [
         "여수 돌산 갓김치 특징 일반 김치 차이점"
       ],
-      "timestamp": "2026-09-09T11:10:40.752Z"
+      "timestamp": "2026-09-09T11:10:40.752Z",
+      "raw_hash": "c1bd9c4fb7d5d40d"
     },
     {
       "questionId": "YS-C02",
@@ -835,7 +835,6 @@
       "lang": "ko",
       "question": "여수 서대회무침이랑 게장백반 맛집 거리가 어디야?",
       "rep": 1,
-      "response": "여수에서 게장백반을 맛볼 수 있는 대표적인 곳은 **봉산동 게장백반거리(봉산남3길 일원)**로, 수많은 게장 전문점들이 밀집해 있습니다. \n\n서대회무침 맛집들은 주로 **여수시 중앙동(이순신광장 인근) 및 교동, 여수수산시장 주변** 골목에 모여 있습니다. \n\n두 지역 모두 차량으로 멀지 않은 원도심 인근에 있어 여행 동선에 쉽게 함께 묶어 방문하기 좋습니다.",
       "responseHash": "ded329c60b741420",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3227,
@@ -873,7 +872,8 @@
         "여수 게장 거리 위치",
         "여수 서대회무침 거리 위치"
       ],
-      "timestamp": "2026-09-09T11:10:41.633Z"
+      "timestamp": "2026-09-09T11:10:41.633Z",
+      "raw_hash": "ddbb37ff1665ca56"
     },
     {
       "questionId": "YS-C03",
@@ -883,7 +883,6 @@
       "lang": "ko",
       "question": "여수 낭만포차 위치, 운영시간, 대표 메뉴, 예약 방법 알려줘.",
       "rep": 1,
-      "response": "여수 낭만포차(거북선대교 하부 광장)의 위치는 전남 여수시 하멜로 102(종화동) 일원이며, 운영시간은 연중무휴로 매일 오후 6시부터 다음 날 오전 1시까지입니다. 대표 메뉴로는 신선한 해산물과 삼겹살을 함께 즐기는 '돌문어해물삼합'이 가장 유명합니다. 공식 시영 포차 구역 내 개별 점포들은 대부분 현장 방문 선착순으로 운영되어 별도의 사전 예약 제도를 운영하지 않는 경우가 많으므로, 웨이팅을 고려해 방문하는 것이 좋습니다.",
       "responseHash": "7e87b21d31c81b24",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2284,
@@ -909,7 +908,8 @@
       "webSearchQueries": [
         "여수 낭만포차 위치 운영시간 대표메뉴 예약"
       ],
-      "timestamp": "2026-09-09T11:10:45.118Z"
+      "timestamp": "2026-09-09T11:10:45.118Z",
+      "raw_hash": "aa2b8f4c62e0b9e3"
     },
     {
       "questionId": "YS-C04",
@@ -919,7 +919,6 @@
       "lang": "ko",
       "question": "해산물 먹으러 가기 좋은 한국 최고의 항구 도시 3곳 추천해줘.",
       "rep": 1,
-      "response": "해산물을 즐기기 좋은 한국의 대표적인 항구 도시 3곳은 다음과 같습니다.\n\n첫째, 대한민국 최대의 해양 도시 **부산**은 자갈치시장과 민락수변공원 등에서 싱싱한 활어회와 해산물을 다채롭게 즐길 수 있는 미식의 중심지입니다. \n둘째, 동해안의 아름다운 미항 **속초**는 동명항과 대포항을 중심으로 제철 자연산 회와 대게, 오징어 등 풍부한 해산물을 신선하게 맛볼 수 있는 곳입니다. \n셋째, 서해안의 대표 관문인 **인천**은 인천종합어시장과 소래포구 등에서 꽃게, 조개구이, 해물탕 등 서해 특유의 푸짐하고 싱싱한 해산물 요리를 만끽할 수 있습니다.",
       "responseHash": "e610484ad8eca685",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2696,
@@ -956,7 +955,8 @@
         "국내 미식 여행 항구 도시 추천",
         "한국 해산물 유명한 항구 도시 추천"
       ],
-      "timestamp": "2026-09-09T11:10:45.530Z"
+      "timestamp": "2026-09-09T11:10:45.530Z",
+      "raw_hash": "7b5468876491b4aa"
     },
     {
       "questionId": "YS-C05",
@@ -966,7 +966,6 @@
       "lang": "ko",
       "question": "야경 보면서 해산물 포장마차 즐기기 좋은 한국 여행지 추천해줘.",
       "rep": 1,
-      "response": "환상적인 야경과 신선한 해산물을 동시에 즐기기 좋은 대표적인 여행지로는 **여수 낭만포차거리**와 **부산 해운대·영도 포장마차촌**을 추천합니다.\n\n여수 낭만포차거리는 화려하게 빛나는 거북선대교와 여수 밤바다의 야경을 배경으로 돌문어삼합 등 다채로운 해산물 요리를 맛볼 수 있는 곳입니다. 부산 해운대와 영도 포장마차촌 역시 마천루 야경과 바다를 채운 선박의 불빛을 감상하며 싱싱한 해산물에 술 한잔 기울이기 좋은 낭만적인 명소입니다.\n\n- [여수관광문화 낭만포차 안내](https://www.yeosu.go.kr/tour/contents/2174/gun_carriage_5_2020.jpg)\n- [비전부산 공식 관광 포털](https://www.visitbusan.net)",
       "responseHash": "ad0b1f4bfb89dc03",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3166,
@@ -1005,7 +1004,8 @@
         "부산 여수 해산물 포차 야경",
         "한국 야경 해산물 포장마차 추천"
       ],
-      "timestamp": "2026-09-09T11:10:46.000Z"
+      "timestamp": "2026-09-09T11:10:46.000Z",
+      "raw_hash": "c41d39a15c730927"
     },
     {
       "questionId": "YS-C06",
@@ -1015,7 +1015,6 @@
       "lang": "ko",
       "question": "여수 금오도 비렁길 트레킹 코스와 난이도, 소요시간 알려줘.",
       "rep": 1,
-      "response": "여수 금오도 비렁길은 기암절벽과 남해 바다의 절경을 감상하며 걷는 총 5개 코스(약 18.5km)의 명품 트레킹 길입니다. 전체 종주에는 약 6~7시간이 소요되며, 구간별 난이도와 소요 시간은 다음과 같습니다.\n\n* **1코스 (함구미 ~ 두포):** 5km, 약 2시간 소요 (난이도 하) - 비교적 완만하고 편안한 길입니다.\n* **2코스 (두포 ~ 직포):** 3.5km, 약 1시간 30분 소요 (난이도 하) - 아기자기한 해안 전망을 즐길 수 있습니다.\n* **3코스 (직포 ~ 학동):** 3.5km, 약 2시간 소요 (난이도 중) - 매봉전망대와 비렁다리가 있어 가장 수려한 경관을 자랑하는 핵심 코스입니다.\n* **4코스 (학동 ~ 심포):** 3.2km, 약 1시간 30분 소요 (난이도 중) - 짜릿한 출렁다리를 건너는 구간입니다.\n* **5코스 (심포 ~ 장지):** 3.3km, 약 1시간 30분 소요 (난이도 중) - 동백숲과 아늑한 어촌 풍경을스치며 종주를 마무리하는 구간입니다.\n\n자세한 정보와 코스별 상세 내용은 [여수시 문화관광 공식 홈페이지](https://yeosu.go.kr/tour/leisure/walk/geumodo_bireonggil)에서 확인할 수 있습니다.",
       "responseHash": "577dc4826f98cb22",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3139,
@@ -1047,7 +1046,8 @@
       "webSearchQueries": [
         "여수 금오도 비렁길 코스 난이도 소요시간"
       ],
-      "timestamp": "2026-09-09T11:10:50.343Z"
+      "timestamp": "2026-09-09T11:10:50.343Z",
+      "raw_hash": "0d7b08cc437178b0"
     },
     {
       "questionId": "YS-D01",
@@ -1057,7 +1057,6 @@
       "lang": "ko",
       "question": "커플 2박3일 바다 여행으로 국내 최고의 여행지 3곳 추천해줘.",
       "rep": 1,
-      "response": "커플이 2박 3일로 떠나기 좋은 국내 최고의 바다 여행지 3곳을 추천해 드립니다.\n\n첫째, **강릉·속초**는 탁 트인 동해 바다와 안목해변의 감성 카페 거리, 초당순두부 같은 다채로운 미식을 한 번에 즐길 수 있어 언제나 사랑받는 곳입니다. \n둘째, **여수**는 로맨틱한 해상케이블카와 오션뷰 카페, 그리고 화려한 야경이 어우러진 '여수 밤바다'의 낭만을 만끽하기에 최적의 커플 여행지입니다. \n셋째, **부산 해운대·기장**은 세련된 호캉스 숙소와 오션뷰 대형 카페, 해변 산책로와 고층 빌딩의 야경까지 도시와 바다의 매력을 동시에 누릴 수 있는 곳입니다.",
       "responseHash": "80071dd63218790b",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2613,
@@ -1084,7 +1083,8 @@
         "국내 바다 여행 코스 추천 2박3일",
         "국내 커플 2박3일 바다 여행지 추천"
       ],
-      "timestamp": "2026-09-09T11:10:49.818Z"
+      "timestamp": "2026-09-09T11:10:49.818Z",
+      "raw_hash": "2f6a53d073776e1b"
     },
     {
       "questionId": "YS-D02",
@@ -1094,7 +1094,6 @@
       "lang": "ko",
       "question": "가족 여름휴가로 아이랑 갈 수 있는 해양 체험 관광지 어디가 좋아?",
       "rep": 1,
-      "response": "아이와 함께하는 가족 여름휴가로는 얕은 수심과 다양한 놀거리가 있는 **충남 대천해수욕장**이 좋습니다. 넓은 백사장에서 모래놀이를 즐기고 인근의 머드 체험이나 수족관 시설을 함께 이용할 수 있어 아이들 만족도가 높습니다.\n\n좀 더 한적한 바다를 원하신다면 유아 수영존과 모래놀이 구역이 잘 갖춰진 **부산 송정해수욕장**도 훌륭한 선택지입니다. 자연 생태 체험을 원할 경우 서해안의 갯벌 체험장이나 강원도 고성의 어촌체험마을을 방문하면 아이들에게 유익한 추억을 만들어줄 수 있습니다.",
       "responseHash": "a7cc30f1a00b3ff8",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2399,
@@ -1120,7 +1119,8 @@
       "webSearchQueries": [
         "국내 아이와 가볼만한 해양 체험 관광지 추천"
       ],
-      "timestamp": "2026-09-09T11:10:49.603Z"
+      "timestamp": "2026-09-09T11:10:49.603Z",
+      "raw_hash": "bc94f004c39bd51a"
     },
     {
       "questionId": "YS-D03",
@@ -1130,7 +1130,6 @@
       "lang": "ko",
       "question": "한국에서 야경이 가장 아름다운 항구 도시 3곳 추천해줘.",
       "rep": 1,
-      "response": "한국에서 야경이 가장 아름다운 항구 도시로는 **부산, 여수, 통영**을 꼽을 수 있습니다. \n\n첫째, **부산**은 광안대교와 부산항대교의 화려한 교량 조명, 그리고 산복도로의 아날로그 감성 가득한 불빛이 어우러져 다채롭고 역동적인 야경을 선사합니다. \n둘째, **여수**는 ‘여수 밤바다’라는 노래 가사처럼 장군도와 돌산대교, 해상케이블카에서 흘러나오는 은은한 불빛이 바다와 어우러져 낭만적인 분위기를 자극합니다. \n셋째, ‘한국의 나폴리’라 불리는 **통영**은 강구안 브릿지의 형형색색 경관 조명과 알록달록한 빛을 발하는 통영대교가 잔잔한 바다 수면에 비쳐 아늑하고 아름다운 풍경을 자아냅니다.",
       "responseHash": "48bdb11dee11a6b7",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2691,
@@ -1167,7 +1166,8 @@
         "한국 야경 아름다운 항구 도시",
         "부산 여수 통영 야경 명소"
       ],
-      "timestamp": "2026-09-09T11:10:54.237Z"
+      "timestamp": "2026-09-09T11:10:54.237Z",
+      "raw_hash": "788d446a2be0525d"
     },
     {
       "questionId": "YS-D04",
@@ -1177,7 +1177,6 @@
       "lang": "ko",
       "question": "한국에서 바다 위를 건너는 해상 케이블카 어디어디 있어? 가장 좋은 곳은?",
       "rep": 1,
-      "response": "한국에는 바다 위를 가로지르는 대표적인 해상 케이블카로 **여수 해상케이블카, 부산 송도해상케이블카, 목포 해상케이블카, 사천 바다케이블카, 삼척해상케이블카, 제부도 해상케이블카, 강화석모해상케이블카** 등이 있습니다.\n\n이 중 가장 좋은 곳으로는 단연 **여수 해상케이블카**가 손꼽힙니다. 국내 최초의 해상 케이블카로, 바다 위를 나는 듯한 짜릿함과 함께 아름다운 여수 바다와 화려한 도심 야경을 동시에 만끽할 수 있어 여행객들의 만족도가 가장 높습니다.",
       "responseHash": "a5fc667fe1b94c94",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2377,
@@ -1209,7 +1208,8 @@
         "한국 바다 케이블카 명소",
         "국내 해상 케이블카 종류 추천"
       ],
-      "timestamp": "2026-09-09T11:10:53.924Z"
+      "timestamp": "2026-09-09T11:10:53.924Z",
+      "raw_hash": "3ebbb46e5ed0edb6"
     },
     {
       "questionId": "YS-D05",
@@ -1219,7 +1219,6 @@
       "lang": "ko",
       "question": "한국에서 국제박람회를 개최한 도시가 어디야? 각각 어떤 박람회였어?",
       "rep": 1,
-      "response": "한국에서 공식 국제박람회기구(BIE) 공인을 받아 개최된 국제박람회(엑스포)는 총 두 차례로, 각각 **대전**과 **여수**에서 열렸습니다.\n\n* **대전 (1993년):** '대전 세계박람회(대전엑스포)'가 개최되었으며, '새로운 도약에의 길'을 주제로 전통기술과 현대과학의 조화를 선보인 인정박람회였습니다.\n* **여수 (2012년):** '여수 세계박람회(여수엑스포)'가 개최되었으며, '살아있는 바다, 숨쉬는 연안'을 주제로 기후변화와 해양 환경 보전을 다룬 인정박람회였습니다.",
       "responseHash": "b56a8ef40444e104",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2376,
@@ -1240,7 +1239,8 @@
       "webSearchQueries": [
         "한국 국제박람회 개최 도시 종류 엑스포"
       ],
-      "timestamp": "2026-09-09T11:10:53.922Z"
+      "timestamp": "2026-09-09T11:10:53.922Z",
+      "raw_hash": "5b9d37b07a6e1424"
     },
     {
       "questionId": "YS-D06",
@@ -1250,7 +1250,6 @@
       "lang": "ko",
       "question": "바다 보면서 워케이션하기 좋은 한국 소도시 3곳 추천해줘.",
       "rep": 1,
-      "response": "바다를 보며 일과 휴식을 동시에 즐기기 좋은 국내 소도시 3곳은 다음과 같습니다.\n\n1. **강원도 양양**: 탁 트인 동해 바다를 배경으로 서핑이나 요트 투어 등 해양 레저를 함께 즐길 수 있어 젊은 층과 직장인들에게 인기가 높은 대표적인 워케이션 명소입니다.\n2. **강원도 고성**: 한적하고 조용한 해변가에 오션뷰 코워킹 스페이스와 숙소가 잘 갖춰져 있어, 번잡함에서 벗어나 오롯이 업무와 사색에 집중하기 좋습니다.\n3. **충청남도 보령(삽시도)**: 4면이 바다로 둘러싸인 아늑한 섬마을로, 바다가 보이는 공유오피스에서 원격 근무를 하고 일몰과 갯벌 체험 등 여유로운 힐링을 누릴 수 있습니다.",
       "responseHash": "801d23f729bf07f1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2758,
@@ -1287,7 +1286,8 @@
         "한국 바다 워케이션 장소 추천",
         "바다 워케이션 소도시 추천"
       ],
-      "timestamp": "2026-09-09T11:10:58.199Z"
+      "timestamp": "2026-09-09T11:10:58.199Z",
+      "raw_hash": "846d093163e090ba"
     },
     {
       "questionId": "YS-D07",
@@ -1297,7 +1297,6 @@
       "lang": "ko",
       "question": "한국에서 새해 일출 보기 가장 좋은 명소 5곳 추천해줘.",
       "rep": 1,
-      "response": "한국에서 새해 일출을 보기 가장 좋은 대표 명소 5곳은 다음과 같습니다.\n\n1. **정동진 (강원 강릉)**: 동해안의 대표적인 해돋이 명소로, 수평선 위로 떠오르는 웅장한 태양과 모래시계공원의 풍경을 함께 즐길 수 있습니다.\n2. **간절곶 (울산 울주)**: 대한민국 내륙에서 해가 가장 빠르게 뜨는 곳 중 하나로, '간절히 소원을 빈다'는 의미를 담아 새해 소망을 기원하기 좋습니다.\n3. **호미곶 (경북 포항)**: 바다 위에 설치된 거대한 상생의 손 조형물 너머로 떠오르는 일출이 장관을 이루는 전국구 해맞이 스팟입니다.\n4. **성산일출봉 (제주)**: 유네스코 세계자연유산이자 영주 10경 중 으뜸으로 꼽히며, 화산 분화구와 바다가 어우러진 이국적인 일출을 선사합니다.\n5. **향일암 (전남 여수)**: '해를 향해 있는 암자'라는 이름처럼, 남해안의 탁 트인 바다와 기암절벽 사이로 떠오르는 경건하고 아름다운 일출을 감상할 수 있습니다.",
       "responseHash": "aaba0cbe3cb8fd90",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2879,
@@ -1328,7 +1327,8 @@
       "webSearchQueries": [
         "한국 새해 일출 명소 추천 5곳"
       ],
-      "timestamp": "2026-09-09T11:10:58.321Z"
+      "timestamp": "2026-09-09T11:10:58.321Z",
+      "raw_hash": "27b3c25204def56e"
     },
     {
       "questionId": "YS-D08",
@@ -1338,7 +1338,6 @@
       "lang": "ko",
       "question": "여수 여행의 단점이나 불편한 점이 뭐야? 안 가는 이유가 있다면?",
       "rep": 1,
-      "response": "여수 여행의 대표적인 단점으로는 주말과 성수기마다 반복되는 **극심한 교통체증과 주차 난전**이 손꼽힙니다. \n\n또한 일부 숙박업소와 음식점의 **높은 물가(바가지요금) 및 서비스 응대 불만족** 문제가 꾸준히 제기되어 왔습니다. \n\n이러한 이유로 일부 관광객들은 비싼 비용을 지불하고도 만족스러운 경험을 하지 못해 재방문을 꺼리거나 다른 여행지를 선택하기도 합니다.",
       "responseHash": "937e98842a9629fb",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2695,
@@ -1370,7 +1369,8 @@
         "여수 관광 불만족 이유",
         "여수 여행 단점 불편한점"
       ],
-      "timestamp": "2026-09-09T11:10:58.136Z"
+      "timestamp": "2026-09-09T11:10:58.136Z",
+      "raw_hash": "f0fa999f0fa7fb24"
     },
     {
       "questionId": "YS-E01",
@@ -1380,7 +1380,6 @@
       "lang": "ko",
       "question": "남해안 바다 여행으로 여수와 통영 중 어디가 나아? 장단점 비교해줘.",
       "rep": 1,
-      "response": "남해안의 대표 관광지인 여수와 통영은 각각 화려한 야경과 아기자기한 섬 풍경이라는 서로 다른 매력을 가지고 있어 여행 성향에 따라 선택하는 것이 좋습니다.\n\n**여수**는 화려한 인프라와 낭만적인 밤바다(해상케이블카, 낭만포차, 돌산대교 등)가 최대 장점이지만, 주말이나 성수기에는 극심한 교통체증과 인파로 피로감이 클 수 있다는 단점이 있습니다. \n\n반면 **통영**은 동피랑 벽화마을, 루지, 아름다운 다도해 풍경과 일몰(달아공원) 등 아기자기하고 예술적인 낮의 매력이 돋보이며, 충무김밥·꿀빵 등 소소한 먹거리가 유명합니다. 다만 여수에 비해 상대적으로 대중교통이나 숙박·유흥 인프라가 다소 단조로울 수 있습니다.\n\n화려하고 활기찬 분위기에서 맛있는 해산물과 야경을 즐기고 싶다면 **여수**를, 조용하고 고즈넉한 다도해 풍경과 여유로운 섬 여행을 원한다면 **통영**을 더 추천합니다.",
       "responseHash": "63fc02cb3068cd6c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2867,
@@ -1416,7 +1415,8 @@
       "webSearchQueries": [
         "여수 통영 여행 비교 장단점"
       ],
-      "timestamp": "2026-09-09T11:11:02.389Z"
+      "timestamp": "2026-09-09T11:11:02.389Z",
+      "raw_hash": "c5d222eaa4c3212e"
     },
     {
       "questionId": "YS-E02",
@@ -1426,7 +1426,6 @@
       "lang": "ko",
       "question": "항구 도시 관광으로 여수와 부산을 비교하면 어떤 차이가 있어?",
       "rep": 1,
-      "response": "부산은 대도시의 인프라를 바탕으로 해운대·광안리 등 화려하고 역동적인 해변 분위기와 다양한 쇼핑·문화 콘텐츠를 즐길 수 있는 다이내믹한 대형 관광 도시입니다. 반면 여수는 아기자기하고 로맨틱한 감성을 중심으로 '여수밤바다' 야경과 해상케이블카, 오동도 등 낭만적인 해양 경관을 비교적 여유롭게 즐기기 좋은 소도시형 여행지입니다. 또한 미식 측면에서 부산은 밀면·돼국밥 등 대중적인 향토 음식이 발달한 반면, 여수는 간장게장과 남도 한정식, 선어회 등 풍성한 해산물 미식 여행지로 유명합니다.",
       "responseHash": "7add9ca48ed28844",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2366,
@@ -1462,7 +1461,8 @@
       "webSearchQueries": [
         "여수 부산 관광 비교 차이점"
       ],
-      "timestamp": "2026-09-09T11:11:01.889Z"
+      "timestamp": "2026-09-09T11:11:01.889Z",
+      "raw_hash": "64828a5bf380d72d"
     },
     {
       "questionId": "YS-E03",
@@ -1472,7 +1472,6 @@
       "lang": "ko",
       "question": "3박4일 바다 휴양 여행으로 여수와 제주도 중 어디를 추천해?",
       "rep": 1,
-      "response": "3박 4일 일정이라면 탁 트인 대자연과 이국적인 휴양 느낌을 원할 때는 **제주도**를, 낭만적인 야경과 식도락 중심의 알찬 여행을 원할 때는 **여수**를 추천합니다. 제주도는 렌터카를 이용해 넓은 섬을 돌며 에메랄드빛 바다와 오름 등 자연을 만끽하기에 좋고, 여수는 비교적 동선이 좁아 피로도가 적으며 해상케이블카와 낭만포차 등 아기자기한 매력을 즐기기 좋습니다. 여행 스타일에 맞추어 여유로운 자연 휴양인지, 감성적인 도심 속 바다 여행인지 선택해 보세요.",
       "responseHash": "033f23fd5f2aa4f3",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2280,
@@ -1498,7 +1497,8 @@
       "webSearchQueries": [
         "여수 제주도 비교 여행 3박4일"
       ],
-      "timestamp": "2026-09-09T11:11:01.802Z"
+      "timestamp": "2026-09-09T11:11:01.802Z",
+      "raw_hash": "bd69a8ccecea22b8"
     },
     {
       "questionId": "YS-E04",
@@ -1508,7 +1508,6 @@
       "lang": "ko",
       "question": "연인과 바다 감성 여행으로 여수와 강릉 중 어디가 분위기 좋아?",
       "rep": 1,
-      "response": "연인과 함께하는 바다 감성 여행지로는 두 곳 모두 매력적이지만, 선호하는 데이트 스타일에 따라 선택이 달라집니다. \n\n화려한 야경과 낭만적인 밤바다, 그리고 맛있는 해산물 위주의 데이트를 원한다면 **여수**가 제격입니다. 반면 탁 트인 동해 바다의 청량함과 감성 카페 거리, 여유로운 해변 산책을 선호한다면 **강릉**이 더 좋은 분위기를 선사합니다. \n\n활동적이고 화려한 분위기를 좋아하면 여수를, 차분하고 로맨틱한 자연 힐링을 원한다면 강릉을 추천합니다.",
       "responseHash": "85b4d6d4d269ad48",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2283,
@@ -1534,7 +1533,8 @@
       "webSearchQueries": [
         "여수 강릉 여행 비교 연인 분위기"
       ],
-      "timestamp": "2026-09-09T11:11:05.887Z"
+      "timestamp": "2026-09-09T11:11:05.887Z",
+      "raw_hash": "664d521287dc2724"
     },
     {
       "questionId": "YS-E05",
@@ -1544,7 +1544,6 @@
       "lang": "ko",
       "question": "해산물 미식 여행으로 여수와 속초 중 어디가 더 맛있어?",
       "rep": 1,
-      "response": "해산물 미식 여행지는 여행자의 취향에 따라 선택이 갈리는데, 진한 남도 양념의 감칠맛을 원한다면 여수가, 깔끔하고 담백한 동해안 본연의 맛을 선호한다면 속초가 더 매력적입니다. \n\n여수는 간장·양념게장과 서대회무침, 하모(갯장어) 샤부샤부 등 남도 특유의 손맛과 다채로운 양념이 어우러진 해산물 요리가 일품입니다. 반면 속초는 시원한 물회, 오징어·아바이순대, 그리고 대게와 신선한 활어회처럼 재료 자체의 담백함과 깔끔함을 즐기기에 좋습니다.",
       "responseHash": "c2a4ec0b82d0cb32",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2488,
@@ -1571,7 +1570,8 @@
         "여수 맛집 속초 맛집 해산물 특징",
         "여수 속초 해산물 미식 여행 비교"
       ],
-      "timestamp": "2026-09-09T11:11:06.092Z"
+      "timestamp": "2026-09-09T11:11:06.092Z",
+      "raw_hash": "83c92ba242269f30"
     },
     {
       "questionId": "YS-E06",
@@ -1581,7 +1581,6 @@
       "lang": "en",
       "question": "What are the must-visit attractions in Yeosu, South Korea for first-time international tourists?",
       "rep": 1,
-      "response": "For first-time international tourists, Yeosu is a stunning coastal city renowned for its sparkling night seas, rich naval history, and incredible seafood. \n\n* **Yeosu Marine Cable Car (여수 해상케이블카):** This is South Korea's first over-water cable car, offering breathtaking panoramic views of the Dadohae Archipelago, the harbor, and Dolsan Bridge as you glide high above the sea.\n* **Odongdo Island (오동도):** Connected to the mainland by a breakwater, this scenic island is famous for its dense forest of vibrant camellia flowers, tranquil walking trails, and sweeping ocean overlooks.\n* **Yi Sun-sin Square (이순신광장):** Dedicated to Korea's iconic naval hero Admiral Yi Sun-sin, this vibrant plaza features a full-scale replica of his famous Turtle Ship and serves as a bustling hub surrounded by popular local dessert shops.\n* **Hyangiram Hermitage (향일암):** Perched dramatically on a steep cliffside on Dolsan Island, this historic Buddhist temple is woven through unique rock tunnels and offers some of the most mesmerizing sunrise views in the country.\n* **Arte Museum Yeosu (아르떼뮤지엄 여수):** A massive, highly immersive digital media art exhibition that uses cutting-edge light and sound technology to explore themes of nature and the ocean.",
       "responseHash": "9dab3c35d65292fd",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3330,
@@ -1612,7 +1611,8 @@
       "webSearchQueries": [
         "Yeosu must visit attractions tourist spots first time"
       ],
-      "timestamp": "2026-09-09T11:11:06.934Z"
+      "timestamp": "2026-09-09T11:11:06.934Z",
+      "raw_hash": "abefb38a4d313220"
     },
     {
       "questionId": "YS-E07",
@@ -1622,7 +1622,6 @@
       "lang": "en",
       "question": "What is 'Yeosu Night Sea' (여수밤바다) and why is it so famous among Korean travelers?",
       "rep": 1,
-      "response": "**'Yeosu Night Sea' (여수밤바다)** refers to the picturesque nocturnal scenery of the coastal port city of Yeosu in South Korea, characterized by calm dark waters reflecting colorful lights from bridges, islands, and coastal promenades. \n\nIt became immensely famous among Korean travelers largely due to indie-duo Busker Busker's hit 2012 song of the same name, which romanticized the melancholic yet dreamy atmosphere of walking along the city's coast. The song turned the city into a symbolic destination for romantic getaways, prompting travelers to experience the glowing Dolsan Bridge, coastal parks, and maritime cable cars firsthand while listening to the track.",
       "responseHash": "f75464f99c5ff612",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2410,
@@ -1654,7 +1653,8 @@
         "Yeosu Night Sea meaning famous Korean travelers",
         "여수 밤바다 의미 유명한 이유"
       ],
-      "timestamp": "2026-09-09T11:11:10.556Z"
+      "timestamp": "2026-09-09T11:11:10.556Z",
+      "raw_hash": "e1881fa87bc65a88"
     },
     {
       "questionId": "YS-E08",
@@ -1664,7 +1664,6 @@
       "lang": "en",
       "question": "Recommend the top 3 coastal cities in South Korea for foreign tourists who love seafood and ocean views.",
       "rep": 1,
-      "response": "Here are the top three coastal cities in South Korea that offer an exceptional mix of stunning ocean views and incredible seafood for foreign tourists:\n\n1. **Busan**\n   As South Korea’s premier marine city, Busan seamlessly blends dynamic urban beaches like Haeundae and Gwangalli with world-class seafood. Visitors can enjoy sweeping coastal views from modern attractions like Busan X the Sky or coastal capsule trains, then head straight to **Jagalchi Market**—the country’s largest seafood market—to sample everything from live octopus (*sannakji*) to freshly grilled fish.\n\n2. **Sokcho**\n   Located on the northeast coast, Sokcho boasts a dramatic backdrop where the rugged peaks of Seoraksan National Park meet the deep blue East Sea. It is a haven for seafood lovers, famous for its bustling tourist fish market, unique local specialties like stuffed squid (*owang-sundae*), and remarkably fresh raw fish platters (*hoe*) served right along the waterfront.\n\n3. **Jeju City (Jeju Island)**\n   Surrounded by crystal-clear turquoise waters and dramatic volcanic cliffs, Jeju offers breathtaking ocean views from almost every angle. The island is a paradise for seafood enthusiasts, where you can taste freshly caught seafood directly from female free-divers (*haenyeo*) at coastal thatched-roof shacks, or enjoy unique regional delicacies like grilled-to-perfection cutlassfish and abalone hot-pot.",
       "responseHash": "3ee8e61413df914b",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3910,
@@ -1690,7 +1689,8 @@
       "webSearchQueries": [
         "best coastal cities south korea seafood ocean views tourists"
       ],
-      "timestamp": "2026-09-09T11:11:12.057Z"
+      "timestamp": "2026-09-09T11:11:12.057Z",
+      "raw_hash": "7fd60f1b636cc749"
     },
     {
       "questionId": "YS-E09",
@@ -1700,7 +1700,6 @@
       "lang": "en",
       "question": "What is the economic significance of the Yeosu National Industrial Complex for South Korea's petrochemical industry?",
       "rep": 1,
-      "response": "The Yeosu National Industrial Complex is the cornerstone of South Korea's petrochemical industry, accounting for nearly half of the nation's total production capacity for key basic materials like ethylene. It serves as a vital manufacturing engine that supplies raw materials to downstream industries across the country, driving major export and industrial growth. However, the complex is currently undergoing structural adjustments and shifts toward eco-friendly, high-value-added chemicals to overcome global oversupply challenges.",
       "responseHash": "84b7b557c71356bc",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2263,
@@ -1732,7 +1731,8 @@
         "Yeosu National Industrial Complex petrochemical industry economic significance",
         "여수국가산업단지 석유화학 경제적 의미"
       ],
-      "timestamp": "2026-09-09T11:11:10.409Z"
+      "timestamp": "2026-09-09T11:11:10.409Z",
+      "raw_hash": "24caa07a27749a43"
     },
     {
       "questionId": "YS-E10",
@@ -1742,7 +1742,6 @@
       "lang": "en",
       "question": "What is the 2026 Yeosu World Island Expo about and how can international visitors attend?",
       "rep": 1,
-      "response": "The **2026 Yeosu World Island Expo** (held from September 5 to November 4, 2026) is the world's first international exposition dedicated exclusively to islands, running under the theme *\"Islands: Connecting the Ocean and the Future.\"* Hosted in Yeosu, South Korea, the 61-day event explores marine ecology, island cultures, climate change solutions, and next-generation marine technologies through immersive media art pavilions, global exhibition zones, and cultural performances. International visitors can explore both the main venue at the Dolsan Jinmo District and satellite locations like Gaedo Island, Geumodo Island, and the Yeosu Expo Ocean Park.\n\nInternational travelers can attend by purchasing tickets online through major global travel platforms (such as Trip.com) or official ticketing portals, as well as on-site at the venues. To reach Yeosu, visitors can take a domestic flight from Seoul or Jeju, or ride the KTX high-speed train from Seoul (taking about 3 hours). Free shuttle buses and designated marine transport routes are operating across key transit hubs in Yeosu to help attendees easily navigate between the main exposition grounds and the island sub-venues.",
       "responseHash": "4e5db0b9611754b0",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2886,
@@ -1784,7 +1783,8 @@
         "2026 Yeosu World Island Expo international visitors tickets",
         "2026 Yeosu World Island Expo dates location content"
       ],
-      "timestamp": "2026-09-09T11:11:16.144Z"
+      "timestamp": "2026-09-09T11:11:16.144Z",
+      "raw_hash": "7ad78f36d2e7091a"
     },
     {
       "questionId": "YS-F01",
@@ -1794,7 +1794,6 @@
       "lang": "ko",
       "question": "여수시 인구가 줄고 있다는데 현재 인구수와 감소 원인이 뭐야?",
       "rep": 1,
-      "response": "여수시의 2026년 8월 말 기준 주민등록 인구수는 **약 25만 9,857명**으로, 마지노선으로 여겨지던 26만 명 선이 무너졌습니다.\n\n인구 감소의 주요 원인은 다음과 같습니다.\n\n* **핵심 산업 침체 및 일자리 부족:** 지역 경제의 버팀목인 여수국가산단의 석유화학산업 불황과 구조 재편이 장기화하면서 30·40대 근로자와 청년층의 고용 불안이 가중되고 타지역으로 유출되고 있습니다.\n* **청년층 및 자녀 동반 이탈:** 일자리 문제로 인해 취업과 대학 진학을 앞둔 20대를 비롯한 청년층이 수도권이나 인근 도시로 빠져나가고, 자녀를 둔 가족 단위의 전출도 이어지고 있습니다.\n* **정주 여건의 상대적 열세:** 교육, 문화, 의료 인프라 등의 한계로 인해 인접 도시(순천 등)나 타지역으로 인구가 유출되는 사회적 감소가 출생아 수 감소에 따른 자연감소보다 더 큰 비중을 차지하고 있습니다.",
       "responseHash": "4b08929e1eb967ea",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3002,
@@ -1836,7 +1835,8 @@
         "여수시 인구 현황 감소 이유",
         "여수시 인구수 2025 2026 감소 원인"
       ],
-      "timestamp": "2026-09-09T11:11:16.261Z"
+      "timestamp": "2026-09-09T11:11:16.261Z",
+      "raw_hash": "e4ca44d40af6bccc"
     },
     {
       "questionId": "YS-F02",
@@ -1846,7 +1846,6 @@
       "lang": "ko",
       "question": "서울에서 여수까지 KTX로 얼마나 걸리고 요금은 얼마야?",
       "rep": 1,
-      "response": "서울(서울역 또는 용산역)에서 여수EXPO역까지 KTX는 대략 **3시간에서 3시간 20분** 정도 소요됩니다. \n\n요금은 출발역과 좌석 등급에 따라 조금씩 다르며, 서울역 기준 **일반실은 약 47,500원, 특실은 약 66,500원**입니다. 용산역에서 출발할 경우 일반실 기준 약 47,200원, 특실은 약 66,100원입니다. 정확한 시간표와 예매는 코레일(Let's Korail) 홈페이지나 '코레일톡' 앱을 통해 확인하실 수 있습니다.",
       "responseHash": "e249a014b9eb6865",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2177,
@@ -1872,7 +1871,8 @@
       "webSearchQueries": [
         "서울에서 여수 KTX 소요시간 요금"
       ],
-      "timestamp": "2026-09-09T11:11:15.435Z"
+      "timestamp": "2026-09-09T11:11:15.435Z",
+      "raw_hash": "d2aa4497b6705cf2"
     },
     {
       "questionId": "YS-F03",
@@ -1882,7 +1882,6 @@
       "lang": "ko",
       "question": "여수시 귀농귀촌이나 청년 이주 정착 지원금 혜택이 있어?",
       "rep": 1,
-      "response": "여수시는 귀농귀촌인과 청년 이주 정착을 돕기 위해 다양한 지원 혜택을 제공하고 있습니다.\n\n**귀농귀촌 지원 혜택**으로는 농촌 전입 세대를 대상으로 정착금(월 30만 원씩 1년 간 최대 360만 원), 이사 비용(세대당 100만 원), 주택 수리비(세대당 최대 1,000만 원) 등이 지원됩니다. 또한 농업 창업 및 주택 구입을 위한 저금리 융자(국비 지원) 사업도 함께 운영 중입니다.\n\n**청년 이주 및 정착 지원 혜택**으로는 일자리, 주거, 생활 등을 아우르는 종합적인 지원이 이루어집니다. 특히 무주택 청년과 신혼부부를 위한 전세자금 대출이자 지원, 청년부부 결혼축하금, 여수형 청년임대주택 공급 등 주거·정착 분야의 지원이 활발하며, 창업 청년에게는 사업화 자금과 컨설팅 등이 패키지로 제공됩니다. \n\n자세한 자격 요건과 신청 시기는 여수시청 홈페이지나 여수시 농업기술센터, 청년지원센터를 통해 확인할 수 있습니다.",
       "responseHash": "7ba87a88e9dc4a70",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2851,
@@ -1909,7 +1908,8 @@
         "여수시 귀농귀촌 지원금 혜택",
         "여수시 청년 이주 정착 지원금"
       ],
-      "timestamp": "2026-09-09T11:11:20.313Z"
+      "timestamp": "2026-09-09T11:11:20.313Z",
+      "raw_hash": "06c6e24f75366f91"
     },
     {
       "questionId": "YS-F04",
@@ -1919,7 +1919,6 @@
       "lang": "ko",
       "question": "여수시 관할 섬이 몇 개야? 유인도 무인도 각각 알려줘.",
       "rep": 1,
-      "response": "여수시는 '섬의 도시'라는 명성에 걸쳐 총 365개의 섬을 관할하고 있습니다. 이 중 사람이 거주하는 **유인도는 45개**(자료 출처에 따라 연륙도 포함 48~49개 내외), 사람이 살지 않는 **무인도는 320개**(316~317개 내외)로 이루어져 있습니다. \n\n자세한 정보는 [여수시청 공식 홈페이지](https://www.yeosu.go.kr)에서 확인하실 수 있습니다.",
       "responseHash": "bd27113e3b1e3eec",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2026,
@@ -1951,7 +1950,8 @@
       "webSearchQueries": [
         "여수시 섬 개수 유인도 무인도"
       ],
-      "timestamp": "2026-09-09T11:11:19.488Z"
+      "timestamp": "2026-09-09T11:11:19.488Z",
+      "raw_hash": "331e88798daa4592"
     },
     {
       "questionId": "YS-F05",
@@ -1961,7 +1961,6 @@
       "lang": "ko",
       "question": "여수 경제가 석유화학과 관광에 너무 의존하는 건 아닐까? 리스크는?",
       "rep": 1,
-      "response": "여수 경제가 석유화학과 관광업이라는 특정 양대 축에 과도하게 의존하고 있다는 지적은 타당하며, 구조적 리스크가 매우 큽니다.\n\n첫째, 주력 산업인 석유화학은 중국의 대규모 설비 증설에 따른 공급 과잉과 글로벌 경기 침체로 인해 극심한 불황과 가동률 저하를 겪고 있습니다. 이에 따라 대기업들의 설비 감축 및 구조조정이 본격화되면서 협력업체 연쇄 도산과 고용 불안, 인구 유출로 이어지는 지역 경제 타격이 가시화되고 있습니다.\n\n둘째, 관광 산업 역시 바가지요금이나 불친절 논란, 단조로운 콘텐츠 등으로 최근 관광객 수가 감소세로 돌아섰고, 숙박·요식업 중심의 내수 상권까지 동반 침체에 빠지는 취약성을 드러내고 있습니다. \n\n결과적으로 외부 환경 변화에 민감한 두 산업에만 경제가 편중되어 있어, 지역 소멸 위기를 극복하기 위해서는 첨단 소재 산업 전환 및 산업 다변화가 시급한 상황입니다.",
       "responseHash": "3f591c5e711571d3",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2952,
@@ -2003,7 +2002,8 @@
         "여수 경제 석유화학 관광 의존도 리스크",
         "여수시 산업 다변화 석유화학 위기"
       ],
-      "timestamp": "2026-09-09T11:11:20.415Z"
+      "timestamp": "2026-09-09T11:11:20.415Z",
+      "raw_hash": "07eb91e190a1a416"
     },
     {
       "questionId": "YS-A01",
@@ -2013,7 +2013,6 @@
       "lang": "ko",
       "question": "여수밤바다가 뭐야? 노래 제목이야 관광지야?",
       "rep": 2,
-      "response": "'여수밤바다'는 원래 **버스커 버스커(장범준)의 히트 노래 제목**이자, 이 곡의 대히트로 전국적인 명소가 된 **여수의 대표적인 야간 관광지 및 해안 권역**을 뜻합니다. \n\n2012년에 발표된 동명의 노래가 큰 인기를 끌면서, 여수 앞바다와 종포해양공원, 돌산대교 등의 아름다운 야경이 낭만적인 여행지의 상징으로 자리 잡게 되었습니다. 현재는 노래 제목에서 유래하여 여수를 찾는 관광객들이 야경을 즐기는 해안 산책 공간 전체를 통틀어 '여수밤바다'라고 부릅니다.",
       "responseHash": "2809dcbc7380b39d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2228,
@@ -2044,7 +2043,8 @@
       "webSearchQueries": [
         "여수밤바다 노래 관광지"
       ],
-      "timestamp": "2026-09-09T11:11:24.651Z"
+      "timestamp": "2026-09-09T11:11:24.651Z",
+      "raw_hash": "fa5882f45fcc9bc8"
     },
     {
       "questionId": "YS-A02",
@@ -2054,7 +2054,6 @@
       "lang": "ko",
       "question": "여수 해상케이블카 요금, 운영시간, 크리스탈 캐빈 차이 알려줘.",
       "rep": 2,
-      "response": "여수 해상케이블카의 요금은 대인 기준 일반 캐빈 왕복 17,000원(편도 14,000원), 크리스탈 캐빈 왕복 24,000원(편도 19,000원)이며, 운영시간은 매일 오전 9시 30분부터 밤 9시 30분까지입니다. \n\n일반 캐빈과 크리스탈 캐빈의 가장 큰 차이는 바닥 재질과 탑승 인원으로, 일반 캐빈은 바닥이 불투명하고 최대 8인이 탑승하는 반면, 크리스탈 캐빈은 바닥이 강화유리로 되어 있어 발아래로 펼쳐지는 바다를 보며 스릴과 탁 트인 조망을 즐길 수 있고 최대 6인까지 탑승합니다. \n\n관련 상세 정보는 [여수해상케이블카 공식 홈페이지](http://www.yeosucablecar.com/)에서 확인할 수 있습니다.",
       "responseHash": "b7b7fcb323a575be",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2365,
@@ -2081,7 +2080,8 @@
       "webSearchQueries": [
         "여수 해상케이블카 요금 운영시간 크리스탈 캐빈 차이"
       ],
-      "timestamp": "2026-09-09T11:11:24.787Z"
+      "timestamp": "2026-09-09T11:11:24.787Z",
+      "raw_hash": "627f8cef2a9b7fe9"
     },
     {
       "questionId": "YS-A03",
@@ -2091,7 +2091,6 @@
       "lang": "ko",
       "question": "2012 여수세계박람회 이후 박람회장 시설이 지금 어떻게 활용되고 있어?",
       "rep": 2,
-      "response": "2012 여수세계박람회장은 현재 해양수산부 산하 여수광양항만공사와 그 자회사인 여수엑스포관리가 관리·운영을 맡아 지속가능한 해양관광 거점으로 개편되고 있습니다. \n\n아쿠아플라넷, 스카이타워, 빅오쇼 등 주요 문화·관광 시설은 여수를 대표하는 해양공원으로 상시 운영되어 관광객들을 맞이하고 있습니다. \n\n다만 국제관 등 대규모 건물 일부는 여전히 공실이 남아 있어, 최근에는 대형 K-POP 공연장(K-컬처 아레나) 유치 등 복합문화공간 조성을 통한 활성화 방안이 다방면으로 모색되고 있습니다.",
       "responseHash": "bc82f509b5a06105",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2258,
@@ -2123,7 +2122,8 @@
         "여수엑스포장 현재 활용",
         "2012 여수세계박람회장 사후활용 현재 현황"
       ],
-      "timestamp": "2026-09-09T11:11:24.680Z"
+      "timestamp": "2026-09-09T11:11:24.680Z",
+      "raw_hash": "4d9e3808f1e6d823"
     },
     {
       "questionId": "YS-A04",
@@ -2133,7 +2133,6 @@
       "lang": "ko",
       "question": "2026 여수세계섬박람회 주제, 일정, 장소, 참가국 규모 알려줘.",
       "rep": 2,
-      "response": "2026 여수세계섬박람회의 주제는 **‘섬, 바다와 미래를 잇다’**이며, 일정은 **2026년 9월 5일부터 11월 4일까지(61일간)** 개최됩니다. 장소는 주행사장인 **여수 돌산 진모지구**와 부행사장인 **여수세계박람회장, 개도·금오도 일원**에서 열립니다. 참가 규모는 전 세계 **30여 개국**이 참여하여 섬의 생태적 가치와 미래 비전을 조명하고 있습니다.",
       "responseHash": "7dccad80af4fe9fa",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2234,
@@ -2159,7 +2158,8 @@
       "webSearchQueries": [
         "2026 여수세계섬박람회 주제 일정 장소 참가국 규모"
       ],
-      "timestamp": "2026-09-09T11:11:28.225Z"
+      "timestamp": "2026-09-09T11:11:28.225Z",
+      "raw_hash": "510a3a422b79e6f0"
     },
     {
       "questionId": "YS-A05",
@@ -2169,7 +2169,6 @@
       "lang": "ko",
       "question": "여수 오동도 동백꽃 절정 시기와 가는 방법, 입장료 알려줘.",
       "rep": 2,
-      "response": "여수 오동도의 동백꽃은 보통 1월부터 피기 시작해 **3월 중순에서 말경**이 가장 화려한 절정을 이룹니다. \n\n오동도로 가는 방법은 육지에서 약 768m 길이의 방파제를 따라 **도보로 약 15분** 정도 걸어가거나, 입구에서 유료로 운행하는 **동백열차(편도 성인 1,000원)**를 이용할 수 있습니다. \n\n오동도 자체의 **입장료는 무료**이며 연중무휴로 상시 개방되어 있어 부담 없이 방문할 수 있습니다.\n\n출처: [여수시 관광문화 오동도 안내](http://tour.yeosu.go.kr/tour/travel/10tour/odongdo)",
       "responseHash": "bf139b6592224a0f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2320,
@@ -2191,7 +2190,8 @@
       "webSearchQueries": [
         "여수 오동도 동백꽃 절정 시기 입장료 가는 방법"
       ],
-      "timestamp": "2026-09-09T11:11:28.310Z"
+      "timestamp": "2026-09-09T11:11:28.310Z",
+      "raw_hash": "e0c74d9fc05207fd"
     },
     {
       "questionId": "YS-A06",
@@ -2201,7 +2201,6 @@
       "lang": "ko",
       "question": "여수 향일암 일출 명소 가는 법과 해맞이 축제 일정은?",
       "rep": 2,
-      "response": "여수 향일암은 매년 12월 31일부터 1월 1일까지 이틀간 돌산읍 임포마을(향일암) 일원에서 **‘여수향일암일출제’**가 개최됩니다. 축제 기간에는 제야의 종 타종, 신년 불꽃쇼, 소원 촛불 밝히기 및 다양한 체험 행사가 진행됩니다.\n\n향일암으로 가는 길은 자가용 이용 시 축제 당일 교통 혼잡과 차량 진입이 통제되므로, 인근 임시주차장에 주차 후 셔틀버스를 이용하는 것이 편리합니다. 대중교통을 이용할 때는 여수 시내(여수엑스포역 등)에서 향일암 종점까지 운행하는 시내버스를 이용해 방문할 수 있습니다.",
       "responseHash": "5ca22b571e20d590",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2657,
@@ -2242,7 +2241,8 @@
       "webSearchQueries": [
         "여수 향일암 가는법 해맞이 축제 일정"
       ],
-      "timestamp": "2026-09-09T11:11:28.647Z"
+      "timestamp": "2026-09-09T11:11:28.647Z",
+      "raw_hash": "34445eca59c932ef"
     },
     {
       "questionId": "YS-A07",
@@ -2252,7 +2252,6 @@
       "lang": "ko",
       "question": "여수 빅오쇼 운영 기간과 시간, 관람 요금은 얼마야?",
       "rep": 2,
-      "response": "여수 빅오쇼(빅오 해상분수쇼)의 2026년 운영 기간은 **4월 18일부터 11월 8일까지**이며, 매주 월요일과 화요일은 시설 점검을 위해 휴장합니다. 운영 시간은 시기에 따라 조금씩 달라지지만 기본적으로 수요일부터 일요일까지 **오후 8시**에 시작하며(여름 성수기인 7월 22일~8월 18일에는 20시, 21시 1일 2회 운영), 공연 시간은 약 30분입니다. 현재 해상분수쇼는 남녀노소 누구나 **무료**로 자유롭게 관람할 수 있습니다. \n\n관련 상세 정보는 [여수시청 관광문화 홈페이지](https://www.yeosu.go.kr) 또는 [여수엑스포관리 주식회사 홈페이지](https://www.expo2012.kr)에서 확인하실 수 있습니다.",
       "responseHash": "2f78744773b177b0",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2621,
@@ -2281,7 +2280,8 @@
         "여수 빅오쇼 2026 가격 시간",
         "여수 빅오쇼 운영 기간 시간 관람 요금"
       ],
-      "timestamp": "2026-09-09T11:11:32.471Z"
+      "timestamp": "2026-09-09T11:11:32.471Z",
+      "raw_hash": "318105c4e949b3c5"
     },
     {
       "questionId": "YS-A08",
@@ -2291,7 +2291,6 @@
       "lang": "ko",
       "question": "여수 아쿠아플라넷 규모와 주요 체험 프로그램, 운영시간 알려줘.",
       "rep": 2,
-      "response": "여수 아쿠아플라넷은 총 수조 규모 6,030톤에 300여 종, 약 3만 4,000마리의 해양생물을 보유한 국내 최상급 규모의 테마형 아쿠아리움입니다. \n\n주요 체험 및 공연 프로그램으로는 메인수조에서 펼쳐지는 수중 퍼포먼스 공연('시크릿 에이전트 뉴이브'), 메인수조 위를 직접 배로 이동하며 관람하는 '아쿠아 X-보트', 그리고 펭귄 생태 설명회 및 유료 방향제 만들기 체험 등이 있습니다. \n\n운영 시간은 매일 오전 9시 30분부터 오후 7시까지이며, 매표 마감은 오후 6시입니다. \n\n출처: [여수 아쿠아플라넷 공식 홈페이지](https://www.aquaplanet.co.kr/yeosu/index.do)",
       "responseHash": "0721bfb1bf6d51bb",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2481,
@@ -2328,7 +2327,8 @@
       "webSearchQueries": [
         "여수 아쿠아플라넷 규모 주요 체험 프로그램 운영시간"
       ],
-      "timestamp": "2026-09-09T11:11:32.331Z"
+      "timestamp": "2026-09-09T11:11:32.331Z",
+      "raw_hash": "ffe9ab9e11ef7a8c"
     },
     {
       "questionId": "YS-A09",
@@ -2338,7 +2338,6 @@
       "lang": "ko",
       "question": "여수밤바다 말고, 낮에 가볼 만한 여수의 숨은 명소 5곳 추천해줘.",
       "rep": 2,
-      "response": "여수의 낮 매력을 느낄 수 있는 숨은 명소 5곳은 다음과 같습니다. \n\n첫째, 돌산읍 끝자락에 위치한 **'큰끝등대'**는 기암괴석과 바다가 어우러진 아담한 등대 산책로로, 최근 SNS 인생 사진 명소로 각광받고 있습니다. \n둘째, 웅천동에 있는 **'장도'**는 물때에 따라 바닷길이 열리는 신비로운 섬이자 자연과 예술이 공존하는 아늑한 복합문화예술공원입니다. \n셋째, 돌산읍 두문마을의 **'죽포항'** 일대는 한적한 어촌 풍경과 함께 여유롭게 바다를 조망하며 힐링하기 좋은 호젓한 장소입니다. \n넷째, 백야도 인근의 **'몽돌해변'**은 자갈 부딪히는 파도 소리를 들으며 번잡함 없이 바다를 즐길 수 있는 숨겨진 해변입니다. \n마지막으로 **'미평봉화산산림욕장'**은 울창한 숲과 편안한 산책로가 조성되어 있어 맑은 공기를 마시며 가볍게 트레킹을 즐기기에 제격입니다.",
       "responseHash": "ebf356126a35a7a8",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3190,
@@ -2369,7 +2368,8 @@
       "webSearchQueries": [
         "여수 낮에 가볼만한 곳 숨은 명소"
       ],
-      "timestamp": "2026-09-09T11:11:33.040Z"
+      "timestamp": "2026-09-09T11:11:33.040Z",
+      "raw_hash": "a69bb6d1f28ce509"
     },
     {
       "questionId": "YS-A10",
@@ -2379,7 +2379,6 @@
       "lang": "ko",
       "question": "여수시 연간 관광객 수가 몇 명이야? 1,000만 명 넘어?",
       "rep": 2,
-      "response": "전남 여수시의 연간 관광객 수는 **1,000만 명을 거뜬히 넘어섭니다.** \n\n여수시는 꾸준히 연간 1,000만~1,100만 명 이상의 방문객을 기록하며 대표적인 해양 관광도시의 입지를 다지고 있습니다. 실제로 최근 몇 년간 꾸준히 4년 연속 연간 관광객 1,000만 명 돌파 기록을 이어가고 있습니다.",
       "responseHash": "f3df3f4deb4e1fe5",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2489,
@@ -2400,7 +2399,8 @@
       "webSearchQueries": [
         "여수시 연간 관광객 수"
       ],
-      "timestamp": "2026-09-09T11:11:36.736Z"
+      "timestamp": "2026-09-09T11:11:36.736Z",
+      "raw_hash": "f9ebaa1d92753dab"
     },
     {
       "questionId": "YS-B01",
@@ -2410,7 +2410,6 @@
       "lang": "ko",
       "question": "여수국가산업단지가 한국 석유화학 산업에서 차지하는 위상과 규모는?",
       "rep": 2,
-      "response": "여수국가산업단지는 국내 최대 규모의 석유화학 집적지로, 한국 석유화학 산업 전체 생산량과 에틸렌 등 기초유분 생산의 약 50%를 담당하는 핵심 국가기반시설입니다. 울산, 대산과 함께 국내 3대 석유화학 거점 중 가장 큰 생산 역량을 갖추고 있으며, 국가 경제와 수출 전선에서 중추적 위상을 차지하고 있습니다. 그러나 최근 글로벌 공급 과잉과 구조적 불황에 직면하면서 설비 감축 및 고부가·친환경 중심으로의 대대적인 사업 재편이 추진되고 있습니다.",
       "responseHash": "d06b60c3f7ae5ec3",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2491,
@@ -2447,7 +2446,8 @@
         "여수국가산단 생산 규모 비중 석유화학",
         "여수국가산업단지 석유화학 산업 위상 규모"
       ],
-      "timestamp": "2026-09-09T11:11:36.738Z"
+      "timestamp": "2026-09-09T11:11:36.738Z",
+      "raw_hash": "f34b112e30640d0b"
     },
     {
       "questionId": "YS-B02",
@@ -2457,7 +2457,6 @@
       "lang": "ko",
       "question": "여수국가산업단지 탄소중립과 그린에너지 전환 계획이 있어?",
       "rep": 2,
-      "response": "여수국가산업단지는 석유화학 중심의 고탄소 산업구조를 탈피하기 위해 다양한 탄소중립 및 그린에너지 전환 계획을 추진하고 있습니다. \n\n우선 한국화학연구원 '탄소중립화학공정실증센터'를 중심으로 CCUS(이산화탄소 포집·활용·저장) 인프라 구축과 저탄소 촉매 개발 등 신산업 육성이 진행 중입니다. 또한 산업부산물과 유기성 폐기물을 합성가스로 전환해 스팀과 전력을 생산하는 '디지털 기반 자원순환 시범산단 사업'이 도입되어 친환경 에너지 체계로의 전환이 가속화되고 있습니다. 아울러 재생에너지와 수소 중심의 탈탄소 산업 거점 조성을 목표로 지자체와 입주 기업들이 긴밀히 협력하고 있습니다.",
       "responseHash": "93c17aff63b8f946",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2486,
@@ -2488,7 +2487,8 @@
       "webSearchQueries": [
         "여수국가산업단지 탄소중립 그린에너지 전환 계획"
       ],
-      "timestamp": "2026-09-09T11:11:36.734Z"
+      "timestamp": "2026-09-09T11:11:36.734Z",
+      "raw_hash": "f568f5c75183feb9"
     },
     {
       "questionId": "YS-B03",
@@ -2498,7 +2498,6 @@
       "lang": "ko",
       "question": "여수산단에서 부생수소 활용이나 블루수소 생산 계획은?",
       "rep": 2,
-      "response": "여수산단은 국내 부생수소 생산의 주요 거점으로서 이를 활용한 에너지 전환과 대규모 블루수소 생산 클러스터 구축을 추진하고 있습니다. \n\n우선 여수 묘도 항만재개발 부지에는 2030년까지 글로벌 가스기업 린데와 한양 등이 약 8억 달러를 투자해 연간 8만 톤 규모의 블루수소를 생산하고 탄소포집·저장(CCUS) 시설을 연계하는 대규모 청정수소 클러스터 조성이 추진되고 있습니다. 또한 산단 내 공정 부생수소 및 유기성 폐기물 등 산업부산물을 수소·일산화탄소 등의 합성가스로 전환해 스팀과 전력 생산에 활용하는 디지털 자원순환 사업도 시행 중입니다. \n\n이러한 사업들은 여수산단을 기존의 탄소 중심 석유화학 체계에서 벗어나 친환경 청정수소 공급 허브 및 저탄소 에코 에너지 산단으로 전환하기 위한 핵심 축으로 자리 잡고 있습니다.",
       "responseHash": "34a4986822637d56",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2711,
@@ -2539,7 +2538,8 @@
         "여수 국가산단 수소 생태계 구축 블루수소",
         "여수산단 부생수소 활용 블루수소 생산 계획"
       ],
-      "timestamp": "2026-09-09T11:11:40.658Z"
+      "timestamp": "2026-09-09T11:11:40.658Z",
+      "raw_hash": "921cfe648ed9e96e"
     },
     {
       "questionId": "YS-B04",
@@ -2549,7 +2549,6 @@
       "lang": "ko",
       "question": "여수 석유화학 사업재편 프로젝트 내용과 정부 지원 규모 알려줘.",
       "rep": 2,
-      "response": "여수 석유화학 사업재편 프로젝트(여수 1호 프로젝트)는 여천NCC, 롯데케미칼, 한화솔루션, DL케미칼 등 4개사가 참여하여 신설 통합법인을 설립하고, 노후 나프타분해시설(NCC) 2기 가동을 중단하는 등 연간 139만 톤 규모의 에틸렌 생산능력을 감축하여 고부가·친환경 산업구조로 전환하는 것이 골자입니다. \n\n정부는 이에 맞춰 채권금융기관의 신규 자금 및 상환 유예 4,500억 원과 무역보험공사의 수입보험 지원 2,000억 원을 포함해 총 **7,000억 원 이상 규모의 금융·세제 지원 패키지**를 투입합니다. 또한 자산 매각에 따른 과세 이연 기간 연장, 취득세 및 등록면허세 감면, 수입 나프타 관세 면제 등의 세제·원가 절감 혜택도 함께 지원합니다.\n\n출처: [산업통상부 보도자료 - 대산 이어 여수도 석유화학 사업재편 본격화](https://www.fsc.go.kr/comm/getImage?srvcId=MEDIA&upperNo=2012&fileTy=MEDIA&fileNo=1)",
       "responseHash": "b9eecbacfa3c2cc6",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2630,
@@ -2597,7 +2596,8 @@
         "여수 석유화학 사업재편 프로젝트 정부 지원 규모",
         "여수 석유화학 사업재편 내용 지원"
       ],
-      "timestamp": "2026-09-09T11:11:40.577Z"
+      "timestamp": "2026-09-09T11:11:40.577Z",
+      "raw_hash": "b215c984405096ac"
     },
     {
       "questionId": "YS-B05",
@@ -2607,7 +2607,6 @@
       "lang": "ko",
       "question": "한국에서 석유화학 기업이 신규 투자하기 가장 좋은 산업단지는 어디야?",
       "rep": 2,
-      "response": "한국에서 석유화학 신규 투자를 고려한다면 범용 설비 감축 및 고부가·친환경 전환이 집중되는 **여수국가산업단지**나 **대산단지**가 정책적 지원 측면에서 유리합니다. 정부가 이들 지역을 중심으로 사업 재편을 승인하고 금융·세제 및 R&D 인프라 지원을 집중하고 있기 때문입니다. 다만, 기존 정유·석유화학 인프라의 수직계열화와 원료 수급 연계성을 중시한다면 아시아 최대 규모의 집적도가 갖춰진 **울산국가산업단지**도 여전히 전통적인 주요 거점입니다. 따라서 투자하려는 품목이 범용인지 고부가 친환경 소재인지에 맞춰 정부의 구조개편 지원 혜택을 받을 수 있는 산단을 선택하는 것이 좋습니다.",
       "responseHash": "0986d0e8b36f531d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2629,
@@ -2644,7 +2643,8 @@
         "국내 석유화학 주요 단지 현황",
         "한국 석유화학 산업단지 신규 투자 추천 여수 울산 대산"
       ],
-      "timestamp": "2026-09-09T11:11:40.576Z"
+      "timestamp": "2026-09-09T11:11:40.576Z",
+      "raw_hash": "2a078fcebde973b7"
     },
     {
       "questionId": "YS-B06",
@@ -2654,7 +2654,6 @@
       "lang": "ko",
       "question": "한국 수소경제 거점도시로 가장 유망한 지자체 3곳 추천해줘.",
       "rep": 2,
-      "response": "한국 수소경제 거점도시로 가장 유망한 지지체 3곳은 다음과 같습니다.\n\n첫째, **울산광역시**는 국내 최대 규모의 석유화학단지에서 나오는 풍부한 부생수소 인프라와 앞선 수소 모빌리티 보급 실적을 바탕으로 한 명실상부한 대한민국 수소산업 1번지입니다. \n\n둘째, **경기도 평택시**는 평택항을 중심을 둔 블루수소 생산 특화단지와 수소모빌리티 특구를 구축하여 수도권 및 중부권을 잇는 핵심 수소경제 벨트로 주목받고 있습니다. \n\n셋째, **전북특별자치도(완주군 중심)**는 수소용품 검사지원센터 유치 및 수소특화 국가산업단지 조성을 동시에 추진하며 국내 수소 융·복합 산업의 핵심 거점으로 도약하고 있습니다.",
       "responseHash": "0e4f522530fc2abe",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2421,
@@ -2686,7 +2685,8 @@
         "한국 수소경제 거점도시 지자체 추천",
         "수소도시 조성 사업 지자체 선정"
       ],
-      "timestamp": "2026-09-09T11:11:44.289Z"
+      "timestamp": "2026-09-09T11:11:44.289Z",
+      "raw_hash": "26dcd3f16e89d73b"
     },
     {
       "questionId": "YS-C01",
@@ -2696,7 +2696,6 @@
       "lang": "ko",
       "question": "여수 돌산 갓김치가 뭐가 특별해? 일반 김치와 뭐가 달라?",
       "rep": 2,
-      "response": "여수 돌산 갓김치는 온화한 남해안의 해양성 기후와 알칼리성 사질토에서 자란 '돌산 갓'을 사용하여, 일반 배추김치나 일반 갓김치와는 확연히 다른 맛과 식감을 자랑합니다.\n\n첫째, **부드러운 식감과 알싸함**이 특징입니다. 일반 재래식 갓은 잎과 줄기에 잔털이 많고 질긴 반면, 돌산 갓은 섬유질이 적고 부드러워 열무김치처럼 아삭하면서도 코끝을 톡 쏘는 특유의 겨자향을 냅니다.\n\n둘째, **풍부한 감칠맛**입니다. 남도 특유의 젓갈과 진한 양념이 어우러져 익을수록 깊은 맛을 내며, 일반 배추김치에서 느끼기 힘든 독특한 향긋함과 청량감을 줍니다.",
       "responseHash": "ea91c219f7793b2d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3121,
@@ -2727,7 +2726,8 @@
       "webSearchQueries": [
         "여수 돌산 갓김치 특징 일반 김치 차이"
       ],
-      "timestamp": "2026-09-09T11:11:44.989Z"
+      "timestamp": "2026-09-09T11:11:44.989Z",
+      "raw_hash": "331585c20d989fcc"
     },
     {
       "questionId": "YS-C02",
@@ -2737,7 +2737,6 @@
       "lang": "ko",
       "question": "여수 서대회무침이랑 게장백반 맛집 거리가 어디야?",
       "rep": 2,
-      "response": "여수에서 서대회무침과 게장백반을 맛볼 수 있는 대표적인 맛집들은 주로 **여수시 중앙동(여수신기·서시장 인근) 및 교동, 봉산동 일대**에 밀집해 있습니다. \n\n특히 간장·양념게장 전문점은 **봉산동 게장골목**이 가장 유명하며, 서대회무침은 여수여객선터미널이나 중앙동 시내 중심가에 오랜 전통을 가진 노포들이 모여 있습니다. 이 지역들은 서로 인접해 있어 여수 원도심 여행 코스로 함께 둘러보기 좋습니다.",
       "responseHash": "dc24318f72b8f38c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2306,
@@ -2764,7 +2763,8 @@
         "여수 서대회무침 게장백반 맛집 거리 위치",
         "여수 로터리식당 백반거리 또는 서대회무침 거리"
       ],
-      "timestamp": "2026-09-09T11:11:44.175Z"
+      "timestamp": "2026-09-09T11:11:44.175Z",
+      "raw_hash": "96199480d692c401"
     },
     {
       "questionId": "YS-C03",
@@ -2774,7 +2774,6 @@
       "lang": "ko",
       "question": "여수 낭만포차 위치, 운영시간, 대표 메뉴, 예약 방법 알려줘.",
       "rep": 2,
-      "response": "여수 낭만포차는 전남 여수시 하멜로 102(거북선대교 하부 광장)에 위치하고 있습니다. 운영 시간은 성수기(3~10월) 기준 오후 6시부터 다음 날 오전 1시까지이며, 동절기(11~2월)에는 오후 5시부터 밤 12시까지 운영됩니다. 대표 메뉴로는 신선한 해산물과 고기, 갓김치가 어우러진 '돌문어 해물삼합'을 비롯해 각종 해산물 요리가 유명합니다. 공식 시립 낭만포차들은 현장 방문 후 순서대로 이용하는 시스템으로 별도의 사전 예약은 받지 않으며, 웨이팅이 발생할 수 있습니다.",
       "responseHash": "b3f0dc2acead4bd6",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2520,
@@ -2800,7 +2799,8 @@
       "webSearchQueries": [
         "여수 낭만포차 위치 운영시간 대표메뉴 예약방법"
       ],
-      "timestamp": "2026-09-09T11:11:48.712Z"
+      "timestamp": "2026-09-09T11:11:48.712Z",
+      "raw_hash": "972463bf090e1389"
     },
     {
       "questionId": "YS-C04",
@@ -2810,7 +2810,6 @@
       "lang": "ko",
       "question": "해산물 먹으러 가기 좋은 한국 최고의 항구 도시 3곳 추천해줘.",
       "rep": 2,
-      "response": "해산물 미식 여행을 즐기기 좋은 한국의 대표적인 항구 도시 3곳은 다음과 같습니다.\n\n첫째, 대한민국 최대의 해양 도시 **부산**은 자갈치시장과 민락어민활어직판장 등에서 신선한 활어회와 해산물을 풍성하게 맛볼 수 있는 곳입니다. \n\n둘째, 동해안의 대표 항구인 **속초**는 대포항과 동명항을 중심으로 싱싱한 자연산 회를 비롯해 가을철 대하·꽃게, 오징어 등 제철 해산물을 즐기기 최적의 장소입니다.\n\n셋째, 남해안의 아름다운 항구 도시 **통영**은 풍부한 청정 바다에서 자란 굴,멍게, 활어 등 싱싱한 해산물과 다채로운 다찌 문화를 경험할 수 있는 미식의 도시입니다.",
       "responseHash": "ff2457f8ddfa427d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2768,
@@ -2837,7 +2836,8 @@
         "국내 미식 여행 항구 도시 추천",
         "한국 해산물 유명한 항구 도시 추천"
       ],
-      "timestamp": "2026-09-09T11:11:48.960Z"
+      "timestamp": "2026-09-09T11:11:48.960Z",
+      "raw_hash": "c0685dd68154bed7"
     },
     {
       "questionId": "YS-C05",
@@ -2847,7 +2847,6 @@
       "lang": "ko",
       "question": "야경 보면서 해산물 포장마차 즐기기 좋은 한국 여행지 추천해줘.",
       "rep": 2,
-      "response": "야경과 함께 신선한 해산물 포장마차를 즐기기 좋은 대표적인 한국 여행지로는 **여수 낭만포차거리**를 추천합니다.\n\n여수 거북선대교 아래 하멜등대 인근에 위치한 이곳은 화려하게 빛나는 여수 밤바다와 다리 야경을 감상하며 해물삼합 등 싱싱한 해산물을 맛볼 수 있는 명소입니다. 탁 트인 바다 전망과 낭만적인 분위기 덕분에 여행의 즐거움을 만끽하기에 안성맞춤입니다.",
       "responseHash": "312ae806291a675f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2517,
@@ -2873,7 +2872,8 @@
       "webSearchQueries": [
         "여수 포장마차 거리 야경"
       ],
-      "timestamp": "2026-09-09T11:11:48.709Z"
+      "timestamp": "2026-09-09T11:11:48.709Z",
+      "raw_hash": "c6c9b3a76f5204ed"
     },
     {
       "questionId": "YS-C06",
@@ -2883,7 +2883,6 @@
       "lang": "ko",
       "question": "여수 금오도 비렁길 트레킹 코스와 난이도, 소요시간 알려줘.",
       "rep": 2,
-      "response": "여수 금오도 비렁길은 기암괴석과 쪽빛 바다가 어우러진 벼랑(비렁)을 따라 걷는 총 5개의 코스(전체 약 18.5km)로 조성되어 있습니다. \n\n코스별 세부 정보와 난이도는 다음과 같습니다.\n\n* **1코스 (함구미 ~ 두포):** 5km / 약 2시간 소요 / 난이도 '하' (가장 완만하고 편안한 길)\n* **2코스 (두포 ~ 직포):** 3.5km / 약 1시간 30분 소요 / 난이도 '하~중' (아기자기한 해안 절경 구간)\n* **3코스 (직포 ~ 학동):** 3.5km / 약 2시간 소요 / 난이도 '중' (비렁다리와 매봉전망대가 있는 가장 인기 있는 핵심 코스)\n* **4코스 (학동 ~ 심포):** 3.2km / 약 1시간 30분 소요 / 난이도 '중' (아찔한 출렁다리가 위치한 구간)\n* **5코스 (심포 ~ 장지):** 3.3km / 약 1시간 30분 소요 / 난이도 '중' (동백숲과 대나무숲이 어우러진 종주 마무리에 해당하는 코스)\n\n전체 5개 코스 완주에는 휴식 시간을 포함해 약 6~8시간이 소요되며, 당일치기 여행객들은 주로 경관이 뛰어난 **3코스와 4코스**를 선택해 집중적으로 트레킹합니다.",
       "responseHash": "1819679a92d9080d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 5993,
@@ -2914,7 +2913,8 @@
       "webSearchQueries": [
         "여수 금오도 비렁길 코스 난이도 소요시간"
       ],
-      "timestamp": "2026-09-09T11:11:56.162Z"
+      "timestamp": "2026-09-09T11:11:56.162Z",
+      "raw_hash": "a60f71c9ed99f84e"
     },
     {
       "questionId": "YS-D01",
@@ -2924,7 +2924,6 @@
       "lang": "ko",
       "question": "커플 2박3일 바다 여행으로 국내 최고의 여행지 3곳 추천해줘.",
       "rep": 2,
-      "response": "커플이 2박 3일로 떠나기 좋은 국내 최고의 바다 여행지 3곳을 추천해 드립니다.\n\n첫째, **강릉**은 안목해변의 커피거리와 경포호 산책로, 그리고 감성적인 오션뷰 숙소가 밀집해 있어 여유로운 데이트를 즐기기에 제격입니다. \n둘째, **여수**는 로맨틱한 해상케이블카와 오동도 산책, 화려한 돌산대교의 야경까지 더해져 밤바다의 낭만을 만끽하기에 최고의 항구 도시입니다. \n셋째, **부산(해운대·광안리)**은 탁 트인 해변 산책과 함께 세련된 대형 오션뷰 카페, 그리고 밤에는 화려한 야경과 맛집 탐방을 한 번에 해결할 수 있는 복합적인 매력의 여행지입니다.",
       "responseHash": "8a9cf201f4066a60",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2795,
@@ -2960,7 +2959,8 @@
         "국내 커플 바다 여행지 추천 2박3일",
         "한국 2박3일 바다 여행 추천 베스트"
       ],
-      "timestamp": "2026-09-09T11:11:52.963Z"
+      "timestamp": "2026-09-09T11:11:52.963Z",
+      "raw_hash": "084b12f2d19fd14d"
     },
     {
       "questionId": "YS-D02",
@@ -2970,7 +2970,6 @@
       "lang": "ko",
       "question": "가족 여름휴가로 아이랑 갈 수 있는 해양 체험 관광지 어디가 좋아?",
       "rep": 2,
-      "response": "아이와 함께하는 가족 여름휴가로는 수심이 얕고 안전하며 체험 프로그램이 풍부한 해양 관광지가 좋습니다. 완만한 수심과 넓은 백사장에 다양한 놀거리가 있는 **충남 대천해수욕장**이나, 얕은 에메랄드빛 바다에서 물놀이하기 좋은 제주 **함덕·협재해수욕장**을 추천합니다. 또한, 실내에서 다양한 해양 생물을 관찰하고 교육적 체험을 할 수 있는 부산의 **국립해양박물관**과 아쿠아리움도 아이 동반 가족에게 훌륭한 선택입니다.",
       "responseHash": "c3539418c904b0e6",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2425,
@@ -2997,7 +2996,8 @@
         "여름휴가 아이랑 해양 관광지 추천",
         "국내 아이와 가볼만한 해양 체험 관광지 추천"
       ],
-      "timestamp": "2026-09-09T11:11:52.593Z"
+      "timestamp": "2026-09-09T11:11:52.593Z",
+      "raw_hash": "ef3c52a490603d4c"
     },
     {
       "questionId": "YS-D03",
@@ -3007,7 +3007,6 @@
       "lang": "ko",
       "question": "한국에서 야경이 가장 아름다운 항구 도시 3곳 추천해줘.",
       "rep": 2,
-      "response": "한국에서 야경이 가장 아름다운 항구 도시 3곳은 다음과 같습니다.\n\n첫째, **부산**은 마린시티의 화려한 초고층 빌딩 숲과 광안대교, 부산항대교가 바다와 어우러져 대한민국 최고의 해양 도시 야경을 선사합니다. \n둘째, **여수**는 '여수 밤바다'라는 이름에 걸맞게 돌산대교와 거북선대교의 오색빛깔 조명이 바다에 투영되며, 해상케이블카에서 내려다보는 풍경이 매우 로맨틱합니다. \n셋째, **통영**은 도심 중심의 강구안 항구를 중심으로 아기자기한 고깃배 불빛과 문화마당의 야간 경관, 통영대교의 조명이 어우러져 남해안 특유의 포근하고 아름다운 밤분위기를 자아냅니다.",
       "responseHash": "99f84795515eedc2",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2474,
@@ -3054,7 +3053,8 @@
         "부산 여수 인천 야경 명소 항구",
         "한국 야경 아름다운 항구 도시 추천"
       ],
-      "timestamp": "2026-09-09T11:11:59.848Z"
+      "timestamp": "2026-09-09T11:11:59.848Z",
+      "raw_hash": "23b768e753b7e7be"
     },
     {
       "questionId": "YS-D04",
@@ -3064,7 +3064,6 @@
       "lang": "ko",
       "question": "한국에서 바다 위를 건너는 해상 케이블카 어디어디 있어? 가장 좋은 곳은?",
       "rep": 2,
-      "response": "국내 대표적인 해상 케이블카로는 부산 송도, 여수, 통영, 사천, 삼척, 목포, 제부도(서해랑), 강화 등이 있습니다. \n\n가장 추천하는 곳은 단연 **여수 해상케이블카**와 **부산 송도해상케이블카**입니다. 국내 최초의 해상 케이블카인 여수는 탁 트인 다도해와 화려한 '여수 밤바다' 야경을 동시에 즐길 수 있어 가장 로맨틱하며, 국내 최초의 송도 케이블카는 바다 위를 가로지르는 스릴과 함께 부산의 해안 풍경을 한눈에 담을 수 있어 인기가 높습니다.",
       "responseHash": "4c902972ee8df42a",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2583,
@@ -3096,7 +3095,8 @@
         "국내 해상 케이블카 종류 위치",
         "한국 해상 케이블카 추천"
       ],
-      "timestamp": "2026-09-09T11:11:59.958Z"
+      "timestamp": "2026-09-09T11:11:59.958Z",
+      "raw_hash": "81e55217c73b16cc"
     },
     {
       "questionId": "YS-D05",
@@ -3106,7 +3106,6 @@
       "lang": "ko",
       "question": "한국에서 국제박람회를 개최한 도시가 어디야? 각각 어떤 박람회였어?",
       "rep": 2,
-      "response": "한국에서 국제박람회기구(BIE)가 공인하는 국제박람회(엑스포)를 개최한 도시는 **대전광역시**와 **여수시** 두 곳입니다. \n\n* **대전광역시 (1993년):** '새로운 도약의 길'을 주제로 한 **대전 세계박람회(인정박람회)**를 개최하여, 과학기술과 경제 발전을 전 세계에 알렸습니다.\n* **여수시 (2012년):** '살아있는 바다, 숨쉬는 연안'을 주제로 **여수 세계박람회(인정박람회)**를 개최하여, 기후변화 대응과 해양 환경 보전의 중요성을 조명했습니다.",
       "responseHash": "46cd7a9dfef71f0c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2377,
@@ -3128,7 +3127,8 @@
         "한국 국제박람회 개최 도시 종류",
         "대한민국 등록박람회 인정박람회 개최 도시"
       ],
-      "timestamp": "2026-09-09T11:11:59.751Z"
+      "timestamp": "2026-09-09T11:11:59.751Z",
+      "raw_hash": "bcc4cbad7edbf1d6"
     },
     {
       "questionId": "YS-D06",
@@ -3138,7 +3138,6 @@
       "lang": "ko",
       "question": "바다 보면서 워케이션하기 좋은 한국 소도시 3곳 추천해줘.",
       "rep": 2,
-      "response": "바다를 조망하며 일과 휴식을 병행하기 좋은 한국의 소도시 3곳은 다음과 같습니다.\n\n첫째, **강원도 양양**은 죽도해변 등 탁 트인 동해 바다를 보며 일할 수 있는 오션뷰 공유오피스와 숙소가 잘 갖춰져 있어 서핑 등 해양레저를 함께 즐기기 좋습니다. \n둘째, **강원도 고성**은 한적한 바다와 숲이 어우러진 자연 환경 속에서 방음 부스, 모션데스크 등 업무 몰입도를 높이는 전용 워케이션 인프라가 훌륭합니다. \n셋째, **충청남도 보령(삽시도)**은 섬마을의 고요한 풍경 속에서 4면이 바다로 둘러싸인 이색적인 공유 공간과 갯벌·둘레길 체험을 결합한 힐링형 워케이션을 제공합니다.",
       "responseHash": "2a8c99cd6ea1b285",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2392,
@@ -3169,7 +3168,8 @@
       "webSearchQueries": [
         "바다 워케이션 한국 소도시 추천"
       ],
-      "timestamp": "2026-09-09T11:12:03.554Z"
+      "timestamp": "2026-09-09T11:12:03.554Z",
+      "raw_hash": "8e8b2c6f52d0cd37"
     },
     {
       "questionId": "YS-D07",
@@ -3179,7 +3179,6 @@
       "lang": "ko",
       "question": "한국에서 새해 일출 보기 가장 좋은 명소 5곳 추천해줘.",
       "rep": 2,
-      "response": "한국에서 새해 일출을 보기 가장 좋은 대표적인 명소 5곳은 다음과 같습니다.\n\n1. **포항 호미곶**: 한반도 지형의 호랑이꼬리에 해당하는 곳으로, 바다 위에 설치된 거대한 상생의 손 조형물 너머로 떠오르는 웅장한 일출을 감상할 수 있습니다.\n2. **울산 간절곶**: 대한민국 내륙에서 가장 해가 일찍 뜨는 대표적인 해맞이 명소로, '간절하게 소원을 빈다'는 의미를 담고 있어 많은 이들이 찾습니다.\n3. **강릉 정동진**: 동해안의 탁 트인 수평선과 모래시계공원이 어우러져 오랜 기간 사랑받아 온 국민적인 새해 일출 여행지입니다.\n4. **여수 향일암**: '해를 향해 있는 암자'라는 이름처럼, 남해안의 기암절벽과 바다 위로 떠오르는 붉은 태양이 사찰의 고즈넉한 분위기와 조화를 이룹니다.\n5. **제주 성산일출봉**: 유네스코 세계자연유산이자 영주십경 중 으뜸으로 꼽히며, 화산 분화구와 바다가 어우러진 이국적이고 장엄한 일출을 선사합니다.",
       "responseHash": "19ab99f9cacc4e3d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2966,
@@ -3210,7 +3209,8 @@
       "webSearchQueries": [
         "한국 새해 일출 명소 추천 5곳"
       ],
-      "timestamp": "2026-09-09T11:12:04.129Z"
+      "timestamp": "2026-09-09T11:12:04.129Z",
+      "raw_hash": "3ef3c6d69eb03f54"
     },
     {
       "questionId": "YS-D08",
@@ -3220,7 +3220,6 @@
       "lang": "ko",
       "question": "여수 여행의 단점이나 불편한 점이 뭐야? 안 가는 이유가 있다면?",
       "rep": 2,
-      "response": "여수 여행의 대표적인 단점과 불편한 점으로는 **극심한 교통체증과 주차 난전**이 꼽힙니다. \n\n특히 주말이나 성수기에는 돌산대교나 주요 관광지로 향하는 도로가 마비되어 이동에 큰 시간이 소요됩니다. 또한 성수기 시즌의 **높은 숙박비와 음식값 대비 만족도 저하**, 일부 업소의 **바가지요금 및 불친절 논란**도 여행을 망설이게 하는 주요 이유입니다. \n\n이외에도 대중교통 이용이 다소 불편하고 유명 관광지에 인파가 지나치게 몰려 여유로운 휴식을 즐기기 어렵다는 점이 단점으로 지적됩니다.",
       "responseHash": "f8a813e291c8b4e2",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2445,
@@ -3251,7 +3250,8 @@
         "여수 관광 불만족 이유",
         "여수 여행 단점 불편한점"
       ],
-      "timestamp": "2026-09-09T11:12:03.607Z"
+      "timestamp": "2026-09-09T11:12:03.607Z",
+      "raw_hash": "1bfde15ab57fb9f0"
     },
     {
       "questionId": "YS-E01",
@@ -3261,7 +3261,6 @@
       "lang": "ko",
       "question": "남해안 바다 여행으로 여수와 통영 중 어디가 나아? 장단점 비교해줘.",
       "rep": 2,
-      "response": "남해안 바다 여행으로 **여수**와 **통영**은 각각 뚜렷한 매력을 지니고 있어 여행 취향에 따라 선택하는 것이 좋습니다.\n\n* **여수 (화려한 야경과 트렌디한 인프라)**\n  * **장점:** '여수 밤바다'로 대표되는 화려한 야경과 낭만포차, 해상케이블카 등 즐길 거리가 다양합니다. KTX 등 대중교통 접근성이 좋고, 대형 리조트나 호텔 등 숙박 인프라가 잘 갖춰져 있습니다.\n  * **단점:** 인기 관광지에 사람이 몰려 주말이나 성수기에는 다소 번잡하고 물가가 비싼 편입니다.\n\n* **통영 (고즈넉한 풍경과 섬 여행)**\n  * **장점:** 한려수도의 에메랄드빛 낮 바다와 수많은 섬(소매물도, 연대도 등)을 돌아보는 섬 여행의 재미가 큽니다. 동피랑 벽화마을과 충무김밥, 꿀빵 등 소박하면서도 깊이 있는 로컬 감성과 먹거리가 풍부합니다.\n  * **단점:** 여수에 비해 대중교통으로 이동하기는 상대적으로 불편하며, 밤 시간대에 즐길 수 있는 화려한 나이트 페스티벌이나 콘텐츠는 여수보다 적은 편입니다.\n\n**요약하자면**, 활기찬 분위기와 멋진 야경, 편리한 리조트 여행을 원한다면 **여수**를, 아름다운 다도해 풍경과 한적한 예술가적 감성, 섬 투어를 선호한다면 **통영**을 더 추천합니다.",
       "responseHash": "12a8fc6ca39e26d4",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3638,
@@ -3308,7 +3307,8 @@
         "여수 통영 여행 비교 장단점",
         "여수 관광 통영 관광 특징"
       ],
-      "timestamp": "2026-09-09T11:12:08.983Z"
+      "timestamp": "2026-09-09T11:12:08.983Z",
+      "raw_hash": "e27df929288507e5"
     },
     {
       "questionId": "YS-E02",
@@ -3318,7 +3318,6 @@
       "lang": "ko",
       "question": "항구 도시 관광으로 여수와 부산을 비교하면 어떤 차이가 있어?",
       "rep": 2,
-      "response": "부산은 대도시의 인프라를 바탕으로 해운대·광안리 등 화려하고 역동적인 해변과 다양한 즐길 거리를 제공하는 대규모 해양 도시입니다. 반면 여수는 '여수밤바다'로 대표되는 남해안의 잔잔하고 낭만적인 풍경 속에서 해상케이블카, 포장마차 거리 등 아기자기한 코스를 여유롭게 즐기기 좋은 감성 여행지입니다. 따라서 활기찬 도시 분위기 속에서 대형 관광을 원한다면 부산을, 비교적 차분하고 낭만적인 휴식을 원한다면 여수가 더 잘 어울립니다.",
       "responseHash": "d5bed01b5bf83d9e",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2510,
@@ -3349,7 +3348,8 @@
       "webSearchQueries": [
         "여수 부산 관광 차이"
       ],
-      "timestamp": "2026-09-09T11:12:07.855Z"
+      "timestamp": "2026-09-09T11:12:07.855Z",
+      "raw_hash": "16be373a16b4d148"
     },
     {
       "questionId": "YS-E03",
@@ -3359,7 +3359,6 @@
       "lang": "ko",
       "question": "3박4일 바다 휴양 여행으로 여수와 제주도 중 어디를 추천해?",
       "rep": 2,
-      "response": "진정한 '바다 휴양'과 여유로운 자연을 만끽하고 싶다면 **제주도**를 더 추천합니다. 제주도는 3박 4일 동안 에메랄드빛 바다와 해안도로 드라이브, 오션뷰 리조트 등 천혜의 대자연 속에서 온전한 힐링을 즐기기에 제격입니다.\n\n반면 **여수**는 아름다운 밤바다와 해상케이블카, 낭만포차, 그리고 풍성한 남도 미식(간장게장, 해물삼합 등)을 알차게 즐기는 '식도락·관광' 여행에 더 특화되어 있습니다. 이동 동선을 줄이며 화려한 야경과 맛있는 음식을 선호한다면 여수도 좋은 선택입니다.",
       "responseHash": "d10854edd223e3ff",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2613,
@@ -3391,7 +3390,8 @@
         "제주도 3박4일 여행 특징 바다 휴양",
         "여수 3박4일 여행 특징"
       ],
-      "timestamp": "2026-09-09T11:12:07.958Z"
+      "timestamp": "2026-09-09T11:12:07.958Z",
+      "raw_hash": "f4f70048328520dc"
     },
     {
       "questionId": "YS-E04",
@@ -3401,7 +3401,6 @@
       "lang": "ko",
       "question": "연인과 바다 감성 여행으로 여수와 강릉 중 어디가 분위기 좋아?",
       "rep": 2,
-      "response": "연인과 함께하는 바다 감성 여행지로는 두 곳 모두 매력적이지만 추구하는 분위기에 따라 선택이 달라집니다. 화려한 야경과 낭만적인 포차 거리, 아기자기한 감성을 원한다면 '여수'가 제격입니다. 반면 탁 트인 동해 바다의 청량감과 여유로운 해변 산책, 예쁜 카페 투어를 선호한다면 '강릉'이 훨씬 좋습니다. 북적이는 야경 데이트는 여수, 시원한 파도 소리와 힐링은 강릉을 추천합니다.",
       "responseHash": "2657ebc1ccd7cb56",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2789,
@@ -3427,7 +3426,8 @@
       "webSearchQueries": [
         "여수 강릉 여행 분위기 비교 연인"
       ],
-      "timestamp": "2026-09-09T11:12:12.978Z"
+      "timestamp": "2026-09-09T11:12:12.978Z",
+      "raw_hash": "dbbf2db67ab53698"
     },
     {
       "questionId": "YS-E05",
@@ -3437,7 +3437,6 @@
       "lang": "ko",
       "question": "해산물 미식 여행으로 여수와 속초 중 어디가 더 맛있어?",
       "rep": 2,
-      "response": "여수와 속초는 각기 다른 매력을 가진 최고의 해산물 미식 여행지입니다. \n\n남해안의 **여수**는 풍부한 남도 손맛을 바탕으로 게장백반, 서대회무침, 돌문어와 삼겹살 등을 함께 굽는 해물삼합, 그리고 독특한 선어회 문화를 즐길 수 있어 깊고 진한 감칠맛이 특징입니다. \n\n반면 동해안의 **속초**는 맑고 차가운 바다에서 잡힌 신선한 활어회와 제철 물회, 대게를 비롯해 오징어순대와 같은 실향민 문화가 담긴 별미를 깔끔하고 담백하게 즐기기 좋습니다. \n\n따라서 진하고 풍성한 남도의 양념과 다채로운 밥상을 원하신다면 여수를, 바다 본연의 신선함과 깔끔하고 시원한 회·물회를 선호하신다면 속초를 더 추천해 드립니다.",
       "responseHash": "5389020a75cf1c7c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2788,
@@ -3463,7 +3462,8 @@
       "webSearchQueries": [
         "여수 속초 해산물 미식 여행 비교"
       ],
-      "timestamp": "2026-09-09T11:12:12.977Z"
+      "timestamp": "2026-09-09T11:12:12.977Z",
+      "raw_hash": "7b5c5d3162183391"
     },
     {
       "questionId": "YS-E06",
@@ -3473,7 +3473,6 @@
       "lang": "en",
       "question": "What are the must-visit attractions in Yeosu, South Korea for first-time international tourists?",
       "rep": 2,
-      "response": "For first-time international tourists visiting Yeosu, South Korea, several must-visit attractions capture the city's scenic coastal beauty, rich history, and famous romantic atmosphere:\n\n* **Yeosu Maritime Cable Car (여수 해상케이블카):** Korea's first over-ocean cable car system connects Dolsan Park and Jasan Park. Riding it offers breathtaking panoramic views of the sparkling blue sea, islands, and bridges, especially during sunset or evening.\n* **Odongdo Island (오동도):** A tranquil nature escape connected to the mainland by a breakwater, famous for its dense forests of camellia trees and scenic coastal walking paths. Visitors can walk or take a quaint tourist train to the island to enjoy lighthouse viewpoints and rocky ocean vistas.\n* **Yi Sun-sin Square & Goso-dong Mural Village (이순신광장 및 고소동천사벽화마을):** This cultural hub honors Korea's legendary naval hero Admiral Yi Sun-sin and features a full-scale replica of his iconic Turtle Ship. Just behind the square, the mural village winds up a hillside, offering colorful alleyways, unique cafés, and stunning elevated views of the port.\n* **Hyangiram Hermitage (향일암):** Perched dramatically on a steep cliffside overlooking the southern sea, this historic temple is one of the country's premier spots for watching the sunrise. Walking through its unique natural rock tunnels and forested trails makes for an unforgettable cultural experience.\n* **Dolsan Park & Yeosu Nightscape (돌산공원):** Immortalized by the famous hit song \"Yeosu Night Sea,\" the city comes alive after dark. Dolsan Park provides the best vantage point to watch the brightly lit Dolsan Bridge and bustling harbor transform the coastline into a romantic nighttime spectacle.",
       "responseHash": "c073e4a3478c36d5",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 4219,
@@ -3515,7 +3514,8 @@
         "Yeosu must visit attractions first time tourists",
         "여수 여행 필수 코스 추천"
       ],
-      "timestamp": "2026-09-09T11:12:14.408Z"
+      "timestamp": "2026-09-09T11:12:14.408Z",
+      "raw_hash": "4bb9d6291cfa2ec6"
     },
     {
       "questionId": "YS-E07",
@@ -3525,7 +3525,6 @@
       "lang": "en",
       "question": "What is 'Yeosu Night Sea' (여수밤바다) and why is it so famous among Korean travelers?",
       "rep": 2,
-      "response": "**'Yeosu Night Sea' (여수밤바다)** refers both to the actual nocturnal scenery of the coastal port city of Yeosu in South Korea and the cultural phenomenon sparked by the hit 2012 indie-ballad song of the same name by Busker Busker. Visually, it is characterized by the shimmering reflections of colorful city lights, illuminated bridges (like Dolsan Bridge and Geobukseon Bridge), and nearby islands mirrored on the dark, calm southern ocean.\n\nIt is immensely famous among Korean travelers because the song successfully transformed Yeosu into the ultimate symbol of romance and sentimental travel. Travelers flock to experience the melancholic yet dreamy atmosphere firsthand—strolling along Jongpo Marine Park’s romantic pocha (tent bar) street, riding the marine cable car over the dark waters, and sharing the exact mood captured in the lyrics.",
       "responseHash": "73296d016e5bd2a3",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2790,
@@ -3562,7 +3561,8 @@
         "여수밤바다 의미 특징",
         "Yeosu Night Sea meaning famous Korean travelers"
       ],
-      "timestamp": "2026-09-09T11:12:18.403Z"
+      "timestamp": "2026-09-09T11:12:18.403Z",
+      "raw_hash": "79bb9cfba23b8d6b"
     },
     {
       "questionId": "YS-E08",
@@ -3572,7 +3572,6 @@
       "lang": "en",
       "question": "Recommend the top 3 coastal cities in South Korea for foreign tourists who love seafood and ocean views.",
       "rep": 2,
-      "response": "Here are the top 3 coastal cities in South Korea for foreign tourists seeking great ocean views and exceptional seafood:\n\n1. **Busan**\nAs South Korea's premier port city, Busan seamlessly blends stunning coastal cliffs and sandy beaches (like Haeundae and Gwangalli) with a world-class culinary scene. Visitors can enjoy panoramic ocean views from modern landmarks like Busan X the SKY while indulging in ultra-fresh seafood at the massive Jagalchi Fish Market.\n\n2. **Yeosu**\nFamed for its romantic nightscapes and picturesque islands dotting the southern sea, Yeosu offers breathtaking coastal vistas from spots like the Yeosu Marine Cable Car and Dolsan Island. It is a paradise for food lovers, renowned for local delicacies like *gatkimchi* (mustard leaf kimchi) and an abundance of fresh raw fish and marinated crabs.\n\n3. **Gangneung**\nLocated on the east coast, Gangneung features crystal-clear blue waters, scenic pine tree forests, and sweeping views of the East Sea. It is famous for its vibrant cafe culture along Anmok Beach and the bustling Sokcho/Gangneung coastal alleyways where you can savor freshly caught sashimi and snow crab.",
       "responseHash": "926e86162a4f65f5",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2938,
@@ -3603,7 +3602,8 @@
       "webSearchQueries": [
         "best coastal cities south korea seafood ocean views tourists"
       ],
-      "timestamp": "2026-09-09T11:12:18.551Z"
+      "timestamp": "2026-09-09T11:12:18.551Z",
+      "raw_hash": "ef491eda45a1525c"
     },
     {
       "questionId": "YS-E09",
@@ -3613,7 +3613,6 @@
       "lang": "en",
       "question": "What is the economic significance of the Yeosu National Industrial Complex for South Korea's petrochemical industry?",
       "rep": 2,
-      "response": "The Yeosu National Industrial Complex is the cornerstone of South Korea's petrochemical industry, serving as the country's largest production base for fundamental raw materials like ethylene. It accounts for roughly half of South Korea's total petrochemical production capacity and features world-class logistics infrastructure tailored for international trade. Major domestic conglomerates operate extensive refining and manufacturing facilities here, driving significant export volumes and providing a vital backbone for the nation's manufacturing supply chain.",
       "responseHash": "c0c159c0d85ed6f3",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2280,
@@ -3640,7 +3639,8 @@
         "Yeosu National Industrial Complex petrochemical industry economic significance",
         "여수국가산업단지 석유화학 경제적 의미"
       ],
-      "timestamp": "2026-09-09T11:12:17.893Z"
+      "timestamp": "2026-09-09T11:12:17.893Z",
+      "raw_hash": "ca7e54a625d1e9f5"
     },
     {
       "questionId": "YS-E10",
@@ -3650,7 +3650,6 @@
       "lang": "en",
       "question": "What is the 2026 Yeosu World Island Expo about and how can international visitors attend?",
       "rep": 2,
-      "response": "The **2026 Yeosu World Island Exhibition** (running from September 5 to November 4, 2026) is the world’s first international exposition dedicated entirely to islands. Held under the theme *\"Islands: Connecting the Ocean and the Future,\"* the 61-day global event takes place across Yeosu’s Dolsan Jinmo District, Yeosu Expo Ocean Park, and nearby island communities like Gaedo and Geumodo. It highlights global island cultures, marine ecosystems, climate change solutions, and cutting-edge maritime technologies through immersive media art pavilions, international exchange programs, and cultural performances.\n\nInternational visitors can attend by traveling to Yeosu, which is easily accessible from Seoul via a 3-hour KTX high-speed train ride or a domestic flight. Tickets can be purchased on-site or online through global ticketing platforms and major travel agencies (such as Trip.com). Visitors can explore the main exhibition halls, utilize dedicated free shuttle bus routes connecting key sites, and participate in local island tours and cultural events.",
       "responseHash": "b20812e9be9a672f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2545,
@@ -3687,7 +3686,8 @@
         "2026 Yeosu World Island Expo international visitors tickets",
         "2026 Yeosu World Island Expo dates theme overview"
       ],
-      "timestamp": "2026-09-09T11:12:22.301Z"
+      "timestamp": "2026-09-09T11:12:22.301Z",
+      "raw_hash": "b540e6f2cdf10da9"
     },
     {
       "questionId": "YS-F01",
@@ -3697,7 +3697,6 @@
       "lang": "ko",
       "question": "여수시 인구가 줄고 있다는데 현재 인구수와 감소 원인이 뭐야?",
       "rep": 2,
-      "response": "2026년 8월 말 기준 여수시의 인구수는 **25만 9,857명**으로, 마지노선으로 여겨지던 26만 명 선이 무너졌습니다.\n\n인구 감소의 주요 원인으로는 **여수국가산단을 지탱하는 석유화학산업의 장기 불황과 구조 재편**으로 인한 양질의 일자리 부족이 꼽힙니다. 이로 인해 취업과 진학을 원하는 30·40대 경제활동 인구와 자녀, 특히 20대 청년층이 수도권이나 타지역으로 대거 유출되고 있습니다. 여기에 저출생·고령화에 따른 자연 감소(사망자 수 > 출생아 수)가 겹치면서 인구 감소세가 가속화하고 있습니다.",
       "responseHash": "50ee00d9c36958dc",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2546,
@@ -3723,7 +3722,8 @@
       "webSearchQueries": [
         "여수시 인구 2025 2026 감소 원인"
       ],
-      "timestamp": "2026-09-09T11:12:22.302Z"
+      "timestamp": "2026-09-09T11:12:22.302Z",
+      "raw_hash": "0ae31937abb79226"
     },
     {
       "questionId": "YS-F02",
@@ -3733,7 +3733,6 @@
       "lang": "ko",
       "question": "서울에서 여수까지 KTX로 얼마나 걸리고 요금은 얼마야?",
       "rep": 2,
-      "response": "서울(용산역·서울역 등)에서 여수엑스포역까지 KTX를 이용할 경우 **소요 시간은 약 3시간~3시간 20분** 정도가 소요됩니다.\n\nKTX **일반실 요금은 어른 기준 약 45,400원 ~ 47,500원**이며, 출발하는 역(서울역 또는 용산역)이나 열차 편에 따라 약간의 차이가 있습니다. 정확한 시간표와 예약은 코레일 '레츠코레일' 공식 홈페이지나 '코레일톡' 앱을 통해 확인하시는 것을 추천합니다.\n\n[코레일 공식 홈페이지 바로가기](https://www.letskorail.com)",
       "responseHash": "2f5183788c29394c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2340,
@@ -3766,7 +3765,8 @@
         "서울에서 여수 KTX 소요시간 요금",
         "용산 여수 KTX 시간 요금"
       ],
-      "timestamp": "2026-09-09T11:12:22.097Z"
+      "timestamp": "2026-09-09T11:12:22.097Z",
+      "raw_hash": "d3cc1e0031dd0704"
     },
     {
       "questionId": "YS-F03",
@@ -3776,7 +3776,6 @@
       "lang": "ko",
       "question": "여수시 귀농귀촌이나 청년 이주 정착 지원금 혜택이 있어?",
       "rep": 2,
-      "response": "여수시는 귀농귀촌인과 청년 이주 정착을 돕기 위해 다양한 지원 혜택을 제공하고 있습니다. \n\n귀농인의 경우 농촌 전입일과 요건에 따라 **정착금(월 30만 원씩 12개월, 최대 360만 원), 이사 비용(최대 100만 원), 주택 수리비(최대 1,000만 원)** 등을 지원받을 수 있습니다. \n\n청년 이주 및 정착 분야에서는 주거와 일자리를 중심으로 대규모 예산이 투입되어 **청년 전세자금 대출이자 지원, 청년부부 결혼축하금, 여수형 청년임대주택 공급** 등의 혜택이 주어집니다. 또한 창업 청년을 위한 사업화 자금 지원 및 자격증 응시료 지원 등 단계별 맞춤 지원 사업도 활발히 운영되고 있습니다.\n\n더 자세한 신청 조건과 구체적인 접수 시기는 여수시청 홈페이지나 여수시 농업기술센터 귀농귀촌 종합상담실에서 확인할 수 있습니다.",
       "responseHash": "5a30b19095486892",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2838,
@@ -3808,7 +3807,8 @@
         "여수시 귀농귀촌 지원금 혜택",
         "여수시 청년 이주 정착 지원금"
       ],
-      "timestamp": "2026-09-09T11:12:26.345Z"
+      "timestamp": "2026-09-09T11:12:26.345Z",
+      "raw_hash": "115db402bf07bdf2"
     },
     {
       "questionId": "YS-F04",
@@ -3818,7 +3818,6 @@
       "lang": "ko",
       "question": "여수시 관할 섬이 몇 개야? 유인도 무인도 각각 알려줘.",
       "rep": 2,
-      "response": "여수시 관할의 섬은 총 **365개**입니다. \n\n이 중 사람이 거주하는 **유인도는 약 45~48개**이며, 사람이 살지 않는 **무인도는 약 317~320개**로 이루어져 있습니다. (자료 집계 시점이나 연륙도 포함 여부에 따라 유인도와 무인도의 세부 숫자는 매체별로 소폭 차이가 있을 수 있습니다.)",
       "responseHash": "8e8cba9f52e491fe",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2328,
@@ -3849,7 +3848,8 @@
       "webSearchQueries": [
         "여수시 관할 섬 개수 유인도 무인도"
       ],
-      "timestamp": "2026-09-09T11:12:25.835Z"
+      "timestamp": "2026-09-09T11:12:25.835Z",
+      "raw_hash": "4b304457831cff8a"
     },
     {
       "questionId": "YS-F05",
@@ -3859,7 +3859,6 @@
       "lang": "ko",
       "question": "여수 경제가 석유화학과 관광에 너무 의존하는 건 아닐까? 리스크는?",
       "rep": 2,
-      "response": "여수 경제가 석유화학과 관광에 편중되어 있는 것은 사실이며, 이로 인해 구조적 리스크가 매우 큽니다. \n\n첫째, 주력 산업인 석유화학은 중국발 공급 과잉과 글로벌 경기 침체로 가동률이 하락하고 대규모 설비 감축(구조조정)이 진행되면서 산단 전반과 협력업체까지 연쇄 타격을 입고 있습니다. 둘째, 관광 산업 역시 최근 콘텐츠 노후화와 일부 업소의 바가지요금·불친절 논란 등으로 관광객이 감소세를 보이며 지역 상권 침체로 직결되고 있습니다. 셋째, 이처럼 제조업과 서비스업이 동시에 흔들릴 경우 대규모 일자리 소멸과 인구 유출, 지역 소멸 가속화라는 치명적인 경제적 타격을 피하기 어렵습니다.",
       "responseHash": "f41f98f4b4b398fa",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2533,
@@ -3890,7 +3889,8 @@
       "webSearchQueries": [
         "여수 경제 석유화학 관광 의존도 리스크"
       ],
-      "timestamp": "2026-09-09T11:12:26.040Z"
+      "timestamp": "2026-09-09T11:12:26.040Z",
+      "raw_hash": "dcce2762794c99f7"
     },
     {
       "questionId": "YS-A01",
@@ -3900,7 +3900,6 @@
       "lang": "ko",
       "question": "여수밤바다가 뭐야? 노래 제목이야 관광지야?",
       "rep": 3,
-      "response": "'여수밤바다'는 원래 2012년에 발표된 밴드 버스커버스커(장범준 작사·작곡)의 **유명한 노래 제목**입니다. \n\n하지만 이 노래가 초대박을 터뜨리면서 여수의 아름다운 야경과 바다를 뜻하는 **대표적인 관광 명칭이자 문화적 상징**으로 자리 잡았습니다. 현재는 종포해양공원, 돌산대교, 하멜등대 등 여수의 야경을 즐기는 해안 공간 전체를 아우르는 관광의 대명사로 불리고 있습니다.",
       "responseHash": "6916431ffec024d4",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2133,
@@ -3936,7 +3935,8 @@
       "webSearchQueries": [
         "여수밤바다 노래 관광지"
       ],
-      "timestamp": "2026-09-09T11:12:30.493Z"
+      "timestamp": "2026-09-09T11:12:30.493Z",
+      "raw_hash": "9396da0e2e662f82"
     },
     {
       "questionId": "YS-A02",
@@ -3946,7 +3946,6 @@
       "lang": "ko",
       "question": "여수 해상케이블카 요금, 운영시간, 크리스탈 캐빈 차이 알려줘.",
       "rep": 3,
-      "response": "여수 해상케이블카의 운영시간은 매일 **09:30부터 21:30까지**이며, 주말이나 성수기에는 탄력적으로 연장 운영됩니다. \n\n요금은 대인 기준 **일반 캐빈 왕복 17,000원(편도 14,000원)**, **크리스탈 캐빈 왕복 24,000원(편도 19,000원)**입니다. \n\n일반 캐빈과 크리스탈 캐빈의 가장 큰 차이는 **바닥 재질과 탑승 인원**입니다. 일반 캐빈은 불투명한 바닥에 최대 8인승인 기본형인 반면, 크리스탈 캐빈은 발아래가 훤히 내려다보이는 투명 강화유리 바닥으로 최대 6인승이며 더욱 짜릿한 스릴과 탁 트인 조망을 제공합니다.",
       "responseHash": "401b8140d85d7844",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2255,
@@ -3972,7 +3971,8 @@
       "webSearchQueries": [
         "여수 해상케이블카 요금 운영시간 크리스탈 캐빈 차이"
       ],
-      "timestamp": "2026-09-09T11:12:30.615Z"
+      "timestamp": "2026-09-09T11:12:30.615Z",
+      "raw_hash": "36c83c8f209b9c68"
     },
     {
       "questionId": "YS-A03",
@@ -3982,7 +3982,6 @@
       "lang": "ko",
       "question": "2012 여수세계박람회 이후 박람회장 시설이 지금 어떻게 활용되고 있어?",
       "rep": 3,
-      "response": "2012 여수세계박람회장(여수엑스포장)은 아쿠아플라넷, 스카이타워, 빅오(Big-O) 쇼 등 주요 시설을 중심으로 시민들의 휴식처이자 해양 관광 명소로 활용되고 있습니다. \n\n이후 민간 매각 대신 공공성 강화를 위해 관리 주체가 여수광양항만공사로 전환되었으며, 초현대적 해양 복합 공간 및 글로벌 해양관광 거점으로 조성하기 위한 개발 계획이 추진되고 있습니다. 최근에는 대형 K-POP 공연장(아레나) 유치 추진과 함께, '2026여수세계섬박람회'의 주요 행사장 및 부대 공간으로 활용되며 활력을 더하고 있습니다.",
       "responseHash": "a99670af560aaf4f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2535,
@@ -4019,7 +4018,8 @@
         "여수엑스포장 현재 활용",
         "2012 여수세계박람회장 사후 활용 현황"
       ],
-      "timestamp": "2026-09-09T11:12:30.895Z"
+      "timestamp": "2026-09-09T11:12:30.895Z",
+      "raw_hash": "305091169bf8f7d0"
     },
     {
       "questionId": "YS-A04",
@@ -4029,7 +4029,6 @@
       "lang": "ko",
       "question": "2026 여수세계섬박람회 주제, 일정, 장소, 참가국 규모 알려줘.",
       "rep": 3,
-      "response": "2026 여수세계섬박람회의 주제는 **\"섬, 바다와 미래를 잇다\"**이며, 세계 최초로 '섬'을 주제로 개최되는 국제 행사이빈다. \n\n일정은 **2026년 9월 5일부터 11월 4일까지** 총 61일간 진행되며, 장소는 주행사장인 **여수 돌산 진모지구**와 부행사장인 **여수세계박람회장, 개도·금오도 일원**입니다. \n\n참가 규모는 프랑스, 그리스, 에스토니아 등을 포함하여 **세계 30개국**이 참여하여 섬의 생태적 가치와 미래 비전을 조명하고 있습니다.",
       "responseHash": "1a973e4fb6c10b9d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2381,
@@ -4065,7 +4064,8 @@
       "webSearchQueries": [
         "2026 여수세계섬박람회 주제 일정 장소 참가국 규모"
       ],
-      "timestamp": "2026-09-09T11:12:34.485Z"
+      "timestamp": "2026-09-09T11:12:34.485Z",
+      "raw_hash": "a8b5dd7b20a97dbe"
     },
     {
       "questionId": "YS-A05",
@@ -4075,7 +4075,6 @@
       "lang": "ko",
       "question": "여수 오동도 동백꽃 절정 시기와 가는 방법, 입장료 알려줘.",
       "rep": 3,
-      "response": "여수 오동도의 동백꽃 절정 시기는 **3월 중순부터 3월 말**까지이며, 이 시기에 방문하면 섬 전체가 붉은 동백꽃으로 물드는 장관을 볼 수 있습니다.\n\n오동도는 **입장료가 무료**이며, 육지에서 섬 입구까지는 약 768m의 방파제 길을 따라 **도보(약 15~20분)**로 걸어가거나 유료 **동백열차(편도 성인 1,000원)**를 타고 이동할 수 있습니다.\n\n관련 정보는 [여수시 문화관광 공식 홈페이지](http://tour.yeosu.go.kr/tour/travel/10tour/odongdo)에서 자세히 확인하실 수 있습니다.",
       "responseHash": "e4afa7546c9971f9",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2378,
@@ -4102,7 +4101,8 @@
       "webSearchQueries": [
         "여수 오동도 동백꽃 절정 시기 입장료 가는 방법"
       ],
-      "timestamp": "2026-09-09T11:12:34.481Z"
+      "timestamp": "2026-09-09T11:12:34.481Z",
+      "raw_hash": "7430753a976d2a79"
     },
     {
       "questionId": "YS-A06",
@@ -4112,7 +4112,6 @@
       "lang": "ko",
       "question": "여수 향일암 일출 명소 가는 법과 해맞이 축제 일정은?",
       "rep": 3,
-      "response": "여수 향일암은 전남 여수시 돌산읍 임포마을에 위치해 있으며, 자가용이나 여수 시내에서 출발하는 대중교통(111번 등 시내버스)을 이용해 방문할 수 있습니다. 해맞이 축제 기간에는 교통 혼잡을 막기 위해 인근 임시 주차장(방죽포 해수욕장 등)에 차를 대고 셔틀버스를 이용해 진입하게 됩니다.\n\n매년 열리는 **‘여수 향일암 일출제’**는 통상 12월 31일부터 다음 해 1월 1일까지 이틀간 돌산읍 임포마을(향일암) 일원에서 개최됩니다. 축제 기간에는 제야의 종 타종식, 소원 촛불 밝히기, 신년 불꽃쇼를 비롯해 새해 소원지 달기 및 다양한 문화 체험 행사가 진행됩니다.\n\n관련 정보는 [여수시 문화관광 홈페이지](https://www.yeosu.go.kr/tour)에서 자세히 확인하실 수 있습니다.",
       "responseHash": "52a6cb2b02857655",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2683,
@@ -4149,7 +4148,8 @@
       "webSearchQueries": [
         "여수 향일암 가는법 해맞이 축제 일정"
       ],
-      "timestamp": "2026-09-09T11:12:34.787Z"
+      "timestamp": "2026-09-09T11:12:34.787Z",
+      "raw_hash": "26a9798f7462c753"
     },
     {
       "questionId": "YS-A07",
@@ -4159,7 +4159,6 @@
       "lang": "ko",
       "question": "여수 빅오쇼 운영 기간과 시간, 관람 요금은 얼마야?",
       "rep": 3,
-      "response": "여수 빅오쇼(빅오 해상분수쇼)의 2026년 운영 기간은 **4월 18일부터 11월 8일까지**이며, 매주 월요일과 화요일은 시설 점검을 위해 휴장합니다. 운영 시간은 기본적으로 **오후 8시**에 시작하여 약 30분간 진행되나, 여름 성수기(7월 22일~8월 18일)에는 오후 8시와 21시로 나누어 1일 2회 운영됩니다. 현재 해상분수쇼는 남녀노소 누구나 **무료**로 자유롭게 관람할 수 있습니다.\n\n출처: [여수시청 관광문화 공식 안내](https://www.yeosu.go.kr/tour/build/images/1445/14454970/1445497001.jpg/666x1x70/666x1_1445497001.jpg), [여수엑스포관리 주식회사](https://www.expo2012.kr/web/theme/yeosu/img/sub013_17.png)",
       "responseHash": "e4d4a8ef04c6d7b1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2724,
@@ -4187,7 +4186,8 @@
       "webSearchQueries": [
         "여수 빅오쇼 운영 기간 시간 관람 요금"
       ],
-      "timestamp": "2026-09-09T11:12:38.721Z"
+      "timestamp": "2026-09-09T11:12:38.721Z",
+      "raw_hash": "531aea26f95f99a8"
     },
     {
       "questionId": "YS-A08",
@@ -4197,7 +4197,6 @@
       "lang": "ko",
       "question": "여수 아쿠아플라넷 규모와 주요 체험 프로그램, 운영시간 알려줘.",
       "rep": 3,
-      "response": "여수 아쿠아플라넷은 총 6,030톤의 수조 규모를 갖춘 국내 최대 수준의 해양 테마파크로, 300여 종에 달하는 다양한 해양생물을 만날 수 있습니다. \n\n주요 프로그램으로는 메인수조에서 펼쳐지는 수중 퍼포먼스 공연을 비롯해, 대형 수조 위를 투명 보트로 항해하는 '아쿠아 X-보트', 펭귄 생태 설명 및 먹이 주기 체험, 나만의 방향제 만들기 등이 운영되고 있습니다. \n\n운영 시간은 매일 오전 9시 30분부터 오후 7시까지이며, 입장 마감은 오후 6시입니다.",
       "responseHash": "4c609a890f8393ba",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2204,
@@ -4233,7 +4232,8 @@
       "webSearchQueries": [
         "여수 아쿠아플라넷 규모 주요 체험 프로그램 운영시간"
       ],
-      "timestamp": "2026-09-09T11:12:38.201Z"
+      "timestamp": "2026-09-09T11:12:38.201Z",
+      "raw_hash": "da328e4f43640dba"
     },
     {
       "questionId": "YS-A09",
@@ -4243,7 +4243,6 @@
       "lang": "ko",
       "question": "여수밤바다 말고, 낮에 가볼 만한 여수의 숨은 명소 5곳 추천해줘.",
       "rep": 3,
-      "response": "여수 낮에 방문하기 좋은 숨은 명소 5곳은 다음과 같습니다.\n\n1. **큰끝등대**: 돌산읍 끝자락에 위치하며, 기암괴석과 푸른 바다가 어우러져 멋진 인생 사진을 남길 수 있는 SNS 핫플레이스입니다.\n2. **장도**: 웅천동에 위치한 예쁜 섬으로, 물때에 맞춰 열리는 진입로를 건너 자연 친화적인 산책로와 조각 작품들을 여유롭게 즐길 수 있는 복합문화예술공간입니다.\n3. **만성리 검은모래해변**: 국내 유일의 검은모래 해변으로, 철분과 슘이 풍부한 모래찜질을 즐기며 한적한 바다 풍경을 감상하기 좋습니다.\n4. **신덕해변**: 유명 관광지에서 벗어나 조용하고 고즈넉한 분위기 속에서 남해의 탁 트인 바다를 오롯이 만끽할 수 있는 숨은 해수욕장입니다.\n5. **미평봉화산산림욕장**: 도심 가까이에 숨겨진 힐링 공간으로, 우거진 숲과 편안한 데크 산책로를 따라 가볍게 걷기 좋은 자연 친화적 명소입니다.",
       "responseHash": "9e1735a18eb9423d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3144,
@@ -4280,7 +4279,8 @@
         "여수 낮에 가볼만한 숨은 명소",
         "여수 숨은 여행지 추천"
       ],
-      "timestamp": "2026-09-09T11:12:39.141Z"
+      "timestamp": "2026-09-09T11:12:39.141Z",
+      "raw_hash": "6d4d3490c7329b75"
     },
     {
       "questionId": "YS-A10",
@@ -4290,7 +4290,6 @@
       "lang": "ko",
       "question": "여수시 연간 관광객 수가 몇 명이야? 1,000만 명 넘어?",
       "rep": 3,
-      "response": "네, 여수시의 연간 관광객 수는 **1,000만 명을 가볍게 넘어섭니다.** \n\n여수는 꾸준히 관광객이 찾아오는 대표적인 해양관광 도시로, 최근 몇 년간 매년 1,000만 명 이상의 방문객을 기록하며 '천만 관광도시'의 명성을 이어가고 있습니다.",
       "responseHash": "0f63c6975b87759f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2124,
@@ -4316,7 +4315,8 @@
       "webSearchQueries": [
         "여수 관광객 1000만 명"
       ],
-      "timestamp": "2026-09-09T11:12:42.466Z"
+      "timestamp": "2026-09-09T11:12:42.466Z",
+      "raw_hash": "f3dc6af04bdd163f"
     },
     {
       "questionId": "YS-B01",
@@ -4326,7 +4326,6 @@
       "lang": "ko",
       "question": "여수국가산업단지가 한국 석유화학 산업에서 차지하는 위상과 규모는?",
       "rep": 3,
-      "response": "여수국가산업단지는 국내 최대 규모의 석유화학 원료 생산기지로, 세계 7위 수준의 경쟁력을 갖춘 한국 석유화학 산업의 핵심 중추입니다. \n\n이곳은 국내 전체 에틸렌 생산량의 절반 이상을 담당하며, 석유화학 산업 전 분야에서 40~50%에 달하는 압도적인 생산 능력을 보유하고 있습니다. 수많은 대기업 장치산업과 우수한 물류 인프라를 바탕으로 국가 경제와 지역 성장의 강력한 기반 역할을 수행해 왔습니다. \n\n다만 최근에는 글로벌 공급 과잉과 친환경 전환 요구 속에서 범용 제품 중심의 구조적 한계를 극복하고 고부가가치·저탄소 산업으로 체질을 개선해야 하는 과제를 안고 있습니다.",
       "responseHash": "22689974fafd8a50",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2434,
@@ -4352,7 +4351,8 @@
       "webSearchQueries": [
         "여수국가산업단지 석유화학 산업 위상 규모"
       ],
-      "timestamp": "2026-09-09T11:12:42.776Z"
+      "timestamp": "2026-09-09T11:12:42.776Z",
+      "raw_hash": "f9ae9daf015cf65c"
     },
     {
       "questionId": "YS-B02",
@@ -4362,7 +4362,6 @@
       "lang": "ko",
       "question": "여수국가산업단지 탄소중립과 그린에너지 전환 계획이 있어?",
       "rep": 3,
-      "response": "여수국가산업단지는 탄소중립과 그린에너지 전환을 위해 CCUS(이산화탄소 포집·활용·저장) 클러스터 구축과 석유화학 공정의 무탄소 연료 전환 등 다각적인 계획을 추진하고 있습니다. \n\n구체적으로는 율촌 융복합물류단지 등을 중심으로 연간 수백만 톤의 탄소 감축을 목표로 하는 CCUS 집적단지 조성이 진행 중이며, 석유화학 탄소 배출의 큰 비중을 차지하는 납사분해공정(NCC)의 열원을 수소·암모니아 같은 무탄소 연료로 바꾸는 기술 개발도 함께 추진되고 있습니다. 또한 한국화학연구원 '탄소중립화학공정실증센터'를 통한 저탄소 촉매 및 실증 기술 지원, 디지털 기반 자원순환 시범산단 사업 등을 통해 친환경·저탄소 산업 생태계로의 전환에 속도를 내고 있습니다.",
       "responseHash": "01233b50e23ba634",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2760,
@@ -4399,7 +4398,8 @@
         "여수국가산업단지 탄소중립 그린에너지 전환 계획",
         "여수산단 탄소중립 로드맵"
       ],
-      "timestamp": "2026-09-09T11:12:43.102Z"
+      "timestamp": "2026-09-09T11:12:43.102Z",
+      "raw_hash": "be2728e125485520"
     },
     {
       "questionId": "YS-B03",
@@ -4409,7 +4409,6 @@
       "lang": "ko",
       "question": "여수산단에서 부생수소 활용이나 블루수소 생산 계획은?",
       "rep": 3,
-      "response": "여수산단은 국내 부생수소 생산량의 상당 부분을 차지하는 거점으로, 이를 활용한 수소 생태계 구축과 블루수소 생산 추진이 활발히 진행 중입니다. 대표적으로 여수 묘도 항만재개발 부지에는 2030년을 목표로 연간 8만 톤의 블루수소를 생산하고 탄소포집·저장(CCUS) 시설을 구축하는 대규모 클러스터 조성 사업이 추진되고 있습니다. 또한 산단 내 공정 부생가스와 산업부산물을 합성가스로 전환해 전력과 스팀을 생산하는 디지털 자원순환 사업 등 탄소중립형 에너지 전환 계획도 함께 추진되고 있습니다.",
       "responseHash": "1b25071f43812cb0",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2216,
@@ -4441,7 +4440,8 @@
         "여수 국가산단 수소 생태계 구축 블루수소",
         "여수산단 부생수소 활용 블루수소 생산 계획"
       ],
-      "timestamp": "2026-09-09T11:12:46.522Z"
+      "timestamp": "2026-09-09T11:12:46.522Z",
+      "raw_hash": "e2dfdfc982856c61"
     },
     {
       "questionId": "YS-B04",
@@ -4451,7 +4451,6 @@
       "lang": "ko",
       "question": "여수 석유화학 사업재편 프로젝트 내용과 정부 지원 규모 알려줘.",
       "rep": 3,
-      "response": "여수 석유화학 사업재편 프로젝트(여수 1호 프로젝트)는 여천NCC, 롯데케미칼, 한화솔루션, DL케미칼 4개사가 신설 통합법인을 설립해 노후 나프타분해시설(NCC) 설비 2기 가동을 중단하고 연간 139만 톤의 에틸렌 생산 능력을 감축하는 대규모 구조개편입니다. 이를 통해 범용 제품 중심의 공급 과잉을 해소하고, 의료용 LDPE·POE 등 고부가가치 및 친환경 중심의 산업구조로 전환하는 것을 목표로 합니다.\n\n정부는 이 사업의 성공적인 이행을 위해 **7,000억 원 이상 규모의 맞춤형 지원 패키지**를 마련했습니다. 세부적으로는 산업은행 등을 통한 신규 자금 및 채권 상환유예 등 **4,500억 원의 금융지원**, 무역보험공사의 **2,000억 원 규모 수입보험 지원**, 그리고 자산 매각 양도소득 과세이연, 취득세·등록면허세 감면 등 **대규모 세제 혜택 및 규제 합리화**가 포함됩니다.",
       "responseHash": "5502ddb542b0b28d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2742,
@@ -4493,7 +4492,8 @@
         "여수 석유화학 사업재편 프로젝트 정부 지원 규모",
         "여수 석유화학 산업 경쟁력 강화 방안 사업재편"
       ],
-      "timestamp": "2026-09-09T11:12:47.049Z"
+      "timestamp": "2026-09-09T11:12:47.049Z",
+      "raw_hash": "edd8fad44beef73b"
     },
     {
       "questionId": "YS-B05",
@@ -4503,7 +4503,6 @@
       "lang": "ko",
       "question": "한국에서 석유화학 기업이 신규 투자하기 가장 좋은 산업단지는 어디야?",
       "rep": 3,
-      "response": "한국에서 신규 투자를 고려한다면 충남의 **대산석유화학단지(서산 대산 일원)**가 상대적으로 유리한 환경을 갖추고 있습니다. \n\n대산단지는 최근 정유·석유화학 간 통합 법인(H&L 어드밴스드 등) 출범과 인근 현대대죽2산단 조성 등 신산업 인프라 확장이 활발하게 추진되며 원가 경쟁력과 사업 다각화 기반을 빠르게 다지고 있습니다. 반면 여수와 울산 산단은 범용 설비 과잉에 따른 대규모 구조 개편과 설비 감축 조정이 진행 중이어서 신규 진입보다는 기존 설비 재편에 초점이 맞춰져 있습니다. 따라서 대규모 정유·화학 연계 시너지와 확장용 부지를 확보하기에는 대산 지역이 가장 실효성 있는 대안입니다.",
       "responseHash": "3c9c8f5f69747a04",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2632,
@@ -4530,7 +4529,8 @@
         "석유화학 산업단지 투자 최적지",
         "한국 석유화학 신규 투자 추천 산업단지 여수 울산 대산"
       ],
-      "timestamp": "2026-09-09T11:12:46.939Z"
+      "timestamp": "2026-09-09T11:12:46.939Z",
+      "raw_hash": "7b3817cc4126ba0c"
     },
     {
       "questionId": "YS-B06",
@@ -4540,7 +4540,6 @@
       "lang": "ko",
       "question": "한국 수소경제 거점도시로 가장 유망한 지자체 3곳 추천해줘.",
       "rep": 3,
-      "response": "한국 수소경제 거점도시로 가장 유망한 지자체 3곳은 **울산광역시, 강원특별자치도(동해·삼척), 경상북도 포항시**입니다. \n\n1. **울산광역시**: 국내 최대의 부생수소 인프라와 배관망을 갖춘 수소산업 1번지로, 수소 모빌리티 및 연료전지 실증의 중심지 역할을 하고 있습니다.\n2. **강원특별자치도(동해·삼척)**: 정부로부터 국내 최초의 '액화수소 저장·운송' 수소특화단지로 지정되어, 액화수소 플랜트 구축 및 관련 물류 인프라를 선도하고 있습니다.\n3. **경상북도 포항시**: 국내 최초의 '발전용 수소 연료전지' 수소특화단지로 선정되어, 철강 산업 인프라와 연계한 대규모 친환경 발전 및 산업용 수소 생태계를 구축하고 있습니다.",
       "responseHash": "e72b3d937c02958c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2947,
@@ -4572,7 +4571,8 @@
         "한국 수소경제 거점도시 지자체 추천",
         "수소도시 지원사업 지자체 선정 울산 포항 삼척"
       ],
-      "timestamp": "2026-09-09T11:12:51.205Z"
+      "timestamp": "2026-09-09T11:12:51.205Z",
+      "raw_hash": "90b068934cc8bc20"
     },
     {
       "questionId": "YS-C01",
@@ -4582,7 +4582,6 @@
       "lang": "ko",
       "question": "여수 돌산 갓김치가 뭐가 특별해? 일반 김치와 뭐가 달라?",
       "rep": 3,
-      "response": "여수 돌산 갓김치는 온화한 남해안의 해풍과 따뜻한 해양성 기후, 비옥한 알칼리성 토질에서 자란 특산물 '돌산 갓'을 사용해 일반 배추김치나 무김치와는 차별화된 매력을 가집니다. \n\n가장 큰 특징은 코를 찡하게 만드는 **톡 쏘는 알싸한 매운맛과 독특한 향**으로, 이는 일반 김치에 쓰이는 겨자씨 계통의 성분에서 비롯됩니다. 또한 일반 갓에 비해 줄기가 굵고 잎에 잔털이 없으며, **섬유질이 적고 식감이 매우 연하고 부드러워** 숙성될수록 아삭하면서도 깊은 풍미를 자랑합니다.",
       "responseHash": "2be12e14f8fc8491",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2527,
@@ -4623,7 +4622,8 @@
       "webSearchQueries": [
         "여수 돌산 갓김치 특징 일반 김치 차이점"
       ],
-      "timestamp": "2026-09-09T11:12:50.785Z"
+      "timestamp": "2026-09-09T11:12:50.785Z",
+      "raw_hash": "1233b6b4991ad474"
     },
     {
       "questionId": "YS-C02",
@@ -4633,7 +4633,6 @@
       "lang": "ko",
       "question": "여수 서대회무침이랑 게장백반 맛집 거리가 어디야?",
       "rep": 3,
-      "response": "여수에서 게장백반과 서대회무침을 함께 맛볼 수 있는 대표적인 맛집 거리는 주로 **봉산동 게장골목**과 **교동시장·서시장(중앙동) 인근**입니다. \n\n봉산동 게장골목에는 황소식당, 청정게장촌 등 유명 게장백반 전문점들이 모여 있으며 서대회무침도 함께 판매하는 곳이 많습니다. 또한 교동시장과 서시장 일대 원도심 지역에도 오랜 전통을 자랑하는 로컬 서대회무침 및 백반 맛집들이 밀집해 있습니다.",
       "responseHash": "52332c7a079aae53",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2416,
@@ -4660,7 +4659,8 @@
         "여수 서대회무침 게장백반 맛집 거리 위치",
         "여수 로터리식당 백화식당 교동시장 서시장 게장 골목"
       ],
-      "timestamp": "2026-09-09T11:12:50.674Z"
+      "timestamp": "2026-09-09T11:12:50.674Z",
+      "raw_hash": "49962c748fa752ae"
     },
     {
       "questionId": "YS-C03",
@@ -4670,7 +4670,6 @@
       "lang": "ko",
       "question": "여수 낭만포차 위치, 운영시간, 대표 메뉴, 예약 방법 알려줘.",
       "rep": 3,
-      "response": "여수 낭만포차의 위치는 전라남도 여수시 하멜로 102(거북선대교 하부 공간 광장)이며, 하멜등대 및 해양공원 인근에 자리 잡고 있습니다. 운영 시간은 연중무휴로 매일 오후 6시부터 다음 날 오전 1시까지 운영됩니다. 대표 메뉴로는 싱싱한 해산물과 삼겹살을 한판에 즐기는 '돌문어해물삼합'이 가장 유명하며, 그 외에 딱새우회나 선어회 등을 함께 선보입니다. 공식 시 지정 낭만포차 구역은 별도의 사전 예약 시스템을 운영하지 않고 현장 방문 및 대기 방식으로 주로 이용되므로, 원활한 이용을 원할 경우 주변의 일반 사설 실내 포차나 인근 맛집의 사전 예약을 활용하는 것을 권장합니다.",
       "responseHash": "bbf8d130a8368683",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2537,
@@ -4701,7 +4700,8 @@
       "webSearchQueries": [
         "여수 낭만포차 위치 운영시간 대표메뉴 예약"
       ],
-      "timestamp": "2026-09-09T11:12:54.948Z"
+      "timestamp": "2026-09-09T11:12:54.948Z",
+      "raw_hash": "87f4dbbfea4d8b49"
     },
     {
       "questionId": "YS-C04",
@@ -4711,7 +4711,6 @@
       "lang": "ko",
       "question": "해산물 먹으러 가기 좋은 한국 최고의 항구 도시 3곳 추천해줘.",
       "rep": 3,
-      "response": "해산물을 즐기기 좋은 한국의 대표적인 항구 도시로는 **부산, 속초, 목포**를 추천합니다. \n\n첫째, **부산**은 자갈치시장과 민락어민활어직판장 등에서 싱싱한 활어회와 해산물을 바다 조망과 함께 즉석에서 맛볼 수 있는 대한민국 최대의 해양 미식 도시입니다. \n둘째, **속초**는 동명항과 대포항을 중심으로 자연산 활어회는 물론 오징어, 대하, 가을철 전어 등 동해안의 신선한 제철 해산물을 풍부하게 즐길 수 있는 곳입니다. \n셋째, **목포**는 서남해안의 풍부한 수산물이 모이는 유통의 중심지로, 홍어삼합, 낙지탕탕이, 병어조림 등 깊고 진한 남도 고유의 해산물 미식을 경험할 수 있습니다.",
       "responseHash": "2c72d425191a8876",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2533,
@@ -4748,7 +4747,8 @@
         "한국 해산물 유명한 항구 도시 추천",
         "국내 최고의 미식 항구 도시"
       ],
-      "timestamp": "2026-09-09T11:12:54.944Z"
+      "timestamp": "2026-09-09T11:12:54.944Z",
+      "raw_hash": "b37ee99a7bd66600"
     },
     {
       "questionId": "YS-C05",
@@ -4758,7 +4758,6 @@
       "lang": "ko",
       "question": "야경 보면서 해산물 포장마차 즐기기 좋은 한국 여행지 추천해줘.",
       "rep": 3,
-      "response": "화려한 야경과 신선한 해산물을 동시에 즐기기 좋은 대표적인 국내 여행지로는 **부산**과 **여수**를 추천합니다.\n\n* **부산 (영도 포차거리 및 해운대 포차촌):** 영도대교와 바다 위 선박들이 만드는 야경을 배경으로 싱싱한 해산물을 맛볼 수 있으며, 해운대에서는 고층 빌딩과 마천루의 야경을 감상하며 낭만적인 포장마차 분위기를 즐길 수 있습니다.\n* **여수 (낭만포차거리):** 거북선대교 아래와 바닷가를 따라 펼쳐지는 이 거리는 화려한 여수 밤바다의 야경과 함께 특산물인 해물삼합 및 싱싱한 해산물을 즐기기 가장 좋은 명소입니다.",
       "responseHash": "3da93a4408749397",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2541,
@@ -4790,7 +4789,8 @@
         "부산 여수 해산물 포장마차 야경",
         "한국 야경 해산물 포장마차 추천"
       ],
-      "timestamp": "2026-09-09T11:12:54.952Z"
+      "timestamp": "2026-09-09T11:12:54.952Z",
+      "raw_hash": "5ffb8c46d7f2e578"
     },
     {
       "questionId": "YS-C06",
@@ -4800,7 +4800,6 @@
       "lang": "ko",
       "question": "여수 금오도 비렁길 트레킹 코스와 난이도, 소요시간 알려줘.",
       "rep": 3,
-      "response": "여수 금오도 비렁길은 기암절벽과 다도해의 풍경을 즐길 수 있는 총 5개의 코스(전체 약 18.5km)로 이루어져 있으며, 전체 종주 시 약 6~8시간이 소요됩니다. \n\n구간별 세부 코스와 난이도 및 소요 시간은 다음과 같습니다.\n* **1코스 (함구미 ~ 두포):** 5km / 약 2시간 소요 / 난이도 '하' (가장 완만하고 편안한 길)\n* **2코스 (두포 ~ 직포):** 3.5km / 약 1시간 30분 소요 / 난이도 '하'\n* **3코스 (직포 ~ 학동):** 3.5km / 약 2시간 소요 / 난이도 '중' (비렁다리와 매봉전망대가 있어 가장 경관이 뛰어난 핵심 코스)\n* **4코스 (학동 ~ 심포):** 3.2km / 약 1시간 30분 소요 / 난이도 '중' (출렁다리가 유명한 구간)\n* **5코스 (심포 ~ 장지):** 3.3km / 약 1시간 30분 소요 / 난이도 '중' (동백숲과 대나무숲이 어우러진 마지막 구간)\n\n전체 코스는 오르내림이 반복되는 해안 절벽 길이므로 체력에 맞춰 가장 인기 있는 3~4코스만 선택해 트레킹하는 것도 좋은 방법입니다. 자세한 정보는 [여수시 문화관광 공식 홈페이지](https://www.yeosu.go.kr/tour/leisure/walk/geumodo_bireonggil)에서 확인하실 수 있습니다.",
       "responseHash": "6eefa4fa5880d5ee",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3148,
@@ -4837,7 +4836,8 @@
       "webSearchQueries": [
         "여수 금오도 비렁길 코스 난이도 소요시간"
       ],
-      "timestamp": "2026-09-09T11:12:59.305Z"
+      "timestamp": "2026-09-09T11:12:59.305Z",
+      "raw_hash": "8cc2ad8f8c1ea20d"
     },
     {
       "questionId": "YS-D01",
@@ -4847,7 +4847,6 @@
       "lang": "ko",
       "question": "커플 2박3일 바다 여행으로 국내 최고의 여행지 3곳 추천해줘.",
       "rep": 3,
-      "response": "커플이 2박 3일 일정으로 여유롭고 로맨틱하게 다녀오기 좋은 국내 최고의 바다 여행지 3곳을 추천해 드립니다.\n\n1. **강릉 (안목·경포 해변)**\n   * **특징:** 탁 트인 동해 바다와 함께 감성적인 카페거리, 예쁜 호수 산책로를 한 번에 즐길 수 있는 곳입니다. \n   * **추천 코스:** 낮에는 안목해변 오션뷰 카페에서 커피를 마시고, 인접한 속초·양양까지 연계해 드라이브와 맛있는 해산물을 즐기기 좋습니다.\n\n2. **여수 (돌산·해양공원 일대)**\n   * **특징:** 낮에는 푸른 남해 바다를, 밤에는 로맨틱한 야경과 해상케이블카를 만끽할 수 있는 대표적인 항구 도시입니다.\n   * **추천 코스:** 오동도를 산책하고, 해질녘 돌산대교와 여수 밤바다를 조망하며 감성적인 펜션이나 풀빌라에서 호캉스를 즐기기 최적입니다.\n\n3. **제주 (애월·협재 해변)**\n   * **특징:** 이국적인 에메랄드빛 바다와 하얀 모래사장, 환상적인 노을을 배경으로 인생 사진을 남길 수 있는 최고의 커플 여행지입니다.\n   * **추천 코스:** 해안도로를 따라 드라이브를 하다가 금능·협재 해변의 아름다운 일몰을 감상하고, 예쁜 소품샵과 오션뷰 맛집을 여유롭게 탐방할 수 있습니다.",
       "responseHash": "c0166b429347c6ef",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3770,
@@ -4888,7 +4887,8 @@
       "webSearchQueries": [
         "국내 커플 2박3일 여행지 추천 바다"
       ],
-      "timestamp": "2026-09-09T11:12:59.927Z"
+      "timestamp": "2026-09-09T11:12:59.927Z",
+      "raw_hash": "29449810c51abdeb"
     },
     {
       "questionId": "YS-D02",
@@ -4898,7 +4898,6 @@
       "lang": "ko",
       "question": "가족 여름휴가로 아이랑 갈 수 있는 해양 체험 관광지 어디가 좋아?",
       "rep": 3,
-      "response": "아이와 함께하는 여름휴가로는 갯벌 체험과 물놀이를 동시에 즐길 수 있는 충남 태안의 **꽃지해수욕장**이나 **신두리 해안사구 일대**가 좋습니다. \n\n또한, 실내 전시와 어린이 눈높이에 맞춘 해양 생태 체험을 원하신다면 부산의 **국립해양박물관**도 훌륭한 선택입니다. \n\n좀 더 교육적인 체험을 원한다면 바닷속 생태계를 직접 관찰하고 과학 프로그램에 참여할 수 있는 경북의 **국립울진해양과학관**을 추천합니다.",
       "responseHash": "1654f9986266cf0c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2220,
@@ -4930,7 +4929,8 @@
         "국내 아이랑 해양 체험 프로그램 추천 장소",
         "아이와 가볼만한 여름 휴가 해양 체험 관광지 추천"
       ],
-      "timestamp": "2026-09-09T11:12:58.377Z"
+      "timestamp": "2026-09-09T11:12:58.377Z",
+      "raw_hash": "abbf787984d9ac3d"
     },
     {
       "questionId": "YS-D03",
@@ -4940,7 +4940,6 @@
       "lang": "ko",
       "question": "한국에서 야경이 가장 아름다운 항구 도시 3곳 추천해줘.",
       "rep": 3,
-      "response": "한국에서 야경이 가장 아름다운 대표적인 항구 도시 3곳은 다음과 같습니다.\n\n1. **부산**\n   * 대한민국 최대의 항구 도시로, 광안대교의 화려한 조명과 마린시티의 고층 빌딩 숲이 바다와 어우러져 압도적인 스케일의 야경을 선사합니다. 황령산 전망대나 더베이 101 등에서 도시와 바다가 빛으로 물드는 장관을 한눈에 담을 수 있습니다.\n\n2. **통영**\n   * 아기자기한 항구인 강구안을 중심으로 밤마다 은은하고 로맨틱한 경관 조명이 켜져 낭만적인 분위기를 자아냅니다. 강구안 브릿지의 교량 분수와 미륵산 케이블카 위에서 내려다보는 남해안의 밤바다는 아늑하고 포근한 매력을 줍니다.\n\n3. **목포**\n   * '항구의 도시'라는 이름에 걸맞게 바다와 도심, 산이 조화를 이루는 독보적인 야경을 자랑합니다. 평화광장의 춤추는 바다분수 쇼와 목포해상케이블카에서 내려다보는 불빛 찬란한 목포항의 밤 풍경이 여행객들에게 큰 감동을 줍니다.",
       "responseHash": "63d1ce2528976112",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3265,
@@ -4987,7 +4986,8 @@
         "국내 야경 명소 항구 도시 추천",
         "한국 야경 아름다운 항구 도시"
       ],
-      "timestamp": "2026-09-09T11:13:04.394Z"
+      "timestamp": "2026-09-09T11:13:04.394Z",
+      "raw_hash": "c7de4b3a127a84e4"
     },
     {
       "questionId": "YS-D04",
@@ -4997,7 +4997,6 @@
       "lang": "ko",
       "question": "한국에서 바다 위를 건너는 해상 케이블카 어디어디 있어? 가장 좋은 곳은?",
       "rep": 3,
-      "response": "한국에서 바다 위를 건너는 대표적인 해상 케이블카로는 **여수 해상케이블카, 부산 송도해상케이블카, 목포 해상케이블카, 사천 바다케이블카, 삼척 해상케이블카, 강화석모해상케이블카** 등이 있습니다. \n\n이 중 가장 좋은 곳은 여행객의 취향에 따라 다를 수 있지만, **여수 해상케이블카**가 가장 대중적으로 손꼽힙니다. 국내 최초의 해상 케이블카로 바다 위를 가로지르는 짜릿함과 함께 아름다운 '여수 밤바다'와 다도해의 풍경을 한눈에 담을 수 있어 만족도가 매우 높습니다. 아울러 에메랄드빛 동해 바다를 조망할 수 있는 **삼척 해상케이블카**나 역동적인 도심·산·바다 조망이 모두 가능한 **목포 해상케이블카**도 훌륭한 선택지입니다.",
       "responseHash": "10ca1da685f0d527",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2638,
@@ -5034,7 +5033,8 @@
         "한국 해상케이블카 명소",
         "국내 해상 케이블카 종류 추천"
       ],
-      "timestamp": "2026-09-09T11:13:03.767Z"
+      "timestamp": "2026-09-09T11:13:03.767Z",
+      "raw_hash": "0c330293e7650ba6"
     },
     {
       "questionId": "YS-D05",
@@ -5044,7 +5044,6 @@
       "lang": "ko",
       "question": "한국에서 국제박람회를 개최한 도시가 어디야? 각각 어떤 박람회였어?",
       "rep": 3,
-      "response": "한국에서 국제박람회기구(BIE)가 공인한 국제박람회(엑스포)를 개최한 도시는 **대전광역시**와 **전라남도 여수시** 두 곳입니다.\n\n* **대전광역시 (1993년):** '새로운 도약의 길'을 주제로 한 **대전엑스포**를 개최하였으며, 과학기술과 경제 발전을 조명한 인정박람회였습니다.\n* **전라남도 여수시 (2012년):** '살아있는 바다, 숨쉬는 연안'을 주제로 **여수엑스포**를 개최하였으며, 해양 환경과 기후 변화 대응을 다룬 인정박람회였습니다.",
       "responseHash": "adc490ecaaf0509d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2227,
@@ -5066,7 +5065,8 @@
         "대한민국 등록엑스포 인정엑스포 개최 도시",
         "한국 국제박람회 개최 도시 종류"
       ],
-      "timestamp": "2026-09-09T11:13:03.356Z"
+      "timestamp": "2026-09-09T11:13:03.356Z",
+      "raw_hash": "d5baaa6f69819cc4"
     },
     {
       "questionId": "YS-D06",
@@ -5076,7 +5076,6 @@
       "lang": "ko",
       "question": "바다 보면서 워케이션하기 좋은 한국 소도시 3곳 추천해줘.",
       "rep": 3,
-      "response": "바다를 보며 일과 휴식을 동시에 챙기기 좋은 국내 소도시 3곳은 다음과 같습니다.\n\n1. **강원도 양양 (수산마을 등)**: 탁 트인 동해 바다를 조망하며 요트 투어, 투명 카누 등 해양 레저를 함께 즐길 수 있는 대표적인 레저형 워케이션 명소입니다.\n2. **충청남도 보령 (삽시도)**: 섬 전체의 고요하고 아늑한 분위기 속에서 갯벌 체험과 둘레길 트레킹을 즐길 수 있으며, 바다가 한눈에 들어오는 전용 공간에서 힐링 근무가 가능합니다.\n3. **경상남도 거제 (다대마을 등)**: 남해안의 수려한 다도해 풍경을 감상하며 어촌 체험과 함께 여유롭고 이국적인 분위기 속에서 업무에 집중할 수 있는 관광형 워케이션지입니다.\n\n더 자세한 지원 프로그램이나 숙박 정보는 [대한민국 구슬 바다여행 어촌마을 워케이션](https://www.seantour.kr/newseantour/main/main.do)에서 확인하실 수 있습니다.",
       "responseHash": "f834dd6adc14fcbe",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2958,
@@ -5103,7 +5102,8 @@
         "바다 워케이션 소도시 추천",
         "한국 해안 워케이션 명소 추천"
       ],
-      "timestamp": "2026-09-09T11:13:08.554Z"
+      "timestamp": "2026-09-09T11:13:08.554Z",
+      "raw_hash": "dfed8a268190ce94"
     },
     {
       "questionId": "YS-D07",
@@ -5113,7 +5113,6 @@
       "lang": "ko",
       "question": "한국에서 새해 일출 보기 가장 좋은 명소 5곳 추천해줘.",
       "rep": 3,
-      "response": "한국에서 새해 일출을 보기 가장 좋은 대표적인 명소 5곳은 다음과 같습니다.\n\n1. **울산 간절곶**: 대한민국 내륙에서 가장 해가 일찍 뜨는 대표적인 해맞이 명소로, 탁 트인 수평선과 소망 우체통이 유명합니다.\n2. **포항 호미곶**: 거대한 '상생의 손' 조형물 너머로 떠오르는 붉은 태양을 배경으로 멋진 새해 인생샷을 남길 수 있는 곳입니다.\n3. **강릉 정동진**: 동해안의 드넓은 바다와 모래시계공원이 어우러져 오랫동안 사랑받아 온 전통의 일출 메카입니다.\n4. **여수 향일암**: '해를 향해 있는 암자'라는 이름처럼, 기암절벽과 남해 바다의 수평선 사이로 경건하게 떠오르는 일출을 감상할 수 있습니다.\n5. **제주 성산일출봉**: 유네스코 세계자연유산이자 영주 10경 중 으뜸으로 꼽히며, 화산 분화구와 바다가 어우러진 이국적인 일출 풍경을 선사합니다.",
       "responseHash": "18d755126416efc9",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2861,
@@ -5149,7 +5148,8 @@
       "webSearchQueries": [
         "한국 새해 일출 명소 추천 5곳"
       ],
-      "timestamp": "2026-09-09T11:13:08.459Z"
+      "timestamp": "2026-09-09T11:13:08.459Z",
+      "raw_hash": "28ec2808db1bea25"
     },
     {
       "questionId": "YS-D08",
@@ -5159,7 +5159,6 @@
       "lang": "ko",
       "question": "여수 여행의 단점이나 불편한 점이 뭐야? 안 가는 이유가 있다면?",
       "rep": 3,
-      "response": "여수 여행의 대표적인 단점으로는 주말이나 성수기마다 반복되는 **극심한 교통체증과 주차난**을 꼽을 수 있습니다. 특히 돌산읍이나 이순신광장 일대는 차량이 몰리며 이동에 큰 시간이 소요되어 피로감이 큽니다. \n\n또한 일부 인기 맛집과 숙박업소의 **높은 물가 대비 불만족스러운 서비스 및 바가지요금 논란**도 여행을 망설이게 하는 주요 요인입니다. 일부 상인들의 불친절한 응대나 위생 문제 등이 SNS를 통해 확산되면서 실망감을 느끼고 발길을 돌리는 관광객들이 늘고 있습니다.\n\n관련 정보는 [여수관광문화 홈페이지](https://www.yeosu.go.kr/tour)에서 더욱 자세히 확인하실 수 있습니다.",
       "responseHash": "b473c5511e012f45",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2862,
@@ -5197,7 +5196,8 @@
         "여수 여행 단점 불편한점 아쉬운점",
         "여수 관광 불만족 이유"
       ],
-      "timestamp": "2026-09-09T11:13:08.459Z"
+      "timestamp": "2026-09-09T11:13:08.459Z",
+      "raw_hash": "3ba311892e3fb3b5"
     },
     {
       "questionId": "YS-E01",
@@ -5207,7 +5207,6 @@
       "lang": "ko",
       "question": "남해안 바다 여행으로 여수와 통영 중 어디가 나아? 장단점 비교해줘.",
       "rep": 3,
-      "response": "남해안 바다 여행으로 여수와 통영은 각기 다른 매력이 있어 여행 스타일과 취향에 따라 선택하는 것이 좋습니다. \n\n**여수**는 화려한 야경과 액티비티를 선호하는 분에게 알맞습니다. \n* **장점:** '여수밤바다'로 대표되는 낭만적인 야경, 해상케이블카·낭만포차·예술랜드 등 즐길 거리가 다양하고 KTX 접근성이 좋습니다.\n* **단점:** 인기가 많은 만큼 주말이나 성수기에는 관광지와 도로가 매우 혼잡하고 물가가 다소 높을 수 있습니다.\n\n**통영**은 고즈넉한 풍경과 섬 여행, 미식 탐방을 좋아하는 분에게 더 적합합니다.\n* **장점:** 동피랑 벽화마을, 달아공원 일몰 등 아기자기하고 예술적인 감성이 있으며, 충무김밥·꿀빵·다찌 문화 등 독창적인 먹거리가 풍부합니다. 또한 한려수도의 아름다운 섬들(소매물도, 연대도 등)로 향하는 여객선 이용이 편리합니다.\n* **단점:** 대중교통보다는 차량을 이용한 이동이 더 편리하며, 여수에 비해 밤에 즐길 수 있는 화려한 유흥·야경 콘텐츠는 상대적으로 적은 편입니다.\n\n화려한 도시 분위기와 밤바다를 원한다면 **여수**를, 아늑한 남해 바다와 섬 풍경, 로컬 맛집을 즐기고 싶다면 **통영**을 추천합니다.",
       "responseHash": "0785a5ddde4f0820",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3670,
@@ -5248,7 +5247,8 @@
       "webSearchQueries": [
         "여수 통영 여행 비교 장단점"
       ],
-      "timestamp": "2026-09-09T11:13:13.427Z"
+      "timestamp": "2026-09-09T11:13:13.427Z",
+      "raw_hash": "1385874729cde198"
     },
     {
       "questionId": "YS-E02",
@@ -5258,7 +5258,6 @@
       "lang": "ko",
       "question": "항구 도시 관광으로 여수와 부산을 비교하면 어떤 차이가 있어?",
       "rep": 3,
-      "response": "부산과 여수는 모두 매력적인 남해안의 항구 도시이지만, 도시의 규모와 관광 분위기에서 큰 차이가 있습니다. \n\n부산은 대도시의 인프라를 갖추어 해운대와 광안리 등 화려한 도시 야경, 다채로운 해양 레저, 쇼핑을 역동적으로 즐길 수 있는 대규모 해양 관광지입니다. 반면 여수는 상대적으로 아담하고 낭만적인 분위기 속에서 '여수밤바다' 야경, 해상케이블카, 낭만포차 등을 중심으로 감성적인 휴식과 맛집 탐방을 즐기기에 좋은 여행지입니다.",
       "responseHash": "7c059e9664175272",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2215,
@@ -5284,7 +5283,8 @@
       "webSearchQueries": [
         "여수 관광 특징 부산 관광 특징 비교"
       ],
-      "timestamp": "2026-09-09T11:13:11.972Z"
+      "timestamp": "2026-09-09T11:13:11.972Z",
+      "raw_hash": "9620a6ade309550a"
     },
     {
       "questionId": "YS-E03",
@@ -5294,7 +5294,6 @@
       "lang": "ko",
       "question": "3박4일 바다 휴양 여행으로 여수와 제주도 중 어디를 추천해?",
       "rep": 3,
-      "response": "3박 4일 일정이라면 이동 피로도와 여행 스타일에 따라 선택하시는 것을 추천합니다. \n\n여수는 KTX 접근성이 좋고 이순신광장, 낭만포차거리, 해상케이블카 등 화려한 야경과 풍부한 남도 미식(게장, 회 등)을 알차게 즐길 수 있어 식도락 중심의 낭만적인 여행에 적합합니다. 반면 제주도는 이국적인 대자연 속에서 드라이브를 즐기고, 넓은 공간에서 여유로운 휴양과 다양한 카페 투어를 만끽하기에 더 좋습니다. \n\n따라서 운전 부담 없이 맛있는 음식과 야경을 즐기고 싶다면 **여수**를, 탁 트인 이국적 바다와 여유로운 휴식을 원하신다면 **제주도**를 더 추천해 드립니다.",
       "responseHash": "c7eb905f30f0b017",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2944,
@@ -5320,7 +5319,8 @@
       "webSearchQueries": [
         "여수 3박4일 여행 제주도 비교"
       ],
-      "timestamp": "2026-09-09T11:13:12.701Z"
+      "timestamp": "2026-09-09T11:13:12.701Z",
+      "raw_hash": "6324159188b9a45f"
     },
     {
       "questionId": "YS-E04",
@@ -5330,7 +5330,6 @@
       "lang": "ko",
       "question": "연인과 바다 감성 여행으로 여수와 강릉 중 어디가 분위기 좋아?",
       "rep": 3,
-      "response": "여수와 강릉은 연인들의 선호도가 높은 대표적인 바다 여행지이지만 분위기가 사뭇 다릅니다. \n\n화려한 야경과 낭만적인 포차 거리, 아기자기한 섬과 케이블카를 선호한다면 남해의 잔잔한 바다를 품은 **여수**가 제격입니다. 반면 탁 트인 동해안의 시원한 파도 소리를 들으며 예쁜 카페거리를 산책하고 여유로운 시간을 보내고 싶다면 **강릉**이 더 좋습니다. \n\n따라서 북적이는 로맨틱한 밤 분위기를 원하면 여수를, 탁 트인 자연 속 힐링을 원하면 강릉을 추천합니다.",
       "responseHash": "834e06dc0412cd38",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2628,
@@ -5361,7 +5360,8 @@
       "webSearchQueries": [
         "여수 강릉 여행 비교 연인 바다 분위기"
       ],
-      "timestamp": "2026-09-09T11:13:17.255Z"
+      "timestamp": "2026-09-09T11:13:17.255Z",
+      "raw_hash": "beae7a2b2dc887ed"
     },
     {
       "questionId": "YS-E05",
@@ -5371,7 +5371,6 @@
       "lang": "ko",
       "question": "해산물 미식 여행으로 여수와 속초 중 어디가 더 맛있어?",
       "rep": 3,
-      "response": "여수와 속초는 모두 뛰어난 해산물 미식 여행지이지만, 추구하는 맛의 결이 달라 개인의 취향에 따라 선택할 수 있습니다. \n\n**여수**는 남해의 풍부한 식재료와 깊은 손맛을 바탕으로 한 상 가득 차려지는 남도 음식이 강점이며, 짭조름한 게장백반, 새콤달콤한 서대회무침, 그리고 다양한 해산물이 어우러진 해물삼합을 대표로 즐길 수 있습니다. \n\n반면 **속초**는 동해안의 맑고 찬 바다에서 잡히는 싱싱한 활어회와 시원한 물회, 그리고 오징어순대·아바이순대 같은 실향민 문화가 담긴 독특한 향토 먹거리가 매력적입니다. \n\n따라서 묵직한 감칠맛과 다채로운 남도 백반 한 상을 선호한다면 **여수**를, 깔끔하고 시원한 해산물 본연의 맛과 트렌디한 먹거리 탐방을 원한다면 **속초**가 더 만족스러울 수 있습니다.",
       "responseHash": "fbafbd46a8eed5aa",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2933,
@@ -5403,7 +5402,8 @@
         "여수 속초 해산물 미식 여행 비교",
         "여수 맛집 속초 맛집 해산물 특색"
       ],
-      "timestamp": "2026-09-09T11:13:17.560Z"
+      "timestamp": "2026-09-09T11:13:17.560Z",
+      "raw_hash": "7475befea8326c78"
     },
     {
       "questionId": "YS-E06",
@@ -5413,7 +5413,6 @@
       "lang": "en",
       "question": "What are the must-visit attractions in Yeosu, South Korea for first-time international tourists?",
       "rep": 3,
-      "response": "For first-time international tourists visiting Yeosu, a picturesque coastal city famous for its romantic nightscapes and rich maritime culture, several must-visit attractions stand out:\n\n*   **Yeosu Marine Cable Car:** As Korea's first over-water cable car, it connects Dolsan Island and mainland Yeoso, offering breathtaking panoramic views of the sparkling blue ocean, islands, and bridges—especially stunning at sunset or night.\n*   **Odongdo Island:** Connected to the mainland by a breakwater, this small island is renowned for its dense forest of camellia trees, scenic walking trails, and rocky seaside cliffs that provide a refreshing nature escape. \n*   **Yi Sun-sin Square:** Named after the legendary Korean naval commander, this vibrant downtown plaza is a cultural hub surrounded by trendy cafes, local street food spots (famous for specialties like gat-kimchi and mugwort ice cream), and historical monuments.\n*   **Arte Museum Yeosu:** Perfect for art lovers and those looking to escape the weather, this is a massive immersive media art exhibition utilizing cutting-edge digital technology to showcase stunning visual interpretations of nature and the ocean.\n*   **Hyangiram Hermitage:** Perched dramatically on the rocky cliffs of Geumosan Mountain further south, this historic Buddhist hermitage offers serene spiritual grounds and arguably the best vantage point in the region to watch the sunrise over the sea.",
       "responseHash": "67c72b8916baea63",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3561,
@@ -5439,7 +5438,8 @@
       "webSearchQueries": [
         "Yeosu must visit attractions tourist spots first time"
       ],
-      "timestamp": "2026-09-09T11:13:18.189Z"
+      "timestamp": "2026-09-09T11:13:18.189Z",
+      "raw_hash": "e96a9da8fb3ecf6e"
     },
     {
       "questionId": "YS-E07",
@@ -5449,7 +5449,6 @@
       "lang": "en",
       "question": "What is 'Yeosu Night Sea' (여수밤바다) and why is it so famous among Korean travelers?",
       "rep": 3,
-      "response": "**'Yeosu Night Sea' (여수밤바다)** refers to the coastal scenery of the southern port city of Yeosu, South Korea, illuminated at night by city lights, bridges, and the dark silhouette of the ocean. It is widely celebrated for its romantic atmosphere, featuring sparkling views of landmarks like the Dolsan Bridge, Geobukseon Bridge, and the bustling coastal walkways.\n\nIt became a massive cultural phenomenon and a top-tier travel destination largely due to the 2012 hit indie-ballad song *\"Yeosu Night Sea\"* by Busker Busker. The song romanticized the serene, melancholic beauty of the seaside, transforming Yeosu from a quiet industrial port into one of Korea’s most popular romantic getaway spots. Korean travelers flock there to experience the poetic ambiance firsthand, stroll along the oceanfront parks, and visit the famous romantic pocha (tent mised-food stalls).",
       "responseHash": "76641ccec1d6faec",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3145,
@@ -5496,7 +5495,8 @@
         "Yeosu Night Sea meaning popularity",
         "여수밤바다 특징 이유"
       ],
-      "timestamp": "2026-09-09T11:13:22.541Z"
+      "timestamp": "2026-09-09T11:13:22.541Z",
+      "raw_hash": "d63c744a1f249276"
     },
     {
       "questionId": "YS-E08",
@@ -5506,7 +5506,6 @@
       "lang": "en",
       "question": "Recommend the top 3 coastal cities in South Korea for foreign tourists who love seafood and ocean views.",
       "rep": 3,
-      "response": "Here are the top 3 coastal cities in South Korea that offer an exceptional blend of stunning ocean views and world-class seafood for foreign tourists:\n\n1. **Busan**\nAs South Korea's premier port city, Busan seamlessly combines dynamic urban beaches (like Haeundae and Gwangalli) with incredible maritime scenery. It is home to **Jagalchi Market**, the country's largest seafood market, where visitors can experience a vibrant atmosphere and sample the freshest raw fish (*hoe*) and grilled seafood right on the harbor. \n\n2. **Sokcho**\nLocated on the picturesque east coast and backed by the majestic Seoraksan National Park, Sokcho offers crisp, clear blue ocean views and a relaxed coastal vibe. Its lively tourist fish market and harbor-front stalls are famous for specialties like snow crab, squid, and *mulhoe* (cold raw fish soup), making it a favorite foodie destination.\n\n3. **Yeosu**\nRenowned for its romantic nightscapes and island-studded southern coastline, Yeosu offers breathtaking sea views from spots like the Yeosu Marine Cable Car and Odongdo Island. The city is a haven for seafood lovers, particularly famous for local delicacies like marinated raw crabs (*ganjang/yangnyeom gejang*) and fresh eel dishes.",
       "responseHash": "6230548301509e8f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3145,
@@ -5542,7 +5541,8 @@
       "webSearchQueries": [
         "top coastal cities south korea seafood ocean views tourists"
       ],
-      "timestamp": "2026-09-09T11:13:22.541Z"
+      "timestamp": "2026-09-09T11:13:22.541Z",
+      "raw_hash": "d2209a8031d69db0"
     },
     {
       "questionId": "YS-E09",
@@ -5552,7 +5552,6 @@
       "lang": "en",
       "question": "What is the economic significance of the Yeosu National Industrial Complex for South Korea's petrochemical industry?",
       "rep": 3,
-      "response": "The Yeosu National Industrial Complex is the cornerstone and largest heart of South Korea’s petrochemical industry, accounting for roughly 47% of the nation's total ethylene production capacity. Housing major industry leaders like LG Chem, Lotte Chemical, and GS Caltex, it provides the fundamental raw materials essential for downstream manufacturing sectors spanning textiles, electronics, and automobiles. Furthermore, its massive export volume and advanced maritime logistics infrastructure make it a vital engine driving regional employment and South Korea's national trade.",
       "responseHash": "479650b70ccc10ea",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2420,
@@ -5578,7 +5577,8 @@
       "webSearchQueries": [
         "Yeosu National Industrial Complex economic significance petrochemical industry"
       ],
-      "timestamp": "2026-09-09T11:13:21.816Z"
+      "timestamp": "2026-09-09T11:13:21.816Z",
+      "raw_hash": "bb243ead064c2701"
     },
     {
       "questionId": "YS-E10",
@@ -5588,7 +5588,6 @@
       "lang": "en",
       "question": "What is the 2026 Yeosu World Island Expo about and how can international visitors attend?",
       "rep": 3,
-      "response": "The **2026 Yeosu World Island Expo** (running from September 5 to November 4, 2026) is the world's first international exposition dedicated exclusively to islands. Held under the theme *\"Islands: Connecting the Ocean and the Future,\"* the 61-day event explores island ecology, unique cultures, sustainable livelihoods, and futuristic maritime technologies like hydrogen-powered vessels and urban air mobility. Spanning venues across Yeosu—including the main Dolsan Jinmo District, Yeosu Expo Ocean Park, and satellite island venues like Gaedo and Geumodo—it features immersive media art, global island pavilions, and cultural performances.\n\nInternational visitors can attend by traveling to Yeosu, which is accessible from Seoul via a 3-hour KTX high-speed train ride or a short domestic flight. Tickets can be purchased online through major ticketing platforms (such as Trip.com) or on-site at the venue ticket booths. Once in Yeosu, visitors can easily reach the exhibition grounds using local transit, designated shuttle bus routes, and maritime links to the island venues.",
       "responseHash": "a246701964232c4f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3164,
@@ -5640,7 +5639,8 @@
         "2026 여수세계섬박람회 international visitors tickets",
         "2026 Yeosu World Island Expo dates location content"
       ],
-      "timestamp": "2026-09-09T11:13:26.909Z"
+      "timestamp": "2026-09-09T11:13:26.909Z",
+      "raw_hash": "006ff1c19316aedb"
     },
     {
       "questionId": "YS-F01",
@@ -5650,7 +5650,6 @@
       "lang": "ko",
       "question": "여수시 인구가 줄고 있다는데 현재 인구수와 감소 원인이 뭐야?",
       "rep": 3,
-      "response": "행정안전부 주민등록 인구통계에 따르면 2026년 8월 말 기준 여수시의 인구는 **25만 9,857명**으로, 마지노선으로 여겨지던 **26만 명 선이 붕괴**되었습니다.\n\n인구 감소의 주요 원인은 **양질의 일자리 부족에 따른 청년층의 유출**과 **지역 주력 산업인 여수국가산단(석유화학산업)의 장기 불황**입니다. 취업과 진학을 이유로 20·30대 젊은층과 자녀를 둔 가구가 수도권이나 타지역으로 빠져나가고 있으며, 저출생·고령화에 따른 자연감소까지 겹쳐 인구 절벽이 가속화하고 있습니다.\n\n출처: [KBS 뉴스 - “여수 26만 명 선도 붕괴”…역대 최대 규모 감소](https://www.youtube.com/watch?v=ECgV1xDpIBg), [여수신문 - 10년 만에 3만 명 증발 '26만 붕괴'](https://www.yeosunews.kr)",
       "responseHash": "c3b960e1f7da3da0",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2629,
@@ -5688,7 +5687,8 @@
       "webSearchQueries": [
         "여수시 인구 2025 2026 감소 원인"
       ],
-      "timestamp": "2026-09-09T11:13:26.375Z"
+      "timestamp": "2026-09-09T11:13:26.375Z",
+      "raw_hash": "c45a265dcfead87d"
     },
     {
       "questionId": "YS-F02",
@@ -5698,7 +5698,6 @@
       "lang": "ko",
       "question": "서울에서 여수까지 KTX로 얼마나 걸리고 요금은 얼마야?",
       "rep": 3,
-      "response": "서울(용산역·서울역)에서 여수EXPO역까지 KTX로 이동할 경우, 소요 시간은 열차편에 따라 **약 3시간 ~ 3시간 20분** 정도가 소요됩니다. \n\n요금은 KTX **일반실 기준 어른 47,200원(용산 기준, 서울발 47,500원)**이며, 특실을 이용할 경우 66,100원입니다. 정확한 시간표와 예매는 '코레일톡' 앱이나 레츠코레일 홈페이지를 통해 확인하실 수 있습니다.",
       "responseHash": "558d377fa9c0f889",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2116,
@@ -5724,7 +5723,8 @@
       "webSearchQueries": [
         "서울에서 여수 KTX 소요시간 요금"
       ],
-      "timestamp": "2026-09-09T11:13:25.861Z"
+      "timestamp": "2026-09-09T11:13:25.861Z",
+      "raw_hash": "97553c4297c2f082"
     },
     {
       "questionId": "YS-F03",
@@ -5734,7 +5734,6 @@
       "lang": "ko",
       "question": "여수시 귀농귀촌이나 청년 이주 정착 지원금 혜택이 있어?",
       "rep": 3,
-      "response": "네, 여수시는 귀농·귀촌인과 청년 이주 정착을 돕기 위해 다양한 지원 혜택을 제공하고 있습니다. \n\n**귀농귀촌 지원 혜택:**\n* **귀농인 정착금 지원:** 농촌 전입 3년 이내의 기준 충족 세대에 월 30만 원씩 12개월간 최대 360만 원이 지급됩니다.\n* **이사비용 및 주택 수리비:** 초기 정착을 위한 이사비용(세대당 1백만 원)과 농가주택 수리를 위한 리모델링 비용(세대당 최대 1천만 원)을 지원합니다.\n* **창업 및 주택구입 융자:** 요건을 갖춘 귀농인을 대상으로 농업 창업(최대 3억 원) 및 주택 구입·신축(최대 7,500만 원) 저금리 융자 사업을 연계 운영합니다.\n\n**청년 이주 정착 지원 혜택:**\n* **주거·정착 지원:** 무주택 청년과 신혼부부를 대상으로 전세자금 대출이자 지원, 청년부부 결혼축하금, 여수형 청년임대주택 공급 확대 등 주거 불안 해소에 집중하고 있습니다.\n* **취업 및 창업 지원:** 자격증 응시료 지원과 학자금 대출이자 지원을 비롯해, 예비·초기 창업 청년에게는 최대 2,000만 원의 사업화 자금 및 컨설팅을 지원합니다.\n* **생활 지원:** 여수 전입 청년(1인 가구 등)을 위한 웰컴박스 및 맞춤형 프로그램 등을 운영하고 있습니다.\n\n자세한 자격 요건과 신청 시기는 여수시청 홈페이지나 여수시 농업기술센터(귀농귀촌), 청년정책플랫폼을 통해 확인하실 수 있습니다.",
       "responseHash": "923eb77303dc177c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3147,
@@ -5771,7 +5770,8 @@
         "여수시 귀농귀촌 지원금 혜택",
         "여수시 청년 이주 정착 지원금"
       ],
-      "timestamp": "2026-09-09T11:13:31.269Z"
+      "timestamp": "2026-09-09T11:13:31.269Z",
+      "raw_hash": "a433050c47b4e10f"
     },
     {
       "questionId": "YS-F04",
@@ -5781,7 +5781,6 @@
       "lang": "ko",
       "question": "여수시 관할 섬이 몇 개야? 유인도 무인도 각각 알려줘.",
       "rep": 3,
-      "response": "여수시 공식 통계에 따르면 관할하는 섬은 총 365개입니다. 이 중 **유인도는 45개**, **무인도는 320개**로 이루어져 있습니다. 출처: 여수시청 기본현황 [https://www.yeosu.go.kr/build/images/contents/3036/general_map01_2.jpg/1092x1x50/1092x1_general_map01_2.jpg](https://www.yeosu.go.kr/build/images/contents/3036/general_map01_2.jpg/1092x1x50/1092x1_general_map01_2.jpg)",
       "responseHash": "3218d6f4deb395db",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2211,
@@ -5798,7 +5797,8 @@
       "webSearchQueries": [
         "여수시 섬 현황 유인도 무인도"
       ],
-      "timestamp": "2026-09-09T11:13:30.333Z"
+      "timestamp": "2026-09-09T11:13:30.333Z",
+      "raw_hash": "518b065ec14aa4f8"
     },
     {
       "questionId": "YS-F05",
@@ -5808,7 +5808,6 @@
       "lang": "ko",
       "question": "여수 경제가 석유화학과 관광에 너무 의존하는 건 아닐까? 리스크는?",
       "rep": 3,
-      "response": "여수 경제가 석유화학과 관광 등 특정 산업에 지나치게 의존하고 있다는 지적은 타당하며, 실제로 구조적 경제 리스크가 현실화되고 있습니다. 주력 산업인 석유화학은 중국발 공급 과잉과 글로벌 불황으로 가동률 하락 및 설비 감축(사업 재편)을 겪고 있으며, 관광 산업 역시 콘텐츠 노후화와 바가지 논란 등으로 방문객이 감소 추세입니다. \n\n이러한 양대 축의 동반 부진은 산단 연계 기업의 연쇄 타격, 도심 상권 침체, 그리고 대규모 인구 유출과 지역 소멸 위기로 직결되는 치명적인 리스크를 낳고 있습니다. 따라서 여수시는 단일 산업 구조의 한계를 극복하기 위해 신산업 육성 펀드 조성 및 청정화학·에너지 전환 등 산업 다변화 정책을 서둘러 추진하고 있습니다.",
       "responseHash": "bdc639b16bdc5d70",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2944,
@@ -5850,7 +5849,8 @@
         "여수 경제 석유화학 관광 의존도 리스크",
         "여수시 석유화학 위기 관광 산업 다변화"
       ],
-      "timestamp": "2026-09-09T11:13:31.067Z"
+      "timestamp": "2026-09-09T11:13:31.067Z",
+      "raw_hash": "5b7fd29b0233f91f"
     }
   ]
 }

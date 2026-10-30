@@ -1,0 +1,302 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-ADM-001": {
+      "targetValue": "매주 수요일 18:00~20:00 (공휴일 제외)",
+      "acceptableVariants": [
+        "수요일",
+        "18:00",
+        "20:00",
+        "오후 6시",
+        "오후 8시"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1626",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "매주 수요일 18:00 ~ 20:00 (공휴일 제외)"
+    },
+    "GUR-ADM-002": {
+      "targetValue": "400원 (이해관계인 발급 시 500원)",
+      "acceptableVariants": [
+        "400원",
+        "400 원",
+        "사백원"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1632",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "주민등록등·초본 400원 (이해관계인 발급 시 500원)"
+    },
+    "GUR-ADM-003": {
+      "targetValue": "600원",
+      "acceptableVariants": [
+        "600원",
+        "600 원"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1632",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "인감증명서 600원"
+    },
+    "GUR-ADM-004": {
+      "targetValue": "1,000원",
+      "acceptableVariants": [
+        "1,000원",
+        "1000원",
+        "천원"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1632",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "가족관계증명서 1,000원"
+    },
+    "GUR-ADM-005": {
+      "targetValue": "2,000원",
+      "acceptableVariants": [
+        "2,000원",
+        "2000원",
+        "이천원"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1632",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "출입국사실증명 2,000원"
+    },
+    "GUR-ADM-006": {
+      "targetValue": "24시간",
+      "acceptableVariants": [
+        "24시간",
+        "하루 종일",
+        "24 시간"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1625",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구청 현관 2 가마산로 245 구청 현관 24시간"
+    },
+    "GUR-ADM-007": {
+      "targetValue": "26개소 (32대)",
+      "acceptableVariants": [
+        "26개소",
+        "26곳",
+        "26군데",
+        "26개"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1625",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "총 26개소 32대 운영"
+    },
+    "GUR-ADM-008": {
+      "targetValue": "05:00~익일 01:00",
+      "acceptableVariants": [
+        "05:00",
+        "새벽 5시",
+        "오전 5시",
+        "01:00",
+        "새벽 1시"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1625",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구 로 역 1 구로중앙로 174 2번 출구 05:00~익일 01:00"
+    },
+    "GUR-ADM-009": {
+      "targetValue": "2·4주 화요일 휴무 (운영 10:30~21:00)",
+      "acceptableVariants": [
+        "2,4주 화요일",
+        "둘째",
+        "넷째",
+        "2, 4주",
+        "2·4주"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1625",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "10:30~21:00 (2,4주 화요일 휴무)"
+    },
+    "GUR-ADM-010": {
+      "targetValue": "관공서 내 설치된 발급기만 가능 (구청 현관, 동주민센터, 구로세무서)",
+      "acceptableVariants": [
+        "구청 현관",
+        "동주민센터",
+        "구로세무서"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1625",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "관공서 내 설치된 발급기만 가능 (구청현관 및 동주민센터, 구로세무서)"
+    },
+    "GUR-ADM-011": {
+      "targetValue": "가능 (어디서나민원 제도로 전국 시·군·구 및 읍·면·동에서 발급, 대학민원 포함)",
+      "acceptableVariants": [
+        "어디서나 민원",
+        "어디서나민원",
+        "가능합니다",
+        "발급 가능"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1624",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "대학민원 등 민원서류 128종에 대하여 전국의 시, 군, 구 및 읍(면)동 어느 곳에서나"
+    },
+    "GUR-ADM-012": {
+      "targetValue": "128종",
+      "acceptableVariants": [
+        "128종",
+        "128개",
+        "128 종"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1624",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "민원서류 128종에 대하여"
+    },
+    "GUR-ADM-013": {
+      "targetValue": "접수 후 3시간 이내",
+      "acceptableVariants": [
+        "3시간",
+        "세 시간",
+        "3 시간"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1624",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "발급시간 접수후 3시간 이내"
+    },
+    "GUR-ADM-014": {
+      "targetValue": "다산콜센터 120 (국번 없이)",
+      "acceptableVariants": [
+        "120",
+        "다산콜"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1634",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "전화번호 다산콜센터 국번없이 120"
+    },
+    "GUR-ADM-015": {
+      "targetValue": "민원여권과 2번 창구",
+      "acceptableVariants": [
+        "2번 창구",
+        "2번창구",
+        "민원여권과"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1630",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "민원여권과 2번창구"
+    },
+    "GUR-ADM-016": {
+      "targetValue": "구청(부동산정보과), 구로3동주민센터(법원용)",
+      "acceptableVariants": [
+        "부동산정보과",
+        "구로3동"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1625",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "법인등기부등본 및 법인인감증명 발급 : 구청(부동산정보과), 구로3동주민센터(법원용)"
+    }
+  }
+}

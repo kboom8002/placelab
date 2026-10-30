@@ -294,7 +294,7 @@ export interface AEODiagnosisReport {
   population: 'local_gov' | 'special_zone';
   method_version: 'v2.1';
   ai_service: AiServiceId;
-  web_search: 'on';
+  web_search: 'on_verified' | 'unverified'; // ADR-0012 D-2: 단독 'on' 폐지
   measured_on: string;
 
   // Tier 1: 기본 행정

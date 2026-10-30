@@ -62,7 +62,7 @@ export async function POST(request: NextRequest) {
       started_at: new Date().toISOString(),
       // 측정 조건 (INV-7 필수)
       method_version: 'v2.0',
-      web_search: 'on',
+      web_search: 'unverified', // ADR-0012: 현재 엔진은 검색 도구를 전달하지 않는다
       language: 'ko',
     });
   } catch (error) {

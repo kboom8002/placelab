@@ -1,0 +1,258 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-TOU-101": {
+      "targetValue": "매주 화요일 공휴일",
+      "acceptableVariants": [
+        "매주 화요일 공휴일",
+        "화요일",
+        "공휴일"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2500",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-12",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "매주 화요일 공휴일"
+    },
+    "GUR-TOU-102": {
+      "targetValue": "2069-0185",
+      "acceptableVariants": [
+        "2069-0185",
+        "20690185"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2502",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "2069-0185"
+    },
+    "GUR-TOU-103": {
+      "targetValue": "토 10:00~14:00",
+      "acceptableVariants": [
+        "토 10:00~14:00",
+        "10:00~14:00",
+        "토요일 10:00~14:00",
+        "14:00"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2503",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "토 10:00~14:00"
+    },
+    "GUR-TOU-104": {
+      "targetValue": "22:00",
+      "acceptableVariants": [
+        "22:00",
+        "2200"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2504",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "운영시간 09:00 ~ 22:00 (주중)"
+    },
+    "GUR-TOU-105": {
+      "targetValue": "구로문화원(02-2686-0837)",
+      "acceptableVariants": [
+        "구로문화원",
+        "02-2686-0837",
+        "0268660837"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2510",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-03-27",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "직접 기증을 원하는 경우 구로문화원(02-2686-0837)으로 연락주세요."
+    },
+    "GUR-TOU-106": {
+      "targetValue": "개봉동 45-2일대",
+      "acceptableVariants": [
+        "개봉동 45-2일대",
+        "개봉동45-2일대",
+        "45-2일대"
+      ],
+      "sourceAuthority": "구로구청 공원녹지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2791",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "온수근린공원 163,983.7 개봉동 45-2일대"
+    },
+    "GUR-TOU-107": {
+      "targetValue": "배설물 수거와 목걸이를 착용합시다",
+      "acceptableVariants": [
+        "배설물 수거",
+        "목걸이",
+        "목걸이를 착용"
+      ],
+      "sourceAuthority": "구로구청 환경과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2815",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "배설물 수거와 목걸이를 착용합시다"
+    },
+    "GUR-TOU-108": {
+      "targetValue": "서울시 구로구 구로중앙로 134, B1 (구로동)",
+      "acceptableVariants": [
+        "구로중앙로 134",
+        "B1",
+        "구로동"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2929",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "서울시 구로구 구로중앙로 134, B1 (구로동)"
+    },
+    "GUR-TOU-109": {
+      "targetValue": "서울시 구로구 안양천 오금교 다리밑",
+      "acceptableVariants": [
+        "서울시 구로구 안양천 오금교 다리밑",
+        "구로구 안양천 오금교 다리밑",
+        "오금교 다리밑"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2930",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "위 치 서울시 구로구 안양천 오금교 다리밑"
+    },
+    "GUR-TOU-110": {
+      "targetValue": "1544-1122",
+      "acceptableVariants": [
+        "1544-1122",
+        "15441122"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2936",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "전화번호 1544-1122"
+    },
+    "GUR-TOU-111": {
+      "targetValue": "안양천 우안 둔치(오금교 아래)",
+      "acceptableVariants": [
+        "안양천 우안 둔치",
+        "오금교 아래",
+        "안양천 우안 둔치(오금교 아래)"
+      ],
+      "sourceAuthority": "구로구청 체육진흥과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2945",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "위 치 : 안양천 우안 둔치(오금교 아래)"
+    },
+    "GUR-TOU-112": {
+      "targetValue": "2025년 11월 예정",
+      "acceptableVariants": [
+        "2025년 11월",
+        "2025.11",
+        "11월 예정"
+      ],
+      "sourceAuthority": "구로구청 체육진흥과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2946",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "2026년도 신청은 2025년 11월 예정"
+    },
+    "GUR-TOU-113": {
+      "targetValue": "https://band.us/page/98665253",
+      "acceptableVariants": [
+        "https://band.us/page/98665253",
+        "band.us/page/98665253"
+      ],
+      "sourceAuthority": "구로구청 체육진흥과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2947",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-05",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "https://band.us/page/98665253"
+    },
+    "GUR-TOU-114": {
+      "targetValue": "서울 구로구 고척동",
+      "acceptableVariants": [
+        "서울 구로구 고척동",
+        "구로구 고척동",
+        "고척동"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2957",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "서울 구로구 고척동"
+    }
+  }
+}

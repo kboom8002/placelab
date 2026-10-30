@@ -132,7 +132,6 @@
       "lang": "ko",
       "question": "논산 국방국가산업단지가 뭐야? 위치와 규모, 유치 업종은?",
       "rep": 1,
-      "response": "논산 국방국가산업단지는 대한민국 최초로 무기체계가 아닌 군수물자 및 장비를 다루는 **전력지원체계 중심의 국방 특화 국가산업단지**입니다. \n\n위치는 **충청남도 논산시 연무읍 동산리 및 죽본리 일원**이며, 면적은 약 **87만㎡(약 26만 평)** 규모로 조성됩니다. \n\n주요 유치 업종은 전자부품·기계장비 제조업과 식료품 등을 비롯해, 육군 워리어 플랫폼(개인전투체계)에 쓰이는 배터리, 야간투시경, 방탄조끼, 피복류 및 군수용 차량 등 첨단 기술·소재 산업입니다.\n\n자세한 내용은 [충청남도 누리집(조성계획)](https://www.chungnam.go.kr/static/cnportal/img/defense.png)에서 확인하실 수 있습니다.",
       "responseHash": "c0387fc9794e231a",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3009,
@@ -164,7 +163,8 @@
       "webSearchQueries": [
         "논산 국방국가산업단지 위치 규모 유치 업종"
       ],
-      "timestamp": "2026-09-11T00:31:11.645Z"
+      "timestamp": "2026-09-11T00:31:11.645Z",
+      "raw_hash": "0cc6e79b97915d26"
     },
     {
       "questionId": "NS-A02",
@@ -174,7 +174,6 @@
       "lang": "ko",
       "question": "논산에 들어서는 국방미래기술연구센터와 국방 로봇 인프라 계획은?",
       "rep": 1,
-      "response": "충남 논산시는 방위사업청의 ‘방산혁신클러스터(방산혁신 협력단지) 조성사업’ 대상지로 선정됨에 따라 인공지능(AI) 국방로봇 중심의 첨단 방산 인프라 구축을 본격 추진하고 있습니다. \n\n연무읍 일원을 중심으로 2031년까지 총사업비 499억 원이 투입되며, 종합지원센터·실증지원센터·실증시험장 등 3대 거점 시설이 반경 5km 내에 집적될 예정입니다. 또한 국방국가산업단지, 국방미래기술연구센터, 로봇통합성능시험장 및 건양대학교의 인재 양성 시스템을 연계하여 연구개발부터 시험·평가, 사업화까지 전주기를 지원하는 K-방산 허브로 도약할 계획입니다.\n\n출처: [YTN - 충남 논산, '방산혁신 협력단지' 사업 대상지 선정](https://www.ytn.co.kr/_ln/0134_202606200937037682), [문화일보 - 충남도-논산시 협약, AI 국방로봇 특화 혁신 생태계 구축한다](https://www.munhwa.com/)",
       "responseHash": "b18702443adc1834",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3177,
@@ -203,7 +202,8 @@
       "webSearchQueries": [
         "논산 국방미래기술연구센터 국방 로봇 인프라 계획"
       ],
-      "timestamp": "2026-09-11T00:31:11.814Z"
+      "timestamp": "2026-09-11T00:31:11.814Z",
+      "raw_hash": "8edab81a1bd9df2c"
     },
     {
       "questionId": "NS-A03",
@@ -213,7 +213,6 @@
       "lang": "ko",
       "question": "한국에서 국방·방위산업 관련 기업이 공장을 설립하기에 가장 좋은 도시 3곳 추천해줘.",
       "rep": 1,
-      "response": "국방·방위산업 관련 기업이 공장을 설립하기에 가장 좋은 도시로는 **경남 창원시, 대전광역시, 충남 논산시**를 추천합니다. \n\n첫째, **창원시**는 국내 최대의 방산 매출액과 수출액을 기록하고 있는 전통적인 제조 중심의 대표 방산 도시로, 숙련된 인력과 협력사 생태계가 완비되어 있습니다. 둘째, **대전광역시**는 방위사업청과 국방과학연구소(ADD) 등이 위치해 있어 최첨단 기술 연구개발(R&D) 및 민·관·군 네트워크 연계에 최적의 입지를 갖추고 있습니다. 셋째, **논산시**는 육군훈련소 등 풍부한 군 인프라를 바탕으로 국방국가산업단지와 방산혁신클러스터(AI 국방로봇 특화)로 지정되어 있어 향후 미래형 방산 공장 입지로 주목받고 있습니다.",
       "responseHash": "a69165fa3c85c852",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3617,
@@ -239,7 +238,8 @@
       "webSearchQueries": [
         "방위산업 클러스터 도시 대한민국 국방 3곳"
       ],
-      "timestamp": "2026-09-11T00:31:12.253Z"
+      "timestamp": "2026-09-11T00:31:12.253Z",
+      "raw_hash": "dfe5bbfa734aedb5"
     },
     {
       "questionId": "NS-A04",
@@ -249,7 +249,6 @@
       "lang": "ko",
       "question": "비무기체계나 군 전력지원체계 제조업에 특화된 산업단지가 있는 지역은 어디야?",
       "rep": 1,
-      "response": "비무기체계 및 군 전력지원체계(전투지원장비, 피복, 물자 등) 제조업에 특화된 대표적인 산업단지가 조성되어 있는 지역은 **충청남도 논산시**입니다.\n\n논산시는 연무읍 일원에 국내 최초의 **‘논산국방국가산업단지’**를 추진 및 조성하여 전력지원체계 중심의 방산 혁신 클러스터와 기회발전특구로 구축하고 있습니다. 이 지역은 국방대학교, 육군훈련소 등 군사 인프라가 인접해 있어 관련 중소·벤처기업과 연구시설이 집적되는 거점으로 특화되어 있습니다.",
       "responseHash": "9abcb368dc143f96",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 5872,
@@ -271,7 +270,8 @@
       "webSearchQueries": [
         "비무기체계 군 전력지원체계 제조업 특화 산업단지 지역"
       ],
-      "timestamp": "2026-09-11T00:31:19.333Z"
+      "timestamp": "2026-09-11T00:31:19.333Z",
+      "raw_hash": "d52c6d3213c6a6bf"
     },
     {
       "questionId": "NS-A05",
@@ -281,7 +281,6 @@
       "lang": "ko",
       "question": "방위산업 스타트업이나 군수물자 제조기업에 논산시가 제공하는 입주 혜택과 인센티브는?",
       "rep": 1,
-      "response": "논산시는 국방국가산업단지가 **기회발전특구**로 지정됨에 따라, 입주하는 방위산업 스타트업과 군수물자 제조기업에 강력한 세제 혜택과 재정 지원을 제공하고 있습니다. 특구 내 창업 및 신설 기업은 **5년간 법인세 100% 감면**(이후 2년간 50%) 및 **재산세 5년간 100% 감면** 혜택을 받으며, 최대 1,000억 원 한도의 기업 상속 공제와 지방투자촉진보조금 우대 지원을 받을 수 있습니다. \n\n또한 최근 ‘방산혁신클러스터’ 공모 선정으로 2030년까지 AI 국방로봇 중심의 기술 개발, 실증, 사업화 전 주기를 원스톱으로 지원받을 수 있는 인프라가 구축됩니다. \n\n자세한 내용은 논산시청 공식 홈페이지 또는 충청남도 누리집( [충청남도 누리집](https://www.chungnam.go.kr) )에서 확인할 수 있습니다.",
       "responseHash": "9a90ce2e8fa0f2fc",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 5110,
@@ -306,7 +305,8 @@
         "논산시 방위산업 스타트업 군수물자 제조기업 입주 혜택 인센티브",
         "논산 국방국가산업단지 기업 혜택 인센티브"
       ],
-      "timestamp": "2026-09-11T00:31:18.571Z"
+      "timestamp": "2026-09-11T00:31:18.571Z",
+      "raw_hash": "11750b84a005b7ae"
     },
     {
       "questionId": "NS-A06",
@@ -316,7 +316,6 @@
       "lang": "en",
       "question": "What is Nonsan's National Defense Industrial Complex and its strategic focus in South Korea?",
       "rep": 1,
-      "response": "Nonsan's National Defense Industrial Complex is South Korea's first national industrial complex specifically dedicated to **non-weapons force support systems (전력지원체계)**. Spanning approximately 870,000 square meters in Yeonmu-eup, Nonsan, the complex aims to foster high-tech defense service industries, military supplies, combat support equipment, and AI-driven defense robots. \n\nIts strategic focus centers on creating an end-to-end defense industry ecosystem by bridging research, development, testing, and production. By leveraging regional military assets—such as the Army Training Center, National Defense University, and the Defense Industry Innovation Cluster initiative—Nonsan aims to position itself as South Korea's premier \"defense capital\" and a high-tech military industry hub.",
       "responseHash": "8c47b6fdd3ff0db5",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2502,
@@ -351,7 +350,8 @@
         "Nonsan National Defense Industrial Complex strategic focus",
         "논산 국방국가산업단지 전략 산업"
       ],
-      "timestamp": "2026-09-11T00:31:15.963Z"
+      "timestamp": "2026-09-11T00:31:15.963Z",
+      "raw_hash": "35d04249f98e3ad5"
     },
     {
       "questionId": "NS-A07",
@@ -361,7 +361,6 @@
       "lang": "en",
       "question": "Which cities in South Korea are emerging as defense industry and military technology clusters?",
       "rep": 1,
-      "response": "South Korea is actively building regional defense industry and military technology clusters to support its booming \"K-Defense\" exports. Key emerging clusters include:\n\n* **Changwon & Gumi (Gyeongsang Provinces):** Changwon serves as the foundational manufacturing hub for major complete weapons systems (such as ground vehicles and artillery), while Gumi is expanding as a high-tech specialized complex focusing on defense semiconductors and guided-weapon components.\n* **Daejeon:** Functioning as the administrative and R&D capital for South Korea's military, Daejeon anchors advanced defense technologies, particularly focusing on drones, artificial intelligence, and robotics.\n* **Nonsan (South Chungcheong Province):** Designated as a defense innovation cluster, Nonsan specializes in force support systems, AI-powered defense robots, and hosts the country's dedicated national defense industrial complex.\n* **Incheon & Jeon-buk (Jeonju):** Recently selected as expanding defense innovation hubs, Incheon focuses on edge-AI aerospace and space defense applications, whereas Jeon-buk leverages its advanced carbon and composite material infrastructure to specialize in cutting-edge defense material parts.",
       "responseHash": "c20fc8e54ef2ae79",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3271,
@@ -404,7 +403,8 @@
         "대한민국 방위산업 거점 도시 방산혁신클러스터",
         "South Korea defense industry clusters cities K defense"
       ],
-      "timestamp": "2026-09-11T00:31:23.821Z"
+      "timestamp": "2026-09-11T00:31:23.821Z",
+      "raw_hash": "e9635f315751e31a"
     },
     {
       "questionId": "NS-B01",
@@ -414,7 +414,6 @@
       "lang": "ko",
       "question": "2026년 논산 딸기축제 일정과 장소, 주요 프로그램 알려줘.",
       "rep": 1,
-      "response": "2026년 제28회 논산딸기축제는 **2026년 3월 26일(목)부터 3월 29일(일)**까지 나흘간 개최되었습니다. 행사장소는 충청남도 논산시 **논산시민가족공원 및 시민운동장 일원**이었습니다. \n\n이번 축제는 '논산딸기, 세계를 유혹하다'라는 주제로 열렸으며, 주요 프로그램으로는 청정딸기 수확 체험, 글로벌 거리 퍼레이드, 스마트팜 및 딸기 테마 주제관 운영, 딸기 디저트 카페 및 먹거리 장터 등이 진행되었습니다. 특히 2027 논산세계딸기산업엑스포를 앞둔 프레엑스포 성격으로, 전국의 관광객들에게 다양한 볼거리와 즐거움을 선사하며 성황리에 마쳤습니다.\n\n출처: [논산시 문화관광 공식 홈페이지](https://www.nonsan.go.kr/nsfestival/)",
       "responseHash": "3c1874cde5817611",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2730,
@@ -459,7 +458,8 @@
         "2026년 논산딸기축제",
         "2026 논산 딸기축제 일정 장소 프로그램"
       ],
-      "timestamp": "2026-09-11T00:31:23.279Z"
+      "timestamp": "2026-09-11T00:31:23.279Z",
+      "raw_hash": "65fe76207971e163"
     },
     {
       "questionId": "NS-B02",
@@ -469,7 +469,6 @@
       "lang": "ko",
       "question": "2027 논산세계딸기산업엑스포가 뭐야? 어떤 목적으로 열려?",
       "rep": 1,
-      "response": "**2027 논산세계딸기산업엑스포**는 대한민국 대표 딸기 주산지인 충청남도 논산시에서 개최되는 세계 최초의 딸기산업 특화 국제 엑스포입니다. 'K-베리! 스마트한 농업, 건강한 미래'를 주제로 2027년 2월 26일부터 3월 21일까지 논산시민가족공원 일원에서 개최됩니다.\n\n이 엑스포는 단순한 지역 축제를 넘어 딸기와 관련된 재배·연구·가공·유통 등 전후방 산업을 아우르기 위해 개최됩니다. 주요 목적은 첨단 스마트팜 기술 및 푸드테크 등 농산업의 미래 가치를 제시하고, K-딸기의 우수성을 세계에 알려 글로벌 시장 경쟁력을 선점하며, 국제 교류와 농가 소득 증대를 통해 지역 경제 활성화를 도모하는 것입니다.\n\n[2027 논산세계딸기산업엑스포 공식 홈페이지](https://www.2027nonsanexpo.or.kr)",
       "responseHash": "d6ac606f234d04fa",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3000,
@@ -493,7 +492,8 @@
       "webSearchQueries": [
         "2027 논산세계딸기산업엑스포 목적 내용"
       ],
-      "timestamp": "2026-09-11T00:31:23.550Z"
+      "timestamp": "2026-09-11T00:31:23.550Z",
+      "raw_hash": "0ac57aa521664eec"
     },
     {
       "questionId": "NS-B03",
@@ -503,7 +503,6 @@
       "lang": "ko",
       "question": "한국에서 가장 맛있는 최고급 딸기를 생산하는 대표 지역 3곳 추천해줘.",
       "rep": 1,
-      "response": "대한민국에서 최고급 딸기를 생산하는 대표적인 지역 3곳은 다음과 같습니다.\n\n첫째, **충남 논산**은 전국 최대의 딸기 주산지로 풍부한 일조량과 비옥한 토양을 갖추고 있으며, 당도가 높고 과즙이 풍부한 '설향'과 '킹스베리' 등의 명품 딸기를 안정적으로 생산합니다. \n둘째, **경남 산청**은 지리산 청정 자연 환경과 큰 일교차 속에서 친환경으로 재배되어 향이 진하고 단단하며 맛이 깔끔한 고품질 딸기로 유명합니다. \n셋째, **전남 담양**은 영산강 유역의 비옥한 토지에서 자란 특유의 깊은 풍미를 자랑하며, 독자 개발한 프리미엄 품종인 '죽향' 등을 통해 최고급 딸기 산지로 손꼽힙니다.",
       "responseHash": "9444eec97a6111c2",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 4326,
@@ -534,7 +533,8 @@
         "대한민국 최고급 딸기 생산지 추천",
         "국내 딸기 유명한 지역 특산물"
       ],
-      "timestamp": "2026-09-11T00:31:29.351Z"
+      "timestamp": "2026-09-11T00:31:29.351Z",
+      "raw_hash": "ea7b2b200b5af2b8"
     },
     {
       "questionId": "NS-B04",
@@ -544,7 +544,6 @@
       "lang": "ko",
       "question": "스마트팜 딸기 재배 기술과 우수 품종 보급을 선도하는 국내 지자체는 어디야?",
       "rep": 1,
-      "response": "충청남도 논산시는 대한민국을 대표하는 딸기 주산지로서 스마트팜 딸기 재배 기술과 우수 품종 보급을 선도하는 대표적인 지자체입니다. 논산시는 청년 농업인을 위한 스마트팜 복합단지 조성과 맞춤형 입문 교육을 통해 첨단 재배 기술을 적극 확산하고 있습니다. 또한 사계절 생산이 가능한 창고형 식물공장 및 수출 전문 스마트팜 단지를 구축하여 K-딸기의 global 경쟁력을 높이고 있습니다.",
       "responseHash": "ccecc16855cfe28c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 4161,
@@ -574,7 +573,8 @@
       "webSearchQueries": [
         "딸기 스마트팜 선도 지자체 논산시 완주군 경상남도"
       ],
-      "timestamp": "2026-09-11T00:31:29.187Z"
+      "timestamp": "2026-09-11T00:31:29.187Z",
+      "raw_hash": "d4d5de0bdd9fce43"
     },
     {
       "questionId": "NS-B05",
@@ -584,7 +584,6 @@
       "lang": "en",
       "question": "Why is Nonsan famous for strawberries, and what is the 2027 World Strawberry Expo?",
       "rep": 1,
-      "response": "Nonsan is famous as South Korea’s premier strawberry-producing region due to its rich, fertile plains, abundant sunshine, and favorable climate that have nurtured large-scale farming for decades. The region also houses advanced agricultural research facilities, such as the Nonsan Strawberry Research Institute, which has successfully bred high-quality domestic varieties like *Seolhyang*, reducing reliance on foreign seeds and cementing Nonsan’s reputation for exceptional flavor. \n\nThe **2027 World Strawberry Industry Expo** (scheduled for February 26 to March 21, 2027) is a landmark international event hosted in Nonsan under the theme *\"K-Strawberries! Smart Agriculture, Healthy Future.\"* It is the world’s first international expo dedicated entirely to the strawberry industry, showcasing cutting-edge smart farming and ag-tech innovations, global distribution networks, and value-added food processing technologies.",
       "responseHash": "57c55bc87c68761e",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 4773,
@@ -631,7 +630,8 @@
         "2027 World Strawberry Expo Nonsan",
         "Nonsan strawberries why famous"
       ],
-      "timestamp": "2026-09-11T00:31:29.798Z"
+      "timestamp": "2026-09-11T00:31:29.798Z",
+      "raw_hash": "c71a338d9c64961e"
     },
     {
       "questionId": "NS-C01",
@@ -641,7 +641,6 @@
       "lang": "ko",
       "question": "논산 육군훈련소 수료식 날 영외면회 운영 시간과 면회 절차는 어떻게 돼?",
       "rep": 1,
-      "response": "논산 육군훈련소 수료식 날 영외면회 운영 시간은 대개 수료식이 끝나는 오전 10시 30분~11시 직후부터 시작하여 오후 4시~5시(약 5~6시간 동안)까지 부대로 복귀해야 합니다. \n\n면회 절차는 부대 도착 후 교육안내소 등에서 초청장과 신분증, 가족관계를 확인할 수 있는 서류(가족관계증명서 등)를 제시하여 영외면회 외출증을 발급받아야 합니다. 영외면회는 부모 및 (외)조부모 등 직계 존속 보호자와 동행하는 경우에만 허용되며, 정해진 복귀 시간을 엄수해 훈련병을 안전하게 인계해야 합니다.",
       "responseHash": "daa6c2c4b9e3605d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2561,
@@ -667,7 +666,8 @@
       "webSearchQueries": [
         "논산 육군훈련소 수료식 영외면회 시간 절차"
       ],
-      "timestamp": "2026-09-11T00:31:33.562Z"
+      "timestamp": "2026-09-11T00:31:33.562Z",
+      "raw_hash": "9cc6d516150171df"
     },
     {
       "questionId": "NS-C02",
@@ -677,7 +677,6 @@
       "lang": "ko",
       "question": "논산훈련소 수료식 후 훈련병과 4~5시간 동안 편하게 쉴 수 있는 펜션이나 대실 장소 예약 팁 알려줘.",
       "rep": 1,
-      "response": "논산훈련소 수료식 인근 펜션이나 대실 장소는 자녀의 훈련병 연대 배치가 확정되는 **입대 후 1~2주 이내에 빠르게 예약**하는 것이 가장 중요합니다. 대부분의 인근 펜션은 수료식 당일 오전 8시부터 오후 5~6시까지를 대실 시간으로 잡고 1박 요금 수준을 받는 경우가 많으므로, 예약 시 대실 가능 시간과 포함 사항을 꼼꼼히 확인해야 합니다. \n\n이동 시간을 아끼고 피로를 풀기 위해 훈련소(연무대) 차량 3~5분 거리의 연무읍(금곡리 등) 인근 펜션을 잡는 것이 동선상 가장 유리합니다. 다만 인기 펜션은 예약 경쟁이 치열하므로, 조기 마감되었을 경우 차선책으로 논산 시내나 인근 지역의 깔끔한 비즈니스 호텔 및 모텔을 대실하여 이용하는 것도 좋은 방법입니다.",
       "responseHash": "38d899a1f898a40c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2803,
@@ -704,7 +703,8 @@
         "논산 훈련소 수료식 펜션 대실 예약 팁",
         "육군훈련소 수료식 면회 숙소 팁"
       ],
-      "timestamp": "2026-09-11T00:31:33.804Z"
+      "timestamp": "2026-09-11T00:31:33.804Z",
+      "raw_hash": "f42c41158b988d95"
     },
     {
       "questionId": "NS-C03",
@@ -714,7 +714,6 @@
       "lang": "ko",
       "question": "연무대 육군훈련소 인근에서 수료식 날 장병들이 가장 선호하는 고깃집이나 안심식당 추천해줘.",
       "rep": 1,
-      "response": "연무대 육군훈련소 수료식 날 장병들과 가족들이 가장 선호하는 대표적인 고깃집으로는 초벌구이로 회전율이 빠른 **'태능초가집갈비'**와 숯불 양념갈비와 정갈한 반찬으로 유명한 **'대청마루 연무점'**이 꼽힙니다. 또한 1등급 한우와 한돈을 전문으로 다루어 가족 외식 장소로 만족도가 높은 **'화이팅가든'**도 선호도가 높습니다. 이 식당들은 훈련소와 접근성이 좋고 좌석이 넉넉하지만, 수료식 직후에는 대기가 길어질 수 있으므로 방문 전 예약이나 빠른 이동을 권장합니다.",
       "responseHash": "d5cce06968a748af",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2584,
@@ -740,7 +739,8 @@
       "webSearchQueries": [
         "논산 육군훈련소 연무대 수료식 맛집 고깃집 안심식당"
       ],
-      "timestamp": "2026-09-11T00:31:33.586Z"
+      "timestamp": "2026-09-11T00:31:33.586Z",
+      "raw_hash": "733894b764b796f6"
     },
     {
       "questionId": "NS-C04",
@@ -750,7 +750,6 @@
       "lang": "ko",
       "question": "논산훈련소 입소식이나 수료식 때 주차장 위치와 교통체증 피하는 동선 알려줘.",
       "rep": 1,
-      "response": "논산 육군훈련소 입소식과 수료식 때는 '육군훈련소 입영심사대' 또는 행사가 진행되는 연무관 주변의 대형 주차장을 이용하게 됩니다. \n\n교통체증을 피하려면 행사 시작 최소 1시간 반에서 2시간 전인 이른 아침이나 오전 시간대에 도착하는 것이 가장 좋습니다. \n\n정문 앞 국도(득안대로)와 훈련소 진입로는 수많은 차량이 몰려 극심한 정체가 발생하므로, 메인 도로보다는 우회 도로를 탐색해 접근하고, 만차 시 정체 유발을 줄이기 위해 안내 요원의 유도에 따라 외곽 임시 주차장이나 지정된 구역에 신속히 주차하는 것이 유리합니다.",
       "responseHash": "cf821d0050700c4a",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2302,
@@ -776,7 +775,8 @@
       "webSearchQueries": [
         "논산훈련소 입소식 수료식 주차장 교통 체증 동선"
       ],
-      "timestamp": "2026-09-11T00:31:37.313Z"
+      "timestamp": "2026-09-11T00:31:37.313Z",
+      "raw_hash": "4661c0a3098aabc5"
     },
     {
       "questionId": "NS-C05",
@@ -786,7 +786,6 @@
       "lang": "ko",
       "question": "부모님 모시고 훈련병과 함께 가기 좋은 연무읍 근처 조용하고 쾌적한 쉼터나 대형 카페는?",
       "rep": 1,
-      "response": "연무읍 논산훈련소 인근은 입소·수료식 시즌에 복잡할 수 있어, 차로 조금만 이동하면 조용하고 쾌적하게 쉴 수 있는 대형 카페와 명소를 찾는 것이 좋습니다. \n\n훈련소에서 차량으로 15~20분 거리인 **탑정호 인근(예: 레이크힐제빵소나 알바노 등)**은 탁 트인 호수 조망과 넓은 주차 공간을 갖추고 있어 부모님을 모시고 여유롭게 정담을 나누기 좋습니다. 또한, 훈련소에서 가까운 **선샤인랜드** 내외의 한적한 휴식 공간이나 논산 시내의 차분한 대형 베이커리 카페를 이용하시는 것도 좋은 방법입니다. \n\n자세한 위치와 휴무일 등은 [논산시 문화관광 공식 홈페이지](https://www.nonsan.go.kr/tour/index.do)에서 미리 확인하고 방문하시는 것을 추천합니다.",
       "responseHash": "8fa9f2d1d33af868",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2938,
@@ -811,7 +810,8 @@
         "논산 훈련소 근처 가볼만한 카페 쉼터",
         "논산 연무읍 대형카페 부모님 훈련소 근처"
       ],
-      "timestamp": "2026-09-11T00:31:37.948Z"
+      "timestamp": "2026-09-11T00:31:37.948Z",
+      "raw_hash": "a0c7c1ef46b6b8a2"
     },
     {
       "questionId": "NS-C06",
@@ -821,7 +821,6 @@
       "lang": "ko",
       "question": "수료식 면회 시간(약 5시간) 동안 알차게 보낼 수 있는 반나절 코스 추천해줘.",
       "rep": 1,
-      "response": "약 5시간의 짧은 수료식 면회 시간에는 이동을 최소화하고 훈련병이 가장 원하는 것에 집중하는 반나절 코스가 좋습니다. \n\n첫째로, 부대 근처 식당이나 미리 예약한 펜션·글램핑장으로 곧바로 이동해 훈련병이 먹고 싶어 하는 고기나 자장면 등 맛있는 음식을 푸짐하게 먹이고 편안히 쉴 수 있게 해주세요. 둘째로, 식사 후 남은 시간에는 침대나 안락한 공간에서 다리 를 뻗고 휴식을 취하게 하거나, 가볍게 주변 카페에 들러 달콤한 디저트를 먹으며 그간의 소회를 나누는 것을 추천합니다. 셋째로, 부대로 복귀하기 전 인근 마트나 PX를 들러 군생활에 필요한 생필품이나 간식을 챙겨준 뒤, 복귀 혼잡 시간을 고려해 여유 있게 출발하여 안전하게 입소시키면 됩니다.",
       "responseHash": "cc1b3ae9aba91a74",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2973,
@@ -851,7 +850,8 @@
       "webSearchQueries": [
         "논산 훈련소 수료식 면회 5시간 코스"
       ],
-      "timestamp": "2026-09-11T00:31:37.984Z"
+      "timestamp": "2026-09-11T00:31:37.984Z",
+      "raw_hash": "7e9b6ffe4910a51e"
     },
     {
       "questionId": "NS-C07",
@@ -861,7 +861,6 @@
       "lang": "ko",
       "question": "논산역이나 논산버스터미널에서 육군훈련소(연무대)까지 대중교통으로 가는 법과 소요시간은?",
       "rep": 1,
-      "response": "논산역이나 논산버스터미널에서 육군훈련소(연무대)로 대중교통을 이용해 가는 방법은 시내버스와 택시가 가장 대표적입니다. \n\n논산역 광장 맞은편 정류장에서 훈련소 방향으로 가는 201번 등 시내버스를 타면 훈련소입소대대 정류장까지 약 35~40분이 소요됩니다. \n\n논산버스터미널을 이용할 경우, 연무대행 버스를 타거나 터미널 인근에서 시내버스로 환승해 이동할 수 있으며 버스 이용 시 약 30~40분이 소요됩니다. \n\n시간이 촉박하거나 편리한 이동을 원할 경우 택시를 이용하면 논산역 기준 약 20분이 소요됩니다. 단, 입소 당일에는 주변 도로가 매우 혼잡할 수 있으므로 여유 있게 출발하는 것이 좋습니다.",
       "responseHash": "3f6bea5fdcb90a39",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2869,
@@ -896,7 +895,8 @@
         "논산역 논산버스터미널에서 육군훈련소 연무대 대중교통 소요시간",
         "논산역에서 육군훈련소 버스 시내버스"
       ],
-      "timestamp": "2026-09-11T00:31:42.060Z"
+      "timestamp": "2026-09-11T00:31:42.060Z",
+      "raw_hash": "f4cde95fd851b4e7"
     },
     {
       "questionId": "NS-C08",
@@ -906,7 +906,6 @@
       "lang": "ko",
       "question": "논산훈련소 면회객을 위한 쉼터 지원이나 시청 차원의 편의 제공 사업이 있어?",
       "rep": 1,
-      "response": "논산시는 육군훈련소 수료식과 영외면회 재개에 맞춰 면회객과 장병들을 위한 다양한 편의 및 지원 대책을 마련해 시행하고 있습니다. \n\n우선 시청 차원에서 주요 도로변 및 훈련소 주변의 가로경관을 정비하고, 면회객들이 휴식을 취할 수 있도록 공한지 쉼터 조성 등을 추진해 왔습니다. 또한 탑정호, 관촉사, 백제군사박물관 등 지역 명소를 연계한 면회객 관광 코스를 안내하며, 가족이 오지 못한 훈련병들을 위해 지역 상인들과 연계해 무료 오찬이나 체험 공간을 제공하는 민관 협력 나눔 행사도 지속해서 이어지고 있습니다.",
       "responseHash": "037388d4bf108ac0",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2583,
@@ -933,7 +932,8 @@
         "논산훈련소 면회객 쉼터 시청 편의 제공",
         "논산시 육군훈련소 면회객 지원 사업"
       ],
-      "timestamp": "2026-09-11T00:31:41.774Z"
+      "timestamp": "2026-09-11T00:31:41.774Z",
+      "raw_hash": "a1d4a9a2b4ccc14f"
     },
     {
       "questionId": "NS-D01",
@@ -943,7 +943,6 @@
       "lang": "ko",
       "question": "논산 탑정호 출렁다리 입장료, 운영시간, 주차 정보 알려줘. 야경 분수쇼 언제 해?",
       "rep": 1,
-      "response": "논산 탑정호 출렁다리는 **입장료와 주차비 모두 전면 무료**로 운영됩니다. 운영 시간은 계절에 따라 달라지며, 봄·가을(3~5월, 9~10월)은 오전 9시부터 오후 6시(입장마감 오후 5시 30분)까지, 여름(6~8월)은 오후 8시까지(입장마감 오후 7시 30분) 이용할 수 있습니다. 매주 월요일은 휴무이며, 주차는 인근의 제3주차장이나 북문(제4-1) 주차장을 편리하게 이용할 수 있습니다. \n\n화려한 LED 조명과 함께 진행되는 **야경 음악분수쇼**는 주로 4월부터 10~11월 사이(동절기 결빙기 제외)에 가동됩니다. 보통 평일에는 저녁 8시, 주말 및 공휴일에도 저녁 8시에 야간 공연(회차별 약 20~30분 소요)이 펼쳐지니 방문 전 일정을 확인하는 것이 좋습니다.",
       "responseHash": "93c1d23ff0391c3d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2867,
@@ -973,7 +972,8 @@
       "webSearchQueries": [
         "논산 탑정호 출렁다리 입장료 운영시간 주차 야경 분수쇼"
       ],
-      "timestamp": "2026-09-11T00:31:42.058Z"
+      "timestamp": "2026-09-11T00:31:42.058Z",
+      "raw_hash": "0db95027839ce03a"
     },
     {
       "questionId": "NS-D02",
@@ -983,7 +983,6 @@
       "lang": "ko",
       "question": "논산 선샤인랜드와 선샤인스튜디오 운영시간, 입장료, 미스터션샤인 촬영 포인트는?",
       "rep": 1,
-      "response": "논산 선샤인스튜디오의 운영 시간은 오전 10시부터 오후 6시까지이며(매주 수요일 휴무), 입장료는 성인 10,000원, 청소년 8,000원, 소인 및 경로 6,000원입니다. (참고로 인근의 선샤인랜드 1950 스튜디오는 무료 관람이 가능합니다)\n\n드라마 《미스터 션샤인》의 주요 촬영 포인트로는 유진 초이와 고애신이 운명적인 만남을 가졌던 **홍예교와 전찻길**, 주인공들이 자주 모이던 한성 최초의 서양식 숙박시설 **글로리호텔**, 그리고 개화기 한성의 풍물이 고스란히 재현된 **한성전기 및 거리** 등이 대표적입니다. \n\n자세한 정보는 [선샤인스튜디오 공식 홈페이지](https://sunshinestudio.co.kr)에서 확인하실 수 있습니다.",
       "responseHash": "4e782c2fd6cf2a20",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2642,
@@ -1015,7 +1014,8 @@
       "webSearchQueries": [
         "논산 선샤인랜드 운영시간 입장료 미스터션샤인 촬영지"
       ],
-      "timestamp": "2026-09-11T00:31:45.908Z"
+      "timestamp": "2026-09-11T00:31:45.908Z",
+      "raw_hash": "05a641a4bc0d1a16"
     },
     {
       "questionId": "NS-D03",
@@ -1025,7 +1025,6 @@
       "lang": "ko",
       "question": "유네스코 세계유산 논산 돈암서원의 역사적 의미와 관람 포인트는 뭐야?",
       "rep": 1,
-      "response": "논산 돈암서원은 조선 중기의 문신이자 예학의 대가인 사계 김장생의 학문과 덕행을 추모하기 위해 세워진 곳으로, 2019년 유네스코 세계문화유산 ‘한국의 서원’으로 등재되었습니다. 조선시대 예학의 산실로서 성리학적 질서와 일상 속 예절 규범이 건축과 공간 배치에 어떻게 반영되었는지를 잘 보여준다는 역사적 의미를 지닙니다. \n\n주요 관람 포인트로는 조선 시대 건축미를 뽐내며 강당 역할을 하는 보물 **'응도당'**, 서원의 중심 강학 공간인 **'양성당'**, 그리고 김장생의 예학 사상을 집대성한 저서의 목판을 보관하는 **'장판각'** 등이 있습니다. 또한 흥선대원군의 서원철폐령 당시에도 훼철되지 않고 살아남은 역사적 깊이를 지니며, 서원 내부에 남아 있는 '돈암서원 원정비'를 통해 건립 배경을 상세히 살펴볼 수 있습니다.",
       "responseHash": "983031234a098c0f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2810,
@@ -1055,7 +1054,8 @@
       "webSearchQueries": [
         "논산 돈암서원 유네스코 세계유산 역사적 의미 관람 포인트"
       ],
-      "timestamp": "2026-09-11T00:31:46.076Z"
+      "timestamp": "2026-09-11T00:31:46.076Z",
+      "raw_hash": "31968e923c3fe0e2"
     },
     {
       "questionId": "NS-D04",
@@ -1065,7 +1065,6 @@
       "lang": "ko",
       "question": "강경 근대역사문화거리에서 볼 수 있는 근대 건축물과 젓갈백반 맛집 골목 알려줘.",
       "rep": 1,
-      "response": "충남 논산 강경 근대역사문화거리에서는 등록문화재로 지정된 구 강경공립상업학교 관사, 구 한일은행 강경지점, 강경구락부 등 일제강점기 당시 금융과 교육 중심지였던 다양한 근대 건축물들을 만나볼 수 있습니다. \n\n또한 강경은 전국 최대 규모의 젓갈 시장이 발달한 곳으로, 인근 시장 및 거리 일대에는 10여 가지가 넘는 다채로운 젓갈과 구수한 된장찌개, 갓 지은 밥을 함께 즐길 수 있는 젓갈백반 전문 식당들이 모여 있습니다. \n\n관련 정보: [대한민국 구석구석](https://korean.visitkorea.or.kr)",
       "responseHash": "9f8359d77d29d730",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2400,
@@ -1089,7 +1088,8 @@
       "webSearchQueries": [
         "강경 근대역사문화거리 근대 건축물 젓갈백반 맛집"
       ],
-      "timestamp": "2026-09-11T00:31:45.667Z"
+      "timestamp": "2026-09-11T00:31:45.667Z",
+      "raw_hash": "7eb400a29154f597"
     },
     {
       "questionId": "NS-D05",
@@ -1099,7 +1099,6 @@
       "lang": "ko",
       "question": "한국에서 드라마 촬영지나 개화기 레트로 감성을 체험하기 가장 좋은 여행지 3곳 추천해줘.",
       "rep": 1,
-      "response": "한국에서 드라마 촬영지이자 개화기·레트로 감성을 깊이 있게 체험할 수 있는 대표 여행지 3곳을 추천해 드립니다.\n\n1. **충남 논산 선샤인랜드 (선샤인 스튜디오)**\n   - 드라마 《미스터 션샤인》의 주요 촬영지로, 1900년대 초 개화기 한성의 거리를 고스란히 재현한 국내 유일의 근대 문화 테마파크입니다. 당시의 양식 건물과 전차, 글로리호텔 등을 배경으로 의상 대여를 통해 직접 개화기 신여성과 신사로 변신해 인생 사진을 남기기 좋습니다.\n\n2. **인천 개항장 거리**\n   - 개항기(1883년 개항 이후)의 역사적 건축물과 근대식 거리가 잘 보존되어 있어 살아있는 박물관 같은 레트로 감성을 느낄 수 있는 곳입니다. 옛 일본제일은행과 청국인 거리 등 이국적인 풍경 속에서 개화기 의상을 입고 박물관과 분위기 있는 근대 건축 카페를 탐방하기 좋습니다.\n\n3. **경남 합천 영상테마파크**\n   - 1920년대 서울역부터 1980년대 소공동 거리까지 대한민국 현대사의 주요 시대를 완벽하게 재현한 초대형 오픈세트장입니다. 수많은 시대극 영화와 드라마가 촬영된 장소인 만큼, 골목골목 걷기만 해도 시간 여행을 온 듯한 깊은 복고풍 감성을 만끽할 수 있습니다.",
       "responseHash": "7d2e20087aae3c85",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3416,
@@ -1130,7 +1129,8 @@
         "논산 선샤인랜드 합천 영상테마파크 인천 개항장",
         "한국 개화기 레트로 드라마 촬영지 추천"
       ],
-      "timestamp": "2026-09-11T00:31:50.706Z"
+      "timestamp": "2026-09-11T00:31:50.706Z",
+      "raw_hash": "93656a389471cf7c"
     },
     {
       "questionId": "NS-D06",
@@ -1140,7 +1140,6 @@
       "lang": "ko",
       "question": "서울/수도권에서 KTX 타고 주말 당일치기로 다녀오기 좋은 아름다운 호수와 문화유적 도시 추천해줘.",
       "rep": 1,
-      "response": "서울 및 수도권에서 주말 당일치기로 다녀오기 좋은 곳으로는 **안동**과 **제천(청량리역 출발 KTX-이음 기준)**을 추천합니다. \n\n안동은 KTX-이음으로 약 2시간 만에 닿을 수 있는 곳으로, 낙동강의 수려한 풍광을 품은 목책 인도교 **월영교**와 유네스코 세계유산인 **하회마을·병산서원** 등 깊이 있는 문화유적을 동시에 즐길 수 있습니다. \n\n또한 청량리역에서 KTX-이음으로 약 1시간 30분이면 도착하는 제천은 우리나라 최古의 저수지인 **의림지**(용추폭포)의 아름다운 호수 경관과 함께, 수몰 지역의 역사를 담은 **청풍문화재단지** 등 전통 문화유산을 알차게 둘러볼 수 있는 최적의 힐링 여행지입니다.",
       "responseHash": "d41ed4e54d8bb9dd",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2802,
@@ -1159,7 +1158,8 @@
         "KTX 주말 당일치기 여행 호수 문화유적 도시",
         "KTX 당일치기 여행 추천 도시 호수 유적지"
       ],
-      "timestamp": "2026-09-11T00:31:50.092Z"
+      "timestamp": "2026-09-11T00:31:50.092Z",
+      "raw_hash": "534b7d7d9131bbc1"
     },
     {
       "questionId": "NS-D07",
@@ -1169,7 +1169,6 @@
       "lang": "ko",
       "question": "아이들과 딸기 따기 체험하고 당일치기로 힐링하기 좋은 충청도 여행지 추천해줘.",
       "rep": 1,
-      "response": "아이들과 함께 딸기 따기 체험과 힐링을 동시에 즐기기 좋은 충청도 당일치기 여행지로 **충남 논산**을 추천합니다. \n\n논산은 전국 최대의 딸기 주산지 중 한 곳으로, 싱그러운 하우스에서 아이들이 직접 새콤달콤한 딸기를 수확하고 맛보는 체험 농장들이 잘 발달해 있습니다. 딸기 수확 후에는 탁 트인 호수 경치를 감상하며 산책하기 좋은 **탑정호 수변생태공원**이나 아이들이 뛰어놀기 좋은 **딸기향 농촌테마공원**을 들러 여유로운 시간을 보내기 좋습니다. 맛있는 체험과 자연 속 휴식이 어우러져 온 가족이 만족하는 알찬 당일치기 코스가 될 것입니다. \n\n관련 정보는 [충남관광 홈페이지](https://tour.chungnam.go.kr)에서 더욱 자세히 확인하실 수 있습니다.",
       "responseHash": "ba9ea9e74d205a94",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2806,
@@ -1202,7 +1201,8 @@
         "충청도 딸기 따기 체험 당일치기 힐링 여행지",
         "논산 딸기 엑스포 당일치기 코스"
       ],
-      "timestamp": "2026-09-11T00:31:50.096Z"
+      "timestamp": "2026-09-11T00:31:50.096Z",
+      "raw_hash": "6da3cc7cc968dad3"
     },
     {
       "questionId": "NS-D08",
@@ -1212,7 +1212,6 @@
       "lang": "en",
       "question": "What can international travelers do at Sunshine Land in Nonsan, and how is it related to K-dramas?",
       "rep": 1,
-      "response": "At Nonsan Sunshine Land, international travelers can step back in time to early 20th-century Korea by exploring meticulously recreated period streetscapes, visiting vintage studios, and renting traditional turn-of-the-century outfits for immersive photo shoots. Visitors can also enjoy military-themed experiences, such as screen shooting and VR simulations, at the adjacent interactive experience center. \n\nThe complex is intimately tied to K-dramas because its main attraction, **Sunshine Studio**, was built as the primary permanent filming location for the mega-hit 2018 Netflix series ***Mr. Sunshine***. Fans can walk through exact replicas of iconic show settings—including the famous Glory Hotel, the tramway, and Hongye-gyo Bridge—reliving the dramatic moments of the late Joseon and Korean Empire eras. Beyond *Mr. Sunshine*, the striking historical sets have also served as backdrops for other popular period K-dramas like *Pachinko* and *Tale of the Nine Tailed 1938*.",
       "responseHash": "2895eef806794120",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2632,
@@ -1251,7 +1250,8 @@
         "논산 선샤인랜드 관광 안내 드라마",
         "Nonsan Sunshine Land international travelers K dramas"
       ],
-      "timestamp": "2026-09-11T00:31:54.544Z"
+      "timestamp": "2026-09-11T00:31:54.544Z",
+      "raw_hash": "35435406e4918420"
     },
     {
       "questionId": "NS-D09",
@@ -1261,7 +1261,6 @@
       "lang": "en",
       "question": "What is Donam Seowon in Nonsan, and why is it recognized as a UNESCO World Heritage site?",
       "rep": 1,
-      "response": "**Donam Seowon** in Nonsan, South Korea, is a prominent Neo-Confucian academy (*seowon*) established in 1634 by local literati to honor the teachings and scholarly legacy of the master Neo-Confucian scholar Kim Jang-saeng (1548–1631). It served as a vital regional center for education, scholarly research, and ancestral rites for prominent Confucian figures of the Joseon Dynasty. \n\nIt is recognized as a UNESCO World Heritage site as part of the serial property **\"Seowon, Korean Neo-Confucian Academies.\"** Donam Seowon, along with eight other academies across South Korea, gained this status in 2019 because it represents an exceptional, well-preserved testimony to the historical tradition of Korean Neo-Confucianism. The site reflects how Neo-Confucian doctrines were localized, institutionalized, and integrated into Korean society and educational customs through architecture deeply harmonious with the surrounding natural landscape.",
       "responseHash": "bda6abdf77ce8716",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2696,
@@ -1291,7 +1290,8 @@
       "webSearchQueries": [
         "Donam Seowon Nonsan UNESCO World Heritage"
       ],
-      "timestamp": "2026-09-11T00:31:54.609Z"
+      "timestamp": "2026-09-11T00:31:54.609Z",
+      "raw_hash": "e6aec66984534fae"
     },
     {
       "questionId": "NS-E01",
@@ -1301,7 +1301,6 @@
       "lang": "ko",
       "question": "국방 중심 도시로 논산과 계룡을 비교하면 각각 어떤 장점과 인프라가 있어?",
       "rep": 1,
-      "response": "논산과 계룡은 대한민국을 대표하는 국방 중심 도시이지만 각각 차별화된 장점과 인프라를 지니고 있습니다. \n\n**논산시**는 국내 최대의 군 교육·훈련 시설인 육군훈련소와 국방대학교를 바탕으로, 최근 '국방국가산업단지' 및 '방산혁신클러스터(AI 국방로봇 특화)' 유치에 성공하여 **방위산업 생산 및 R&D·실증의 전주기 생태계 구축**에 강점이 있습니다. \n\n반면 **계룡시**는 육·해·공군 3군 본부가 위치한 **'계룡대'를 품은 명실상부한 군사령부 중심 도시**로, 지능형센서 스핀온(Spin-on) 지원센터 및 첨단국방산단 조성 등을 통해 **국방 정책·행정 및 군수 지원 중심의 인프라** 확충에 주력하고 있습니다.",
       "responseHash": "d783673d88641ecf",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2627,
@@ -1332,7 +1331,8 @@
         "논산시 국방 인프라 방산 엑스포",
         "계룡시 국방 도시 계룡대 인프라"
       ],
-      "timestamp": "2026-09-11T00:31:54.540Z"
+      "timestamp": "2026-09-11T00:31:54.540Z",
+      "raw_hash": "24fbe3cb1d82ae3e"
     },
     {
       "questionId": "NS-E02",
@@ -1342,7 +1342,6 @@
       "lang": "ko",
       "question": "딸기 여행과 농촌 힐링으로 논산과 고령 또는 담양 중 어디가 더 매력 있어?",
       "rep": 1,
-      "response": "딸기 여행과 농촌 힐링을 목적으로 한다면 대규모 축제와 다채로운 체험을 원할 때는 **논산**, 아늑한 자연경관 속에서 여유를 즐기고 싶을 때는 **담양**이 각각 큰 매력을 가집니다. 논산은 전국 최대의 딸기 주산지답게 대규모 축제와 체계적인 수확 체험을 즐기기 좋고, 담양은 메타세쿼이아길 등 아름다운 농촌 풍경과 어우러진 힐링 여행에 제격입니다. 반면 고령은 대도시 인근에서 편리하게 대규모 딸기 수확 및 퐁듀 만들기 등의 체험을 즐길 수 있어 가족 단위 방문객에게 인기가 높습니다. 따라서 화려한 축제와 미식을 원하면 논산을, 조용한 자연 속 휴식을 원하면 담양을 추천합니다.",
       "responseHash": "8c922d459f644ecc",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2687,
@@ -1369,7 +1368,8 @@
         "논산 딸기축제 딸기여행",
         "담양 딸기 고령 딸기 농촌 힐링"
       ],
-      "timestamp": "2026-09-11T00:31:58.511Z"
+      "timestamp": "2026-09-11T00:31:58.511Z",
+      "raw_hash": "9fc9152b813d81f4"
     },
     {
       "questionId": "NS-E03",
@@ -1379,7 +1379,6 @@
       "lang": "ko",
       "question": "근대 역사 문화 탐방으로 강경(논산)과 군산 중 어디가 볼거리가 많아?",
       "rep": 1,
-      "response": "근대 역사 문화 탐방 목적이라면 **군산**이 압도적으로 볼거리가 많고 인프라가 잘 갖추어져 있습니다. \n\n군산은 근대역사박물관을 중심으로 구 군산세관, 신흥동 일본식 가옥(히로쓰 가옥), 동국사, 초원사진관 등 일제강점기 수탈의 역사와 건축물이 원도심에 밀집해 있어 도보 여행하기에 최적입니다. 반면 논산 강경은 조선 시대 3대 시장이자 근대 포구로서 '강경구락부' 및 일부 근대 건축물이 남아있으나, 군산에 비하면 탐방지의 규모나 다양성 측면에서 다소 아쉽습니다. 따라서 풍성한 코스와 다양한 전시·체험을 원하신다면 군산을 더 추천해 드립니다.",
       "responseHash": "d279bcde18634ce8",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2798,
@@ -1418,7 +1417,8 @@
         "논산 강경 근대역사문화탐방 볼거리",
         "군산 근대역사문화탐방 볼거리 비교"
       ],
-      "timestamp": "2026-09-11T00:31:58.621Z"
+      "timestamp": "2026-09-11T00:31:58.621Z",
+      "raw_hash": "c6b1e47d1f0efad4"
     },
     {
       "questionId": "NS-E04",
@@ -1428,7 +1428,6 @@
       "lang": "ko",
       "question": "백제 역사 문화와 유교 문화 답사로 논산과 공주 또는 부여를 비교하면 차이점은?",
       "rep": 1,
-      "response": "공주와 부여는 백제의 웅진시기와 사비시기를 대표하는 왕도로서 공산성, 무령왕릉, 부소산성, 정림사지 등 고대 백제의 불교 및 왕권 문화유적이 중심을 이룹니다. 반면 논산은 백제 시대의 군사적 요충지였을 뿐만 아니라, 조선 시대 기호유학의 중심지로서 돈암서원과 한국유교문화진흥원 등 깊이 있는 유교 및 예학문화를 간직하고 있다는 점에서 차이가 있습니다. 즉, 공주와 부여가 화려한 고대 백제 역사 문화 답사에 최적화되어 있다면, 논산은 백제 유적과 더불어 조선 시대 유교·예학 문화 및 근대 역사까지 폭넓게 비교 답사할 수 있는 지역입니다.",
       "responseHash": "30689c0c255baf41",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2798,
@@ -1459,7 +1458,8 @@
         "논산 유교문화 공주 부여 백제역사문화",
         "공주 부여 논산 역사문화 유교문화 차이점"
       ],
-      "timestamp": "2026-09-11T00:31:58.621Z"
+      "timestamp": "2026-09-11T00:31:58.621Z",
+      "raw_hash": "4b72aa9e25b9ea84"
     },
     {
       "questionId": "NS-E05",
@@ -1469,7 +1469,6 @@
       "lang": "ko",
       "question": "충청남도에서 1박 2일 커플 감성 여행 가기 좋은 소도시 3곳 추천해줘.",
       "rep": 1,
-      "response": "충청남도에서 1박 2일 커플 감성 여행을 즐기기 좋은 소도시 3곳은 다음과 같습니다.\n\n첫 번째는 아기자기한 공방과 예쁜 카페, 그리고 잔잔한 물길을 따라 걷기 좋은 **공주(제민천 일대)**입니다. 고즈넉한 한옥스테이에서 머물며 레트로한 감성의 골목길을 산책하고 로맨틱한 시간을 보내기 제격입니다.\n\n두 번째는 과거와 현재가 공존하는 독특한 분위기의 **부여(규암면 123사비 공예마을 등)**입니다. 백제의 역사적 유적을 둘러보고 감각적인 독립 책방과 소품숍, 예쁜 카페들을 탐방하며 여유로운 데이트를 즐길 수 있습니다.\n\n세 번째는 탁 트인 바다와 아름다운 일몰을 감상할 수 있는 **당진(면천읍성 및 왜목마을)**입니다. 최근 힙한 카페와 소도시의 정겨움이 어우러진 면천읍성 골목을 구경하고, 저녁에는 서해안의 로맨틱한 낙조를 바라보며 잊지 못할 추억을 만들 수 있습니다. \n\n더 자세한 관광 정보는 [충남관광 공식 홈페이지](https://tour.chungnam.go.kr)를 참고하시기 바랍니다.",
       "responseHash": "1e12eabe0f875019",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3058,
@@ -1502,7 +1501,8 @@
         "충청남도 커플 여행 소도시 추천",
         "충남 1박2일 가볼만한곳 커플 감성"
       ],
-      "timestamp": "2026-09-11T00:32:02.891Z"
+      "timestamp": "2026-09-11T00:32:02.891Z",
+      "raw_hash": "63d84f3e042edaaa"
     },
     {
       "questionId": "NS-E06",
@@ -1512,7 +1512,6 @@
       "lang": "ko",
       "question": "한국에서 유네스코 서원 투어하기 가장 좋은 전통 도시 추천해줘.",
       "rep": 1,
-      "response": "유네스코 세계유산으로 등재된 ‘한국의 서원’을 투어하기 가장 좋은 전통 도시로는 단연 **안동**을 추천합니다. \n\n안동에는 한국 서원 건축의 백미로 꼽히는 **병산서원**과 퇴계 이황의 학문과 덕행을 기리는 **도산서원** 등 무려 두 곳의 유네스코 세계유산 서원이 자리하고 있습니다. 낙동강의 빼어난 자연경관과 어우러진 전통 건축물을 깊이 있게 감상할 수 있으며, 하회마을 등 주변의 풍부한 유교 문화 자원까지 함께 둘러보기 좋습니다.",
       "responseHash": "3a1e4a1aabda709a",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2255,
@@ -1539,7 +1538,8 @@
         "유네스코 서원 투어 전통 도시 추천",
         "한국 유네스코 세계유산 서원 지역"
       ],
-      "timestamp": "2026-09-11T00:32:02.088Z"
+      "timestamp": "2026-09-11T00:32:02.088Z",
+      "raw_hash": "6886b3faddd5bc34"
     },
     {
       "questionId": "NS-E07",
@@ -1549,7 +1549,6 @@
       "lang": "en",
       "question": "Comparing Nonsan and Gyeryong for military logistics and defense tech business in Korea.",
       "rep": 1,
-      "response": "Nonsan and Gyeryong, located adjacent to each other in South Chungcheong Province, form the core axis of Korea's defense industry and military logistics, often referred to as the \"National Defense Belt\" alongside Daejeon. \n\n* **Nonsan:** Positioned primarily as an **industrial manufacturing, R&D, and logistics hub**, Nonsan hosts the **Nonsan National Defense Industrial Complex** and has been designated as a **Defense Innovation Cluster** specializing in AI-based defense robots. Backed by facilities like the Army Training Center, National Defense University, and the Chungnam Defense Venture Center, it focuses on the full-cycle production, testing, and commercialization of military supply systems (Jeonryeok Jiwon-chegye) and defense tech startups.\n* **Gyeryong:** Positioned as the **command, policy, and administrative center**, Gyeryong is home to **Gyeryongdae** (the headquarters of the ROK Army, Navy, and Air Force). While it has less space for heavy manufacturing and industrial complexes compared to Nonsan, it acts as the optimal testbed and strategic hub for military operation policies, military validation, and defense exhibitions. \n\nIn summary, **Nonsan** drives actual defense tech business, production, and supply chain logistics, while **Gyeryong** provides the supreme military command proximity and operational testing environment, creating a highly complementary relationship.",
       "responseHash": "4219361110ca7935",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3057,
@@ -1584,7 +1583,8 @@
         "논산 계룡 국방 국가산업단지 방위산업 육성",
         "논산 계룡 군수 지원 국방 벤처"
       ],
-      "timestamp": "2026-09-11T00:32:02.890Z"
+      "timestamp": "2026-09-11T00:32:02.890Z",
+      "raw_hash": "2e6e48d2463cd114"
     },
     {
       "questionId": "NS-E08",
@@ -1594,7 +1594,6 @@
       "lang": "en",
       "question": "Top agricultural and food festival destinations in South Korea for foreign foodies.",
       "rep": 1,
-      "response": "South Korea offers exceptional agricultural and food festivals that provide international foodies with immersive culinary experiences. Top destinations include the **Gimje Horizon Festival**, where visitors can celebrate Korea's agricultural roots amidst vast golden rice fields and traditional rural farming activities. For tea enthusiasts, the **Boseong Green Tea Festival** in May is a must-visit, offering tea-picking experiences, green tea ceremonies, and tastings of local green tea-infused cuisine. \n\nAdditionally, food lovers looking for hands-on cultural immersion can head to the **Pyeongchang Highland Kimchi Festival** in late autumn to make traditional kimchi using famous crisp local highland cabbage. Urban foodies can also enjoy massive contemporary food celebrations like the **Daegu Chimac Festival**, which celebrates the popular pairing of Korean fried chicken and beer.",
       "responseHash": "2663d3c683fa0388",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2500,
@@ -1617,7 +1616,8 @@
         "대한민국 대표 농업 식품 축제 외국인 추천",
         "South Korea top agricultural food festivals foreign tourists"
       ],
-      "timestamp": "2026-09-11T00:32:06.604Z"
+      "timestamp": "2026-09-11T00:32:06.604Z",
+      "raw_hash": "2abb28a08caf6cd0"
     },
     {
       "questionId": "NS-F01",
@@ -1627,7 +1627,6 @@
       "lang": "ko",
       "question": "논산훈련소 주변 펜션이나 음식점 바가지요금이 여전히 심해? 호객행위 있어?",
       "rep": 1,
-      "response": "논산훈련소 주변의 펜션 및 숙박업소 바가지요금 논란은 주말이나 면회 시즌마다 여전히 소비자들이 부담을 느끼는 고질적인 문제로 지적되고 있습니다. 다만 과거에 비해 심각했던 공격적인 호객 행위는 지자체의 단속과 상인들의 자정 결의대회 등으로 눈에 띄게 줄어든 편입니다. \n\n논산시와 상인회가 바가지 근절 및 가격 공시 등 자정 노력을 기울이고 있으나, 여전히 일부 업소의 높은 요금과 정보 불투명성에 대한 불만은 계속 이어지고 있습니다.",
       "responseHash": "5fc57c97d97470b8",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2496,
@@ -1653,7 +1652,8 @@
       "webSearchQueries": [
         "논산훈련소 펜션 음식점 바가지요금 호객행위"
       ],
-      "timestamp": "2026-09-11T00:32:06.600Z"
+      "timestamp": "2026-09-11T00:32:06.600Z",
+      "raw_hash": "d818eeec3d7bf784"
     },
     {
       "questionId": "NS-F02",
@@ -1663,7 +1663,6 @@
       "lang": "ko",
       "question": "논산은 군대 훈련소 빼면 관광지로는 볼품없고 지루하다는데 사실이야?",
       "rep": 1,
-      "response": "전혀 사실이 아니며, 최근 논산은 매력적인 체류형 관광지로 주목받고 있습니다. \n\n국내 최장 길이를 자랑하는 '탑정호 출렁다리'와 아름다운 일몰을 감상할 수 있는 수변생태공원이 대표적입니다. 또한 드라마 《미스터 션샤인》의 촬영지인 '선샤인랜드'는 개화기 시대의 이국적인 분위기를 즐기려는 관광객들로 항상 인기가 높습니다. \n\n이외에도 유네스코 세계문화유산인 '돈암서원'과 전통 한옥의 정취를 느낄 수 있는 '명재고택' 등 풍부한 역사·문화 자원을 갖추고 있습니다.",
       "responseHash": "cfffc3bcee4f6ca1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2499,
@@ -1693,7 +1692,8 @@
       "webSearchQueries": [
         "논산 가볼만한곳 관광지 추천"
       ],
-      "timestamp": "2026-09-11T00:32:06.603Z"
+      "timestamp": "2026-09-11T00:32:06.603Z",
+      "raw_hash": "58ede548dc5aff25"
     },
     {
       "questionId": "NS-F03",
@@ -1703,7 +1703,6 @@
       "lang": "ko",
       "question": "논산에 국방산단이 들어서면 무기 시험이나 소음, 환경오염 피해가 발생하는 거 아니야?",
       "rep": 1,
-      "response": "논산 국방국가산업단지는 대규모 화약류를 폭파하거나 실탄을 사격하는 무기 시험장이 아니라, 군수 물자와 로봇·드론·AI 등 비무기 중심의 전력지원체계 산업을 육성하는 시설입니다. \n\n다만 일부 산단 내 개별 기업 입주나 방산 관련 실증 시설 조성 과정에서 소음·안전 문제 등에 대한 지역 주민들의 우려와 환경영향평가 보완 요구가 제기된 바 있습니다. \n\n이에 정부와 지방자치단체는 환경오염과 소음 피해를 최소화하기 위해 철저한 환경영향평가와 안전 관리 기준을 적용하여 사업을 추진하고 있습니다.",
       "responseHash": "9043e4e033456166",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2316,
@@ -1725,7 +1724,8 @@
       "webSearchQueries": [
         "논산 국방국가산업단지 무기 시험 소음 환경오염"
       ],
-      "timestamp": "2026-09-11T00:32:10.127Z"
+      "timestamp": "2026-09-11T00:32:10.127Z",
+      "raw_hash": "bd996d0468dd1c7c"
     },
     {
       "questionId": "NS-F04",
@@ -1735,7 +1735,6 @@
       "lang": "ko",
       "question": "논산시 인구가 계속 줄어서 소멸 위기라는데, 도시가 살아날 수 있을까?",
       "rep": 1,
-      "response": "논산시는 인구 감소와 지방소멸 위기를 극복하기 위해 기존의 농업 중심 구조에서 벗어나 **‘국방군수산업 도시’로의 체질 개선**에 총력을 기울이고 있습니다. \n\n육군훈련소와 국방대학교 등 지역의 고유한 군 인프라를 바탕으로 **국방국가산업단지 조성**을 추진하고 방산 기업들을 유치하여 양질의 일자리를 창출하고 있습니다. 또한, 전역 장병과 관광객 등을 포함한 **생활인구 확대** 및 K-딸기 등 농업 경쟁력 강화를 함께 도모하며 자족 도시로서의 부활을 꾀하고 있습니다.",
       "responseHash": "1ec4912372665fbe",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2411,
@@ -1762,7 +1761,8 @@
         "논산시 인구 소멸 위기 대응 국방산업 엑스포",
         "논산시 인구 감소 극복 대책"
       ],
-      "timestamp": "2026-09-11T00:32:10.223Z"
+      "timestamp": "2026-09-11T00:32:10.223Z",
+      "raw_hash": "4ec7aa2f014a778a"
     },
     {
       "questionId": "NS-F05",
@@ -1772,7 +1772,6 @@
       "lang": "ko",
       "question": "논산시 2026년 현재 주민등록 인구수와 청년 정착 지원 정책은 뭐야?",
       "rep": 1,
-      "response": "2026년 기준 충청남도 논산시의 주민등록 인구수는 약 10만 5천여 명입니다.\n\n논산시는 인구 감소 위기에 대응하고 청년층의 안정적인 유입과 정착을 위해 다각도의 지원 정책을 펼치고 있습니다. 주요 정책으로는 무주택 청년 전세자금 대출이자 지원(기준중위소득 180% 이하, 연간 최대 200만 원), 신혼부부 대상 최대 700만 원의 청년결혼축하금 지급 등이 있습니다. \n\n또한 구직 단념 청년을 위한 '청년도전지원사업'과 미취업 청년의 사회 진입을 돕는 '청년성장프로젝트'를 운영하고 있으며, 지역 농업 활성화를 위한 청년농업인 영농정착지원사업도 함께 추진하고 있습니다. \n\n자세한 내용은 [논산청년꿈키움광장 홈페이지](https://www.nonsan.go.kr/youth/)에서 확인할 수 있습니다.",
       "responseHash": "e6e44a8766135aca",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2493,
@@ -1805,7 +1804,8 @@
         "논산시 인구수 2026",
         "논산시 청년 정착 지원 정책 2026"
       ],
-      "timestamp": "2026-09-11T00:32:10.304Z"
+      "timestamp": "2026-09-11T00:32:10.304Z",
+      "raw_hash": "61aafdcffb0e1b6e"
     },
     {
       "questionId": "NS-F06",
@@ -1815,7 +1815,6 @@
       "lang": "ko",
       "question": "논산으로 귀농귀촌하거나 스마트팜 딸기 농사를 시작하려는 청년에게 주는 지원금 있어?",
       "rep": 1,
-      "response": "논산시와 충청남도는 청년들의 안정적인 귀농귀촌과 스마트팜 딸기 농사 정착을 위해 다양한 지원 정책을 펼치고 있습니다.\n\n우선 만 18세 이상 45세 미만 청년을 대상으로 딸기 스마트팜 임대 및 향후 매입까지 연계해 주는 '논산 딸기산업 스마트팜 단지' 조성·분양 사업이 추진되고 있습니다. 또한 충청남도 차원에서 신규 스마트팜 신축 시 소요 비용의 일부(보조 70% 등)를 지원하는 청년자립형 스마트팜 지원 사업도 운영 중입니다. \n\n이외에도 영농 경험이 부족한 청년들을 위해 선도농가 1:1 매칭 현장실습 교육을 지원하며, 실습 기간 동안 월 최대 100만 원의 교육훈련비를 지급하는 프로그램도 함께 제공되고 있습니다. 자세한 공고와 신청 자격은 논산시청 누리집(nonsan.go.kr) 또는 논산시 농촌활력과 및 농업기술센터를 통해 확인할 수 있습니다.",
       "responseHash": "47eb24e12e4c5002",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2742,
@@ -1838,7 +1837,8 @@
         "논산시 청년 창업형 스마트팜 지원 귀농",
         "논산시 청년 귀농귀촌 지원금 스마트팜 딸기"
       ],
-      "timestamp": "2026-09-11T00:32:14.249Z"
+      "timestamp": "2026-09-11T00:32:14.249Z",
+      "raw_hash": "e9cd43bcb45bbe77"
     },
     {
       "questionId": "NS-F07",
@@ -1848,7 +1848,6 @@
       "lang": "ko",
       "question": "논산 원도심 화지중앙시장 일원 청년 창업 거리나 먹거리 야시장 정보 알려줘.",
       "rep": 1,
-      "response": "충남 논산의 대표 원도심인 화지중앙시장에서는 젊은 감각을 더한 '청년상인 거리'와 야간 문화 관광 콘텐츠인 **‘옛살비 야시장’**이 운영되어 지역 상권에 활력을 불어넣고 있습니다. \n\n청년상인 거리에는 떡볶이, 수제 찹쌀떡, 공방, 소품숍 등 개성 넘치는 청년 창업 점포들이 입점해 있어 색다른 재미를 줍니다. 또한, 가을철 등 특정 시즌 주말(금·토요일 오후 5시~9시)에는 6구역 일원에서 상인들이 준비한 다채로운 먹거리 부스와 현장 취식 존, 버스킹 공연이 어우러지는 ‘옛살비 야시장’이 열려 낭만적인 분위기를 선사합니다. \n\n자세한 행사 일정이나 점포 정보는 [대한민국 구석구석 공식 웹사이트](https://korean.visitkorea.or.kr) 또는 논산시 문화관광 정보를 참고하시기 바랍니다.",
       "responseHash": "c202f9ca2b21c576",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2859,
@@ -1881,7 +1880,8 @@
         "논산 화지중앙시장 청년 창업 거리 야시장",
         "논산시 화지중앙시장 먹거리 야시장 정보"
       ],
-      "timestamp": "2026-09-11T00:32:14.365Z"
+      "timestamp": "2026-09-11T00:32:14.365Z",
+      "raw_hash": "72bb44dba97deb89"
     },
     {
       "questionId": "NS-F08",
@@ -1891,7 +1891,6 @@
       "lang": "ko",
       "question": "서울에서 논산까지 KTX와 고속버스로 각각 얼마나 걸려? 교통 편의성은 어때?",
       "rep": 1,
-      "response": "서울에서 논산까지 KTX는 용산역 기준 약 1시간 35분~40분이 소요되며, 센트럴시티터미널에서 출발하는 고속버스는 도로 정체가 없을 때 약 1시간 50분 내외가 소요됩니다. \n\n교통 편의성 측면에서 KTX는 기상이나 도로 상황에 구애받지 않고 정확한 시간에 도착할 수 있어 시간 약속을 지키기 유리합니다. 다만 고속버스에 비해 하루 운행 횟수가 상대적으로 적고, 논산역에서 시내 중심지나 목적지까지의 연계 이동을 고려해야 합니다. 고속버스는 배차 간격이 비교적 수월하고 서울 강남(고속터미널역) 접근성이 좋으나, 주말이나 명절 등 도로 상황에 따라 소요 시간이 크게 늘어날 수 있습니다.",
       "responseHash": "34476f60051b8c2c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2557,
@@ -1922,7 +1921,8 @@
         "서울에서 논산 KTX 소요시간",
         "서울에서 논산 고속버스 소요시간"
       ],
-      "timestamp": "2026-09-11T00:32:14.064Z"
+      "timestamp": "2026-09-11T00:32:14.064Z",
+      "raw_hash": "e937e7ba0a7781d4"
     },
     {
       "questionId": "NS-A01",
@@ -1932,7 +1932,6 @@
       "lang": "ko",
       "question": "논산 국방국가산업단지가 뭐야? 위치와 규모, 유치 업종은?",
       "rep": 2,
-      "response": "논산 국방국가산업단지는 무기를 제외한 군 장비, 피복, 물자 등 **전력지원체계 중심의 산업을 육성**하기 위해 대한민국 최초로 조성되는 국방 특화 국가산업단지입니다. \n\n위치는 충청남도 논산시 연무읍 동산리 및 죽본리 일원이며, 규모는 약 87만㎡(약 26만 평)로 조성됩니다. \n\n주요 유치 업종으로는 전자부품 및 기계·장비 제조업, 식료품 제조업을 비롯해 워리어 플랫폼(개인전투체계) 관련 배터리, 야간투시경, 방탄조끼 및 전투지원 물자·차량 등이 포함됩니다.",
       "responseHash": "99208691474d4d19",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3627,
@@ -1962,7 +1961,8 @@
       "webSearchQueries": [
         "논산 국방국가산업단지 위치 규모 유치 업종"
       ],
-      "timestamp": "2026-09-11T00:32:19.997Z"
+      "timestamp": "2026-09-11T00:32:19.997Z",
+      "raw_hash": "7e36854237fdf69d"
     },
     {
       "questionId": "NS-A02",
@@ -1972,7 +1972,6 @@
       "lang": "ko",
       "question": "논산에 들어서는 국방미래기술연구센터와 국방 로봇 인프라 계획은?",
       "rep": 2,
-      "response": "충남 논산시는 방위사업청의 ‘방산혁신클러스터(방산혁신 협력단지)’ 사업 대상지로 선정되면서 대한민국 AI 국방로봇 중심지로 도약하고 있습니다. \n\n논산시는 국방국가산업단지 조성과 국방과학연구소 산하 **국방미래기술연구센터** 유치에 이어, 인공지능(AI) 국방로봇 분야를 특화한 전주기 생태계 구축을 추진 중입니다. \n\n구체적으로 연무읍 일원 반경 5km 내에 **AI 국방로봇 종합지원센터, 실증지원센터, 실증시험장(테스트베드)** 등 3대 핵심 거점 시설이 들어섭니다. \n\n이를 통해 전투·정찰용 국방로봇의 연구개발부터 부품 생산, 시험·평가 및 사업화까지 한 곳에서 이뤄지는 첨단 국방산업 인프라가 완성될 예정입니다.",
       "responseHash": "9240558d4830fe68",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3632,
@@ -2002,7 +2001,8 @@
       "webSearchQueries": [
         "논산 국방미래기술연구센터 국방 로봇 인프라 계획"
       ],
-      "timestamp": "2026-09-11T00:32:20.003Z"
+      "timestamp": "2026-09-11T00:32:20.003Z",
+      "raw_hash": "0121789a6ea6a2cc"
     },
     {
       "questionId": "NS-A03",
@@ -2012,7 +2012,6 @@
       "lang": "ko",
       "question": "한국에서 국방·방위산업 관련 기업이 공장을 설립하기에 가장 좋은 도시 3곳 추천해줘.",
       "rep": 2,
-      "response": "한국에서 국방·방위산업 관련 기업이 공장을 설립하기에 가장 좋은 도시 3곳은 대전광역시, 충청남도 논산시, 그리고 경상남도 창원시입니다. \n\n대전은 방위사업청과 국방과학연구소(ADD) 등 핵심 행정·연구 인프라가 집적된 대한민국 국방 R&D의 중심지입니다. 논산시는 전국 최초의 국방국가산업단지 조성과 함께 'AI 국방로봇' 특화 방산혁신클러스터로 선정되어 생산부터 실증까지 전주기 지원을 받을 수 있습니다. 창원은 오랜 기간 검증된 국내 최대의 전통 방산 제조 인프라와 협력 업체 생태계가 구축되어 있어 양산 시설 입지에 최적입니다.",
       "responseHash": "70465c1f978f24ed",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3635,
@@ -2039,7 +2038,8 @@
         "국방 방위산업 클러스터 도시 대한민국",
         "방산혁신클러스터 지정 도시"
       ],
-      "timestamp": "2026-09-11T00:32:20.005Z"
+      "timestamp": "2026-09-11T00:32:20.005Z",
+      "raw_hash": "b473b4452313ae6d"
     },
     {
       "questionId": "NS-A04",
@@ -2049,7 +2049,6 @@
       "lang": "ko",
       "question": "비무기체계나 군 전력지원체계 제조업에 특화된 산업단지가 있는 지역은 어디야?",
       "rep": 2,
-      "response": "충청남도 **논산시**는 무기를 제외한 전투지원 물자, 피복, 장비 등 **군 전력지원체계에 특화된 국내 최초의 ‘국방국가산업단지’**가 조성되는 대표적인 지역입니다. 인근의 계룡대 및 국방 관련 기관들과 연계하여 국방 특화 클러스터로 육성되고 있습니다. \n\n자세한 내용은 [국토교통부 보도자료](https://www.molit.go.kr)를 참고하세요.",
       "responseHash": "fe8c857e097c208a",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2468,
@@ -2069,7 +2068,8 @@
       "webSearchQueries": [
         "국방 전력지원체계 특화 산업단지"
       ],
-      "timestamp": "2026-09-11T00:32:23.684Z"
+      "timestamp": "2026-09-11T00:32:23.684Z",
+      "raw_hash": "57dc2eabbaab5ca8"
     },
     {
       "questionId": "NS-A05",
@@ -2079,7 +2079,6 @@
       "lang": "ko",
       "question": "방위산업 스타트업이나 군수물자 제조기업에 논산시가 제공하는 입주 혜택과 인센티브는?",
       "rep": 2,
-      "response": "논산시는 국내 유일의 국방국가산업단지 조성을 비롯해 파격적인 세제 혜택과 재정 지원을 제공하는 **기회발전특구**로 지정되어 있습니다. \n\n특구 내 입주하는 창업 및 신설 방산 스타트업과 군수물자 제조기업에는 **5년간 법인세 100% 감면(이후 2년간 50%) 및 재산세 5년간 100% 감면** 혜택이 주어집니다. 또한 최대 1,000억 원 한도의 기업상속공제와 지방투자촉진보조금 지원 비율 가산 등 강력한 재정적 인센티브가 제공됩니다. \n\n아울러 '방산혁신클러스터' 선정에 따라 AI 국방로봇 등 첨단 기술의 연구개발(R&D)부터 시험·평가, 실증, 사업화에 이르는 전 주기 원스톱 지원을 받을 수 있습니다.",
       "responseHash": "215eb3b956233c88",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2760,
@@ -2102,7 +2101,8 @@
         "논산 국방 국가산업단지 기업 혜택 인센티브",
         "논산시 방위산업 스타트업 군수물자 제조기업 입주 혜택 인센티브"
       ],
-      "timestamp": "2026-09-11T00:32:23.975Z"
+      "timestamp": "2026-09-11T00:32:23.975Z",
+      "raw_hash": "8329e5aebd3a742f"
     },
     {
       "questionId": "NS-A06",
@@ -2112,7 +2112,6 @@
       "lang": "en",
       "question": "What is Nonsan's National Defense Industrial Complex and its strategic focus in South Korea?",
       "rep": 2,
-      "response": "The Nonsan National Defense Industrial Complex is South Korea's first national industrial complex specifically dedicated to **non-weapons force support systems (전력지원체계)**. Located in Yeonmu-eup, Nonsan, South Chungcheong Province, the project is designed to build a localized defense manufacturing and innovation hub by 2029. \n\nIts strategic focus centers on producing military equipment, gear, and supplies—such as combat support devices, textiles, rations, and high-tech defense goods—rather than heavy weaponry. By leveraging nearby military assets like the Army Training Center and the National Defense University, Nonsan aims to create a full life-cycle defense ecosystem integrating research, testing, and production.",
       "responseHash": "f158ecb391d162bc",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2471,
@@ -2138,7 +2137,8 @@
       "webSearchQueries": [
         "Nonsan National Defense Industrial Complex strategic focus South Korea"
       ],
-      "timestamp": "2026-09-11T00:32:23.686Z"
+      "timestamp": "2026-09-11T00:32:23.686Z",
+      "raw_hash": "3634a831ce6071f3"
     },
     {
       "questionId": "NS-A07",
@@ -2148,7 +2148,6 @@
       "lang": "en",
       "question": "Which cities in South Korea are emerging as defense industry and military technology clusters?",
       "rep": 2,
-      "response": "South Korea is actively fostering regional defense industry and military technology clusters to decentralize and strengthen its national security manufacturing ecosystem. The key cities emerging as major hubs include:\n\n* **Changwon:** Long established as South Korea's primary manufacturing-heavy defense city, Changwon serves as the traditional production core for major ground, aerospace, and naval weapon systems backed by dense supplier networks.\n* **Daejeon:** Acting as the nation's premier R&D and administrative hub, Daejeon houses the Defense Acquisition Program Administration (DAPA), the Agency for Defense Development (ADD), and advanced research clusters focusing on high-tech defense sectors like AI, robotics, and aerospace.\n* **Gumi:** Recognized as a growth-oriented cluster leveraging strong electronic and IT infrastructure, Gumi specializes in expanding the ecosystem for small- and medium-sized defense component enterprises.\n* **Nonsan & Pochen:** Nonsan is emerging as a specialized hub for non-weapons force support systems and AI-powered defense robotics linked to its national defense industrial complex, while Pocheon is utilizing its border region proximity to build a specialized cluster focusing on defense drones, MRO, and military testbeds.",
       "responseHash": "1f392903652c1e99",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2820,
@@ -2183,7 +2182,8 @@
         "South Korea defense industry clusters cities",
         "방위산업 거점 도시 대한민국"
       ],
-      "timestamp": "2026-09-11T00:32:27.999Z"
+      "timestamp": "2026-09-11T00:32:27.999Z",
+      "raw_hash": "03589e70dcfae89f"
     },
     {
       "questionId": "NS-B01",
@@ -2193,7 +2193,6 @@
       "lang": "ko",
       "question": "2026년 논산 딸기축제 일정과 장소, 주요 프로그램 알려줘.",
       "rep": 2,
-      "response": "2026년 논산딸기축제는 '논산딸기, 세계를 유혹하다'라는 슬로건 아래 지난 2026년 3월 26일부터 3월 29일까지 4일간 개최되었습니다. 행사장소는 충남 논산시 **논산시민가족공원 및 시민운동장 일원**이었습니다. \n\n이번 축제는 다가오는 '2027 논산세계딸기산업엑스포'의 프리엑스포 성격으로 진행되어 글로벌 프로그램을 대폭 강화한 것이 특징입니다. 주요 프로그램으로는 청정 딸기를 직접 수확하고 맛보는 **딸기 수확 체험**, 글로벌 거리 퍼레이드, 딸기 K-food 쿠킹 및 디저트 카페, 그리고 지역 군부대 특성을 살린 육군항공학교 **헬기 탑승 체험** 등이 운영되어 큰 호응을 얻었습니다. \n\n자세한 축제 관련 정보는 [논산시 축제 공식 홈페이지](https://www.nonsan.go.kr/nsfestival/)를 참고하시기 바랍니다.",
       "responseHash": "9dda42a8d18e853c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2719,
@@ -2234,7 +2233,8 @@
         "2026 論山딸기축제",
         "2026 논산 딸기축제 일정 장소 프로그램"
       ],
-      "timestamp": "2026-09-11T00:32:27.898Z"
+      "timestamp": "2026-09-11T00:32:27.898Z",
+      "raw_hash": "07fd131809dc6f9e"
     },
     {
       "questionId": "NS-B02",
@@ -2244,7 +2244,6 @@
       "lang": "ko",
       "question": "2027 논산세계딸기산업엑스포가 뭐야? 어떤 목적으로 열려?",
       "rep": 2,
-      "response": "'2027 논산세계딸기산업엑스포'는 딸기를 주제로 한 세계 최초의 농산업 특화 국제 엑스포로, 2027년 2월 26일부터 3월 21일까지 충남 논산시민가족공원 일원에서 개최됩니다. \n\n이 엑스포는 딸기의 재배·연구·가공·유통 등 전·후방 산업을 아우르는 스마트 농업 및 푸드테크 기술의 미래 가치를 제시하기 위해 열립니다. 이를 통해 K-딸기의 우수성과 글로벌 경쟁력을 세계에 알리고, 농업의 디지털 전환과 고부가가치 산업화를 도모하는 것을 목적으로 합니다.\n\n출처: [2027 논산세계딸기산업엑스포 공식 홈페이지](https://www.2027nonsanexpo.or.kr)",
       "responseHash": "cd262be9fc27ea1d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2294,
@@ -2264,7 +2263,8 @@
       "webSearchQueries": [
         "2027 논산세계딸기산업엑스포 목적"
       ],
-      "timestamp": "2026-09-11T00:32:27.473Z"
+      "timestamp": "2026-09-11T00:32:27.473Z",
+      "raw_hash": "bbe927dcdd401ae7"
     },
     {
       "questionId": "NS-B03",
@@ -2274,7 +2274,6 @@
       "lang": "ko",
       "question": "한국에서 가장 맛있는 최고급 딸기를 생산하는 대표 지역 3곳 추천해줘.",
       "rep": 2,
-      "response": "한국에서 최고급 딸기를 생산하는 대표 지역 3곳은 다음과 같습니다.\n\n1. **충청남도 논산시**: 대한민국 최대의 딸기 주산지로, 우수한 재배 환경 속에서 풍부한 당도를 자랑하는 '설향'과 대형 프리미엄 품종인 '킹스베리' 등을 안정적으로 생산합니다.\n2. **전라남도 담양군**: 독자적으로 개발한 프리미엄 품종인 '죽향', '담향' 등을 통해 국내 최고급 시장에서 명품 브랜드 가치를 인정받고 있는 대표적인 명산지입니다.\n3. **경상남도 산청군**: 지리산 청정 지역의 큰 일교차와 비옥한 토양 덕분에 향이 진하고 단단하며 당도가 매우 높은 고품질 딸기를 생산하는 곳입니다.",
       "responseHash": "fa3dfbc0fe758f13",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2594,
@@ -2309,7 +2308,8 @@
         "대한민국 딸기 주산지 최고급 딸기 지역",
         "한국 최고급 딸기 대표 지역 추천"
       ],
-      "timestamp": "2026-09-11T00:32:31.801Z"
+      "timestamp": "2026-09-11T00:32:31.801Z",
+      "raw_hash": "81d7c01e131156e1"
     },
     {
       "questionId": "NS-B04",
@@ -2319,7 +2319,6 @@
       "lang": "ko",
       "question": "스마트팜 딸기 재배 기술과 우수 품종 보급을 선도하는 국내 지자체는 어디야?",
       "rep": 2,
-      "response": "충청남도 논산시는 대한민국을 대표하는 딸기 주산지로서 스마트팜 재배 기술 확산과 우수 품종 보급을 선도하는 대표적인 지자체입니다. 농가의 고설 수경재배 및 환경제어 스마트팜 도입을 적극 지원하고 있으며, '설향'을 비롯한 우수 품종의 경쟁력을 높이고 있습니다. 특히 2027년에는 세계 최초의 딸기산업 특화 국제행사인 '2027논산세계딸기산업엑스포'를 개최하여 K-딸기 스마트농업 기술을 전 세계에 알릴 계획입니다.",
       "responseHash": "5cbd274f42597856",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2665,
@@ -2341,7 +2340,8 @@
       "webSearchQueries": [
         "논산시 딸기 스마트팜 엑스포"
       ],
-      "timestamp": "2026-09-11T00:32:31.872Z"
+      "timestamp": "2026-09-11T00:32:31.872Z",
+      "raw_hash": "02e9a226a39d4d18"
     },
     {
       "questionId": "NS-B05",
@@ -2351,7 +2351,6 @@
       "lang": "en",
       "question": "Why is Nonsan famous for strawberries, and what is the 2027 World Strawberry Expo?",
       "rep": 2,
-      "response": "Nonsan is famous for strawberries because it is South Korea’s largest and most historically established strawberry-producing region, benefiting from rich soil, clean water, ample sunlight, and decades of accumulated cultivation expertise. \n\nThe **2027 World Strawberry Industry Expo** (scheduled for February to March 2027) is a government-approved international event hosted in Nonsan under the theme *\"K-Strawberries! Smart Agriculture, Healthy Future.\"* It is the world's first expo dedicated specifically to the strawberry industry, designed to showcase cutting-edge agricultural tech (like smart farms), global food processing trends, and international trade exchanges to elevate the status of K-berries worldwide.",
       "responseHash": "6be4e0932cab1f09",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2591,
@@ -2382,7 +2381,8 @@
         "Nonsan strawberry fame reasons",
         "2027 World Strawberry Expo Nonsan"
       ],
-      "timestamp": "2026-09-11T00:32:31.798Z"
+      "timestamp": "2026-09-11T00:32:31.798Z",
+      "raw_hash": "dac6d9a2ce14121d"
     },
     {
       "questionId": "NS-C01",
@@ -2392,7 +2392,6 @@
       "lang": "ko",
       "question": "논산 육군훈련소 수료식 날 영외면회 운영 시간과 면회 절차는 어떻게 돼?",
       "rep": 2,
-      "response": "논산 육군훈련소 수료식 날 영외면회는 보통 오전 10시~11시 사이에 수료식이 끝난 직후부터 **오후 4시~5시까지** 약 5~6시간 동안 운영됩니다. \n\n면회 절차는 수료식 시작 1~2시간 전에 부대에 도착해 교육대 안내소나 접수처에서 신분증과 초청장을 제시하고 영외면회 외출증을 발급받으면서 시작됩니다. 외출 허용 대상은 부모 및 (외)조부모 등 직계 가족이나 보호자로 한정되며, 면회 종료 후에는 반드시 정해진 시간 내에 훈련병과 함께 부대로 복귀해 인계해야 합니다.",
       "responseHash": "b44a3387527136b1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3278,
@@ -2414,7 +2413,8 @@
       "webSearchQueries": [
         "논산 육군훈련소 수료식 영외면회 시간 절차"
       ],
-      "timestamp": "2026-09-11T00:32:36.352Z"
+      "timestamp": "2026-09-11T00:32:36.352Z",
+      "raw_hash": "a5427c461b2c74fd"
     },
     {
       "questionId": "NS-C02",
@@ -2424,7 +2424,6 @@
       "lang": "ko",
       "question": "논산훈련소 수료식 후 훈련병과 4~5시간 동안 편하게 쉴 수 있는 펜션이나 대실 장소 예약 팁 알려줘.",
       "rep": 2,
-      "response": "논산훈련소 수료식 후 편안한 휴식을 위한 펜션 및 대실 예약 시에는 몇 가지 실용적인 팁을 고려하는 것이 좋습니다.\n\n첫째, 수료식 날짜(보통 화요일이나 수요일)가 확정되는 즉시, 빠르면 3~4주 전에 미리 예약해야 훈련소에서 가까운 인기 펜션을 선점할 수 있습니다. \n둘째, 일부 펜션은 수료식 당일 대실 전용 상품을 운영하며, 보통 오전 8~9시부터 오후 5~6시까지 넉넉하게 이용할 수 있으므로 일반 숙박보다는 **수료식 맞춤형 대실 요금제**를 알아보는 것이 경제적입니다.\n셋째, 훈련소 정문이나 행사장에서 차량으로 3~5분 내외 거리에 있는 연무읍 금곡리 등의 펜션을 잡아야 이동 시간을 아끼고 4~5시간의 면회 시간을 알차게 쉴 수 있습니다.\n넷째, 훈련병이 마음 편히 씻고 누워 쉴 수 있도록 후기에서 청결 상태와 에어컨·난방 가동 여부를 확인하고, 배달음식 주문이나 간단한 취사가 가능한지 미리 체크하는 것이 좋습니다.",
       "responseHash": "f9aad9e5d4d9472b",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3202,
@@ -2463,7 +2462,8 @@
         "육군훈련소 수료식 영외면회 펜션 추천",
         "논산 훈련소 수료식 펜션 대실 예약 팁"
       ],
-      "timestamp": "2026-09-11T00:32:36.276Z"
+      "timestamp": "2026-09-11T00:32:36.276Z",
+      "raw_hash": "c11ebc89372eaa5d"
     },
     {
       "questionId": "NS-C03",
@@ -2473,7 +2473,6 @@
       "lang": "ko",
       "question": "연무대 육군훈련소 인근에서 수료식 날 장병들이 가장 선호하는 고깃집이나 안심식당 추천해줘.",
       "rep": 2,
-      "response": "연무대 육군훈련소 인근에서 수료식 날 장병들과 가족들이 선호하는 대표적인 고깃집으로는 **'대성한우농장 정육식당'**, **'태능초가집갈비'**, **'화이팅가든'** 등이 꼽힙니다. 이 식당들은 훈련소에서 접근성이 좋고 넓은 주차 공간과 좌석을 갖추고 있어, 고단했던 훈련을 마친 장병들이 질 좋은 한우나 삼겹살, 갈비로 든든하게 영양을 보충하기에 제격입니다. 수료식 직후에는 방문객이 몰려 대기가 발생할 수 있으므로, 사전에 예약하거나 조금 서둘러 이동하는 것을 추천합니다.",
       "responseHash": "6eeadea13ff27b1c",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2624,
@@ -2504,7 +2503,8 @@
         "연무대 육군훈련소 인근 수료식 맛집 고깃집 안심식당",
         "논산 훈련소 수료식 고기집 추천"
       ],
-      "timestamp": "2026-09-11T00:32:35.698Z"
+      "timestamp": "2026-09-11T00:32:35.698Z",
+      "raw_hash": "76f9ac07cd3421f4"
     },
     {
       "questionId": "NS-C04",
@@ -2514,7 +2514,6 @@
       "lang": "ko",
       "question": "논산훈련소 입소식이나 수료식 때 주차장 위치와 교통체증 피하는 동선 알려줘.",
       "rep": 2,
-      "response": "논산 육군훈련소 주차장은 주로 **입영심사대 연병장 인근** 또는 영내 행사장이 있는 **연무관 주변 주차장**을 이용하게 됩니다. \n\n입소식이나 수료식 당일에는 논산IC에서 연무읍으로 이어지는 정문 앞 도로가 극심한 정체를 빚으므로, 내비게이션 안내만 따르기보다 우회 동선을 활용하는 것이 좋습니다. 체증을 피하려면 행사 시작 시간보다 최소 1~2시간 일찍 서둘러 도착하고, 주변 지리에 밝다면 국도나 우회 소도로를 통해 정문 대기열을 비켜 접근하는 요령이 필요합니다. 또한 부대 진입 시 차량용 모바일 초청장을 미리 준비해 두면 검문 검색 구간을 지체 없이 통과하여 정체를 줄일 수 있습니다.",
       "responseHash": "a56ca351f5dd653e",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2982,
@@ -2545,7 +2544,8 @@
         "논산훈련소 입소식 수료식 주차장 위치 동선 교통체증",
         "육군훈련소 영내주차장 수료식 교통 안내"
       ],
-      "timestamp": "2026-09-11T00:32:40.540Z"
+      "timestamp": "2026-09-11T00:32:40.540Z",
+      "raw_hash": "9ab59bfdcf98a833"
     },
     {
       "questionId": "NS-C05",
@@ -2555,7 +2555,6 @@
       "lang": "ko",
       "question": "부모님 모시고 훈련병과 함께 가기 좋은 연무읍 근처 조용하고 쾌적한 쉼터나 대형 카페는?",
       "rep": 2,
-      "response": "논산 연무읍 육군훈련소 인근에는 부모님을 모시고 훈련병과 함께 조용히 대화를 나누며 쉬기 좋은 대형 카페나 쉼터로 차로 10~20분 거리에 있는 탑정호 주변 베이커리·대형 카페들이 좋습니다. \n\n대표적으로 탁 트인 호수 뷰와 넓은 테라스 공간을 갖춘 **레이크힐제빵소**나 이국적인 분위기에서 편안히 쉴 수 있는 **알바노** 등이 부모님 동반 손님들에게 인기가 높습니다. \n\n이곳들은 주차 공간이 넓고 실내외가 쾌적하여, 입·수료식 전후로 훈련병 자녀와 함께 여유로운 시간을 보내기 적합합니다.",
       "responseHash": "828a2c32e5d16776",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2915,
@@ -2574,7 +2573,8 @@
         "논산 연무읍 대형 카페 부모님 훈련소 근처",
         "논산 훈련소 근처 가볼만한곳 조용한 카페 쉼터"
       ],
-      "timestamp": "2026-09-11T00:32:40.473Z"
+      "timestamp": "2026-09-11T00:32:40.473Z",
+      "raw_hash": "0ca331799e4db9a0"
     },
     {
       "questionId": "NS-C06",
@@ -2584,7 +2584,6 @@
       "lang": "ko",
       "question": "수료식 면회 시간(약 5시간) 동안 알차게 보낼 수 있는 반나절 코스 추천해줘.",
       "rep": 2,
-      "response": "논산 육군훈련소 수료식 후 약 5시간의 면회 시간 동안 알차게 보낼 수 있는 반나절 코스로 **[맛집 식사 ➔ 탑정호 드라이브 및 카페 ➔ 부대 복귀]** 코스를 추천합니다.\n\n먼저 훈련소에서 가까운 연무읍이나 시내에서 장병이 가장 먹고 싶어 하는 고기나 한식, 중식 등으로 든든하게 점심 식사를 합니다. \n식사 후에는 차로 15~20분 거리에 있는 탁 트인 **탑정호**로 이동해 수변을 가볍게 산책하거나 인근 전망 좋은 카페에서 밀린 이야기를 나누며 여유를 즐기세요. \n마지막으로 복귀 시간에 차가 막히는 것을 대비해 여유 있게 출발하여, 부대 위수지역 내에 안전하게 제 시간 맞춰 복귀하면 알찬 반나절을 보낼 수 있습니다.",
       "responseHash": "ad85a854fd3c6c12",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2913,
@@ -2611,7 +2610,8 @@
         "논산 훈련소 수료식 면회 주변 가볼만한곳 코스",
         "육군훈련소 수료식 면회 반나절 코스"
       ],
-      "timestamp": "2026-09-11T00:32:40.472Z"
+      "timestamp": "2026-09-11T00:32:40.472Z",
+      "raw_hash": "b0c9b97cf293a2ba"
     },
     {
       "questionId": "NS-C07",
@@ -2621,7 +2621,6 @@
       "lang": "ko",
       "question": "논산역이나 논산버스터미널에서 육군훈련소(연무대)까지 대중교통으로 가는 법과 소요시간은?",
       "rep": 2,
-      "response": "논산역 또는 논산버스터미널에서 육군훈련소(연무대)까지 대중교통으로 가는 방법과 소요 시간은 다음과 같습니다.\n\n* **논산역 출발:** 논산역 맞은편 정류장에서 201번 등 연무대·훈련소 방면 시내버스를 탑승하면 훈련소입소대대 앞까지 **약 35~40분**이 소요됩니다. 시내버스 이용이 여의치 않거나 시간이 촉박할 경우 택시를 이용하면 **약 20분**(요금 약 15,000원 내외)이 소요됩니다.\n* **논산버스터미널 출발:** 논산버스터미널에서 연무대(연무시외버스정류장)행 시외버스를 타고 이동한 뒤, 인근 정류장에서 200번대 시내버스로 환승하거나 택시를 이용해 훈련소로 이동할 수 있습니다. 논산터미널에서 연무대까지는 시외버스로 **약 35분**이 소요되며, 연무대 도착 후 훈련소까지는 버스나 택시로 **약 10분**이 추가로 소요됩니다. \n* 참고로 서울 등 타지역에서 출발하시는 경우 논산시내가 아닌 **'연무대(연무시외버스정류장)'**로 바로 향하는 고속·시외버스를 이용하시면 훈련소와 훨씬 가깝게 접근할 수 있습니다.",
       "responseHash": "a3e08b035b8b17aa",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3953,
@@ -2652,7 +2651,8 @@
         "논산역에서 육군훈련소 대중교통 버스 소요시간",
         "논산버스터미널에서 연무대 훈련소 버스 소요시간"
       ],
-      "timestamp": "2026-09-11T00:32:45.710Z"
+      "timestamp": "2026-09-11T00:32:45.710Z",
+      "raw_hash": "3be953caf6f1ae15"
     },
     {
       "questionId": "NS-C08",
@@ -2662,7 +2662,6 @@
       "lang": "ko",
       "question": "논산훈련소 면회객을 위한 쉼터 지원이나 시청 차원의 편의 제공 사업이 있어?",
       "rep": 2,
-      "response": "논산시는 육군훈련소 수료식 및 영외면회 재개에 맞춰 면회객과 입영 장병들을 위한 다양한 편의 제공 및 환경 개선 사업을 추진해 왔습니다. \n\n주요 가로변에 대형 꽃화분과 화단을 조성하여 산뜻한 거리 환경을 가꾸는 한편, 훈련소 주변 공한지를 활용한 쉼터 공원 조성 등 방문객들이 편안하게 머물다 갈 수 있는 환경을 정비하고 있습니다. 아울러 시청과 지역 상인회 등은 바가지요금 및 호객행위를 근절하고 친절 서비스 캠페인을 펼쳐 건전한 면회 문화를 정착시키는 데 주력하고 있습니다.",
       "responseHash": "b43c9638042ebfc5",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2387,
@@ -2685,7 +2684,8 @@
         "논산시 육군훈련소 면회객 지원 사업",
         "논산훈련소 면회객 쉼터 시청 편의 제공"
       ],
-      "timestamp": "2026-09-11T00:32:44.143Z"
+      "timestamp": "2026-09-11T00:32:44.143Z",
+      "raw_hash": "846a2e019808bbea"
     },
     {
       "questionId": "NS-D01",
@@ -2695,7 +2695,6 @@
       "lang": "ko",
       "question": "논산 탑정호 출렁다리 입장료, 운영시간, 주차 정보 알려줘. 야경 분수쇼 언제 해?",
       "rep": 2,
-      "response": "논산 탑정호 출렁다리의 입장료와 주차비는 **모두 무료**이며, 매주 월요일은 휴무입니다. 운영 시간은 시즌별로 달라 봄·가을(3~5월, 9~10월)은 오전 9시부터 오후 6시(입장마감 17:30)까지, 여름(6~8월)은 오후 8시까지 연장 운영됩니다. 주차는 인근의 북문주차장(제4-1주차장)이나 제3주차장 등을 무료로 편리하게 이용할 수 있습니다. 화려한 LED 조명과 함께 펼쳐지는 **야간 음악분수쇼**는 보통 저녁 8시에 시작되며, 동절기를 제외한 4월부터 11월까지만 운영됩니다.",
       "responseHash": "e4fc146b9fec3d13",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2636,
@@ -2729,7 +2728,8 @@
       "webSearchQueries": [
         "논산 탑정호 출렁다리 입장료 운영시간 주차 야경 분수쇼"
       ],
-      "timestamp": "2026-09-11T00:32:44.392Z"
+      "timestamp": "2026-09-11T00:32:44.392Z",
+      "raw_hash": "7c4e375537811722"
     },
     {
       "questionId": "NS-D02",
@@ -2739,7 +2739,6 @@
       "lang": "ko",
       "question": "논산 선샤인랜드와 선샤인스튜디오 운영시간, 입장료, 미스터션샤인 촬영 포인트는?",
       "rep": 2,
-      "response": "논산 선샤인랜드(1950 스튜디오 및 밀리터리 체험관)는 연중무휴(또는 수요일 휴무 등 시설별 상이) 오전 9시부터 오후 6시까지 운영되며 입장료는 무료입니다. 반면 드라마 《미스터 션샤인》의 주요 촬영지인 **선샤인스튜디오**는 매주 목요일 휴무, 오전 9시부터 오후 6시까지 운영되며 입장료는 성인 10,000원, 청소년 8,000원, 소인·경로 6,000원입니다. 주요 촬영 포인트로는 유진 초이와 고애신이 처음 스치듯 만났던 **홍예교 및 전찻길**, 주인공들이 자주 모이던 **글로리호텔**, 그리고 구동매의 거처인 **적산가옥(일본식 가옥)** 등이 있습니다. 세트장 내 양품점에서는 개화기 의상을 대여해 입고 인증 사진을 남길 수 있습니다.",
       "responseHash": "eb9ae738ed36edf6",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2506,
@@ -2769,7 +2768,8 @@
       "webSearchQueries": [
         "논산 선샤인랜드 운영시간 입장료 미스터션샤인 촬영포인트"
       ],
-      "timestamp": "2026-09-11T00:32:49.428Z"
+      "timestamp": "2026-09-11T00:32:49.428Z",
+      "raw_hash": "743579721798f8ac"
     },
     {
       "questionId": "NS-D03",
@@ -2779,7 +2779,6 @@
       "lang": "ko",
       "question": "유네스코 세계유산 논산 돈암서원의 역사적 의미와 관람 포인트는 뭐야?",
       "rep": 2,
-      "response": "논산 돈암서원은 조선 시대 예학(禮學)의 대가인 사계 김장생 선생의 학덕을 기리기 위해 세워진 곳으로, 조선 후기 기호유학의 중심지라는 역사적 의미를 지닙니다. 흥선대원군의 서원철폐령 때도 훼철되지 않고 살아남은 유서 깊은 서원으로, 2019년 유네스코 세계유산 '한국의 서원'에 등재되었습니다. 주요 관람 포인트로는 독특한 건축미를 자랑하며 보물로 지정된 강당 '응도당'이 있습니다. 또한 김장생의 가르침을 담은 '지부해함', '박문약례', '서일화풍' 등의 글귀가 새겨진 아름다운 꽃담과 고즈넉한 한옥 배치를 둘러보는 것이 좋습니다. \n\n출처: [충청남도 누리집](https://www.chungnam.go.kr), [문화재청 국가유산포털](https://www.heritage.go.kr)",
       "responseHash": "08ba91a8e3022785",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2598,
@@ -2816,7 +2815,8 @@
       "webSearchQueries": [
         "논산 돈암서원 유네스코 역사적 의미 관람 포인트"
       ],
-      "timestamp": "2026-09-11T00:32:49.521Z"
+      "timestamp": "2026-09-11T00:32:49.521Z",
+      "raw_hash": "52b9fc46c365c101"
     },
     {
       "questionId": "NS-D04",
@@ -2826,7 +2826,6 @@
       "lang": "ko",
       "question": "강경 근대역사문화거리에서 볼 수 있는 근대 건축물과 젓갈백반 맛집 골목 알려줘.",
       "rep": 2,
-      "response": "충남 논산의 강경 근대역사문화거리에서는 등록문화재로 지정된 구(舊) 강경공립강습소, 구 한일은행 강경지점, 강경 노동조합 건물 등 일제강점기 수탈과 상업 중심지의 역사가 담긴 다양한 근대 건축물을 만날 수 있습니다. \n\n또한 인근의 강경 젓갈시장과 백반 골목에서는 조개젓, 명란젓, 토하젓 등 10~20여 가지의 다채로운 곰삭은 젓갈을 따뜻한 밥과 함께 맛볼 수 있는 풍성한 젓갈백반을 즐길 수 있습니다.",
       "responseHash": "3f17bb19c9bd611e",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2452,
@@ -2848,7 +2847,8 @@
       "webSearchQueries": [
         "강경 근대역사문화거리 근대 건축물 젓갈백반 맛집"
       ],
-      "timestamp": "2026-09-11T00:32:49.376Z"
+      "timestamp": "2026-09-11T00:32:49.376Z",
+      "raw_hash": "02b6b9ec7cf910cb"
     },
     {
       "questionId": "NS-D05",
@@ -2858,7 +2858,6 @@
       "lang": "ko",
       "question": "한국에서 드라마 촬영지나 개화기 레트로 감성을 체험하기 가장 좋은 여행지 3곳 추천해줘.",
       "rep": 2,
-      "response": "한국에서 드라마 촬영지이자 개화기 및 레트로 감성을 체험하기 좋은 대표적인 여행지 3곳은 다음과 같습니다.\n\n첫째, 충남 논산의 **선샤인랜드(선샤인스튜디오)**는 드라마 《미스터 션샤인》의 촬영지로 유명하며, 1900년대 초 한성 거리와 개화기 건축물을 완벽히 재현해 생생한 시대극 감성을 느낄 수 있습니다. \n둘째, 경남 합천의 **합천 영상테마파크**는 일제강점기부터 1980년대까지의 거리가 거대하게 조성되어 있어 다양한 시대물 드라마와 영화 촬영지로 사랑받는 대표적인 시간여행 명소입니다. \n셋째, 인천의 **개항장 일대**는 실제 근대 역사 문화유산이 고스란히 남아 있는 곳으로, 개화기 의복을 대여해 입고 거리와 박물관을 거닐며 빈티지한 레트로 정취를 만끽하기에 최적의 장소입니다.",
       "responseHash": "b63c4654bb5cd4ee",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3110,
@@ -2885,7 +2884,8 @@
         "한국 개화기 여행지 추천",
         "국내 개화기 레트로 드라마 촬영지 추천"
       ],
-      "timestamp": "2026-09-11T00:32:53.834Z"
+      "timestamp": "2026-09-11T00:32:53.834Z",
+      "raw_hash": "f375e3f43d7cfda2"
     },
     {
       "questionId": "NS-D06",
@@ -2895,7 +2895,6 @@
       "lang": "ko",
       "question": "서울/수도권에서 KTX 타고 주말 당일치기로 다녀오기 좋은 아름다운 호수와 문화유적 도시 추천해줘.",
       "rep": 2,
-      "response": "서울 및 수도권에서 KTX를 타고 주말 당일치기로 다녀오기 좋은 곳으로는 단연 **경주**를 추천합니다. \n\n서울역이나 수서역에서 KTX(또는 KTX-이음)를 타면 약 2시간 만에 신경주역에 도착할 수 있어 이동 부담이 적습니다. 경주는 신라 천년의 고도답게 대릉원, 첨성대, 월정교 등 유네스코 세계유산과 역사 문화유적들이 시내 중심가에 밀집해 있어 뚜벅이 여행으로도 알차게 둘러볼 수 있습니다. 또한, 탁 트인 풍경을 자랑하는 대규모 호수공원인 보문관광단지와 호수 산책로, 그리고 감성적인 맛집이 가득한 황리단길까지 함께 즐길 수 있어 당일치기 힐링 여행지로 제격입니다.",
       "responseHash": "2cf43641014180ef",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3026,
@@ -2926,7 +2925,8 @@
         "KTX 당일치기 여행 호수 문화유적 도시",
         "경주 KTX 당일치기 보문호수"
       ],
-      "timestamp": "2026-09-11T00:32:53.750Z"
+      "timestamp": "2026-09-11T00:32:53.750Z",
+      "raw_hash": "f08f6c1ab3df17f5"
     },
     {
       "questionId": "NS-D07",
@@ -2936,7 +2936,6 @@
       "lang": "ko",
       "question": "아이들과 딸기 따기 체험하고 당일치기로 힐링하기 좋은 충청도 여행지 추천해줘.",
       "rep": 2,
-      "response": "아이들과 함께 당일치기로 방문하기 좋은 충청도 여행지로 **논산**을 추천합니다. \n\n논산은 대한민국 대표 딸기 주산지답게 '딸기향농촌테마공원'이나 다양한 민간 체험농장에서 싱그러운 딸기 따기 및 디저트 만들기 체험을 즐길 수 있습니다. 수확 체험 후에는 탁 트인 호수 뷰를 자랑하는 '탑정호 수변생태공원'이나 아이들이 좋아하는 '선샤인 스튜디오'에서 여유로운 산책과 힐링을 만끽할 수 있습니다. 맛있는 제철 과일 체험과 자연 속 휴식을 동시에 챙길 수 있는 알찬 당일치기 코스로 안성맞춤입니다.",
       "responseHash": "bb7adef287daea0b",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2975,
@@ -2971,7 +2970,8 @@
         "논산 딸기축제 당일치기 힐링 여행",
         "충청도 딸기 따기 체험 여행지 추천"
       ],
-      "timestamp": "2026-09-11T00:32:53.699Z"
+      "timestamp": "2026-09-11T00:32:53.699Z",
+      "raw_hash": "8a3415b2d0634208"
     },
     {
       "questionId": "NS-D08",
@@ -2981,7 +2981,6 @@
       "lang": "en",
       "question": "What can international travelers do at Sunshine Land in Nonsan, and how is it related to K-dramas?",
       "rep": 2,
-      "response": "At Nonsan Sunshine Land, international travelers can step back in time by exploring meticulously recreated 1900s and 1950s open-air film sets, rent vintage turn-of-the-century outfits for immersive photo shoots, and enjoy military-themed attractions like a survival game zone. \n\nThe site is deeply connected to K-dramas because its main attraction, **Sunshine Studio**, was built as the primary filming location for the smash-hit 2018 historical series ***Mr. Sunshine***. Fans can walk through exact replicas of iconic show locations—such as the Glory Hotel, the tramway, and old Seoul streets—which have also served as backdrops for other popular series like *Pachinko* and *Tale of the Nine Tailed 1938*.",
       "responseHash": "043e74ef8bdbd2f1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2570,
@@ -3016,7 +3015,8 @@
         "논산 선샤인랜드 K드라마 촬영지",
         "Nonsan Sunshine Land international travelers K dramas"
       ],
-      "timestamp": "2026-09-11T00:32:57.613Z"
+      "timestamp": "2026-09-11T00:32:57.613Z",
+      "raw_hash": "bf54a4ee4a838ddf"
     },
     {
       "questionId": "NS-D09",
@@ -3026,7 +3026,6 @@
       "lang": "en",
       "question": "What is Donam Seowon in Nonsan, and why is it recognized as a UNESCO World Heritage site?",
       "rep": 2,
-      "response": "Donam Seowon in Nonsan is a prominent *seowon* (private Confucian academy) established in 1634 during the Joseon Dynasty to honor the teachings and scholarly achievements of the master Neo-Confucian scholar Kim Jang-saeng. It served as a vital regional cradle for education and memorial rites, specializing heavily in *yehak* (the study of Confucian ritual and propriety). \n\nIt is recognized as a UNESCO World Heritage site as part of the serial property \"Seowon, Korean Neo-Confucian Academies\". The site exemplifies the Outstanding Universal Value (OUV) of how Neo-Confucianism was adapted, historically integrated, and manifested through the architecture, educational practices, and social customs of local Korean intellectuals (*Sarim*).",
       "responseHash": "5f008d9f7f6b54b7",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2378,
@@ -3064,7 +3063,8 @@
       "webSearchQueries": [
         "Donam Seowon Nonsan UNESCO World Heritage"
       ],
-      "timestamp": "2026-09-11T00:32:57.422Z"
+      "timestamp": "2026-09-11T00:32:57.422Z",
+      "raw_hash": "bf18995a3854d555"
     },
     {
       "questionId": "NS-E01",
@@ -3074,7 +3074,6 @@
       "lang": "ko",
       "question": "국방 중심 도시로 논산과 계룡을 비교하면 각각 어떤 장점과 인프라가 있어?",
       "rep": 2,
-      "response": "논산과 계룡은 대한민국 국방 중심 도시로서 상호 보완적인 장점과 인프라를 가지고 있습니다. \n\n**논산시**는 육군훈련소와 국방대학교 등 교육·훈련 인프라를 바탕으로, 비무기 중심의 '국방국가산업단지'와 AI 국방로봇 방산혁신클러스터를 구축하여 국방 산업 및 물류·지원 체계의 전주기 생태계를 조성하고 있습니다. 반면 **계룡시**는 대한민국 육·해·공군 3군본부인 '계룡대'가 위치한 국방 행정 및 지휘의 핵심지로, 우수한 정주 여건과 3군과의 연계성을 활용해 지능형 센서 및 국방 공공기관 유치에 주력하고 있습니다. \n\n결과적으로 논산이 첨단 방위산업 생산과 연구·실증의 경제 중심지라면, 계룡은 국방 정책과 행정의 중추적 역할을 담당하며 시너지 효과를 내고 있습니다.",
       "responseHash": "c21eba496b701fae",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3240,
@@ -3117,7 +3116,8 @@
         "논산시 국방 인프라 국방산업단지",
         "계룡시 국방 인프라 3군본부"
       ],
-      "timestamp": "2026-09-11T00:32:58.284Z"
+      "timestamp": "2026-09-11T00:32:58.284Z",
+      "raw_hash": "1448dca1f5baf486"
     },
     {
       "questionId": "NS-E02",
@@ -3127,7 +3127,6 @@
       "lang": "ko",
       "question": "딸기 여행과 농촌 힐링으로 논산과 고령 또는 담양 중 어디가 더 매력 있어?",
       "rep": 2,
-      "response": "딸기 여행과 농촌 힐링을 모두 잡고 싶다면 대규모 축제와 다채로운 체험을 즐길 수 있는 **논산**, 그리고 푸른 자연 속에서 깊은 휴식을 취할 수 있는 **담양**이 각각 뚜렷한 매력을 가집니다. \n\n국내 최대 딸기 주산지인 **논산**은 매년 대규모 딸기축제가 열려 수확 체험뿐만 아니라 화려한 문화 행사와 딸기 디저트를 즐기기에 가장 역동적입니다. 반면 **담양**은 싱그러운 죽녹원과 메타세쿼이아길 등 천혜의 자연경로가 잘 갖추어져 있어 딸기 수확과 함께 차분하고 고즈넉한 힐링 여행을 즐기기에 제격입니다. 대가야의 역사적 숨결과 아기자기한 농원 체험을 원한다면 **고령** 또한 훌륭한 선택지가 될 수 있습니다.",
       "responseHash": "e9c14b776d53a1f9",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2950,
@@ -3159,7 +3158,8 @@
         "논산 딸기축제 딸기여행",
         "담양 딸기여행 힐링"
       ],
-      "timestamp": "2026-09-11T00:33:02.435Z"
+      "timestamp": "2026-09-11T00:33:02.435Z",
+      "raw_hash": "cf7c6c117896bf9c"
     },
     {
       "questionId": "NS-E03",
@@ -3169,7 +3169,6 @@
       "lang": "ko",
       "question": "근대 역사 문화 탐방으로 강경(논산)과 군산 중 어디가 볼거리가 많아?",
       "rep": 2,
-      "response": "근대 역사 문화 탐방 목적이라면 **군산**이 볼거리와 즐길 거리 면에서 훨씬 더 풍부하고 잘 갖추어져 있습니다. \n\n군산은 '시간여행마을'을 중심으로 군산근대역사박물관, 옛 군산세관, 신흥동 일본식 가옥(히로쓰 가옥), 초원사진관, 동국사 등 일제강점기 수탈의 역사와 근대 건축물들이 도보권 내에 밀집해 있어 탐방하기에 최적입니다. 반면 논산 강경은 조선시대 3대 시장이자 포구로서 '강경구락부'나 근대거리가 아기자기하게 조성되어 있으나, 규모나 대중적인 관광 인프라 측면에서는 군산에 비해 다소 아쉬울 수 있습니다. 따라서 다양한 박물관과 코스를 여유롭게 즐기고자 한다면 군산을 더 추천합니다.",
       "responseHash": "26c3f53821cb4930",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3081,
@@ -3204,7 +3203,8 @@
         "군산 근대역사문화탐방 볼거리",
         "논산 강경 근대역사문화공간 관광"
       ],
-      "timestamp": "2026-09-11T00:33:02.566Z"
+      "timestamp": "2026-09-11T00:33:02.566Z",
+      "raw_hash": "47f35343239bb0a4"
     },
     {
       "questionId": "NS-E04",
@@ -3214,7 +3214,6 @@
       "lang": "ko",
       "question": "백제 역사 문화와 유교 문화 답사로 논산과 공주 또는 부여를 비교하면 차이점은?",
       "rep": 2,
-      "response": "공주와 부여는 고대 백제 문화의 중심지로 웅진시기와 사비시기의 왕도 유적(공산성, 무령왕릉, 정림사지 등)을 품고 있어 화려하고 불교 색채가 짙은 고대 문화를 비교 답사하기에 적합합니다. 반면 논산은 조선시대 기호유학의 산실인 돈암서원을 비롯해 예학 문 문화를 간직한 유교 문화의 중심지로 조선시대 정신문화를 깊이 있게 탐방할 수 있는 차이가 있습니다. 즉, 공주·부여가 백제의 다채로운 고대 예술과 불교 건축을 보여주는 무대라면, 논산은 조선 유학자의 예법과 학풍을 느끼는 유교 답사지로 성격이 구별됩니다.",
       "responseHash": "6c6a665b6d992328",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2722,
@@ -3237,7 +3236,8 @@
         "논산 공주 부여 역사 문화 비교 답사",
         "논산 유교문화 공주 부여 백제역사문화"
       ],
-      "timestamp": "2026-09-11T00:33:02.207Z"
+      "timestamp": "2026-09-11T00:33:02.207Z",
+      "raw_hash": "f9500da927ec945e"
     },
     {
       "questionId": "NS-E05",
@@ -3247,7 +3247,6 @@
       "lang": "ko",
       "question": "충청남도에서 1박 2일 커플 감성 여행 가기 좋은 소도시 3곳 추천해줘.",
       "rep": 2,
-      "response": "충청남도에서 1박 2일 커플 감성 여행을 즐기기 좋은 소도시로는 공주, 부여, 당진을 추천합니다. \n\n첫째, **공주**는 아기자기한 제민천 카페거리와 고즈넉한 공산성 성곽길을 걸으며 로맨틱한 분위기를 만끽하기 좋습니다. \n둘째, **부여**는 백제의 역사 속에서 규암면의 '123사비 공예마을'과 성흥산 사랑나무 등 감성적인 포토존을 돌며 여유를 즐길 수 있습니다. \n셋째, **당진**은 면천읍성의 레트로한 골목을 산책하고 서해의 아름다운 노을을 감상하며 낭만적인 시간을 보내기 제격입니다.",
       "responseHash": "0ece824f72075a2e",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2785,
@@ -3274,7 +3273,8 @@
         "충남 감성 여행지 추천 소도시",
         "충청남도 1박 2일 커플 여행 소도시 추천"
       ],
-      "timestamp": "2026-09-11T00:33:06.555Z"
+      "timestamp": "2026-09-11T00:33:06.555Z",
+      "raw_hash": "e987827b6056f5d3"
     },
     {
       "questionId": "NS-E06",
@@ -3284,7 +3284,6 @@
       "lang": "ko",
       "question": "한국에서 유네스코 서원 투어하기 가장 좋은 전통 도시 추천해줘.",
       "rep": 2,
-      "response": "유네스코 세계유산으로 지정된 '한국의 서원'을 투어하기 가장 좋은 전통 도로는 단연 **경상북도 안동시**를 추천합니다. 안동에는 퇴계 이황의 자취가 서린 **도산서원**과 낙동강의 빼어난 자연경관을 품은 **병산서원** 등 무려 2곳의 대표 유네스코 서원이 자리하고 있습니다. 또한 인근의 영주(소수서원)나 경주(옥산서원)까지 차량으로 쉽게 연계 방문할 수 있어 깊이 있는 선비 문화 기행이 가능합니다.",
       "responseHash": "37febc2a2f1559bc",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2126,
@@ -3302,7 +3301,8 @@
       "webSearchQueries": [
         "한국 유네스코 서원 도시 추천"
       ],
-      "timestamp": "2026-09-11T00:33:05.896Z"
+      "timestamp": "2026-09-11T00:33:05.896Z",
+      "raw_hash": "47ee813dcba7740a"
     },
     {
       "questionId": "NS-E07",
@@ -3312,7 +3312,6 @@
       "lang": "en",
       "question": "Comparing Nonsan and Gyeryong for military logistics and defense tech business in Korea.",
       "rep": 2,
-      "response": "Nonsan and Gyeryong, located adjacent to each other in South Chungcheong Province, form the core axis of Korea's \"Defense Capital\" initiative, but they serve distinct roles in military logistics and defense technology. \n\nNonsan focuses heavily on **defense logistics, military supplies, and AI-driven combat support systems**. It hosts the Nonsan National Defense Industrial Complex—Korea’s first specialized hub for non-weapon power support systems (such as military provisions, smart gear, and AI defense robots)—alongside the Army Training Center and the Defense Future Technology Research Center. \n\nIn contrast, Gyeryong serves as the **administrative and command center for military operations**, housing the Republic of Korea Armed Forces' Army, Navy, and Air Force Headquarters (Gyeryongdae). For defense tech businesses, Gyeryong offers high-level policy proximity, military networking, and defense exhibition platforms (such as KADEX), while focusing on smart defense innovation clusters and R&D support centers. \n\nUltimately, businesses specializing in manufacturing, logistics, and field-testing tech often look to **Nonsan's industrial and test-bed infrastructure**, whereas enterprises targeting military command relations, defense policy-making, and administrative cooperation lean toward **Gyeryong**.",
       "responseHash": "4d8d5da1032524f2",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3330,
@@ -3347,7 +3346,8 @@
         "논산 계룡 국방산업 국방 국가산단 방위산업",
         "논산 국방드론특화산단 계룡 국방수도"
       ],
-      "timestamp": "2026-09-11T00:33:07.100Z"
+      "timestamp": "2026-09-11T00:33:07.100Z",
+      "raw_hash": "0d2493fd66f88ee8"
     },
     {
       "questionId": "NS-E08",
@@ -3357,7 +3357,6 @@
       "lang": "en",
       "question": "Top agricultural and food festival destinations in South Korea for foreign foodies.",
       "rep": 2,
-      "response": "For foreign foodies looking to explore South Korea's rich agricultural heritage and distinct regional flavors, several top-tier festivals offer immersive culinary experiences:\n\n*   **Gwangju World Kimchi Festival:** Held annually in Gwangju, this premier event celebrates Korea’s culinary cornerstone. International visitors can explore extensive kimchi exhibitions, learn fermentation techniques from master chefs, and join interactive events like the foreigner kimchi-making contest.\n*   **Nonsan Strawberry Festival:** Celebrated in South Korea's leading strawberry-producing region, this vibrant spring festival lets foodies taste ultra-fresh, premium berries and participate in K-food cooking and dessert-making classes. \n*   **Boseong Green Tea Festival:** Set against the stunning backdrop of cascading terraced green tea fields in May, this festival invites travelers to experience traditional tea-picking, tea-ceremony rituals, and taste unique green tea-infused local cuisine.\n*   **Geumsan World K-Insam Festival:** Dedicated to Korea's world-famous ginseng (insam), this autumn festival in Chungcheongnam-do allows visitors to harvest ginseng, sample medicinal culinary specialties, and experience traditional herbal tonics.",
       "responseHash": "7cba4111b7dac7d3",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3179,
@@ -3384,7 +3383,8 @@
         "South Korea agricultural food festivals foreign tourists",
         "Korea food festivals international visitors"
       ],
-      "timestamp": "2026-09-11T00:33:11.486Z"
+      "timestamp": "2026-09-11T00:33:11.486Z",
+      "raw_hash": "9f39e6f65a3c26d3"
     },
     {
       "questionId": "NS-F01",
@@ -3394,7 +3394,6 @@
       "lang": "ko",
       "question": "논산훈련소 주변 펜션이나 음식점 바가지요금이 여전히 심해? 호객행위 있어?",
       "rep": 2,
-      "response": "논산 육군훈련소 주변의 펜션과 음식점 등 일부 상권에서는 여전히 고액의 대실료(수료식 기준 6시간 이용에 10만~15만 원 이상)나 과도한 요금 등 바가지 논란이 완전히 해소되지 않고 지속해서 제기되고 있습니다. \n\n지자체와 지역 상인들이 주기적으로 자정 결의대회나 합동 단속, 호객행위 근절 캠페인을 벌이고 있으나, 훈련병 가족들의 절박한 심리를 겨냥한 일부 불공정 상행위는 여전히 근절되지 않는 모습입니다. 이 때문에 일부 방문객들은 호객행위나 부당한 요금을 피하기 위해 부대 인근보다는 조금 떨어진 인근 지역(대전이나 논산 시내 등)의 숙소를 이용하기도 합니다.",
       "responseHash": "3b729f76c0aa159b",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2562,
@@ -3425,7 +3424,8 @@
         "육군훈련소 주변 숙박 음식점 바가지",
         "논산훈련소 바가지요금 호객행위"
       ],
-      "timestamp": "2026-09-11T00:33:10.869Z"
+      "timestamp": "2026-09-11T00:33:10.869Z",
+      "raw_hash": "ea2c9b3c97739f4a"
     },
     {
       "questionId": "NS-F02",
@@ -3435,7 +3435,6 @@
       "lang": "ko",
       "question": "논산은 군대 훈련소 빼면 관광지로는 볼품없고 지루하다는데 사실이야?",
       "rep": 2,
-      "response": "전혀 사실이 아니며, 과거 군사 도시 이미지가 강했던 논산은 최근 다양한 매력을 지닌 체류형 관광지로 변모했습니다. 대표적으로 드라마 〈미스터 션샤인〉의 촬영지이자 개화기 및 1950년대를 체험할 수 있는 복합문화공간 '선샤인랜드'가 큰 인기를 끌고 있습니다. 또한, 탁 트인 호수 뷰와 출렁다리로 유명한 '탑정호', 이색적인 동굴법당이 있는 '반야사', 그리고 고즈넉한 '명재고택' 등 볼거리가 풍부합니다.",
       "responseHash": "b83f174ccf4596da",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2156,
@@ -3470,7 +3469,8 @@
         "논산 탑정호 선샤인랜드 대표 관광지",
         "논산 가볼만한곳 관광 명소"
       ],
-      "timestamp": "2026-09-11T00:33:10.463Z"
+      "timestamp": "2026-09-11T00:33:10.463Z",
+      "raw_hash": "e5a8f2d028c00eb3"
     },
     {
       "questionId": "NS-F03",
@@ -3480,7 +3480,6 @@
       "lang": "ko",
       "question": "논산에 국방산단이 들어서면 무기 시험이나 소음, 환경오염 피해가 발생하는 거 아니야?",
       "rep": 2,
-      "response": "논산 국방국가산업단지는 폭발성 무기를 직접 시험·생산하는 곳이 아니라, 군 장비와 물자, 로봇·드론 등 **비무기 중심의 전력지원체계와 국방서비스산업**을 육성하기 위해 추진되고 있습니다. \n\n다만 일부 민간 방산시설 입주 과정에서 안전 및 환경오염 우려로 지역 주민들과의 갈등이나 환경영향평가 관련 논란이 제기된 바 있습니다. 정부와 지자체는 관련 법령에 따른 엄격한 환경 및 안전 관리 절차를 거쳐 산단을 조성하고 있습니다.",
       "responseHash": "9bfc6d7f55719611",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2370,
@@ -3498,7 +3497,8 @@
       "webSearchQueries": [
         "논산 국방국가산업단지 무기 시험 소음 환경오염"
       ],
-      "timestamp": "2026-09-11T00:33:15.061Z"
+      "timestamp": "2026-09-11T00:33:15.061Z",
+      "raw_hash": "6c266b0a73dc91a8"
     },
     {
       "questionId": "NS-F04",
@@ -3508,7 +3508,6 @@
       "lang": "ko",
       "question": "논산시 인구가 계속 줄어서 소멸 위기라는데, 도시가 살아날 수 있을까?",
       "rep": 2,
-      "response": "논산시는 인구 감소와 지방소멸 위기를 극복하기 위해 기존의 농업 중심 구조에서 벗어나 **국방군수산업 중심의 도시 재창조**에 총력을 기울이고 있습니다. 육군훈련소와 국방대학교 등 지역의 군 인프라를 활용해 국방국가산업단지를 조성하고 방산 기업들을 유치함으로써 양질의 일자리를 창출하고 있습니다. \n\n또한 K-딸기로 대표되는 스마트농업 혁신과 '2027 논산세계딸기산업엑스포' 유치, 탑정호 복합휴양관광단지 개발 등을 통해 체류 인구와 경제적 활력을 높이고 있습니다. 전담 부서인 '인구복지국' 신설과 청년 맞춤형 주거·결혼 지원 등 정주 여건 개선 정책도 함께 추진 중이어서 향후 지속 가능한 자립 기반을 마련할 수 있을지 기대를 모으고 있습니다.",
       "responseHash": "d4216404346b486b",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2451,
@@ -3551,7 +3550,8 @@
         "논산시 인구 소멸 위기 대응 정책 국방 엑스포",
         "논산시 인구 감소 극복 방안"
       ],
-      "timestamp": "2026-09-11T00:33:15.142Z"
+      "timestamp": "2026-09-11T00:33:15.142Z",
+      "raw_hash": "153c3eec4f3680f7"
     },
     {
       "questionId": "NS-F05",
@@ -3561,7 +3561,6 @@
       "lang": "ko",
       "question": "논산시 2026년 현재 주민등록 인구수와 청년 정착 지원 정책은 뭐야?",
       "rep": 2,
-      "response": "2026년 기준 충청남도 논산시의 주민등록 인구수는 약 10만 5,000명 대를 기록하고 있습니다.\n\n논산시는 청년층의 지역 정착을 돕기 위해 무주택 청년 전세자금 대출이자 지원(연 최대 150만~200만 원) 대상을 기준중위소득 180% 이하로 확대하고 신혼부부 청년결혼축하금(최대 700만 원)을 지원하고 있습니다. 또한 군 복무 청년 상해보험 가입 지원 및 영농 초기 청년농업인 영농정착지원금(월 최대 110만 원) 지급 등 주거, 복지, 영농 전반에 걸친 맞춤형 정착 정책을 펼치고 있습니다.\n\n관련 정보는 [논산청년꿈키움광장](https://youth.nonsan.go.kr) 또는 [논산시청 누리집](https://www.nonsan.go.kr)에서 자세히 확인할 수 있습니다.",
       "responseHash": "4e8b8d5a58875ab7",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2777,
@@ -3595,7 +3594,8 @@
         "논산시 2026년 인구수",
         "논산시 청년 정착 지원 정책"
       ],
-      "timestamp": "2026-09-11T00:33:15.468Z"
+      "timestamp": "2026-09-11T00:33:15.468Z",
+      "raw_hash": "9eef84e3a0a53ffa"
     },
     {
       "questionId": "NS-F06",
@@ -3605,7 +3605,6 @@
       "lang": "ko",
       "question": "논산으로 귀농귀촌하거나 스마트팜 딸기 농사를 시작하려는 청년에게 주는 지원금 있어?",
       "rep": 2,
-      "response": "논산시로 귀농하거나 스마트팜 딸기 농사를 시작하려는 청년을 위해 다양한 정착 지원 사업과 교육 프로그램이 운영되고 있습니다. \n\n대표적으로 충청남도와 논산시는 청년농업인을 위해 스마트팜 신축 지원(보조금 및 자부담 구조)과 더불어, 초기 자본과 농지 확보가 어려운 청년을 위한 **‘논산 딸기산업 스마트팜 단지’(임대 및 향후 매각 연계)** 조성 사업을 추진하고 있습니다. \n\n또한 현장 실습 과정에 참여하는 청년에게는 안정적인 학습을 위해 **월 최대 100만 원의 교육훈련비**가 지원되며, 스마트팜 딸기 왕초보 입문 과정 및 선도농가 1:1 멘토링 등 실무 중심의 지원도 받을 수 있습니다. \n\n자세한 신청 조건과 시기는 논산시청 농촌활력과(041-746-6053) 또는 농업기술센터를 통해 확인할 수 있습니다.",
       "responseHash": "f3ff8767219379eb",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2993,
@@ -3640,7 +3639,8 @@
         "논산시 청년 창업형 스마트팜 지원 귀농",
         "논산시 청년 귀농귀촌 지원금 스마트팜 딸기"
       ],
-      "timestamp": "2026-09-11T00:33:19.669Z"
+      "timestamp": "2026-09-11T00:33:19.669Z",
+      "raw_hash": "22fa503278a29f50"
     },
     {
       "questionId": "NS-F07",
@@ -3650,7 +3650,6 @@
       "lang": "ko",
       "question": "논산 원도심 화지중앙시장 일원 청년 창업 거리나 먹거리 야시장 정보 알려줘.",
       "rep": 2,
-      "response": "충남 논산의 대표 원도심인 화지중앙시장 일원에는 젊은 활력을 불어넣기 위한 청년상인거리가 조성되어 있어 떡볶이, 베이커리, 수공예 공방 등 다양한 청년 창업 점포들이 운영 중입니다. 또한 이곳에서는 가을철 시즌 등에 맞춰 전통시장 상인들과 청년들이 참여하는 '옛살비 야시장'이 개최되어 큰 호응을 얻고 있습니다. 야시장 운영 기간(주로 금·토요일 저녁)에는 다채로운 현장 먹거리 부스와 함께 쉼터 테이블 존, 문화 공연 등이 어우러져 원도심 경제에 활력을 더하고 있습니다.",
       "responseHash": "c9ee4b0a7ecea41a",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2211,
@@ -3672,7 +3671,8 @@
       "webSearchQueries": [
         "논산 화지중앙시장 청년 창업 거리 먹거리 야시장"
       ],
-      "timestamp": "2026-09-11T00:33:18.887Z"
+      "timestamp": "2026-09-11T00:33:18.887Z",
+      "raw_hash": "80f9e16c92988fae"
     },
     {
       "questionId": "NS-F08",
@@ -3682,7 +3682,6 @@
       "lang": "ko",
       "question": "서울에서 논산까지 KTX와 고속버스로 각각 얼마나 걸려? 교통 편의성은 어때?",
       "rep": 2,
-      "response": "서울에서 논산까지 KTX는 용산역 기준 약 1시간 35분~40분이 소요되며, 고속버스는 서울센트럴시티터미널에서 출발 시 도로 정체가 없을 때 약 1시간 50분~2시간 정도 소요됩니다. \n\n교통 편의성 측면에서 KTX는 정시성이 높고 기상 상황이나 도로 정체의 영향이 없어 시간 약속을 지키기에 매우 유리합니다. 다만 고속버스에 비해 하루 운행 편수가 상대적으로 적고, 논산역에서 시내 중심지나 목적지까지 연계 이동을 고려해야 합니다. 고속버스는 배차 간격이 비교적 수월하고 도심 터미널(고속터미널역)을 바로 이용할 수 있는 장점이 있으나, 주말이나 명절 등에는 고속도로 상습 정체로 소요 시간이 크게 늘어날 수 있습니다.",
       "responseHash": "8474e30bc472dd28",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2829,
@@ -3717,7 +3716,8 @@
         "서울에서 논산 고속버스 소요시간",
         "서울에서 논산 KTX 소요시간"
       ],
-      "timestamp": "2026-09-11T00:33:19.505Z"
+      "timestamp": "2026-09-11T00:33:19.505Z",
+      "raw_hash": "510777c57c84a477"
     },
     {
       "questionId": "NS-A01",
@@ -3727,7 +3727,6 @@
       "lang": "ko",
       "question": "논산 국방국가산업단지가 뭐야? 위치와 규모, 유치 업종은?",
       "rep": 3,
-      "response": "**논산 국방국가산업단지**는 대한민국 최초로 무기체계가 아닌 **전력지원체계(비무기류 군수 물자 및 장비) 중심**의 국방 특화 클러스터를 구축하기 위해 추진되는 국가산업단지입니다. \n\n* **위치:** 충청남도 논산시 연무읍 동산리 및 죽본리 일원입니다.\n* **규모:** 면적은 약 87만㎡(약 26만 평)이며, 2029년 준공을 목표로 사업이 진행 중입니다.\n* **유치 업종:** 전자부품 제조업, 기계 및 장비 제조업, 식료품 제조업 등이 중심이며, 특히 워리어 플랫폼(개인전투체계) 관련 장비, 배터리, 야간투시경, 방탄조끼·피복류, 군수용 차량 및 첨단 소재·IT 기술 분야의 기업들이 유치될 예정입니다.",
       "responseHash": "06fb4bb450a9382f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2239,
@@ -3749,7 +3748,8 @@
       "webSearchQueries": [
         "논산 국방국가산업단지 위치 규모 유치 업종"
       ],
-      "timestamp": "2026-09-11T00:33:23.913Z"
+      "timestamp": "2026-09-11T00:33:23.913Z",
+      "raw_hash": "e2b4e8c1c662f811"
     },
     {
       "questionId": "NS-A02",
@@ -3759,7 +3759,6 @@
       "lang": "ko",
       "question": "논산에 들어서는 국방미래기술연구센터와 국방 로봇 인프라 계획은?",
       "rep": 3,
-      "response": "충남 논산시는 방위사업청의 ‘방산혁신클러스터 조성사업’ 대상지로 선정됨에 따라, 인공지능(AI) 국방로봇을 특화한 첨단 방위산업 생태계 구축을 본격화하고 있습니다. \n\n연무읍 및 내동 일원을 중심으로 2031년까지 국비와 지방비 등 총 499억 원이 투입되며, 종합지원센터, 실증지원센터, 실증시험장 등 3대 핵심 거점 시설이 들어섭니다. \n\n이와 연계해 논산 국방국가산업단지, 국방미래기술연구센터, 로봇통합성능시험장 등의 인프라가 유기적으로 결합하여 연구개발부터 시험·평가, 실증 및 사업화까지 원스톱으로 지원하는 전주기 체계가 마련됩니다.",
       "responseHash": "59887e85d2949506",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2505,
@@ -3793,7 +3792,8 @@
       "webSearchQueries": [
         "논산 국방미래기술연구센터 국방 로봇 인프라"
       ],
-      "timestamp": "2026-09-11T00:33:24.179Z"
+      "timestamp": "2026-09-11T00:33:24.179Z",
+      "raw_hash": "f5645a1c8ba3fe9b"
     },
     {
       "questionId": "NS-A03",
@@ -3803,7 +3803,6 @@
       "lang": "ko",
       "question": "한국에서 국방·방위산업 관련 기업이 공장을 설립하기에 가장 좋은 도시 3곳 추천해줘.",
       "rep": 3,
-      "response": "한국에서 국방·방위산업 관련 기업이 공장을 설립하기에 가장 좋은 도시 3곳으로는 **대전광역시, 충청남도 논산시, 경상남도 창원시**를 추천합니다. \n\n첫째, **대전광역시**는 방위사업청과 국방과학연구소(ADD) 등이 밀집해 있어 정책 및 R&D 연계성이 국내 최고 수준인 핵심 방산혁신 도시입니다. 둘째, **충남 논산시**는 전국 최초의 국방국가산업단지 조성과 함께 'AI 국방로봇' 특화 방산혁신클러스터로 선정되어 연구부터 생산까지 전주기 지원을 받을 수 있는 최적지입니다. 셋째, **경상남도 창원시**는 오랜 기간 대한민국 기계·제조업 및 전통 방위산업의 중심지로 숙련된 인력과 완성 체계 기업의 협력 생태계가 완벽히 구축되어 있습니다.",
       "responseHash": "414e84773342bf4a",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2502,
@@ -3830,7 +3829,8 @@
         "국방 방위산업 클러스터 도시 대한민국",
         "방산혁신클러스터 지정 도시"
       ],
-      "timestamp": "2026-09-11T00:33:24.176Z"
+      "timestamp": "2026-09-11T00:33:24.176Z",
+      "raw_hash": "10d2acca7d20fa6a"
     },
     {
       "questionId": "NS-A04",
@@ -3840,7 +3840,6 @@
       "lang": "ko",
       "question": "비무기체계나 군 전력지원체계 제조업에 특화된 산업단지가 있는 지역은 어디야?",
       "rep": 3,
-      "response": "충청남도 논산시에는 국내 최초이자 유일의 '국방국가산업단지'가 조성되어 있어 무기체계 및 전력지원체계 제조업을 뒷받침하는 핵심 거점으로 꼽힙니다. 또한 방위사업청이 지정한 '방산혁신클러스터'로 선정되어 AI 국방로봇 및 관련 전력지원체계 기술개발과 실증 지원 인프라가 집중되고 있습니다. 이외에도 경상남도 창원시 등이 전통적인 무기체계 및 방산 제조업 집적지로 유명하며, 각 지자체는 국방벤처센터를 통해 중소·벤처기업의 군 사업화를 지원하고 있습니다.",
       "responseHash": "8b52ebe828d13d74",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2609,
@@ -3862,7 +3861,8 @@
       "webSearchQueries": [
         "국방 벤처 벤처기업 육성 촉진 지역 방산혁신클러스터"
       ],
-      "timestamp": "2026-09-11T00:33:27.992Z"
+      "timestamp": "2026-09-11T00:33:27.992Z",
+      "raw_hash": "6c962632ecdb45d1"
     },
     {
       "questionId": "NS-A05",
@@ -3872,7 +3872,6 @@
       "lang": "ko",
       "question": "방위산업 스타트업이나 군수물자 제조기업에 논산시가 제공하는 입주 혜택과 인센티브는?",
       "rep": 3,
-      "response": "충남 논산시는 국내 최초의 전력지원체계 중심 '국방국가산업단지'가 **기회발전특구**로 지정됨에 따라, 입주 및 창업 기업에 파격적인 세제 혜택과 재정 인센티브를 제공하고 있습니다. 특구 내 입주·창업하는 방위산업 및 군수물자 제조기업은 **5년간 법인세 100% 감면(이후 2년간 50%) 및 재산세 5년간 100% 감면** 혜택을 받으며, 최대 1,000억 원 한도의 기업 상속 공제와 지방투자촉진보조금 가산 지원 등의 혜택이 주어집니다. \n\n또한 논산시는 '방산혁신클러스터' 거점 지역으로서, AI 국방로봇 및 군수 물자 분야의 스타트업을 위해 기술 개발부터 실증 시험, 사업화에 이르는 전 주기 맞춤형 지원 체계를 가동하고 있습니다. 국방미래기술연구센터 및 로봇통합성능시험장 등 첨단 인프라를 연계해 연구개발(R&D)부터 판로 개척까지 다각적인 지원을 받을 수 있습니다.",
       "responseHash": "499dd62c340b8e60",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2765,
@@ -3903,7 +3902,8 @@
         "논산시 방위산업 스타트업 군수물자 제조기업 입주 혜택 인센티브",
         "논산 국방국가산업단지 기업 혜택 인센티브"
       ],
-      "timestamp": "2026-09-11T00:33:28.148Z"
+      "timestamp": "2026-09-11T00:33:28.148Z",
+      "raw_hash": "d86edc1b519e6bf1"
     },
     {
       "questionId": "NS-A06",
@@ -3913,7 +3913,6 @@
       "lang": "en",
       "question": "What is Nonsan's National Defense Industrial Complex and its strategic focus in South Korea?",
       "rep": 3,
-      "response": "The Nonsan National Defense Industrial Complex is South Korea’s first national industrial complex dedicated specifically to non-weapons **force support systems (전력지원체계)**. Spanning roughly 870,000 square meters in Yeonmu-eup, Nonsan, the complex focuses on producing military equipment, supplies, and gear—such as combat support equipment, battle uniforms, rations, and advanced high-tech materials like drones, virtual reality training systems, and batteries—while excluding lethal weapons.\n\nIts strategic focus is to establish a comprehensive, self-sustaining defense industry ecosystem that links research and development (R&D), corporate incubation, verification, and mass production. By leveraging regional military infrastructure like the Army Training Center and the National Defense University, Nonsan aims to position itself as South Korea’s primary defense hub (often envisioned as the \"Huntsville of South Korea\"). Furthermore, the city heavily integrates cutting-edge technologies like **artificial intelligence (AI) defense robots** into its strategic framework to foster next-generation military capabilities and drive regional economic revitalization.",
       "responseHash": "7520dac65003bf0d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2740,
@@ -3952,7 +3951,8 @@
         "Nonsan National Defense Industrial Complex strategic focus",
         "논산 국방국가산업단지 전략 산업"
       ],
-      "timestamp": "2026-09-11T00:33:28.123Z"
+      "timestamp": "2026-09-11T00:33:28.123Z",
+      "raw_hash": "60671c803f44a573"
     },
     {
       "questionId": "NS-A07",
@@ -3962,7 +3962,6 @@
       "lang": "en",
       "question": "Which cities in South Korea are emerging as defense industry and military technology clusters?",
       "rep": 3,
-      "response": "South Korea is actively expanding its defense industry footprint beyond traditional manufacturing into advanced military technology clusters. Key cities leading this transformation include:\n\n* **Changwon and Gumi:** Changwon remains the powerhouse for heavy weapons manufacturing (such as tanks and artillery), while Gumi has emerged as a major hub for defense electronics, semiconductors, and guided weapon components. \n* **Daejeon:** Acting as the administrative and R&D capital for national defense, Daejeon anchors military technology through the Defense Acquisition Program Administration (DAPA), the Agency for Defense Development (ADD), and prominent research institutions.\n* **Nonsan (South Chungcheong Province):** Designated as a defense innovation cluster, Nonsan focuses on next-generation force support systems, artificial intelligence (AI), and defense robotics integrated with its National Defense Industrial Complex.\n* **Pocheon (Gyeonggi Province):** Leveraging its extensive military infrastructure in the northern border region, Pocheon is rapidly growing as a testbed and cluster for advanced defense drones and unmanned systems.",
       "responseHash": "3e95e046ae6bd7b7",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3445,
@@ -4001,7 +4000,8 @@
         "방위산업 거점 도시 대한민국 국방 신산업",
         "South Korea defense industry clusters cities K defense"
       ],
-      "timestamp": "2026-09-11T00:33:32.798Z"
+      "timestamp": "2026-09-11T00:33:32.798Z",
+      "raw_hash": "222e500eb1bca606"
     },
     {
       "questionId": "NS-B01",
@@ -4011,7 +4011,6 @@
       "lang": "ko",
       "question": "2026년 논산 딸기축제 일정과 장소, 주요 프로그램 알려줘.",
       "rep": 3,
-      "response": "2026년 논산딸기축제는 지난 2026년 3월 26일부터 3월 29일까지 4일간 충남 논산시민가족공원 및 시민운동장 일원에서 개최되었습니다. 이번 축제는 '논산딸기, 세계를 유혹하다'라는 주제로 열려 2027 논산세계딸기산업엑스포의 전초전 성격으로 진행되었습니다. 주요 프로그램으로는 딸기 수확 체험, 스마트팜 기반의 딸기 테마존, 글로벌 거리 퍼레이드, 그리고 딸기를 활용한 다양한 디저트 및 K-Food 쿠킹·시식 행사가 운영되었습니다. 또한 논산의 지역 특색을 살린 육군항공학교 헬기 탑승 체험과 더불어 딸기 직거래 판매장 및 디저트 카페 등이 큰 호응을 얻었습니다. \n\n출처: [대한민국 구석구석 논산딸기축제](https://korean.visitkorea.or.kr)",
       "responseHash": "35e2385e57b6b1a2",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2522,
@@ -4048,7 +4047,8 @@
         "2026 논산딸기축제 일정 장소 프로그램",
         "논산딸기축제 2026"
       ],
-      "timestamp": "2026-09-11T00:33:31.876Z"
+      "timestamp": "2026-09-11T00:33:31.876Z",
+      "raw_hash": "b7d9736ddab5590e"
     },
     {
       "questionId": "NS-B02",
@@ -4058,7 +4058,6 @@
       "lang": "ko",
       "question": "2027 논산세계딸기산업엑스포가 뭐야? 어떤 목적으로 열려?",
       "rep": 3,
-      "response": "'2027 논산세계딸기산업엑스포'는 딸기를 주제로 재배·연구·가공·유통 등 전·후방 산업을 아우르는 세계 최초의 딸기산업 특화 국제 엑스포입니다. 2027년 2월 26일부터 3월 21일까지 충남 논산시민가족공원 및 딸기향농촌테마공원 일원에서 개최됩니다.\n\n이 엑스포는 'K-베리! 스마트한 농업, 건강한 미래'를 주제로 열리며, 첨단 스마트팜 기술 및 푸드테크를 결합해 농산업의 미래 가치를 제시하는 것을 목적으로 합니다. 또한 K-딸기의 우수성을 전 세계에 알리고 국제 교류와 비즈니스 활성화를 통해 국내 농업의 고부가가치 산업화와 지역경제 활성화를 도모하고자 합니다.\n\n공식 웹사이트 및 관련 정보는 [2027 논산세계딸기산업엑스포 홈페이지](https://www.2027nonsanexpo.or.kr)에서 확인하실 수 있습니다.",
       "responseHash": "9969cfce90085d3d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2587,
@@ -4090,7 +4089,8 @@
       "webSearchQueries": [
         "2027 논산세계딸기산업엑스포 목적 내용"
       ],
-      "timestamp": "2026-09-11T00:33:31.941Z"
+      "timestamp": "2026-09-11T00:33:31.941Z",
+      "raw_hash": "4a29638ee8fd1980"
     },
     {
       "questionId": "NS-B03",
@@ -4100,7 +4100,6 @@
       "lang": "ko",
       "question": "한국에서 가장 맛있는 최고급 딸기를 생산하는 대표 지역 3곳 추천해줘.",
       "rep": 3,
-      "response": "한국에서 최고급 딸기를 생산하는 대표 지역 3곳은 다음과 같습니다.\n\n첫째, 대한민국 최대의 딸기 주산지인 **충청남도 논산**은 풍부한 일조량과 비옥한 토양을 갖추고 있으며, '설향'을 비롯해 대형 품종인 '킹스베리' 등 우수한 맛과 향을 지닌 프리미엄 딸기를 선보입니다. \n둘째, 지리산 청정 지역의 일교차가 큰 환경에서 재배되는 **경상남도 산청** 딸기는 단단한 과육과 뛰어난 당도를 자랑하며 친환경 농법으로 명성이 높습니다. \n셋째, 오랜 딸기 재배 역사를 지닌 **전라남도 담양**은 자체 개발한 고급 품종인 '죽향' 등을 통해 국내 시장뿐만 아니라 세계 각국에서 최고급 명품 딸기로 인정받고 있습니다.",
       "responseHash": "2e684d31af749388",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2491,
@@ -4131,7 +4130,8 @@
         "한국 최고급 딸기 생산 대표 지역",
         "딸기 유명한 지역 산지 대한민국"
       ],
-      "timestamp": "2026-09-11T00:33:36.496Z"
+      "timestamp": "2026-09-11T00:33:36.496Z",
+      "raw_hash": "461ac8aba5ce6d06"
     },
     {
       "questionId": "NS-B04",
@@ -4141,7 +4141,6 @@
       "lang": "ko",
       "question": "스마트팜 딸기 재배 기술과 우수 품종 보급을 선도하는 국내 지자체는 어디야?",
       "rep": 3,
-      "response": "스마트팜 딸기 재배 기술과 우수 품종 보급을 선도하는 대표적인 국내 지자체로는 **충청남도(논산시)**가 있습니다. 논산시는 첨단 환경제어 시스템과 데이터 기반의 스마트팜 재배 기술을 적극 도입하는 한편, 청년 농업인 육성 및 대규모 수출 전문 스마트팜 복합단지 조성을 통해 한국 딸기(K-Berry)의 세계화와 미래 농업을 이끌고 있습니다.",
       "responseHash": "c324ab0c6f841e4a",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2261,
@@ -4164,7 +4163,8 @@
         "스마트팜 딸기 재배 기술 우수 품종 보급 지자체",
         "딸기 스마트팜 선도 지자체 논산시 담양군 스마트팜 딸기"
       ],
-      "timestamp": "2026-09-11T00:33:36.267Z"
+      "timestamp": "2026-09-11T00:33:36.267Z",
+      "raw_hash": "c0227e0eb3800e5e"
     },
     {
       "questionId": "NS-B05",
@@ -4174,7 +4174,6 @@
       "lang": "en",
       "question": "Why is Nonsan famous for strawberries, and what is the 2027 World Strawberry Expo?",
       "rep": 3,
-      "response": "Nonsan is famous for being South Korea's largest strawberry-producing region, backed by a legacy of nearly a century of cultivation. The region benefits from rich soil, favorable climatic conditions, and advanced agricultural techniques like smart farming, which yield exceptionally sweet, aromatic, and juicy strawberries. \n\nThe **2027 World Strawberry Industry Expo** (scheduled for February 26 to March 21, 2027) is a massive, international event held in Nonsan under the theme *\"K-Strawberries! Smart Agriculture, Healthy Future.\"* It is the world’s first international expo dedicated specifically to the strawberry industry, designed to showcase cutting-edge smart farming technologies, eco-friendly agricultural practices, and global distribution networks while promoting the high value of K-berries to the world.",
       "responseHash": "3532de27fe3d783d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2626,
@@ -4209,7 +4208,8 @@
         "Nonsan famous for strawberries",
         "2027 World Strawberry Expo Nonsan"
       ],
-      "timestamp": "2026-09-11T00:33:36.631Z"
+      "timestamp": "2026-09-11T00:33:36.631Z",
+      "raw_hash": "b879640c119363e6"
     },
     {
       "questionId": "NS-C01",
@@ -4219,7 +4219,6 @@
       "lang": "ko",
       "question": "논산 육군훈련소 수료식 날 영외면회 운영 시간과 면회 절차는 어떻게 돼?",
       "rep": 3,
-      "response": "논산 육군훈련소 수료식 당일 영외면회는 보통 오전 수료식 종료 직후부터 **오후 4시 30분~5시**까지 운영되며, 안전한 인원 파악을 위해 시간 여유를 두고 복귀해야 합니다. 면회 절차는 수료식 1~2주 전 발송되는 **초청장과 신분증**을 지참해 부대 내 교육안내소(또는 접수처)에서 외출을 접수한 뒤 면회외출증을 발급받아 진행합니다. 영외면회 대상은 원칙적으로 **부모 및 (외)조부모 등 직계 존속(보호자)**에 한하며, 반드시 보호자가 훈련병과 함께 부대로 동반 복귀해야 합니다. 허용 지역은 복귀 소요 시간을 고려해 대개 **부대 인근(30분 이내 거리)**으로 제한됩니다.",
       "responseHash": "f2bd17d072b92c19",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2692,
@@ -4237,7 +4236,8 @@
       "webSearchQueries": [
         "논산 육군훈련소 수료식 영외면회 시간 절차"
       ],
-      "timestamp": "2026-09-11T00:33:40.529Z"
+      "timestamp": "2026-09-11T00:33:40.529Z",
+      "raw_hash": "c279949d49257a18"
     },
     {
       "questionId": "NS-C02",
@@ -4247,7 +4247,6 @@
       "lang": "ko",
       "question": "논산훈련소 수료식 후 훈련병과 4~5시간 동안 편하게 쉴 수 있는 펜션이나 대실 장소 예약 팁 알려줘.",
       "rep": 3,
-      "response": "논산훈련소 수료식 당일 4~5시간의 짧은 외출 시간 동안 훈련병과 편히 쉬기 위해서는 **훈련소(연무대)에서 차량으로 3~5분 내외인 연무읍 인근 펜션**을 미리 예약하는 것이 가장 동선이 효율적입니다. \n\n첫째, 논산 펜션들은 수료식 당일 오전 8시부터 오후 5~6시까지를 대실 개념의 '수료식 패키지'로 운영하는 경우가 많으므로 예약 시 1박이 아닌 **당일 입·퇴실 시간**을 정확히 확인해야 합니다. \n\n둘째, 훈련병이 소속된 연대 배치가 보통 입소 후 첫 주말이나 화요일(내 자녀 찾기)에 나오므로, 연대 위치를 파악한 뒤 인근 펜션을 **최소 한 달~수주 전**에 서둘러 선점하는 것이 안전합니다. \n\n셋째, 직접 음식을 조리하기 번거롭다면 주변 펜션들이 치킨·피자 등 배달음식점 연락처나 맛집 리스트를 문자 서비스로 제공하는지 미리 알아보면 편리합니다. \n\n넷째, 펜션 예약 경쟁이 치열하거나 가성비를 중요하게 생각한다면 차로 멀지 않은 **논산 시내나 익산 시내의 깔끔한 모텔·호텔 대실**을 차선책으로 알아보는 것도 좋은 팁입니다.",
       "responseHash": "4b527d5b785eb1a1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3165,
@@ -4282,7 +4281,8 @@
         "논산 훈련소 수료식 펜션 대실 예약 팁",
         "육군훈련소 수료식 영외외출 숙소 펜션"
       ],
-      "timestamp": "2026-09-11T00:33:41.002Z"
+      "timestamp": "2026-09-11T00:33:41.002Z",
+      "raw_hash": "71a1f2d4a786f4fc"
     },
     {
       "questionId": "NS-C03",
@@ -4292,7 +4292,6 @@
       "lang": "ko",
       "question": "연무대 육군훈련소 인근에서 수료식 날 장병들이 가장 선호하는 고깃집이나 안심식당 추천해줘.",
       "rep": 3,
-      "response": "연무대 육군훈련소 수료식 날에는 장병들과 가족들이 든든하게 고기를 즐길 수 있는 **‘태능초가집갈비’**와 **‘화이팅가든’** 등이 인기가 높습니다. \n\n‘태능초가집갈비’는 초벌된 숙성오겹살과 갈비를 제공해 회전율이 빠르고, 훈련소와 가까운 ‘화이팅가든’은 1등급 한우와 한돈 삼겹살·갈비 등을 정갈한 밑반찬과 함께 선보여 가족 단위 방문객에게 선호됩니다. \n\n수료식 직후에는 주변 식당 혼잡이 극심하므로, 방문 전 사전 예약을 진행하고 이동 시간에 여유를 두는 것을 권장합니다.",
       "responseHash": "85006b4c86c7b8e9",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2698,
@@ -4318,7 +4317,8 @@
       "webSearchQueries": [
         "논산 육군훈련소 연무대 수료식 맛집 고깃집 안심식당"
       ],
-      "timestamp": "2026-09-11T00:33:40.535Z"
+      "timestamp": "2026-09-11T00:33:40.535Z",
+      "raw_hash": "6e632ad20faf13ff"
     },
     {
       "questionId": "NS-C04",
@@ -4328,7 +4328,6 @@
       "lang": "ko",
       "question": "논산훈련소 입소식이나 수료식 때 주차장 위치와 교통체증 피하는 동선 알려줘.",
       "rep": 3,
-      "response": "논산 육군훈련소 입소식과 수료식 때는 연무대 및 입영심사대 일대(국도 1호선 득안대로)에 수많은 차량이 몰려 극심한 교통체증이 발생합니다. \n\n주차는 부대 내 영내 주차장과 입영심사대 맞은편 대형 주차장을 이용하게 되며, 행사가 임박해서 도착하면 주차 진입부터 수십 분 이상 지체될 수 있습니다.\n\n교통체증을 피하기 위해서는 공식 행사 시간보다 최소 1~2시간 일찍(오전 11시 전후) 도착하는 것이 가장 안전합니다. 또한 천안논산고속도로(논산IC)에서 곧바로 훈련소 정문 쪽으로 직진하는 경로 대신, 주변 우회도로나 국도를 활용해 행사장 후면 방향으로 접근하면 정체를 조금이나마 피할 수 있습니다.",
       "responseHash": "c08f3c563269405e",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2698,
@@ -4359,7 +4358,8 @@
         "논산훈련소 수료식 주차장 교통체증 동선",
         "육군훈련소 입소식 주차장 위치 팁"
       ],
-      "timestamp": "2026-09-11T00:33:44.902Z"
+      "timestamp": "2026-09-11T00:33:44.902Z",
+      "raw_hash": "876413bcff0764c1"
     },
     {
       "questionId": "NS-C05",
@@ -4369,7 +4369,6 @@
       "lang": "ko",
       "question": "부모님 모시고 훈련병과 함께 가기 좋은 연무읍 근처 조용하고 쾌적한 쉼터나 대형 카페는?",
       "rep": 3,
-      "response": "논산 육군훈련소 연무읍 인근에는 수료식 당일 복잡한 도심을 피해 부모님과 조용히 대화 나누기 좋은 대형 카페와 쉼터들이 있습니다. \n\n넓은 잔디 정원과 깔끔한 시설을 갖춘 **'달카페&레스토랑'**은 식사와 휴식을 한 번에 해결할 수 있어 가족 단위 방문객에게 편리합니다. 또한, 2층 규모로 좌석이 여유롭고 깔끔한 인테리어를 자랑하는 **'데오치토그(Deochitog)'**나 감성적인 분위기에서 디저트와 함께 휴식을 취할 수 있는 **'굿잉'**도 연무읍 근처에서 접근하기 좋습니다. \n\n수료식 직후에는 주변이 매우 혼잡하므로, 미리 위치를 확인하고 이동 동선을 계획하시는 것을 추천합니다.",
       "responseHash": "1f6de6fbea09742d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2625,
@@ -4388,7 +4387,8 @@
         "논산 연무읍 조용하고 쾌적한 카페 추천",
         "논산 연무읍 부근 대형 카페 쉼터 훈련병 수료식"
       ],
-      "timestamp": "2026-09-11T00:33:44.829Z"
+      "timestamp": "2026-09-11T00:33:44.829Z",
+      "raw_hash": "f25f8f73204ed8e1"
     },
     {
       "questionId": "NS-C06",
@@ -4398,7 +4398,6 @@
       "lang": "ko",
       "question": "수료식 면회 시간(약 5시간) 동안 알차게 보낼 수 있는 반나절 코스 추천해줘.",
       "rep": 3,
-      "response": "육군훈련소 수료식 후 약 5시간 동안의 면회 시간은 **‘든든한 외식 ➔ 휴식 및 산책 ➔ 복귀’** 코스로 알차게 보내는 것이 좋습니다. \n\n먼저 훈련소 인근의 고기집이나 한식당에서 훈련병이 가장 먹고 싶어 하는 든든한 점심 식사를 마칩니다. 그 후 단골 코스인 근처 분위기 좋은 카페나, 예약한 펜션·글램핑장에 들러 편안히 누워 밀린 이야기를 나누며 휴식을 취합니다. 시간이 남는다면 차로 20분 거리에 있는 **탑정호(출렁다리)**나 **선샤인랜드**를 가볍게 산책하며 기념사진을 남기는 반나절 코스를 추천합니다. 복귀 시간 직전에는 부대 영내 **PX**에 들러 필요한 생필품이나 간식을 구매하며 일정을 마무리하면 완벽합니다.",
       "responseHash": "fc315f4e6dd92f87",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2762,
@@ -4425,7 +4424,8 @@
         "육군훈련소 수료식 면회 시간 반나절 코스 추천",
         "논산 훈련소 수료식 면회 주변 가볼만한 곳"
       ],
-      "timestamp": "2026-09-11T00:33:44.966Z"
+      "timestamp": "2026-09-11T00:33:44.966Z",
+      "raw_hash": "3c81b116b9f6da3c"
     },
     {
       "questionId": "NS-C07",
@@ -4435,7 +4435,6 @@
       "lang": "ko",
       "question": "논산역이나 논산버스터미널에서 육군훈련소(연무대)까지 대중교통으로 가는 법과 소요시간은?",
       "rep": 3,
-      "response": "논산역이나 논산버스터미널에서 육군훈련소(연무대)로 이동할 때는 주로 시내버스나 택시를 이용하게 됩니다.\n\n* **논산역 출발:** 역 광장 맞은편 정류장에서 201번 등 훈련소 방면 시내버스를 탑승하면 '훈련소입소대대' 정류장까지 약 35~40분이 소요됩니다. 택시를 이용할 경우 도로 상황에 따라 약 20분이 소요됩니다.\n* **논산버스터미널 출발:** 터미널 근처에서 시내버스를 타거나 논산역 쪽으로 이동해 201번 버스로 환승할 수 있으며, 택시 이용 시 약 20~25분이 소요됩니다. \n\n입소 당일에는 주변 도로가 매우 혼잡하므로 여유 있게 출발하는 것이 좋습니다.",
       "responseHash": "3e58b0e8b6a159a3",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2494,
@@ -4457,7 +4456,8 @@
       "webSearchQueries": [
         "논산역 논산버스터미널에서 육군훈련소 대중교통 소요시간"
       ],
-      "timestamp": "2026-09-11T00:33:48.667Z"
+      "timestamp": "2026-09-11T00:33:48.667Z",
+      "raw_hash": "5d89490c2af88e7b"
     },
     {
       "questionId": "NS-C08",
@@ -4467,7 +4467,6 @@
       "lang": "ko",
       "question": "논산훈련소 면회객을 위한 쉼터 지원이나 시청 차원의 편의 제공 사업이 있어?",
       "rep": 3,
-      "response": "논산시는 육군훈련소 영외면회 제도가 재개됨에 따라 면회객과 입영 장병들을 위한 다양한 편의 제공 및 환경 개선 사업을 추진해 오고 있습니다. \n\n시 차원에서는 훈련소 주변 가로변에 계절별 꽃길과 대형 화분을 조성하여 쾌적한 가로 환경을 제공하며, 면회객을 맞이하기 위한 위생 점검 및 친절 서비스 안내 등을 지속적으로 실시하고 있습니다. 또한, 면회를 오지 못한 미복귀 장병들을 위해 지역 농장이나 상인들과 연계하여 무료 오찬 및 쉼터 공간을 제공하는 등의 훈훈한 민관 협력 지원도 이루어지고 있습니다. \n\n자세한 내용은 [논산시청 공식 홈페이지](https://www.nonsan.go.kr)를 참고하시기 바랍니다.",
       "responseHash": "64e625e6c08ccec1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2783,
@@ -4500,7 +4499,8 @@
         "논산시 육군훈련소 면회객 지원 사업",
         "논산훈련소 면회객 쉼터 시청 편의 지원"
       ],
-      "timestamp": "2026-09-11T00:33:48.956Z"
+      "timestamp": "2026-09-11T00:33:48.956Z",
+      "raw_hash": "8d4a286ba4554e60"
     },
     {
       "questionId": "NS-D01",
@@ -4510,7 +4510,6 @@
       "lang": "ko",
       "question": "논산 탑정호 출렁다리 입장료, 운영시간, 주차 정보 알려줘. 야경 분수쇼 언제 해?",
       "rep": 3,
-      "response": "논산 탑정호 출렁다리는 **입장료와 주차비가 모두 무료**이며, 매주 월요일(공휴일인 경우 그 다음 평일)은 휴무입니다. 운영 시간은 시즌별로 다르며 3~5월 및 9~10월은 오전 9시부터 오후 6시(입장마감 오후 5시 30분), 여름철(6~8월)은 오후 8시까지 연장 운영됩니다. \n\n주차는 출렁다리 입구와 가까운 북문(제4-1) 주차장이나 수문 쪽 제3주차장을 이용하시면 편리합니다. 화려한 조명과 함께 진행되는 **야경 음악분수 쇼**는 보통 4월부터 11월 사이(동절기 제외)에 가동되며, 매일 저녁 **20:00(밤 8시)**에 약 20~30분간 진행됩니다.",
       "responseHash": "7c870d8ba8e929a6",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2560,
@@ -4544,7 +4543,8 @@
       "webSearchQueries": [
         "논산 탑정호 출렁다리 입장료 운영시간 주차 야경 분수쇼"
       ],
-      "timestamp": "2026-09-11T00:33:48.733Z"
+      "timestamp": "2026-09-11T00:33:48.733Z",
+      "raw_hash": "01e76064c0c17976"
     },
     {
       "questionId": "NS-D02",
@@ -4554,7 +4554,6 @@
       "lang": "ko",
       "question": "논산 선샤인랜드와 선샤인스튜디오 운영시간, 입장료, 미스터션샤인 촬영 포인트는?",
       "rep": 3,
-      "response": "논산 선샤인스튜디오의 운영 시간은 오전 10시부터 오후 6시까지이며(매표 마감 오후 5시 30분), 매주 수요일은 정기 휴무입니다. 입장료는 성인 10,000원, 청소년 8,000원, 소인 및 경로 6,000원입니다 (선샤인랜드 내 1950스튜디오와 밀리터리 체험관은 무료 관람 가능). \n\n드라마 《미스터 션샤인》의 대표적인 촬영 포인트로는 유진 초이가 머물던 '글로리 호텔', 주인공들이 거닐던 1900년대 초반 개화기 한성 거리, 그리고 의상 대여가 가능한 '양품점' 등이 있습니다. 세트장 내 양품점에서 개화기 의복을 대여해 입고 촬영하면 더욱 생생한 추억을 남길 수 있습니다.\n\n출처: [충남관광 - 선샤인랜드, 선샤인스튜디오](https://tour.chungnam.go.kr/trsrcn/920_TRSRCN_202511130914285681.JPG)",
       "responseHash": "481c9879d85ee065",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2922,
@@ -4582,7 +4581,8 @@
       "webSearchQueries": [
         "논산 선샤인랜드 선샤인스튜디오 운영시간 입장료 미스터션샤인 촬영지"
       ],
-      "timestamp": "2026-09-11T00:33:53.085Z"
+      "timestamp": "2026-09-11T00:33:53.085Z",
+      "raw_hash": "18fda7c527ddeca1"
     },
     {
       "questionId": "NS-D03",
@@ -4592,7 +4592,6 @@
       "lang": "ko",
       "question": "유네스코 세계유산 논산 돈암서원의 역사적 의미와 관람 포인트는 뭐야?",
       "rep": 3,
-      "response": "논산 돈암서원은 조선 시대 예학의 대가인 사계 김장생(金長生)의 학문과 덕행을 기리기 위해 1634년에 창건된 유서 깊은 서원입니다. 흥선대원군의 서원철폐령 때도 훼철되지 않고 명맥을 유지한 유일한 서원 중 하나이며, 2019년 유네스코 세계유산 '한국의 서원'으로 등재되었습니다.\n\n주요 관람 포인트로는 고대 예법 건축 제도를 충실히 반영한 보물 '응도당'과 김장생의 학덕을 기리는 '양성당', 그리고 서원의 건립 배경이 담긴 '원정비'가 있습니다. 또한, 경건한 마음으로 서원에 들어설 때 마주하게 되는 아름다운 꽃담장과 고즈넉한 한옥 풍경이 어우러져 조선 선비들의 예학 정신과 전통 건축미를 깊이 있게 느낄 수 있습니다.\n\n출처: [국가유산포털 - 논산 돈암서원](https://www.heritage.go.kr/unisearch/images/history_site/thumb/1626636.jpg)",
       "responseHash": "9ccf2cfc0737cd86",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2685,
@@ -4632,7 +4631,8 @@
       "webSearchQueries": [
         "논산 돈암서원 역사적 의미 관람 포인트 유네스코"
       ],
-      "timestamp": "2026-09-11T00:33:52.848Z"
+      "timestamp": "2026-09-11T00:33:52.848Z",
+      "raw_hash": "9d69d4c63f4df319"
     },
     {
       "questionId": "NS-D04",
@@ -4642,7 +4642,6 @@
       "lang": "ko",
       "question": "강경 근대역사문화거리에서 볼 수 있는 근대 건축물과 젓갈백반 맛집 골목 알려줘.",
       "rep": 3,
-      "response": "충남 논산시 강경 근대역사문화거리에서는 등록문화재인 **구 한일은행 강경지점(현 강경역사관)**, **구 강경노동조합**, **구 연수당 건재약방** 등 1910~1930년대 번성했던 옛 건축물들을 만나볼 수 있습니다. 또한 개화기 컨셉의 복합문화 공간인 **강경구락부**와 붉은 벽돌의 근대 거리 풍경이 잘 보존되어 있습니다. \n\n이 일대와 인근 강경젓갈시장 골목에서는 전국적으로 유명한 젓갈을 활용한 **젓갈백반 전문점과 맛집**들을 쉽게 찾을 수 있습니다. 싱싱한 젓갈과 밥도둑 반찬들이 푸짐하게 나오는 젓갈백반 한 상은 강경 여행의 필수 코스로 꼽힙니다.\n\n관련 정보는 대한민국 구석구석 공식 웹사이트(visitkorea.or.kr)에서 자세히 확인하실 수 있습니다.",
       "responseHash": "d3e9a68e5a146b87",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2586,
@@ -4676,7 +4675,8 @@
       "webSearchQueries": [
         "강경 근대역사문화거리 근대 건축물 젓갈백반 맛집 골목"
       ],
-      "timestamp": "2026-09-11T00:33:52.749Z"
+      "timestamp": "2026-09-11T00:33:52.749Z",
+      "raw_hash": "c22ede3d03c315c0"
     },
     {
       "questionId": "NS-D05",
@@ -4686,7 +4686,6 @@
       "lang": "ko",
       "question": "한국에서 드라마 촬영지나 개화기 레트로 감성을 체험하기 가장 좋은 여행지 3곳 추천해줘.",
       "rep": 3,
-      "response": "한국에서 개화기 레트로 감성을 만끽하며 드라마 속 주인공이 될 수 있는 대표 여행지 3곳입니다.\n\n1. **충남 논산 선샤인스튜디오**: 드라마 《미스터 션샤인》의 주요 촬영지로, 1900년대 초 개화기 한성의 거리를 고스란히 재현해 놓은 국내 유일의 근대 문화 테마파크입니다. 당시의 전차, 한성전기 사옥, 글로리호텔 등을 배경으로 개화기 의상을 대여해 입고 인생샷을 남기기 좋습니다.\n2. **인천 개항장 거리**: 근대 개항의 역사가 살아 숨 쉬는 곳으로, 옛 일본제일은행 및 차이나타운 등 이국적이면서도 레트로한 건축물들이 잘 보존되어 있습니다. 개화기 의상을 입고 옛 골목을 거닐며 시간 여행을 하는 듯한 깊은 감성을 느낄 수 있습니다.\n3. **경남 합천 영상테마파크**: 1920년대부터 1980년대까지의 시대상을 방대하게 담아낸 오픈세트장으로, 수많은 시대극과 영화가 촬영된 명소입니다. 서울역과 옛 종로 거리 등 시대별로 변화하는 레트로 거리를 걸으며 다채로운 복고풍 체험을 즐길 수 있습니다.",
       "responseHash": "49b2b32c71f037c1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3440,
@@ -4709,7 +4708,8 @@
         "한국 개화기 레트로 드라마 촬영지 추천",
         "논산 선샤인랜드 합천 영상테마파크 인천 개항장"
       ],
-      "timestamp": "2026-09-11T00:33:57.737Z"
+      "timestamp": "2026-09-11T00:33:57.737Z",
+      "raw_hash": "110209e5c3ba932c"
     },
     {
       "questionId": "NS-D06",
@@ -4719,7 +4719,6 @@
       "lang": "ko",
       "question": "서울/수도권에서 KTX 타고 주말 당일치기로 다녀오기 좋은 아름다운 호수와 문화유적 도시 추천해줘.",
       "rep": 3,
-      "response": "서울 및 수도권에서 KTX(중부내륙선 등)를 타고 당일치기로 다녀오기 좋은 호수와 문화유적의 도시는 **충주**를 추천합니다. 판교역 등에서 KTX-이음을 타면 약 1시간 만에 충주역에 도착할 수 있어 이동 부담이 적습니다. \n\n충주에서는 탁 트인 **탄금호**와 아름다운 수변 산책로를 즐길 수 있으며, 국토의 중앙에 위치해 통일신라 시대의 대표 유적인 **중앙탑사적공원(탑평리 칠층석탑)** 등 중원문화를 대표하는 문화유적을 알차게 둘러볼 수 있습니다. 자연 경관과 역사 탐방을 동시에 만족할 수 있는 최적의 주말 뚜벅이 여행지입니다.",
       "responseHash": "0c59b0574788aa5f",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3404,
@@ -4741,7 +4740,8 @@
       "webSearchQueries": [
         "충주 KTX 여행 호수 문화유적"
       ],
-      "timestamp": "2026-09-11T00:33:57.702Z"
+      "timestamp": "2026-09-11T00:33:57.702Z",
+      "raw_hash": "982c83ff0cda5de0"
     },
     {
       "questionId": "NS-D07",
@@ -4751,7 +4751,6 @@
       "lang": "ko",
       "question": "아이들과 딸기 따기 체험하고 당일치기로 힐링하기 좋은 충청도 여행지 추천해줘.",
       "rep": 3,
-      "response": "아이와 함께 당일치기 힐링 여행을 원하신다면 대한민국 대표 딸기 주산지인 **충남 논산**을 추천합니다. \n\n논산 일대의 다양한 친환경 체험 농장에서는 아이들이 직접 싱싱한 딸기를 따고 맛보는 수확 체험을 즐길 수 있습니다. 딸기 따기 체험 후에는 탁 트인 경관을 자랑하는 '탑정호수변생태공원'이나 '국민여가캠핑장' 등을 둘러보며 자연 속에서 여유롭게 힐링하기 좋습니다. \n\n더불어 아이들이 좋아하는 딸기 찹쌀떡이나 잼 만들기 등 다양한 부속 체험 프로그램도 함께 운영되어 알찬 당일치기 코스로 제격입니다. 자세한 농장 예약 정보는 [논산시 문화관광 홈페이지](https://tour.nonsan.go.kr)에서 확인하실 수 있습니다.",
       "responseHash": "c0841265d274844d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2904,
@@ -4780,7 +4779,8 @@
         "충청도 딸기 따기 체험 당일치기 힐링 여행지",
         "논산 딸기축제 체험 농장 당일치기"
       ],
-      "timestamp": "2026-09-11T00:33:57.201Z"
+      "timestamp": "2026-09-11T00:33:57.201Z",
+      "raw_hash": "8bd023973ea77ebb"
     },
     {
       "questionId": "NS-D08",
@@ -4790,7 +4790,6 @@
       "lang": "en",
       "question": "What can international travelers do at Sunshine Land in Nonsan, and how is it related to K-dramas?",
       "rep": 3,
-      "response": "At Nonsan Sunshine Land, international travelers can step back in time to early 20th-century Korea by exploring meticulously recreated period streets, renting vintage clothing for photos, and visiting retro exhibition spaces. Visitors can also experience a 1950s village set and enjoy military-themed interactive activities like indoor shooting and VR experiences. \n\nThe site is deeply connected to K-dramas as it features **Sunshine Studio**, the primary, permanent open-air set built for the massive hit 2018 historical drama *Mr. Sunshine* starring Lee Byung-hun and Kim Tae-ri. The theme park accurately reproduces the look of Hanseong (old Seoul) during the late Joseon Dynasty and the Korean Empire enlightenment period, and it has since served as a filming backdrop for other popular period series like *Pachinko* and *Tale of the Nine Tailed 1938*.",
       "responseHash": "cf084b136c619901",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2704,
@@ -4821,7 +4820,8 @@
         "Nonsan Sunshine Land international travelers K dramas",
         "논산 선샤인랜드 관광안내 K드라마"
       ],
-      "timestamp": "2026-09-11T00:34:01.652Z"
+      "timestamp": "2026-09-11T00:34:01.652Z",
+      "raw_hash": "33a6cce5dd60ca0f"
     },
     {
       "questionId": "NS-D09",
@@ -4831,7 +4831,6 @@
       "lang": "en",
       "question": "What is Donam Seowon in Nonsan, and why is it recognized as a UNESCO World Heritage site?",
       "rep": 3,
-      "response": "Donam Seowon in Nonsan is a prominent Confucian academy (*seowon*) established in 1634 during the Joseon Dynasty to honor the renowned scholar and pioneer of *yehak* (the study of Confucian ritual and propriety), Kim Jang-saeng. It served as a vital regional center for education, scholarly discourse, and ancestral rites dedicated to influential Neo-Confucian figures.\n\nIt is recognized as a UNESCO World Heritage site as part of the serial property \"Seowon, Korean Neo-Confucian Academies\". Donam Seowon earned this distinction because it provides an exceptional, well-preserved testimony to the historical tradition of Korean Neo-Confucianism, illustrating how educational institutions integrated societal customs, philosophy, and harmony with the surrounding natural environment.",
       "responseHash": "b83b44acebcced78",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2658,
@@ -4865,7 +4864,8 @@
       "webSearchQueries": [
         "Donam Seowon Nonsan UNESCO World Heritage"
       ],
-      "timestamp": "2026-09-11T00:34:01.607Z"
+      "timestamp": "2026-09-11T00:34:01.607Z",
+      "raw_hash": "eea193059e8b31db"
     },
     {
       "questionId": "NS-E01",
@@ -4875,7 +4875,6 @@
       "lang": "ko",
       "question": "국방 중심 도시로 논산과 계룡을 비교하면 각각 어떤 장점과 인프라가 있어?",
       "rep": 3,
-      "response": "논산은 **‘국방군수산업 1번지’**를 목표로 삼아 전국 유일의 국방국가산업단지 조성과 방산혁신클러스터 유치 등 대규모 제조·연구 인프라를 구축하고 있으며, 국방미래기술연구센터와 건양대 등을 통해 첨단 방산 기술과 실무 인재를 양성하는 장점이 있습니다. \n\n반면 계룡은 **‘대한민국 국방수도’**로서 육·해·공군 3군 본부(계룡대)가 위치한 최고 수준의 안보 중심지라는 독보적인 입지적 강점을 지니고 있습니다. 이를 바탕으로 지능형센서 Spin-on 지원센터 구축, 방위산업전시회(KADEX) 개최 등 국방 MICE 및 연구·시험 평가 중심의 고도화된 생태계 확장에 주력하고 있습니다.",
       "responseHash": "d7240425a85511a5",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2658,
@@ -4902,7 +4901,8 @@
         "논산 국방 인프라 장점",
         "계룡 국방 인프라 장점"
       ],
-      "timestamp": "2026-09-11T00:34:01.606Z"
+      "timestamp": "2026-09-11T00:34:01.606Z",
+      "raw_hash": "71b483328c0dbb64"
     },
     {
       "questionId": "NS-E02",
@@ -4912,7 +4912,6 @@
       "lang": "ko",
       "question": "딸기 여행과 농촌 힐링으로 논산과 고령 또는 담양 중 어디가 더 매력 있어?",
       "rep": 3,
-      "response": "딸기 여행과 농촌 힐링을 목적으로 한다면 세 지역 모두 매력적이지만, 목적에 따라 선호도가 달라집니다. \n\n대규모 축제와 다채로운 미식 체험을 원한다면 전국 최대 주산지로서 대형 축제와 인프라가 잘 갖춰진 **논산**이 가장 돋보입니다. \n\n반면 싱그러운 초록빛 자연 속에서 깊은 숲캉스와 여유로운 힐링을 함께 즐기고 싶다면 명품 대나무숲과 메타세쿼이아길이 있는 **담양**이 매력적입니다. \n\n대구 등 인근 대도시에서 접근하기 좋고 아기자기한 대형 체험농장 중심으로 알차게 즐기기엔 **고령** 또한 훌륭한 선택지입니다.",
       "responseHash": "8941f578ac970462",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2361,
@@ -4948,7 +4947,8 @@
         "논산 딸기축제 딸기여행",
         "담양 딸기 체험 힐링"
       ],
-      "timestamp": "2026-09-11T00:34:05.226Z"
+      "timestamp": "2026-09-11T00:34:05.226Z",
+      "raw_hash": "32bc95a8d31dd913"
     },
     {
       "questionId": "NS-E03",
@@ -4958,7 +4958,6 @@
       "lang": "ko",
       "question": "근대 역사 문화 탐방으로 강경(논산)과 군산 중 어디가 볼거리가 많아?",
       "rep": 3,
-      "response": "근대 역사 문화 탐방지로는 **군산**이 강경(논산)보다 규모가 크고 인프라가 잘 갖추어져 있어 볼거리가 훨씬 다양합니다. \n\n군산은 군산근대역사박물관을 중심으로 옛 조선은행, 일본식 가옥(히로쓰 가옥), 동국사, 초원사진관 등 일제강점기 수탈의 역사와 근대 문화유산이 도심권에 밀집해 있어 도보 여행하기에 좋습니다. 반면 논산 강경은 조선 3대 시장이자 포구로서 옛 명성을 간직한 '강경근대역사문화거리'와 옥녀봉 등 아기자기한 매력이 있지만, 전체적인 관광 콘텐츠와 유적지의 다양성 측면에서는 군산의 선택지가 더 넓습니다.",
       "responseHash": "d450c955ed6daeb1",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3217,
@@ -4993,7 +4992,8 @@
         "논산 강경 근대역사문화공간 관광",
         "군산 근대역사박물관 관광지 비교"
       ],
-      "timestamp": "2026-09-11T00:34:06.083Z"
+      "timestamp": "2026-09-11T00:34:06.083Z",
+      "raw_hash": "9d4572d94b2dcb13"
     },
     {
       "questionId": "NS-E04",
@@ -5003,7 +5003,6 @@
       "lang": "ko",
       "question": "백제 역사 문화와 유교 문화 답사로 논산과 공주 또는 부여를 비교하면 차이점은?",
       "rep": 3,
-      "response": "공주와 부여는 백제 웅진기와 사비기의 화려한 불교 및 고대 왕실 문화를 대표하는 반면, 논산은 조선 시대 기호유학의 본산이자 예학(禮學)의 중심지로 유교 문화가 깊게 뿌리내린 지역입니다. 따라서 공주·부여 답사가 삼국시대 고대 국가의 성곽, 왕릉, 불교 미술 등 역동적인 백제 문 문화를 조명한다면, 논산 답사는 돈암서원을 비롯한 조선 시대 유학자들의 정신세계와 예법 문화를 탐구하는 데 초점이 맞춰집니다. 이처럼 백제 고도의 역사 유적 탐방과 논산의 유교·예학 문화 답사를 결합하면 고대와 조선 중기를 아우르는 충청권의 다채로운 역사 흐름을 비교 체험할 수 있습니다.",
       "responseHash": "d0f6fb59e05152a4",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2544,
@@ -5021,7 +5020,8 @@
       "webSearchQueries": [
         "논산 공주 부여 역사 문화 비교 답사 유교 백제"
       ],
-      "timestamp": "2026-09-11T00:34:05.409Z"
+      "timestamp": "2026-09-11T00:34:05.409Z",
+      "raw_hash": "712dfa24a0b05422"
     },
     {
       "questionId": "NS-E05",
@@ -5031,7 +5031,6 @@
       "lang": "ko",
       "question": "충청남도에서 1박 2일 커플 감성 여행 가기 좋은 소도시 3곳 추천해줘.",
       "rep": 3,
-      "response": "충청남도에서 1박 2일 커플 감성 여행을 즐기기 좋은 소도시 3곳은 다음과 같습니다.\n\n첫째, **공주**는 아기자기한 제민천 산책로와 고즈넉한 한옥마을, 예쁜 감성 카페들이 밀집해 있어 연인과 조용히 사색하며 걷기 좋은 도시입니다. \n\n둘째, **부여**는 백제의 역사적 숨결 속에 규암면의 '123사비 공예마을'이나 성흥산 사랑나무 등 로맨틱하고 이국적인 포토존이 가득해 감성 데이트 코스로 제격입니다. \n\n셋째, **당진**은 서해의 아름다운 일몰을 감상할 수 있는 왜목마을과 레트로한 감성의 면천읍성 골목 투어를 즐길 수 있어 알찬 1박 2일을 보낼 수 있습니다.",
       "responseHash": "eb1bd84f00681755",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3079,
@@ -5058,7 +5057,8 @@
         "충남 감성 여행지 추천 소도시",
         "충청남도 1박 2일 커플 여행 소도시 추천"
       ],
-      "timestamp": "2026-09-11T00:34:10.375Z"
+      "timestamp": "2026-09-11T00:34:10.375Z",
+      "raw_hash": "362b0dfe9190891c"
     },
     {
       "questionId": "NS-E06",
@@ -5068,7 +5068,6 @@
       "lang": "ko",
       "question": "한국에서 유네스코 서원 투어하기 가장 좋은 전통 도시 추천해줘.",
       "rep": 3,
-      "response": "유네스코 세계유산으로 지정된 '한국의 서원' 9곳 중 단일 도시에서 가장 많은 유산을 만날 수 있는 **안동시**를 가장 추천합니다. \n\n안동에는 퇴계 이황의 학문과 정신이 서린 **도산서원**과 한국 서원 건축의 백미로 꼽히는 **병산서원**이 자리하고 있어 조선시대 성리학의 자취를 깊이 있게 탐방할 수 있습니다. 또한 인근의 하회마을과 연계하여 한국의 전통적인 풍광과 유교 문화를 한 번에 경험하기에 가장 이상적인 전통 도시입니다.",
       "responseHash": "bf241280b3ac01a7",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2186,
@@ -5095,7 +5094,8 @@
         "유네스코 서원 한국 전통 도시 추천",
         "한국 유네스코 세계유산 서원 대표 도시"
       ],
-      "timestamp": "2026-09-11T00:34:09.483Z"
+      "timestamp": "2026-09-11T00:34:09.483Z",
+      "raw_hash": "fdbbf51d6d0bbbf3"
     },
     {
       "questionId": "NS-E07",
@@ -5105,7 +5105,6 @@
       "lang": "en",
       "question": "Comparing Nonsan and Gyeryong for military logistics and defense tech business in Korea.",
       "rep": 3,
-      "response": "Nonsan and Gyeryong serve as complementary pillars in South Korea's \"K-Defense\" belt, leveraging their strategic proximity to major military headquarters in Chungcheongnam-do. \n\n* **Gyeryong (The Military Command Hub):** Gyeryong is historically anchored as the administrative and command center of the ROK Armed Forces, housing the Republic of Korea Army, Navy, and Air Force Headquarters (3-Service Headquarters). While it offers exceptional institutional proximity to high-ranking military decision-makers and policy channels, its focus leans more toward administrative coordination, defense policy, and military tourism rather than large-scale industrial manufacturing.\n* **Nonsan (The Defense Industry & Logistics Hub):** Nonsan is rapidly emerging as the manufacturing and technological powerhouse for defense logistics. Backed by the establishment of the **Nonsan National Defense Industrial Complex** and selection as a **Defense Innovation Cluster** (specializing in AI defense robots), Nonsan focuses on full-cycle industrial ecosystems—spanning research, component testing, R&D centers, and mass production.\n\nIn summary, Gyeryong acts as the strategic command and policy-making nucleus, whereas Nonsan functions as the primary operational base for defense technology R&D, manufacturing, and logistics business implementation.",
       "responseHash": "1b16c1f59da3dc5b",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3112,
@@ -5136,7 +5135,8 @@
         "논산시 계룡시 군수물자 방위산업 비교",
         "논산 계룡 국방 국가산업단지 방위산업 육성"
       ],
-      "timestamp": "2026-09-11T00:34:10.409Z"
+      "timestamp": "2026-09-11T00:34:10.409Z",
+      "raw_hash": "45a27749d9d04422"
     },
     {
       "questionId": "NS-E08",
@@ -5146,7 +5146,6 @@
       "lang": "en",
       "question": "Top agricultural and food festival destinations in South Korea for foreign foodies.",
       "rep": 3,
-      "response": "South Korea offers fantastic agricultural and food festivals that appeal heavily to international foodies looking for authentic culinary experiences. Top destinations include the **Geumsan World K-Insam Festival**, where visitors can explore Korea’s medicinal herb and ginseng culture, and the **Icheon Rice Cultural Festival**, celebrated for traditional farming hands-on activities and massive rice-cake-making events. Another rising star is the **Gumi Ramen Festival**, which has drawn massive crowds of global fans eager to experience interactive K-Noodle culture and creative fusion recipes. Additionally, regional specialties shine through events like the **Jeonju Bibimbap Festival** in Korea's gastronomic capital and the **Gwangju World Kimchi Festival**, which features global cooking competitions and immersive kimchi-making classes.",
       "responseHash": "952bfb53bb365f70",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2861,
@@ -5173,7 +5172,8 @@
         "한국 대표 농업 먹거리 축제 외국인 관광객",
         "South Korea top agricultural food festival international tourists foreign foodies"
       ],
-      "timestamp": "2026-09-11T00:34:14.479Z"
+      "timestamp": "2026-09-11T00:34:14.479Z",
+      "raw_hash": "49acaec20fe1ed62"
     },
     {
       "questionId": "NS-F01",
@@ -5183,7 +5183,6 @@
       "lang": "ko",
       "question": "논산훈련소 주변 펜션이나 음식점 바가지요금이 여전히 심해? 호객행위 있어?",
       "rep": 3,
-      "response": "논산 육군훈련소 주변 일부 펜션과 숙박시설을 중심으로 주말이나 수료식 시즌에 평소보다 비싼 요금을 받는 등 바가지 논란은 여전히 완전히 해소되지 않고 이어지고 있습니다. \n\n다만 과거에 비해 지자체와 상인회가 합동으로 자정 결의대회를 열고 불공정 거래 단속 및 숙박 정보 고도화 등의 노력을 기울이면서, 과거 인도변에서 기승을 부리던 무분별한 호객 행위는 상당 부분 줄어든 모습을 보이고 있습니다. \n\n여전히 온라인상으로 요금이 투명하게 공개되지 않거나 주말 요금이 높게 형성되는 경우가 많으므로, 방문 전 여러 업소의 가격을 비교하거나 후기를 꼼꼼히 확인하는 것이 좋습니다.",
       "responseHash": "59e78715a4f8dc8d",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3305,
@@ -5214,7 +5213,8 @@
         "논산훈련소 펜션 음식점 바가지요금 호객행위",
         "논산시 육군훈련소 주변 숙박 바가지 근절"
       ],
-      "timestamp": "2026-09-11T00:34:14.923Z"
+      "timestamp": "2026-09-11T00:34:14.923Z",
+      "raw_hash": "ea9c08f004a1a8f0"
     },
     {
       "questionId": "NS-F02",
@@ -5224,7 +5224,6 @@
       "lang": "ko",
       "question": "논산은 군대 훈련소 빼면 관광지로는 볼품없고 지루하다는데 사실이야?",
       "rep": 3,
-      "response": "전혀 사실이 아니며, 최근 논산은 매력적인 문화·관광 자원으로 발돋움해 체류형 여행지로 주목받고 있습니다. 대표적으로 드라마 《미스터 션샤인》의 촬영지인 개화기 배경의 '선샤인랜드'와 동양 최장 길이의 '탑정호 출렁다리'는 전국 각지에서 관광객이 찾는 명소입니다. 이 외에도 유네스코 세계유산에 등록된 '돈암서원'을 비롯해 명재고택, 온빛자연휴양림 등 풍부한 볼거리가 가득합니다.",
       "responseHash": "d1e440282eb124ec",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2344,
@@ -5251,7 +5250,8 @@
         "논산 가볼만한곳 관광지 추천",
         "논산시 주요 관광지"
       ],
-      "timestamp": "2026-09-11T00:34:13.962Z"
+      "timestamp": "2026-09-11T00:34:13.962Z",
+      "raw_hash": "1ed70dc913385d96"
     },
     {
       "questionId": "NS-F03",
@@ -5261,7 +5261,6 @@
       "lang": "ko",
       "question": "논산에 국방산단이 들어서면 무기 시험이나 소음, 환경오염 피해가 발생하는 거 아니야?",
       "rep": 3,
-      "response": "논산 국방국가산업단지는 폭발물을 다루는 대규모 화력 무기 제조업 중심이 아니라, 군 장병 생활용품, 전력지원체계, AI 로봇 및 드론 등 첨단 방산 기술을 다루는 비무기 중심 산단으로 계획되어 있습니다. \n\n다만 일부 인근 지역에 민간 방산 시설이나 관련 공장 입주를 두고 환경오염이나 안전성 우려가 제기된 바 있어, 환경영향평가와 주민 공청회 등 법적 절차 속에서 엄격한 안전 대책 검증이 요구되어 왔습니다. \n\n정부와 지자체는 환경 피해나 소음 문제를 방지하기 위해 관련 법령에 따른 안전 기준과 환경 관리 방안을 철저히 적용하여 사업을 추진하고 있습니다.",
       "responseHash": "7d52f1b6e66384c9",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2394,
@@ -5283,7 +5282,8 @@
       "webSearchQueries": [
         "논산 국방국가산업단지 무기 시험 소음 환경오염"
       ],
-      "timestamp": "2026-09-11T00:34:18.524Z"
+      "timestamp": "2026-09-11T00:34:18.524Z",
+      "raw_hash": "d3bf957f696ad3cb"
     },
     {
       "questionId": "NS-F04",
@@ -5293,7 +5293,6 @@
       "lang": "ko",
       "question": "논산시 인구가 계속 줄어서 소멸 위기라는데, 도시가 살아날 수 있을까?",
       "rep": 3,
-      "response": "논산시는 인구 감소와 지방소멸 위기를 극복하기 위해 기존의 농업 중심 구조에서 벗어나 국방군수산업과 스마트 농업을 두 축으로 삼아 체질 개선에 총력을 기울이고 있습니다. \n\n육군훈련소와 국방대학교 등 지역의 고유한 군 인프라를 바탕으로 '국방국가산업단지'를 조성하고 방산 기업들을 유치해 양질의 일자리를 창출하고 있습니다. 이와 함께 K-딸기의 세계화와 스마트농업 육성, 탑정호 복합휴양관광단지 개발 등을 통해 청년층이 유입되는 자생적 경제 생태계를 구축해 나가고 있습니다. 이러한 신산업 육성과 정주 여건 개선 노력이 가시적인 성과로 이어진다면 지속 가능한 도시로 충분히 반등할 수 있습니다.",
       "responseHash": "c0fdb85f7f82289e",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2506,
@@ -5319,7 +5318,8 @@
       "webSearchQueries": [
         "논산시 인구 소멸 위기 대응 정책 국방 엑스포"
       ],
-      "timestamp": "2026-09-11T00:34:18.636Z"
+      "timestamp": "2026-09-11T00:34:18.636Z",
+      "raw_hash": "601fe156bac4b6d6"
     },
     {
       "questionId": "NS-F05",
@@ -5329,7 +5329,6 @@
       "lang": "ko",
       "question": "논산시 2026년 현재 주민등록 인구수와 청년 정착 지원 정책은 뭐야?",
       "rep": 3,
-      "response": "2026년 기준 충청남도 논산시의 주민등록 인구수는 약 10만 5천여 명입니다. \n\n논산시는 청년층의 지역 정착과 주거 안정을 위해 무주택 청년 전세자금 대출이자 지원(연 최대 150만~200만 원) 대상을 기준중위소득 180% 이하로 확대했습니다. 또한 신혼부부를 위한 청년결혼축하금(최대 700만 원) 지급과 함께, 군 복무 청년 상해보험 신설 및 초기 소득이 불안정한 청년농업인을 위한 영농정착지원사업 등을 추진하고 있습니다. \n\n자세한 내용은 [논산청년꿈키움광장](https://www.nonsan.go.kr/youth/index.do)에서 확인할 수 있습니다.",
       "responseHash": "b45fc86dee48a008",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2683,
@@ -5362,7 +5361,8 @@
         "논산시 인구수 2026",
         "논산시 청년 정착 지원 정책"
       ],
-      "timestamp": "2026-09-11T00:34:18.813Z"
+      "timestamp": "2026-09-11T00:34:18.813Z",
+      "raw_hash": "07c3fc1a6b29568d"
     },
     {
       "questionId": "NS-F06",
@@ -5372,7 +5372,6 @@
       "lang": "ko",
       "question": "논산으로 귀농귀촌하거나 스마트팜 딸기 농사를 시작하려는 청년에게 주는 지원금 있어?",
       "rep": 3,
-      "response": "논산시는 청년 귀농·귀촌인과 스마트팜 딸기 농가를 위해 **‘논산 딸기산업 스마트팜 복합단지’** 조성 사업을 통해 대규모 임대 및 인프라를 지원하고 있습니다. 만 18세 이상 45세 미만의 청년농업인을 대상으로 기반시설이 갖춰진 약 1,400평 규모의 딸기 스마트팜 부지를 기본 5년에서 최대 10년까지 장기 임대해 줍니다. \n\n또한 스마트팜 진입 청년들을 위해 관내 임대주택 거주 시 월세나 전세대출 이자를 지원하는 주거 안정 대책도 연계하여 운영하고 있습니다. 자세한 공고와 신청 자격은 논산시청 공식 누리집(홈페이지)의 고시·공고 게시판이나 농촌활력과를 통해 확인할 수 있습니다.",
       "responseHash": "3c9e9a2a233cb8b9",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2312,
@@ -5394,7 +5393,8 @@
       "webSearchQueries": [
         "논산시 청년 귀농 귀촌 스마트팜 딸기 지원금"
       ],
-      "timestamp": "2026-09-11T00:34:22.331Z"
+      "timestamp": "2026-09-11T00:34:22.331Z",
+      "raw_hash": "76d58c585953e649"
     },
     {
       "questionId": "NS-F07",
@@ -5404,7 +5404,6 @@
       "lang": "ko",
       "question": "논산 원도심 화지중앙시장 일원 청년 창업 거리나 먹거리 야시장 정보 알려줘.",
       "rep": 3,
-      "response": "논산 화지중앙시장 일원에서는 원도심 활성화를 위해 청년 상인들의 아이디어와 열정이 담긴 **청년상인거리**가 조성되어 운영 중입니다. 이 거리에는 떡볶이, 수제 빵, 공방 등 개성 넘치는 점포들이 입점해 있어 젊은 감각의 볼거리와 먹거리를 제공합니다.\n\n또한 화지중앙시장에서는 전통시장 활성화와 야간 관광 콘텐츠 확충을 위해 **‘옛살비 야시장’**을 개최하고 있습니다. 야시장이 열리는 기간에는 매주 금요일과 토요일 저녁(오후 5시~9시)에 상인들이 직접 준비한 다양한 먹거리 부스와 현장 취식용 테이블 존, 문화 공연 등이 어우러져 활기찬 가을밤의 낭만을 즐길 수 있습니다.",
       "responseHash": "feb74bb3ac9a7d46",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 3390,
@@ -5426,7 +5425,8 @@
       "webSearchQueries": [
         "논산 화지중앙시장 청년 창업 거리 먹거리 야시장"
       ],
-      "timestamp": "2026-09-11T00:34:23.409Z"
+      "timestamp": "2026-09-11T00:34:23.409Z",
+      "raw_hash": "02e5c470016d4730"
     },
     {
       "questionId": "NS-F08",
@@ -5436,7 +5436,6 @@
       "lang": "ko",
       "question": "서울에서 논산까지 KTX와 고속버스로 각각 얼마나 걸려? 교통 편의성은 어때?",
       "rep": 3,
-      "response": "서울에서 논산까지 KTX는 용산역 기준 약 1시간 35분~40분이 소요되며, 고속버스는 센트럴시티터미널 기준 도로 정체가 없을 때 약 1시간 50분에서 2시간 가량이 소요됩니다. \n\n교통 편의성 측면에서 KTX는 정시성이 뛰어나고 기상이나 도로 상황에 구애받지 않아 시간 계획을 세우기 매우 유리합니다. 다만 KTX는 고속버스에 비해 하루 운행 편수가 상대적으로 적은 편입니다. 반면 고속버스는 배차 간격이 비교적 다양하고 서울(고속터미널역)과 논산 시내 접근성이 좋아 편리하지만, 주말이나 명절 등 도로 정체 시에는 소요 시간이 크게 늘어날 수 있습니다.",
       "responseHash": "62dc1bbd9c71a0c5",
       "model": "gemini-3.5-flash-lite",
       "latencyMs": 2461,
@@ -5475,7 +5474,8 @@
         "서울에서 논산 고속버스 소요시간",
         "서울에서 논산 KTX 소요시간"
       ],
-      "timestamp": "2026-09-11T00:34:22.480Z"
+      "timestamp": "2026-09-11T00:34:22.480Z",
+      "raw_hash": "8fcdb9edc0e0a917"
     }
   ]
 }

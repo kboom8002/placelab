@@ -70,6 +70,69 @@
     },
     "error_detail": {
       "type": "string"
+    },
+    "lang": {
+      "enum": ["ko", "en"],
+      "description": "질의 언어. 영어 문항은 한국어 문항의 번역이며 같은 원장을 쓴다 (ADR-0012 D-6)"
+    },
+    "model_returned": {
+      "type": "string",
+      "description": "API 가 반환한 모델 문자열 그대로. 측정 창 중 바뀌면 중단 규칙 대상 (ADR-0012 D-5)"
+    },
+    "search_condition_label": {
+      "enum": ["on_verified", "off", "unverified"],
+      "description": "검색 조건 라벨. 신규 관측에 단독 'on' 을 쓰지 않는다 (ADR-0012 D-2)"
+    },
+    "search_enabled": {
+      "type": "boolean",
+      "description": "검색 도구를 전달했는가 (조건)"
+    },
+    "search_triggered": {
+      "type": "boolean",
+      "description": "web_search_call 이 1회 이상 있었는가 (관측). search_enabled 와 합치지 않는다"
+    },
+    "search_calls": {
+      "type": "array",
+      "description": "회차 중 발생한 검색 호출. 질의와 열람 출처. citation_urls 와 합산하지 않는다",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["query"],
+        "properties": {
+          "query": { "type": "string" },
+          "sources": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "usage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input_tokens": { "type": "integer", "minimum": 0 },
+        "output_tokens": { "type": "integer", "minimum": 0 },
+        "search_call_count": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "latency_ms": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "retries": {
+      "type": "array",
+      "description": "재시도 전량. 실패를 조용히 재시도해 성공만 남기지 않는다 (spec/03 §2.1)",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["at", "error"],
+        "properties": {
+          "at": { "type": "string", "format": "date-time" },
+          "error": { "type": "string" }
+        }
+      }
+    },
+    "raw_hash": {
+      "type": "string",
+      "description": "raw_text 의 SHA-256 (hex). 분쟁 시 재현성"
     }
   }
 }

@@ -1,0 +1,259 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-EDU-001": {
+      "targetValue": "9세 이상 18세 이하의 청소년",
+      "acceptableVariants": [
+        "9세 이상",
+        "18세 이하",
+        "9세 이상 18세 이하"
+      ],
+      "sourceAuthority": "구로구청 아동청소년과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2212",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-03",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "9세 이상 18세 이하의 청소년"
+    },
+    "GUR-EDU-002": {
+      "targetValue": "(주소지 관계없이) 가까운 동 주민센터",
+      "acceptableVariants": [
+        "가까운 동 주민센터",
+        "동 주민센터",
+        "주소지 관계없이"
+      ],
+      "sourceAuthority": "구로구청 아동청소년과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2212",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-03",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "(주소지 관계없이) 가까운 동 주민센터"
+    },
+    "GUR-EDU-003": {
+      "targetValue": "주소지 관할 동주민센터",
+      "acceptableVariants": [
+        "주소지 관할 동주민센터",
+        "동주민센터"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2239",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-02-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "접수처 주소지 관할 동주민센터"
+    },
+    "GUR-EDU-004": {
+      "targetValue": "세전 월 255만 원 이하",
+      "acceptableVariants": [
+        "세전 월 255만 원 이하",
+        "월 255만 원 이하",
+        "255만 원 이하"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2239",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-02-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "본인 근로소득금액이 세전 월 255만 원 이하"
+    },
+    "GUR-EDU-005": {
+      "targetValue": "서울시 버드나루로2길 8",
+      "acceptableVariants": [
+        "서울시 버드나루로2길 8",
+        "버드나루로2길 8"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2293",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "주소 서울시 버드나루로2길 8"
+    },
+    "GUR-EDU-006": {
+      "targetValue": "사회복지사, 보육교사, 교원자격증 중 1가지 소지 필수",
+      "acceptableVariants": [
+        "사회복지사",
+        "보육교사",
+        "교원자격증",
+        "1가지 소지 필수"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2367",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "사회복지사, 보육교사, 교원자격증 중 1가지 소지 필수"
+    },
+    "GUR-EDU-007": {
+      "targetValue": "구로구민회관 2층 구로학습지원센터",
+      "acceptableVariants": [
+        "구로구민회관 2층",
+        "구로학습지원센터",
+        "구로구민회관 2층 구로학습지원센터"
+      ],
+      "sourceAuthority": "구로구청 교육지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2483",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-06-25",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "장소 : 구로구민회관 2층 구로학습지원센터"
+    },
+    "GUR-EDU-008": {
+      "targetValue": "지방보조관리시스템(보탬e)에서 제출",
+      "acceptableVariants": [
+        "지방보조관리시스템(보탬e)",
+        "보탬e",
+        "지방보조관리시스템"
+      ],
+      "sourceAuthority": "구로구청 교육지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2486",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-31",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "지방보조관리시스템(보탬e)에서 제출"
+    },
+    "GUR-EDU-009": {
+      "targetValue": "구로평생학습관 홈페이지",
+      "acceptableVariants": [
+        "구로평생학습관 홈페이지",
+        "구로평생학습관",
+        "PDF 다운로드"
+      ],
+      "sourceAuthority": "구로구청 교육지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2495",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로평생학습관  홈페이지에서 PDF 다운로드 가능합니다."
+    },
+    "GUR-EDU-010": {
+      "targetValue": "09:00~ 20:00",
+      "acceptableVariants": [
+        "09:00~ 20:00",
+        "09:00~20:00",
+        "20:00"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2500",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-12",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "09:00~ 20:00"
+    },
+    "GUR-EDU-011": {
+      "targetValue": "12:00~ 18:00",
+      "acceptableVariants": [
+        "12:00~ 18:00",
+        "12:00~18:00",
+        "오후 12시~오후 6시"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2501",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "토요일 12:00~ 18:00"
+    },
+    "GUR-EDU-012": {
+      "targetValue": "6925-5283",
+      "acceptableVariants": [
+        "6925-5283",
+        "69255283"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2502",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "이니텍 도서관 벚꽃로484, 4층(구로2동) 6925-5283 46 09~18시"
+    },
+    "GUR-EDU-013": {
+      "targetValue": "0507-1408-9110",
+      "acceptableVariants": [
+        "0507-1408-9110",
+        "050714089110"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2503",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "0507-1408-9110"
+    },
+    "GUR-EDU-014": {
+      "targetValue": "거주지 동주민센터 또는 온라인(복지로)",
+      "acceptableVariants": [
+        "거주지 동주민센터",
+        "동주민센터",
+        "온라인(복지로)",
+        "복지로"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4176",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "신청장소 : 거주지 동주민센터 또는 온라인(복지로)"
+    }
+  }
+}

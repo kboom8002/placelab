@@ -1,0 +1,954 @@
+{
+  "set": "guro_comp1_unnamed_competition_draft",
+  "agency_handle": "AG-0017",
+  "population": "local_gov",
+  "status": "draft_preregistration_pending",
+  "robustness": "not_checked",
+  "method_version": "v2.3",
+  "tier_declared_at": "2026-10-08",
+  "tier_note": "anchor/plausible/weak/negative 는 분석자 추정이며 측정 전에 고정한다. 결과를 본 뒤 바꾸지 않는다(INV-11).",
+  "counts": {
+    "total": 38,
+    "by_tier": {
+      "anchor": 5,
+      "plausible": 13,
+      "weak": 16,
+      "negative": 4
+    },
+    "by_category": {
+      "산업": 7,
+      "관광": 8,
+      "거주": 6,
+      "문화": 6,
+      "행정": 7,
+      "대조": 4
+    }
+  },
+  "questions": [
+    {
+      "id": "GUR-CMP-001",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "직장인",
+      "journey": "find",
+      "text": "서울에서 IT·소프트웨어 기업이 많이 모여 있는 산업단지는 어디인가요?",
+      "type": "descriptive",
+      "category": "산업",
+      "expected_tier": "anchor",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "구로디지털",
+        "G밸리"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-002",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "창업자",
+      "journey": "find",
+      "text": "서울에서 지식산업센터에 입주해 사무실을 쓸 수 있는 지역은 어디가 있나요?",
+      "type": "descriptive",
+      "category": "산업",
+      "expected_tier": "anchor",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "구로디지털",
+        "G밸리"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-003",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "창업자",
+      "journey": "find",
+      "text": "서울에서 스타트업이 사무실을 얻기 좋은 지역을 추천해 주세요.",
+      "type": "descriptive",
+      "category": "산업",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-004",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "중소기업 대표",
+      "journey": "find",
+      "text": "서울에서 중소기업이 해외 바이어와 만나는 수출 상담회를 지원하는 자치구 사업이 있나요?",
+      "type": "descriptive",
+      "category": "산업",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "구로구"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2844",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-005",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "학생",
+      "journey": "find",
+      "text": "서울에서 제조업 공장이 밀집해 있던 지역은 어디이고 지금은 어떻게 바뀌었나요?",
+      "type": "descriptive",
+      "category": "산업",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "구로공단",
+        "구로디지털"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-006",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "투자자",
+      "journey": "find",
+      "text": "서울에서 바이오·의료 기업이 입주하기 좋은 지역은 어디인가요?",
+      "type": "descriptive",
+      "category": "산업",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-007",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "구직자",
+      "journey": "find",
+      "text": "서울에서 외국인 근로자가 많이 일하는 산업단지 주변 지역은 어디인가요?",
+      "type": "descriptive",
+      "category": "산업",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-008",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "야구 팬",
+      "journey": "find",
+      "text": "서울에서 돔구장에서 야구 경기를 볼 수 있는 곳은 어디인가요?",
+      "type": "descriptive",
+      "category": "관광",
+      "expected_tier": "anchor",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "고척스카이돔",
+        "고척돔"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2957",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-009",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "부모",
+      "journey": "find",
+      "text": "서울에서 서울시 1호 공립수목원은 어디인가요?",
+      "type": "descriptive",
+      "category": "관광",
+      "expected_tier": "anchor",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "푸른수목원"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2792",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-010",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "부모",
+      "journey": "find",
+      "text": "서울에서 아이와 함께 가볼 만한 수목원을 추천해 주세요.",
+      "type": "descriptive",
+      "category": "관광",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "푸른수목원"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2792",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-011",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "산책객",
+      "journey": "find",
+      "text": "서울에서 옛 철길을 따라 걸을 수 있는 산책 코스는 어디인가요?",
+      "type": "descriptive",
+      "category": "관광",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "항동철길",
+        "항동 철길"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2956",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-012",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "부모",
+      "journey": "find",
+      "text": "서울에서 여름에 아이들과 갈 수 있는 하천 물놀이장은 어디가 있나요?",
+      "type": "descriptive",
+      "category": "관광",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "안양천"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2945",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-013",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "방문자",
+      "journey": "find",
+      "text": "서울에서 가을에 걷기 좋은 둘레길을 추천해 주세요.",
+      "type": "descriptive",
+      "category": "관광",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "개웅산"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2982",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-014",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "사진 애호가",
+      "journey": "find",
+      "text": "서울에서 여름에 연꽃을 볼 수 있는 곳은 어디인가요?",
+      "type": "descriptive",
+      "category": "관광",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "궁동생태공원"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2960",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-015",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "방문자",
+      "journey": "find",
+      "text": "서울에서 산림형 올레길 코스를 걸을 수 있는 곳은 어디인가요?",
+      "type": "descriptive",
+      "category": "관광",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "올레길"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2955",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-016",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "직장인",
+      "journey": "find",
+      "text": "서울 서남권에서 출퇴근하기 편한 동네를 추천해 주세요.",
+      "type": "descriptive",
+      "category": "거주",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-017",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "직장인",
+      "journey": "find",
+      "text": "서울에서 지하철 1호선과 7호선이 함께 지나는 지역은 어디인가요?",
+      "type": "descriptive",
+      "category": "거주",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-018",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "외국인",
+      "journey": "find",
+      "text": "서울에서 외국인이 많이 사는 동네는 어디인가요?",
+      "type": "descriptive",
+      "category": "거주",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-019",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "신혼부부",
+      "journey": "find",
+      "text": "서울에서 신혼부부가 살기 좋은 자치구를 추천해 주세요.",
+      "type": "descriptive",
+      "category": "거주",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-020",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "부모",
+      "journey": "find",
+      "text": "서울에서 아이 키우기 좋은 자치구를 추천해 주세요.",
+      "type": "descriptive",
+      "category": "거주",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-021",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "1인 가구",
+      "journey": "find",
+      "text": "서울에서 1인 가구가 월세 부담이 상대적으로 적은 지역은 어디인가요?",
+      "type": "descriptive",
+      "category": "거주",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-022",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "서울 방문자",
+      "journey": "find",
+      "text": "서울에서 아시아 여러 나라 문화를 함께 즐길 수 있는 지역 축제가 있나요?",
+      "type": "descriptive",
+      "category": "문화",
+      "expected_tier": "anchor",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "G페스티벌",
+        "G 페스티벌"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2976",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-023",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "외국인",
+      "journey": "find",
+      "text": "서울에서 외국인 주민이 한국어를 무료로 배울 수 있는 곳은 어디인가요?",
+      "type": "descriptive",
+      "category": "문화",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-024",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "다문화가족",
+      "journey": "find",
+      "text": "서울에서 다문화가족이 받을 수 있는 자치구 지원 프로그램에는 무엇이 있나요?",
+      "type": "descriptive",
+      "category": "문화",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-025",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "주민",
+      "journey": "find",
+      "text": "서울에서 저렴하게 공연을 볼 수 있는 구립 공연장은 어디인가요?",
+      "type": "descriptive",
+      "category": "문화",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "구로아트밸리",
+        "오류아트홀"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2926",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-026",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "서울 방문자",
+      "journey": "find",
+      "text": "서울에서 가볼 만한 지역 축제를 추천해 주세요.",
+      "type": "descriptive",
+      "category": "문화",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "G페스티벌"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2976",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-027",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "학생",
+      "journey": "find",
+      "text": "서울에서 산업화와 공단의 역사를 볼 수 있는 박물관이나 전시관은 어디인가요?",
+      "type": "descriptive",
+      "category": "문화",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "G밸리산업박물관"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2992",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-028",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "주민",
+      "journey": "find",
+      "text": "서울에서 안심귀가 서비스를 운영하는 자치구에는 어디가 있나요?",
+      "type": "descriptive",
+      "category": "행정",
+      "expected_tier": "plausible",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "안심귀가스카우트"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2526",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-029",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "청년",
+      "journey": "find",
+      "text": "서울에서 청년 자산 형성 통장 사업을 운영하는 자치구에는 어디가 있나요?",
+      "type": "descriptive",
+      "category": "행정",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "희망두배청년통장"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2239",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-030",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "주민",
+      "journey": "find",
+      "text": "서울에서 지역사랑상품권을 할인된 가격에 살 수 있는 자치구 사례를 알려 주세요.",
+      "type": "descriptive",
+      "category": "행정",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "구로사랑상품권"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=4586",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-031",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "장애인 가족",
+      "journey": "find",
+      "text": "서울에서 장애인 바우처택시를 지원하는 자치구에는 어디가 있나요?",
+      "type": "descriptive",
+      "category": "행정",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "바우처택시"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/contents.do?key=2286",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-032",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "주민",
+      "journey": "find",
+      "text": "서울에서 구청장에게 직접 의견을 낼 수 있는 온라인 창구가 있는 자치구는 어디인가요?",
+      "type": "descriptive",
+      "category": "행정",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "구청장에게 바란다"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/index.do",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-033",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "주민",
+      "journey": "find",
+      "text": "서울에서 장난감을 빌려 쓸 수 있는 자치구 장난감 대여 서비스는 어디에 있나요?",
+      "type": "descriptive",
+      "category": "행정",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [
+        "장난감나라"
+      ],
+      "entity_basis_url": "https://www.guro.go.kr/www/sub.do?key=1849",
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-034",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "주민",
+      "journey": "find",
+      "text": "서울에서 무인민원발급기로 가족관계증명서를 뗄 수 있는 곳은 어디인가요?",
+      "type": "descriptive",
+      "category": "행정",
+      "expected_tier": "weak",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "등장 여부·귀속·경쟁 분포만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다"
+    },
+    {
+      "id": "GUR-CMP-035",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "서울 방문자",
+      "journey": "find",
+      "text": "서울에서 스키장을 이용할 수 있는 곳은 어디인가요?",
+      "type": "descriptive",
+      "category": "대조",
+      "expected_tier": "negative",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "구로구가 등장하면 오귀속 후보. 등장하지 않는 것을 증명할 수는 없다"
+    },
+    {
+      "id": "GUR-CMP-036",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "서울 방문자",
+      "journey": "find",
+      "text": "서울에서 해수욕을 할 수 있는 해수욕장은 어디인가요?",
+      "type": "descriptive",
+      "category": "대조",
+      "expected_tier": "negative",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "구로구가 등장하면 오귀속 후보. 등장하지 않는 것을 증명할 수는 없다"
+    },
+    {
+      "id": "GUR-CMP-037",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "서울 방문자",
+      "journey": "find",
+      "text": "서울에서 유네스코 세계유산을 볼 수 있는 곳은 어디인가요?",
+      "type": "descriptive",
+      "category": "대조",
+      "expected_tier": "negative",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "구로구가 등장하면 오귀속 후보. 등장하지 않는 것을 증명할 수는 없다"
+    },
+    {
+      "id": "GUR-CMP-038",
+      "revision": 1,
+      "status": "draft",
+      "module": "B6",
+      "audience": "probe",
+      "named": false,
+      "persona": "서울 방문자",
+      "journey": "find",
+      "text": "서울에서 한옥마을을 체험할 수 있는 곳은 어디인가요?",
+      "type": "descriptive",
+      "category": "대조",
+      "expected_tier": "negative",
+      "layers": [
+        "access",
+        "readability",
+        "citation"
+      ],
+      "usable": false,
+      "ledger_entities": [],
+      "entity_basis_url": null,
+      "note": "구로구가 등장하면 오귀속 후보. 등장하지 않는 것을 증명할 수는 없다"
+    }
+  ]
+}

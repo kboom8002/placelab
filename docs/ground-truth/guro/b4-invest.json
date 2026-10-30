@@ -1,0 +1,188 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-INV-001": {
+      "targetValue": "433,534명",
+      "acceptableVariants": [
+        "433,534명",
+        "433534명",
+        "433,534"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "총 인구수 433,534명"
+    },
+    "GUR-INV-002": {
+      "targetValue": "383,829명",
+      "acceptableVariants": [
+        "383,829명",
+        "383829명",
+        "383,829"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "주민등록인구 383,829명"
+    },
+    "GUR-INV-003": {
+      "targetValue": "49,705명",
+      "acceptableVariants": [
+        "49,705명",
+        "49705명",
+        "49,705"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "외국인 49,705명"
+    },
+    "GUR-INV-004": {
+      "targetValue": "20.14㎢",
+      "acceptableVariants": [
+        "20.14㎢",
+        "20.14"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "총 면적 20.14㎢"
+    },
+    "GUR-INV-005": {
+      "targetValue": "406,664명",
+      "acceptableVariants": [
+        "406,664명",
+        "406664명",
+        "406,664"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2099",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-14",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "이곳에 거주하는 인구는 406,664명으로 나타나있다."
+    },
+    "GUR-INV-006": {
+      "targetValue": "20.12㎢",
+      "acceptableVariants": [
+        "20.12㎢",
+        "20.12 km²",
+        "20.12"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2099",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-14",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구의 총면적은 20.12㎢이다."
+    },
+    "GUR-INV-007": {
+      "targetValue": "16개",
+      "acceptableVariants": [
+        "16개",
+        "16",
+        "16개의 행정동"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2099",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-14",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "16개의 행정동으로 구분되었으며"
+    },
+    "GUR-INV-008": {
+      "targetValue": "20.12㎢",
+      "acceptableVariants": [
+        "20.12㎢",
+        "20.12km²",
+        "20.12"
+      ],
+      "sourceAuthority": "구로구청 스마트도시과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2144",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-02-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "면적 20.12㎢"
+    },
+    "GUR-INV-009": {
+      "targetValue": "4.2",
+      "acceptableVariants": [
+        "4.2",
+        "4.20",
+        "4.2㎢"
+      ],
+      "sourceAuthority": "구로구청 도시계획과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2603",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-09-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "준공업 경공업 등 그밖의 공업기능이 필요한 지역 19.96 3.3 4.2 20.86"
+    },
+    "GUR-INV-010": {
+      "targetValue": "3.75",
+      "acceptableVariants": [
+        "3.75",
+        "3.750",
+        "3.75㎢"
+      ],
+      "sourceAuthority": "구로구청 도시계획과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2603",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-09-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "지구 단위 계획 구역 토지이용을 합리화하고 도시의 기능 미관 및 환경을 효율적으로 유지 관리하기 위하여 필요한 때 3.75 18.62"
+    }
+  }
+}

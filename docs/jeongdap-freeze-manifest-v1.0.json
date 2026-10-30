@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "jeongdap-freeze-v1.0",
+  "generatedAt": "2026-10-17T09:00:00+09:00",
+  "methodVersion": "jeongdap-v1.0",
+  "populations": {
+    "metroActiveCount": 16,
+    "basic2025GazetteerCount": 226,
+    "basic2026IncheonActiveCount": 227,
+    "historicalInactiveCount": 2
+  },
+  "counts": {
+    "totalInstances": 3262,
+    "uniqueTemplates": 357,
+    "core60Count": 60
+  },
+  "hashes": {
+    "instances_jsonl_sha256": "b37abc84f485cf8cb24d38652136b3091b165d9574f4b4a083a7ca79fff03815",
+    "core_60_qids_sha256": "62cbbe42c313c30c44f0c342d33bc07d543bf11e51c55cca6643497506c5cef7",
+    "ledger_csv_sha256": "af3c416a80f7a270322070f48b7ceae385e6ef3716ef7ff0452ae93a1b411eec",
+    "observe_questions_csv_sha256": "52a8a62bb696825fb421d9efa058fa42d89f3e19696bd0346bbff8914176fd92",
+    "declarations_csv_sha256": "7ed077d1acdaff5df6ad0ebee814a61bc231a61a31ebe8fced537bb7a211aedb",
+    "sites_csv_sha256": "69b0cf734aa76ddbf6161e3e7f40e45d3324d03d41d2f2934e69aa6e30cf4577",
+    "gazetteer_reorg_sha256": "167d7b76c56708ab0a99ae74adf2ddb0b387ad4b76032b046d05061d81802269"
+  }
+}

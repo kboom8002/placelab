@@ -3,12 +3,20 @@
 
 export const CURRENT_METHOD_VERSION = 'v1.0';
 
+export const BRAND_NAME_KO = '모두의 정답노트' as const;
+export const BRAND_NAME_EN = 'Jeongdap Note' as const;
+export const BRAND_TAGLINE = 'AI가 말한 우리 동네, 정답을 함께 확인해요.' as const;
+export const BRAND_PRINCIPLE = '순위를 매기지 않습니다. 함께 고칩니다.' as const;
+export const BRAND_FRAME_NOTE =
+  '공식 문서가 기계에 읽히는지 확인하는 체계가 없었다. 특정 기관의 소홀이 아니다.' as const;
+
 export const FORBIDDEN_WORDS = [
   '순위',
   '랭킹',
   '등급',
   '1위',
   '최하위',
+  '꼴찌',
   '베스트',
   '워스트',
   '노출 보장',
@@ -22,7 +30,16 @@ export const FORBIDDEN_WORDS = [
   '전국 평균',
   '차단당했다',
   '전국 249곳',
+  'AI가 틀렸어요!',
+  '엉터리',
+  '망신',
+  '최악의 지역',
+  '방치',
+  '공식 측정',
+  '정부 인증',
+  '종합 점수',
 ] as const;
+
 
 export const B_FORM_DISCLAIMER =
   '이 값은 소관 시·도 도메인의 값입니다.' as const;

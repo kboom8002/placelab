@@ -1,0 +1,259 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-EDU-101": {
+      "targetValue": "(주소지 관계없이) 가까운 동 주민센터",
+      "acceptableVariants": [
+        "가까운 동 주민센터",
+        "동 주민센터",
+        "주소지 관계없이"
+      ],
+      "sourceAuthority": "구로구청 아동청소년과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2212",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-03",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "02 접수 : (주소지 관계없이) 가까운 동 주민센터"
+    },
+    "GUR-EDU-102": {
+      "targetValue": "10:00~12:00",
+      "acceptableVariants": [
+        "10:00~12:00",
+        "10:00-12:00",
+        "오전 10:00~12:00"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2367",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "매주 목요일 10:00~12:00"
+    },
+    "GUR-EDU-103": {
+      "targetValue": "관내 학생 및 학부모",
+      "acceptableVariants": [
+        "관내 학생",
+        "학부모",
+        "관내 학생 및 학부모"
+      ],
+      "sourceAuthority": "구로구청 교육지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2483",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-06-25",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "대상 : 관내 학생 및 학부모"
+    },
+    "GUR-EDU-104": {
+      "targetValue": "1,000천원 이내",
+      "acceptableVariants": [
+        "1,000천원 이내",
+        "1000천원 이내",
+        "1,000천원"
+      ],
+      "sourceAuthority": "구로구청 교육지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2486",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-31",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "동아리 별 1,000천원 이내 지원"
+    },
+    "GUR-EDU-105": {
+      "targetValue": "연초(2월중)",
+      "acceptableVariants": [
+        "연초(2월중)",
+        "연초",
+        "2월중",
+        "2월 중"
+      ],
+      "sourceAuthority": "구로구청 교육지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2486",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-31",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "연초(2월중)"
+    },
+    "GUR-EDU-106": {
+      "targetValue": "860-5480",
+      "acceptableVariants": [
+        "860-5480",
+        "8605480",
+        "☏860-5480"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2500",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-12",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "☏860-5480"
+    },
+    "GUR-EDU-107": {
+      "targetValue": "09:00~ 21:00",
+      "acceptableVariants": [
+        "09:00~ 21:00",
+        "09:00~21:00",
+        "21:00"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2500",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-12",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "09:00~ 21:00"
+    },
+    "GUR-EDU-108": {
+      "targetValue": "2610-1587",
+      "acceptableVariants": [
+        "2610-1587",
+        "26101587"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2501",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "☏2610-1587"
+    },
+    "GUR-EDU-109": {
+      "targetValue": "13:00~ 20:00",
+      "acceptableVariants": [
+        "13:00~ 20:00",
+        "13:00~20:00"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2501",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "559 64 13:00~ 20:00 운영 안함 공휴일 및 재량휴업일"
+    },
+    "GUR-EDU-110": {
+      "targetValue": "853-7263",
+      "acceptableVariants": [
+        "853-7263",
+        "8537263"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2502",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "853-7263"
+    },
+    "GUR-EDU-111": {
+      "targetValue": "오리로22길 5, 지하1층",
+      "acceptableVariants": [
+        "오리로22길 5, 지하1층",
+        "오리로22길 5",
+        "지하1층"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2502",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "오리로22길 5, 지하1층"
+    },
+    "GUR-EDU-112": {
+      "targetValue": "2689-1513",
+      "acceptableVariants": [
+        "2689-1513",
+        "26891513"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2503",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "2689-1513"
+    },
+    "GUR-EDU-113": {
+      "targetValue": "월~금 10:00~17:00",
+      "acceptableVariants": [
+        "월~금",
+        "10:00~17:00",
+        "10:00-17:00"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2503",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "월~금 10:00~17:00"
+    },
+    "GUR-EDU-114": {
+      "targetValue": "09:00 ~ 22:00 (주중)",
+      "acceptableVariants": [
+        "09:00 ~ 22:00",
+        "09:00~22:00",
+        "22:00",
+        "주중"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2504",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "09:00 ~ 22:00 (주중)"
+    }
+  }
+}

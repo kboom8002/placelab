@@ -1,0 +1,272 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-FPR-001": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "fictional",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "구로구 청춘햇살통장 지원 대상",
+          "date": "2026-10-07",
+          "finding": "구로구 공식 자산형성지원사업 목록에 없음(유사 사업은 희망두배 청년통장·꿈나래통장)"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "청춘햇살"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    },
+    "GUR-FPR-002": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "fictional",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "구로구 주민 드론택시 이용 요금",
+          "date": "2026-10-07",
+          "finding": "구로구 주민이 이용할 수 있는 드론택시 서비스 없음(UAM은 실증 단계)"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "드론택시|드론 택시"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    },
+    "GUR-FPR-003": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "attached_nonexistent",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "구로구 디지털노마드 특구 비자 신청",
+          "date": "2026-10-07",
+          "finding": "구로구 한정 특구 비자 없음. 디지털노마드 비자는 법무부의 전국 단위 제도"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "디지털노마드"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    },
+    "GUR-FPR-004": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "attached_nonexistent",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "구로구 푸른수목원 야간 별빛 캠핑 예약",
+          "date": "2026-10-07",
+          "finding": "푸른수목원에 해당 캠핑 프로그램 없음"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "별빛 ?캠핑"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    },
+    "GUR-FPR-005": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "attached_nonexistent",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "신도림 재즈 페스티벌 문화철도959",
+          "date": "2026-10-07",
+          "finding": "문화철도959에서 해당 명칭의 행사 기록 확인되지 않음"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "재즈 ?페스티벌"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    },
+    "GUR-FPR-006": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "fictional",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "구로디지털단지 창업 비행학교 입교 신청",
+          "date": "2026-10-07",
+          "finding": "해당 명칭의 기관·프로그램 확인되지 않음"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "비행학교"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    },
+    "GUR-FPR-007": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "fictional",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "구로구 안양천 야간 수상택시 이용 요금",
+          "date": "2026-10-07",
+          "finding": "안양천에서 운영되는 수상택시 없음"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "수상택시"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    },
+    "GUR-FPR-008": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "real_elsewhere",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "남산골한옥마을 위치 자치구 입장료",
+          "date": "2026-10-07",
+          "finding": "남산골한옥마을은 서울 중구 소재"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "남산골"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "counterpart_note": "서울 중구",
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    },
+    "GUR-FPR-009": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "real_elsewhere",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "서울숲 위치 자치구 개방시간",
+          "date": "2026-10-07",
+          "finding": "서울숲은 서울 성동구 소재"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "서울숲"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "counterpart_note": "서울 성동구",
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    },
+    "GUR-FPR-010": {
+      "verification": "confirmed",
+      "expectedStance": "deny_or_unverified",
+      "premise_kind": "real_elsewhere",
+      "absenceBasis": [
+        {
+          "type": "web_search",
+          "query": "북서울꿈의숲 위치 자치구 개방시간",
+          "date": "2026-10-07",
+          "finding": "북서울꿈의숲은 서울 강북구 소재"
+        },
+        {
+          "type": "official_site_cache_grep",
+          "site": "guro.go.kr",
+          "pages": 958,
+          "hits": 0,
+          "date": "2026-10-07",
+          "pattern": "북서울꿈의숲"
+        }
+      ],
+      "officialCounterpartUrl": null,
+      "counterpart_note": "서울 강북구",
+      "sourceUrl": "https://www.guro.go.kr/www/sitemap.do",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "scope": "구로구청 누리집(guro.go.kr) 및 2026-10-07 웹 검색 기준. 다른 기관·민간에 같은 이름이 있을 수 있다"
+    }
+  }
+}

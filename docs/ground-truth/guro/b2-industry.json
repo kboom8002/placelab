@@ -1,0 +1,292 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-IND-001": {
+      "targetValue": "무상",
+      "acceptableVariants": [
+        "무상",
+        "무료"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2842",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-09-16",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 기업 종사자 분들께 무상으로 제공되는 서비스입니다."
+    },
+    "GUR-IND-002": {
+      "targetValue": "04.29.(화)",
+      "acceptableVariants": [
+        "04.29.(화)",
+        "04.29",
+        "4.29"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2842",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-09-16",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "상반기 - 04.29.(화)"
+    },
+    "GUR-IND-003": {
+      "targetValue": "구로구청 지역경제과 기업지원팀",
+      "acceptableVariants": [
+        "구로구청 지역경제과 기업지원팀",
+        "지역경제과 기업지원팀",
+        "구로구청 지역경제과"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2844",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-06-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구청 지역경제과 기업지원팀(☎02-860-2856)"
+    },
+    "GUR-IND-004": {
+      "targetValue": "온라인 신청",
+      "acceptableVariants": [
+        "온라인 신청",
+        "온라인"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2844",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-06-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "신청방법 온라인 신청"
+    },
+    "GUR-IND-005": {
+      "targetValue": "서울특별시 구로구 구로동과 금천구 가산동 일대",
+      "acceptableVariants": [
+        "구로동",
+        "가산동",
+        "구로구 구로동",
+        "금천구 가산동"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "서울특별시 구로구 구로동과 금천구 가산동 일대에"
+    },
+    "GUR-IND-006": {
+      "targetValue": "198만㎡",
+      "acceptableVariants": [
+        "198만㎡",
+        "198만m²"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "총58만평(198만㎡) 규모로 조성된"
+    },
+    "GUR-IND-007": {
+      "targetValue": "1688-7277",
+      "acceptableVariants": [
+        "1688-7277",
+        "16887277"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2851",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "한국산업단지공단 서울지역본부 문의(1688-7277)"
+    },
+    "GUR-IND-008": {
+      "targetValue": "5일 이내",
+      "acceptableVariants": [
+        "5일 이내",
+        "5일",
+        "5 일 이내"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2851",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "신청일로부터 5일 이내"
+    },
+    "GUR-IND-009": {
+      "targetValue": "구로구청 1층",
+      "acceptableVariants": [
+        "구로구청 1층",
+        "1층"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2860",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구일자리센터(구로구청 1층)"
+    },
+    "GUR-IND-010": {
+      "targetValue": "860-2158~9,2500",
+      "acceptableVariants": [
+        "860-2158~9,2500",
+        "8602158~9,2500",
+        "860-2500"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2860",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "Tel : 860-2158~9,2500"
+    },
+    "GUR-IND-011": {
+      "targetValue": "신도림 테크노마트 11층 그랜드볼룸",
+      "acceptableVariants": [
+        "신도림 테크노마트 11층 그랜드볼룸",
+        "신도림 테크노마트",
+        "그랜드볼룸"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2861",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-01-26",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "장 소 신도림 테크노마트 11층 그랜드볼룸"
+    },
+    "GUR-IND-012": {
+      "targetValue": "860-2158~9, 2500",
+      "acceptableVariants": [
+        "860-2158~9",
+        "860-2500",
+        "2500"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2861",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-01-26",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "(☏ 860-2158~9, 2500)"
+    },
+    "GUR-IND-013": {
+      "targetValue": "최대 5,000만원",
+      "acceptableVariants": [
+        "최대 5,000만원",
+        "5000만원",
+        "5,000만원"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2873",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-06-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1차 신규 마을기업(최대 5,000만원)"
+    },
+    "GUR-IND-014": {
+      "targetValue": "구로구 구로동",
+      "acceptableVariants": [
+        "구로구 구로동"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2975",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 구로동(1단지)"
+    },
+    "GUR-IND-015": {
+      "targetValue": "서울시 구로구 디지털로26길 38, G-Tower 3층",
+      "acceptableVariants": [
+        "디지털로26길 38",
+        "G-Tower 3층",
+        "서울시 구로구 디지털로26길 38"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2992",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "주소 : 서울시 구로구 디지털로26길 38, G-Tower 3층"
+    },
+    "GUR-IND-016": {
+      "targetValue": "서울특별시 구로구 구로동과 금천구 가산동 일대",
+      "acceptableVariants": [
+        "구로동",
+        "가산동",
+        "구로구 구로동",
+        "금천구 가산동"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=3005",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "서울특별시 구로구 구로동과 금천구 가산동 일대"
+    }
+  }
+}

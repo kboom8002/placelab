@@ -1,0 +1,253 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-IND-101": {
+      "targetValue": "무상",
+      "acceptableVariants": [
+        "무상",
+        "무료"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2842",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-09-16",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "무상으로 제공되는 서비스입니다."
+    },
+    "GUR-IND-102": {
+      "targetValue": "구로구 기업 종사자 분들",
+      "acceptableVariants": [
+        "구로구 기업 종사자 분들",
+        "구로구 기업 종사자"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2842",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-09-16",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 기업 종사자 분들께 무상으로 제공"
+    },
+    "GUR-IND-103": {
+      "targetValue": "연 0.8%",
+      "acceptableVariants": [
+        "연 0.8%",
+        "0.8%"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2843",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-01-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "대출금리 연 0.8%"
+    },
+    "GUR-IND-104": {
+      "targetValue": "주민등록 상 거주지 동주민센터",
+      "acceptableVariants": [
+        "주민등록 상 거주지 동주민센터",
+        "거주지 동주민센터",
+        "동주민센터"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2854",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-01-27",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "주민등록 상 거주지 동주민센터에"
+    },
+    "GUR-IND-105": {
+      "targetValue": "거주지 동주민센터 또는 구로구청 장애인복지과 자활지원팀",
+      "acceptableVariants": [
+        "거주지 동주민센터",
+        "동주민센터",
+        "구로구청 장애인복지과 자활지원팀",
+        "장애인복지과 자활지원팀"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2855",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-25",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "거주지 동주민센터 또는 구로구청 장애인복지과 자활지원팀에 신청"
+    },
+    "GUR-IND-106": {
+      "targetValue": "2026년 10월 예정",
+      "acceptableVariants": [
+        "2026년 10월 예정",
+        "2026년 10월"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2861",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-01-26",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "일 시 2026년 10월 예정"
+    },
+    "GUR-IND-107": {
+      "targetValue": "일자리지원과",
+      "acceptableVariants": [
+        "일자리지원과"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2874",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-06-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "접수지원창구 일자리지원과 : 구비서류 확인 및 검토지원"
+    },
+    "GUR-IND-108": {
+      "targetValue": "860-2868",
+      "acceptableVariants": [
+        "860-2868",
+        "8602868"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2881",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구청 지역경제과(860-2868)"
+    },
+    "GUR-IND-109": {
+      "targetValue": "17㎡이상",
+      "acceptableVariants": [
+        "17㎡이상",
+        "17㎡ 이상",
+        "17m²이상",
+        "17m² 이상"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2882",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "매장면적 17㎡이상 운영자"
+    },
+    "GUR-IND-110": {
+      "targetValue": "860-2868",
+      "acceptableVariants": [
+        "860-2868",
+        "8602868"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2885",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-09-09",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "(☎ 860-2868, 팩스 860-2639)"
+    },
+    "GUR-IND-111": {
+      "targetValue": "2000년 12월",
+      "acceptableVariants": [
+        "2000년 12월",
+        "2000년12월"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2958",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "2000년 12월 명칭변경 \"디지털산업단지\""
+    },
+    "GUR-IND-112": {
+      "targetValue": "구로구 구로동(1단지) 및 금천구 가산동(2,3단지) 일대",
+      "acceptableVariants": [
+        "구로구 구로동",
+        "금천구 가산동",
+        "1단지",
+        "2,3단지"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2975",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 구로동(1단지) 및 금천구 가산동(2,3단지) 일대"
+    },
+    "GUR-IND-113": {
+      "targetValue": "2번출구",
+      "acceptableVariants": [
+        "2번출구",
+        "2번 출구"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2992",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로디지털단지역 2번출구로 나오다보면"
+    },
+    "GUR-IND-114": {
+      "targetValue": "의료법인 우리아이들의료재단 우리아이들병원",
+      "acceptableVariants": [
+        "의료법인 우리아이들의료재단 우리아이들병원",
+        "우리아이들병원"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4055",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-05-15",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "의료법인 우리아이들의료재단 우리아이들병원"
+    }
+  }
+}

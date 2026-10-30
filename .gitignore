@@ -40,3 +40,7 @@ supabase/.temp
 .agents/
 ORIGINAL_REQUEST.md
 PROJECT.md
+
+# raw AI responses (private, INV-6)
+.private/
+private/

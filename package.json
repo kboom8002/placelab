@@ -11,7 +11,10 @@
     "sync:questions": "tsx scripts/sync-spec-questions.ts --verify-only",
     "verify:types": "tsx scripts/generate-spec-types.ts",
     "test:invariants": "tsx tests/invariants/run-all.ts",
-    "test:kbrandlab": "tsx tests/kbrandlab/run-all.ts"
+    "test:kbrandlab": "tsx tests/kbrandlab/run-all.ts",
+    "stage0:shadow": "tsx scripts/jeongdap/run-stage0-shadow.ts",
+    "localradar:scan": "tsx scripts/kbrandlab/run-local-radar-scan.ts",
+    "maps:audit": "tsx scripts/maps/run-maps-audit.ts"
   },
   "dependencies": {
     "@google/genai": "^2.21.0",

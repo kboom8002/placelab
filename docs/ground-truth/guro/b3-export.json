@@ -1,0 +1,97 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-EXP-001": {
+      "targetValue": "구로구청 지역경제과 기업지원팀",
+      "acceptableVariants": [
+        "지역경제과 기업지원팀",
+        "구로구청 지역경제과 기업지원팀",
+        "기업지원팀"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2844",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-06-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "접수처 구로구청 지역경제과 기업지원팀"
+    },
+    "GUR-EXP-002": {
+      "targetValue": "온라인 신청",
+      "acceptableVariants": [
+        "온라인 신청",
+        "온라인"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2844",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-06-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "신청방법 온라인 신청"
+    },
+    "GUR-EXP-003": {
+      "targetValue": "해외 판로개척을 희망하는 G밸리 소재 중소기업",
+      "acceptableVariants": [
+        "G밸리 소재 중소기업",
+        "해외 판로개척을 희망하는 G밸리 소재 중소기업",
+        "중소기업"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2844",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-06-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "해외 판로개척을 희망하는 G밸리 소재 중소기업"
+    },
+    "GUR-EXP-004": {
+      "targetValue": "860-2856",
+      "acceptableVariants": [
+        "860-2856",
+        "02-860-2856"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2844",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-06-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "전화 : 860-2856"
+    },
+    "GUR-EXP-005": {
+      "targetValue": "미국 라스베가스(CES 2027)",
+      "acceptableVariants": [
+        "미국 라스베가스",
+        "라스베가스",
+        "CES 2027"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2844",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-06-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "파견지역 미국 라스베가스(CES 2027)"
+    }
+  }
+}

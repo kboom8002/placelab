@@ -1,0 +1,169 @@
+{
+  "$comment": "검색 조건 라벨 정오표. 과거 파일의 값은 고치지 않고(재현 자료), 읽을 때 이 목록으로 해석한다. ADR-0012 D-2·D-4.",
+  "revision": 1,
+  "recorded_on": "2026-10-06",
+  "label_vocabulary": {
+    "on_verified": "검색 도구를 전달했고 회차별 search_triggered 가 기록됨",
+    "off": "검색 도구를 전달하지 않았음이 코드·호출 파라미터로 확인됨",
+    "unverified": "위 둘을 확인할 수 없음. on 표·off 표 어디에도 합치지 않는다"
+  },
+  "finding": "chat.completions 로 수집하면서 web_search 'on' 으로 기록했다. 검색 도구를 전달하는 코드가 없고, 검색 호출 여부를 확인할 메타데이터도 저장되지 않았다. 실제로 검색을 했는지는 알 수 없다.",
+  "not_asserted": "이 파일은 해당 관측이 검색 없이 수집되었다고 단정하지 않는다. 확인할 수 없다고만 기록한다.",
+  "entries": [
+    {
+      "path": "docs/aeo-measurements/m-20260906-41110.json",
+      "recorded_label": "web_search: on",
+      "ai_service": "chatgpt",
+      "kind": "mislabeled_on",
+      "corrected_label": "unverified",
+      "producer": "scripts/measure-v2/measure-3tier.ts (chat.completions, no tools) — 생성 스크립트는 파일 메타로 확정하지 못함",
+      "producer_status": "to_verify"
+    },
+    {
+      "path": "docs/aeo-measurements/m-20260906-43745.json",
+      "recorded_label": "web_search: on",
+      "ai_service": "chatgpt",
+      "kind": "mislabeled_on",
+      "corrected_label": "unverified",
+      "producer": "상동",
+      "producer_status": "to_verify"
+    },
+    {
+      "path": "docs/aeo-measurements/m-20260907-41110.json",
+      "recorded_label": "web_search: on",
+      "ai_service": "chatgpt",
+      "kind": "mislabeled_on",
+      "corrected_label": "unverified",
+      "producer": "상동",
+      "producer_status": "to_verify"
+    },
+    {
+      "path": "docs/aeo-measurements/m-20260907-43745.json",
+      "recorded_label": "web_search: on",
+      "ai_service": "chatgpt",
+      "kind": "mislabeled_on",
+      "corrected_label": "unverified",
+      "producer": "상동",
+      "producer_status": "to_verify"
+    },
+    {
+      "path": "docs/aeo-measurements/m-20260908-41590.json",
+      "recorded_label": "web_search: on",
+      "ai_service": "chatgpt",
+      "kind": "mislabeled_on",
+      "corrected_label": "unverified",
+      "producer": "상동",
+      "producer_status": "to_verify"
+    },
+    {
+      "path": "docs/person-measurements/pm-20260908-김민석.json",
+      "recorded_label": "web_search: on",
+      "ai_service": "chatgpt",
+      "kind": "mislabeled_on",
+      "corrected_label": "unverified",
+      "producer": "scripts/measure-v2/measure-person.ts (chat.completions, no tools)",
+      "producer_status": "code_verified"
+    },
+    {
+      "path": "docs/L2-suwon-quick-v2-raw.json",
+      "recorded_label": "web_search: on (model default)",
+      "model": "gpt-5.6-luna",
+      "kind": "mislabeled_on",
+      "corrected_label": "unverified",
+      "producer": "scripts/measure-v2/quick-measure.ts (chat.completions, no tools)",
+      "producer_status": "code_verified"
+    },
+    {
+      "path": "docs/L2-증평군-quick-v2-raw.json",
+      "recorded_label": "web_search: on (model default)",
+      "model": "gpt-5.6-luna",
+      "kind": "mislabeled_on",
+      "corrected_label": "unverified",
+      "producer": "scripts/measure-v2/measure-unit.ts 또는 quick-measure.ts (둘 다 chat.completions, no tools)",
+      "producer_status": "code_verified"
+    },
+    {
+      "path": "docs/aeo-measurements/m-20260908-jeju.json",
+      "recorded_label": null,
+      "model": "gpt-5.6-luna",
+      "kind": "condition_not_recorded",
+      "corrected_label": "unverified",
+      "producer": "scripts/measure-v2/measure-jeju.ts (chat.completions, no tools)",
+      "producer_status": "code_verified"
+    },
+    {
+      "path": "docs/aeo-measurements/m-20260908-jeju-en.json",
+      "recorded_label": null,
+      "model": "gpt-5.6-luna",
+      "kind": "condition_not_recorded",
+      "corrected_label": "unverified",
+      "producer": "scripts/measure-v2/measure-jeju-en.ts (chat.completions, no tools)",
+      "producer_status": "code_verified"
+    },
+    {
+      "path": "docs/aeo-measurements/m-20260908-jeju-en-deep.json",
+      "recorded_label": null,
+      "model": "gpt-5.6-luna",
+      "kind": "condition_not_recorded",
+      "corrected_label": "unverified",
+      "producer": "scripts/measure-v2/measure-jeju-en-deep.ts (chat.completions, no tools)",
+      "producer_status": "code_verified"
+    },
+    {
+      "path": "docs/measurement-spec/data/raw/nonsan-responses-cache.json",
+      "recorded_label": null,
+      "model": "gpt-5.6-luna",
+      "kind": "condition_not_recorded",
+      "corrected_label": "unverified",
+      "producer": "scripts/measure-v2/run-spec-nonsan-development.ts (chat.completions, no tools)",
+      "producer_status": "code_verified"
+    },
+    {
+      "path": "docs/measurement-spec/outputs/OUT-NONSAN-DEV-2026Q3.json",
+      "recorded_label": null,
+      "kind": "condition_not_recorded",
+      "corrected_label": "unverified",
+      "producer": "상동",
+      "producer_status": "code_verified"
+    }
+  ],
+  "derived_documents_to_review": {
+    "$comment": "위 관측에서 파생되었을 수 있는 보고서. OpenAI 기반인지, on 조건 수치를 인용하는지는 아직 열람하지 않았다. 확인 전에는 정오표 문구를 달지 않고 목록으로만 둔다.",
+    "status": "to_verify",
+    "candidates": [
+      "docs/L2-suwon-quick-v2-report-2026-09.md",
+      "docs/L2-suwon-3tier-v21-report-2026-09.md",
+      "docs/L2-증평군-quick-v2-report-2026-09.md",
+      "docs/L2-증평군-3tier-v21-report-2026-09.md",
+      "docs/L2-수원시-v22-종합진단-2026-09.md",
+      "docs/L2-수원시-spec-v10-종합진단-2026-09.md",
+      "docs/L2-증평군-v22-종합진단-2026-09.md",
+      "docs/L2-제주-글로벌비교진단-KRvsEN-2026-09.md",
+      "docs/L2-제주-영문심화-고급관광-투자유치-출처분석-2026-09.md",
+      "docs/L2-제주특별자치도-v22-종합진단-2026-09.md",
+      "docs/L2-논산시-능동적발전탐색-종합진단-2026-09.md",
+      "docs/L2-논산시-VIP-시장보고서-2026-09.md",
+      "docs/L2-김민석-v10-종합진단-2026-09.md",
+      "docs/L2-김민석-다중모델비교-OpenAI_vs_Gemini-2026-09.md",
+      "docs/aeo-reports/vip-lg-41110-20260907.md",
+      "docs/aeo-reports/vip-lg-43745-20260907.md",
+      "docs/aeo-reports/vip-lg-41590-20260908_DRAFT.md",
+      "lib/aeo/report-generator.ts (web_search: 'on' 상수 하드코딩)"
+    ]
+  },
+  "not_affected": {
+    "adr_0011_basis": "docs/L2-suwon-grounding-comparison-2026-09.md — Gemini 2.5 Pro Grounding off/on 비교. OpenAI 호출이 아니다",
+    "gemini_runners_with_google_search_tool": [
+      "measure-gwangyang-deep", "measure-mokpo-deep", "measure-nonsan-deep", "measure-wando-deep",
+      "measure-yeosu-deep", "measure-person-gemini", "measure-person-gemini-deep",
+      "run-spec-dongjak-election", "run-spec-yeongdeungpo-development",
+      "run-spec-seogwipo-development", "run-spec-e2e-suwon"
+    ]
+  },
+  "handling_rules": [
+    "unverified 관측은 web_search=on 집계·표에 넣지 않는다",
+    "unverified 관측은 off 집계에도 넣지 않는다 (off 로 확인되지 않았다)",
+    "신규 on_verified 관측과 같은 표·같은 차트 축에 두지 않는다",
+    "과거 파일의 값은 수정하지 않는다. 읽는 쪽에서 이 정오표로 라벨을 해석한다"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-INV-101": {
+      "targetValue": "10,539억원",
+      "acceptableVariants": [
+        "10,539억원",
+        "10539억원",
+        "10,539"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "총 예산 10,539억원"
+    },
+    "GUR-INV-102": {
+      "targetValue": "176,568호",
+      "acceptableVariants": [
+        "176,568호",
+        "176568호",
+        "176,568"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2099",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-14",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "거주 세대수는 176,568호이고"
+    },
+    "GUR-INV-103": {
+      "targetValue": "411,916명",
+      "acceptableVariants": [
+        "411,916명",
+        "411916명"
+      ],
+      "sourceAuthority": "구로구청 스마트도시과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2144",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-02-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "인구 411,916명"
+    },
+    "GUR-INV-104": {
+      "targetValue": "145,790대",
+      "acceptableVariants": [
+        "145,790대",
+        "145790대"
+      ],
+      "sourceAuthority": "구로구청 스마트도시과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2144",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-02-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "자동차등록 145,790대"
+    },
+    "GUR-INV-105": {
+      "targetValue": "137,950호",
+      "acceptableVariants": [
+        "137,950호",
+        "137950호"
+      ],
+      "sourceAuthority": "구로구청 스마트도시과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2144",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-02-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "주택 137,950호"
+    },
+    "GUR-INV-106": {
+      "targetValue": "20.14",
+      "acceptableVariants": [
+        "20.14",
+        "20,14",
+        "20.14㎢"
+      ],
+      "sourceAuthority": "구로구청 도시계획과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2603",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-09-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "계 605.67 100 20.14 100"
+    },
+    "GUR-INV-107": {
+      "targetValue": "3.42",
+      "acceptableVariants": [
+        "3.42",
+        "3,42",
+        "3.42㎢"
+      ],
+      "sourceAuthority": "구로구청 도시계획과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2603",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-09-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "개발 제한 구역 도시의 무질서한 확산을 방지하고 도시주변의 자연환경을 보전하여 도시민의 건전한 생활환경을 확보하기 위하여 또는 국방부장관의 요청이 있어 보안상 도시의 개발을 제한할 필요가 있다고 인정되는 때 3.42 16.98"
+    },
+    "GUR-INV-201": {
+      "targetValue": "433,534명",
+      "acceptableVariants": [
+        "433,534명",
+        "433534명",
+        "433,534"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "총 인구수 433,534명"
+    },
+    "GUR-INV-202": {
+      "targetValue": "383,829명",
+      "acceptableVariants": [
+        "383,829명",
+        "383829명",
+        "383,829"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "주민등록인구 383,829명"
+    },
+    "GUR-INV-203": {
+      "targetValue": "49,705명",
+      "acceptableVariants": [
+        "49,705명",
+        "49705명",
+        "49,705"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "외국인 49,705명"
+    }
+  }
+}

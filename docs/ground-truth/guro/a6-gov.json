@@ -1,0 +1,189 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-GOV-001": {
+      "targetValue": "서울특별시 구로구 가마산로 245 (구로동, 구로구청)",
+      "acceptableVariants": [
+        "가마산로 245",
+        "가마산로245"
+      ],
+      "sourceAuthority": "구로구청 총무과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1813",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "[08284]서울특별시 구로구 가마산로 245(구로동, 구로구청)"
+    },
+    "GUR-GOV-002": {
+      "targetValue": "02-860-2114",
+      "acceptableVariants": [
+        "02-860-2114",
+        "02)860-2114",
+        "028602114",
+        "860-2114"
+      ],
+      "sourceAuthority": "구로구청",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/sub.do?key=1912",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "대표번호 02-860-2114,2127~9"
+    },
+    "GUR-GOV-003": {
+      "targetValue": "당직실 02-860-2669",
+      "acceptableVariants": [
+        "02-860-2669",
+        "02)860-2669",
+        "8602669",
+        "860-2669"
+      ],
+      "sourceAuthority": "구로구청",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/sub.do?key=1912",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "당직실(야간,공휴일) : 02-860-2669"
+    },
+    "GUR-GOV-004": {
+      "targetValue": "16개 동",
+      "acceptableVariants": [
+        "16개동",
+        "16개 동",
+        "16개",
+        "열여섯"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "통계",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "행정구역 16개동, 631통, 4,935반"
+    },
+    "GUR-GOV-005": {
+      "targetValue": "7국·2담당관·36과",
+      "acceptableVariants": [
+        "7국",
+        "36과"
+      ],
+      "sourceAuthority": "구로구청",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1809",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "본 청 7국·2담당관·36과·160팀"
+    },
+    "GUR-GOV-006": {
+      "targetValue": "02-860-2210",
+      "acceptableVariants": [
+        "02-860-2210",
+        "02)860-2210",
+        "860-2210"
+      ],
+      "sourceAuthority": "구로구청",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1809",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "직소민원실 전화번호 02-860-2210"
+    },
+    "GUR-GOV-007": {
+      "targetValue": "정보공개포털(open.go.kr)",
+      "acceptableVariants": [
+        "open.go.kr",
+        "정보공개포털",
+        "정보공개 포털",
+        "열린정부"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1739",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "정보공개( https://open.go.kr )에서 로그인 > 공개청구"
+    },
+    "GUR-GOV-008": {
+      "targetValue": "도보 16분가량",
+      "acceptableVariants": [
+        "16분"
+      ],
+      "sourceAuthority": "구로구청 총무과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1813",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "대림역(4번 출구)… 도보 : 대림역에서 16분가량 소요"
+    },
+    "GUR-GOV-009": {
+      "targetValue": "5·6번 출구, 도보 17분가량",
+      "acceptableVariants": [
+        "17분",
+        "5번",
+        "6번"
+      ],
+      "sourceAuthority": "구로구청 총무과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1813",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "7호선 남구로역(5·6번 출구)… 도보 : 남구로역에서 17분가량 소요"
+    },
+    "GUR-GOV-010": {
+      "targetValue": "구로구 카카오톡 채널 추가",
+      "acceptableVariants": [
+        "카카오톡 채널",
+        "채널 추가",
+        "채널추가"
+      ],
+      "sourceAuthority": "구로구청",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1813",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 카카오톡 채널을 추가하세요! 구로구의 다양한 소식을 받아보실 수 있습니다"
+    }
+  }
+}

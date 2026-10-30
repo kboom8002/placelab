@@ -1,0 +1,171 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-OPP-001": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "구로"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "basis_quote": "우리나라 최초의 국가산업단지로 현재는",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-002": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "구로"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "basis_quote": "2000년도 이후 첨단기술·벤처 등 지식정보 산업중심의 첨단 디지털단지로 탈바꿈",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-003": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "구로"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2100",
+      "basis_quote": "그 중심지는 구로동의 한국수출산업공단이었으며",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-004": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "푸른수목원",
+        "항동"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2792",
+      "basis_quote": "2018년 서울시 1호 공립수목원으로 지정되었습니다",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-005": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "항동"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2956",
+      "basis_quote": "1954년 비료회사가 운반을 위해 설치한 단선철도",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-006": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "문화철도"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2959",
+      "basis_quote": "신도림 역사 내에 위치한",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-007": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "새말로",
+        "구로"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2931",
+      "basis_quote": "위치 서울시 구로구 새말로 97",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-008": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "궁동",
+        "구로"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2994",
+      "basis_quote": "정선옹주는 조선 제 14대 임금 선조의 7녀로",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-009": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "구로"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2982",
+      "basis_quote": "개봉3동32-33번지 일대(대표지번)“개웅산”",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-010": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "디지털로26길",
+        "G-Tower",
+        "G타워",
+        "구로"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2992",
+      "basis_quote": "주소 : 서울시 구로구 디지털로26길 38, G-Tower 3층",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-011": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "구로"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2955",
+      "basis_quote": "총 10.5km의 코스이지만",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-012": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "안양천"
+      ],
+      "expectedPresent": true,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2987",
+      "basis_quote": "구일역 1번 출구 나와서 도보",
+      "fetchedOn": "2026-10-07",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-OPP-013": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "구로"
+      ],
+      "expectedPresent": false,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2994",
+      "basis_quote": "푸른수목원·항동기찻길 안양천 산책로 명품 구로올레길",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "negative_control": true
+    },
+    "GUR-OPP-014": {
+      "verification": "confirmed",
+      "expectedMentions": [
+        "구로"
+      ],
+      "expectedPresent": false,
+      "basis_url": "https://www.guro.go.kr/www/contents.do?key=2994",
+      "basis_quote": "푸른수목원·항동기찻길 안양천 산책로 명품 구로올레길",
+      "fetchedOn": "2026-10-07",
+      "absence_not_provable": true,
+      "negative_control": true
+    }
+  }
+}

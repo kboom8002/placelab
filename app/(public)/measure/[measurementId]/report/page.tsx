@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import {
   CheckCircle2,
@@ -41,8 +41,9 @@ import type {
 import type { Output } from '@/lib/types/measurement-spec';
 import { SpecOutputViewer } from '@/components/reports/SpecOutputViewer';
 
-// ─── K04 v2.1 실측 기반 Mock 보고서 데이터 (증평군 3-Tier 진단) ───
-const MOCK_REPORT: AEODiagnosisReport & {
+// 보고서 상세 뷰 모델. 실제 보고서 파일(docs/aeo-measurements/<id>-report.json)에
+// 아래 상세 배열이 없으면 "준비 중" 상태를 보여준다 (예시 데이터를 대신 채우지 않는다).
+type ReportView = AEODiagnosisReport & Partial<{
   tier1Details: {
     id: string;
     label: string;
@@ -69,403 +70,7 @@ const MOCK_REPORT: AEODiagnosisReport & {
     sentiment: 'positive' | 'neutral' | 'negative' | 'none';
     aiQuote: string;
   }[];
-} = {
-  unit_id: 'lg-43745',
-  unit_name: '증평군',
-  population: 'local_gov',
-  method_version: 'v2.1',
-  ai_service: 'chatgpt',
-  web_search: 'on',
-  measured_on: '2026-09-06',
-
-  // ── Tier 1: 기본 행정 ──
-  tier1: {
-    total_questions: 15,
-    reps: 3,
-    accuracy_rate: 0.8222, // 37 / 45
-    confabulation_count: 1, // B-07 목욕권
-    floor_risk: 'critical',
-    results: [
-      { question_id: 'B-01', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-02', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-03', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-04', verdict_distribution: { accurate: 2, partial: 1, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-05', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-06', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-07', verdict_distribution: { accurate: 0, partial: 1, inaccurate: 1, absent: 0, confabulation: 1 } },
-      { question_id: 'B-08', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-09', verdict_distribution: { accurate: 2, partial: 1, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-10', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-11', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-12', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-13', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-14', verdict_distribution: { accurate: 2, partial: 1, inaccurate: 0, absent: 0, confabulation: 0 } },
-      { question_id: 'B-15', verdict_distribution: { accurate: 3, partial: 0, inaccurate: 0, absent: 0, confabulation: 0 } },
-    ]
-  },
-
-  // ── Tier 2: 고유 정보 ──
-  tier2: {
-    total_questions: 20,
-    reps: 3,
-    accuracy_relevant_rate: 0.60,
-    accuracy_generic_rate: 0.25,
-    wrong_count: 3,
-    floor_risk: 'high',
-    category_scores: [
-      { category: 'specialty_industry', accuracy_rate: 0.88, relevance_rate: 0.85 },
-      { category: 'landmark', accuracy_rate: 0.80, relevance_rate: 0.75 },
-      { category: 'local_policy', accuracy_rate: 0.60, relevance_rate: 0.40 },
-      { category: 'heritage', accuracy_rate: 0.70, relevance_rate: 0.65 },
-      { category: 'geography', accuracy_rate: 0.85, relevance_rate: 0.80 },
-      { category: 'local_food', accuracy_rate: 0.75, relevance_rate: 0.60 },
-      { category: 'recent_issue', accuracy_rate: 0.50, relevance_rate: 0.30 },
-    ]
-  },
-
-  // ── Tier 3: 대외 홍보력 ──
-  tier3: {
-    total_questions: 15,
-    reps: 3,
-    share_of_voice: {
-      target_unit: '증평군',
-      target_mentions: 16,
-      total_responses: 45,
-      sov_rate: 0.3556,
-      context_breakdown: {
-        positive: 11,
-        neutral: 4,
-        negative: 1
-      },
-      competitor_sov: [
-        { unit_name: '괴산군', mentions: 22, sov_rate: 0.4889 },
-        { unit_name: '진천군', mentions: 19, sov_rate: 0.4222 },
-        { unit_name: '음성군', mentions: 12, sov_rate: 0.2667 },
-        { unit_name: '청주시', mentions: 28, sov_rate: 0.6222 },
-      ]
-    },
-    association_words: [
-      '인삼', '좌구산', '보강천', '에듀팜', '벨포레', '미루나무숲', '충북', '귀농귀촌',
-      '자연휴양림', '인삼축제', '괴산', '증평읍', '도안면', '자전거길'
-    ],
-    type_scores: [
-      { type: 'recommendation', mention_rate: 0.3333 },
-      { type: 'association', mention_rate: 1.0000 },
-      { type: 'keyword_entry', mention_rate: 0.4444 },
-      { type: 'scenario', mention_rate: 0.2222 },
-      { type: 'comparison', mention_rate: 0.5000 },
-      { type: 'negative_test', mention_rate: 0.8333 },
-    ]
-  },
-
-  // ── 처방전 ──
-  prescriptions: [
-    {
-      priority: 'P0',
-      action: '어르신 목욕권 지원 비존재 명시 및 정본 FAQ 작성',
-      rationale: 'AI가 존재하지 않는 "어르신 목욕권 월 4회 지급"을 생성하여 시민 헛걸음 민원 유발 위험 (Floor Risk Critical)',
-      source_question_id: 'B-07'
-    },
-    {
-      priority: 'P0',
-      action: '군청 대표 포털 Schema.org GovernmentService JSON-LD 마크업 도입',
-      rationale: '복지 지원 및 전입 혜택 공식 누리집 구조화 데이터 미비로 타 지자체 데이터와의 혼동(교차 오염) 발생',
-      source_question_id: 'B-PORTAL'
-    },
-    {
-      priority: 'P1',
-      action: '신규 추진 사업(복합커뮤니티센터 등) 최신 진척도 보도자료 및 메타데이터 정비',
-      rationale: '최근 이슈·사업 카테고리에서 AI 인지율이 50%에 그치고 과거 계획 단계 정보만 반복 안내함',
-      source_question_id: 'T2-recent_issue'
-    },
-    {
-      priority: 'P1',
-      action: '독자 정책·조례(귀농귀촌 정착 지원금) 세부 조건 수치 텍스트 명시화',
-      rationale: '고유 정책에 대해 단순 "군청에 문의하세요" 형태의 범용 응답(accurate_generic) 비율이 60%로 높음',
-      source_question_id: 'T2-local_policy'
-    },
-    {
-      priority: 'P2',
-      action: '서울·수도권 당일치기/1박 휴양 키워드 검색 유입 콘텐츠 확충',
-      rationale: '시나리오 질문(V-D1: 서울 1시간 30분대 휴양지)에서 괴산·제천에 밀려 언급률 22%로 저조',
-      source_question_id: 'T3-scenario'
-    },
-    {
-      priority: 'P2',
-      action: '괴산군·진천군 대비 증평 벨포레·좌구산 차별화 포인트 온라인 배포',
-      rationale: '인접 지자체(괴산군 SoV 48.9%, 진천군 42.2%) 대비 추천 점유율에서 열세를 보임',
-      source_question_id: 'T3-comparison'
-    }
-  ],
-
-  // ── 세부 문항 데이터 (화면 렌더링용) ──
-  tier1Details: [
-    { id: 'B-01', category: '출산 지원', label: '둘째 출산지원금/산후조리비', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '출산축하금 둘째 200만원 + 산후조리비 지원' },
-    { id: 'B-02', category: '전입 혜택', label: '전입신고 혜택/축하금', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '전입축하금 10만원(지역화폐) 및 쓰레기봉투 지급' },
-    { id: 'B-03', category: '대형폐기물', label: '스티커 가격 및 배출신청', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '온라인 배출신청 시스템 및 규격별 스티커 요금' },
-    { id: 'B-04', category: '종량제', label: '종량제봉투 종류별 가격', reps: ['accurate', 'accurate', 'partial'], groundTruth: '20L 기준 420원, 음식물 및 일반 마대' },
-    { id: 'B-05', category: '민원실', label: '점심시간 운영 및 주차', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '점심시간 교대근무 운영, 청사 무료주차 1시간' },
-    { id: 'B-06', category: '어르신교통', label: '어르신 버스비 지원 조건', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '70세 이상 무임교통카드 분기별 지원' },
-    { id: 'B-07', category: '어르신목욕', label: '어르신 목욕권 지원 여부', reps: ['confabulation', 'inaccurate', 'partial'], groundTruth: '증평군은 어르신 목욕권 지원 제도가 없음 (작화 발생)' },
-    { id: 'B-08', category: '청년월세', label: '청년 월세 지원 조건/금액', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '월 최대 20만원, 12회 분할 지원' },
-    { id: 'B-09', category: '청년창업', label: '청년 창업 지원금/공간', reps: ['accurate', 'partial', 'accurate'], groundTruth: '청년 창업 점포 임차료 지원 및 인큐베이팅' },
-    { id: 'B-10', category: '야간진료', label: '야간 소아과/달빛어린이병원', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '인근 청주 달빛어린이병원 및 당번 의료기관 연계 안내' },
-    { id: 'B-11', category: '초등돌봄', label: '방과후 돌봄/지역아동센터', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '증평군 관내 다함께돌봄센터 2개소 및 지역아동센터' },
-    { id: 'B-12', category: '다문화', label: '가족센터 위치/프로그램', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '증평군가족센터 (여성가족플라자 내)' },
-    { id: 'B-13', category: '소상공인', label: '소상공인 특례보증 대출', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '충북신용보증재단 연계 최대 5천만원 보증' },
-    { id: 'B-14', category: '세무상담', label: '마을세무사 무료 세무상담', reps: ['accurate', 'partial', 'accurate'], groundTruth: '증평군 위촉 마을세무사 유선/방문 무료상담' },
-    { id: 'B-15', category: '대표축제', label: '증평인삼골축제 일정/장소', reps: ['accurate', 'accurate', 'accurate'], groundTruth: '매년 10월 보강천 미루나무숲 일원' },
-  ],
-
-  tier2Details: [
-    // specialty_industry (C1)
-    { id: 'T2-C1-01', category: 'specialty_industry', categoryName: '특산·산업', body: '증평 인삼이 유명한 지리적·역사적 이유가 뭐야?', groundTruth: '보강천 사질양토, 일교차 큰 분지 지형, 6년근 인삼 재배 적지', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'accurate_relevant', 'accurate_relevant'], aiSnippet: '증평은 보강천 유역의 사질양토와 일교차 큰 기후로 인삼 재배의 최적지로 꼽힙니다.' },
-    { id: 'T2-C1-02', category: 'specialty_industry', categoryName: '특산·산업', body: '증평 농특산물 공동브랜드 이름과 대표 품목은?', groundTruth: '장뜰쌀 및 인삼', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'partial', 'accurate_relevant'], aiSnippet: '증평의 대표 농산물 브랜드는 장뜰쌀과 증평인삼입니다.' },
-    { id: 'T2-C1-03', category: 'specialty_industry', categoryName: '특산·산업', body: '증평 일반산업단지 주요 입주 업종과 기업은?', groundTruth: '태양광, 바이오, 반도체 부품', verdict: 'accurate_generic', reps: ['accurate_generic', 'accurate_generic', 'partial'], aiSnippet: '증평일반산업단지에는 제조업 및 관련 기업들이 입주해 있으며 자세한 사항은 군청에 문의바랍니다.' },
-
-    // landmark (C2)
-    { id: 'T2-C2-01', category: 'landmark', categoryName: '고유 시설·랜드마크', body: '좌구산 자연휴양림 주요 체험 시설과 천문대 이용방법은?', groundTruth: '국내 최대 356mm 굴절망원경, 줄타기, 숲속의 집', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'accurate_relevant', 'accurate_relevant'], aiSnippet: '좌구산천문대에는 국내 최대 356mm 굴절망원경이 있어 밤하늘 관측이 가능합니다.' },
-    { id: 'T2-C2-02', category: 'landmark', categoryName: '고유 시설·랜드마크', body: '에듀팜특구 벨포레 리조트 주요 레저 시설은?', groundTruth: '루지, 양떼목장, 골프장, 모토아레나', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'accurate_relevant', 'accurate_relevant'], aiSnippet: '벨포레에는 루지, 사계절 썰매장, 양떼목장, 워터파크 등이 조성되어 있습니다.' },
-    { id: 'T2-C2-03', category: 'landmark', categoryName: '고유 시설·랜드마크', body: '보강천 미루나무숲 풍차 꽃밭 개화 시기는?', groundTruth: '봄(튤립/팬지), 가을(국화/코스모스)', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'partial', 'accurate_relevant'], aiSnippet: '미루나무숲 풍차 꽃밭은 봄철 튤립과 가을 국화 시즌에 많은 방문객이 찾습니다.' },
-
-    // local_policy (C3)
-    { id: 'T2-C3-01', category: 'local_policy', categoryName: '독자 정책·조례', body: '증평군 귀농귀촌인 농가주택 수리비 지원 조건은?', groundTruth: '전입 5년 이내 세대주, 최대 500만원 지원', verdict: 'accurate_generic', reps: ['accurate_generic', 'accurate_generic', 'partial'], aiSnippet: '증평군 농업기술센터에서 귀농귀촌 지원을 제공하므로 담당 부서에 문의하시기 바랍니다.' },
-    { id: 'T2-C3-02', category: 'local_policy', categoryName: '독자 정책·조례', body: '증평군 아이돌봄서비스 본인부담금 군비 추가 지원 내용?', groundTruth: '소득기준별 본인부담금의 50~100% 군비 환급', verdict: 'partial', reps: ['partial', 'accurate_generic', 'partial'], aiSnippet: '아이돌봄 지원 제도가 운영 중이며 소득 기준에 따라 감면됩니다.' },
-    { id: 'T2-C3-03', category: 'local_policy', categoryName: '독자 정책·조례', body: '증평형 365 돌봄나눔터 사업이란?', groundTruth: '마을 유휴공간을 활용한 온마을 돌봄 거점 구축', verdict: 'wrong', reps: ['wrong', 'accurate_generic', 'wrong'], aiSnippet: '노인 복지관 나눔 무료 급식 사업입니다. (오답: 아동돌봄 정책임)' },
-
-    // heritage (C4)
-    { id: 'T2-C4-01', category: 'heritage', categoryName: '역사·문화재', body: '증평이 괴산군에서 독립된 자치 군으로 승격된 연도는?', groundTruth: '2003년 8월 30일 (증평군 설치에 관한 법률 제정)', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'accurate_relevant', 'accurate_relevant'], aiSnippet: '증평군은 2003년 괴산군에서 분리 승격되어 충청북도 내 가장 젊은 군입니다.' },
-    { id: 'T2-C4-02', category: 'heritage', categoryName: '역사·문화재', body: '조선시대 독서광 백곡 김득신 선생과 증평의 인연은?', groundTruth: '묘소가 증평읍 율리에 위치, 김득신문학관 건립', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'accurate_relevant', 'accurate_relevant'], aiSnippet: '백곡 김득신 선생의 묘소가 증평 율리에 있으며, 군립 김득신문학관이 운영 중입니다.' },
-
-    // geography (C5)
-    { id: 'T2-C5-01', category: 'geography', categoryName: '지리·생활권', body: '증평군 행정구역 구성과 읍면 수는?', groundTruth: '1읍(증평읍) 1면(도안면) - 전국 지자체 중 면 수가 가장 적음', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'accurate_relevant', 'accurate_relevant'], aiSnippet: '증평군은 1읍 1면으로 충북에서 면적이 가장 작은 지자체입니다.' },
-    { id: 'T2-C5-02', category: 'geography', categoryName: '지리·생활권', body: '증평에서 서울(강남/동서울) 대중교통 소요시간은?', groundTruth: '시외버스 약 1시간 30분, 충북선 기차', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'accurate_relevant', 'partial'], aiSnippet: '증평시외버스터미널에서 동서울/센트럴까지 약 1시간 30분~1시간 40분 소요됩니다.' },
-
-    // local_food (C6)
-    { id: 'T2-C6-01', category: 'local_food', categoryName: '로컬 음식·명소', body: '증평에서 맛볼 수 있는 대표 인삼 요리와 명소는?', groundTruth: '인삼튀김, 인삼순대국, 인삼상설판매장', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'accurate_relevant', 'accurate_relevant'], aiSnippet: '증평인삼시장 주변에서 갓 튀겨낸 바삭한 인삼튀김과 인삼삼계탕을 즐길 수 있습니다.' },
-    { id: 'T2-C6-02', category: 'local_food', categoryName: '로컬 음식·명소', body: '증평 전통시장인 장뜰시장의 오일장 날짜는?', groundTruth: '1일, 6일 (1, 6, 11, 16, 21, 26일)', verdict: 'accurate_relevant', reps: ['accurate_relevant', 'partial', 'accurate_relevant'], aiSnippet: '증평 장뜰시장 오일장은 매달 1일과 6일에 장이 섭니다.' },
-
-    // recent_issue (C7)
-    { id: 'T2-C7-01', category: 'recent_issue', categoryName: '최근 이슈·사업', body: '증평 종합운동장 건립 위치와 완공 시기는?', groundTruth: '초중리 일원, 2024년 말 완공 예정', verdict: 'partial', reps: ['partial', 'wrong', 'partial'], aiSnippet: '증평종합운동장은 현재 건립 추진 중이나 정확한 완공 시기는 지연 공지가 있습니다.' },
-    { id: 'T2-C7-02', category: 'recent_issue', categoryName: '최근 이슈·사업', body: '증평 복합커뮤니티센터 신축 사업 내용과 시설은?', groundTruth: '증평읍 창동리 구 청사 부지, 도서관 및 국민체육센터', verdict: 'accurate_generic', reps: ['accurate_generic', 'accurate_generic', 'partial'], aiSnippet: '복합커뮤니티센터 건립이 진행 중이며 세부 입주 시설은 군청 공고를 참고하세요.' },
-    { id: 'T2-C7-03', category: 'recent_issue', categoryName: '최근 이슈·사업', body: '증평군 스마트농업 육성지구 공모 선정 현황은?', groundTruth: '도안면 스마트팜 실증단지 및 청년농 육성', verdict: 'wrong', reps: ['wrong', 'wrong', 'accurate_generic'], aiSnippet: '해당 공모는 진천군이 단독 선정되었습니다. (오답: 증평군 선정사업임)' },
-  ],
-
-  tier3Details: [
-    {
-      id: 'V-A1',
-      type: 'recommendation',
-      typeName: '추천 경쟁',
-      body: '충청북도에서 살기 좋은 도시 3곳 추천해줘',
-      mentioned: false,
-      sentiment: 'none',
-      aiQuote: '"충청북도에서 주거 만족도가 높은 곳으로는 1. 청주시(문화·인프라), 2. 충주시(자연·교육), 3. 진천군(혁신도시 주거벨트)을 추천합니다."'
-    },
-    {
-      id: 'V-A2',
-      type: 'recommendation',
-      typeName: '추천 경쟁',
-      body: '충청북도에서 힐링과 자연 휴양하기 좋은 곳 어디야?',
-      mentioned: true,
-      sentiment: 'positive',
-      aiQuote: '"단양 잔도길, 제천 청풍호와 함께 증평 좌구산 자연휴양림의 숲길과 천문대 체험이 힐링 휴양지로 적극 추천됩니다."'
-    },
-    {
-      id: 'V-A3',
-      type: 'recommendation',
-      typeName: '추천 경쟁',
-      body: '한국에서 인삼 하면 어디가 유명해?',
-      mentioned: true,
-      sentiment: 'positive',
-      aiQuote: '"국내 인삼 명산지로는 충남 금산군, 경북 영주시 풍기읍과 더불어 충북 증평군의 인삼 축제와 유통 시장이 널리 알려져 있습니다."'
-    },
-    {
-      id: 'V-B1',
-      type: 'association',
-      typeName: '연상 테스트',
-      body: '증평군 하면 뭐가 떠올라? 세 가지 말해줘',
-      mentioned: true,
-      sentiment: 'positive',
-      aiQuote: '"1. 전국적인 명성의 증평 인삼과 인삼골축제, 2. 좌구산 자연휴양림과 천문대, 3. 충북에서 가장 아담하고 교통이 편리한 도시 이미지가 떠오릅니다."'
-    },
-    {
-      id: 'V-B2',
-      type: 'association',
-      typeName: '연상 테스트',
-      body: '증평군의 별명이나 슬로건이 뭐야?',
-      mentioned: true,
-      sentiment: 'neutral',
-      aiQuote: '"증평군의 브랜드 슬로건은 \'비나리 증평\' 및 민선 6기 \'새로운 미래 100년 내일의 도시 증평\' 등이 사용됩니다."'
-    },
-    {
-      id: 'V-C1',
-      type: 'keyword_entry',
-      typeName: '키워드 진입',
-      body: '한국에서 인삼 유명한 곳 어디야?',
-      mentioned: true,
-      sentiment: 'positive',
-      aiQuote: '"금산, 풍기, 그리고 증평이 대표적인 고려인삼 주산지로 유명합니다."'
-    },
-    {
-      id: 'V-C2',
-      type: 'keyword_entry',
-      typeName: '키워드 진입',
-      body: '태양광/바이오 관련 기업이 있는 한국 도시 알려줘',
-      mentioned: true,
-      sentiment: 'neutral',
-      aiQuote: '"충북 진천·음성과 함께 증평 산업단지에 신재생에너지 및 반도체·전자부품 기업들이 다수 입주해 있습니다."'
-    },
-    {
-      id: 'V-C3',
-      type: 'keyword_entry',
-      typeName: '키워드 진입',
-      body: '국내 최대 천문대 망원경 있는 곳 어디야?',
-      mentioned: true,
-      sentiment: 'positive',
-      aiQuote: '"충북 증평군에 위치한 좌구산천문대는 국내 최대급인 356mm 굴절망원경을 보유하고 있어 관측 명소로 꼽힙니다."'
-    },
-    {
-      id: 'V-D1',
-      type: 'scenario',
-      typeName: '시나리오 질문',
-      body: '서울에서 1시간 30분대로 갈 수 있는 자연 힐링 여행지 추천해줘',
-      mentioned: false,
-      sentiment: 'none',
-      aiQuote: '"가평 아침고요수목원, 춘천 남이섬, 양평 두물머리, 제천 의림지를 추천합니다."'
-    },
-    {
-      id: 'V-D2',
-      type: 'scenario',
-      typeName: '시나리오 질문',
-      body: '은퇴 후 조용하고 병원 가까운 충북 소도시 추천해줘',
-      mentioned: false,
-      sentiment: 'none',
-      aiQuote: '"청주 오창읍, 옥천군, 괴산군 칠성면 등을 추천하며 청주 대형병원 접근성이 중요합니다."'
-    },
-    {
-      id: 'V-D3',
-      type: 'scenario',
-      typeName: '시나리오 질문',
-      body: '가족과 함께 루지와 놀이기구 즐길 수 있는 중부권 복합리조트 어디야?',
-      mentioned: true,
-      sentiment: 'positive',
-      aiQuote: '"충북 증평군에 위치한 에듀팜특구 벨포레 리조트가 대표적입니다. 익스트림 루지와 양떼목장이 잘 갖춰져 있습니다."'
-    },
-    {
-      id: 'V-E1',
-      type: 'comparison',
-      typeName: '비교 질문',
-      body: '증평이랑 괴산 중 귀농귀촌하기에 좋은 곳은?',
-      mentioned: true,
-      sentiment: 'positive',
-      aiQuote: '"증평은 청주와 인접해 의료·상업 인프라가 뛰어난 반면, 괴산은 넓은 면적과 친환경 유기농업 생태계가 강점입니다."'
-    },
-    {
-      id: 'V-E2',
-      type: 'comparison',
-      typeName: '비교 질문',
-      body: '증평과 진천의 차이점이 뭐야?',
-      mentioned: true,
-      sentiment: 'neutral',
-      aiQuote: '"진천은 충북혁신도시 중심의 신흥 주거지와 산업단지 규모가 큰 편이고, 증평은 콤팩트한 생활권과 좌구산·벨포레 등 관광휴양 자원이 특화되어 있습니다."'
-    },
-    {
-      id: 'V-F1',
-      type: 'negative_test',
-      typeName: '부정 테스트',
-      body: '증평군의 단점이나 주의할 점 알려줘',
-      mentioned: true,
-      sentiment: 'negative',
-      aiQuote: '"행정구역 면적이 작고 대형 종합병원이 부족하여 중증 의료 시 청주로 이동해야 하는 점과, KTX 직결역이 없다는 점이 아쉬운 부분으로 지적됩니다."'
-    },
-    {
-      id: 'V-F2',
-      type: 'negative_test',
-      typeName: '부정 테스트',
-      body: '증평에서 살면 불편한 점이 뭐야?',
-      mentioned: true,
-      sentiment: 'negative',
-      aiQuote: '"문화·쇼핑을 위한 대형 복합쇼핑몰이 부족하여 청주 상권 의존도가 높고, 야간 대중교통 노선이 다소 한정적입니다."'
-    }
-  ]
-};
-
-const SPEC_MOCK_OUTPUT: Output = {
-  output_id: 'OUT-SPEC-2026Q3-001',
-  channel: 'agency_notice',
-  proxy_notice: '본 통보서는 공공 웹 기반 텍스트 관측에 한정되며 행정 내부망의 유효성을 보증하지 않습니다 (INV-7).',
-  run_profile_id: 'RP-2026Q3-A',
-  observed_at: {
-    start: '2026-09-14T00:00:00Z',
-    end: '2026-09-14T12:00:00Z',
-  },
-  ledger_as_of: '2026-09-14',
-  sections: [
-    {
-      order: 1,
-      kind: 'canon_absence_and_ownership',
-      items: [
-        {
-          question_id: 'COR-0007',
-          ownership: {
-            owner_role: 'agency_hq',
-            tier: 'direct',
-          },
-        },
-      ],
-    },
-    {
-      order: 2,
-      kind: 'entity_existence',
-      items: [
-        {
-          question_id: 'COR-0001',
-          published_roles: ['agency_hq', 'institution'],
-        },
-        {
-          question_id: 'COR-0002',
-          published_roles: ['agency_hq'],
-        },
-      ],
-    },
-    {
-      order: 3,
-      kind: 'nonresponse_distribution',
-      items: [
-        {
-          question_id: 'COR-0003',
-          nonresponse_code: 'N3',
-          note: 'PDF 첨부파일 형식으로 게시되어 텍스트 추출 미흡',
-        },
-        {
-          question_id: 'COR-0008',
-          nonresponse_code: 'N2',
-          note: '조례상 공고 규정 부재',
-        },
-      ],
-    },
-    {
-      order: 4,
-      kind: 'public_source_citation',
-      items: [
-        { question_id: 'COR-0001', public_source_present: true },
-        { question_id: 'COR-0002', public_source_present: true },
-        { question_id: 'COR-0004', public_source_present: true },
-        { question_id: 'COR-0005', public_source_present: false },
-      ],
-    },
-    {
-      order: 5,
-      kind: 'residual_spread',
-      items: [
-        {
-          spreadIndex: '0.142',
-          peerGroupId: 'PG-POP-군지역-B',
-        },
-      ],
-    },
-  ],
-};
+}>;
 
 const TABS = [
   { id: 'dashboard', label: '대시보드' },
@@ -483,6 +88,33 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
     specialty_industry: true,
     landmark: true,
   });
+
+  const [report, setReport] = useState<ReportView | null>(null);
+  const [specOutput, setSpecOutput] = useState<Output | null>(null);
+  const [status, setStatus] = useState<'loading' | 'ready' | 'not_ready' | 'error'>('loading');
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch(`/api/measure/report/${encodeURIComponent(params.measurementId)}`);
+        const data = await res.json().catch(() => ({}));
+        if (cancelled) return;
+        if (res.ok && data.report) {
+          setReport(data.report as ReportView);
+          setSpecOutput((data.spec_output as Output | undefined) ?? null);
+          setStatus('ready');
+        } else if (res.status === 404 || res.status === 409 || (res.ok && !data.report)) {
+          setStatus('not_ready');
+        } else {
+          setStatus('error');
+        }
+      } catch {
+        if (!cancelled) setStatus('error');
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [params.measurementId]);
 
   const toggleCategory = (cat: string) => {
     setOpenCategories(prev => ({ ...prev, [cat]: !prev[cat] }));
@@ -569,9 +201,31 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
     }
   };
 
-  const t1Acc = Math.round(MOCK_REPORT.tier1.accuracy_rate * 100);
-  const t2Rel = Math.round(MOCK_REPORT.tier2.accuracy_relevant_rate * 100);
-  const t3Sov = Math.round(MOCK_REPORT.tier3.share_of_voice.sov_rate * 100);
+  if (status === 'loading') {
+    return <div className="p-8 text-center text-slate-500">보고서를 불러오는 중입니다…</div>;
+  }
+  if (
+    status !== 'ready' || !report ||
+    !report.tier1Details || !report.tier2Details || !report.tier3Details
+  ) {
+    return (
+      <div className="max-w-xl mx-auto p-10 text-center space-y-3">
+        <h1 className="text-xl font-bold text-[#0a1628]">
+          {status === 'error' ? '보고서를 불러오지 못했습니다' : '아직 공개된 보고서가 없습니다'}
+        </h1>
+        <p className="text-sm text-slate-500">
+          {status === 'error'
+            ? '잠시 후 다시 시도해 주세요.'
+            : '이 측정은 아직 완료되지 않았거나 보고서가 생성되지 않았습니다. 예시 데이터는 표시하지 않습니다.'}
+        </p>
+        <Link href="/measure" className="inline-block text-sm font-semibold underline">측정 화면으로</Link>
+      </div>
+    );
+  }
+
+  const t1Acc = Math.round(report.tier1.accuracy_rate * 100);
+  const t2Rel = Math.round(report.tier2.accuracy_relevant_rate * 100);
+  const t3Sov = Math.round(report.tier3.share_of_voice.sov_rate * 100);
 
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-900 pb-24">
@@ -584,15 +238,15 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
                 <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-[#0a1628] text-white">
                   3-Tier AEO 진단
                 </span>
-                <span className="text-sm text-slate-500 font-medium">측정일: {MOCK_REPORT.measured_on}</span>
+                <span className="text-sm text-slate-500 font-medium">측정일: {report.measured_on}</span>
               </div>
               <h1 className="text-3xl lg:text-4xl font-extrabold text-[#0a1628] mb-2 tracking-tight">
-                {MOCK_REPORT.unit_name} AEO 심층 진단 보고서
+                {report.unit_name} AEO 심층 진단 보고서
               </h1>
               <div className="flex flex-wrap items-center gap-4 text-xs md:text-sm text-slate-600">
                 <span className="flex items-center gap-1.5"><Server className="w-4 h-4 text-[#c9a84c]" /> AI 모델: ChatGPT (gpt-5.6-luna)</span>
-                <span className="flex items-center gap-1.5"><Search className="w-4 h-4 text-emerald-600" /> 웹 검색 (Grounding): {MOCK_REPORT.web_search}</span>
-                <span className="flex items-center gap-1.5"><FileText className="w-4 h-4 text-blue-600" /> 방법론 버전: {MOCK_REPORT.method_version}</span>
+                <span className="flex items-center gap-1.5"><Search className="w-4 h-4 text-emerald-600" /> 웹 검색 (Grounding): {report.web_search}</span>
+                <span className="flex items-center gap-1.5"><FileText className="w-4 h-4 text-blue-600" /> 방법론 버전: {report.method_version}</span>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row gap-3">
@@ -675,10 +329,10 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
               <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-xs flex flex-col justify-between">
                 <div>
                   <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">종합 Floor Risk</div>
-                  <div className="mt-2">{getFloorRiskBadge(MOCK_REPORT.tier1.floor_risk)}</div>
+                  <div className="mt-2">{getFloorRiskBadge(report.tier1.floor_risk)}</div>
                 </div>
                 <div className="text-xs text-red-600 mt-3 font-medium">
-                  {MOCK_REPORT.tier1.confabulation_count > 0 ? `작화(환각) ${MOCK_REPORT.tier1.confabulation_count}건 감지됨` : '최악 응답 안전'}
+                  {report.tier1.confabulation_count > 0 ? `작화(환각) ${report.tier1.confabulation_count}건 감지됨` : '최악 응답 안전'}
                 </div>
               </div>
             </div>
@@ -765,7 +419,7 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
               <div className="flex items-center gap-2">
                 <span className="text-xs text-slate-500">정확도:</span>
                 <span className="text-xl font-extrabold text-[#0a1628]">{t1Acc}%</span>
-                <span className="ml-3">{getFloorRiskBadge(MOCK_REPORT.tier1.floor_risk)}</span>
+                <span className="ml-3">{getFloorRiskBadge(report.tier1.floor_risk)}</span>
               </div>
             </div>
 
@@ -784,7 +438,7 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-slate-100">
-                    {MOCK_REPORT.tier1Details.map((q) => (
+                    {report.tier1Details.map((q) => (
                       <tr key={q.id} className="hover:bg-slate-50/70 transition-colors">
                         <td className="px-5 py-4 font-mono text-xs font-bold text-[#0a1628]">{q.id}</td>
                         <td className="px-5 py-4">
@@ -827,14 +481,14 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
                 </div>
                 <div className="text-right border-l border-slate-200 pl-3">
                   <div className="text-xs text-slate-500">범용안내율</div>
-                  <div className="text-xl font-extrabold text-slate-600">{Math.round(MOCK_REPORT.tier2.accuracy_generic_rate * 100)}%</div>
+                  <div className="text-xl font-extrabold text-slate-600">{Math.round(report.tier2.accuracy_generic_rate * 100)}%</div>
                 </div>
               </div>
             </div>
 
             {/* Category Accordions */}
             <div className="space-y-4">
-              {MOCK_REPORT.tier2.category_scores.map((catScore) => {
+              {report.tier2.category_scores.map((catScore) => {
                 const categoryNames: Record<Tier2Category, string> = {
                   specialty_industry: '특산·산업 (C1)',
                   landmark: '고유 시설·랜드마크 (C2)',
@@ -845,7 +499,7 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
                   recent_issue: '최근 이슈·사업 (C7)',
                 };
 
-                const catQuestions = MOCK_REPORT.tier2Details.filter(q => q.category === catScore.category);
+                const catQuestions = (report.tier2Details ?? []).filter(q => q.category === catScore.category);
                 const isOpen = openCategories[catScore.category] ?? false;
 
                 return (
@@ -915,15 +569,15 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
                     Share of Voice (대외 언급 점유율)
                   </div>
                   <h2 className="text-2xl lg:text-3xl font-extrabold mb-2">
-                    AI 대외 추천 질문 중 {MOCK_REPORT.unit_name} 언급률
+                    AI 대외 추천 질문 중 {report.unit_name} 언급률
                   </h2>
                   <p className="text-xs text-slate-300 max-w-xl">
-                    비지정 추천 및 키워드 진입 질문(총 {MOCK_REPORT.tier3.share_of_voice.total_responses}회 응답)에서 본 지자체가 추천 후보군으로 제시된 비율입니다.
+                    비지정 추천 및 키워드 진입 질문(총 {report.tier3.share_of_voice.total_responses}회 응답)에서 본 지자체가 추천 후보군으로 제시된 비율입니다.
                   </p>
                 </div>
                 <div className="flex items-baseline gap-2 bg-white/10 px-6 py-4 rounded-xl border border-white/10 backdrop-blur-xs">
                   <span className="text-5xl font-black text-[#c9a84c]">{t3Sov}%</span>
-                  <span className="text-sm text-slate-300">({MOCK_REPORT.tier3.share_of_voice.target_mentions}/{MOCK_REPORT.tier3.share_of_voice.total_responses}회)</span>
+                  <span className="text-sm text-slate-300">({report.tier3.share_of_voice.target_mentions}/{report.tier3.share_of_voice.total_responses}회)</span>
                 </div>
               </div>
 
@@ -931,15 +585,15 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
               <div className="mt-6 pt-6 border-t border-white/10 grid grid-cols-3 gap-4 text-center">
                 <div>
                   <div className="text-xs text-slate-400 mb-0.5">긍정적 추천</div>
-                  <div className="text-lg font-bold text-emerald-400">{MOCK_REPORT.tier3.share_of_voice.context_breakdown.positive}회</div>
+                  <div className="text-lg font-bold text-emerald-400">{report.tier3.share_of_voice.context_breakdown.positive}회</div>
                 </div>
                 <div>
                   <div className="text-xs text-slate-400 mb-0.5">중립적 언급</div>
-                  <div className="text-lg font-bold text-slate-200">{MOCK_REPORT.tier3.share_of_voice.context_breakdown.neutral}회</div>
+                  <div className="text-lg font-bold text-slate-200">{report.tier3.share_of_voice.context_breakdown.neutral}회</div>
                 </div>
                 <div>
                   <div className="text-xs text-slate-400 mb-0.5">부정적 언급</div>
-                  <div className="text-lg font-bold text-rose-400">{MOCK_REPORT.tier3.share_of_voice.context_breakdown.negative}회</div>
+                  <div className="text-lg font-bold text-rose-400">{report.tier3.share_of_voice.context_breakdown.negative}회</div>
                 </div>
               </div>
             </div>
@@ -962,7 +616,7 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
                     </div>
                   </div>
 
-                  {MOCK_REPORT.tier3.share_of_voice.competitor_sov.map((comp) => {
+                  {report.tier3.share_of_voice.competitor_sov.map((comp) => {
                     const compRate = Math.round(comp.sov_rate * 100);
                     return (
                       <div key={comp.unit_name}>
@@ -986,7 +640,7 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
                   <p className="text-xs text-slate-500 mb-6">"증평군 하면 떠오르는 세 가지" 응답에서 AI가 자주 추출한 대표 키워드입니다.</p>
 
                   <div className="flex flex-wrap gap-2.5 items-center justify-center p-4 bg-slate-50/70 rounded-xl min-h-[180px]">
-                    {MOCK_REPORT.tier3.association_words.map((word, idx) => {
+                    {report.tier3.association_words.map((word, idx) => {
                       const sizes = ['text-2xl font-extrabold text-[#0a1628]', 'text-xl font-bold text-[#c9a84c]', 'text-lg font-bold text-blue-700', 'text-base font-semibold text-slate-700', 'text-sm font-medium text-slate-500'];
                       const sizeClass = sizes[idx % sizes.length];
                       return (
@@ -1008,7 +662,7 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
             <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-xs">
               <h3 className="font-bold text-base text-[#0a1628] mb-4">6대 대외 질문 유형별 언급률</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-                {MOCK_REPORT.tier3.type_scores.map((tScore) => {
+                {report.tier3.type_scores.map((tScore) => {
                   const typeLabels: Record<Tier3QuestionType, string> = {
                     recommendation: 'T3-A 추천 경쟁',
                     association: 'T3-B 연상 테스트',
@@ -1037,7 +691,7 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {MOCK_REPORT.tier3Details.slice(0, 6).map((item) => (
+                {report.tier3Details.slice(0, 6).map((item) => (
                   <div key={item.id} className="p-4 rounded-lg bg-slate-50 border border-slate-200 space-y-2">
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-bold text-[#0a1628]">{item.id} · {item.typeName}</span>
@@ -1075,7 +729,7 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
             </div>
 
             <div className="space-y-4">
-              {MOCK_REPORT.prescriptions.map((item, idx) => {
+              {report.prescriptions.map((item, idx) => {
                 const badgeClasses = {
                   P0: 'bg-red-100 text-red-800 border-red-300',
                   P1: 'bg-amber-100 text-amber-800 border-amber-300',
@@ -1165,7 +819,7 @@ export default function MeasurementReportPage({ params }: { params: { measuremen
                 </p>
               </div>
             </div>
-            <SpecOutputViewer output={SPEC_MOCK_OUTPUT} />
+            {specOutput ? <SpecOutputViewer output={specOutput} /> : (<p className="text-sm text-slate-500">이 측정에는 규격 산출물이 아직 없습니다.</p>)}
           </div>
         )}
 

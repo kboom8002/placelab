@@ -139,7 +139,7 @@ async function main() {
       unit_id: 'lg-41110',
       model: MODEL,
       method_version: 'v2.0',
-      web_search: 'on (model default)',
+      web_search: 'unverified', // ADR-0012: 검색 도구 미전달 (파일 상단 주석의 web_search=on 은 정정됨)
       mode: 'quick',
       reps: 1,
       measured_on: new Date().toISOString().slice(0, 10),

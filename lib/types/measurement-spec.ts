@@ -79,6 +79,13 @@ export interface Question {
 
 // ── 3. 응답 원문 (ResponseRecord) ───────────────────────────────
 
+export type SearchConditionLabel = 'on_verified' | 'off' | 'unverified';
+
+export interface SearchCallRecord {
+  query: string;
+  sources?: string[];
+}
+
 export interface ResponseRecord {
   response_id: string;
   question_id: string;
@@ -91,6 +98,17 @@ export interface ResponseRecord {
   body_urls?: string[];
   citation_urls?: string[];
   error_detail?: string;
+  // ── ADR-0012: OpenAI 웹검색 조건 (모두 선택. 기존 레코드와 호환) ──
+  lang?: 'ko' | 'en';
+  model_returned?: string;
+  search_condition_label?: SearchConditionLabel;
+  search_enabled?: boolean;
+  search_triggered?: boolean;
+  search_calls?: SearchCallRecord[];
+  usage?: { input_tokens?: number; output_tokens?: number; search_call_count?: number };
+  latency_ms?: number;
+  retries?: Array<{ at: string; error: string }>;
+  raw_hash?: string;
 }
 
 // ── 4. 관측 (Observation) ───────────────────────────────────────

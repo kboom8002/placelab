@@ -1,0 +1,188 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-MUL-001": {
+      "targetValue": "15일 이내",
+      "acceptableVariants": [
+        "15일 이내",
+        "15일",
+        "15 일 이내"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1639",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "전입한 날로부터 15일 이내"
+    },
+    "GUR-MUL-002": {
+      "targetValue": "온라인으로 신고가 불가",
+      "acceptableVariants": [
+        "온라인으로 신고가 불가",
+        "온라인 신고 불가",
+        "신고 불가"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1639",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "온라인으로 신고가 불가하며,"
+    },
+    "GUR-MUL-003": {
+      "targetValue": "3일 이내 처리",
+      "acceptableVariants": [
+        "3일 이내 처리",
+        "3일 이내",
+        "3일"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1639",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "온라인 신고시 3일 이내 처리"
+    },
+    "GUR-MUL-004": {
+      "targetValue": "하이코리아(마이페이지)",
+      "acceptableVariants": [
+        "하이코리아(마이페이지)",
+        "하이코리아 마이페이지",
+        "마이페이지"
+      ],
+      "sourceAuthority": "구로구청 민원여권과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1639",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-19",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "하이코리아(마이페이지)에서 처리결과 확인"
+    },
+    "GUR-MUL-005": {
+      "targetValue": "02-869-0317",
+      "acceptableVariants": [
+        "02-869-0317",
+        "028690317"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2217",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "(대표번호: 02-869-0317)"
+    },
+    "GUR-MUL-006": {
+      "targetValue": "02-6925-5270",
+      "acceptableVariants": [
+        "02-6925-5270",
+        "0269255270"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2217",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "이주배경청소년지원사업 02-6925-5270"
+    },
+    "GUR-MUL-007": {
+      "targetValue": "구로구 개봉로14, 4층 (개봉동403-191)",
+      "acceptableVariants": [
+        "구로구 개봉로14, 4층",
+        "개봉동403-191",
+        "개봉로14"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2217",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 개봉로14, 4층 (개봉동403-191)"
+    },
+    "GUR-MUL-008": {
+      "targetValue": "만5~12세",
+      "acceptableVariants": [
+        "만5~12세",
+        "만 5~12세",
+        "5~12세",
+        "12세"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2369",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "*대상: 만5~12세 다문화가정자녀"
+    },
+    "GUR-MUL-009": {
+      "targetValue": "주2회, 회당 2시간",
+      "acceptableVariants": [
+        "주2회",
+        "주 2회",
+        "회당 2시간",
+        "2시간"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2369",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "주2회, 회당 2시간"
+    },
+    "GUR-MUL-010": {
+      "targetValue": "1회 10개월",
+      "acceptableVariants": [
+        "1회 10개월",
+        "10개월"
+      ],
+      "sourceAuthority": "구로구청 가족보육과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2369",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "① 방문 한국어교육(1회 10개월)"
+    }
+  }
+}

@@ -267,7 +267,7 @@ async function main() {
       method_version: 'v1.0-person',
       ai_service: PROVIDER === 'gemini' ? 'gemini' : 'chatgpt',
       model: MODEL,
-      web_search: 'on',
+      web_search: 'unverified', // ADR-0012: chat.completions·검색 도구 미전달 → 'on' 으로 기록하지 않는다
       mode: REPS <= 3 ? 'quick' : 'full',
       reps: REPS,
       status: 'completed',

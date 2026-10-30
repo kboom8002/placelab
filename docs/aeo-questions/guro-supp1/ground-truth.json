@@ -1,0 +1,655 @@
+{
+  "unitId": "guro",
+  "agency_handle": "AG-0017",
+  "set": "guro_supp1_exploratory",
+  "fetchedOn": "2026-10-07",
+  "entries": {
+    "GUR-SX1-001": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "주차관리과"
+      ],
+      "phone": [
+        "02-860-2086",
+        "860-2086"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "불법주정차 위반 단속, 불법주정차 위반 과태료 주차관리과 02-860-2086",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-002": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "환경과"
+      ],
+      "phone": [
+        "02-860-2370",
+        "860-2370"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "환경 민원(소음, 대기, 수질, 토양 … 환경과 02-860-2370",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-003": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "민원여권과"
+      ],
+      "phone": [
+        "02-860-2219",
+        "860-2219"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "여권 발급, 여권 관련 증명서 … 민원여권과 02-860-2219",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-004": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "어르신복지과"
+      ],
+      "phone": [
+        "02-860-2444",
+        "860-2444"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "노인복지, 기초연금, 노인일자리사업 … 어르신복지과 02-860-2444",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-005": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "보건소민원실",
+        "보건소 민원실"
+      ],
+      "phone": [
+        "02-860-2426",
+        "860-2426"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "건강진단결과서(구-보건증), 건강진단서 발급 보건소민원실 02-860-2426",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-006": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "질병관리과"
+      ],
+      "phone": [
+        "02-860-3040",
+        "860-3040"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "유기동물, 길고양이관리 질병관리과 02-860-3040",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-007": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "징수과"
+      ],
+      "phone": [
+        "02-860-2111",
+        "860-2111"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "지방세 체납 … 징수과 02-860-2111",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-008": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "재산세과"
+      ],
+      "phone": [
+        "02-860-2112",
+        "860-2112"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "재산세, 부동산 취득세 … 재산세과 02-860-2112",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-009": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "도로과"
+      ],
+      "phone": [
+        "02-860-2405",
+        "860-2405"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "도로개설․굴착․복구 도로 보도 관리 도로과 02-860-2405",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-010": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "가로경관과"
+      ],
+      "phone": [
+        "02-860-2400",
+        "860-2400"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "불법광고물, 현수막 … 가로경관과 02-860-2400",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-011": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "가족보육과"
+      ],
+      "phone": [
+        "02-860-2090",
+        "860-2090"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "보육시설, 어린이집, 보육료, 양육수당 … 가족보육과 02-860-2090",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-012": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "위생과"
+      ],
+      "phone": [
+        "02-860-2360",
+        "860-2360"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "식품접객업 … 식중독, 모범음식점 위생과 02-860-2360",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-013": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "주택과"
+      ],
+      "phone": [
+        "02-860-2380",
+        "860-2380"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "위반건축물 단속, 무허가건축물 … 주택과 02-860-2380",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-014": {
+      "kind": "route",
+      "verification": "confirmed",
+      "dept": [
+        "도시안전과"
+      ],
+      "phone": [
+        "02-860-2089",
+        "860-2089"
+      ],
+      "alt_channels": [
+        "120",
+        "다산콜",
+        "안전신문고",
+        "국민신문고",
+        "동주민센터",
+        "주민센터",
+        "정부24",
+        "860-2114"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4642",
+      "asOfSource": "2026-08-10",
+      "evidence_quote": "구민안전보험, 그늘막, 민방위 … 도시안전과 02-860-2089",
+      "demand_basis": "구청 주요업무별 전화번호의 주요민원업무 + 분석자 추정(미검증)"
+    },
+    "GUR-SX1-015": {
+      "kind": "fact",
+      "verification": "confirmed",
+      "targetValue": "장인홍",
+      "acceptableVariants": [
+        "장인홍"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=1809",
+      "evidence_quote": "장인홍 구청장 전화번호 02-860-2323",
+      "volatility": "event"
+    },
+    "GUR-SX1-016": {
+      "kind": "variant2",
+      "verification": "confirmed",
+      "variants": {
+        "A": [
+          "따뜻한 동행",
+          "변화하는 구로"
+        ],
+        "B": [
+          "더 나은 내일",
+          "더나은 내일",
+          "함께 여는 구로",
+          "함께여는 구로"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.guro.go.kr/www/contents.do?key=1961",
+          "quote": "“따뜻한 동행, 변화하는 구로” 라는 민선 8기 구정 슬로건"
+        },
+        {
+          "url": "https://www.guro.go.kr/www/contents.do?key=2029",
+          "quote": "\"따뜻한 동행, 변화하는 구로\"의 구정목표와 부합되는지"
+        },
+        {
+          "url": "https://www.guro.go.kr/www/contents.do?key=1998",
+          "quote": "\"더 나은 내일, 함께 여는 구로\"라는 구정목표를 실현해"
+        },
+        {
+          "url": "https://www.guro.go.kr/www/contents.do?key=2070",
+          "quote": "민선자치8기(장인홍 구청장)를 맞이하여「더나은 내일, 함께여는 구로」라는 구정목표"
+        },
+        {
+          "url": "https://www.guro.go.kr/www/selectBbsNttList.do?bbsNo=665&key=1793&searchCnd=SJ&searchKrwd=%EC%8A%AC%EB%A1%9C%EA%B1%B4",
+          "quote": "새 구호(슬로건) … 더 나은 내일, 함께 여는 구로 … 확정 2025.05.07"
+        },
+        {
+          "url": "https://www.guro.go.kr/www/selectBbsNttList.do?bbsNo=665&key=1793&searchCnd=SJ&searchKrwd=%EC%8A%AC%EB%A1%9C%EA%B1%B4",
+          "quote": "따뜻한 동행, 변화하는 구로 … 민선8기 슬로건 확정(2022.7.15.)"
+        }
+      ],
+      "current": "B",
+      "note": "누리집 안에서 두 표현이 공존한다(누리집 머리 영역은 A). 보도자료상 A=2022-07 민선8기 슬로건, B=2025-05-07 확정 새 구호 → 현행은 B. B 를 이 문항의 현행 값으로 본다(응답 확인 후 보정, 기록 남김)"
+    },
+    "GUR-SX1-017": {
+      "kind": "fact",
+      "verification": "confirmed",
+      "targetValue": "G페스티벌",
+      "acceptableVariants": [
+        "G페스티벌",
+        "G 페스티벌",
+        "G-페스티벌",
+        "지페스티벌",
+        "구로G페스티벌"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2976",
+      "evidence_quote": "기존 지역대표 축제인 ‘점프!구로”와 ’아시아문화축제’를 하나로 통합한 G페스티벌"
+    },
+    "GUR-SX1-018": {
+      "kind": "fact",
+      "verification": "confirmed",
+      "targetValue": "5%",
+      "acceptableVariants": [
+        "5%",
+        "5 %",
+        "5퍼센트"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4586",
+      "evidence_quote": "구로사랑상품권 할인혜택(2026년 7월 발행분 기준) - 상품권 구매 시 5% 할인",
+      "asOfSource": "2026-07",
+      "volatility": "event",
+      "note": "발행분마다 바뀐다. 다른 값이 과거·다른 발행분일 수 있어 불일치는 사람 확인"
+    },
+    "GUR-SX1-019": {
+      "kind": "coverage",
+      "verification": "confirmed",
+      "items": {
+        "고척스카이돔": [
+          "고척스카이돔",
+          "고척돔"
+        ],
+        "푸른수목원": [
+          "푸른수목원"
+        ],
+        "구로디지털산업단지": [
+          "구로디지털",
+          "G밸리",
+          "지밸리"
+        ],
+        "G페스티벌": [
+          "G페스티벌",
+          "G 페스티벌"
+        ],
+        "구로아트밸리예술극장": [
+          "구로아트밸리"
+        ],
+        "신도림역세권": [
+          "신도림"
+        ],
+        "남구로시장": [
+          "남구로시장"
+        ],
+        "궁동생태공원": [
+          "궁동생태공원"
+        ],
+        "명품올레길": [
+          "올레길"
+        ],
+        "개웅산한바퀴": [
+          "개웅산"
+        ],
+        "가리봉동측백나무": [
+          "측백나무"
+        ],
+        "오류아트홀": [
+          "오류아트홀"
+        ],
+        "항동철길": [
+          "항동철길",
+          "항동 철길",
+          "항동기찻길"
+        ],
+        "안양천": [
+          "안양천"
+        ]
+      },
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2973",
+      "evidence_quote": "고척스카이돔 항동푸른수목원 구로디지털산업단지 G페스티벌 구로아트밸리예술극장 신도림역세권 남구로시장 궁동생태공원 구로 명품올레길 개웅산 한바퀴(둘레길) 가리봉동 측백나무 제례행사 오류아트홀",
+      "note": "구로자랑거리 12곳 + 九景의 항동기찻길·안양천. 다른 구의 명소를 구로구로 소개하면 오귀속(사람 확인)"
+    },
+    "GUR-SX1-020": {
+      "kind": "fact",
+      "verification": "confirmed",
+      "targetValue": "구청장에게 바란다",
+      "acceptableVariants": [
+        "구청장에게 바란다",
+        "열린구청장실",
+        "열린 구청장실"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/index.do",
+      "evidence_quote": "구청장에게 바란다 열린 구청장실 매니페스토 (공약)"
+    },
+    "GUR-SX1-021": {
+      "kind": "mention",
+      "verification": "confirmed",
+      "entity": [
+        "구로디지털",
+        "G밸리",
+        "지밸리",
+        "구로"
+      ],
+      "district": [
+        "구로"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "evidence_quote": "2000년도 이후 첨단기술·벤처 등 지식정보 산업중심의 첨단 디지털단지로 탈바꿈",
+      "note": "G밸리는 구로구·금천구에 걸친다(금천 언급은 오귀속 아님)"
+    },
+    "GUR-SX1-022": {
+      "kind": "mention",
+      "verification": "confirmed",
+      "entity": [
+        "고척"
+      ],
+      "district": [
+        "구로"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2957",
+      "evidence_quote": "서울 구로구 고척동",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-SX1-023": {
+      "kind": "mention",
+      "verification": "confirmed",
+      "entity": [
+        "푸른수목원"
+      ],
+      "district": [
+        "구로",
+        "항동"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2792",
+      "evidence_quote": "2018년 서울시 1호 공립수목원으로 지정되었습니다",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-SX1-024": {
+      "kind": "mention",
+      "verification": "confirmed",
+      "entity": [
+        "안양천"
+      ],
+      "district": [
+        "구로",
+        "오금교"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2945",
+      "evidence_quote": "위 치 : 안양천 우안 둔치(오금교 아래)",
+      "note": "안양천은 여러 자치구를 지난다. 구로구 시설로 귀속했는지가 관심"
+    },
+    "GUR-SX1-025": {
+      "kind": "mention",
+      "verification": "confirmed",
+      "entity": [
+        "항동"
+      ],
+      "district": [
+        "구로"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2956",
+      "evidence_quote": "1954년 비료회사가 운반을 위해 설치한 단선철도",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-SX1-026": {
+      "kind": "mention",
+      "verification": "confirmed",
+      "entity": [
+        "궁동"
+      ],
+      "district": [
+        "구로"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2960",
+      "evidence_quote": "7-8월이면 이 저수지 위에 가득한 연꽃들이 만개한다고 하니",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-SX1-027": {
+      "kind": "mention",
+      "verification": "confirmed",
+      "entity": [
+        "G밸리산업박물관",
+        "G밸리 산업박물관",
+        "지밸리산업박물관",
+        "지밸리 산업박물관"
+      ],
+      "district": [
+        "구로"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2992",
+      "evidence_quote": "주소 : 서울시 구로구 디지털로26길 38, G-Tower 3층",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-SX1-028": {
+      "kind": "mention",
+      "verification": "confirmed",
+      "entity": [
+        "구로"
+      ],
+      "district": [
+        "구로"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2844",
+      "evidence_quote": "해외 판로개척을 희망하는 G밸리 소재 중소기업",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-SX1-029": {
+      "kind": "mention",
+      "verification": "confirmed",
+      "entity": [
+        "G페스티벌",
+        "G 페스티벌",
+        "지페스티벌",
+        "G-페스티벌"
+      ],
+      "district": [
+        "구로"
+      ],
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2976",
+      "evidence_quote": "’아시아문화축제’를 하나로 통합한 G페스티벌",
+      "note": "등장 여부만 본다. 등장하지 않는 것이 오류라는 뜻이 아니다."
+    },
+    "GUR-SX1-030": {
+      "kind": "negative",
+      "verification": "confirmed",
+      "entity": [
+        "구로"
+      ],
+      "district": [
+        "구로"
+      ],
+      "expectedPresent": false,
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2973",
+      "evidence_quote": "구로자랑거리 목록에 스키장 없음",
+      "absence_not_provable": true,
+      "note": "음성 대조. 구로가 등장하면 오귀속 후보"
+    }
+  }
+}

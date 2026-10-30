@@ -156,6 +156,32 @@ export default function KBrandLabDashboardPage() {
           </Link>
         </div>
 
+        {/* 신규 트랙: 로컬레이다 (LocalRadar · 소상공인 AI 로컬 탐색 스캔 — 서귀포 · 강남 · 은평구) */}
+        <Link
+          href="/kbrandlab/local"
+          className="block bg-gradient-to-r from-emerald-900 via-slate-900 to-slate-900 text-white rounded-3xl p-6 sm:p-8 border border-emerald-500/30 shadow-lg hover:border-emerald-400 transition-all group"
+        >
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div className="space-y-2 max-w-3xl">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-400/15 border border-emerald-400/30 text-emerald-300 text-xs font-bold">
+                <Sparkles className="w-3.5 h-3.5" />
+                신규 트랙 · 로컬레이다 (LocalRadar) — 소상공인 AI 로컬 탐색 스캔
+              </div>
+              <h2 className="text-xl sm:text-2xl font-black text-white group-hover:text-emerald-300 transition-colors">
+                서귀포 · 강남 · 은평구 3대 상권 코호트 가게 실명 탐색 스캔 & 헛걸음 위험 5항목 진단
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                권역별 소비자 로컬 탐색 질문(4개 국어)에서 코호트 내 가게 실명이 등장하는 4주 창 상태(안정·신규·가끔·드묾·소멸)를 확인하고,
+                영업시간·정기휴무·가격·예약·주차 등 손님 헛걸음 위험 5항목을 정본과 대조합니다.
+              </p>
+            </div>
+            <div className="shrink-0 inline-flex items-center gap-2 px-5 py-3 rounded-2xl bg-emerald-500 text-slate-950 font-black text-xs sm:text-sm group-hover:bg-emerald-400 transition-colors">
+              <span>로컬레이다 열기</span>
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            </div>
+          </div>
+        </Link>
+
         {/* 핵심 실측 지표 요약 바 (§8.6) */}
         <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-4">
           <div className="flex items-center justify-between border-b border-slate-100 pb-4">

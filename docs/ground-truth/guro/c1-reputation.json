@@ -1,0 +1,365 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-REP-011": {
+      "targetValue": "1980년 4월 1일",
+      "acceptableVariants": [
+        "1980년 4월 1일",
+        "1980.4.1",
+        "1980-04-01",
+        "1980년"
+      ],
+      "sourceAuthority": "구로구청",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2100",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1980년 4월 1일 대통령령 제9630호에 의거 영등포구에서 분리"
+    },
+    "GUR-REP-012": {
+      "targetValue": "1995년 3월 1일",
+      "acceptableVariants": [
+        "1995년 3월 1일",
+        "1995.3.1",
+        "1995-03-01",
+        "1995년"
+      ],
+      "sourceAuthority": "구로구청",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2091",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1995. 03. 01. 금천구를 만들면서"
+    },
+    "GUR-REP-013": {
+      "targetValue": "구로동의 한국수출산업공단(구로공단)",
+      "acceptableVariants": [
+        "한국수출산업공단",
+        "수출산업공단",
+        "구로공단"
+      ],
+      "sourceAuthority": "구로구청",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2100",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "그 중심지는 구로동의 한국수출산업공단이었으며"
+    },
+    "GUR-REP-014": {
+      "targetValue": "1964년부터 1973년까지",
+      "acceptableVariants": [
+        "1964",
+        "1973"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1964년부터 1973년까지 수출산업단지개발조성법에 의해"
+    },
+    "GUR-REP-015": {
+      "targetValue": "맞음 — 구청 안내는 우리나라 최초의 국가산업단지로 소개",
+      "acceptableVariants": [
+        "최초의 국가산업단지",
+        "최초의 국가 산업단지",
+        "최초"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "우리나라 최초의 국가산업단지로 현재는"
+    },
+    "GUR-REP-016": {
+      "targetValue": "첨단기술·벤처 등 지식정보 산업 중심의 디지털단지(IT산업 집적지)",
+      "acceptableVariants": [
+        "지식정보",
+        "IT산업",
+        "첨단기술",
+        "벤처",
+        "IT"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "2000년도 이후 첨단기술·벤처 등 지식정보 산업중심의 첨단 디지털단지로 탈바꿈"
+    },
+    "GUR-REP-017": {
+      "targetValue": "1만3000여 개 기업 (구청 안내 문구 기준)",
+      "acceptableVariants": [
+        "1만3000",
+        "1만 3천",
+        "13,000",
+        "1만3천"
+      ],
+      "sourceAuthority": "구로구청 일자리지원과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2849",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": null,
+      "valueNature": "estimated",
+      "verification": "confirmed",
+      "evidence_quote": "현재는 1만3000여개의 기업체가 입주하여"
+    },
+    "GUR-REP-018": {
+      "targetValue": "5.16㎢",
+      "acceptableVariants": [
+        "5.16"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "통계",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "녹지 5.16㎢"
+    },
+    "GUR-REP-019": {
+      "targetValue": "70개소",
+      "acceptableVariants": [
+        "70개소",
+        "70곳",
+        "70개"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "통계",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "공원 70개소"
+    },
+    "GUR-REP-020": {
+      "targetValue": "25,296명",
+      "acceptableVariants": [
+        "25,296",
+        "25296"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "통계",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "등록 외국국적동포 25,296명"
+    },
+    "GUR-REP-001": {
+      "targetValue": "16개 행정동",
+      "acceptableVariants": [
+        "16개 행정동",
+        "16개",
+        "16"
+      ],
+      "sourceAuthority": "구로구청 자치행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2091",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "16개 행정동과 10개 법정동으로 구성하였다."
+    },
+    "GUR-REP-002": {
+      "targetValue": "16개동",
+      "acceptableVariants": [
+        "16개동",
+        "16개 동",
+        "16"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "행정구역 16개동, 631통, 4,935반"
+    },
+    "GUR-REP-003": {
+      "targetValue": "433,534명",
+      "acceptableVariants": [
+        "433,534명",
+        "433534명",
+        "433,534"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "총 인구수 433,534명"
+    },
+    "GUR-REP-004": {
+      "targetValue": "20.14㎢",
+      "acceptableVariants": [
+        "20.14㎢",
+        "20.14km²",
+        "20.14"
+      ],
+      "sourceAuthority": "구로구청 기획예산과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2094",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-23",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "총 면적 20.14㎢"
+    },
+    "GUR-REP-005": {
+      "targetValue": "2023년~2026년",
+      "acceptableVariants": [
+        "2023년~2026년",
+        "2023~2026년",
+        "2023-2026",
+        "2023~2026"
+      ],
+      "sourceAuthority": "구로구청 복지정책과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2164",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "4개년(2023년~2026년) 지역 사회복지계획"
+    },
+    "GUR-REP-006": {
+      "targetValue": "관할 동주민센터",
+      "acceptableVariants": [
+        "관할 동주민센터",
+        "동주민센터"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2280",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "신청장소 관할 동주민센터"
+    },
+    "GUR-REP-007": {
+      "targetValue": "16,800원",
+      "acceptableVariants": [
+        "16,800원",
+        "16800원"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2280",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "본인부담금 16,800원"
+    },
+    "GUR-REP-008": {
+      "targetValue": "12개월",
+      "acceptableVariants": [
+        "12개월"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2280",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "지원기간 12개월(예산마감시 신청 불가)"
+    },
+    "GUR-REP-009": {
+      "targetValue": "02-860-8275",
+      "acceptableVariants": [
+        "02-860-8275",
+        "028608275"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2280",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "평강안마원 : 02-860-8275"
+    },
+    "GUR-REP-010": {
+      "targetValue": "만 24세 이하",
+      "acceptableVariants": [
+        "만 24세 이하",
+        "24세 이하"
+      ],
+      "sourceAuthority": "구로구청 장애인복지과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2280",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "연령 및 가구 특성 : 만 24세 이하"
+    }
+  }
+}

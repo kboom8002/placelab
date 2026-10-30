@@ -5,15 +5,15 @@ import { Navbar } from '@/components/ui/Navbar';
 import { Footer } from '@/components/ui/Footer';
 
 export const metadata: Metadata = {
-  title: 'kplacelab — 지자체 AI 응답 측정 플랫폼',
+  title: '모두의 정답노트 — AI가 우리 동네를 제대로 답하는가',
   description:
-    '전국 243개 지방자치단체와 특별구역의 생성형 AI 기술 접근성과 응답 품질을 독립적으로 측정하고 시계열로 추적하는 웹 플랫폼',
-  metadataBase: new URL(process.env.SITE_URL || 'https://kplacelab.kr'),
+    '전국 광역 16 · 기초 227개 지방자치단체와 특별구역에 대해 생성형 AI가 공식 출처를 첫 근거로 인용하고 정확히 답하는지 측정·공표하는 민간 공익 데이터 플랫폼',
+  metadataBase: new URL(process.env.SITE_URL || 'https://jeongdap.kr'),
   openGraph: {
-    title: 'kplacelab — 지자체 AI 응답 측정 플랫폼',
+    title: '모두의 정답노트 — AI가 우리 동네를 제대로 답하는가',
     description:
-      '전국 243개 지방자치단체와 특별구역의 생성형 AI 기술 접근성과 응답 품질을 독립적으로 측정하고 시계열로 추적하는 웹 플랫폼',
-    siteName: 'kplacelab',
+      '전국 광역 16 · 기초 227개 지방자치단체와 특별구역에 대해 생성형 AI가 공식 출처를 첫 근거로 인용하고 정확히 답하는지 측정·공표하는 민간 공익 데이터 플랫폼',
+    siteName: '모두의 정답노트 (Jeongdap Note)',
     locale: 'ko_KR',
     type: 'website',
   },
@@ -28,11 +28,11 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'kplacelab',
-    alternateName: '지자체 AI 응답 측정 플랫폼',
-    url: 'https://kplacelab.kr',
+    name: '모두의 정답노트',
+    alternateName: ['Jeongdap Note', 'kplacelab'],
+    url: 'https://jeongdap.kr',
     description:
-      '전국 243개 지방자치단체와 특별구역의 생성형 AI 기술 접근성과 응답 품질을 독립적으로 측정하는 웹 플랫폼',
+      'AI가 우리 동네를 제대로 답하는가 — 전국 지방자치단체 AI 응답의 공식 근거율과 피해 위험을 독립 측정하는 민간 공익 플랫폼',
   };
 
   return (

@@ -17,10 +17,16 @@ import { testSelfCompliance } from './self-compliance.test';
 import { testSpecValidation } from './spec-validation.test';
 import { testMeasurementSpecPipeline } from '../measurement/measurement-spec-pipeline.test';
 import { testInv4CitizenReportSeparation } from './inv-4-citizen-report-separation.test';
+import { testCollectorWebSearch } from '../measurement/collector-websearch.test';
+import { testRouteGuard } from './route-guard.test';
+import { testInv13JeongdapRules } from './inv-13-jeongdap-rules.test';
+import { testE2EGoldenScenarios } from './e2e-golden-scenarios.test';
+import { testCommercialFirewallAndLocalRadar } from './firewall-commercial.test';
+import { testMapsInvariantsAndGoldenScenarios } from './maps-invariants.test';
 
 async function runAllInvariantTests() {
   console.log('====================================================');
-  console.log('  kplacelab 절대 불변식 (INV-1 ~ INV-12) 테스트 실행');
+  console.log('  모두의 정답노트 (Jeongdap Note) 절대 불변식 테스트 실행');
   console.log('====================================================\n');
 
   let passed = 0;
@@ -43,7 +49,14 @@ async function runAllInvariantTests() {
     { name: 'FR-5.4: 자체 사이트 자가 준수 (robots.txt)', fn: testSelfCompliance },
     { name: 'SPEC: measurement-spec 규격 저장소 린트 무결성', fn: testSpecValidation },
     { name: 'SPEC-PIPE: 신규 측정 파이프라인 4단계 완결 검증', fn: testMeasurementSpecPipeline },
+    { name: 'ADR-0012: OpenAI 웹검색 수집기·검색 조건 라벨 정오표', fn: testCollectorWebSearch },
+    { name: 'SEC-0: 보호 경로 인증·리다이렉트 검증·코드 내 비밀키 금지', fn: testRouteGuard },
+    { name: 'INV-13~18: 모두의 정답노트 출처 4단·창 상태·구간·공표 게이트 검증', fn: testInv13JeongdapRules },
+    { name: 'E2E-GOLDEN: 7대 주요 시나리오 End-to-End 골든 테스트 (G-1 ~ G-7)', fn: testE2EGoldenScenarios },
+    { name: 'ADR-0025: 로컬레이다(LocalRadar) 3대 상권 코호트·가게 실명 비교·상업 방화벽 검증', fn: testCommercialFirewallAndLocalRadar },
+    { name: 'ADR-0026/0027: MAPS 스튜디오 불변식(MAPS-INV-01~20) 및 8대 골든 시나리오(MG-1~MG-8) 검증', fn: testMapsInvariantsAndGoldenScenarios },
   ];
+
 
   for (const t of tests) {
     try {

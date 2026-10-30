@@ -4,10 +4,18 @@ import { createClient as createSupabaseClient } from '@supabase/supabase-js';
 import { DIAGNOSTIC_REPORTS } from '@/lib/reports/diagnostic-reports';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const siteUrl = process.env.SITE_URL || 'https://kplacelab.kr';
+  const siteUrl = process.env.SITE_URL || 'https://jeongdap.kr';
 
   const routes = [
     '',
+    '/regions',
+    '/maps',
+    '/weekly',
+    '/culture',
+    '/join',
+    '/disclosure',
+    '/crew',
+    '/labs/tech-access',
     '/units',
     '/reports',
     ...DIAGNOSTIC_REPORTS.map((r) => `/reports/${r.slug}`),
@@ -26,11 +34,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/theme-lab/map',
     '/theme-lab/themes',
     '/theme-lab/studio',
+    '/studio',
   ].map((route) => ({
     url: `${siteUrl}${route}`,
     lastModified: new Date().toISOString(),
     changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1.0 : route.startsWith('/reports') ? 0.9 : 0.8,
+    priority: route === '' ? 1.0 : route.startsWith('/regions') || route.startsWith('/maps') ? 0.9 : 0.8,
   }));
 
   try {

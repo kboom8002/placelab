@@ -1,0 +1,399 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-TOU-001": {
+      "targetValue": "☏864-9585",
+      "acceptableVariants": [
+        "864-9585",
+        "☏864-9585"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2500",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-12",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "☏864-9585"
+    },
+    "GUR-TOU-002": {
+      "targetValue": "부일로 917 과학관3층",
+      "acceptableVariants": [
+        "부일로 917",
+        "과학관3층",
+        "과학관 3층"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2501",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "부일로 917 과학관3층"
+    },
+    "GUR-TOU-003": {
+      "targetValue": "6925-5283",
+      "acceptableVariants": [
+        "6925-5283",
+        "69255283"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2502",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "6925-5283"
+    },
+    "GUR-TOU-004": {
+      "targetValue": "0507-1408-9110",
+      "acceptableVariants": [
+        "0507-1408-9110",
+        "050714089110"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2503",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "0507-1408-9110"
+    },
+    "GUR-TOU-005": {
+      "targetValue": "개봉동 산53-3일대",
+      "acceptableVariants": [
+        "개봉동 산53-3일대",
+        "개봉동산53-3일대",
+        "산53-3"
+      ],
+      "sourceAuthority": "구로구청 공원녹지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2791",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "개웅산근린공원 265,577.4 개봉동 산53-3일대"
+    },
+    "GUR-TOU-006": {
+      "targetValue": "항동 10-1일대 66필지",
+      "acceptableVariants": [
+        "항동 10-1일대",
+        "66필지",
+        "항동 10-1일대 66필지"
+      ],
+      "sourceAuthority": "구로구청 공원녹지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2792",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-03-11",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "위 치 : 항동 10-1일대 66필지"
+    },
+    "GUR-TOU-007": {
+      "targetValue": "서울특별시 구로구 의사당길 12(구로동 101)",
+      "acceptableVariants": [
+        "서울특별시 구로구 의사당길 12",
+        "구로동 101",
+        "의사당길 12"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2926",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-08",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "위 치 서울특별시 구로구 의사당길 12(구로동 101)"
+    },
+    "GUR-TOU-008": {
+      "targetValue": "서울시 구로구 새말로 97",
+      "acceptableVariants": [
+        "서울시 구로구 새말로 97",
+        "구로구 새말로 97",
+        "새말로 97"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2931",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "위치 서울시 구로구 새말로 97"
+    },
+    "GUR-TOU-009": {
+      "targetValue": "서울특별시 구로구 경인로 20가길 38(오류동)",
+      "acceptableVariants": [
+        "서울특별시 구로구 경인로 20가길 38",
+        "구로구 경인로 20가길 38",
+        "오류동"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2932",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-01-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "위치 : 서울특별시 구로구 경인로 20가길 38(오류동)"
+    },
+    "GUR-TOU-010": {
+      "targetValue": "1899-9912",
+      "acceptableVariants": [
+        "1899-9912",
+        "18999912"
+      ],
+      "sourceAuthority": "구로구청 체육진흥과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2943",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "문의전화 1899-9912"
+    },
+    "GUR-TOU-011": {
+      "targetValue": "총 10.5km",
+      "acceptableVariants": [
+        "10.5km",
+        "총 10.5km",
+        "10.5 km"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2955",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "총 10.5km의 코스이지만"
+    },
+    "GUR-TOU-012": {
+      "targetValue": "3만평",
+      "acceptableVariants": [
+        "3만평"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2956",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "3만평에 이르는 규모"
+    },
+    "GUR-TOU-013": {
+      "targetValue": "신도림 역사 내",
+      "acceptableVariants": [
+        "신도림 역사 내",
+        "신도림역사 내",
+        "신도림 역사"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2959",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "신도림 역사 내에 위치한"
+    },
+    "GUR-TOU-014": {
+      "targetValue": "7-8월",
+      "acceptableVariants": [
+        "7-8월",
+        "7~8월",
+        "7월~8월"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2960",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "7-8월이면 이 저수지 위에 가득한 연꽃들이 만개한다고 하니"
+    },
+    "GUR-TOU-015": {
+      "targetValue": "05:00~22:00",
+      "acceptableVariants": [
+        "05:00~22:00",
+        "05:00~22:00",
+        "22:00"
+      ],
+      "sourceAuthority": "구로구청 공원녹지과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2974",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "푸른수목원 개방시간 05:00~22:00"
+    },
+    "GUR-TOU-016": {
+      "targetValue": "구로구 구로동",
+      "acceptableVariants": [
+        "구로구 구로동",
+        "구로동"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2975",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 구로동(1단지)"
+    },
+    "GUR-TOU-017": {
+      "targetValue": "구로구 구로동로26길 58(구로동)",
+      "acceptableVariants": [
+        "구로구 구로동로26길 58",
+        "구로동로26길 58",
+        "구로동"
+      ],
+      "sourceAuthority": "구로구청 지역경제과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2979",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 구로동로26길 58(구로동)"
+    },
+    "GUR-TOU-018": {
+      "targetValue": "구로구 궁동 42-2 및 궁동 44",
+      "acceptableVariants": [
+        "궁동 42-2",
+        "궁동 44",
+        "구로구 궁동 42-2 및 궁동 44"
+      ],
+      "sourceAuthority": "구로구청 공원녹지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2980",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구로구 궁동 42-2 및 궁동 44"
+    },
+    "GUR-TOU-019": {
+      "targetValue": "총 9개 코스",
+      "acceptableVariants": [
+        "9개 코스",
+        "총 9개 코스",
+        "9개"
+      ],
+      "sourceAuthority": "구로구청 공원녹지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2981",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "산림형, 하천형, 도심형 등 총 9개 코스 28.5km"
+    },
+    "GUR-TOU-020": {
+      "targetValue": "개봉3동32-33번지 일대(대표지번)“개웅산”",
+      "acceptableVariants": [
+        "개봉3동32-33번지",
+        "개봉3동 32-33번지",
+        "개웅산"
+      ],
+      "sourceAuthority": "구로구청 공원녹지과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2982",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "개봉3동32-33번지 일대(대표지번)“개웅산”"
+    },
+    "GUR-TOU-021": {
+      "targetValue": "오전5시부터 오후10시까지",
+      "acceptableVariants": [
+        "오전5시부터 오후10시까지",
+        "오전 5시부터 오후 10시까지",
+        "5시부터 10시까지",
+        "오전5시~오후10시"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2986",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "오전5시부터 오후10시까지 개원합니다."
+    },
+    "GUR-TOU-022": {
+      "targetValue": "1번 출구",
+      "acceptableVariants": [
+        "1번 출구",
+        "1번출구",
+        "구일역 1번 출구"
+      ],
+      "sourceAuthority": "구로구청 문화관광과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2987",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-06",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구일역 1번 출구 나와서 도보"
+    }
+  }
+}

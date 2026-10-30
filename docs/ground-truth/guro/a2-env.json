@@ -1,0 +1,298 @@
+{
+  "unitId": "guro",
+  "unitName": "구로구",
+  "agency_handle": "AG-0017",
+  "upperTier": "서울특별시",
+  "asOf": "2026-10-06",
+  "entries": {
+    "GUR-ENV-001": {
+      "targetValue": "80% 할인",
+      "acceptableVariants": [
+        "80%",
+        "80 %",
+        "80퍼센트",
+        "80퍼센트 할인"
+      ],
+      "sourceAuthority": "구로구청 주차관리과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2274",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "[구로구 공영주차장 주차요금] 80% 할인"
+    },
+    "GUR-ENV-002": {
+      "targetValue": "3시간 면제",
+      "acceptableVariants": [
+        "3시간",
+        "3 시간",
+        "3시간 면제"
+      ],
+      "sourceAuthority": "구로구청 주차관리과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2274",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-02-22",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "1회 한하여 3시간 면제, 그 이상은 80%할인"
+    },
+    "GUR-ENV-003": {
+      "targetValue": "19시~24시",
+      "acceptableVariants": [
+        "19시~24시",
+        "19시~ 24시",
+        "19~24시"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2693",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "동절기 19시~24시"
+    },
+    "GUR-ENV-004": {
+      "targetValue": "20시~24시",
+      "acceptableVariants": [
+        "20시~24시",
+        "20시~ 24시",
+        "20~24시"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2693",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "하절기 20시~24시"
+    },
+    "GUR-ENV-005": {
+      "targetValue": "20:00~24:00",
+      "acceptableVariants": [
+        "20:00~24:00",
+        "20:00-24:00",
+        "20시~24시",
+        "저녁 8시~밤 12시"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2694",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-28",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "지정된 시간(20:00~24:00)에 배출"
+    },
+    "GUR-ENV-006": {
+      "targetValue": "문밖",
+      "acceptableVariants": [
+        "문밖",
+        "문 밖"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2694",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-28",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "단독주택은 지정된 생활폐기물 수거일에 문밖에 내어 놓거나"
+    },
+    "GUR-ENV-007": {
+      "targetValue": "구멍을 뚫어 내용물을 비운 후 배출",
+      "acceptableVariants": [
+        "구멍을 뚫어",
+        "내용물을 비운 후",
+        "배출"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2697",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-08",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "구멍을 뚫어 내용물을 비운 후 배출"
+    },
+    "GUR-ENV-008": {
+      "targetValue": "내용물을 비우고 물로 한번 헹군 후 압착하여 봉투에 넣거나, 한군데로 묶음",
+      "acceptableVariants": [
+        "내용물을 비우고",
+        "물로 한번 헹군 후",
+        "압착하여",
+        "봉투에 넣거나",
+        "한군데로 묶음"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2697",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-08",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "내용물을 비우고 물로 한번 헹군 후 압착하여 봉투에 넣거나, 한군데로 묶음"
+    },
+    "GUR-ENV-009": {
+      "targetValue": "490",
+      "acceptableVariants": [
+        "490",
+        "일반생활쓰레기",
+        "10ℓ"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2728",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "일반생활쓰레기 (흰색) - - 130 250 490"
+    },
+    "GUR-ENV-010": {
+      "targetValue": "2,000",
+      "acceptableVariants": [
+        "2,000",
+        "2000",
+        "20ℓ"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2728",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-08-10",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "음식물쓰레기 (황색) 100 190 300 500 1,000 2,000"
+    },
+    "GUR-ENV-011": {
+      "targetValue": "병뚜껑",
+      "acceptableVariants": [
+        "병뚜껑",
+        "뚜껑"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2729",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-03-31",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "병뚜껑을 제거후 내용물을 비우고 물로 씻음"
+    },
+    "GUR-ENV-012": {
+      "targetValue": "의류수거함",
+      "acceptableVariants": [
+        "의류수거함",
+        "수거함"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2729",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2025-03-31",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "의류수거함 배출"
+    },
+    "GUR-ENV-013": {
+      "targetValue": "1599-3900",
+      "acceptableVariants": [
+        "1599-3900",
+        "15993900",
+        "ARS 1599-3900"
+      ],
+      "sourceAuthority": "구로구청 주차관리과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2921",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "ARS : 1599-3900"
+    },
+    "GUR-ENV-014": {
+      "targetValue": "60일 이내",
+      "acceptableVariants": [
+        "60일 이내",
+        "60일",
+        "60 일 이내"
+      ],
+      "sourceAuthority": "구로구청 주차관리과",
+      "ownerRole": "upper_tier",
+      "tier": "upper",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=2921",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "과태료 부과 통지를 받은 날부터 60일 이내"
+    },
+    "GUR-ENV-015": {
+      "targetValue": "60일 이내",
+      "acceptableVariants": [
+        "60일 이내",
+        "60일",
+        "육십일 이내"
+      ],
+      "sourceAuthority": "구로구청 청소행정과",
+      "ownerRole": "agency_hq",
+      "tier": "direct",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=3766",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2024-09-05",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "과태료 납부고지서를 받은날로부터 60일 이내에"
+    },
+    "GUR-ENV-016": {
+      "targetValue": "1599-0603",
+      "acceptableVariants": [
+        "1599-0603",
+        "15990603",
+        "안심번호 모바 고객센터"
+      ],
+      "sourceAuthority": "구로구청 스마트도시과",
+      "ownerRole": "affiliate",
+      "tier": "affiliate",
+      "sourceUrl": "https://www.guro.go.kr/www/contents.do?key=4112",
+      "sourceType": "누리집",
+      "fetchedOn": "2026-10-06",
+      "asOfSource": "2026-07-07",
+      "valueNature": "measured",
+      "verification": "confirmed",
+      "evidence_quote": "안심번호 모바 고객센터 ☏ 1599-0603"
+    }
+  }
+}

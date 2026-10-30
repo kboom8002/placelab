@@ -11,6 +11,13 @@
   --navy-primary: #0f1d35;
   --navy-subtle: #1a3559;
   --gold-accent: #c9a84c;
+  /* 모두의 정답노트 「노트와 펜」 디자인 토큰 (§12) */
+  --pen: #127A4B;
+  --paper: #FAF8F5;
+  --ink: #111827;
+  --band-high: #127A4B;
+  --band-mid: #B45309;
+  --band-low: #BE123C;
 }
 
 @layer base {

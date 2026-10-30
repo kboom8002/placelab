@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>모두의 정답노트 · 수원 지역 문화 — 사전 관측 데모</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@600;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#F5F6F4;--card:#FFFFFF;--ink:#17212F;--ink2:#4B5868;--line:#DCE1E6;--soft:#ECEFF2;
+--off:#0F6E63;--wiki:#7A8BA3;--priv:#D9A25B;--news:#5263B4;--etc:#BFC6CE;--alert:#C2410C;--focus:#F2B705;
+--serif:"Noto Serif KR",Georgia,"Times New Roman",serif;--sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10151D;--card:#171E28;--ink:#E7ECF3;--ink2:#A6B1C1;--line:#2A3443;--soft:#1D2531;--off:#3FB8A6;--wiki:#8FA0BA;--priv:#E2B06E;--news:#8D9BE8;--etc:#4A5563;--alert:#F07B4A}}
+:root[data-theme="dark"]{--bg:#10151D;--card:#171E28;--ink:#E7ECF3;--ink2:#A6B1C1;--line:#2A3443;--soft:#1D2531;--off:#3FB8A6;--wiki:#8FA0BA;--priv:#E2B06E;--news:#8D9BE8;--etc:#4A5563;--alert:#F07B4A}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+a{color:var(--off)}
+button{font:inherit;cursor:pointer;color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+/* top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:14px;min-height:58px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.brand{display:flex;align-items:center;gap:8px;font-weight:700;text-decoration:none;color:var(--ink)}
+.mk{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:7px;background:var(--off);color:#fff;font-size:15px}
+.brand small{font-weight:500;color:var(--ink2);margin-left:4px}
+.sp{flex:1}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;background:var(--card)}
+.seg button{border:0;background:transparent;border-radius:999px;padding:6px 13px;font-size:.88rem;color:var(--ink2)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg);font-weight:600}
+.icon{border:1px solid var(--line);background:var(--card);border-radius:999px;width:36px;height:36px}
+.modebar{background:var(--alert);color:#fff;font-size:.9rem}
+.modebar .wrap{padding-top:8px;padding-bottom:8px}
+/* hero */
+.hero{padding:44px 0 18px}
+.kick{color:var(--ink2);font-size:.95rem;margin:0 0 10px}
+h1{font-family:var(--serif);font-weight:800;font-size:clamp(1.7rem,4.6vw,2.9rem);line-height:1.28;margin:0 0 14px;max-width:22ch;letter-spacing:-.01em}
+.lede{font-size:1.08rem;color:var(--ink2);max-width:62ch;margin:0}
+.lede b{color:var(--ink)}
+/* matrix */
+.matrix{margin:26px 0 8px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px 12px}
+.mrow{display:grid;grid-template-columns:minmax(118px,170px) 1fr minmax(64px,auto);align-items:center;gap:12px;padding:5px 6px;border-radius:10px;border:0;background:transparent;width:100%;text-align:left}
+.mrow:hover,.mrow[aria-expanded="true"]{background:var(--soft)}
+.mname{font-weight:600;font-size:.95rem}
+.cells{display:grid;grid-template-columns:repeat(10,1fr);gap:5px}
+.cell{aspect-ratio:1/1;border-radius:5px;position:relative;max-height:42px}
+.cell.o{background:var(--off)}.cell.w{background:var(--wiki)}.cell.p{background:var(--priv)}.cell.n{background:var(--news)}.cell.e{background:var(--etc)}
+.cell.void{background:transparent;border:1px dashed var(--line)}
+.cell.irr::after{content:"";position:absolute;inset:30% 30%;border-radius:50%;background:var(--card);opacity:.9}
+.cell .flag{position:absolute;top:-4px;right:-4px;width:11px;height:11px;border-radius:50%;background:var(--alert);border:2px solid var(--card)}
+.mcount{font-size:.88rem;color:var(--ink2);text-align:right;white-space:nowrap}
+.mcount b{color:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin:12px 6px 4px;font-size:.86rem;color:var(--ink2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:13px;height:13px;border-radius:3px;display:inline-block}
+.rankhead{display:grid;grid-template-columns:minmax(118px,170px) 1fr minmax(64px,auto);gap:12px;padding:0 6px 6px;font-size:.78rem;color:var(--ink2)}
+.rankhead .cells div{text-align:center}
+.detail{margin:6px 6px 12px;padding:14px 16px;border-left:3px solid var(--ink);background:var(--bg);border-radius:0 10px 10px 0}
+.detail ol{margin:6px 0 0;padding-left:22px}
+.detail li{margin:2px 0}
+.tag{display:inline-block;font-size:.76rem;font-weight:600;border-radius:6px;padding:0 7px;margin-left:6px;border:1px solid var(--line);color:var(--ink2);vertical-align:1px}
+.tag.alert{border-color:var(--alert);color:var(--alert)}
+.st{display:inline-block;font-size:.8rem;font-weight:700;border-radius:999px;padding:1px 10px;border:1.5px solid}
+.S1{color:var(--off)}.S2,.S3{color:var(--priv)}.S4{color:var(--alert)}
+:root .S2,:root .S3{color:#9A6512}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .S2,:root:not([data-theme="light"]) .S3{color:var(--priv)}}
+:root[data-theme="dark"] .S2,:root[data-theme="dark"] .S3{color:var(--priv)}
+.ghostbtn{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:7px 12px;font-size:.88rem}
+/* sections */
+section{padding:34px 0 6px}
+h2{font-family:var(--serif);font-weight:800;font-size:clamp(1.3rem,3vw,1.75rem);line-height:1.35;margin:0 0 8px}
+.sub{color:var(--ink2);margin:0 0 16px;max-width:66ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.big{font-family:var(--serif);font-weight:800;font-size:2.2rem;line-height:1.1}
+.mute{color:var(--ink2)}.small{font-size:.88rem}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--ink2);font-size:.84rem}
+.pass{color:var(--off);font-weight:700}.fail{color:var(--alert);font-weight:700}
+.lang{display:grid;grid-template-columns:minmax(90px,120px) 1fr auto;gap:12px;align-items:center;margin:8px 0}
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.steps li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;position:relative}
+.steps li b{display:block}
+.steps li.now{border-color:var(--ink);box-shadow:inset 3px 0 0 var(--ink)}
+.steps .d{font-size:.82rem;color:var(--ink2)}
+.lock{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:16px}
+.lock .i{font-size:1.2rem}
+.princ{columns:2 260px;column-gap:28px;padding-left:20px;margin:0}
+.princ li{break-inside:avoid;margin:0 0 8px}
+footer{border-top:1px solid var(--line);margin-top:40px;padding:24px 0 40px;color:var(--ink2);font-size:.88rem}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.btn{display:inline-block;border:0;border-radius:10px;padding:10px 16px;font-weight:600;background:var(--ink);color:var(--bg);text-decoration:none}
+.btn.line{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.sr{position:absolute;left:-9999px}
+@media (max-width:640px){.mrow,.rankhead{grid-template-columns:1fr;gap:6px}.mcount{text-align:left}.rankhead .lab{display:none}.cells{gap:4px}.wrap{padding:0 14px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+ <a class="brand" href="#top"><span class="mk" aria-hidden="true">✓</span>모두의 정답노트<small>지역 문화 · 수원</small></a>
+ <span class="sp"></span>
+ <div class="seg" role="group" aria-label="보기 모드"><button data-mode="pub" aria-pressed="true">공개판</button><button data-mode="inst" aria-pressed="false">기관 확인판</button></div>
+ <button class="icon" id="theme" aria-label="밝기 바꾸기">◐</button>
+</div></header>
+<div class="modebar" id="modebar" hidden><div class="wrap"><b>기관 확인판 (비공개 자료 포함)</b> — 수원시와 소관 기관 확인용 화면이에요. 확인 기간(10월 20일까지)이 지나도 페이지별 사례는 기관이 동의한 경우에만 공개해요.</div></div>
+<main id="top" class="wrap">
+ <section class="hero" aria-labelledby="h1">
+  <p class="kick">첫 대상 수원시 · 사전 관측 2026년 10월 5일 · 지역 문화 10개 항목</p>
+  <h1 id="h1">외국인이 AI에게 수원을 물으면, 근거 후보 다섯 중 하나만 공식 설명이에요</h1>
+  <p class="lede">AI는 질문을 받으면 웹을 검색해 후보 문서를 모으고, 그 가운데서 근거를 골라 답해요. 수원 대표 문화 10개를 영어로 검색해 보니 상위 결과 <b>96건</b> 가운데 정부·지자체·재단·공공기관 페이지는 <b>20건(20.8%)</b>이었어요. 한 칸이 검색 결과 하나예요.</p>
+  <div class="matrix" id="matrix" aria-describedby="mxnote"></div>
+  <p id="mxnote" class="mute small">항목을 누르면 실제 상위 결과가 순위대로 펼쳐져요. 가운데가 빈 칸은 질문과 관계없는 결과예요.<span class="inst-only" hidden> 빨간 점은 지난 회차·옛 명칭·본문 수신 실패 같은 확인 사항이 있는 공식 페이지예요.</span> <button class="ghostbtn" id="asTable">표로 보기</button></p>
+  <div id="tableAlt" hidden></div>
+ </section>
+
+ <section aria-labelledby="s-items"><h2 id="s-items">열 개 항목은 지금 어떤 상태인가요</h2><p class="sub">공식 설명이 검색 상위에 있는지, 있다면 지금 정보인지로 나눴어요.</p><div class="grid" id="status"></div></section>
+
+ <section aria-labelledby="s-lang"><h2 id="s-lang">같은 항목도 언어가 바뀌면 달라져요</h2><p class="sub">방화수류정을 영어와 한국어로 같은 방식으로 찾아봤어요. 공식 설명은 이미 있는데, 외국어 검색 후보에 오르지 못하는 것이 수원의 가장 큰 과제로 보여요.</p><div class="panel" id="lang"></div></section>
+
+ <section aria-labelledby="s-body"><h2 id="s-body">공식 페이지의 본문은 기계에 넘어오나요</h2><p class="sub">검색에 올라도 본문이 넘어오지 않으면 AI는 그 페이지를 근거로 쓰기 어려워요. 공식 페이지 6곳에 본문을 요청해 봤어요.</p><div id="body"></div></section>
+
+ <section aria-labelledby="s-fix"><h2 id="s-fix">무엇을 고치면 되나요</h2><p class="sub" id="fixsub"></p><div id="fix"></div></section>
+
+ <section aria-labelledby="s-how"><h2 id="s-how">어떻게 쟀나요</h2>
+  <div class="grid">
+   <div class="panel"><b>무엇을 봤나</b><p class="small mute" style="margin:6px 0 0">AI 서비스의 실제 답이 아니라, AI가 답을 만들 때 거치는 “검색하는 길”을 봤어요. 영문 질의 10개(항목당 1개)와 국문 비교 질의 1개의 상위 결과 출처를 분류하고, 공식 페이지 6곳의 본문 전달을 확인했어요.</p></div>
+   <div class="panel"><b>얼마나 믿을 수 있나</b><p class="small mute" style="margin:6px 0 0">2026년 10월 5일 한 번 본 탐색적 관측이에요. 검색 결과는 지역·시점·도구에 따라 달라져서 일반화하지 않아요. 1차 측정(10월 27일–11월 7일)에서 AI 서비스 3곳에 직접 묻고 두 번씩 반복해 확인해요.</p></div>
+   <div class="panel"><b>출처는 어떻게 나눴나</b><p class="small mute" style="margin:6px 0 0">공식 기관(정부·지자체·재단·공공기관 누리집), 위키·백과, 블로그·여행·예약·리뷰, 언론, 국제기구·학술·기타의 다섯 가지예요.</p></div>
+  </div>
+  <h3 style="margin:22px 0 8px">지키는 원칙</h3>
+  <ol class="princ small"><li><b>순위를 만들지 않아요.</b> 지역·기관·AI 회사별 순위나 점수가 없어요.</li><li><b>기관에 먼저 알려요.</b> 기관을 특정할 수 있는 결과는 비공개로 통지하고 14일 확인 기간을 둬요.</li><li><b>방법을 먼저 공개해요.</b></li><li><b>기관을 탓하지 않아요.</b> 아무도 재지 않았던 영역이에요.</li><li><b>범위를 지켜요.</b> 정부 입장 영역, 재난·안전 정보, 개별 업소는 재지 않아요.</li><li><b>원문을 보존해요.</b> 질의와 결과를 기록으로 남겨요.</li></ol>
+  <div class="panel small" style="margin-top:14px;border-left:4px solid var(--news)"><b>이해관계 공시</b> — 이 관측은 민간 공익 측정(탐색적)이며 「K-컬처 AI 정본 정비 시범사업」의 공식 측정이 아니에요. 운영사 ㈜디지털미디어네트워크는 향후 공개경쟁 측정 용역에 참여할 수 있고, 측정과 정비를 나누는 원칙에 따라 선정 지역의 문서 정비 사업에는 참여하지 않아요.</div>
+ </section>
+
+ <section aria-labelledby="s-next"><h2 id="s-next">다음 단계</h2><ol class="steps" id="steps"></ol>
+  <div class="cta"><a class="btn" href="https://claude.ai/artifact/76myHKVLo6D1xmcFhH4keW#/culture/report" target="_blank" rel="noopener">AI 답 신고하기</a><a class="btn line" href="https://claude.ai/artifact/76myHKVLo6D1xmcFhH4keW#/culture" target="_blank" rel="noopener">전국 지역 문화 트랙 보기</a></div>
+ </section>
+</main>
+<footer><div class="wrap">모두의 정답노트 · 지역 문화 트랙 데모 · 사전 관측 2026-10-05 (1회·탐색적) · 검색 결과의 사이트 이름은 관측 기록이며 해당 사이트에 대한 평가가 아니에요.</div></footer>
+
+<script>
+(function(){'use strict';
+const $=s=>document.querySelector(s),esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+const CAT={o:['공식 기관','var(--off)'],w:['위키·백과','var(--wiki)'],p:['블로그·여행·예약','var(--priv)'],n:['언론','var(--news)'],e:['국제기구·학술·기타','var(--etc)']};
+const ST={S1:['공식 상위·현행','공식 설명이 상위에 있고 지금 정보예요'],S2:['공식 있으나 지난 정보','공식 페이지가 지난 회차·옛 명칭 위주예요'],S3:['공식 소수','상위 결과에 공식 설명이 2건 이하예요'],S4:['공식 0건','상위 결과에 공식 설명이 없어요']};
+/* [site, cat, irrelevant?, flag(기관판)] */
+const D=[
+{n:'수원 화성',q:'what is Hwaseong Fortress Suwon',st:'S4',r:[['simple.wikipedia.org','w'],['everything-everywhere.com','p'],['artsandculture.google.com','e',0,'',"수원시 제공 스토리"],['en.wikipedia.org','w'],['newworldencyclopedia.org','w'],['stay.enko.kr','p'],['whc.unesco.org','e',0,'','국제기구'],['tripadvisor.com','p'],['theseoulguide.com','p'],['ourbigjourney.com','p']],note:'재단 영문 소개 페이지는 본문이 정상 전달되지만 상위 10건에 없어요.'},
+{n:'화성행궁',q:'what is Hwaseong Haenggung Palace Suwon',st:'S4',r:[['viator.com','p'],['tripadvisor.com.sg','p'],['timetravelturtle.com','p'],['en.wikipedia.org','w'],['klook.com','p'],['world.nol.com','p'],['polyglotpetra.com','p'],['comeonkorea.com','p'],['splaces.home.blog','p'],['visitacity.com','p']],note:'예약·리뷰 사이트와 블로그가 상위를 채웠어요. 민간 페이지끼리 규모가 567·576·600칸으로 갈려요.'},
+{n:'수원화성문화제',q:'Suwon Hwaseong Cultural Festival history',st:'S1',r:[['korea.net','o',0,'본문 수신 실패(주소 이동 반복, 2회) · 2025년 회차'],['korea.stripes.com','n'],['asiae.co.kr','n'],['korean-culture.org','o',0,'','해외문화홍보 웹진'],['seoulstart.com','p'],['en.shfestival.com','o',0,'영문 연혁에 국문 단락 혼재','축제 공식 · 연혁'],['en.shfestival.com','o',0,'','축제 공식 · 소개'],['english.visitkorea.or.kr','o',0,'2025년 가을 안내'],['travelandtourworld.com','n']],note:'공식 설명이 상위에 잘 올라 있어요. 1위 페이지의 본문을 기계가 받지 못한 점이 남은 과제예요.'},
+{n:'정조대왕 능행차',q:'King Jeongjo royal procession reenactment Suwon',st:'S2',r:[['en.nocutnews.co.kr','n'],['ggc.ggcf.kr','o',0,'','경기문화재단'],['english.seoul.go.kr','o',0,'2019년 회차 안내'],['suwonilbo.kr','n'],['thetravelnews.co.kr','n'],['geumcheon.go.kr','o',0,'','금천구'],['hapskorea.com','n'],['english.visitkorea.or.kr','o'],['english.visitseoul.net','o',0,'2022년 회차 안내'],['english.visitseoul.net','o',0,'2023년 회차 안내']],note:'공식 6건 중 다수가 지난 회차 안내예요. 수원 기관 자체 페이지는 상위에 없어요.'},
+{n:'수원 왕갈비',q:'Suwon galbi history origin',st:'S3',r:[['sites.google.com','p'],['korean-culture.org','o',0,'','해외문화홍보 웹진'],['juleeho.com','p'],['gyeonggido-korea.com','e'],['seoulwindow.com','p'],['english.visitkorea.or.kr','o'],['en.wikipedia.org','w',1,'','다른 음식(떡갈비)'],['culture.koreannow.net','p'],['suwonfood.wordpress.com','p']],note:'민간 문서끼리 양념(간장/소금)과 기원(조선 시대/1945년)이 엇갈려요.'},
+{n:'수원 문화유산 야행',q:'Suwon Cultural Heritage Night festival',st:'S1',r:[['swcf.or.kr','o',0,'메뉴는 옛 명칭, 본문은 새 명칭','수원문화재단 · 2026 현행'],['thetravelnews.co.kr','n'],['trazy.com','p'],['tripadvisor.com','p'],['koreatraveleasy.com','p'],['seoulstart.com','p'],['yourkorea.life','p'],['english.visitkorea.or.kr','o',0,'2022년 일정 · 옛 명칭'],['expedia.com.my','p']],note:'재단 영문 페이지가 1위이고 지금 정보예요.'},
+{n:'무예24기 시범공연',q:'Muye 24 Gi martial arts performance Hwaseong Haenggung',st:'S2',r:[['korea.net','o',0,'','2023년 사진 기사'],['suwontrip.blogspot.com','o',0,'2015년 “일시 중단” 공지','재단 블로그'],['koreatriptips.com','p'],['ktriptips.com','p'],['uncledeng.com','p'],['en.trippose.com','p'],['english.visitkorea.or.kr','o',0,'2018–2019년 기간 정보'],['uncledeng.com','p'],['myseouls.com','p'],['hippiekoreacommunity.wordpress.com','p']],note:'공식 3건이 모두 지난 정보예요. 지금 공연 시간 공식 안내는 상위에 없어요.'},
+{n:'방화수류정',q:'Banghwasuryujeong Pavilion Suwon history',st:'S3',r:[['mindtrip.ai','p'],['english.khs.go.kr','o',0,'옛 기관명 · 접속 식별자 붙은 긴 주소','국가유산청'],['klook.com','p'],['rexby.com','p'],['koreatriptips.com','p'],['excursionmania.com','p'],['en.wikipedia.org','w',1,'','다른 정자(향원정)'],['ktriptips.com','p'],['world.nol.com','p'],['english.visitkorea.or.kr','o',0,'메타 설명 없음']],note:'영어로는 공식 2/10, 한국어로는 공식 6/9예요.'},
+{n:'화성성역의궤',q:'Hwaseong Seongyeok Uigwe what is',st:'S4',r:[['wikidata.org','w'],['en.wikipedia.org','w'],['commons.wikimedia.org','w',0,'','“보물”을 “national treasure”로 옮김'],['en.wikipedia.org','w'],['khss.or.kr','e',0,'','학회 논문'],['ijkaa.org','e',0,'','학술지'],['en.wikipedia.org','w',1,'','다른 인물'],['en.wikipedia.org','w'],['mykoreanscribbles.com','p']],note:'위키 계열과 학술 문서만 상위에 있어요. 영문 공식 설명을 찾지 못했어요.'},
+{n:'수원화성박물관',q:'Suwon Hwaseong Museum exhibition about',st:'S4',r:[['kupi.com','p'],['expedia.com','p'],['mindtrip.ai','p'],['gyeonggido-korea.com','e',0,'','다른 박물관 소개'],['trip.com','p',0,'','전화번호 ①'],['sg.trip.com','p',0,'','전화번호 ②'],['ontrip.kr','p',0,'','정자 위치·등급 오기'],['excursionmania.com','p',0,'','월요일 휴관'],['airial.travel','p'],['expedia.com/es','p']],note:'예약·집계 사이트만 상위에 있고, 민간 페이지끼리 전화번호와 휴관일이 엇갈려요.'}];
+const KO={n:'방화수류정',q:'방화수류정 동북각루 보물 설명',r:[['memory.library.kr','o',0,'','공공 기록'],['heritage.go.kr','o',0,'접속 식별자 붙은 주소','국가유산포털'],['khs.go.kr','o',0,'','국가유산청 보도자료'],['swcf.or.kr','o',0,'','수원문화재단'],['vegannews.co.kr','n'],['heritage.go.kr','o',0,'','국가유산포털'],['namu.wiki','w'],['en.wikipedia.org','w',1,'','다른 유물'],['korean.visitkorea.or.kr','o',0,'','한국관광공사 국문']]};
+const BODY=[['수원문화재단 영문 — 수원화성 소개','pass','둘레·축성 연도 등 본문 전체 전달. 옛 지정번호·옛 로마자 표기','재단 영문 페이지'],['수원문화재단 영문 — 문화유산 야행','pass','2026 현행 일정. 메뉴는 옛 명칭','재단 영문 페이지'],['수원화성문화제 공식 영문 — 연혁','pass','국문 단락 혼재, 사이트 빌더 기본 문구 잔존','축제 공식 영문 페이지'],['수원시 국문 — 화성행궁','pass','같은 페이지 안 576칸/567칸 상충','지자체 국문 페이지'],['한국관광공사 영문 — 방화수류정','pass','본문 전달, 메타 설명 비어 있음','관광 안내 영문 페이지'],['정부 포털 영문 — 수원화성문화제','fail','주소 이동 반복(2회 동일)','정부 포털 영문 페이지']];
+const FIX=[['수원시','화성행궁 — 국문 소개','같은 페이지 안 “576칸”과 “567칸”','정본 값 하나로 통일, 근거 문헌·확인일 표기'],['수원시','수원화성박물관 — 영문 안내','영문 상위에 공식 페이지 없음, 민간끼리 전화번호·휴관일 상충','영문 공식 안내(운영 시간·휴관일·연락처) 정비'],['수원문화재단','수원화성 — 영문 소개','본문 정상 전달이지만 영문 상위 10건 밖, 옛 지정번호·로마자','현행 표기로 갱신, 고정 주소·공식 식별자 연결'],['수원문화재단','문화유산 야행 — 영문','메뉴 옛 명칭, 본문 새 명칭','메뉴·제목 명칭 통일'],['수원문화재단','무예24기 — 영문 안내','2015년 “일시 중단” 블로그 글이 상위, 현행 안내 없음','현행 영문 안내, 옛 글에 “지난 공지” 표시'],['축제 공식 누리집','수원화성문화제 — 영문 연혁','국문 단락 혼재, 기본 문구 잔존','영문 단락 보강, 기본 문구 삭제'],['국가유산청','방화수류정 — 영문·국문 유산 페이지','옛 기관명, 접속 식별자 붙은 주소','현행 기관명, 고정 주소'],['국가유산청','화성성역의궤 — 영문 설명','영문 상위에 공식 설명 없음','영문 공식 설명 고정 주소, 위키데이터 식별자 연결 검토'],['한국관광공사','방화수류정·야행·무예24기 — 영문','메타 설명 없음, 2022·2018–19년 정보','요약 문구 추가, 현행 정보 갱신 또는 “지난 행사” 표시'],['해외문화홍보원','수원화성문화제 — 정부 포털 영문','검색 1위지만 본문 수신 실패, 2025년 회차','주소 이동 반복 점검, 2026년 일정 갱신']];
+const STEPS=[['10월 5일','사전 관측','10개 항목 · 영문 96건 분류',1],['10월 6일','기관에 먼저 알림','수원시·소관 기관 비공개 통지',2],['10월 20일','확인 기한 · 트랙 공개','집계만 공개, 사례는 동의 시',0],['10월 27일–11월 7일','1차 측정','AI 서비스 3곳 · 2회 반복',0],['이후','고친 항목 다시 재기','고친 것과 안 고친 것 비교',0]];
+let MODE='pub',OPEN=-1;
+const inst=()=>MODE==='inst';
+const tot=k=>D.reduce((a,x)=>a+x.r.filter(c=>c[1]===k).length,0),ALL=D.reduce((a,x)=>a+x.r.length,0);
+const cellH=(c,i)=>{const fl=inst()&&c[3];return `<div class="cell ${c[1]}${c[2]?' irr':''}" role="img" aria-label="${i+1}위 ${esc(c[0])} — ${CAT[c[1]][0]}${c[2]?', 질문과 관계없는 결과':''}${fl?', 확인 사항: '+esc(c[3]):''}" title="${i+1}위 · ${esc(c[0])} · ${CAT[c[1]][0]}${c[4]?' · '+esc(c[4]):''}${fl?' · '+esc(c[3]):''}">${fl?'<span class="flag" aria-hidden="true"></span>':''}</div>`};
+const rowCells=r=>{let h=r.map(cellH).join('');for(let i=r.length;i<10;i++)h+='<div class="cell void" aria-hidden="true"></div>';return `<div class="cells">${h}</div>`};
+const detail=(x)=>`<div class="detail"><div class="small mute">질의: “${esc(x.q)}” · 상위 ${x.r.length}건</div><ol class="small">${x.r.map(c=>`<li><b>${esc(c[0])}</b> <span class="tag">${CAT[c[1]][0]}</span>${c[4]?`<span class="tag">${esc(c[4])}</span>`:''}${c[2]?'<span class="tag">질문과 관계없음</span>':''}${inst()&&c[3]?`<span class="tag alert">${esc(c[3])}</span>`:''}</li>`).join('')}</ol>${inst()?`<p class="small" style="margin:10px 0 0"><b>확인한 것</b> — ${esc(x.note)}</p>`:`<p class="small mute" style="margin:10px 0 0">페이지별 확인 사항은 수원시·소관 기관 확인 뒤 공개해요.</p>`}</div>`;
+function renderMatrix(){let h=`<div class="rankhead" aria-hidden="true"><span class="lab">항목</span><div class="cells">${[...Array(10)].map((_,i)=>`<div>${i+1}</div>`).join('')}</div><span class="lab" style="text-align:right">공식</span></div>`;
+ D.forEach((x,i)=>{const off=x.r.filter(c=>c[1]==='o').length;h+=`<button class="mrow" data-row="${i}" aria-expanded="${OPEN===i}" aria-label="${esc(x.n)} — 상위 ${x.r.length}건 중 공식 ${off}건. 눌러서 결과 보기"><span class="mname">${esc(x.n)}</span>${rowCells(x.r)}<span class="mcount"><b>${off}</b> / ${x.r.length}</span></button>${OPEN===i?detail(x):''}`});
+ h+=`<div class="legend">${Object.keys(CAT).map(k=>`<span><i class="sw" style="background:${CAT[k][1]}"></i>${CAT[k][0]} ${tot(k)}</span>`).join('')}<span>합계 ${ALL}</span></div>`;
+ $('#matrix').innerHTML=h}
+function renderTable(){$('#tableAlt').innerHTML=`<div class="panel tw" style="margin-top:10px"><table><thead><tr><th>항목</th><th>공식</th><th>위키</th><th>민간</th><th>언론</th><th>기타</th><th>합계</th></tr></thead><tbody>${D.map(x=>`<tr><td>${esc(x.n)}</td>${['o','w','p','n','e'].map(k=>`<td>${x.r.filter(c=>c[1]===k).length}</td>`).join('')}<td>${x.r.length}</td></tr>`).join('')}<tr><th>합계</th>${['o','w','p','n','e'].map(k=>`<th>${tot(k)}</th>`).join('')}<th>${ALL}</th></tr></tbody></table></div>`}
+function renderStatus(){$('#status').innerHTML=Object.keys(ST).map(k=>{const its=D.filter(x=>x.st===k);return `<div class="panel"><span class="st ${k}">${ST[k][0]}</span><div class="big" style="margin:10px 0 2px">${its.length}개</div><p class="small mute" style="margin:0 0 8px">${ST[k][1]}</p><p class="small" style="margin:0">${its.map(x=>esc(x.n)).join(' · ')}</p></div>`}).join('')}
+function renderLang(){const en=D[7],e=en.r.filter(c=>c[1]==='o').length,k=KO.r.filter(c=>c[1]==='o').length;
+ $('#lang').innerHTML=`<div class="lang"><b>영어</b>${rowCells(en.r)}<span class="mcount"><b>${e}</b> / ${en.r.length}</span></div><div class="lang"><b>한국어</b>${rowCells(KO.r)}<span class="mcount"><b>${k}</b> / ${KO.r.length}</span></div><p class="small mute" style="margin:10px 0 0">한국어 상위에는 국가유산포털·국가유산청·수원문화재단·한국관광공사 국문 페이지가 올라 있어요. 영어 상위는 여행 예약·집계 사이트가 채웠어요.</p>`}
+function renderBody(){const ok=BODY.filter(b=>b[1]==='pass').length;
+ $('#body').innerHTML=`<div class="grid" style="margin-bottom:12px"><div class="panel"><div class="mute small">정상 전달</div><div class="big">${ok}곳</div></div><div class="panel"><div class="mute small">수신 실패</div><div class="big" style="color:var(--alert)">${BODY.length-ok}곳</div><div class="small mute">주소 이동 반복, 2회 동일</div></div><div class="panel"><div class="mute small">뜻</div><p class="small" style="margin:6px 0 0">대부분 본문은 읽혀요. 문제는 <b>검색 후보에 오르는 것</b>이에요.</p></div></div>
+ <div class="panel tw"><table><thead><tr><th>페이지</th><th>결과</th><th>${inst()?'확인한 것':'메모'}</th></tr></thead><tbody>${BODY.map(b=>`<tr><td>${esc(inst()?b[0]:b[3])}</td><td class="${b[1]}">${b[1]==='pass'?'정상 전달':'수신 실패'}</td><td class="small">${inst()?esc(b[2]):(b[1]==='pass'?'본문 전달 확인':'주소 이동 반복')}</td></tr>`).join('')}</tbody></table></div>`}
+function renderFix(){if(!inst()){$('#fixsub').textContent='공개판에서는 과제 유형만 보여 드려요. 기관별 고칠 목록은 소관 기관에 먼저 전달했어요.';
+  $('#fix').innerHTML=`<div class="grid"><div class="panel"><b>외국어 검색 후보에 공식 설명 올리기</b><p class="small mute" style="margin:6px 0 0">공식 0건·소수 항목 6개. 이미 있는 공식 설명을 기계가 찾을 수 있는 자리에 둬요 — 고정 주소, 요약 문구, 공식 식별자.</p></div><div class="panel"><b>지난 정보 정리</b><p class="small mute" style="margin:6px 0 0">지난 회차·옛 명칭 안내가 상위에 남은 항목 2개. 현행 안내로 갱신하거나 “지난 행사”로 표시해요.</p></div><div class="panel"><b>한 값으로 맞추기</b><p class="small mute" style="margin:6px 0 0">출처끼리 사실이 엇갈린 사례 3건(규모, 조리법·기원, 휴관일·연락처). 공식 정본 값 하나와 근거를 밝혀요.</p></div><div class="panel"><b>번역 표기 바로잡기</b><p class="small mute" style="margin:6px 0 0">지정 등급 오역 1건. 공식 영문 명칭을 정해 연결해요.</p></div></div>
+  <div class="lock" style="margin-top:12px"><span class="i" aria-hidden="true">🔒</span><div class="small"><b>기관별 고칠 목록 ${FIX.length}건은 비공개예요.</b><br>수원시·수원문화재단·축제 공식 누리집·국가유산청·한국관광공사·해외문화홍보원에 각각 먼저 알렸어요. 위의 <b>기관 확인판</b>에서 미리 볼 수 있어요 (데모).</div></div>`;return}
+ $('#fixsub').textContent='소관 기관별 확인한 것과 고칠 목록 후보예요. 내용을 바꾸자는 것이 아니라, 이미 있는 공식 설명이 기계에도 정확히 읽히게 하자는 제안이에요.';
+ $('#fix').innerHTML=`<div class="panel tw"><table><thead><tr><th>소관</th><th>항목·페이지</th><th>확인한 것</th><th>고칠 목록 후보</th></tr></thead><tbody>${FIX.map(f=>`<tr><td><b>${esc(f[0])}</b></td><td>${esc(f[1])}</td><td class="small">${esc(f[2])}</td><td class="small">${esc(f[3])}</td></tr>`).join('')}</tbody></table></div><p class="small mute">확인 기간 14일(10월 20일까지) · 회신: 확인함 / 고칠 목록에 반영 / 이견 · 사례 공개는 기관 동의 시에만.</p>`}
+function renderSteps(){$('#steps').innerHTML=STEPS.map(s=>`<li class="${s[3]===2?'now':''}" ${s[3]===2?'aria-current="step"':''}><span class="d">${s[0]}${s[3]===1?' · 완료':s[3]===2?' · 진행 중':''}</span><b>${s[1]}</b><span class="small mute">${s[2]}</span></li>`).join('')}
+function all(){renderMatrix();renderStatus();renderLang();renderBody();renderFix();renderSteps();if(!$('#tableAlt').hidden)renderTable();
+ document.querySelectorAll('.inst-only').forEach(e=>e.hidden=!inst());$('#modebar').hidden=!inst();
+ document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===MODE)))}
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+ if(b.dataset.mode){MODE=b.dataset.mode;all();return}
+ if(b.dataset.row!=null){const i=+b.dataset.row;OPEN=OPEN===i?-1:i;renderMatrix();const r=document.querySelector(`[data-row="${i}"]`);if(r)r.focus();return}
+ if(b.id==='asTable'){const t=$('#tableAlt');t.hidden=!t.hidden;b.textContent=t.hidden?'표로 보기':'표 닫기';if(!t.hidden)renderTable();return}
+ if(b.id==='theme'){const r=document.documentElement;const cur=r.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');r.dataset.theme=cur==='dark'?'light':'dark';try{localStorage.setItem('jdn-sw-theme',r.dataset.theme)}catch(_){}}});
+try{const t=localStorage.getItem('jdn-sw-theme');if(t)document.documentElement.dataset.theme=t}catch(_){}
+all();
+})();
+</script>
+</body>
+</html>
